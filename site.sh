@@ -16,7 +16,7 @@ function build() {
 
         # link back to index
         echo '' >> "../$BNAME.html"
-        echo '<a href="index.html">../index.md</a>' >> "../$BNAME.html"
+        echo '<a href="index.html">./index.md</a>' >> "../$BNAME.html"
 
         # close html
         echo '</body></html>' >> "../$BNAME.html"

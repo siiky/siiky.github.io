@@ -2,7 +2,7 @@
 
 `SLPOD` is a podcatcher design idea, supposed to be simple, fast and easy to use.
 
-<h2>## Simple design:</h2>
+<h2>## Simple design</h2>
 
  * "Database" file in plain-text so it can be easily read/written
  * Download to predefined local directory(ies)
@@ -12,7 +12,7 @@
      * Played
      * Sync
 
-<h2>## Simple usage:</h2>
+<h2>## Simple usage</h2>
 
  * Add download links to database
  * Download files to local directory(ies)
