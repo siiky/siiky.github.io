@@ -6,12 +6,23 @@ function build() {
     for F in *.md; do
         BNAME=$(basename $F .md)
         echo -e "src/$F\t->\t$BNAME.html"
+
+        # header, title, style
         echo '<html><head><link rel="stylesheet" type="text/css" href="monokai.css"><meta charset="UTF-8"/>' > "../$BNAME.html"
-        echo "<title>$F</title></head><body>" >> "../$BNAME.html"
+        echo "<title>./$F</title></head><body>" >> "../$BNAME.html"
+
+        # content
         cat "$F" >> "../$BNAME.html"
+
+        # link back to index
+        echo '' >> "../$BNAME.html"
+        echo '<a href="index.html">../index.md</a>' >> "../$BNAME.html"
+
+        # close html
         echo '</body></html>' >> "../$BNAME.html"
     done
     cd ..
+    [ -f index.html ] && ex index.html -c 'g/<a href="index.html"/d' +x
 }
 
 function clean() {

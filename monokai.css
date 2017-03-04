@@ -16,6 +16,16 @@ body
     white-space:pre;
 }
 
+h2 {
+    color:#A6E22E;
+    font-size:17px;
+}
+
+h1 {
+    color:#A6E22E;
+    font-size:19px;
+}
+
 a:link,
 a:visited,
 a:active,
