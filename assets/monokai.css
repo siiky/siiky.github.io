@@ -16,21 +16,20 @@ body
     white-space:pre;
 }
 
-h2 {
+h1,h2 {
     color:#A6E22E;
+    text-decoration:bold;
+}
+
+h2 {
     font-size:17px;
 }
 
 h1 {
-    color:#A6E22E;
     font-size:19px;
 }
 
-a:link,
-a:visited,
-a:active,
-a:hover
-{
+a {
     color:#66D9EF;
     text-decoration:none
 }
@@ -42,6 +41,7 @@ a:visited
 
 a:hover
 {
-    color:#F92672;
+    background-color:#66D9EF;
+    color:#101010;
     text-decoration:underline
 }

@@ -1,5 +1,3 @@
-<html><head><link rel="stylesheet" type="text/css" href="assets/monokai.css"><meta charset="UTF-8"/>
-<title>./slpod.md</title></head><body>
 <h1># SLPOD (Suckless Podcatcher)</h1>
 
 `SLPOD` is a podcatcher design idea, supposed to be simple, fast and easy to use.
@@ -35,8 +33,3 @@
  [1]: `Downloaded`: whether or not the file is marked as downloaded
  [2]: `Played`: whether or not the file is marked as played
  [3]: `Action(s)`: the action taken in this situation
-
-<a href="index.html">./index.md</a>
-
-</body><footer>places:
-<a href="https://github.com/siiky">github.com</a>	test	this	shit</footer></html>
