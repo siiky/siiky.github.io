@@ -1,8 +1,8 @@
-<h1># SLPOD (Suckless Podcatcher)</h1>
+# SLPOD (Suckless Podcatcher)
 
 `SLPOD` is a podcatcher design idea, supposed to be simple, fast and easy to use.
 
-<h2>## Simple design</h2>
+## Simple design
 
  * "Database" file in plain-text so it can be easily read/written
  * Download to predefined local directory(ies)
@@ -12,24 +12,24 @@
      * Played
      * Sync
 
-<h2>## Simple usage</h2>
+## Simple usage
 
  * Add download links to database
  * Download files to local directory(ies)
  * Sync local and remote directories
 
- | Present[0] | Downloaded[1] | Played[2] | Action(s)[3]                                   |
- | ---------- | ------------- | --------- | ---------------------------------------------- |
- | `no`       | `no`          | `no`      | Download file, mark DL                         |
- | `no`       | `no`          | `yes`     | Nothing happens                                |
- | `no`       | `yes`         | `no`      | Download file,                                 |
- | `no`       | `yes`         | `yes`     | Nothing happens                                |
- | `yes`      | `no`          | `no`      | Mark DL                                        |
- | `yes`      | `no`          | `yes`     | Delete file, mark DL                           |
- | `yes`      | `yes`         | `no`      | Nothing happens                                |
- | `yes`      | `yes`         | `yes`     | File is deleted from all connected directories |
+| Present[0] | Downloaded[1] | Played[2] | Action(s)[3]                                   |
+| ---------- | ------------- | --------- | ---------------------------------------------- |
+| `no`       | `no`          | `no`      | Download file, mark DL                         |
+| `no`       | `no`          | `yes`     | Nothing happens                                |
+| `no`       | `yes`         | `no`      | Download file,                                 |
+| `no`       | `yes`         | `yes`     | Nothing happens                                |
+| `yes`      | `no`          | `no`      | Mark DL                                        |
+| `yes`      | `no`          | `yes`     | Delete file, mark DL                           |
+| `yes`      | `yes`         | `no`      | Nothing happens                                |
+| `yes`      | `yes`         | `yes`     | File is deleted from all connected directories |
 
- [0]: `Present`: whether or not the file is present on the local directory
- [1]: `Downloaded`: whether or not the file is marked as downloaded
- [2]: `Played`: whether or not the file is marked as played
- [3]: `Action(s)`: the action taken in this situation
+ 0. `Present`: whether or not the file is present on the local directory
+ 1. `Downloaded`: whether or not the file is marked as downloaded
+ 2. `Played`: whether or not the file is marked as played
+ 3. `Action(s)`: the action taken in this situation

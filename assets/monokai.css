@@ -6,8 +6,7 @@
  * green: #A6E22E
  * orange: #FD971F
  */
-body
-{
+body {
     background-color:#101010;
     color:#FD971F;
     font-family:monospace;
@@ -16,31 +15,28 @@ body
     white-space:pre;
 }
 
-h1,h2 {
+h1,h2,h3,h4,h5,h6 {
     color:#A6E22E;
     text-decoration:bold;
 }
 
-h2 {
-    font-size:17px;
-}
-
-h1 {
-    font-size:19px;
-}
+h1 { font-size:19px; }
+h2 { font-size:17px; }
+h3 { font-size:15px; }
+h4 { font-size:13px; }
+h5 { font-size:11px; }
+h6 { font-size:9px; }
 
 a {
     color:#66D9EF;
     text-decoration:none
 }
 
-a:visited
-{
+a:visited {
     color:#A6E22E
 }
 
-a:hover
-{
+a:hover {
     background-color:#66D9EF;
     color:#101010;
     text-decoration:underline

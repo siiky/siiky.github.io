@@ -1,0 +1,88 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:17px; }
+h3 { font-size:15px; }
+h4 { font-size:13px; }
+h5 { font-size:11px; }
+h6 { font-size:9px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>words/slpod.md</title></head>
+<body>
+<h1># SLPOD (Suckless Podcatcher)
+</h1><code>`SLPOD`</code> is a podcatcher design idea, supposed to be simple, fast and easy to use.
+
+<h2>## Simple design
+</h2>
+<ul>
+<li>&quot;Database&quot; file in plain-text so it can be easily read/written</li>
+<li>Download to predefined local directory(ies)</li>
+<li>Sync downloaded files to remote directory (e.g. DAP, phone, tablet)</li>
+<li>Fields associated with each file to represent statuses, such as:
+<ul>
+<li>Downloaded</li>
+<li>Played</li>
+<li>Sync</li></ul></li></ul>
+<h2>## Simple usage
+</h2>
+<ul>
+<li>Add download links to database</li>
+<li>Download files to local directory(ies)</li>
+<li>Sync local and remote directories</li></ul>| Present[0] | Downloaded[1] | Played[2] | Action(s)[3]                                   |
+| ---------- | ------------- | --------- | ---------------------------------------------- |
+| <code>`no`</code>       | <code>`no`</code>          | <code>`no`</code>      | Download file, mark DL                         |
+| <code>`no`</code>       | <code>`no`</code>          | <code>`yes`</code>     | Nothing happens                                |
+| <code>`no`</code>       | <code>`yes`</code>         | <code>`no`</code>      | Download file,                                 |
+| <code>`no`</code>       | <code>`yes`</code>         | <code>`yes`</code>     | Nothing happens                                |
+| <code>`yes`</code>      | <code>`no`</code>          | <code>`no`</code>      | Mark DL                                        |
+| <code>`yes`</code>      | <code>`no`</code>          | <code>`yes`</code>     | Delete file, mark DL                           |
+| <code>`yes`</code>      | <code>`yes`</code>         | <code>`no`</code>      | Nothing happens                                |
+| <code>`yes`</code>      | <code>`yes`</code>         | <code>`yes`</code>     | File is deleted from all connected directories |
+
+<ol>
+<li><code>`Present`</code>: whether or not the file is present on the local directory</li>
+<li><code>`Downloaded`</code>: whether or not the file is marked as downloaded</li>
+<li><code>`Played`</code>: whether or not the file is marked as played</li>
+<li><code>`Action(s)`</code>: the action taken in this situation</li></ol></body>
+<footer>
+places:
+<a href="https://github.com/siiky">github.com</a>	test	this	shit</footer></html>

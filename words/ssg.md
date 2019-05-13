@@ -1,4 +1,4 @@
-<h1># Static Site Generator</h1>
+# Static Site Generator
 
 Simple set and forget static site generator
 
@@ -49,17 +49,17 @@ to:
 From:
 
 ```markdown
-\`\`\`some_lang_here
+```some\_lang\_here
     some code here
-\`\`\`
+```
 ```
 
 to:
 
 ```html
-\`\`\`some_lang_here<CODE>
+```some\_lang\_here<CODE>
     some code here
-</CODE>\`\`\`
+</CODE>```
 ```
 
 #### Inline
@@ -67,13 +67,13 @@ to:
 From:
 
 ```markdown
-\`some code here\`
+`some code here`
 ```
 
 to:
 
 ```html
-\`<CODE>some code here</CODE>\`
+`<CODE>some code here</CODE>`
 ```
 
 ### URLs
@@ -170,4 +170,8 @@ Inside `index.html`:
 └── words
    ├── <A href="slpod.md">slpod.md</A>
    └── <A href="ssg.md">ssg.md</A>
+```
+
+```scheme
+(print "Hello, World!")
 ```

@@ -1,0 +1,219 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:17px; }
+h3 { font-size:15px; }
+h4 { font-size:13px; }
+h5 { font-size:11px; }
+h6 { font-size:9px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>words/ssg.md</title></head>
+<body>
+<h1># Static Site Generator
+</h1>Simple set and forget static site generator
+
+<ul>
+<li>Markdown -> HTML (keep overall look of markdown)</li>
+<li>Filesystem structure traversing (<code>`tree`</code> like)</li></ul>
+<h2>## Markdown -> HTML
+</h2>
+<ul>
+<li>Headers</li>
+<li>Code (blocks and inline)
+<ul>
+<li>Blocks</li>
+<li>Inline</li></ul></li>
+<li>URLs (inline and by reference)
+<ul>
+<li>Inline</li>
+<li>Reference</li></ul></li>
+<li>Images (inline and by reference)
+<ul>
+<li>Inline</li>
+<li>Reference</li></ul></li></ul>
+<h3>### Headers
+</h3>From:
+<code>```markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+</code>
+to:
+<code>```html
+&lt;H1&gt;# H1&lt;/H1&gt;
+&lt;H2&gt;## H2&lt;/H2&gt;
+&lt;H3&gt;### H3&lt;/H3&gt;
+&lt;H4&gt;#### H4&lt;/H4&gt;
+&lt;H5&gt;##### H5&lt;/H5&gt;
+&lt;H6&gt;###### H6&lt;/H6&gt;
+```
+</code>
+
+<h3>### Code
+</h3>
+<h4>#### Blocks
+</h4>From:
+<code>```markdown
+```
+</code>some_lang_here
+    some code here
+<code>```
+```
+</code>
+to:
+<code>```html
+```
+</code>some_lang_here
+<CODE></CODE>
+    some code here
+&lt;/CODE&gt;<code>```
+```
+</code>
+
+<h4>#### Inline
+</h4>From:
+<code>```markdown
+`some code here`
+```
+</code>
+to:
+<code>```html
+`&lt;CODE&gt;some code here&lt;/CODE&gt;`
+```
+</code>
+
+<h3>### URLs
+</h3>
+<h4>#### Inline
+</h4>From:
+<code>```markdown
+[some text](some_url)
+```
+</code>
+to:
+<code>```html
+&lt;A HREF=&quot;some_url&quot;&gt;some text&lt;/A&gt;
+```
+</code>
+
+<h4>#### Reference
+</h4>From:
+<code>```markdown
+[some text][ref]
+[ref]: some_url
+```
+</code>
+to:
+<code>```html
+&lt;A HREF=&quot;some_url&quot;&gt;some text&lt;/A&gt;
+```
+</code>
+
+<h3>### Images
+</h3>
+<h4>#### Inline
+</h4>From:
+<code>```markdown
+![some text](some_url)
+```
+</code>
+to:
+<code>```html
+&lt;IMG SRC=&quot;some_url&quot; ALT=&quot;some text&quot;&gt;
+```
+</code>
+
+<h4>#### Reference
+</h4>From:
+<code>```markdown
+![some text][ref]
+[ref]: some_url
+```
+</code>
+to:
+<code>```html
+&lt;IMG SRC=&quot;some_url&quot; ALT=&quot;some text&quot;&gt;
+```
+</code>
+
+<h2>## Filesystem Structure Traversing
+</h2>From:
+<code>```filesystem
+.
+├── words
+│  ├── slpod.md
+│  └── ssg.md
+└── index.md
+```
+</code>
+to:
+<code>```filesystem
+.
+├── words
+│  ├── slpod.md
+│  └── ssg.md
+├── index.md
+├── index.html
+├── slpod.html
+└── ssg.html
+```
+</code>
+Inside <code>`index.html`</code>:
+<code>```html
+.
+└── words
+   ├── &lt;A href=&quot;slpod.md&quot;&gt;slpod.md&lt;/A&gt;
+   └── &lt;A href=&quot;ssg.md&quot;&gt;ssg.md&lt;/A&gt;
+```
+</code>
+<code>```scheme
+(print &quot;Hello, World!&quot;)
+```
+</code>
+</body>
+<footer>
+places:
+<a href="https://github.com/siiky">github.com</a>	test	this	shit</footer></html>
