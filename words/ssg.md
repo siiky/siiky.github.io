@@ -7,7 +7,7 @@ Simple set and forget static site generator
 
 ## Markdown -> HTML
 
- * Headers
+ * **Headers**
  * Code (blocks and inline)
      * Blocks
      * Inline
@@ -175,3 +175,5 @@ Inside `index.html`:
 ```scheme
 (print "Hello, World!")
 ```
+
+![Jose Cid](../assets/josecid.jpg)
