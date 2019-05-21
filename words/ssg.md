@@ -8,7 +8,7 @@ Simple set and forget static site generator
 ## Markdown -> HTML
 
  * **Headers**
- * Code (blocks and inline)
+ * _Code_ (blocks and inline)
      * Blocks
      * Inline
  * URLs (inline and by reference)
@@ -50,7 +50,7 @@ From:
 
 ```markdown
 ```some\_lang\_here
-    some code here
+some code here
 ```
 ```
 
@@ -58,7 +58,7 @@ to:
 
 ```html
 ```some\_lang\_here<CODE>
-    some code here
+some code here
 </CODE>```
 ```
 
@@ -156,11 +156,11 @@ to:
 .
 ├── words
 │  ├── slpod.md
-│  └── ssg.md
+│  ├── slpod.html
+│  ├── ssg.md
+│  └── ssg.html
 ├── index.md
-├── index.html
-├── slpod.html
-└── ssg.html
+└── index.html
 ```
 
 Inside `index.html`:
@@ -168,8 +168,8 @@ Inside `index.html`:
 ```html
 .
 └── words
-   ├── <A href="slpod.md">slpod.md</A>
-   └── <A href="ssg.md">ssg.md</A>
+├── <A href="words/slpod.html">slpod.md</A>
+└── <A href="words/ssg.html">ssg.md</A>
 ```
 
 ```scheme

@@ -57,8 +57,8 @@ a:hover {
 <h2>## Markdown -> HTML
 </h2>
 <ul>
-<li><strong>Headers</strong></li>
-<li>Code (blocks and inline)
+<li><strong>**Headers**</strong></li>
+<li><em>_Code_</em> (blocks and inline)
 <ul>
 <li>Blocks</li>
 <li>Inline</li></ul></li>
@@ -99,7 +99,7 @@ to:
 <code>```markdown
 ```
 </code>some_lang_here
-    some code here
+some code here
 <code>```
 ```
 </code>
@@ -108,7 +108,7 @@ to:
 ```
 </code>some_lang_here
 <CODE></CODE>
-    some code here
+some code here
 &lt;/CODE&gt;<code>```
 ```
 </code>
@@ -194,19 +194,19 @@ to:
 .
 ├── words
 │  ├── slpod.md
-│  └── ssg.md
+│  ├── slpod.html
+│  ├── ssg.md
+│  └── ssg.html
 ├── index.md
-├── index.html
-├── slpod.html
-└── ssg.html
+└── index.html
 ```
 </code>
 Inside <code>`index.html`</code>:
 <code>```html
 .
 └── words
-   ├── &lt;A href=&quot;slpod.md&quot;&gt;slpod.md&lt;/A&gt;
-   └── &lt;A href=&quot;ssg.md&quot;&gt;ssg.md&lt;/A&gt;
+├── &lt;A href=&quot;words/slpod.html&quot;&gt;slpod.md&lt;/A&gt;
+└── &lt;A href=&quot;words/ssg.html&quot;&gt;ssg.md&lt;/A&gt;
 ```
 </code>
 <code>```scheme
