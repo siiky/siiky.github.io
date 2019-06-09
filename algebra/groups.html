@@ -1,0 +1,368 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:18px; }
+h3 { font-size:17px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>algebra/groups.md</title></head>
+<body>
+<h1># Groups
+</h1>This post is about <a href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a> (whouldathunkit).
+
+
+<h2>## Conventions/Notation
+</h2><code>`forall var: prop`</code> means <code>`prop`</code> is true for all possible <code>`var`</code>.
+<code>`thereis var: prop`</code> means <code>`prop`</code> is true for at least one <code>`var`</code>.
+<code>`thereis1 var: prop`</code> means <code>`prop`</code> is true for exactly one <code>`var`</code>.
+<code>`forall var1: forall var2: prop`</code> will be abbreviated as <code>`forall var1, var2: prop`</code>.
+
+Sets are written as its elements surrounded by brackets. For example,
+<code>`{}`</code> is the empty set and <code>`{ a, b, c }`</code> is a set with the elements
+<code>`a`</code>, <code>`b`</code> and <code>`c`</code>. Sets comprehension will be written as <code>`{ expr : vars, restrictions }`</code>
+and the cardinal of a set will be written as <code>`#S`</code>.
+
+When you see <em>_N0_</em>, <em>_Z2_</em>, <em>_Zn_</em>, [m]n, etc, pretend the character to right is in subscript.
+
+<em>_N_</em> is the set of natural numbers (no zero).
+<em>_N0_</em> is the set of natural numbers (and zero).
+<em>_Z_</em> is the set of integers.
+
+<code>`%`</code> will be used as the modulo operator. Some examples: <code>`4 % 5 = 9 % 5 = 4`</code>, <code>`5 % 2 = 1`</code>.
+This operator is called <code>`%`</code> in C, <code>`modulo`</code> in Scheme and <code>`mod`</code> in Haskell.
+Another useful definition, is: <code>`p = q (mod n) &lt;=&gt; p % n = q % n`</code>
+<code>`|`</code> will be used to mean &quot;divides&quot;, as in <code>`a | b`</code> means &quot;a divides b&quot;,
+&quot;b is a multiple of a&quot;, or, with modulo, <code>`a | b &lt;=&gt; b % a = 0`</code>
+
+We will be needing the concept of a &quot;Congruential Equivalence Class&quot; later on.
+They are written as <code>`[m]n`</code>, forall n in N, m is in Z, and are defined as
+<code>`[m]n = { x : x in Z, x = m (mod n) }`</code>.
+
+Depending on context, <code>`+`</code> and <code>`*`</code> will either be the usual addition and
+multiplication of numbers, or addition and multiplication of classes.
+Addition and multiplication of classes are defined as <code>`[p]n + [q]n = [p+q]n`</code>
+and <code>`[p]n * [q]n = [p*q]n`</code>.
+Some examples: <code>`2+2=4`</code>, <code>`[2]3 + [1]3 = [2+1]3 = [0]3`</code>
+
+
+<h2>## What is a Group?!
+</h2>
+<h3>### In general
+</h3>A group is just a pair (S, O), where S is a set and O is a binary operation
+on S (<code>`O : S*S -&gt; S`</code>) with the following properties:
+
+
+<ol>
+<li><em>_Associativity_</em>: forall a, b, c in S: O(a, O(b, c)) = O(O(a, b), c)</li>
+<li><em>_Identity_</em>: thereis1 id in S: forall a in S: O(a, id) = O(id, a) = a</li>
+<li><em>_Inverse_</em>: forall a in S: thereis1 a' in S: O(a, a') = O(a', a) = id
+ id always has inverse, itself</li></ol>There is one extra property:
+
+
+<ol>
+<li><em>_Commutativity_</em>: forall a, b in S: O(a, b) = O(b, a)</li></ol>A group with a commutative operation is called a commutative group or an abelian group.
+
+Given G = (G, O) a group, G will be used to refer both to the group
+itself and its associated set.
+
+A group G is said to be infinite if #G is infinite, and finite if #G is finite.
+
+That is the generic definition. We will focus on groups with integer sets
+and + or * as the operation, however, so to make things easier:
+
+
+<h3>### Integers
+</h3>When the operation is + we call the identity element &quot;null element&quot; and represent it with 0.
+When the operation is * we call the identity element &quot;unity element&quot; and represent it with 1.
+
+When the operation is + we call the inverse of an element a its symmetric and represent it as -a.
+When the operation is * we call the inverse of an element a its inverse and represent it as a^-1. (pretend -1 is in superscript)
+
+
+<h4>#### (N0, +)
+</h4>N0 is the set of natural numbers (with zero), and <code>`+`</code> is the usual addition on natural numbers.
+Is it a group?
+
+
+<ol>
+<li>forall a, b, c in N0: a + (b + c) = (a + b) + c</li>
+<li>0 is the identity of the group, because forall a in N0: a + 0 = 0 + a = a</li>
+<li>forall a, b in N: a + b != 0</li></ol>N0 does not satisfy R3, so it is not a group.
+
+
+<h4>#### (Z, +)
+</h4>Z is the set of integers, and <code>`+`</code> is the usual addition on integers.
+Is it a group?
+
+
+<ol>
+<li>forall a, b, c in Z: a + (b + c) = (a + b) + c</li>
+<li>0 is the identity of the group, because forall a in Z: a + 0 = 0 + a = a</li>
+<li>forall a in Z: thereis1 a' in Z: a + a' = 0</li></ol>Z satisfies all 3 requirements so it is a group. We also know that addition
+is commutative, so Z is an abelian group.
+
+
+<h4>#### Other groups and non-groups
+</h4>
+<ul>
+<li>(R, +), where R is the set of real numbers, is a group</li>
+<li>(R\{0}, *) is also a group</li>
+<li>(R, *) is not a group, because 0 has no inverse (R3)</li>
+<li>(N, +) is not a group, because there is no identity and no inverse (R2 and R3)</li>
+<li>(N, *) is not a group, because there is no inverse (R3)</li>
+<li>(Z\{0}, *) is not a group, because other than 1 and -1, no element has inverse (R3)</li></ul>
+<h2>## What's next?
+</h2>Some useful definitions follow.
+
+
+<h3>### Subgroup
+</h3>Given a group G, H is called a subgroup of G if H is contained in G and
+it is also a group, and we write <code>`H &lt;| G`</code>. Examples:
+
+
+<ul>
+<li><code>`forall (G, +) group: (G, +) &lt;| (G, +)`</code></li>
+<li><em>_Trivial Subgroup_</em>: <code>`forall (G, +) group: ({0}, +) &lt;| (G, +)`</code></li>
+<li><code>`(2Z, +) &lt;| (Z, +)`</code></li></ul>A subgroup H of a group G that is not G itself (H != G, or H is strictly contained in G)
+is called a &quot;Proper Subgroup&quot;, and we write <code>`H &lt; G`</code>. Examples:
+
+
+<ul>
+<li><em>_Trivial Subgroup_</em>: <code>`forall (G, +) group: ({0}, +) &lt; (G, +)`</code></li>
+<li><code>`(2Z, +) &lt; (Z, +)`</code></li></ul>
+<h3>### Multiples/Powers of an element
+</h3>Given an element a of an additive group, <code>`a + ... + a`</code> (n times) can be
+written as <code>`n * a`</code>. Special case: <code>`0 * a = 0`</code>.
+Given an element a of a multiplicative group, <code>`a * ... * a`</code> (n times)
+can be written as <code>`a ^ n`</code>. Special case: <code>`a ^ 0 = 1`</code>.
+
+For negative n, <code>`n * a = -((-n) * a) = (-n) * (-a)`</code>.
+For negative n, <code>`a ^ n = (a ^ (-n)) ^ -1 = (a ^ -1) ^ (-n)`</code>.
+
+
+<h3>### Order of an element
+</h3>The order of an element a is the minimum number of times it must be operated
+with itself until it reaches the identity, and is written as <code>`o(a)`</code>. If,
+no matter how many times you operate the element, it doesn't reach the
+identity, its order is said to be infinite.
+
+A more rigorous definition is:
+
+
+<ul>
+<li>a has <em>_infinite order_</em> if forall n in N: n * a != 0</li>
+<li>a has <em>_finite order_</em> k, i.e., o(a) = k if:
+<ol>
+<li>k is in N</li>
+<li>k * a = 0</li>
+<li>forall n in N: <code>`n * a = 0`</code> =&gt; <code>`n &lt;= k`</code></li></ol></li></ul>In particular, the order of the identity is 1, and the identity is the only element with order 1.
+Useful fact: forall G group: forall a in G: o(a) | #G. From this comes the fact that,
+in a finite group, no element has infinite order.
+
+
+<h3>### Generated Subgroup
+</h3>Given an additive group (G, +) and an element a, <code>`&lt;a&gt; = { n * a : n in Z }`</code> is a subgroup of G
+and is called the &quot;Subgroup of G generated by a&quot;. In particular, if <code>`G = &lt;a&gt;`</code>, a is said to generate G,
+or that G is generated by a. Note that <code>`#&lt;a&gt; = o(a)`</code>.
+An example of this is <code>`&lt;1&gt; = &lt;-1&gt; = Z`</code>.
+
+
+<h2>## Zn Groups
+</h2>You can group integers together according to their (mod n), make a set
+out of them, and define a group with it. These groups are called <em>_Zn_</em>,
+for some n in N, and are defined as Zn = { [m]n : m in { 0, ..., n-1 } }.
+
+These will get repetitive after Z2, but the reason why they're here will
+become clear.
+
+
+<h3>### (Z1, +)
+</h3>According to definition above, Z1 = { [0]1 }, but you can go further here:
+
+[0]1
+ = (def [m]n)
+{ x : x in Z, x = 0 (mod 1) }
+ = (def (mod n))
+{ x : x in Z, x % 1 = 0 % 1 }
+ = (0 % 1 = 0)
+{ x : x in Z, x % 1 = 0 }
+ = (every integer is a multiple of 1)
+{ x : x in Z }
+ = (def Z)
+Z
+
+Z1 is a trivial group (#Z1 = 1), so it isn't that interesting, other
+than Z being its only element.
+
+Some things we can find about it:
+
+
+<ul>
+<li>Since it is a trivial group, its only subgroup is itself</li>
+<li>[0]1 is the identity, so o([0]1) = 1</li>
+<li>Z1 = &lt;[0]1&gt;</li></ul>
+<h3>### (Z2, +)
+</h3>When n = 2 we get Z2 = { [0]2, [1]2 }.
+
+[0]2
+ = (def [m]n)
+{ x : x in Z, x = 0 (mod 2) }
+ = (def (mod n))
+{ x : x in Z, x % 2 = 0 % 2 }
+ = (0 % 2 = 0)
+{ x : x in Z, x % 2 = 0 }
+ = (x % 2 = 0 =&gt; thereis k in Z: x = 2 * k)
+{ 2 * x : x in Z }
+ = (def 2Z)
+2Z
+
+So [0]2 = 2Z is the set of even integers. You can probably guess by now, but:
+
+[1]2
+ = (def [m]n)
+{ x : x in Z, x = 1 (mod 2) }
+ = (def (mod n))
+{ x : x in Z, x % 2 = 1 % 2 }
+ = (1 % 2 = 1)
+{ x : x in Z, x % 2 = 1 }
+ = (x % 2 = 1 =&gt; thereis k in Z: x = 2 * k + 1)
+{ 2 * x + 1 : x in Z }
+ = (def 2Z+1)
+2Z+1
+
+And with that you see that [1]2 is the set of odd integers.
+
+Some things we can find about it:
+
+
+<ul>
+<li>[0]2 is the identity, so o([0]2) = 1</li>
+<li>[1]2 != [0]2, but [1]2 + [1]2 = [1 + 1]2 = [2]2 = [0]2, so o([1]2) = 2</li>
+<li>&lt;[0]2&gt; = { [0]2 } &lt; Z2</li>
+<li>&lt;[1]2&gt; = Z2</li></ul>
+<h3>### (Z3, +)
+</h3>Z3 = { [0]3, [1]3, [2]3 }
+
+I'll skip showing how to get to the definition of each of the classes
+from now. Also, you may have already noticed, but if not, [0]n is the
+set of multiples of n, nZ.
+
+[0]3 = 3Z
+[1]3 = 3Z + 1
+[2]3 = 3Z + 2
+
+And now things about Z3:
+
+
+<ul>
+<li>o([0]3) = 1</li>
+<li>o([1]3) = 3; you may also have noticed that o([1]n) = n. This has
+ to do with the fact that forall n in Z: n * 1 = n.
+ So n * [1]n = [n * 1]n = [n]n = [0]n</li>
+<li>o([2]3) = 3; [2]3 != [0]3, 2 * [2]3 = [1]3 != [0]3, 3 * [2]3 = [0]3
+ This one has to do with the fact that 2 and 3 are coprime, which
+ means lcm(2, 3) = 6, and 6 / 2 = 3</li>
+<li>&lt;[0]3&gt; = { [0]3 } &lt; Z3</li>
+<li>&lt;[1]3&gt; = &lt;[2]3&gt; = Z3</li></ul>
+<h3>### (Z4, +)
+</h3>Z4 = { [0]4, [1]4, [2]4, [3]4 }
+
+[0]3 = 3Z
+[1]3 = 3Z + 1
+[2]3 = 3Z + 2
+
+Once again, things about this group:
+
+
+<ul>
+<li>o([0]4) = 1</li>
+<li>o([2]4) = 2</li>
+<li>o([1]4) = o([3]4) = 4</li>
+<li>&lt;[2]4&gt; = { [0]4, [2]4 } &lt; Z4</li>
+<li>&lt;[1]4&gt; = &lt;[3]4&gt; = Z4</li></ul>Now something interesting happened here! Remember that
+  forall G group: forall a in G: o(a) | #G
+Because of this we know that the only possible orders are 1, 2 and 4.
+This also means that it is possible a subgroup of cardinal 2 exists.
+In this case, the only one is &lt;[2]4&gt;. Why, though, did this happen with
+Z4, but not with Z1, Z2 or Z3? Z1 is obvious: #Z1 = 1, so the only possible
+subgroup is itself. Z2 is also easy: its only elements are [0]2 and [1]2,
+and we know that
+  forall n in N: &lt;[0]n&gt; = { [0]n }
+and that
+  forall n in N: &lt;[1]n&gt; = Zn
+For Z3 it's not as clear. The hint is, again:
+  forall G group: forall a in G: o(a) | #G
+Both 2 and 3 are prime, which means, their only divisors are 1 and themselves.
+So it's not possible for a subgroup of Z3 with cardinal 2 to exist.
+
+
+<h3>### (Z5, +)
+</h3>Try this one
+
+Summing up:
+  forall n in N: Zn has more than one proper subgroup &lt;=&gt; n is not prime
+or
+  forall n in N: Zn has exactly one proper subgroup &lt;=&gt; n is prime
+
+Proving this is easy: Let n be in N.
+
+Suppose that Zn has more than one proper subgroup. We want to prove that
+n is not prime. There is a proper subgroup H such that <strong>**#H > 1**</strong>. Since H
+is a proper subgroup, then <strong>**#H &lt; n**</strong>. From this, and the fact that #H | n,
+we can conclude n is not prime.
+
+Now the other way: Suppose n is not prime. We want to prove that Zn has
+more than one proper subgroup. Since n is not prime, then
+  thereis k in N: <code>`k &lt; n`</code> and <code>`k &gt; 1`</code> and k | n
+Let p such a number. Then
+  thereis a in Zn: o(a) = k
+Let a be such an element. <strong>**o(a) = k =&gt; #&lt;a&gt; = k**</strong>
+We know that <strong>**&lt;a&gt; &lt;| Zn**</strong> and that <strong>**k &lt; n**</strong>, so <strong>**&lt;a&gt; &lt; Zn**</strong>.
+
+<strong>**TODO:**</strong> groups that are isomorphic to some proper subgroup
+
+</body>
+<footer>
+places:
+<a href="https://github.com/siiky">github.com</a>	test	this	shit</footer></html>

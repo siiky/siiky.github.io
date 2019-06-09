@@ -1,4 +1,16 @@
-all:
-	ssg -v --do-it -s assets/monokai.css -D words/ -- index.md
+GV := assets/ctp.gv
+PNG := $(GV:.gv=.png)
 
-.PHONY: all
+DIRS := \
+    -D algebra/ \
+    -D words/   \
+
+all: html $(PNG)
+
+html:
+	ssg -v --do-it -s assets/monokai.css $(DIRS) -- index.md
+
+%.png: %.gv
+	dot -Tpng -o $@ $<
+
+.PHONY: all html

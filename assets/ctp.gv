@@ -1,0 +1,24 @@
+digraph C
+{
+    graph [layout=dot rankdir=TB bgcolor="#00000000"];
+    //A [ shape=plain ];
+    //B [ shape=plain ];
+    //A -> B [ label="f" ];
+    //A -> B [ label="g" ];
+
+    "(A, B)" [shape=plain];
+    A [shape=plain];
+    B [shape=plain];
+    X [shape=plain];
+    Y [shape=plain];
+
+    Y -> X [label=h];
+    Y -> A [label="f . h"];
+    Y -> B [label="g . h"];
+    Y -> "(A, B)" [label="<f . h, g . h>"];
+    X -> A [label=f];
+    X -> B [label=g];
+    X -> "(A, B)" [label="<f, g>"];
+    "(A, B)" -> A [label=p1];
+    "(A, B)" -> B [label=p2];
+}

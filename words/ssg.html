@@ -24,11 +24,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 { font-size:19px; }
-h2 { font-size:17px; }
-h3 { font-size:15px; }
-h4 { font-size:13px; }
-h5 { font-size:11px; }
-h6 { font-size:9px; }
+h2 { font-size:18px; }
+h3 { font-size:17px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
 
 a {
     color:#66D9EF;
@@ -51,6 +51,7 @@ a:hover {
 <h1># Static Site Generator
 </h1>Simple set and forget static site generator
 
+
 <ul>
 <li>Markdown -> HTML (keep overall look of markdown)</li>
 <li>Filesystem structure traversing (<code>`tree`</code> like)</li></ul>
@@ -72,6 +73,7 @@ a:hover {
 <li>Reference</li></ul></li></ul>
 <h3>### Headers
 </h3>From:
+
 <code>```markdown
 # H1
 ## H2
@@ -81,7 +83,9 @@ a:hover {
 ###### H6
 ```
 </code>
+
 to:
+
 <code>```html
 &lt;H1&gt;# H1&lt;/H1&gt;
 &lt;H2&gt;## H2&lt;/H2&gt;
@@ -92,10 +96,12 @@ to:
 ```
 </code>
 
+
 <h3>### Code
 </h3>
 <h4>#### Blocks
 </h4>From:
+
 <code>```markdown
 ```
 </code>some_lang_here
@@ -103,7 +109,9 @@ some code here
 <code>```
 ```
 </code>
+
 to:
+
 <code>```html
 ```
 </code>some_lang_here
@@ -113,74 +121,96 @@ some code here
 ```
 </code>
 
+
 <h4>#### Inline
 </h4>From:
+
 <code>```markdown
 `some code here`
 ```
 </code>
+
 to:
+
 <code>```html
 `&lt;CODE&gt;some code here&lt;/CODE&gt;`
 ```
 </code>
 
+
 <h3>### URLs
 </h3>
 <h4>#### Inline
 </h4>From:
+
 <code>```markdown
 [some text](some_url)
 ```
 </code>
+
 to:
+
 <code>```html
 &lt;A HREF=&quot;some_url&quot;&gt;some text&lt;/A&gt;
 ```
 </code>
 
+
 <h4>#### Reference
 </h4>From:
+
 <code>```markdown
 [some text][ref]
 [ref]: some_url
 ```
 </code>
+
 to:
+
 <code>```html
 &lt;A HREF=&quot;some_url&quot;&gt;some text&lt;/A&gt;
 ```
 </code>
 
+
 <h3>### Images
 </h3>
 <h4>#### Inline
 </h4>From:
+
 <code>```markdown
 ![some text](some_url)
 ```
 </code>
+
 to:
+
 <code>```html
 &lt;IMG SRC=&quot;some_url&quot; ALT=&quot;some text&quot;&gt;
 ```
 </code>
 
+
 <h4>#### Reference
 </h4>From:
+
 <code>```markdown
 ![some text][ref]
 [ref]: some_url
 ```
 </code>
+
 to:
+
 <code>```html
 &lt;IMG SRC=&quot;some_url&quot; ALT=&quot;some text&quot;&gt;
 ```
 </code>
 
+
 <h2>## Filesystem Structure Traversing
 </h2>From:
+
 <code>```filesystem
 .
 ├── words
@@ -189,7 +219,9 @@ to:
 └── index.md
 ```
 </code>
+
 to:
+
 <code>```filesystem
 .
 ├── words
@@ -201,7 +233,9 @@ to:
 └── index.html
 ```
 </code>
+
 Inside <code>`index.html`</code>:
+
 <code>```html
 .
 └── words
@@ -209,11 +243,14 @@ Inside <code>`index.html`</code>:
 └── &lt;A href=&quot;words/ssg.html&quot;&gt;ssg.md&lt;/A&gt;
 ```
 </code>
+
 <code>```scheme
 (print &quot;Hello, World!&quot;)
 ```
 </code>
+
 <img src="../assets/josecid.jpg" alt="![Jose Cid](../assets/josecid.jpg)" />
+
 </body>
 <footer>
 places:
