@@ -14,7 +14,7 @@ Sets are written as its elements surrounded by brackets. For example,
 `a`, `b` and `c`. Sets comprehension will be written as `{ expr : vars, restrictions }`
 and the cardinal of a set will be written as `#S`.
 
-When you see _N0_, _Z2_, _Zn_, [m]n, etc, pretend the character to right is in subscript.
+When you see _N0_, _Z2_, _Zn_, [m]n, etc, pretend the character to the right is in subscript.
 
 _N_ is the set of natural numbers (no zero).
 _N0_ is the set of natural numbers (and zero).

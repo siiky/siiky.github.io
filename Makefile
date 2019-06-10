@@ -8,7 +8,7 @@ DIRS := \
 all: html $(PNG)
 
 html:
-	ssg -v --do-it -s assets/monokai.css $(DIRS) -- index.md
+	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm
 
 %.png: %.gv
 	dot -Tpng -o $@ $<
