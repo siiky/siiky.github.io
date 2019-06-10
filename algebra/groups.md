@@ -109,11 +109,11 @@ Some useful definitions follow.
 ### Subgroup
 
 Given a group G, H is called a subgroup of G if H is contained in G and
-it is also a group, and we write `H <| G`. Examples:
+it is also a group, and we write `H <= G`. Examples:
 
- * `forall (G, +) group: (G, +) <| (G, +)`
- * _Trivial Subgroup_: `forall (G, +) group: ({0}, +) <| (G, +)`
- * `(2Z, +) <| (Z, +)`
+ * `forall (G, +) group: (G, +) <= (G, +)`
+ * _Trivial Subgroup_: `forall (G, +) group: ({0}, +) <= (G, +)`
+ * `(2Z, +) <= (Z, +)`
 
 A subgroup H of a group G that is not G itself (H != G, or H is strictly contained in G)
 is called a "Proper Subgroup", and we write `H < G`. Examples:
@@ -258,9 +258,10 @@ And now things about Z3:
 
 Z4 = { [0]4, [1]4, [2]4, [3]4 }
 
-[0]3 = 3Z
-[1]3 = 3Z + 1
-[2]3 = 3Z + 2
+[0]4 = 4Z
+[1]4 = 4Z + 1
+[2]4 = 4Z + 2
+[3]4 = 4Z + 3
 
 Once again, things about this group:
 
@@ -273,7 +274,7 @@ Once again, things about this group:
 Now something interesting happened here! Remember that
   forall G group: forall a in G: o(a) | #G
 Because of this we know that the only possible orders are 1, 2 and 4.
-This also means that it is possible a subgroup of cardinal 2 exists.
+This also means that it is possible for a subgroup of cardinal 2 to exist.
 In this case, the only one is <[2]4>. Why, though, did this happen with
 Z4, but not with Z1, Z2 or Z3? Z1 is obvious: #Z1 = 1, so the only possible
 subgroup is itself. Z2 is also easy: its only elements are [0]2 and [1]2,
@@ -302,12 +303,12 @@ n is not prime. There is a proper subgroup H such that **#H > 1**. Since H
 is a proper subgroup, then **#H < n**. From this, and the fact that #H | n,
 we can conclude n is not prime.
 
-Now the other way: Suppose n is not prime. We want to prove that Zn has
-more than one proper subgroup. Since n is not prime, then
-  thereis k in N: `k < n` and `k > 1` and k | n
-Let p such a number. Then
+Now the other way: Suppose `n` is not prime. We want to prove that Zn has
+more than one proper subgroup. Since `n` is not prime, then
+  thereis k in N: `1 < k < n` and `k | n`
+Let `k` be such a number. Then
   thereis a in Zn: o(a) = k
-Let a be such an element. **o(a) = k => #\<a> = k**
-We know that **\<a> <| Zn** and that **k < n**, so **\<a> < Zn**.
+Let `a` be such an element. **o(a) = k => #\<a> = k**
+We know that **\<a> <= Zn** and that **k < n**, so **\<a> < Zn**.
 
 **TODO:** groups that are isomorphic to some proper subgroup
