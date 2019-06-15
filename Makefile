@@ -3,6 +3,7 @@ PNG := $(GV:.gv=.png)
 
 DIRS := \
     -D algebra/ \
+    -D todo/    \
     -D words/   \
 
 all: html $(PNG)
