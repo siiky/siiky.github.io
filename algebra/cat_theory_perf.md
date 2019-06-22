@@ -1,3 +1,3 @@
 # Category Theory and Performance
 
-![Category](../assets/ctp.png)
+![Category](../assets/ctp.svg)

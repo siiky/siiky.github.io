@@ -1,0 +1,11 @@
+; vim: ft=scheme
+(digraph
+  C
+  (settings
+    (graph (layout sfdp) (rankdir TB) (bgcolor "#00000000") (splines curved))
+    (label (fontcolor "#66D9EF") (color "#FD971F")))
+
+  (-> X A (label f))
+  (-> X "A × B" (label "<f, g>"))
+  ; TODO: finish this graph
+  )

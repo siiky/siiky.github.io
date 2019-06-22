@@ -7,5 +7,6 @@
           (ent "./slpod.md" "2017/03/04 22:00" "SLPOD - a simple, suckless podcatcher (idea)")
           (ent "./ssg.md" "2017/03/06 15:30" "simple static site generator (idea)"))
      #;(dir "todo"
-     (ent "./sbn.md" "Small Big Numbers"))
+     (ent "./sbn.md" "Small Big Numbers")
+     (ent "./gv-dsl.md" "GraphViz Scheme DSL"))
 )
