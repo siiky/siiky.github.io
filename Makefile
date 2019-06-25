@@ -1,4 +1,5 @@
-GV := assets/ctp.gv
+GVS := assets/ctp.gvs
+GV := $(GVS:.gvs=.gv)
 PNG := $(GV:.gv=.png)
 SVG := $(GV:.gv=.svg)
 
@@ -7,7 +8,7 @@ DIRS := \
     -D todo/    \
     -D words/   \
 
-all: html $(PNG) $(SVG)
+all: html $(PNG)
 
 html:
 	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm
@@ -17,5 +18,8 @@ html:
 
 %.svg: %.gv
 	dot -Tsvg -o $@ $<
+
+%.gv: %.gvs
+	gvs2gv $<
 
 .PHONY: all html
