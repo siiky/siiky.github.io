@@ -18,6 +18,8 @@ early return?).
 
 ## Exception Handling
 
+### Catching
+
 A neat way to _catch_ exceptions is with [`condition-case`][0]. You give it an
 expression to evaluate, give it the kinds of exceptions you are expecting and
 how to deal with them, and voilà:
@@ -67,6 +69,13 @@ former should be above the latter.
   ((exn type) (print "This will never happen")))
 ```
 
+### Throwing
+
+If you want to throw something, use [`signal`][1]. There are also [`abort`][2]
+and [`raise`][3], but I don't know why/when to use them. In CHICKEN, SRFI-18's
+`raise` is just `signal`, but this may change in the future and might not even
+be the case in other implementations.
+
 ## Related Topics of Interest
 
  * Continuable and non-continuable exceptions
@@ -74,3 +83,6 @@ former should be above the latter.
  * How to make a condition and how to get things out of a condition object
 
 [0]: https://api.call-cc.org/5/doc/chicken/condition/condition-case
+[1]: https://api.call-cc.org/5/doc/chicken/condition/signal
+[2]: https://api.call-cc.org/5/doc/chicken/condition/abort
+[3]: https://api.call-cc.org/5/doc/srfi-18/raise
