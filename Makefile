@@ -5,6 +5,7 @@ SVG := $(GV:.gv=.svg)
 
 DIRS := \
     -D algebra/ \
+    -D scheme/  \
     -D todo/    \
     -D words/   \
 

@@ -1,0 +1,129 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:18px; }
+h3 { font-size:17px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>scheme/exceptions.md</title></head>
+<body>
+<h1># Exceptions (aka Conditions) in Scheme
+</h1><strong>**DISCLAIMER**</strong>: I'm not a very advanced Schemer, and conditions in Scheme are
+especially confusing to me. Please excuse any possibly wrong terminology or
+claims. If you have any comments, shoot me a message.
+
+Exceptions are (in general) very weird things, but even more so in Scheme. I
+have little (close to none) experience with them, and the little that I have
+was attained from need (i.e., &quot;works? great!&quot;).
+
+
+<h2>## Conditions
+</h2>Conditions are objects that represent an exception (like instances of a
+subclass of <code>`Exception`</code> in Java, maybe?), and in Scheme you can use them just
+like any other object. You can create one, pass it around, and not even throw
+it. It's also possible to throw non-condition objects (maybe for non-local or
+early return?).
+
+
+<h2>## Exception Handling
+</h2>A neat way to <em>_catch_</em> exceptions is with <a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"><code>`condition-case`</code></a>. You give it an
+expression to evaluate, give it the kinds of exceptions you are expecting and
+how to deal with them, and voilà:
+
+```scm
+; General usage
+(condition-case expression
+  ((kind1 kind2) (print &quot;kind1 kind2&quot;) ...)
+  ((kind) (print &quot;kind&quot;) ...)
+  ; con may not be a condition
+  (con () (print &quot;some other kind: &quot; con) ...))
+
+; Concrete example
+(condition-case
+  (begin
+    (print &quot;This is part of the expression&quot;)
+    (car (/ 42 0)))
+  ((exn type)
+    (print &quot;Wrong type&quot;)
+    #f)
+  ((exn arithmetic)
+    (print &quot;Some arithmetic error&quot;)
+    0)
+  (con ()
+    (print con &quot; ¯\<em>_(ツ)_</em>/¯&quot;)
+    con))
+
+;; prints:
+;; This is part of the expression
+;; Some arithmetic error
+;; =&gt; 0
+```
+
+If no exception is thrown when evaluating the expression, the value of the
+<code>`condition-case`</code> block is that of the expression. If an exception is thrown,
+then the value is that of the last of the expressions associated with the first
+matching branch. If there is no matching branch, the exception is propagated,
+until a handler for it is found (or none, in which case the program crashes).
+
+The condition cases should be ordered from more specific to less specific. For
+example, a condition of kind <code>`(exn type)`</code> is also of kind <code>`(exn)`</code>, so the
+former should be above the latter.
+
+<code>```scm
+(condition-case (car 'some-val)
+  ((exn)      (print &quot;Wrong type&quot;))
+  ((exn type) (print &quot;This will never happen&quot;)))
+```
+</code>
+
+
+<h2>## Related Topics of Interest
+</h2>
+<ul>
+<li>Continuable and non-continuable exceptions</li>
+<li>How is all this implemented?</li>
+<li>How to make a condition and how to get things out of a condition object</li></ul></body>
+<footer>
+places:
+<a href="https://github.com/siiky">github.com</a>	this	is	a	test</footer></html>
