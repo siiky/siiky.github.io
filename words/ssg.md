@@ -1,5 +1,7 @@
 # Static Site Generator
 
+**EDIT**: [WIP](https://github.com/siiky/ssg).
+
 Simple set and forget static site generator
 
  * Markdown -> HTML (keep overall look of markdown)
