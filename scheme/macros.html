@@ -1,0 +1,223 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:18px; }
+h3 { font-size:17px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>scheme/macros.md</title></head>
+<body>
+<h1># Macros
+</h1>I read recently a blog post called <a href="https://www.winestockwebdesign.com/Essays/Lisp_Curse.html"><em>_The Lisp Curse_</em></a> (not HTTPS enabled,
+but hoping it will be in the future). In this post, the author, Rudolf
+Winestock, says that &quot;Making Scheme object-oriented is a sophomore homework
+assignment&quot;; and so, for fun, I tried hacking an abstraction for defining
+classes in Scheme, with the little knowledge of macros that I have.
+
+
+<h2>## <code>`kless`</code>es
+</h2>Below is the definition of the <code>`kless`</code> macro, and two examples.
+(Sorry for the weird indentation)
+
+```scm
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+;!! Read identifiers with Metalocalypse Pickles' accent !!!
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+(define-syntax kless
+  (syntax-rules (meth)
+
+;; TEMPLATE
+((kless
+   (kless-name ver-name ...)
+   (meth (meth-name meth-args ...)
+         meth-body ...) ...)
+
+;; RESULT
+(begin
+  ; If your Scheme of choice doesn't support curried definitions
+  ; use lambda instead:
+  ;   (define (kless-name ver-name ...)
+  ;     (lambda (method self . args)
+  (define ((kless-name ver-name ...) method self . args)
+   (define (err sym)
+     (error (string-append &quot;'&quot; (symbol->string sym) &quot;'? dat shiet dun exist yo&quot;)))
+
+(define (getter ver)
+     (case ver
+       ((ver-name) ver-name) ...
+       (else (err ver))))
+
+(define (setter ver val)
+     (case ver
+       ((ver-name) (set! ver-name val)) ...
+       (else (err ver))))
+
+;; Dispatch
+   (case method
+     ((get) (apply getter args))
+     ((set) (apply setter args))
+     ((meth-name)
+      (apply (lambda (meth-args ...)
+               meth-body ...)
+             args)) ...
+     (else (err method))))
+
+;; [GS]etters
+  (define (ver-name self . val)
+    (if (null? val)
+        (self 'get self 'var-name)
+        (self 'set self 'var-name (car val)))) ...
+
+;; Custom methods
+  (define (meth-name self meth-args ...)
+    (self 'meth-name self meth-args ...)) ...))))
+```
+
+With <code>`kless`</code> you can specify instance variables, with getters and destructive
+setters automatically defined for you, and instance (non-static) methods.
+Because the methods' bodies are inserted into the object itself, instance
+variables are in scope, and no extra magic is needed for making them available.
+
+Having 2 classes with methods (or variables for that matter) of the same name
+results in 2 functions with exactly the same names and bodies being defined.
+By defining the 2 classes above (<code>`dek`</code> and <code>`blenk-dek`</code>), <code>`show-me`</code> is defined
+twice, like so:
+
+<code>```scm
+(define (show-me self)
+  (self 'show-me self))
+```
+</code>
+
+Because of this, dick-typing (a la Python) is supported.
+
+
+<h2>## Example
+</h2>The following example shows that/how <code>`kless`</code> works, and what OO is good for.
+
+Defining two classes:
+
+```scm
+;; Very important dek class! It is used to represent various types of deks
+(kless (dek x y)
+       (meth (show-me)
+             (print &quot;8&quot; (make-string x #\=) &quot;D&quot; (make-string y #\~))))
+
+(kless (blenk-dek x)
+       (meth (show-me)
+             (print &quot;8&quot; (make-string x #\=) &quot;D&quot;)))
+```
+
+Inspecting generated procedures and trying things out:
+
+<code>```scm
+#;1&gt; dek
+#&lt;procedure (dek x y)&gt;
+#;2&gt; blenk-dek
+#&lt;procedure (blenk-dek x)&gt;
+#;3&gt; x
+#&lt;procedure (x self270 . val282)&gt;
+#;4&gt; y
+#&lt;procedure (y self204 . val216)&gt;
+#;5&gt; show-me
+#&lt;procedure (show-me self270)&gt;
+#;6&gt; (show-me (dek 2 4))
+8==D~~~~
+#;7&gt; (show-me (blenk-dek 4))
+8====D
+```
+</code>
+
+
+<h2>## Thorns
+</h2><code>`self`</code> is not in scope (or rather, <code>`self`</code>, the object itself, is in scope, but
+is not called <code>`self`</code> because of <code>`syntax-rules`</code> magic). Recursive methods are
+still possible, with a named-<code>`let`</code> or <code>`define`</code>. Just don't use other methods.
+
+No type predicate is defined, but can be easily implemented.
+
+No hierarchy, inheritance, no nothing!
+
+No &quot;static&quot; class methods. Because, what? Just make a function, prefix it with
+the class name and be done with it.
+
+No extending already defined classes, a la Haskell's type classes (with
+<code>`instance ... where`</code>), or Rust's traits (with <code>`impl`</code>). Put everything inside
+<code>`kless`</code> and dick-typing does the rest.
+
+Method overriding on a per object basis is not possible. This may be easy to
+implement. One way is to put a table inside the object, from method name to
+procedure (<code>`Symbol -&gt; Method`</code>), and arrange a way to get and set that procedure
+from outside the object. A problem arises then: this new method doesn't have
+the instance variables in scope. One could be tempted to think that something
+like the following solves the problem.
+
+<code>```scm
+(define (meth-setter meth-name meth-maker)
+  (update-meth-table meth-name (meth-maker ver-name ...)))
+```
+</code>
+
+This would indeed bring the current variables into scope, but not future
+updates, as this new method's scope is not the same as the object's scope
+itself. (There was also something similar on <a href="https://letoverlambda.com"><em>_Let Over Lambda_</em></a> IIRC)
+
+Another option would be to have another indirection for the actual method's
+code, such that the current instance variables are given on each call.
+Calling one such method would be something like:
+
+<code>```scm
+(((lambda (ver-name ...)    ; instance variables
+    (lambda (meth-args ...) ; method parameters
+      meth-body ...))       ; method body
+  ver-name ...)             ; get the method procedure, with instance variables in scope
+ meth-args ...)             ; call the methodd
+```
+</code>
+
+</body>
+<footer>
+places:
+<a href="https://github.com/siiky">github.com</a>	this	is	a	test</footer></html>
