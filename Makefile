@@ -1,4 +1,4 @@
-GVS := assets/ctp.gvs
+GVS := $(wildcard assets/*.gvs)
 GV := $(GVS:.gvs=.gv)
 PNG := $(GV:.gv=.png)
 SVG := $(GV:.gv=.svg)
@@ -9,7 +9,7 @@ DIRS := \
     -D todo/    \
     -D words/   \
 
-all: html $(PNG)
+all: html $(PNG) $(SVG)
 
 html:
 	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm

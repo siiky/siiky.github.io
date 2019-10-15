@@ -1,0 +1,15 @@
+; vim: ft=scheme
+(digraph
+  C
+  (settings
+    (graph (layout sfdp) (rankdir TB) (bgcolor "#00000000") (splines curved))
+    (edge (fontcolor "#66D9EF") (color "#FD971F"))
+    (node (fontcolor "#F92672") (shape plain)))
+
+  (nodes X Y)
+
+  (-> X X (label idX))
+  (-> Y Y (label idY))
+
+  (-> X Y (label f))
+  (-> Y X (label g)))

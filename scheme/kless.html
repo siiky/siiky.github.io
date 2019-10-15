@@ -46,9 +46,9 @@ a:hover {
 }
 </style>
 <meta charset="UTF-8" />
-<title>scheme/macros.md</title></head>
+<title>scheme/kless.md</title></head>
 <body>
-<h1># Macros
+<h1># <code>`kless`</code>
 </h1>I read recently a blog post called <a href="https://www.winestockwebdesign.com/Essays/Lisp_Curse.html"><em>_The Lisp Curse_</em></a> (not HTTPS enabled,
 but hoping it will be in the future). In this post, the author, Rudolf
 Winestock, says that &quot;Making Scheme object-oriented is a sophomore homework
@@ -56,7 +56,7 @@ assignment&quot;; and so, for fun, I tried hacking an abstraction for defining
 classes in Scheme, with the little knowledge of macros that I have.
 
 
-<h2>## <code>`kless`</code>es
+<h2>## Implementation
 </h2>Below is the definition of the <code>`kless`</code> macro, and two examples.
 (Sorry for the weird indentation)
 
@@ -134,7 +134,7 @@ twice, like so:
 Because of this, dick-typing (a la Python) is supported.
 
 
-<h2>## Example
+<h2>## Example <code>`kless`</code>es
 </h2>The following example shows that/how <code>`kless`</code> works, and what OO is good for.
 
 Defining two classes:

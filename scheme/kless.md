@@ -1,4 +1,4 @@
-# Macros
+# `kless`
 
 I read recently a blog post called [_The Lisp Curse_](https://www.winestockwebdesign.com/Essays/Lisp_Curse.html) (not HTTPS enabled,
 but hoping it will be in the future). In this post, the author, Rudolf
@@ -6,10 +6,9 @@ Winestock, says that "Making Scheme object-oriented is a sophomore homework
 assignment"; and so, for fun, I tried hacking an abstraction for defining
 classes in Scheme, with the little knowledge of macros that I have.
 
-## `kless`es
+## Implementation
 
-Below is the definition of the `kless` macro, and two examples.
-(Sorry for the weird indentation)
+Below is the definition of the `kless` macro. (Sorry for the weird indentation)
 
 ```scm
 ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -83,7 +82,7 @@ twice, like so:
 
 Because of this, dick-typing (a la Python) is supported.
 
-## Example 
+## Example `kless`es
 
 The following example shows that/how `kless` works, and what OO is good for.
 

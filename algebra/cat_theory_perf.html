@@ -49,7 +49,64 @@ a:hover {
 <title>algebra/cat_theory_perf.md</title></head>
 <body>
 <h1># Category Theory and Performance
-</h1><img src="../assets/ctp.svg" alt="![Category](../assets/ctp.svg)" />
+</h1>Imagine for a second that we understand Category Theory. Now imagine that we
+have a fancy category, representing a part of a program, with two objects <code>`X`</code>
+and <code>`Y`</code> (representing the input and output types of our program respectively),
+and morphisms <code>`f : X -&gt; Y`</code> and <code>`g : Y -&gt; X`</code> (because this is a category). This
+is what we have:
+
+<img src="../assets/ctp-cat.svg" alt="![Category](../assets/ctp-cat.svg)" />
+
+Image now that there's a (reasonable) way to determine if two morphisms are
+equal. Given <code>`f, g : X -&gt; Y`</code>: <code>`f = g &lt;=&gt; forall x in X: f(x) = g(x)`</code>.
+
+Image there's also a way to analyse performance of a given morphism. We'll
+represent the performance of a given morphism <code>`f`</code> as <code>`P(f)`</code>. The lesser P(f)
+is, for any given morphism, the better.
+
+We'll analyse all morphisms of our category, and annotate them with their
+performance. We'll represent an annotated morphism <code>`f`</code> as <code>`(f, P(f))`</code>. Like so:
+
+<img src="../assets/ctp-cat-perf.svg" alt="![Category w/ Performance Analysis](../assets/ctp-cat-perf.svg)" />
+
+For this post, I'll say that &quot;two morphisms are equal&quot; to mean the condition
+above, that two morphisms &quot;behave&quot; in the same way; and I'll say that &quot;two
+morphisms are the same&quot;, iff they're really the same. Think of two different
+implementations of a certain abstract algorithm. Both implementations perform
+the same operation, but they're not the same implementation; they (may
+possibly) have different properties. We're interested in performance here.
+
+So, two equal morphisms <code>`f`</code> and <code>`g`</code> do not necessarily have equal performance:
+<code>`f = g =/&gt; P(f) = P(g)`</code>.
+
+Obviously, <code>`P(f) = P(g) =/&gt; f = g`</code>, and <code>`P(f) != P(g) =/&gt; f != g`</code>, but this
+doesn't add much to our toolbox.
+
+Now, from our original category, we'll forsake <code>`g`</code>, because who cares, and
+we'll add to it a morphism <code>`h`</code> equal to <code>`f`</code>.
+
+<img src="../assets/ctp-cat-perf-h.svg" alt="![Category w/ Performance Analysis &amp; h](../assets/ctp-cat-perf-h.svg)" />
+
+Because <code>`f = h`</code>, improving the performance of our program, without changing its
+results, consists in choosing the morphism with better performance. If
+<code>`P(f) &lt; P(h)`</code>, choose <code>`f`</code>; if <code>`P(h) &lt; P(f)`</code>, choose <code>`h`</code>; otherwise, ask
+your mirror for the prettier of the two.
+
+&quot;What's this all good for?&quot; you may ask! Nothing, really, if you don't use it.
+We like imagining, so we'll do it once more: there's a complicated (imaginary)
+category representing our complicated (imaginary) program, with performance
+annotations. The program takes an input <code>`I`</code> and transforms it into some output
+<code>`O`</code>. For simplicity, we'll only represent the most performant morphism between
+each two objects. And because naming is hard, a morphism between <code>`X`</code> and <code>`Y`</code>
+will be named <code>`xy`</code>: <code>`xy : X -&gt; Y`</code>.
+
+<img src="../assets/ctp-complicated-cat.svg" alt="![Complicated Category](../assets/ctp-complicated-cat.svg)" />
+
+Omitted labels because they clutter too much. {X, Y, Z, W} form a complete
+graph. Now finding the most performant way to write our program, is finding the
+shortest weighted path between <code>`I`</code> and <code>`O`</code>. The hardest part is comming up with
+different implementations and analysing their performance, really, because even
+a <em>_computer_</em> can find the best way to write the program.
 
 </body>
 <footer>
