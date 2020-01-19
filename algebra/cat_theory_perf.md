@@ -1,7 +1,7 @@
 # Category Theory and Performance
 
-Imagine for a second that we understand Category Theory. Now imagine that we
-have a fancy category, representing a part of a program, with two objects `X`
+Imagine for a second that we understand [Category Theory][ct]. Now imagine that we
+have a fancy [category][cat], representing a part of a program, with two objects `X`
 and `Y` (representing the input and output types of our program respectively),
 and morphisms `f : X -> Y` and `g : Y -> X` (because this is a category). This
 is what we have:
@@ -58,3 +58,6 @@ graph. Now finding the most performant way to write our program, is finding the
 shortest weighted path between `I` and `O`. The hardest part is comming up with
 different implementations and analysing their performance, really, because even
 a _computer_ can find the best way to write the program.
+
+[ct]: https://en.wikipedia.org/wiki/Category_theory
+[cat]: https://en.wikipedia.org/wiki/Category_(mathematics)
