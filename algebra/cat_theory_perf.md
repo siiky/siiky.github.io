@@ -8,10 +8,10 @@ is what we have:
 
 ![Category](../assets/ctp-cat.svg)
 
-Image now that there's a (reasonable) way to determine if two morphisms are
+Imagine now that there's a (reasonable) way to determine if two morphisms are
 equal. Given `f, g : X -> Y`: `f = g <=> forall x in X: f(x) = g(x)`.
 
-Image there's also a way to analyse performance of a given morphism. We'll
+Imagine there's also a way to analyse performance of a given morphism. We'll
 represent the performance of a given morphism `f` as `P(f)`. The lesser P(f)
 is, for any given morphism, the better.
 
