@@ -1,0 +1,109 @@
+
+<html lang="en">
+<head>
+<style>/*
+ * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
+ * gray: #101010
+ * magenta: #F92672
+ * blue: #66D9EF
+ * green: #A6E22E
+ * orange: #FD971F
+ */
+body {
+    background-color:#101010;
+    color:#FD971F;
+    font-family:monospace;
+    font-size:13px;
+    text-align:left;
+    white-space:pre;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#A6E22E;
+    text-decoration:bold;
+}
+
+h1 { font-size:19px; }
+h2 { font-size:18px; }
+h3 { font-size:17px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
+
+a {
+    color:#66D9EF;
+    text-decoration:none
+}
+
+a:visited {
+    color:#A6E22E
+}
+
+a:hover {
+    background-color:#66D9EF;
+    color:#101010;
+    text-decoration:underline
+}
+</style>
+<meta charset="UTF-8" />
+<title>server_stuffs/seamless_updates.md</title></head>
+<body>
+<h1># Seamless Updates
+</h1>
+<h2>## Context
+</h2>You have a server (HW &amp; SW) up and running; clients are connected to it; they
+need constant connection to function; the server starts to smoke; you sense
+it's the beginnings of a fire; you have to shut it down before you can put the
+fire out and put it in some rice to boot it up again right after; before the
+server burns down in flames you have just enough time to do updates; you take
+the chance because you're never gonna get another like this one!
+
+Updating SW is ezpz with hot code reload, so we'll consider that a solved
+problem and only care about updates that require a HW reboot, e.g., OS packages
+updates.
+
+
+<h2>## Problem
+</h2>How to update the server in a way the clients don't notice the server has
+been/is being updated? The clients (the program itself) may know the server is
+going down, but funcionality must not be interrupted, i.e., the user (someone
+or something interacting with the client program) shouldn't be able to notice
+it.
+
+
+<h2>## (Idea on) How to (Possibly) Solve the Problem
+</h2>Let's call the currently running server (HW&amp;SW) that is on fire <code>`current_srv`</code>.
+Let's assume we have another similar server (HW&amp;SW) that is fully updated with
+the latest OS packages and server SW, but is real nice and cool and not on fire
+and ready to go! We'll call it <code>`next_srv`</code>.
+
+
+<h3>### High Level
+</h3><code>`current_srv`</code> tells the clients &quot;Yo, goin' away for a while&quot;.
+
+&quot;OHMYGAWD! What happened? Tell me everything!&quot; say the clients.
+
+&quot;None o' yo' goddamn biz! But fret not, for I've a friend 'ere ready to
+handle all'yer needs.&quot;
+
+&quot;Fine, if you're gonna be like that...&quot;
+
+(<strong>**<em>_enter <code>`next_srv`</code>_</em>**</strong>)
+
+Here is where they part ways; the clients mind their own biz, start chatting
+with <code>`next_srv`</code>, and a coupla messages later they completely forget about
+<code>`current_srv`</code>.
+
+However, it is not so easy for <code>`current_srv`</code>. It knows the relationships have
+to end, but it still wants what's best for the clients, and so, in the
+background, it shares all their secrets with <code>`next_srv`</code>.
+
+<code>`current_srv`</code> can now finally take a nap and bathe in sweet white dry rice.
+
+
+<h3>### With More Detail
+</h3></body>
+<footer>
+places:
+<a href="https://siiky.github.io">Go home!</a>
+<a href="https://github.com/siiky">GitHub</a></footer></html>

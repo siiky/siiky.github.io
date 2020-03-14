@@ -4,11 +4,12 @@ PNG := $(GV:.gv=.png)
 SVG := $(GV:.gv=.svg)
 
 DIRS := \
-    -D algebra/ \
-    -D scheme/  \
-    -D ssg/     \
-    -D todo/    \
-    -D words/   \
+    -D algebra/       \
+    -D scheme/        \
+    -D server_stuffs/ \
+    -D ssg/           \
+    -D todo/          \
+    -D words/         \
 
 all: html $(PNG) $(SVG)
 

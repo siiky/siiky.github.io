@@ -7,6 +7,9 @@
           (ent "./exceptions.md" "2019/08/13 20:40" "Exceptions in Scheme")
           (ent "./kless.md" "2019/10/13 23:00" "kless")
           )
+     #;(dir "server_stuffs"
+          (ent "./seamless_updates.md" "2020/03/13 23:30" "Idea on how to update a server (HW & SW) seamlessly")
+          )
      (dir "ssg"
           (ent "./page.md" "2017/03/06 15:30" "simple static site generator (idea)")
           ;(ent "./lib.md" "2019/10/18 23:00" "SSG, the Library")
