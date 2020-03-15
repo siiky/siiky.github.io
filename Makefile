@@ -11,10 +11,13 @@ DIRS := \
     -D todo/          \
     -D words/         \
 
-all: html $(PNG) $(SVG)
+all: $(SVG) html
 
 html:
 	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm
+
+watch:
+	find $(wildcard */*.md) $(wildcard */*.gvs) -type f | entr -c make
 
 %.png: %.gv
 	dot -Tpng -o $@ $<
@@ -25,4 +28,4 @@ html:
 %.gv: %.gvs
 	gvs2gv $<
 
-.PHONY: all html
+.PHONY: all html watch

@@ -102,7 +102,18 @@ background, it shares all their secrets with <code>`next_srv`</code>.
 
 
 <h3>### With More Detail
-</h3></body>
+</h3>Start <code>`next_srv`</code>. Tell <code>`current_srv`</code> it's time, how to contact <code>`next_srv`</code>, and
+how clients can connect to <code>`next_srv`</code>. <code>`current_srv`</code> tells the clients to
+connect to <code>`next_srv`</code>. The clients start connecting to <code>`next_srv`</code>. When a
+client connects to <code>`next_srv`</code>, it tells <code>`current_srv`</code> it's done so. The client
+doesn't start communicating with <code>`next_srv`</code> just yet. <code>`current_srv`</code> syncs with
+<code>`next_srv`</code>, by sending it the current game state, and then tells the client to
+start communicating with <code>`next_srv`</code>. Now the client should stop communicating
+with <code>`current_srv`</code> and can disconnect from it. This syncing phase is where lag
+may happen and state may be screwed, but this should be minimal, assuming
+<code>`current_srv`</code> and <code>`next_srv`</code> have a fast connection between each other.
+
+</body>
 <footer>
 places:
 <a href="https://siiky.github.io">Go home!</a>

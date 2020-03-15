@@ -52,3 +52,14 @@ background, it shares all their secrets with `next_srv`.
 `current_srv` can now finally take a nap and bathe in sweet white dry rice.
 
 ### With More Detail
+
+Start `next_srv`. Tell `current_srv` it's time, how to contact `next_srv`, and
+how clients can connect to `next_srv`. `current_srv` tells the clients to
+connect to `next_srv`. The clients start connecting to `next_srv`. When a
+client connects to `next_srv`, it tells `current_srv` it's done so. The client
+doesn't start communicating with `next_srv` just yet. `current_srv` syncs with
+`next_srv`, by sending it the current game state, and then tells the client to
+start communicating with `next_srv`. Now the client should stop communicating
+with `current_srv` and can disconnect from it. This syncing phase is where lag
+may happen and state may be screwed, but this should be minimal, assuming
+`current_srv` and `next_srv` have a fast connection between each other.
