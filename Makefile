@@ -17,7 +17,7 @@ html:
 	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm
 
 watch:
-	find $(wildcard */*.md) $(wildcard */*.gvs) -type f | entr -c make
+	find index.scm $(wildcard */*.md) $(wildcard */*.gvs) -type f | entr -c make
 
 %.png: %.gv
 	dot -Tpng -o $@ $<
