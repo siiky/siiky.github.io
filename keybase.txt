@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/siiky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://siiky.github.io
+  * I am siiky (https://keybase.io/siiky) on keybase.
+  * I have a public key with fingerprint 90C9 3FC0 E25F 5802 7323  9441 F50D 7730 21DE 1CE7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204cc14b623c0a19dc2313a20df3e2868abaafd3f3c70442c8bad501f6665f853a0a",
+      "fingerprint": "90c93fc0e25f580273239441f50d773021de1ce7",
+      "host": "keybase.io",
+      "key_id": "f50d773021de1ce7",
+      "kid": "01010cda23f0a2c71eb1462e28f4d7a79854a274d5d347165f6f4cc5453f31aa757f0a",
+      "uid": "d2d2384311e391cb8079067f57257b19",
+      "username": "siiky"
+    },
+    "service": {
+      "hostname": "siiky.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1588186358,
+  "expire_in": 157680000,
+  "prev": "5677f9bb5c6bda95a1b0d22c914f58b2c470155b51ff18fd36239de94d287a6a",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN1AnicbVJrTBRXFF6obAvyCjZGtKtlWhFaHnNn5s6doS2liU1Ma0RQtAZhO89l
+srC77C6vErRURAEFkpaUuEopQkQjLUK1YgiiRSGAlCYNFTGglkegINQCSnjYWVqT
+/ui9P27uOd/57vedc9u8XtJ4uMx5ZeABg6+NuXTdKE/TJJ7vns/GeLOYhUVkY0Zp
+9ZCSRclm1xsVEYvAcEDglCAAiqcJUsA5wIoCQQKSI3BRJiWCoRmO5zhZJGVSQDhF
+EQLDcyLEgUzTNJQZSHI4h4VgsmIySFaLVTHZVVoWF1hSFnCJgDJkcAKRBMlSFJAh
+LiJE4gQQJSBISC1MMtucFao4nrNJYYpZjakX/aq8/8G/0K1uQeQIUsY5QkBA4gFF
+E6pgmRIRh1gGUhyBKBGKJIWAqpSWVZ+QgqoRwHEIInlVd9oqnUiIBMlQJAASyQKB
+Z3DE4jSSISIg4gHrBNokq4lLkVS0TVGMWVhOCKaG0hVBcnbVaeO/6TCDYk9K4//x
+Y7Ga7WbBnKwmk+x2iy3CWWzPsjjRGRKv/5dHzysmUe2jWpEuWW2K2YRFABUp2BUn
+MYAMAxiahEwIJmVaFKukV5wIiGgGV5fzHSldpYQ0QjLL81CgeZFjIQd4XCQIgQWU
+Og2eECiEAwh5CGQZMOps1dmzosRSIsEgjna2xSalmswqN1J1coZVUwYTZ0+zSljO
+zRsH12hcPDRaN1fnB9N4uPu++HbHWnxWwk4Nzh/9fKVi3O18+PHq0sO7R3QH4gu+
+rpsKdZg6tcFRudc+vdsU+HGMbtep0aKd9U1ZJd0b1z5tNZ6uXOo4atSZU4cm/fcC
+sq/ZUP9j6bey93D9xdaNyz1PzIVnwzcPrY3pSY0tuyPW7nsj1ejuWfJRhO9ESnuC
+Yyawf3Khx3f/2Zfn4Jl2sqEpTOuLHIsdV+5EJj/M/WngaXim/3O51udB0OGJ4U0e
+B47sDS81vgtt39/zWy4Kfjzos941+naBbnx39Fzkhq4j5oyUomHPSUNNld7KvfUs
+iPktITVqNiq83/5N8RlY9ey9XVWPDs7eGntS3lHm2ZX/SXZNxTvJ41cTHS3h7tua
+1+gSd4y69V3q8YudLcxbqDUei4utInsnqkOVCxPDbxben25tSb/sfaiYix0YaV+q
++eu7hAcK2uQaMLN1g+F590NDY+eFgJZf20+Ouf95qaE5c+qEj/Fqf2azo+n6Na+L
+HkHaLcXn0n9YD6K02rf943eUNEjn3HIem/Nf3Szj+UvS/vKtl3sbr5dZGmfq4upP
+7NwWFTWgW1i5ue943mLf9AD9YQEs0DTdW94ze6v/s98XDR+MzPfevt/mPhQdNO7w
+006/4hcamFMxdsjm+8ujvOLhL10r47764oo1cKigupKoi/Fe5+5bXpf+fq539FTn
+HrTl9Z/vbl/3x2jw6fjtRCTV9jdgRckK
+=RtQr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/siiky
+
+==================================================================
