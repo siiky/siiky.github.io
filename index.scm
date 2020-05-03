@@ -18,7 +18,11 @@
      (dir "words"
           (ent "./slpod.md" "2017/03/04 22:00" "SLPOD - a simple, suckless podcatcher (idea)")
           )
+     #;(dir "functional_programming"
+          (ent "./mutability.md" "2020/04/10 18:30" "Mutability")
+          )
      #;(dir "todo"
-     (ent "./sbn.md" "Small Big Numbers")
-     (ent "./gv-dsl.md" "GraphViz Scheme DSL"))
+          (ent "./sbn.md" "Small Big Numbers")
+          (ent "./gv-dsl.md" "GraphViz Scheme DSL")
+          )
 )
