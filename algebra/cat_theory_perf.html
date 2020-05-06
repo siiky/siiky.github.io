@@ -60,11 +60,11 @@ is what we have:
 Imagine now that there's a (reasonable) way to determine if two morphisms are
 equal. Given <code>`f, g : X -&gt; Y`</code>: <code>`f = g &lt;=&gt; forall x in X: f(x) = g(x)`</code>.
 
-Imagine there's also a way to analyse performance of a given morphism. We'll
+Imagine there's also a way to analyze performance of a given morphism. We'll
 represent the performance of a given morphism <code>`f`</code> as <code>`P(f)`</code>. The lesser P(f)
 is, for any given morphism, the better.
 
-We'll analyse all morphisms of our category, and annotate them with their
+We'll analyze all morphisms of our category, and annotate them with their
 performance. We'll represent an annotated morphism <code>`f`</code> as <code>`(f, P(f))`</code>. Like so:
 
 <img src="../assets/ctp-cat-perf.svg" alt="![Category w/ Performance Analysis](../assets/ctp-cat-perf.svg)" />
@@ -104,8 +104,8 @@ will be named <code>`xy`</code>: <code>`xy : X -&gt; Y`</code>.
 
 Omitted labels because they clutter too much. {X, Y, Z, W} form a complete
 graph. Now finding the most performant way to write our program, is finding the
-shortest weighted path between <code>`I`</code> and <code>`O`</code>. The hardest part is comming up with
-different implementations and analysing their performance, really, because even
+shortest weighted path between <code>`I`</code> and <code>`O`</code>. The hardest part is coming up with
+different implementations and analyzing their performance, really, because even
 a <em>_computer_</em> can find the best way to write the program.
 
 </body>

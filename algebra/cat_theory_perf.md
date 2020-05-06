@@ -11,11 +11,11 @@ is what we have:
 Imagine now that there's a (reasonable) way to determine if two morphisms are
 equal. Given `f, g : X -> Y`: `f = g <=> forall x in X: f(x) = g(x)`.
 
-Imagine there's also a way to analyse performance of a given morphism. We'll
+Imagine there's also a way to analyze performance of a given morphism. We'll
 represent the performance of a given morphism `f` as `P(f)`. The lesser P(f)
 is, for any given morphism, the better.
 
-We'll analyse all morphisms of our category, and annotate them with their
+We'll analyze all morphisms of our category, and annotate them with their
 performance. We'll represent an annotated morphism `f` as `(f, P(f))`. Like so:
 
 ![Category w/ Performance Analysis](../assets/ctp-cat-perf.svg)
@@ -55,8 +55,8 @@ will be named `xy`: `xy : X -> Y`.
 
 Omitted labels because they clutter too much. {X, Y, Z, W} form a complete
 graph. Now finding the most performant way to write our program, is finding the
-shortest weighted path between `I` and `O`. The hardest part is comming up with
-different implementations and analysing their performance, really, because even
+shortest weighted path between `I` and `O`. The hardest part is coming up with
+different implementations and analyzing their performance, really, because even
 a _computer_ can find the best way to write the program.
 
 [ct]: https://en.wikipedia.org/wiki/Category_theory

@@ -22,7 +22,7 @@ early return?).
 
 A neat way to _catch_ exceptions is with [`condition-case`][0]. You give it an
 expression to evaluate, give it the kinds of exceptions you are expecting and
-how to deal with them, and voilà:
+how to deal with them, and voila:
 
 ```scm
 ; General usage

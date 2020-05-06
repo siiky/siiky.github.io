@@ -17,7 +17,7 @@ updates.
 
 How to update the server in a way the clients don't notice the server has
 been/is being updated? The clients (the program itself) may know the server is
-going down, but funcionality must not be interrupted, i.e., the user (someone
+going down, but functionality must not be interrupted, i.e., the user (someone
 or something interacting with the client program) shouldn't be able to notice
 it.
 
