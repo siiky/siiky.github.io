@@ -15,31 +15,31 @@
 
      (dir "ssg"
           (ent "./page.md" "2017/03/06 15:30" "simple static site generator (idea)")
-          ;(ent "./lib.md" "2019/10/18 23:00" "SSG, the Library")
-          ;(ent "./site.md" "" "SSG, Your own, personal, Static Site Generator")
+          (ent wip "./lib.md" "2019/10/18 23:00" "SSG, the Library")
+          (ent wip "./site.md" "" "SSG, Your own, personal, Static Site Generator")
           )
 
      (dir "words"
           (ent "./slpod.md" "2017/03/04 22:00" "SLPOD - a simple, suckless podcatcher (idea)")
           )
 
-     #;(dir "philosophy"
+     (dir wip "philosophy"
           (ent "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
           (ent "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
           (ent "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
           )
 
-     #;(dir "work"
+     (dir wip "work"
           (ent "./credit.md" "2020/04/30" "Credit")
           (ent "./to_do_or_not_to_do.md" "2020/04/30" "To do or not to do... That is the Question")
           )
 
-     #;(dir "functional_programming"
+     (dir wip "functional_programming"
           (ent "./immutability.md" "2020/04/10 18:30" "Mutability")
           )
 
-     #;(dir "todo"
+     (dir wip "todo"
           (ent "./sbn.md" "Small Big Numbers")
           (ent "./gv-dsl.md" "GraphViz Scheme DSL")
           )
-)
+     )
