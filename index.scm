@@ -21,6 +21,7 @@
 
      (dir "words"
           (ent "./slpod.md" "2017/03/04 22:00" "SLPOD - a simple, suckless podcatcher (idea)")
+          (ent "./quotes.md" "2020/05/26 17:00" "just quotes")
           )
 
      (dir wip "philosophy"
