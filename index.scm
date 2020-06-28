@@ -24,10 +24,11 @@
 	  (ent "./quotes.md" "2020/05/26 17:00" "just quotes")
 	  )
 
-     (dir wip "philosophy"
-	  (ent "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
-	  (ent "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
-	  (ent "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
+     (dir "philosophy"
+	  (ent wip "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
+	  (ent wip "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
+	  (ent wip "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
+	  (ent wip "identity.md" "2020/06/28" "Identity")
 	  )
 
      (dir wip "work"
