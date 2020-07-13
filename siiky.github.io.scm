@@ -1,5 +1,8 @@
+#!/usr/bin/env -S csi -s
+
 (import
-  (only srfi-1 assoc)
+  (only srfi-1 any assoc)
+  (only srfi-13 string-any string-concatenate)
   (prefix ssg |ssg:|)
   (prefix ssg.css |ssg:|)
   (prefix ssg.index |ssg:|)
@@ -10,10 +13,10 @@
 ; http://www.more-magic.net/docs/scheme/sxslt.pdf
 (define (make-sxml-custom-rules)
   (define (page _ title css . content)
-    (let ((css (ssg:css-content css)))
+    (let ((css (and css `(style ,(ssg:css-content css)))))
       `(html (@ (lang "en"))
-             (head ,css ; it seems #f is ignored
-                   (meta (@ (charset "UTF-8")))
+             (head (meta (@ (charset "UTF-8"))) "\n"
+                   ,css ; it seems #f is ignored
                    (title ,title))
              (body ,content)
              (footer
@@ -33,12 +36,12 @@
   (define (l _ ref) `(a (@ (href ,ref)) ,ref "\n"))
   (define (toc _ . entries) `(ul ,entries))
   (define (img _ attrs)
-    (let* ((attrs (cdr attrs))
-           (src (cadr (assoc 'src attrs eq?)))
-           (alt (cdr  (assoc 'alt attrs eq?)))
-           (alt (string-concatenate
-                  `("![" ,@(or alt '("")) "](" ,@(or src '("")) ")"))))
-      `(img (@ (src ,src) (alt ,alt)))))
+    (let ((attrs (cdr attrs)))
+      (let((src (cadr (assoc 'src attrs eq?)))
+           (alt (cdr  (assoc 'alt attrs eq?))))
+        (let ((alt (string-concatenate
+                     `("![" ,@(or alt '("")) "](" ,@(or src '("")) ")"))))
+          `(img (@ (src ,src) (alt ,alt)))))))
   (define (code _ . content)
     (if (and (not (null? content))
              (any (lambda (str) (string-any #\newline str)) content))
@@ -71,27 +74,27 @@
   (ssg:idx "nothing interesting here"
            (ssg:dir "algebra"
                     (ssg:ent "./groups.md" "" "A quick intro to Group Theory")
-                    (ssg:ent "./cat_theory_perf.md" "2019/10/15 22:00" "Category Theory for performance optimization")
+                    (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory for performance optimization")
                     )
 
            (ssg:dir "scheme"
-                    (ssg:ent "./exceptions.md" "2019/08/13 20:40" "Exceptions in Scheme")
-                    (ssg:ent "./kless.md" "2019/10/13 23:00" "kless")
+                    (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
+                    (ssg:ent "./kless.md" "2019/10/13" "kless")
                     )
 
            (ssg:dir "server_stuffs"
-                    (ssg:ent "./seamless_updates.md" "2020/03/13 23:30" "Seamless Updates")
+                    (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
                     )
 
            (ssg:dir "ssg"
-                    (ssg:ent "./page.md" "2017/03/06 15:30" "simple static site generator (idea)")
-                    (ssg:ent 'wip "./lib.md" "2019/10/18 23:00" "SSG, the Library")
+                    (ssg:ent "./page.md" "2017/03/06" "simple static site generator (idea)")
+                    (ssg:ent 'wip "./lib.md" "2019/10/18" "SSG, the Library")
                     (ssg:ent 'wip "./site.md" "" "SSG, Your own, personal, Static Site Generator")
                     )
 
            (ssg:dir "words"
-                    (ssg:ent "./slpod.md" "2017/03/04 22:00" "SLPOD - a simple, suckless podcatcher (idea)")
-                    (ssg:ent "./quotes.md" "2020/05/26 17:00" "just quotes")
+                    (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
+                    (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
                     )
 
            (ssg:dir "philosophy"
@@ -107,7 +110,7 @@
                     )
 
            (ssg:dir 'wip "functional_programming"
-                    (ssg:ent "./immutability.md" "2020/04/10 18:30" "Immutability")
+                    (ssg:ent "./immutability.md" "2020/04/10" "Immutability")
                     )
 
            (ssg:dir 'wip "todo"

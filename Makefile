@@ -20,7 +20,7 @@ DIRS := \
 all: $(SVG) html
 
 html: $(MD)
-	ssg -v --do-it -s assets/monokai.css $(DIRS) -i index.scm
+	./siiky.github.io.scm
 
 watch:
 	find index.scm $(MD) $(GVS) -type f | entr -c make
