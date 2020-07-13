@@ -71,53 +71,56 @@
     (*default* . ,*default*)))
 
 (define index
-  (ssg:idx "nothing interesting here"
-           (ssg:dir "algebra"
-                    (ssg:ent "./groups.md" "" "A quick intro to Group Theory")
-                    (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory for performance optimization")
-                    )
+  (let ((wip 'wip))
+    (ssg:idx "nothing interesting here"
+             (ssg:dir "algebra"
+                      (ssg:ent "./groups.md" "2019/01/01" "A quick intro to Group Theory")
+                      (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory for performance optimization")
+                      (ssg:ent wip "./functors.md" "2019/10/15" "Functors")
+                      )
 
-           (ssg:dir "scheme"
-                    (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
-                    (ssg:ent "./kless.md" "2019/10/13" "kless")
-                    )
+             (ssg:dir "scheme"
+                      (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
+                      (ssg:ent "./kless.md" "2019/10/13" "kless")
+                      )
 
-           (ssg:dir "server_stuffs"
-                    (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
-                    )
+             (ssg:dir "server_stuffs"
+                      (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
+                      )
 
-           (ssg:dir "ssg"
-                    (ssg:ent "./page.md" "2017/03/06" "simple static site generator (idea)")
-                    (ssg:ent 'wip "./lib.md" "2019/10/18" "SSG, the Library")
-                    (ssg:ent 'wip "./site.md" "" "SSG, Your own, personal, Static Site Generator")
-                    )
+             (ssg:dir "ssg"
+                      (ssg:ent "./page.md" "2017/03/06" "simple static site generator (idea)")
+                      (ssg:ent wip "./lib.md" "2019/10/18" "SSG, the Library")
+                      (ssg:ent wip "./site.md" "2018/01/01" "SSG, Your own, personal, Static Site Generator")
+                      )
 
-           (ssg:dir "words"
-                    (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
-                    (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
-                    )
+             (ssg:dir "words"
+                      (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
+                      (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
+                      )
 
-           (ssg:dir "philosophy"
-                    (ssg:ent 'wip "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
-                    (ssg:ent 'wip "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
-                    (ssg:ent 'wip "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
-                    (ssg:ent 'wip "identity.md" "2020/06/28" "Identity")
-                    )
+             (ssg:dir "philosophy"
+                      (ssg:ent wip "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
+                      (ssg:ent wip "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
+                      (ssg:ent wip "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
+                      (ssg:ent wip "identity.md" "2020/06/28" "Identity")
+                      )
 
-           (ssg:dir 'wip "work"
-                    (ssg:ent "./credit.md" "2020/04/30" "Credit")
-                    (ssg:ent "./to_do_or_not_to_do.md" "2020/04/30" "To do or not to do... That is the Question")
-                    )
+             (ssg:dir wip "work"
+                      (ssg:ent "./credit.md" "2020/04/30" "Credit")
+                      (ssg:ent "./to_do_or_not_to_do.md" "2020/04/30" "To do or not to do... That is the Question")
+                      )
 
-           (ssg:dir 'wip "functional_programming"
-                    (ssg:ent "./immutability.md" "2020/04/10" "Immutability")
-                    )
+             (ssg:dir wip "functional_programming"
+                      (ssg:ent "./immutability.md" "2020/04/10" "Immutability")
+                      )
 
-           (ssg:dir 'wip "todo"
-                    (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
-                    (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz Scheme DSL")
-                    )
-           )
+             (ssg:dir wip "todo"
+                      (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
+                      (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz Scheme DSL")
+                      )
+             )
+    )
   )
 
 (define converter-table (ssg:make-converter-table ("md" "html" ssg:md->html)))
