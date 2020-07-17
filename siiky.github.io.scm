@@ -1,13 +1,40 @@
 #!/usr/bin/env -S csi -s
 
 (import
-  (only srfi-1 any assoc)
+  (only chicken.process-context command-line-arguments)
+
+  (only srfi-1 any assoc member)
   (only srfi-13 string-any string-concatenate)
-  (prefix ssg |ssg:|)
-  (prefix ssg.css |ssg:|)
-  (prefix ssg.index |ssg:|)
-  (prefix ssg.md2html |ssg:|)
-  (prefix ssg.site |ssg:|)
+
+  (prefix
+    (only ssg
+          ssg)
+    |ssg:|)
+
+  (prefix
+    (only ssg.css
+          css-content
+          css-file)
+    |ssg:|)
+
+  (prefix
+    (only ssg.index
+          dir
+          ent
+          idx)
+    |ssg:|)
+
+  (prefix
+    (only ssg.converters.lowdown
+          idx->html
+          md->html)
+    |ssg:|)
+
+  (prefix
+    (only ssg.site
+          make-converter-table
+          site)
+    |ssg:|)
   )
 
 ; http://www.more-magic.net/docs/scheme/sxslt.pdf
@@ -134,5 +161,6 @@
     #:index index
     #:index-maker index-maker
     #:sxml-custom-rules (make-sxml-custom-rules)
+    #:force-redo? (member "--force-redo" (command-line-arguments) string=?)
     )
   )
