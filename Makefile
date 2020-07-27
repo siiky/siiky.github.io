@@ -17,13 +17,18 @@ DIRS := \
     -D work/                   \
     -D philosophy/             \
 
-all: $(SVG) html
+all: cv $(SVG) html
 
-html: $(MD)
+html: $(HTML)
 	./siiky.github.io.scm
 
 watch:
-	find index.scm $(MD) $(GVS) -type f | entr -c make
+	find cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
+
+cv: cv-en.pdf
+
+cv-en.pdf: cv-en.md cv-en.template.latex
+	pandoc -s -f markdown --template cv-en.template.latex -t latex cv-en.md -o cv-en.pdf
 
 %.png: %.gv
 	dot -Tpng -o $@ $<
@@ -39,4 +44,4 @@ spell: $(SPELL)
 %.spell: %.md
 	aspell -c $<
 
-.PHONY: all html watch spell
+.PHONY: all cv html watch spell
