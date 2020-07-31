@@ -55,34 +55,4 @@
     <updated></updated>
     <link href="https://siiky.github.io/words/quotes.html" rel="alternate" type="text/html" />
   </entry>
-  <entry>
-    <id>https://siiky.github.io/work/credit.md</id>
-    <title type="text">Credit</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/work/credit.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/work/to_do_or_not_to_do.md</id>
-    <title type="text">To do or not to do... That is the Question</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/work/to_do_or_not_to_do.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/functional_programming/immutability.md</id>
-    <title type="text">Immutability</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/functional_programming/immutability.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/todo/sbn.md</id>
-    <title type="text">Small Big Numbers</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/todo/sbn.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/todo/gv-dsl.md</id>
-    <title type="text">GraphViz Scheme DSL</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/todo/gv-dsl.html" rel="alternate" type="text/html" />
-  </entry>
 </feed>
