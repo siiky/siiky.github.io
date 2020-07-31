@@ -31,11 +31,18 @@
     |ssg:|)
 
   (prefix
+    (only ssg.feed
+          feed-options)
+    |ssg:|)
+
+  (prefix
     (only ssg.site
           make-converter-table
           site)
     |ssg:|)
   )
+
+(define-constant feed-output-path "atom.xml")
 
 ; http://www.more-magic.net/docs/scheme/sxslt.pdf
 (define (make-sxml-custom-rules)
@@ -49,7 +56,8 @@
              (footer
                "\nplaces:\n"
                (a (@ (href "https://siiky.github.io")) "Go home!") "\n"
-               (a (@ (href "https://github.com/siiky")) "GitHub")))))
+               (a (@ (href "https://github.com/siiky")) "GitHub") "\n"
+               (a (@ (href ,(string-append "https://siiky.github.io/" feed-output-path))) "Atom Feed")))))
 
   (define (*text* _ str) str)
   (define (*default* . x) x)
@@ -154,8 +162,15 @@
 (define css (ssg:css-file "assets/monokai.css"))
 (define index-maker ssg:idx->html)
 
+(define feed (ssg:feed-options
+               #:authors "siiky"
+               #:id "https://siiky.github.io"
+               #:path feed-output-path
+               #:type 'atom))
+
 (ssg:ssg
   (ssg:site
+    #:feed feed
     #:converter-table converter-table
     #:css css
     #:index index
