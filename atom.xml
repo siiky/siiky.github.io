@@ -8,46 +8,10 @@
   <title type="text">nothing interesting here</title>
   <updated></updated>
   <entry>
-    <id>https://siiky.github.io/algebra/groups.md</id>
-    <title type="text">A quick intro to Group Theory</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/algebra/groups.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/algebra/cat_theory_perf.md</id>
-    <title type="text">Category Theory for performance optimization</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/algebra/cat_theory_perf.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
     <id>https://siiky.github.io/algebra/functors.md</id>
     <title type="text">Functors</title>
     <updated></updated>
     <link href="https://siiky.github.io/algebra/functors.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/scheme/exceptions.md</id>
-    <title type="text">Exceptions in Scheme</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/scheme/exceptions.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/scheme/kless.md</id>
-    <title type="text">kless</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/scheme/kless.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/server_stuffs/seamless_updates.md</id>
-    <title type="text">Seamless Updates</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/server_stuffs/seamless_updates.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/ssg/page.md</id>
-    <title type="text">simple static site generator (idea)</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/ssg/page.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
     <id>https://siiky.github.io/ssg/lib.md</id>
@@ -60,18 +24,6 @@
     <title type="text">SSG, Your own, personal, Static Site Generator</title>
     <updated></updated>
     <link href="https://siiky.github.io/ssg/site.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/words/slpod.md</id>
-    <title type="text">SLPOD - a simple, suckless podcatcher (idea)</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/words/slpod.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/words/quotes.md</id>
-    <title type="text">just quotes</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/words/quotes.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
     <id>https://siiky.github.io/philosophy/descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md</id>
@@ -96,35 +48,5 @@
     <title type="text">Identity</title>
     <updated></updated>
     <link href="https://siiky.github.io/philosophy/identity.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/work/credit.md</id>
-    <title type="text">Credit</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/work/credit.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/work/to_do_or_not_to_do.md</id>
-    <title type="text">To do or not to do... That is the Question</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/work/to_do_or_not_to_do.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/functional_programming/immutability.md</id>
-    <title type="text">Immutability</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/functional_programming/immutability.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/todo/sbn.md</id>
-    <title type="text">Small Big Numbers</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/todo/sbn.html" rel="alternate" type="text/html" />
-  </entry>
-  <entry>
-    <id>https://siiky.github.io/todo/gv-dsl.md</id>
-    <title type="text">GraphViz Scheme DSL</title>
-    <updated></updated>
-    <link href="https://siiky.github.io/todo/gv-dsl.html" rel="alternate" type="text/html" />
   </entry>
 </feed>
