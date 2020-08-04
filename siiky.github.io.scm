@@ -1,10 +1,12 @@
 #!/usr/bin/env -S csi -s
 
 (import
+  (only chicken.keyword keyword?)
   (only chicken.process-context command-line-arguments)
 
   (only srfi-1 any assoc member)
   (only srfi-13 string-any string-concatenate)
+  matchable
 
   (prefix
     (only ssg
@@ -166,7 +168,17 @@
 
 (define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)))
 (define css (ssg:css-file "assets/monokai.css"))
-(define index-maker ssg:lowdown:idx->html)
+(define (index-maker . args)
+  (define update-css-key
+    (match-lambda
+      (() '())
+
+      ((k v . rest)
+       (if (and (keyword? k) (eq? k #:css))
+           `(,k ,(ssg:css-file "assets/index.css") . ,rest)
+           (cons k (update-css-key (cons v rest)))))))
+
+  (apply ssg:lowdown:idx->html (update-css-key args)))
 
 (define feed (ssg:feed-options
                #:authors "siiky"

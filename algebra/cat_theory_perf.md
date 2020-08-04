@@ -6,7 +6,7 @@ and `Y` (representing the input and output types of our program respectively),
 and morphisms `f : X -> Y` and `g : Y -> X` (because this is a category). This
 is what we have:
 
-![Category](../assets/ctp-cat.svg)
+![Category](assets/ctp-cat.svg)
 
 Imagine now that there's a (reasonable) way to determine if two morphisms are
 equal. Given `f, g : X -> Y`: `f = g <=> forall x in X: f(x) = g(x)`.
@@ -18,7 +18,7 @@ is, for any given morphism, the better.
 We'll analyze all morphisms of our category, and annotate them with their
 performance. We'll represent an annotated morphism `f` as `(f, P(f))`. Like so:
 
-![Category w/ Performance Analysis](../assets/ctp-cat-perf.svg)
+![Category w/ Performance Analysis](assets/ctp-cat-perf.svg)
 
 For this post, I'll say that "two morphisms are equal" to mean the condition
 above, that two morphisms "behave" in the same way; and I'll say that "two
@@ -36,7 +36,7 @@ doesn't add much to our toolbox.
 Now, from our original category, we'll forsake `g`, because who cares, and
 we'll add to it a morphism `h` equal to `f`.
 
-![Category w/ Performance Analysis & h](../assets/ctp-cat-perf-h.svg)
+![Category w/ Performance Analysis & h](assets/ctp-cat-perf-h.svg)
 
 Because `f = h`, improving the performance of our program, without changing its
 results, consists in choosing the morphism with better performance. If
@@ -51,7 +51,7 @@ annotations. The program takes an input `I` and transforms it into some output
 each two objects. And because naming is hard, a morphism between `X` and `Y`
 will be named `xy`: `xy : X -> Y`.
 
-![Complicated Category](../assets/ctp-complicated-cat.svg)
+![Complicated Category](assets/ctp-complicated-cat.svg)
 
 Omitted labels because they clutter too much. {X, Y, Z, W} form a complete
 graph. Now finding the most performant way to write our program, is finding the

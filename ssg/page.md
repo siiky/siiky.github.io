@@ -178,4 +178,4 @@ Inside `index.html`:
 (print "Hello, World!")
 ```
 
-![Jose Cid](../assets/josecid.jpg)
+![Jose Cid](assets/josecid.jpg)
