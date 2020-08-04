@@ -19,6 +19,11 @@ DIRS := \
 
 all: cv $(SVG) html
 
+force-redo: cv $(SVG) html-redo
+
+html-redo: $(HTML)
+	./siiky.github.io.scm --force-redo
+
 html: $(HTML)
 	./siiky.github.io.scm
 

@@ -28,7 +28,12 @@
     (only ssg.converters.lowdown
           idx->html
           md->html)
-    |ssg:|)
+    |ssg:lowdown:|)
+
+  (prefix
+    (only ssg.converters.pandoc
+          md->html)
+    |ssg:pandoc:|)
 
   (prefix
     (only ssg.feed
@@ -44,7 +49,8 @@
 
 (define-constant feed-output-path "atom.xml")
 
-; http://www.more-magic.net/docs/scheme/sxslt.pdf
+; NOTE: For use with ssg.converters.lowdown.
+; Read http://www.more-magic.net/docs/scheme/sxslt.pdf for more info
 (define (make-sxml-custom-rules)
   (define (page _ title css . content)
     (let ((css (and css `(style ,(ssg:css-content css)))))
@@ -158,9 +164,9 @@
     )
   )
 
-(define converter-table (ssg:make-converter-table ("md" "html" ssg:md->html)))
+(define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)))
 (define css (ssg:css-file "assets/monokai.css"))
-(define index-maker ssg:idx->html)
+(define index-maker ssg:lowdown:idx->html)
 
 (define feed (ssg:feed-options
                #:authors "siiky"
