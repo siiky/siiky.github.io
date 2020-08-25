@@ -138,6 +138,9 @@ source projects. The most notable among them:
 <https://wiki.call-cc.org/eggref/5/cis>
   ~ Found and reported a bug.
 
+<https://github.com/iraikov/chicken-unitconv>
+  ~ Changed all constants to exact numbers, which improves precision
+
 ## Areas of Interest
 
 I have a special interest in functional and distributed programming and in code

@@ -25,3 +25,15 @@ In no particular order.
 > He who knows best best knows how little he knows.
 
  -- Thomas Jefferson
+
+## 4.
+
+> Lenina shook her head. 'Was and will make me ill,' she quoted, 'I take a gramme and only am.'
+
+-- Lenina, from _Brave New World_, by Aldous Huxley
+
+## 5.
+
+> It's the triumph of superior reason to live with folks who don't have any.
+
+-- Socrates, from _Socrates_, by Voltaire ([Wikipedia](https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_(play)), [Project Gutenberg](https://www.gutenberg.org/ebooks/4683))
