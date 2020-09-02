@@ -139,7 +139,7 @@ source projects. The most notable among them:
   ~ Found and reported a bug.
 
 <https://github.com/iraikov/chicken-unitconv>
-  ~ Changed all constants to exact numbers, which improves precision
+  ~ Changed all constants to exact numbers, which improves precision.
 
 ## Areas of Interest
 

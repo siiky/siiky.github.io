@@ -4,9 +4,9 @@
   (only chicken.keyword keyword?)
   (only chicken.process-context command-line-arguments)
 
-  (only srfi-1 any assoc member)
+  (only srfi-1 any assoc)
   (only srfi-13 string-any string-concatenate)
-  matchable
+  (only matchable match-lambda)
 
   (prefix
     (only ssg
@@ -188,12 +188,12 @@
 
 (ssg:ssg
   (ssg:site
-    #:feed feed
     #:converter-table converter-table
     #:css css
+    #:feed feed
+    #:force-redo? (not (not (member "--force-redo" (command-line-arguments))))
     #:index index
     #:index-maker index-maker
     #:sxml-custom-rules (make-sxml-custom-rules)
-    #:force-redo? (member "--force-redo" (command-line-arguments) string=?)
     )
   )
