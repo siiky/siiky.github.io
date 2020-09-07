@@ -34,6 +34,7 @@
 
   (prefix
     (only ssg.converters.pandoc
+          append-default-extra-options!
           md->html)
     |ssg:pandoc:|)
 
@@ -50,6 +51,8 @@
   )
 
 (define-constant feed-output-path "atom.xml")
+
+(define ->bool (o not not))
 
 ; NOTE: For use with ssg.converters.lowdown.
 ; Read http://www.more-magic.net/docs/scheme/sxslt.pdf for more info
@@ -173,6 +176,7 @@
 
 (define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)))
 (define css (ssg:css-file "assets/monokai.css"))
+(define footer "footer.html")
 (define (index-maker . args)
   (define update-css-key
     (match-lambda
@@ -191,14 +195,17 @@
                #:path feed-output-path
                #:type 'atom))
 
-(ssg:ssg
-  (ssg:site
-    #:converter-table converter-table
-    #:css css
-    #:feed feed
-    #:force-redo? (not (not (member "--force-redo" (command-line-arguments))))
-    #:index index
-    #:index-maker index-maker
-    #:sxml-custom-rules (make-sxml-custom-rules)
+(begin
+  (ssg:pandoc:append-default-extra-options! `("-A" ,footer))
+  (ssg:ssg
+    (ssg:site
+      #:converter-table converter-table
+      #:css css
+      #:feed feed
+      #:force-redo? (->bool (member "--force-redo" (command-line-arguments)))
+      #:index index
+      #:index-maker index-maker
+      #:sxml-custom-rules (make-sxml-custom-rules)
+      )
     )
   )

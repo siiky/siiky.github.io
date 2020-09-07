@@ -5,6 +5,7 @@ SVG := $(GV:.gv=.svg)
 MD := $(wildcard */*.md)
 HTML := $(MD:.md=.html)
 SPELL := $(MD:.md=.spell)
+FOOTER := footer.html
 
 DIRS := \
     -D algebra/                \
@@ -21,14 +22,17 @@ all: cv $(SVG) html
 
 force-redo: cv $(SVG) html-redo
 
-html-redo: $(MD)
+html-redo: $(MD) $(FOOTER)
 	./siiky.github.io.scm --force-redo
 
-html: $(MD)
+html: $(MD) $(FOOTER)
 	./siiky.github.io.scm
 
 watch:
 	find cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
+
+$(FOOTER): $(FOOTER:.html=.md)
+	pandoc -f markdown -t html $< -o $@
 
 cv: cv-en.pdf
 

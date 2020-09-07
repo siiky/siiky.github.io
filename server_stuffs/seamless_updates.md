@@ -60,8 +60,8 @@ how clients can connect to `next_srv`. `current_srv` tells the clients to
 connect to `next_srv`. The clients start connecting to `next_srv`. When a
 client connects to `next_srv`, it tells `current_srv` it's done so. The client
 doesn't start communicating with `next_srv` just yet. `current_srv` syncs with
-`next_srv`, by sending it the current game state, and then tells the client to
-start communicating with `next_srv`. Now the client should stop communicating
-with `current_srv` and can disconnect from it. This syncing phase is where lag
-may happen and state may be screwed, but this should be minimal, assuming
+`next_srv`, by sending it the current state, and then tells the client to start
+communicating with `next_srv`. Now the client should stop communicating with
+`current_srv` and can disconnect from it. This syncing phase is where lag may
+happen and state may be screwed, but this should be minimal, assuming
 `current_srv` and `next_srv` have a fast connection between each other.

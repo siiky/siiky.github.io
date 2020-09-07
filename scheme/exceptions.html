@@ -117,10 +117,10 @@ text-decoration:underline
 </header>
 <p><strong>DISCLAIMER</strong>: I’m not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.</p>
 <p>Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., <q>works? great!</q>).</p>
-<h1 id="conditions">Conditions</h1>
+<h1 data-number="1" id="conditions" data-number="1"><span class="header-section-number">1</span> Conditions</h1>
 <p>Conditions are objects that represent an exception (like instances of a subclass of <code>Exception</code> in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It’s also possible to throw non-condition objects (maybe for non-local or early return?).</p>
-<h1 id="exception-handling">Exception Handling</h1>
-<h2 id="catching">Catching</h2>
+<h1 data-number="2" id="exception-handling" data-number="2"><span class="header-section-number">2</span> Exception Handling</h1>
+<h2 data-number="2.1" id="catching" data-number="2.1"><span class="header-section-number">2.1</span> Catching</h2>
 <p>A neat way to <em>catch</em> exceptions is with <a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"><code>condition-case</code></a>. You give it an expression to evaluate, give it the kinds of exceptions you are expecting and how to deal with them, and voila:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">; General usage</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>(condition-case expression</span>
@@ -153,13 +153,17 @@ text-decoration:underline
 <div class="sourceCode" id="cb2"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>(condition-case (<span class="kw">car</span> &#39;some-val)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  ((exn)      (print <span class="st">&quot;Wrong type&quot;</span>))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  ((exn type) (print <span class="st">&quot;This will never happen&quot;</span>)))</span></code></pre></div>
-<h2 id="throwing">Throwing</h2>
+<h2 data-number="2.2" id="throwing" data-number="2.2"><span class="header-section-number">2.2</span> Throwing</h2>
 <p>If you want to throw something, use <a href="https://api.call-cc.org/5/doc/chicken/condition/signal"><code>signal</code></a>. There are also <a href="https://api.call-cc.org/5/doc/chicken/condition/abort"><code>abort</code></a> and <a href="https://api.call-cc.org/5/doc/srfi-18/raise"><code>raise</code></a>, but I don’t know why/when to use them. In CHICKEN, SRFI-18’s <code>raise</code> is just <code>signal</code>, but this may change in the future and might not even be the case in other implementations.</p>
-<h1 id="related-topics-of-interest">Related Topics of Interest</h1>
+<h1 data-number="3" id="related-topics-of-interest" data-number="3"><span class="header-section-number">3</span> Related Topics of Interest</h1>
 <ul>
 <li>Continuable and non-continuable exceptions</li>
 <li>How is all this implemented?</li>
 <li>How to make a condition and how to get things out of a condition object</li>
 </ul>
+<div class="line-block">places:<br />
+<a href="https://siiky.github.io">Go home!</a><br />
+<a href="https://github.com/siiky">GitHub</a><br />
+<a href="https://siiky.github.io/atom.xml">Atom Feed</a></div>
 </body>
 </html>

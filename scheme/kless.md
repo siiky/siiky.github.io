@@ -3,15 +3,15 @@
 % 2019/10/13
 
 I read recently a blog post called [_The Lisp
-Curse_](https://www.winestockwebdesign.com/Essays/Lisp_Curse.html) (not HTTPS
-enabled, but hoping it will be in the future). In this post, the author, Rudolf
-Winestock, says that "Making Scheme object-oriented is a sophomore homework
-assignment"; and so, for fun, I tried hacking an abstraction for defining
-classes in Scheme, with the little knowledge of macros that I have.
+Curse_](https://www.winestockwebdesign.com/Essays/Lisp_Curse.html) (not yet
+HTTPS enabled, but hoping it will be in the future). In this post, the author,
+Rudolf Winestock, says that "Making Scheme object-oriented is a sophomore
+homework assignment"; and so, for fun, I tried hacking an abstraction for
+defining classes in Scheme, with the little knowledge of macros that I have.
 
 # Implementation
 
-Below is the definition of the `kless` macro. (Sorry for the weird indentation)
+Below is the definition of the `kless` macro.
 
 ```scm
 ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -19,6 +19,8 @@ Below is the definition of the `kless` macro. (Sorry for the weird indentation)
 ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 (define-syntax kless
+  ; `meth` is a reserved keyword inside the macro, i.e., it has a special
+  ; meaning and you can't name a kless or method "meth"
   (syntax-rules (meth)
 
     ;; TEMPLATE
@@ -73,17 +75,17 @@ setters automatically defined for you, and instance (non-static) methods.
 Because the methods' bodies are inserted into the object itself, instance
 variables are in scope, and no extra magic is needed for making them available.
 
-Having 2 classes with methods (or variables for that matter) of the same name
-results in 2 functions with exactly the same names and bodies being defined.
-By defining the 2 classes above (`dek` and `blenk-dek`), `show-me` is defined
-twice, like so:
+Having two classes with methods (or variables, for that matter) of the same
+name results in two functions with exactly the same names and bodies being
+defined. By defining the two classes above (`dek` and `blenk-dek`), `show-me`
+is defined twice, like so:
 
 ```scm
 (define (show-me self)
   (self 'show-me self))
 ```
 
-Because of this, dick-typing (a la Python) is supported.
+This is OK in Scheme, so dick-typing (a la Python) is supported.
 
 # Example `kless`es
 
@@ -102,9 +104,10 @@ Defining two classes:
              (print "8" (make-string x #\=) "D")))
 ```
 
-Inspecting generated procedures and trying things out:
+Inspecting generated procedures and trying things out with `csi` (the CHICKEN
+Scheme Interpreter):
 
-```scm
+```
 #;1> dek
 #<procedure (dek x y)>
 #;2> blenk-dek
@@ -124,8 +127,9 @@ Inspecting generated procedures and trying things out:
 # Thorns
 
 `self` is not in scope (or rather, `self`, the object itself, is in scope, but
-is not called `self` because of `syntax-rules` magic). Recursive methods are
-still possible, with a named-`let` or `define`. Just don't use other methods.
+is not called `self` because of `syntax-rules`{.scm} magic). Recursive methods
+are still possible, with a named-`let`{.scm} or `define`{.scm}. Just don't use
+other methods.
 
 No type predicate is defined, but can be easily implemented.
 
@@ -135,15 +139,15 @@ No "static" class methods. Because, what? Just make a function, prefix it with
 the class name and be done with it.
 
 No extending already defined classes, a la Haskell's type classes (with
-`instance ... where`), or Rust's traits (with `impl`). Put everything inside
-`kless` and dick-typing does the rest.
+`instance ... where`{.hs}), or Rust's traits (with `impl`{.rs}). Put everything
+inside `kless` and dick-typing does the rest.
 
 Method overriding on a per object basis is not possible. This may be easy to
 implement. One way is to put a table inside the object, from method name to
-procedure (`Symbol -> Method`), and arrange a way to get and set that procedure
-from outside the object. A problem arises then: this new method doesn't have
-the instance variables in scope. One could be tempted to think that something
-like the following solves the problem.
+procedure (`Symbol -> Method`{.hs}), and arrange a way to get and set that
+procedure from outside the object. A problem arises then: this new method
+doesn't have the instance variables in scope. One could be tempted to think
+that something like the following solves the problem.
 
 ```scm
 (define (meth-setter meth-name meth-maker)

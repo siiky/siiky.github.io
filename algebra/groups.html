@@ -116,13 +116,12 @@ text-decoration:underline
 <p class="date">2020/02/20</p>
 </header>
 <p>This post is about <a href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a> (whouldathunkit).</p>
-<h1 id="conventionsnotation">Conventions/Notation</h1>
+<h1 data-number="1" id="conventionsnotation" data-number="1"><span class="header-section-number">1</span> Conventions/Notation</h1>
 <p><span class="math inline">∀<em>v</em> : <em>P</em></span> means <span class="math inline"><em>P</em></span> is true for all possible <span class="math inline"><em>v</em></span><br />
 <span class="math inline">∃<em>v</em> : <em>P</em></span> means <span class="math inline"><em>P</em></span> is true for at least one <span class="math inline"><em>v</em></span><br />
 <span class="math inline">∃!<em>v</em> : <em>P</em></span> means <span class="math inline"><em>P</em></span> is true for exactly one <span class="math inline"><em>v</em></span><br />
 <span class="math inline">∀<em>v</em>1 : ∀<em>v</em>2 : <em>P</em></span> will be abbreviated as <span class="math inline">∀<em>v</em>1, <em>v</em>2 : <em>P</em></span></p>
 <p>Sets are written as its elements surrounded by brackets. For example, <span class="math inline">∅</span> is the empty set and <span class="math inline">{<em>a</em>, <em>b</em>, <em>c</em>}</span> is a set with the elements <span class="math inline"><em>a</em></span>, <span class="math inline"><em>b</em></span> and <span class="math inline"><em>c</em></span>. Sets comprehension will be written as <span class="math inline">{<em>e</em><em>x</em><em>p</em><em>r</em> : <em>v</em><em>a</em><em>r</em><em>s</em>, <em>r</em><em>e</em><em>s</em><em>t</em><em>r</em><em>i</em><em>c</em><em>t</em><em>i</em><em>o</em><em>n</em><em>s</em>}</span> and the cardinal of a set will be written as <span class="math inline">#<em>S</em></span>.</p>
-<p>When you see <span class="math inline">ℕ<sub>0</sub></span>, <span class="math inline">ℤ<sub>2</sub></span>, <span class="math inline">ℤ<sub><em>n</em></sub></span>, <span class="math inline">[<em>m</em>]<sub><em>n</em></sub></span>, etc, pretend the character to the right is in subscript.</p>
 <p><span class="math inline">ℕ</span> is the set of natural numbers (no zero).<br />
 <span class="math inline">ℕ<sub>0</sub></span> is the set of natural numbers (and zero).<br />
 <span class="math inline">ℤ</span> is the set of integers.</p>
@@ -131,8 +130,8 @@ text-decoration:underline
 <p>We will be needing the concept of a <q>Congruential Equivalence Class</q> later on. They are written as <span class="math inline">[<em>m</em>]<sub><em>n</em></sub></span> (<span class="math inline">∀<em>n</em> ∈ ℕ, <em>m</em> ∈ ℤ</span>) and are defined as <span class="math inline">[<em>m</em>]<sub><em>n</em></sub> = {<em>x</em> ∈ ℤ : <em>x</em> ≡ <em>m</em> ( mod <em>n</em>)}</span>.</p>
 <p>Depending on context, <span class="math inline">+</span> and <span class="math inline">×</span> will either be the usual addition and multiplication of numbers, or addition and multiplication of classes.<br />
 Addition and multiplication of classes are defined as <span class="math inline">[<em>p</em>]<sub><em>n</em></sub> + [<em>q</em>]<sub><em>n</em></sub> = [<em>p</em> + <em>q</em>]<sub><em>n</em></sub></span> and <span class="math inline">[<em>p</em>]<sub><em>n</em></sub> × [<em>q</em>]<sub><em>n</em></sub> = [<em>p</em> × <em>q</em>]<sub><em>n</em></sub></span>. Some examples: <span class="math inline">2 + 2 = 4</span>, <span class="math inline">[2]<sub>3</sub> + [1]<sub>3</sub> = [2 + 1]<sub>3</sub> = [0]<sub>3</sub></span></p>
-<h1 id="what-is-a-group">What is a Group?!</h1>
-<h2 id="in-general">In general</h2>
+<h1 data-number="2" id="what-is-a-group" data-number="2"><span class="header-section-number">2</span> What is a Group?!</h1>
+<h2 data-number="2.1" id="in-general" data-number="2.1"><span class="header-section-number">2.1</span> In general</h2>
 <p>A group is just a pair <span class="math inline">(<em>S</em>, <em>O</em>)</span>, where <span class="math inline"><em>S</em></span> is a set and <span class="math inline"><em>O</em></span> is a binary operation on <span class="math inline"><em>S</em></span> (i.e., <span class="math inline"><em>O</em>: <em>S</em> × <em>S</em> → <em>S</em></span>) with the following properties:</p>
 <ol class="example" type="1">
 <li><dl>
@@ -165,12 +164,12 @@ Addition and multiplication of classes are defined as <span class="math inline">
 <p>Given <span class="math inline"><em>G</em> = (<em>G</em>, <em>O</em>)</span> a group, <span class="math inline"><em>G</em></span> will be used to refer both to the group itself and its associated set.</p>
 <p>A group <span class="math inline"><em>G</em></span> is said to be infinite if <span class="math inline">#<em>G</em></span> is infinite, and finite if <span class="math inline">#<em>G</em></span> is finite.</p>
 <p>That is the generic definition. We will focus on groups with integer sets and <span class="math inline">+</span> or <span class="math inline">×</span> as the operation, however, so to make things easier:</p>
-<h2 id="integers">Integers</h2>
+<h2 data-number="2.2" id="integers" data-number="2.2"><span class="header-section-number">2.2</span> Integers</h2>
 <p>When the operation is <span class="math inline">+</span> we call the identity element <q>null element</q> and represent it with 0.<br />
 When the operation is <span class="math inline">×</span> we call the identity element <q>unity element</q> and represent it with 1.</p>
 <p>When the operation is <span class="math inline">+</span> we call the inverse of an element <span class="math inline"><em>a</em></span> its symmetric and represent it as <span class="math inline"> − <em>a</em></span>.<br />
-When the operation is <span class="math inline">×</span> we call the inverse of an element <span class="math inline"><em>a</em></span> its inverse and represent it as <span class="math inline"><em>a</em><sup> − 1</sup></span>. (pretend -1 is in superscript)</p>
-<h3 id="mathbbn_0"><span class="math inline">(ℕ<sub>0</sub>,  + )</span></h3>
+When the operation is <span class="math inline">×</span> we call the inverse of an element <span class="math inline"><em>a</em></span> its inverse and represent it as <span class="math inline"><em>a</em><sup> − 1</sup></span>.</p>
+<h3 data-number="2.2.1" id="mathbbn_0" data-number="2.2.1"><span class="header-section-number">2.2.1</span> (<span class="math inline">ℕ<sub>0</sub></span>, +)</h3>
 <p><span class="math inline">ℕ<sub>0</sub></span> is the set of natural numbers (with zero), and <span class="math inline">+</span> is the usual addition on natural numbers.<br />
 Is it a group?</p>
 <ol type="1">
@@ -179,7 +178,7 @@ Is it a group?</p>
 <li><span class="math inline">∀<em>a</em>, <em>b</em> ∈ ℕ : <em>a</em> + <em>b</em> ≠ 0</span> (Note that <span class="math inline">ℕ = ℕ<sub>0</sub> \ {0}</span>)</li>
 </ol>
 <p><span class="math inline">ℕ<sub>0</sub></span> together with <span class="math inline">+</span> does not satisfy property 3, so it is not a group.</p>
-<h3 id="mathbbz"><span class="math inline">(ℤ,  + )</span></h3>
+<h3 data-number="2.2.2" id="mathbbz" data-number="2.2.2"><span class="header-section-number">2.2.2</span> (<span class="math inline">ℤ</span>, +)</h3>
 <p><span class="math inline">ℤ</span> is the set of integers, and <span class="math inline">+</span> is the usual addition on integers. Is it a group?</p>
 <ol type="1">
 <li>a, b, c in Z: a + (b + c) = (a + b) + c</li>
@@ -187,7 +186,7 @@ Is it a group?</p>
 <li>a in Z: ! a’ in Z: a + a’ = 0</li>
 </ol>
 <p><span class="math inline">ℤ</span> satisfies all 3 requirements so it is a group. We also know that addition is commutative, so <span class="math inline">ℤ</span> is an abelian group (see property 4).</p>
-<h3 id="other-groups-and-non-groups">Other groups and non-groups</h3>
+<h3 data-number="2.2.3" id="other-groups-and-non-groups" data-number="2.2.3"><span class="header-section-number">2.2.3</span> Other groups and non-groups</h3>
 <ul>
 <li>(R, +), where R is the set of real numbers, is a group</li>
 <li>(R\{0}, *) is also a group</li>
@@ -196,9 +195,9 @@ Is it a group?</p>
 <li>(N, *) is not a group, because there is no inverse (R3)</li>
 <li>(Z\{0}, *) is not a group, because other than 1 and -1, no element has inverse (R3)</li>
 </ul>
-<h1 id="whats-next">What’s next?</h1>
+<h1 data-number="3" id="whats-next" data-number="3"><span class="header-section-number">3</span> What’s next?</h1>
 <p>Some useful definitions follow.</p>
-<h2 id="subgroup">Subgroup</h2>
+<h2 data-number="3.1" id="subgroup" data-number="3.1"><span class="header-section-number">3.1</span> Subgroup</h2>
 <p>Given a group G, H is called a subgroup of G if H is contained in G and it is also a group, and we write <code>H &lt;= G</code>. Examples:</p>
 <ul>
 <li><code>\forall (G, +) group: (G, +) &lt;= (G, +)</code></li>
@@ -210,10 +209,10 @@ Is it a group?</p>
 <li><em>Trivial Subgroup</em>: <code>\forall (G, +) group: ({0}, +) &lt; (G, +)</code></li>
 <li><code>(2Z, +) &lt; (Z, +)</code></li>
 </ul>
-<h2 id="multiplespowers-of-an-element">Multiples/Powers of an element</h2>
+<h2 data-number="3.2" id="multiplespowers-of-an-element" data-number="3.2"><span class="header-section-number">3.2</span> Multiples/Powers of an element</h2>
 <p>Given an element a of an additive group, <code>a + ... + a</code> (n times) can be written as <code>n * a</code>. Special case: <code>0 * a = 0</code>. Given an element a of a multiplicative group, <code>a * ... * a</code> (n times) can be written as <code>a ^ n</code>. Special case: <code>a ^ 0 = 1</code>.</p>
 <p>For negative n, <code>n * a = -((-n) * a) = (-n) * (-a)</code>. For negative n, <code>a ^ n = (a ^ (-n)) ^ -1 = (a ^ -1) ^ (-n)</code>.</p>
-<h2 id="order-of-an-element">Order of an element</h2>
+<h2 data-number="3.3" id="order-of-an-element" data-number="3.3"><span class="header-section-number">3.3</span> Order of an element</h2>
 <p>The order of an element a is the minimum number of times it must be operated with itself until it reaches the identity, and is written as <code>o(a)</code>. If, no matter how many times you operate the element, it doesn’t reach the identity, its order is said to be infinite.</p>
 <p>A more rigorous definition is:</p>
 <ul>
@@ -226,12 +225,12 @@ Is it a group?</p>
 </ol></li>
 </ul>
 <p>In particular, the order of the identity is 1, and the identity is the only element with order 1. Useful fact: G group: a in G: o(a) | #G. From this comes the fact that, in a finite group, no element has infinite order.</p>
-<h2 id="generated-subgroup">Generated Subgroup</h2>
+<h2 data-number="3.4" id="generated-subgroup" data-number="3.4"><span class="header-section-number">3.4</span> Generated Subgroup</h2>
 <p>Given an additive group (G, +) and an element a, <code>&lt;a&gt; = { n * a : n in Z }</code> is a subgroup of G and is called the <q>Subgroup of G generated by a</q>. In particular, if <code>G = &lt;a&gt;</code>, a is said to generate G, or that G is generated by a. Note that <code>#&lt;a&gt; = o(a)</code>. An example of this is <code>&lt;1&gt; = &lt;-1&gt; = Z</code>.</p>
-<h1 id="zn-groups">Zn Groups</h1>
+<h1 data-number="4" id="mathbbz_n-groups" data-number="4"><span class="header-section-number">4</span> <span class="math inline">ℤ<sub><em>n</em></sub></span> Groups</h1>
 <p>You can group integers together according to their (mod n), make a set out of them, and define a group with it. These groups are called <em>Zn</em>, for some n in N, and are defined as Zn = { [m]n : m in { 0, …, n-1 } }.</p>
 <p>These will get repetitive after Z2, but the reason why they’re here will become clear.</p>
-<h2 id="z1">(Z1, +)</h2>
+<h2 data-number="4.1" id="mathbbz_1" data-number="4.1"><span class="header-section-number">4.1</span> (<span class="math inline">ℤ<sub>1</sub></span>, +)</h2>
 <p>According to definition above, Z1 = { [0]1 }, but you can go further here:</p>
 <p>[0]1 = (def [m]n) { x : x in Z, x = 0 (mod 1) } = (def (mod n)) { x : x in Z, x % 1 = 0 % 1 } = (0 % 1 = 0) { x : x in Z, x % 1 = 0 } = (every integer is a multiple of 1) { x : x in Z } = (def Z) Z</p>
 <p>Z1 is a trivial group (#Z1 = 1), so it isn’t that interesting, other than Z being its only element.</p>
@@ -241,7 +240,7 @@ Is it a group?</p>
 <li>[0]1 is the identity, so o([0]1) = 1</li>
 <li>Z1 = &lt;[0]1&gt;</li>
 </ul>
-<h2 id="z2">(Z2, +)</h2>
+<h2 data-number="4.2" id="mathbbz_2" data-number="4.2"><span class="header-section-number">4.2</span> (<span class="math inline">ℤ<sub>2</sub></span>, +)</h2>
 <p>When n = 2 we get Z2 = { [0]2, [1]2 }.</p>
 <p>[0]2 = (def [m]n) { x : x in Z, x = 0 (mod 2) } = (def (mod n)) { x : x in Z, x % 2 = 0 % 2 } = (0 % 2 = 0) { x : x in Z, x % 2 = 0 } = (x % 2 = 0 =&gt; k in Z: x = 2 * k) { 2 * x : x in Z } = (def 2Z) 2Z</p>
 <p>So [0]2 = 2Z is the set of even integers. You can probably guess by now, but:</p>
@@ -254,7 +253,7 @@ Is it a group?</p>
 <li>&lt;[0]2&gt; = { [0]2 } &lt; Z2</li>
 <li>&lt;[1]2&gt; = Z2</li>
 </ul>
-<h2 id="z3">(Z3, +)</h2>
+<h2 data-number="4.3" id="mathbbz_3" data-number="4.3"><span class="header-section-number">4.3</span> (<span class="math inline">ℤ<sub>3</sub></span>, +)</h2>
 <p>Z3 = { [0]3, [1]3, [2]3 }</p>
 <p>I’ll skip showing how to get to the definition of each of the classes from now. Also, you may have already noticed, but if not, [0]n is the set of multiples of n, nZ.</p>
 <p>[0]3 = 3Z [1]3 = 3Z + 1 [2]3 = 3Z + 2</p>
@@ -266,7 +265,7 @@ Is it a group?</p>
 <li>&lt;[0]3&gt; = { [0]3 } &lt; Z3</li>
 <li>&lt;[1]3&gt; = &lt;[2]3&gt; = Z3</li>
 </ul>
-<h2 id="z4">(Z4, +)</h2>
+<h2 data-number="4.4" id="mathbbz_4" data-number="4.4"><span class="header-section-number">4.4</span> (<span class="math inline">ℤ<sub>4</sub></span>, +)</h2>
 <p>Z4 = { [0]4, [1]4, [2]4, [3]4 }</p>
 <p>[0]4 = 4Z [1]4 = 4Z + 1 [2]4 = 4Z + 2 [3]4 = 4Z + 3</p>
 <p>Once again, things about this group:</p>
@@ -278,12 +277,17 @@ Is it a group?</p>
 <li>&lt;[1]4&gt; = &lt;[3]4&gt; = Z4</li>
 </ul>
 <p>Now something interesting happened here! Remember that G group: a in G: o(a) | #G Because of this we know that the only possible orders are 1, 2 and 4. This also means that it is possible for a subgroup of cardinal 2 to exist. In this case, the only one is &lt;[2]4&gt;. Why, though, did this happen with Z4, but not with Z1, Z2 or Z3? Z1 is obvious: #Z1 = 1, so the only possible subgroup is itself. Z2 is also easy: its only elements are [0]2 and [1]2, and we know that n in N: &lt;[0]n&gt; = { [0]n } and that n in N: &lt;[1]n&gt; = Zn For Z3 it’s not as clear. The hint is, again: G group: a in G: o(a) | #G Both 2 and 3 are prime, which means, their only divisors are 1 and themselves. So it’s not possible for a subgroup of Z3 with cardinal 2 to exist.</p>
-<h2 id="z5">(Z5, +)</h2>
+<h2 data-number="4.5" id="mathbbz_5" data-number="4.5"><span class="header-section-number">4.5</span> (<span class="math inline">ℤ<sub>5</sub></span>, +)</h2>
 <p>Try this one</p>
 <p>Summing up: n in N: Zn has more than one proper subgroup &lt;=&gt; n is not prime or n in N: Zn has exactly one proper subgroup &lt;=&gt; n is prime</p>
 <p>Proving this is easy: Let n be in N.</p>
 <p>Suppose that Zn has more than one proper subgroup. We want to prove that n is not prime. There is a proper subgroup H such that <strong>#H &gt; 1</strong>. Since H is a proper subgroup, then <strong>#H &lt; n</strong>. From this, and the fact that #H | n, we can conclude n is not prime.</p>
 <p>Now the other way: Suppose <code>n</code> is not prime. We want to prove that Zn has more than one proper subgroup. Since <code>n</code> is not prime, then k in N: <code>1 &lt; k &lt; n</code> and <code>k | n</code> Let <code>k</code> be such a number. Then a in Zn: o(a) = k Let <code>a</code> be such an element. <strong>o(a) = k =&gt; #&lt;a&gt; = k</strong> We know that <strong>&lt;a&gt; &lt;= Zn</strong> and that <strong>k &lt; n</strong>, so <strong>&lt;a&gt; &lt; Zn</strong>.</p>
-<p><strong>TODO:</strong> groups that are isomorphic to some proper subgroup</p>
+<h1 data-number="5" id="todo" data-number="5"><span class="header-section-number">5</span> TODO</h1>
+<p>Groups that are isomorphic to some proper subgroup.</p>
+<div class="line-block">places:<br />
+<a href="https://siiky.github.io">Go home!</a><br />
+<a href="https://github.com/siiky">GitHub</a><br />
+<a href="https://siiky.github.io/atom.xml">Atom Feed</a></div>
 </body>
 </html>
