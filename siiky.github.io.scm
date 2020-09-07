@@ -151,6 +151,7 @@
                       (ssg:ent wip "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
                       (ssg:ent wip "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
                       (ssg:ent wip "identity.md" "2020/06/28" "Identity")
+                      (ssg:ent wip "utilitarianism.md" "" "Utilitarianism")
                       )
 
              (ssg:dir "psychology"

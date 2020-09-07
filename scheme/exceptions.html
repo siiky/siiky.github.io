@@ -118,15 +118,15 @@ text-decoration:underline
 <p><strong>DISCLAIMER</strong>: I’m not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.</p>
 <p>Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., <q>works? great!</q>).</p>
 <h1 data-number="1" id="conditions" data-number="1"><span class="header-section-number">1</span> Conditions</h1>
-<p>Conditions are objects that represent an exception (like instances of a subclass of <code>Exception</code> in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It’s also possible to throw non-condition objects (maybe for non-local or early return?).</p>
+<p>Conditions are objects that represent an exception (like instances of a subclass of <code class="sourceCode java"><span class="bu">Exception</span></code> in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It’s also possible to throw non-condition objects (maybe for non-local or early return?).</p>
 <h1 data-number="2" id="exception-handling" data-number="2"><span class="header-section-number">2</span> Exception Handling</h1>
 <h2 data-number="2.1" id="catching" data-number="2.1"><span class="header-section-number">2.1</span> Catching</h2>
-<p>A neat way to <em>catch</em> exceptions is with <a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"><code>condition-case</code></a>. You give it an expression to evaluate, give it the kinds of exceptions you are expecting and how to deal with them, and voila:</p>
+<p>A neat way to <em>catch</em> exceptions is with <a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"><code class="sourceCode scheme">condition-case</code></a>. You give it an expression to evaluate, give it the kinds of exceptions you are expecting and how to deal with them, and voila:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">; General usage</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>(condition-case expression</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  ((kind1 kind2) (print <span class="st">&quot;kind1 kind2&quot;</span>) ...)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>  ((kind) (print <span class="st">&quot;kind&quot;</span>) ...)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  <span class="co">; con may not be a condition</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  <span class="co">; con needn&#39;t be a condition</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>  (con () (print <span class="st">&quot;some other kind: &quot;</span> con) ...))</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a><span class="co">; Concrete example</span></span>
@@ -148,18 +148,18 @@ text-decoration:underline
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true"></a><span class="co">;; This is part of the expression</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true"></a><span class="co">;; Some arithmetic error</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true"></a><span class="co">;; =&gt; 0</span></span></code></pre></div>
-<p>If no exception is thrown when evaluating the expression, the value of the <code>condition-case</code> block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).</p>
-<p>The condition cases should be ordered from more specific to less specific. For example, a condition of kind <code>(exn type)</code> is also of kind <code>(exn)</code>, so the former should be above the latter.</p>
+<p>If no exception is thrown when evaluating the expression, the value of the <code class="sourceCode scheme">condition-case</code> block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).</p>
+<p>The condition cases should be ordered from more specific to less specific. For example, a condition of kind <code class="sourceCode scheme">(exn type)</code> is also of kind <code class="sourceCode scheme">(exn)</code>, so the former should be above the latter.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>(condition-case (<span class="kw">car</span> &#39;some-val)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  ((exn)      (print <span class="st">&quot;Wrong type&quot;</span>))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  ((exn type) (print <span class="st">&quot;This will never happen&quot;</span>)))</span></code></pre></div>
 <h2 data-number="2.2" id="throwing" data-number="2.2"><span class="header-section-number">2.2</span> Throwing</h2>
-<p>If you want to throw something, use <a href="https://api.call-cc.org/5/doc/chicken/condition/signal"><code>signal</code></a>. There are also <a href="https://api.call-cc.org/5/doc/chicken/condition/abort"><code>abort</code></a> and <a href="https://api.call-cc.org/5/doc/srfi-18/raise"><code>raise</code></a>, but I don’t know why/when to use them. In CHICKEN, SRFI-18’s <code>raise</code> is just <code>signal</code>, but this may change in the future and might not even be the case in other implementations.</p>
+<p>If you want to throw something, use <a href="https://api.call-cc.org/5/doc/chicken/condition/signal"><code class="sourceCode scheme">signal</code></a>. There are also <a href="https://api.call-cc.org/5/doc/chicken/condition/abort"><code class="sourceCode scheme">abort</code></a> and <a href="https://api.call-cc.org/5/doc/srfi-18/raise"><code class="sourceCode scheme">raise</code></a>, but I don’t know why/when one should use them. In CHICKEN, <a href="https://srfi.schemers.org/srfi-18/srfi-18.html">SRFI-18</a>’s <code class="sourceCode scheme">raise</code> is just <code class="sourceCode scheme">signal</code>, but this may change in the future and might not even be the case in other implementations.</p>
 <h1 data-number="3" id="related-topics-of-interest" data-number="3"><span class="header-section-number">3</span> Related Topics of Interest</h1>
 <ul>
-<li>Continuable and non-continuable exceptions</li>
+<li>Continuable and non-continuable exceptions;</li>
 <li>How is all this implemented?</li>
-<li>How to make a condition and how to get things out of a condition object</li>
+<li>How to make a condition and how to get things out of a condition object.</li>
 </ul>
 <div class="line-block">places:<br />
 <a href="https://siiky.github.io">Go home!</a><br />

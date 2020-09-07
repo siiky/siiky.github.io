@@ -9,6 +9,8 @@ cloned, would two of me exist, or would we be one and the same? Assuming one,
 would we still be the same after having different experiences? I would think
 not; one cannot, at the same time, have and not have an experience.
 
+---
+
 Imagine there's an object you treasure, that's special to you in some way, --
 maybe it has sentimental value because it was given to you by someone special
 to you -- and imagine you're holding it in your hands right now. How do you
@@ -21,11 +23,11 @@ smell, simple form, smooth surface, and any other properties I may be
 neglecting -- for example, a [marble].
 
 Let's imagine our marble is of the most common size, 1.3cm in diameter
-(according to Wikipedia), which makes it around 1.150cm^3 in volume; it's
+(according to Wikipedia), which makes it around 1.150cm$^3$ in volume; it's
 mostly unused, so it's as good as new, and the surface is really smooth; it's
 yellow in color (pretending iron is yellow), and it's opaque; it's completely
 made out of pure [iron], so its mass is approximately 9.059g (iron's density is
-7.874g/cm^3, according to Wikipedia).
+7.874g/cm$^3$, according to Wikipedia).
 
 And now, let's imagine we're given another marble exactly like the one we
 already have -- all properties are the same, as far as we can discern them. We
@@ -42,6 +44,8 @@ value to something that should have none to us.
 This must mean that the marble doesn't have any special value, or property,
 that separates it from all other marbles that are like the right one. We give
 it that value when we believe it's the right one.
+
+---
 
 Is position in the universe a part of an entity's properties? Clearly, an
 entity can't have two different positions simultaneously; moreover, two
