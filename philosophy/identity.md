@@ -1,4 +1,6 @@
-# Identity
+% Identity
+% siiky
+% 2020/06/28
 
 What makes two objects/entities the same or distinct? How do I know I'm truly
 me, and not just my brain in another body that looks like mine, or a clone of

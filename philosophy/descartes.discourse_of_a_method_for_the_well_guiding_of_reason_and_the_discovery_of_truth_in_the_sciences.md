@@ -1,4 +1,8 @@
-# [_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes][gutenberg]
+% _A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes
+% siiky
+%
+
+On [Project Gutenberg][gutenberg].
 
 extremes
 

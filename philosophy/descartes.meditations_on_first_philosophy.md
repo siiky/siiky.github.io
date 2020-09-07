@@ -1,5 +1,9 @@
-# [_Meditations on First Philosophy_, by Descartes][wikipedia]
+% _Meditations on First Philosophy_, by Descartes
+% siiky
+%
+
+On [Wikipedia][Wikipedia].
 
 Where did I get the PDF from?
 
-[wikipedia]: https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy
+[Wikipedia]: https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy

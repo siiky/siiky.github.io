@@ -15,7 +15,7 @@
   </entry>
   <entry>
     <id>https://siiky.github.io/algebra/cat_theory_perf.md</id>
-    <title type="text">Category Theory for performance optimization</title>
+    <title type="text">Category Theory and Performance</title>
     <updated></updated>
     <link href="https://siiky.github.io/algebra/cat_theory_perf.html" rel="alternate" type="text/html" />
   </entry>
@@ -54,5 +54,17 @@
     <title type="text">just quotes</title>
     <updated></updated>
     <link href="https://siiky.github.io/words/quotes.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
+    <id>https://siiky.github.io/philosophy/links.md</id>
+    <title type="text">Links</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/philosophy/links.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
+    <id>https://siiky.github.io/psychology/links.md</id>
+    <title type="text">Links</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/psychology/links.html" rel="alternate" type="text/html" />
   </entry>
 </feed>

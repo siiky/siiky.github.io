@@ -1,4 +1,6 @@
-# Functors
+% Functors
+% siiky
+% 2019/10/15
 
 P1 : (A, B) -> A
 

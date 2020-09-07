@@ -1,4 +1,6 @@
-# Category Theory and Performance
+% Category Theory and Performance
+% siiky
+% 2019/10/15
 
 Imagine for a second that we understand [Category Theory][ct]. Now imagine that we
 have a fancy [category][cat], representing a part of a program, with two objects `X`

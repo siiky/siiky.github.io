@@ -1,4 +1,6 @@
-# SSG, _the Library_
+% SSG, _the Library_
+% siiky
+% 2019/10/18
 
 SSG was originally written as a CLI program. You would call it with the
 description of your site through arguments and external files. The arguments

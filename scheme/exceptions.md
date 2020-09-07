@@ -1,4 +1,6 @@
-# Exceptions (aka Conditions) in Scheme
+% Exceptions (aka Conditions) in Scheme
+% siiky
+% 2019/08/13
 
 **DISCLAIMER**: I'm not a very advanced Schemer, and conditions in Scheme are
 especially confusing to me. Please excuse any possibly wrong terminology or
@@ -8,7 +10,7 @@ Exceptions are (in general) very weird things, but even more so in Scheme. I
 have little (close to none) experience with them, and the little that I have
 was attained from need (i.e., "works? great!").
 
-## Conditions
+# Conditions
 
 Conditions are objects that represent an exception (like instances of a
 subclass of `Exception` in Java, maybe?), and in Scheme you can use them just
@@ -16,9 +18,9 @@ like any other object. You can create one, pass it around, and not even throw
 it. It's also possible to throw non-condition objects (maybe for non-local or
 early return?).
 
-## Exception Handling
+# Exception Handling
 
-### Catching
+## Catching
 
 A neat way to _catch_ exceptions is with [`condition-case`][0]. You give it an
 expression to evaluate, give it the kinds of exceptions you are expecting and
@@ -69,14 +71,14 @@ former should be above the latter.
   ((exn type) (print "This will never happen")))
 ```
 
-### Throwing
+## Throwing
 
 If you want to throw something, use [`signal`][1]. There are also [`abort`][2]
 and [`raise`][3], but I don't know why/when to use them. In CHICKEN, SRFI-18's
 `raise` is just `signal`, but this may change in the future and might not even
 be the case in other implementations.
 
-## Related Topics of Interest
+# Related Topics of Interest
 
  * Continuable and non-continuable exceptions
  * How is all this implemented?

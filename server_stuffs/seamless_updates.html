@@ -1,122 +1,75 @@
-
-<html lang="en">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
 <head>
-<meta charset="UTF-8" />
-
-<style>/*
- * Color palette (almost): http://www.colourlovers.com/palette/1718713/Monokai
- * gray: #101010
- * magenta: #F92672
- * blue: #66D9EF
- * green: #A6E22E
- * orange: #FD971F
- */
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="siiky" />
+  <title>Seamless Updates</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    q { quotes: "“" "”" "‘" "’"; }
+  </style>
+  <style type="text/css">
 body {
-    background-color:#101010;
-    color:#FD971F;
-    font-family:monospace;
-    font-size:13px;
-    text-align:left;
-    white-space:pre;
-}
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
 
+}
 h1,h2,h3,h4,h5,h6 {
-    color:#A6E22E;
-    text-decoration:bold;
+color:#A6E22E;
+text-decoration:bold;
 }
-
-h1 { font-size:19px; }
-h2 { font-size:18px; }
-h3 { font-size:17px; }
-h4 { font-size:16px; }
-h5 { font-size:15px; }
-h6 { font-size:14px; }
-
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
 a {
-    color:#66D9EF;
-    text-decoration:none
+color:#66D9EF;
+text-decoration:none
 }
-
 a:visited {
-    color:#A6E22E
+color:#A6E22E
 }
-
 a:hover {
-    background-color:#66D9EF;
-    color:#101010;
-    text-decoration:underline
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
 }
 </style>
-<title>server_stuffs/seamless_updates.md</title></head>
+</head>
 <body>
-<h1># Seamless Updates
-</h1>
-<h2>## Context
-</h2>You have a server (HW &amp; SW) up and running; clients are connected to it; they
-need constant connection to function; the server starts to smoke; you sense
-it's the beginnings of a fire; you have to shut it down before you can put the
-fire out and put it in some rice to boot it up again right after; before the
-server burns down in flames you have just enough time to do updates; you take
-the chance because you're never gonna get another like this one!
-
-Updating SW is ezpz with hot code reload, so we'll consider that a solved
-problem and only care about updates that require a HW reboot, e.g., OS packages
-updates.
-
-
-<h2>## Problem
-</h2>How to update the server in a way the clients don't notice the server has
-been/is being updated? The clients (the program itself) may know the server is
-going down, but functionality must not be interrupted, i.e., the user (someone
-or something interacting with the client program) shouldn't be able to notice
-it.
-
-
-<h2>## (Idea on) How to (Possibly) Solve the Problem
-</h2>Let's call the currently running server (HW&amp;SW) that is on fire <code>`current_srv`</code>.
-Let's assume we have another similar server (HW&amp;SW) that is fully updated with
-the latest OS packages and server SW, but is real nice and cool and not on fire
-and ready to go! We'll call it <code>`next_srv`</code>.
-
-
-<h3>### High Level
-</h3><code>`current_srv`</code> tells the clients &quot;Yo, goin' away for a while&quot;.
-
-&quot;OHMYGAWD! What happened? Tell me everything!&quot; say the clients.
-
-&quot;None o' yo' goddamn biz! But fret not, for I've a friend 'ere ready to
-handle all'yer needs.&quot;
-
-&quot;Fine, if you're gonna be like that...&quot;
-
-(<strong>**<em>_enter <code>`next_srv`</code>_</em>**</strong>)
-
-Here is where they part ways; the clients mind their own biz, start chatting
-with <code>`next_srv`</code>, and a coupla messages later they completely forget about
-<code>`current_srv`</code>.
-
-However, it is not so easy for <code>`current_srv`</code>. It knows the relationships have
-to end, but it still wants what's best for the clients, and so, in the
-background, it shares all their secrets with <code>`next_srv`</code>.
-
-<code>`current_srv`</code> can now finally take a nap and bathe in sweet white dry rice.
-
-
-<h3>### With More Detail
-</h3>Start <code>`next_srv`</code>. Tell <code>`current_srv`</code> it's time, how to contact <code>`next_srv`</code>, and
-how clients can connect to <code>`next_srv`</code>. <code>`current_srv`</code> tells the clients to
-connect to <code>`next_srv`</code>. The clients start connecting to <code>`next_srv`</code>. When a
-client connects to <code>`next_srv`</code>, it tells <code>`current_srv`</code> it's done so. The client
-doesn't start communicating with <code>`next_srv`</code> just yet. <code>`current_srv`</code> syncs with
-<code>`next_srv`</code>, by sending it the current game state, and then tells the client to
-start communicating with <code>`next_srv`</code>. Now the client should stop communicating
-with <code>`current_srv`</code> and can disconnect from it. This syncing phase is where lag
-may happen and state may be screwed, but this should be minimal, assuming
-<code>`current_srv`</code> and <code>`next_srv`</code> have a fast connection between each other.
-
+<header id="title-block-header">
+<h1 class="title">Seamless Updates</h1>
+<p class="author">siiky</p>
+<p class="date">2020/03/13</p>
+</header>
+<h1 id="context">Context</h1>
+<p>You have a server (HW &amp; SW) up and running; clients are connected to it; they need constant connection to function; the server starts to smoke; you sense it’s the beginnings of a fire; you have to shut it down before you can put the fire out and put it in some rice to boot it up again right after; before the server burns down in flames you have just enough time to do updates; you take the chance because you’re never gonna get another like this one!</p>
+<p>Updating SW is ezpz with hot code reload, so we’ll consider that a solved problem and only care about updates that require a HW reboot, e.g., OS packages updates.</p>
+<h1 id="problem">Problem</h1>
+<p>How to update the server in a way the clients don’t notice the server has been/is being updated? The clients (the program itself) may know the server is going down, but functionality must not be interrupted, i.e., the user (someone or something interacting with the client program) shouldn’t be able to notice it.</p>
+<h1 id="idea-on-how-to-possibly-solve-the-problem">(Idea on) How to (Possibly) Solve the Problem</h1>
+<p>Let’s call the currently running server (HW&amp;SW) that is on fire <code>current_srv</code>. Let’s assume we have another similar server (HW&amp;SW) that is fully updated with the latest OS packages and server SW, but is real nice and cool and not on fire and ready to go! We’ll call it <code>next_srv</code>.</p>
+<h2 id="high-level">High Level</h2>
+<p><code>current_srv</code> tells the clients <q>Yo, goin’ away for a while</q>.</p>
+<p><q>OHMYGAWD! What happened? Tell me everything!</q> say the clients.</p>
+<p><q>None o’ yo’ goddamn biz! But fret not, for I’ve a friend ’ere ready to handle all’yer needs.</q></p>
+<p><q>Fine, if you’re gonna be like that…</q></p>
+<p>(<strong><em>enter <code>next_srv</code></em></strong>)</p>
+<p>Here is where they part ways; the clients mind their own biz, start chatting with <code>next_srv</code>, and a coupla messages later they completely forget about <code>current_srv</code>.</p>
+<p>However, it is not so easy for <code>current_srv</code>. It knows the relationships have to end, but it still wants what’s best for the clients, and so, in the background, it shares all their secrets with <code>next_srv</code>.</p>
+<p><code>current_srv</code> can now finally take a nap and bathe in sweet white dry rice.</p>
+<h2 id="with-more-detail">With More Detail</h2>
+<p>Start <code>next_srv</code>. Tell <code>current_srv</code> it’s time, how to contact <code>next_srv</code>, and how clients can connect to <code>next_srv</code>. <code>current_srv</code> tells the clients to connect to <code>next_srv</code>. The clients start connecting to <code>next_srv</code>. When a client connects to <code>next_srv</code>, it tells <code>current_srv</code> it’s done so. The client doesn’t start communicating with <code>next_srv</code> just yet. <code>current_srv</code> syncs with <code>next_srv</code>, by sending it the current game state, and then tells the client to start communicating with <code>next_srv</code>. Now the client should stop communicating with <code>current_srv</code> and can disconnect from it. This syncing phase is where lag may happen and state may be screwed, but this should be minimal, assuming <code>current_srv</code> and <code>next_srv</code> have a fast connection between each other.</p>
 </body>
-<footer>
-places:
-<a href="https://siiky.github.io">Go home!</a>
-<a href="https://github.com/siiky">GitHub</a>
-<a href="https://siiky.github.io/atom.xml">Atom Feed</a></footer></html>
+</html>

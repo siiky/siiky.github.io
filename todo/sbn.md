@@ -1,4 +1,6 @@
-# Small Big Numbers
+% Small Big Numbers
+% siiky
+% 2019/10/01
 
 Code can be found at [siiky/c-utils](https://github.com/siiky/c-utils).
 

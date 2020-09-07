@@ -1,4 +1,6 @@
-# Static Site Generator
+% Static Site Generator
+% siiky
+% 2017/03/06
 
 **EDIT**: [WIP](https://github.com/siiky/ssg).
 

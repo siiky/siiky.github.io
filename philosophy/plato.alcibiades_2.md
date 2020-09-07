@@ -1,4 +1,8 @@
-# [_Alcibiades II_, by Plato][gutenberg]
+% _Alcibiades II_, by Plato
+% siiky
+%
+
+On [Project Gutenberg][gutenberg].
 
 kill
 

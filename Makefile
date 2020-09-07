@@ -21,10 +21,10 @@ all: cv $(SVG) html
 
 force-redo: cv $(SVG) html-redo
 
-html-redo: $(HTML)
+html-redo: $(MD)
 	./siiky.github.io.scm --force-redo
 
-html: $(HTML)
+html: $(MD)
 	./siiky.github.io.scm
 
 watch:

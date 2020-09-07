@@ -1,4 +1,6 @@
-# To do or not to do... That is the Question
+% To do or not to do... That is the Question
+% siiky
+% 2020/04/30
 
 Recently I discovered something at work that could be big. To find it is or not
 actually big, more work has to be done. This work would entail messing with a

@@ -1,12 +1,15 @@
-# `kless`
+% `kless`
+% siiky
+% 2019/10/13
 
-I read recently a blog post called [_The Lisp Curse_](https://www.winestockwebdesign.com/Essays/Lisp_Curse.html) (not HTTPS enabled,
-but hoping it will be in the future). In this post, the author, Rudolf
+I read recently a blog post called [_The Lisp
+Curse_](https://www.winestockwebdesign.com/Essays/Lisp_Curse.html) (not HTTPS
+enabled, but hoping it will be in the future). In this post, the author, Rudolf
 Winestock, says that "Making Scheme object-oriented is a sophomore homework
 assignment"; and so, for fun, I tried hacking an abstraction for defining
 classes in Scheme, with the little knowledge of macros that I have.
 
-## Implementation
+# Implementation
 
 Below is the definition of the `kless` macro. (Sorry for the weird indentation)
 
@@ -18,51 +21,51 @@ Below is the definition of the `kless` macro. (Sorry for the weird indentation)
 (define-syntax kless
   (syntax-rules (meth)
 
-;; TEMPLATE
-((kless
-   (kless-name ver-name ...)
-   (meth (meth-name meth-args ...)
-         meth-body ...) ...)
+    ;; TEMPLATE
+    ((kless
+       (kless-name ver-name ...)
+       (meth (meth-name meth-args ...)
+             meth-body ...) ...)
 
-;; RESULT
-(begin
-  ; If your Scheme of choice doesn't support curried definitions
-  ; use lambda instead:
-  ;   (define (kless-name ver-name ...)
-  ;     (lambda (method self . args)
-  (define ((kless-name ver-name ...) method self . args)
-   (define (err sym)
-     (error (string-append "'" (symbol->string sym) "'? dat shiet dun exist yo")))
+     ;; RESULT
+     (begin
+       ; If your Scheme of choice doesn't support curried definitions
+       ; use lambda instead:
+       ;   (define (kless-name ver-name ...)
+       ;     (lambda (method self . args)
+       (define ((kless-name ver-name ...) method self . args)
+         (define (err sym)
+           (error (string-append "'" (symbol->string sym) "'? dat shiet dun exist yo")))
 
-   (define (getter ver)
-     (case ver
-       ((ver-name) ver-name) ...
-       (else (err ver))))
+         (define (getter ver)
+           (case ver
+             ((ver-name) ver-name) ...
+             (else (err ver))))
 
-   (define (setter ver val)
-     (case ver
-       ((ver-name) (set! ver-name val)) ...
-       (else (err ver))))
+         (define (setter ver val)
+           (case ver
+             ((ver-name) (set! ver-name val)) ...
+             (else (err ver))))
 
-   ;; Dispatch
-   (case method
-     ((get) (apply getter args))
-     ((set) (apply setter args))
-     ((meth-name)
-      (apply (lambda (meth-args ...)
-               meth-body ...)
-             args)) ...
-     (else (err method))))
+         ;; Dispatch
+         (case method
+           ((get) (apply getter args))
+           ((set) (apply setter args))
+           ((meth-name)
+            (apply (lambda (meth-args ...)
+                     meth-body ...)
+                   args)) ...
+           (else (err method))))
 
-  ;; [GS]etters
-  (define (ver-name self . val)
-    (if (null? val)
-        (self 'get self 'var-name)
-        (self 'set self 'var-name (car val)))) ...
+       ;; [GS]etters
+       (define (ver-name self . val)
+         (if (null? val)
+             (self 'get self 'var-name)
+             (self 'set self 'var-name (car val)))) ...
 
-  ;; Custom methods
-  (define (meth-name self meth-args ...)
-    (self 'meth-name self meth-args ...)) ...))))
+       ;; Custom methods
+       (define (meth-name self meth-args ...)
+         (self 'meth-name self meth-args ...)) ...))))
 ```
 
 With `kless` you can specify instance variables, with getters and destructive
@@ -82,7 +85,7 @@ twice, like so:
 
 Because of this, dick-typing (a la Python) is supported.
 
-## Example `kless`es
+# Example `kless`es
 
 The following example shows that/how `kless` works, and what OO is good for.
 
@@ -118,7 +121,7 @@ Inspecting generated procedures and trying things out:
 8====D
 ```
 
-## Thorns
+# Thorns
 
 `self` is not in scope (or rather, `self`, the object itself, is in scope, but
 is not called `self` because of `syntax-rules` magic). Recursive methods are
@@ -149,7 +152,8 @@ like the following solves the problem.
 
 This would indeed bring the current variables into scope, but not future
 updates, as this new method's scope is not the same as the object's scope
-itself. (There was also something similar on [_Let Over Lambda_](https://letoverlambda.com) IIRC)
+itself. (There was also something similar on [_Let Over
+Lambda_](https://letoverlambda.com) IIRC)
 
 Another option would be to have another indirection for the actual method's
 code, such that the current instance variables are given on each call.

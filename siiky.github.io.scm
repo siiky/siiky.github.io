@@ -118,7 +118,7 @@
     (ssg:idx "nothing interesting here"
              (ssg:dir "algebra"
                       (ssg:ent "./groups.md" "2019/01/01" "A quick intro to Group Theory")
-                      (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory for performance optimization")
+                      (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory and Performance")
                       (ssg:ent wip "./functors.md" "2019/10/15" "Functors")
                       )
 
@@ -143,10 +143,15 @@
                       )
 
              (ssg:dir "philosophy"
+                      (ssg:ent "links.md" "2020/09/07" "Links")
                       (ssg:ent wip "descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
                       (ssg:ent wip "descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
                       (ssg:ent wip "plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
                       (ssg:ent wip "identity.md" "2020/06/28" "Identity")
+                      )
+
+             (ssg:dir "psychology"
+                      (ssg:ent "links.md" "2020/09/07" "Links")
                       )
 
              (ssg:dir wip "work"

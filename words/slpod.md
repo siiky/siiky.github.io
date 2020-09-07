@@ -1,8 +1,10 @@
-# SLPOD (Suckless Podcatcher)
+% SLPOD (Suckless Podcatcher)
+% siiky
+% 2017/03/04
 
 `SLPOD` is a podcatcher design idea, supposed to be simple, fast and easy to use.
 
-## Simple design
+# Simple design
 
  * "Database" file in plain-text so it can be easily read/written
  * Download to predefined local directory(ies)
@@ -12,7 +14,7 @@
      * Played
      * Sync
 
-## Simple usage
+# Simple usage
 
  * Add download links to database
  * Download files to local directory(ies)

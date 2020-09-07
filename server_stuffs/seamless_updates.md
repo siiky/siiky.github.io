@@ -1,6 +1,8 @@
-# Seamless Updates
+% Seamless Updates
+% siiky
+% 2020/03/13
 
-## Context
+# Context
 
 You have a server (HW & SW) up and running; clients are connected to it; they
 need constant connection to function; the server starts to smoke; you sense
@@ -13,7 +15,7 @@ Updating SW is ezpz with hot code reload, so we'll consider that a solved
 problem and only care about updates that require a HW reboot, e.g., OS packages
 updates.
 
-## Problem
+# Problem
 
 How to update the server in a way the clients don't notice the server has
 been/is being updated? The clients (the program itself) may know the server is
@@ -21,14 +23,14 @@ going down, but functionality must not be interrupted, i.e., the user (someone
 or something interacting with the client program) shouldn't be able to notice
 it.
 
-## (Idea on) How to (Possibly) Solve the Problem
+# (Idea on) How to (Possibly) Solve the Problem
 
 Let's call the currently running server (HW&SW) that is on fire `current_srv`.
 Let's assume we have another similar server (HW&SW) that is fully updated with
 the latest OS packages and server SW, but is real nice and cool and not on fire
 and ready to go! We'll call it `next_srv`.
 
-### High Level
+## High Level
 
 `current_srv` tells the clients "Yo, goin' away for a while".
 
@@ -51,7 +53,7 @@ background, it shares all their secrets with `next_srv`.
 
 `current_srv` can now finally take a nap and bathe in sweet white dry rice.
 
-### With More Detail
+## With More Detail
 
 Start `next_srv`. Tell `current_srv` it's time, how to contact `next_srv`, and
 how clients can connect to `next_srv`. `current_srv` tells the clients to

@@ -1,4 +1,6 @@
-# Credit
+% Credit
+% siiky
+% 2020/04/30
 
 There are some types of work or achievements at work that can be credited
 directly to one person or small group of people. I don't mean fixing bugs or
