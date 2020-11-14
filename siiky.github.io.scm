@@ -158,9 +158,9 @@
                       (ssg:ent "links.md" "2020/09/07" "Links")
                       )
 
-             (ssg:dir wip "work"
-                      (ssg:ent "./credit.md" "2020/04/30" "Credit")
-                      (ssg:ent "./to_do_or_not_to_do.md" "2020/04/30" "To do or not to do... That is the Question")
+             (ssg:dir "work"
+                      (ssg:ent wip "./credit.md" "2020/04/30" "Credit")
+                      (ssg:ent "./CVE-2020-26935.md" "2020/11/06" "CVE-2020-26935")
                       )
 
              (ssg:dir wip "functional_programming"
