@@ -75,6 +75,13 @@ but it's a good paragraph from a good book.
 -- From _Brave New World_, by Aldous Huxley
 ([Wikipedia][brave_new_world_huxley_wp])
 
+#
+
+> The creatures outside looked from pig to man, and from man to pig, and from
+> pig to man again; but alread it was impossible to say which was which.
+
+-- From _Animal Farm_, by George Orwell
+
 [brave_new_world_huxley_wp]: https://en.wikipedia.org/wiki/Brave_new_world
 [human_condition_imdb]: https://www.imdb.com/title/tt0053114/
 [human_condition_wp_en]: https://en.wikipedia.org/wiki/The_Human_Condition_%28film_series%29
