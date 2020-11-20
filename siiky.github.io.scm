@@ -123,6 +123,7 @@
                       (ssg:ent "./groups.md" "2019/01/01" "A quick intro to Group Theory")
                       (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory and Performance")
                       (ssg:ent wip "./functors.md" "2019/10/15" "Functors")
+                      (ssg:ent wip "./faucets.md" "2020/11/20" "Faucets")
                       )
 
              (ssg:dir "scheme"
@@ -206,6 +207,7 @@
       #:force-redo? (->bool (member "--force-redo" (command-line-arguments)))
       #:index index
       #:index-maker index-maker
+      #:metafile "siiky.github.io.meta.scm"
       #:sxml-custom-rules (make-sxml-custom-rules)
       )
     )
