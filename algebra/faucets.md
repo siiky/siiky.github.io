@@ -20,7 +20,7 @@ pressure, we'll just assume it's the same for both hot and cold water.
 
 Instead of dealing with actual values and their correct units, we'll simplify
 our model to use percentages instead. So the objects will be pairs of
-percentages: $100^2$.
+percentages.
 
 Water pressure will range from 0% -- off, no water running --, to 100% -- water
 running to the faucet's full capacity. Likewise, temperature will range from 0%
@@ -29,7 +29,7 @@ the hottest water you can get out of the faucet.
 
 The types so far:
 
- * $Percentage \colon 101$ -- both 0 and 100 are valid values
+ * $Percentage \colon 101$
  * $WaterPressure \colon Percentage$
  * $WaterTemperature\colon Percentage$ -- we'll say the temperature is the
    percentage of hot water in the total amount of water.
