@@ -116,7 +116,7 @@ text-decoration:underline
 <p class="date">2019/10/13</p>
 </header>
 <p>I read recently a blog post called <a href="https://www.winestockwebdesign.com/Essays/Lisp_Curse.html"><em>The Lisp Curse</em></a> (not yet HTTPS enabled, but hoping it will be in the future). In this post, the author, Rudolf Winestock, says that <q>Making Scheme object-oriented is a sophomore homework assignment</q>; and so, for fun, I tried hacking an abstraction for defining classes in Scheme, with the little knowledge of macros that I have.</p>
-<h1 data-number="1" id="implementation" data-number="1"><span class="header-section-number">1</span> Implementation</h1>
+<h1 data-number="1" id="implementation"><span class="header-section-number">1</span> Implementation</h1>
 <p>Below is the definition of the <code>kless</code> macro.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="co">;!! Read identifiers with Metalocalypse Pickles&#39; accent !!!</span></span>
@@ -177,7 +177,7 @@ text-decoration:underline
 <div class="sourceCode" id="cb2"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>(<span class="ex">define</span><span class="fu"> </span>(show-me self)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  (self &#39;show-me self))</span></code></pre></div>
 <p>This is OK in Scheme, so dick-typing (a la Python) is supported.</p>
-<h1 data-number="2" id="example-klesses" data-number="2"><span class="header-section-number">2</span> Example <code>kless</code>es</h1>
+<h1 data-number="2" id="example-klesses"><span class="header-section-number">2</span> Example <code>kless</code>es</h1>
 <p>The following example shows that/how <code>kless</code> works, and what OO is good for.</p>
 <p>Defining two classes:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="co">;; Very important dek class! It is used to represent various types of deks</span></span>
@@ -203,7 +203,7 @@ text-decoration:underline
 8==D~~~~
 #;7&gt; (show-me (blenk-dek 4))
 8====D</code></pre>
-<h1 data-number="3" id="thorns" data-number="3"><span class="header-section-number">3</span> Thorns</h1>
+<h1 data-number="3" id="thorns"><span class="header-section-number">3</span> Thorns</h1>
 <p><code>self</code> is not in scope (or rather, <code>self</code>, the object itself, is in scope, but is not called <code>self</code> because of <code class="sourceCode scheme"><span class="kw">syntax-rules</span></code> magic). Recursive methods are still possible, with a named-<code class="sourceCode scheme"><span class="kw">let</span></code> or <code class="sourceCode scheme"><span class="ex">define</span></code>. Just don’t use other methods.</p>
 <p>No type predicate is defined, but can be easily implemented.</p>
 <p>No hierarchy, inheritance, no nothing!</p>

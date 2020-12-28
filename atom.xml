@@ -73,4 +73,10 @@
     <updated></updated>
     <link href="https://siiky.github.io/work/CVE-2020-26935.html" rel="alternate" type="text/html" />
   </entry>
+  <entry>
+    <id>https://siiky.github.io/books/list.md</id>
+    <title type="text">Books list</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/books/list.html" rel="alternate" type="text/html" />
+  </entry>
 </feed>

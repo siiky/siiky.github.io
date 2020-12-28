@@ -1,0 +1,43 @@
+% Books list
+% siiky
+% 2020/12/21
+
+ - [ ] Guillaume Pitron, _The Rare Metals War_: 2020
+ - [ ] Hanya Yanagihara, _A Little Life_: 2020
+ - [ ] Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14
+ - [ ] Paul Kleinman, _Philosophy 101_: 2020/12/20
+ - [ ] Travis Bughi, _The Forest of Angor_: 2020
+ - [ ] Victor Hugo, _Les Miserables_: 2020/01/01
+ - [ ] Voltaire, _Letters on England_: 2020
+ - [x] Albert Camus, _Bread and Freedom_: 2020/12/23
+ - [x] Albert Camus, _Create Dangerously_: 2020/12/21~2020/12/22
+ - [x] Albert Camus, _Defence of Intelligence_: 2020/12/22
+ - [x] Albert Camus, _The Stranger_: 2019
+ - [x] Aldous Huxley, _Brave New World_: 2020
+ - [x] George Orwell, _1984_: 2020
+ - [x] George Orwell, _Animal Farm_: 2020
+ - [x] Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
+ - [x] J. D. Salinger, _The Catcher in the Rye_: 2019
+ - [x] Jerome K. Jerome, _Idle Thoughts of an Idle Fellow_: 2020
+ - [x] Kazuo Ishiguro, _Never Let Me Go_: 2020
+ - [x] Nassim Nicholas Taleb, Fooled by Randomness: 2020
+ - [x] Paul Kleinman, _Psych 101_: 2020
+ - [x] Peter Watts, _Blindsight_: 2020
+ - [x] Plato, _Alcibiades II_: 2020
+ - [x] Plato, _Alcibiades I_: 2020
+ - [x] Plato, _Apology_: 2020
+ - [x] Plato, _Charmides_: 2020
+ - [x] Plato, _Critias_: 2020
+ - [x] Plato, _Crito_: 2020
+ - [x] Plato, _Eryxias_: 2020
+ - [x] Plato, _Euthyphro_: 2020
+ - [x] Plato, _Ion_: 2020
+ - [x] Plato, _Timaeus_: 2020
+ - [x] René Descartes, _Discourse on the Method_: 2020
+ - [x] René Descartes, _Selections from the Principles of Philosophy_: 2020
+ - [x] Robert Louis Stevenson, _The Strange Case of Dr. Jekyll and Mr. Hyde_: 2020
+ - [x] Stephen King, _The Shining_: 2019~2020
+ - [x] Susan Kaye Quinn, _The Legacy Human_: 2020
+ - [x] Travis Bughi, _Beyond the Plains_: 2020
+ - [x] Voltaire, _Micromegas_: 2020
+ - [x] Voltaire, _Socrates_: 2020

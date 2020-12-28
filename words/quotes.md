@@ -6,16 +6,20 @@ In no particular order.
 
 #
 
+My transcription, possibly wrong:
+
 > おい、君は先、羊飼いの犬だと言ったな。犬でいいじゃないか。いい犬は羊
 > を豊な牧草地へ導くことで、羊から多いに感謝されることもあるさ。
 
- -- 影山、梶に、_人間の條件_ ([ウィキペディア][human_condition_wp_jp],
+ -- 影山、梶に、_人間の條件_ から ([ウィキペディア][human_condition_wp_jp],
 [IMDb][human_condition_imdb])
+
+The subtitle's translation:
 
 > Listen. So you think you'd just be a shepherd's dog. What's wrong with that?
 > A good dog can lead the sheep to greener pastures and earn their gratitude.
 
- -- Kageyama, to Kaji, _The Human Condition: No Greater Love_
+ -- Kageyama, to Kaji, from _The Human Condition: No Greater Love_
 ([Wikipedia][human_condition_wp_en], [IMDb][human_condition_imdb])
 
 #

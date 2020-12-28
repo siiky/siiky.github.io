@@ -172,6 +172,10 @@
                       (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
                       (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz Scheme DSL")
                       )
+
+             (ssg:dir "books"
+                      (ssg:ent "./list.md" "2020/12/21" "Books list")
+                      )
              )
     )
   )
@@ -207,6 +211,7 @@
       #:force-redo? (->bool (member "--force-redo" (command-line-arguments)))
       #:index index
       #:index-maker index-maker
+      #:metafile "siiky.github.io.meta.scm"
       #:sxml-custom-rules (make-sxml-custom-rules)
       )
     )
