@@ -4,7 +4,6 @@
 
  - [ ] Guillaume Pitron, _The Rare Metals War_: 2020
  - [ ] Hanya Yanagihara, _A Little Life_: 2020
- - [ ] Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14
  - [ ] Paul Kleinman, _Philosophy 101_: 2020/12/20
  - [ ] Travis Bughi, _The Forest of Angor_: 2020
  - [ ] Victor Hugo, _Les Miserables_: 2020/01/01
@@ -20,6 +19,7 @@
  - [x] J. D. Salinger, _The Catcher in the Rye_: 2019
  - [x] Jerome K. Jerome, _Idle Thoughts of an Idle Fellow_: 2020
  - [x] Kazuo Ishiguro, _Never Let Me Go_: 2020
+ - [x] Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
  - [x] Nassim Nicholas Taleb, Fooled by Randomness: 2020
  - [x] Paul Kleinman, _Psych 101_: 2020
  - [x] Peter Watts, _Blindsight_: 2020
