@@ -1,0 +1,47 @@
+% Hard Determinism
+% siiky
+% 2020/12/30
+
+Thoughts on _Hard Determinism_, as described in _Philosophy 101_, by Paul Kleinman.
+
+Hard determinism, as described in the book, states that everything is
+determined by past events. It is not clear from the book if it's meant to be
+applied only to the physical world, beings' behaviour, or both, but it treats
+only human behaviour.
+
+Applied to human behaviour, the idea holds that we have no effect in future
+events, because we cannot do anything other than what we're predetermined to
+do, essentially meaning that we have no free will.
+
+This doesn't sit right with me. How can we believe to have free will, believe
+to be able to make a choice, but not actually be able to make a choice? How can
+it be that when I choose to eat this instead of that, or listen to this song
+instead of that one, I'm not actually choosing, but it had been predetermined
+beforehand, since the beginning of time, that I would "choose" so?
+
+As I write this, I wonder if I could have not written it. And, hadn't I written
+this, had I merely thought of writing and chosen not to, I wonder if I could
+have actually written it.
+
+It's really depressing to think that we have no saying in the course of our
+lives; That whatever we think we do to improve them, or whatever luck or
+misfortune befalls us, happens simply because it must.
+
+---
+
+All the counter arguments listed on the book base themselves in the fact that
+making choices constitutes free will, and assume, in some way or another, that
+we can make choices. This boils down to "hard determinism is false, therefore
+hard determinism is false".
+
+However, the real problem is, I think, that we don't know if this assumption is
+right.
+
+---
+
+On a positive note, this idea implies that, theoretically, one could predict
+the future after having witnessed the present. This is true, to a certain
+extent, in the physical world. But what would it mean to be able to know what
+our "choices" would be in the future? What would happen? On a less positive
+note, again, it would certainly not be a pleasant experience in certain
+scenarios, similar to being diagnosed with a terminal disease.
