@@ -35,66 +35,7 @@ Clojure, Java, JavaScript, PHP and Python.
 
 # Education
 
-## Bachelor's in Computer Science at University of Minho
-
-Notable grades for Computer Science classes -- where applicable, (practical
-grade/exam grade/final grade):
-
-Functional Programming (18)
-
-  ~ Introduction to the functional paradigm with Haskell and study of common
-  purely functional data structures and algorithms.
-
-Program Calculus (16)
-
-  ~ Study of Category Theory applied to programming; the practical assignment
-  consisted in solving five exercises using the material learned in class.
-
-Operating Systems (16/17/17)
-
-  ~ Study of POSIX (mostly UNIX) systems and implementation of crude parallel
-  programs in C; the practical assignment consisted in developing a notebook
-  processor (like Jupyter), that would execute the commands and embed the
-  results in place;
-
-Concurrent Programming (19/17.8/18)
-
-  ~ Classic concurrent and parallel programming with monitors/semaphores/locks
-  in Java, and concurrent and distributed programming by message passing in
-  Erlang; the practical assignment consisted in developing a multiplayer game
-  (like hole.io), the client in Processing (Java) and the server in Erlang;
-
-Interaction and Concurrency (18.5/12.5/15)
-
-  ~ Study of Reactive systems with Process Algebra, and Quantum Computing on
-  IBMQ.
-
-Project (15)
-
-  ~ Project proposed by professors, with the title _Functional Paradigm in
-  Haskell and C++_: We were asked to show how functional programming can be
-  used in C++ and to explain some concepts of the functional paradigm; the
-  repository can be found here: <https://github.com/apx5/Projeto19-20>.
-
-Notable grades for Mathematics classes:
-
-Discrete Mathematics (13)
-
-  ~ Study of Graph Theory and Number Theory.
-
-Algebra (15)
-
-  ~ Study of concrete algebraic structures, namely, groups and rings, and
-  concrete examples of these structures such as symmetric groups and quotient
-  groups and rings on $\mathbb{Z}$.
-
-Universal Algebra and Categories (14)
-
-  ~ Study of Universal Algebra, and Category Theory. Under universal algebra,
-  the focus was placed on the duality of lattices defined as algebraic
-  structures and partially ordered sets. Under category theory, we've studied
-  primarily common properties of categories, ways to compose categories and
-  ways to analyse and generalise these composition techniques with functors.
+I'm studying Computer Science at the University of Minho for a Bachelor's.
 
 # Additional Information
 
