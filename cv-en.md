@@ -26,8 +26,8 @@ Reality in iOS. In the process, I've also learned about the Scrum framework.
 
 ## Security Analyst at Checkmarx (September of 2019 - present)
 
-My job as an analyst entails analysing security vulnerabilities that have been
-assigned a CVE number, with the end goal being to learn which versions of the
+My job as an analyst entails analysing existing security vulnerabilities, with
+or without a CVE number, with the end goal being to learn which versions of the
 affected software are actually vulnerable. Although I'm not tasked with
 software development of any form, as vulnerabilities are found in a wide range
 of projects, I come in contact with many languages, the most common being C,
@@ -52,7 +52,7 @@ with, enjoyed working with, and would like to work with again:
 From reading books, papers and blogs, the languages that I would like to learn:
 
  * Rust -- safe systems language, with an advanced type system;
- * Idris -- for refinement and dependent types;
+ * Idris -- for playing with types;
  * Common Lisp -- for advanced metaprogramming and arbritary compile-time
    computation;
 
@@ -66,9 +66,6 @@ Code Jam, Google Kickstart, MIUP and Battle of Universities.
 During my spare time I have developed personal projects and contributed to open
 source projects. The most notable among them:
 
-<https://github.com/siiky/star>
-  ~ A simple `tar` clone.
-
 <https://github.com/siiky/c-utils>
   ~ Type-generic data structures and utilities written in C, tested with
   QuickCheck-like tests.
@@ -80,7 +77,7 @@ source projects. The most notable among them:
   ~ Found and reported a bug.
 
 <https://github.com/iraikov/chicken-unitconv>
-  ~ Changed all constants to exact numbers, which improves precision.
+  ~ Changed all constants to exact numbers, to improve precision.
 
 ## Areas of Interest
 
