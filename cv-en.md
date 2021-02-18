@@ -35,7 +35,7 @@ Clojure, Java, JavaScript, PHP and Python.
 
 # Education
 
-I'm studying Computer Science at the University of Minho for a Bachelor's.
+Studied Computer Science at the University of Minho for a Bachelor's.
 
 # Additional Information
 
