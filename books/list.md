@@ -3,7 +3,6 @@
 % 2020/12/21
 
  - [ ] Guillaume Pitron, _The Rare Metals War_: 2020
- - [ ] Hanya Yanagihara, _A Little Life_: 2020
  - [ ] Paul Kleinman, _Philosophy 101_: 2020/12/20
  - [ ] Travis Bughi, _The Forest of Angor_: 2020
  - [ ] Victor Hugo, _Les Miserables_: 2020/01/01
@@ -14,6 +13,7 @@
  - [X] Aldous Huxley, _Brave New World_: 2020
  - [X] George Orwell, _1984_: 2020
  - [X] George Orwell, _Animal Farm_: 2020
+ - [X] Hanya Yanagihara, _A Little Life_: 2020~2021/03/07
  - [X] Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
  - [X] J. D. Salinger, _The Catcher in the Rye_: 2019
  - [X] Jerome K. Jerome, _Idle Thoughts of an Idle Fellow_: 2020
@@ -30,6 +30,7 @@
  - [X] Plato, _Crito_: 2020
  - [X] Plato, _Eryxias_: 2020
  - [X] Plato, _Euthyphro_: 2020
+ - [X] Plato, _Gorgias_: 2021~2021/03/13
  - [X] Plato, _Ion_: 2020
  - [X] Plato, _Timaeus_: 2020
  - [X] René Descartes, _Discourse on the Method_: 2020

@@ -24,7 +24,7 @@ My assigned job was developing unfinished features, aswell as new features, for
 a consumer facing product. These features entailed working with Augmented
 Reality in iOS. In the process, I've also learned about the Scrum framework.
 
-## Security Analyst at Checkmarx (September of 2019 - present)
+## Application Security Analyst at Checkmarx (September of 2019 - present)
 
 My job as an analyst entails analysing existing security vulnerabilities, with
 or without a CVE number, with the end goal being to learn which versions of the
