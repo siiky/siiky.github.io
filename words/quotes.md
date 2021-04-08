@@ -86,9 +86,20 @@ but it's a good paragraph from a good book.
 
 -- From _Animal Farm_, by George Orwell
 
+#
+
+> But neither man nor any other animal are happy: Therefore he does not will
+> their happiness. His wisdom is infinite: He is never mistaken in choosing the
+> means to any end: But the course of nature tends not to human or animal
+> felicity: Therefore it is not established for that purpose.
+
+-- David Hume, [Dialogues Concerning Natural
+Religion][dialogues_concerning_natural_religion]
+
 [brave_new_world_huxley_wp]: https://en.wikipedia.org/wiki/Brave_new_world
 [human_condition_imdb]: https://www.imdb.com/title/tt0053114/
 [human_condition_wp_en]: https://en.wikipedia.org/wiki/The_Human_Condition_%28film_series%29
 [human_condition_wp_jp]: https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%96%93%E3%81%AE%E6%A2%9D%E4%BB%B6_%28%E6%98%A0%E7%94%BB%29
 [socrates_voltaire_pg]: https://www.gutenberg.org/ebooks/4683
 [socrates_voltaire_wp]: https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_%28play%29
+[dialogues_concerning_natural_religion]: https://en.wikipedia.org/wiki/Problem_of_evil#David_Hume

@@ -124,6 +124,7 @@
                       (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory and Performance")
                       (ssg:ent wip "./functors.md" "2019/10/15" "Functors")
                       (ssg:ent wip "./faucets.md" "2020/11/20" "Faucets")
+                      (ssg:ent wip "./posets.md" "2021/01/25" "POSets")
                       )
 
              (ssg:dir "scheme"

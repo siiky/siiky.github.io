@@ -3,7 +3,7 @@
 % 2020/12/21
 
  - [ ] Guillaume Pitron, _The Rare Metals War_: 2020
- - [ ] Paul Kleinman, _Philosophy 101_: 2020/12/20
+ - [ ] Peter Archer, _Religion 101_: 2020/03/29
  - [ ] Travis Bughi, _The Forest of Angor_: 2020
  - [ ] Victor Hugo, _Les Miserables_: 2020/01/01
  - [X] Albert Camus, _Bread and Freedom_: 2020/12/23
@@ -20,6 +20,7 @@
  - [X] Kazuo Ishiguro, _Never Let Me Go_: 2020
  - [X] Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
  - [X] Nassim Nicholas Taleb, Fooled by Randomness: 2020
+ - [X] Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  - [X] Paul Kleinman, _Psych 101_: 2020
  - [X] Peter Watts, _Blindsight_: 2020
  - [X] Plato, _Alcibiades II_: 2020
