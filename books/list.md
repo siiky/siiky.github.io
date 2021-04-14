@@ -5,8 +5,7 @@
 # Reading
 
  * Guillaume Pitron, _The Rare Metals War_: 2020
- * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/10
- * Laozi, _Tao Te Ching_: 2021/04/10
+ * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/14
  * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, _Les Miserables_: 2020/01/01
 
@@ -25,6 +24,7 @@
  * Jerome K. Jerome, _Idle Thoughts of an Idle Fellow_: 2020
  * Kazuo Ishiguro, _Never Let Me Go_: 2020
  * Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
+ * Laozi, _Tao Te Ching_: 2021/04/10~2021/04/14
  * Nassim Nicholas Taleb, Fooled by Randomness: 2020
  * Nikolai Gogol, _A May Night_: 2021/03
  * Nikolai Gogol, _St. John's Eve_: 2021/03
