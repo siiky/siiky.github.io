@@ -6,6 +6,7 @@
 
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/14
+ * Leo Tolstoy, _A Confession_: 2021/04/20
  * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, _Les Miserables_: 2020/01/01
 
@@ -16,6 +17,7 @@
  * Albert Camus, _Defence of Intelligence_: 2020/12/22
  * Albert Camus, _The Stranger_: 2019
  * Aldous Huxley, _Brave New World_: 2020
+ * Epictetus, _The Enchiridion_: 2021/04/14~2021/04/16
  * George Orwell, _1984_: 2020
  * George Orwell, _Animal Farm_: 2020
  * Hanya Yanagihara, _A Little Life_: 2020~2021/03/07
