@@ -5,7 +5,7 @@
 # Reading
 
  * Guillaume Pitron, _The Rare Metals War_: 2020
- * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/14
+ * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/28
  * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, _Les Miserables_: 2020/01/01
 
