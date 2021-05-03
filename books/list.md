@@ -5,7 +5,6 @@
 # Reading
 
  * Guillaume Pitron, _The Rare Metals War_: 2020
- * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/28
  * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, _Les Miserables_: 2020/01/01
 
@@ -23,6 +22,7 @@
  * Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
  * J. D. Salinger, _The Catcher in the Rye_: 2019
  * Jerome K. Jerome, _Idle Thoughts of an Idle Fellow_: 2020
+ * Karl Marx & Friedrich Engels, _The Communist Manifesto_: 2021/04/28~2021/05/03
  * Kazuo Ishiguro, _Never Let Me Go_: 2020
  * Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
  * Laozi, _Tao Te Ching_: 2021/04/10~2021/04/14
