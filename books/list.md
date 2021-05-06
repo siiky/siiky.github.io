@@ -5,6 +5,7 @@
 # Reading
 
  * Guillaume Pitron, _The Rare Metals War_: 2020
+ * Ludwig Wittgenstein, _Tractatus Logico-Philosophicus_: 2021/05/06
  * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, _Les Miserables_: 2020/01/01
 
