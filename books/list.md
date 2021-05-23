@@ -4,6 +4,7 @@
 
 # Reading
 
+ * Bob Nystrom, [_Game Programming Patterns_](https://gameprogrammingpatterns.com): 2021
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_][9781680506617]: 2021/05/20
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_](https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden): 2021/05/06
