@@ -8,7 +8,6 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_][9781680506617]: 2021/05/20
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_](https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden): 2021/05/06
- * Peter Archer, _Religion 101_: 2020/03/29
  * Victor Hugo, [_Les Miserables_](https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood): 2020/01/01
 
 # Read
@@ -35,6 +34,7 @@
  * Nikolai Gogol, [_St. John's Eve_](https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy): 2021/03
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
+ * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
  * Peter Watts, _Blindsight_: 2020
  * Plato, _Alcibiades II_: 2020
  * Plato, _Alcibiades I_: 2020
