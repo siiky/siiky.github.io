@@ -4,6 +4,7 @@
 
 # Reading
 
+ * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/29/05
  * Bob Nystrom, [_Game Programming Patterns_](https://gameprogrammingpatterns.com): 2021
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_][9781680506617]: 2021/05/20
@@ -35,7 +36,21 @@
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
  * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
+ * Peter Watts, _Behemoth_
  * Peter Watts, _Blindsight_: 2020
+ * Peter Watts, _Maelstrom_
+ * Peter Watts, _Starfish_
+ * Philip K. Dick, _Adjustment Team_: 2020
+ * Philip K. Dick, _Beyond Lies the Wub_: 2020
+ * Philip K. Dick, _Beyond the Door_: 2020
+ * Philip K. Dick, _Of Withered Apples_: 2020
+ * Philip K. Dick, _Piper in the Woods_: 2020
+ * Philip K. Dick, _The Crystal Crypt_: 2020
+ * Philip K. Dick, _The Defenders_: 2020
+ * Philip K. Dick, _The Gun_: 2020
+ * Philip K. Dick, _The Skull_: 2020
+ * Philip K. Dick, _The Variable Man_: 2020
+ * Philip K. Dick, _Tony and the Beetles_: 2020
  * Plato, _Alcibiades II_: 2020
  * Plato, _Alcibiades I_: 2020
  * Plato, _Apology_: 2020
