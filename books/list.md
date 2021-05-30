@@ -47,6 +47,7 @@
  * Philip K. Dick, _Piper in the Woods_: 2020
  * Philip K. Dick, _The Crystal Crypt_: 2020
  * Philip K. Dick, _The Defenders_: 2020
+ * Philip K. Dick, _The Golden Man_: 2021/05/30
  * Philip K. Dick, _The Gun_: 2020
  * Philip K. Dick, _The Skull_: 2020
  * Philip K. Dick, _The Variable Man_: 2020
