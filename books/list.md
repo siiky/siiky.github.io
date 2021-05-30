@@ -30,6 +30,7 @@
  * Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
  * Laozi, [_Tao Te Ching_](https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge): 2021/04/10~2021/04/14
  * Leo Tolstoy, [_A Confession_](https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude): 2021/04/20~2021/04/27
+ * Marc Horne, _Tokyo Zero_
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Nikolai Gogol, [_A May Night_](https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy): 2021/03
  * Nikolai Gogol, [_St. John's Eve_](https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy): 2021/03
@@ -67,6 +68,7 @@
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
  * Robert Louis Stevenson, _The Strange Case of Dr. Jekyll and Mr. Hyde_: 2020
  * Stephen King, _The Shining_: 2019~2020
+ * Sun Tzu, _The Art of War_
  * Susan Kaye Quinn, _The Legacy Human_: 2020
  * Travis Bughi, _Beyond the Plains_: 2020
  * Voltaire, _Letters on England_: 2020~2021/01/21
