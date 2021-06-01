@@ -4,11 +4,11 @@
 
 # Reading
 
- * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/29/05
  * Bob Nystrom, [_Game Programming Patterns_](https://gameprogrammingpatterns.com): 2021
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_][9781680506617]: 2021/05/20
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_](https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden): 2021/05/06
+ * Nikolai Gogol, [_The Night of Christmas Eve_](https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy): 2021/05/31
  * Victor Hugo, [_Les Miserables_](https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood): 2020/01/01
 
 # Read
@@ -18,6 +18,7 @@
  * Albert Camus, _Defence of Intelligence_: 2020/12/22
  * Albert Camus, _The Stranger_: 2019
  * Aldous Huxley, _Brave New World_: 2020
+ * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/05/29~2021/06/01
  * Epictetus, [_The Enchiridion_](https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter): 2021/04/14~2021/04/16
  * George Orwell, _1984_: 2020
  * George Orwell, _Animal Farm_: 2020
