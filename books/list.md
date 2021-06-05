@@ -7,7 +7,6 @@
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06
  * Nikolai Gogol, [_The Night of Christmas Eve_]: 2021/05/31
  * Victor Hugo, [_Les Miserables_]: 2020/01/01
  * 宮本 百合子, [_私の見た米国の少年_]: 2021/MM/DD
@@ -32,6 +31,7 @@
  * Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
  * Laozi, [_Tao Te Ching_]: 2021/04/10~2021/04/14
  * Leo Tolstoy, [_A Confession_]: 2021/04/20~2021/04/27
+ * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06~2021/06/05
  * Marc Horne, [_Tokyo Zero_]
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Nikolai Gogol, [_A May Night_]: 2021/03
