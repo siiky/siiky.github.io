@@ -93,8 +93,14 @@ but it's a good paragraph from a good book.
 > means to any end: But the course of nature tends not to human or animal
 > felicity: Therefore it is not established for that purpose.
 
--- David Hume, [Dialogues Concerning Natural
-Religion][dialogues_concerning_natural_religion]
+-- David Hume, [Dialogues Concerning Natural Religion]
+
+#
+
+> 6.371: At the basis of the whole modern view of the world lies the illusion
+> that the so-called laws of nature are the explanations of natural phenomena.
+
+-- From [_Tractatus Logico-Philosophicus_], by Ludwig Wittgenstein
 
 [brave_new_world_huxley_wp]: https://en.wikipedia.org/wiki/Brave_new_world
 [human_condition_imdb]: https://www.imdb.com/title/tt0053114/
@@ -102,4 +108,5 @@ Religion][dialogues_concerning_natural_religion]
 [human_condition_wp_jp]: https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%96%93%E3%81%AE%E6%A2%9D%E4%BB%B6_%28%E6%98%A0%E7%94%BB%29
 [socrates_voltaire_pg]: https://www.gutenberg.org/ebooks/4683
 [socrates_voltaire_wp]: https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_%28play%29
-[dialogues_concerning_natural_religion]: https://en.wikipedia.org/wiki/Problem_of_evil#David_Hume
+[Dialogues Concerning Natural Religion]: https://en.wikipedia.org/wiki/Problem_of_evil#David_Hume
+[_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden

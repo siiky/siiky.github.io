@@ -6,10 +6,9 @@
 
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Guillaume Pitron, _The Rare Metals War_: 2020
+ * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Nikolai Gogol, [_The Night of Christmas Eve_]: 2021/05/31
  * Victor Hugo, [_Les Miserables_]: 2020/01/01
- * 宮本 百合子, [_私の見た米国の少年_]: 2021/MM/DD
 
 # Read
 
@@ -36,6 +35,7 @@
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Nikolai Gogol, [_A May Night_]: 2021/03
  * Nikolai Gogol, [_St. John's Eve_]: 2021/03
+ * Nikolai Gogol, [_The Night of Christmas Eve_]: 2021/05/31~2021/06/07
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
  * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
@@ -76,6 +76,8 @@
  * Voltaire, [_Letters on England_]: 2020~2021/01/21
  * Voltaire, [_Micromegas_]: 2020
  * Voltaire, [_Socrates_]: 2020
+ * 宮本 百合子, [_私の見た米国の少年_]: 2021/06/07
+ * 宮沢 賢治, [_『注文の多い料理店』序_]: 2021/06/05
  * 水上 滝太郎, [_大人の眼と子供の眼_]: 2021
  * 秋田 雨雀, [_三人の百姓_]: 2021/06/01~2021/06/02
 
@@ -114,6 +116,8 @@
 [_Timaeus_]: https://www.gutenberg.org/ebooks/1572
 [_Tokyo Zero_]: https://www.feedbooks.com/userbook/3501/tokyo-zero
 [_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
+[_Walden_]: https://standardebooks.org/ebooks/henry-david-thoreau/walden
+[_『注文の多い料理店』序_]: https://www.aozora.gr.jp/cards/000081/card43736.html
 [_三人の百姓_]: https://www.aozora.gr.jp/cards/001584/card53182.html
 [_大人の眼と子供の眼_]: https://www.aozora.gr.jp/cards/000800/card53186.html
 [_私の見た米国の少年_]: https://www.aozora.gr.jp/cards/000311/card3693.html
