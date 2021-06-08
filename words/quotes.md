@@ -8,8 +8,7 @@ In no particular order.
 
 My transcription, possibly wrong:
 
-> おい、君は先、羊飼いの犬だと言ったな。犬でいいじゃないか。いい犬は羊
-> を豊な牧草地へ導くことで、羊から多いに感謝されることもあるさ。
+> おい、君は先、羊飼いの犬だと言ったな。犬でいいじゃないか。いい犬は羊を豊な牧草地へ導くことで、羊から多いに感謝されることもあるさ。
 
  -- 影山、梶に、_人間の條件_ から ([ウィキペディア][human_condition_wp_jp],
 [IMDb][human_condition_imdb])
