@@ -8,7 +8,6 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Victor Hugo, [_Les Miserables_]: 2020/01/01
 
 # Read
 
@@ -73,6 +72,7 @@
  * Sun Tzu, _The Art of War_
  * Susan Kaye Quinn, _The Legacy Human_: 2020
  * Travis Bughi, _Beyond the Plains_: 2020
+ * Victor Hugo, [_Les Misérables_]: 2020/01/01~2021/06/10
  * Voltaire, [_Letters on England_]: 2020~2021/01/21
  * Voltaire, [_Micromegas_]: 2020
  * Voltaire, [_Socrates_]: 2020
@@ -102,7 +102,7 @@
 [_Gorgias_]: https://www.gutenberg.org/ebooks/1672
 [_Idle Thoughts of an Idle Fellow_]: https://www.gutenberg.org/ebooks/849
 [_Ion_]: https://www.gutenberg.org/ebooks/1635
-[_Les Miserables_]: https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood
+[_Les Misérables_]: https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood
 [_Letters on England_]: https://www.gutenberg.org/ebooks/2445
 [_Maelstrom_]: https://rifters.com/real/MAELSTROM.htm
 [_Micromegas_]: https://www.gutenberg.org/ebooks/30123
