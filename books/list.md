@@ -5,9 +5,11 @@
 # Reading
 
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
+ * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
+ * Nikolai Gogol, [_Taras Bulba_][gogol_short-stories]: 2021/06/12
 
 # Read
 
@@ -32,9 +34,10 @@
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06~2021/06/05
  * Marc Horne, [_Tokyo Zero_]
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
- * Nikolai Gogol, [_A May Night_]: 2021/03
- * Nikolai Gogol, [_St. John's Eve_]: 2021/03
- * Nikolai Gogol, [_The Night of Christmas Eve_]: 2021/05/31~2021/06/07
+ * Nikolai Gogol, [_A May Night_][gogol_short-stories]: 2021/03
+ * Nikolai Gogol, [_Old-Fashioned Farmers_][gogol_short-stories]: 2021/06/11
+ * Nikolai Gogol, [_St. John's Eve_][gogol_short-stories]: 2021/03
+ * Nikolai Gogol, [_The Night of Christmas Eve_][gogol_short-stories]: 2021/05/31~2021/06/07
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
  * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
@@ -86,7 +89,6 @@
  * Travis Bughi, _The Forest of Angor_: 2020
 
 [_A Confession_]: https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude
-[_A May Night_]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
 [_Alcibiades II_]: https://www.gutenberg.org/ebooks/1677
 [_Alcibiades I_]: https://www.gutenberg.org/ebooks/1676
 [_Apology_]: https://www.gutenberg.org/ebooks/1656
@@ -107,12 +109,10 @@
 [_Maelstrom_]: https://rifters.com/real/MAELSTROM.htm
 [_Micromegas_]: https://www.gutenberg.org/ebooks/30123
 [_Socrates_]: https://www.gutenberg.org/ebooks/4683
-[_St. John's Eve_]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
 [_Starfish_]: https://www.rifters.com/real/STARFISH.htm
 [_Tao Te Ching_]: https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge
 [_The Communist Manifesto_]: https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore
 [_The Enchiridion_]: https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter
-[_The Night of Christmas Eve_]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
 [_Timaeus_]: https://www.gutenberg.org/ebooks/1572
 [_Tokyo Zero_]: https://www.feedbooks.com/userbook/3501/tokyo-zero
 [_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
@@ -121,3 +121,4 @@
 [_三人の百姓_]: https://www.aozora.gr.jp/cards/001584/card53182.html
 [_大人の眼と子供の眼_]: https://www.aozora.gr.jp/cards/000800/card53186.html
 [_私の見た米国の少年_]: https://www.aozora.gr.jp/cards/000311/card3693.html
+[gogol_short-stories]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
