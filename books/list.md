@@ -10,7 +10,6 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Nikolai Gogol, [_Taras Bulba_][gogol_short-stories]: 2021/06/12
 
 # Read
 
@@ -38,6 +37,7 @@
  * Nikolai Gogol, [_A May Night_][gogol_short-stories]: 2021/03
  * Nikolai Gogol, [_Old-Fashioned Farmers_][gogol_short-stories]: 2021/06/11
  * Nikolai Gogol, [_St. John's Eve_][gogol_short-stories]: 2021/03
+ * Nikolai Gogol, [_Taras Bulba_][gogol_short-stories]: 2021/06/12~2021/06/24
  * Nikolai Gogol, [_The Night of Christmas Eve_][gogol_short-stories]: 2021/05/31~2021/06/07
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
