@@ -4,9 +4,9 @@
 
 # Reading
 
+ * Alfred Mill, _Personal Finance 101_: 2021/07/09
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
- * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
@@ -19,6 +19,7 @@
  * Albert Camus, _The Stranger_: 2019
  * Aldous Huxley, _Brave New World_: 2020
  * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/05/29~2021/06/01
+ * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Epictetus, [_The Enchiridion_]: 2021/04/14~2021/04/16
  * George Orwell, _1984_: 2020
  * George Orwell, _Animal Farm_: 2020
@@ -51,6 +52,7 @@
  * Philip K. Dick, _Beyond the Door_: 2020
  * Philip K. Dick, _Of Withered Apples_: 2020
  * Philip K. Dick, _Piper in the Woods_: 2020
+ * Philip K. Dick, _Second Variety_: 2021/07/06~2021/07/09
  * Philip K. Dick, _The Crystal Crypt_: 2020
  * Philip K. Dick, _The Defenders_: 2020
  * Philip K. Dick, _The Golden Man_: 2021/05/30
