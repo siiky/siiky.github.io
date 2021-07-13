@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="siiky" />
+  <title>OpenStreetMap Cheatsheet</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    q { quotes: "“" "”" "‘" "’"; }
+  </style>
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
+</head>
+<body>
+<h1 id="nothing-interesting-here">nothing interesting here</h1>
+<header id="title-block-header">
+<h1 class="title">OpenStreetMap Cheatsheet</h1>
+<p class="author">siiky</p>
+<p class="date">2021/07/12</p>
+</header>
+<p>Here you’ll find some personal notes I’ve gathered, or am still gathering, to ease and quicken creating and correctly tagging common features on OpenStreetMap.</p>
+<h1 data-number="1" id="water-source"><span class="header-section-number">1</span> Water Source</h1>
+<h1 data-number="2" id="waste"><span class="header-section-number">2</span> Waste</h1>
+<p>Features related to <a href="https://wiki.openstreetmap.org/wiki/Waste_Processing">waste processing</a>, such as of trash and recyclables.</p>
+<h2 data-number="2.1" id="recycling-container"><span class="header-section-number">2.1</span> Recycling Container</h2>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling"><code>amenity=recycling</code></a></dt>
+<dd><p>Specifies the feature is of some sort of recycling type.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:recycling_type%3Dcontainer"><code>recycling_type=container</code></a></dt>
+<dd><p>Specifies the feature is a recycling container, similar to <a href="https://wiki.openstreetmap.org/wiki/File:Altglas.jpg">this one</a> or <a href="https://wiki.openstreetmap.org/wiki/File:Jt_osm_recycling_underfloor.jpg">this one</a>.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a></dt>
+<dd><p>Specifies where the feature is located, i.e., on the surface, under the surface, etc. Two common ones are <a href="https://wiki.openstreetmap.org/wiki/Tag:location%3Doverground"><code>location=overground</code></a> (<a href="https://wiki.openstreetmap.org/wiki/File:Altglas.jpg">pic</a>) and <a href="https://wiki.openstreetmap.org/wiki/Tag:location%3Dunderground"><code>location=underground</code></a> (<a href="https://wiki.openstreetmap.org/wiki/File:Jt_osm_recycling_underfloor.jpg">pic</a>). It seems to be optional in the case of <a href="https://wiki.openstreetmap.org/wiki/Tag:location%3Doverground"><code>location=overground</code></a>, as it seems to me to be implied by <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling"><code>amenity=recycling</code></a>.</p>
+</dd>
+<dt><code>recycling:&lt;material&gt;=yes/no</code></dt>
+<dd><p>A list of materials can be found on <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling"><code>amenity=recycling</code></a>, and as is mentioned on that page, if <code>recycling:X=*</code> is ommitted, then it is assumed to be <code>no</code>, as if <code>recycling:X=no</code> was present; <em>unless</em> a tag of a supergroup of <code>X</code> is present and <code>yes</code>, in which case it’s as if <code>recycling:X=yes</code> was present.</p>
+</dd>
+</dl>
+<h3 data-number="2.1.1" id="the-big-three"><span class="header-section-number">2.1.1</span> The Big Three</h3>
+<p>By <q>big three</q> I mean paper, plastic, and glass:</p>
+<dl>
+<dt>Paper container (<q>papelão</q>)</dt>
+<dd><p>Alongside paper itself, all kinds of paper-related and paper-derived materials, like cardboard, can be deposited.</p>
+</dd>
+<dt>Plastic container (<q>embalão</q>)</dt>
+<dd><p>All kinds of plastic and metal materials can be deposited. These include plastic bottles, plastic bags, tin cans, milk cartons, …</p>
+</dd>
+<dt>Glass container (<q>vidrão</q>)</dt>
+<dd><p>All kinds of glass objects, like glass bottles, glass cups, etc, can be deposited.</p>
+</dd>
+</dl>
+<p>Some of these containers also have batteries containers (<q>pilhão</q>) next to them, where you can deposit used batteries.</p>
+<p>The correct <code>recycling:&lt;material&gt;=yes/no</code> tags, based on <a href="https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity%3Drecycling"><code>amenity=recycling</code> (PT)</a>, are the following:</p>
+<pre><code>recycling:plastic=yes
+recycling:plastic_bags=yes
+recycling:plastic_bottles=yes
+recycling:plastic_packaging=yes
+recycling:cans=yes
+recycling:PET=yes 
+recycling:paper=yes
+recycling:paper_packaging=yes
+recycling:beverage_cartons=yes
+recycling:cardboard=yes
+recycling:cartons=yes
+recycling:magazines=yes
+recycling:newspaper=yes 
+recycling:glass=yes
+recycling:glass_bottles=yes </code></pre>
+<p><strong>NOTE</strong>: I think styrofoam is allowed in the plastic container. However, I’m not sure it actually is, nor if it’s implied by the tags above.</p>
+<p>And in case there’s a batteries container, include also the following:</p>
+<pre><code>recycling:batteries=yes
+recycling:car_batteries=no </code></pre>
+<h3 data-number="2.1.2" id="clothes-footwear"><span class="header-section-number">2.1.2</span> Clothes &amp; Footwear</h3>
+<p>The correct <code>recycling:&lt;material&gt;=yes/no</code> tags, based on <a href="https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity%3Drecycling"><code>amenity=recycling</code> (PT)</a>, are the following:</p>
+<pre><code>recycling:belts=yes
+recycling:clothes=yes</code></pre>
+<p><strong>NOTE</strong>: Footwear is accepted, according to the comments, even though there’s no <code>recycling:footwear=yes</code> or similar. I guess it’s implied by <code>recycling:clothes=yes</code>.</p>
+<h2 data-number="2.2" id="trash"><span class="header-section-number">2.2</span> Trash</h2>
+<p>Use <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal"><code>amenity=waste_disposal</code></a> if the feature is a container, or <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket"><code>amenity=waste_basket</code></a> if it is a basket.</p>
+<p>Additionally, specify the accepted kind of waste with <a href="https://wiki.openstreetmap.org/wiki/Key:waste"><code>waste=*</code></a>:</p>
+<pre><code>waste=trash
+waste=organic
+waste=dog_excrement</code></pre>
+<p>You may also include <a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a>, and <code>waste=cigarettes</code> if there’s an ashtray attached.</p>
+<div class="line-block">places:<br />
+<a href="https://siiky.github.io">Go home!</a><br />
+<a href="https://github.com/siiky">GitHub</a><br />
+<a href="https://siiky.github.io/atom.xml">Atom Feed</a></div>
+</body>
+</html>

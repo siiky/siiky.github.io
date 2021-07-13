@@ -178,6 +178,10 @@
              (ssg:dir "books"
                       (ssg:ent "./list.md" "2020/12/21" "Books list")
                       )
+
+             (ssg:dir wip "osm"
+                      (ssg:ent wip "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
+                      )
              )
     )
   )
@@ -205,7 +209,7 @@
                #:type 'atom))
 
 (begin
-  ;(ssg:pandoc:append-default-extra-options! `("-B" ,header))
+  (ssg:pandoc:append-default-extra-options! `("-B" ,header))
   (ssg:pandoc:append-default-extra-options! `("-A" ,footer))
   (ssg:ssg
     (ssg:site
