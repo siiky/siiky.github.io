@@ -72,16 +72,16 @@ recycling:plastic_bags=yes
 recycling:plastic_bottles=yes
 recycling:plastic_packaging=yes
 recycling:cans=yes
-recycling:PET=yes 
+recycling:PET=yes
 recycling:paper=yes
 recycling:paper_packaging=yes
 recycling:beverage_cartons=yes
 recycling:cardboard=yes
 recycling:cartons=yes
 recycling:magazines=yes
-recycling:newspaper=yes 
+recycling:newspaper=yes
 recycling:glass=yes
-recycling:glass_bottles=yes 
+recycling:glass_bottles=yes
 ```
 
 **NOTE**: I think styrofoam is allowed in the plastic container. However, I'm
@@ -91,7 +91,7 @@ And in case there's a batteries container, include also the following:
 
 ```
 recycling:batteries=yes
-recycling:car_batteries=no 
+recycling:car_batteries=no
 ```
 
 ### Clothes & Footwear
@@ -116,13 +116,16 @@ Use [`amenity=waste_disposal`] if the feature is a container, or
 Additionally, specify the accepted kind of waste with [`waste=*`]:
 
 ```
-waste=trash
-waste=organic
-waste=dog_excrement
+waste=trash;organic;dog_excrement
 ```
 
-You may also include [`location=*`], and `waste=cigarettes` if there's an
-ashtray attached.
+If there's an ashtray attached, you can use this:
+
+```
+waste=trash;organic;dog_excrement;cigarettes
+```
+
+You may also include [`location=*`].
 
 [`amenity=recycling` (PT)]: https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity%3Drecycling
 [`amenity=recycling`]: https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling

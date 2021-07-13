@@ -94,20 +94,20 @@ recycling:plastic_bags=yes
 recycling:plastic_bottles=yes
 recycling:plastic_packaging=yes
 recycling:cans=yes
-recycling:PET=yes 
+recycling:PET=yes
 recycling:paper=yes
 recycling:paper_packaging=yes
 recycling:beverage_cartons=yes
 recycling:cardboard=yes
 recycling:cartons=yes
 recycling:magazines=yes
-recycling:newspaper=yes 
+recycling:newspaper=yes
 recycling:glass=yes
-recycling:glass_bottles=yes </code></pre>
+recycling:glass_bottles=yes</code></pre>
 <p><strong>NOTE</strong>: I think styrofoam is allowed in the plastic container. However, I’m not sure it actually is, nor if it’s implied by the tags above.</p>
 <p>And in case there’s a batteries container, include also the following:</p>
 <pre><code>recycling:batteries=yes
-recycling:car_batteries=no </code></pre>
+recycling:car_batteries=no</code></pre>
 <h3 data-number="2.1.2" id="clothes-footwear"><span class="header-section-number">2.1.2</span> Clothes &amp; Footwear</h3>
 <p>The correct <code>recycling:&lt;material&gt;=yes/no</code> tags, based on <a href="https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity%3Drecycling"><code>amenity=recycling</code> (PT)</a>, are the following:</p>
 <pre><code>recycling:belts=yes
@@ -116,10 +116,10 @@ recycling:clothes=yes</code></pre>
 <h2 data-number="2.2" id="trash"><span class="header-section-number">2.2</span> Trash</h2>
 <p>Use <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal"><code>amenity=waste_disposal</code></a> if the feature is a container, or <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket"><code>amenity=waste_basket</code></a> if it is a basket.</p>
 <p>Additionally, specify the accepted kind of waste with <a href="https://wiki.openstreetmap.org/wiki/Key:waste"><code>waste=*</code></a>:</p>
-<pre><code>waste=trash
-waste=organic
-waste=dog_excrement</code></pre>
-<p>You may also include <a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a>, and <code>waste=cigarettes</code> if there’s an ashtray attached.</p>
+<pre><code>waste=trash;organic;dog_excrement</code></pre>
+<p>If there’s an ashtray attached, you can use this:</p>
+<pre><code>waste=trash;organic;dog_excrement;cigarettes</code></pre>
+<p>You may also include <a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a>.</p>
 <div class="line-block">places:<br />
 <a href="https://siiky.github.io">Go home!</a><br />
 <a href="https://github.com/siiky">GitHub</a><br />
