@@ -56,6 +56,9 @@ From reading books, papers and blogs, the languages that I would like to learn:
  * Common Lisp -- for advanced metaprogramming and arbritary compile-time
    computation;
 
+Other than these, I have also worked with Java and Python, and have knowledge
+of object-oriented programming practices.
+
 ## Events
 
 I have participated in programming contests, such as Google Hash Code, Google
