@@ -119,7 +119,7 @@ Additionally, specify the accepted kind of waste with [`waste=*`]:
 waste=trash;organic;dog_excrement
 ```
 
-If there's an ashtray attached, you can use this:
+If there's an ashtray attached, you can include `cigarettes`:
 
 ```
 waste=trash;organic;dog_excrement;cigarettes
@@ -127,14 +127,49 @@ waste=trash;organic;dog_excrement;cigarettes
 
 You may also include [`location=*`].
 
-[`amenity=recycling` (PT)]: https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity%3Drecycling
-[`amenity=recycling`]: https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling
-[`amenity=waste_basket`]: https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket
-[`amenity=waste_disposal`]: https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal
+# Leisure
+
+## Picnic Table
+
+[`leisure=picnic_table`]
+
+ ~ Specifies the feature is picnic table.
+
+[`covered=*`] (optional)
+
+ ~ You may include this if it's covered, either completely or partially.
+
+[`material=*`] (optional)
+
+ ~ Specifies the material it's made of.
+
+## Bench
+
+[`amenity=bench`]
+
+ ~ Specifies the feature is a bench.
+
+[`backrest=*`] (optional)
+
+ ~ Specifies whether the bench has or not a backrest.
+
+[`material=*`] (optional)
+
+ ~ Specifies the material it's made of.
+
+[`material=*`]: https://wiki.openstreetmap.org/wiki/Key:material
+[`amenity=bench`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=bench
+[`amenity=recycling` (PT)]: https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=recycling
+[`amenity=recycling`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=recycling
+[`amenity=waste_basket`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket
+[`amenity=waste_disposal`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_disposal
+[`backrest=*`]: https://wiki.openstreetmap.org/wiki/Key:backrest
+[`covered=*`]: https://wiki.openstreetmap.org/wiki/Key:covered
+[`leisure=picnic_table`]: https://wiki.openstreetmap.org/wiki/Tag:leisure=picnic_table
 [`location=*`]: https://wiki.openstreetmap.org/wiki/Key:location
-[`location=overground`]: https://wiki.openstreetmap.org/wiki/Tag:location%3Doverground
-[`location=underground`]: https://wiki.openstreetmap.org/wiki/Tag:location%3Dunderground
-[`recycling_type=container`]: https://wiki.openstreetmap.org/wiki/Tag:recycling_type%3Dcontainer
+[`location=overground`]: https://wiki.openstreetmap.org/wiki/Tag:location=overground
+[`location=underground`]: https://wiki.openstreetmap.org/wiki/Tag:location=underground
+[`recycling_type=container`]: https://wiki.openstreetmap.org/wiki/Tag:recycling_type=container
 [`waste=*`]: https://wiki.openstreetmap.org/wiki/Key:waste
 [waste processing]: https://wiki.openstreetmap.org/wiki/Waste_Processing
 
