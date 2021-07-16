@@ -179,8 +179,8 @@
                       (ssg:ent "./list.md" "2020/12/21" "Books list")
                       )
 
-             (ssg:dir wip "osm"
-                      (ssg:ent wip "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
+             (ssg:dir "osm"
+                      (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
                       )
              )
     )

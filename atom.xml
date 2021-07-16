@@ -79,4 +79,10 @@
     <updated></updated>
     <link href="https://siiky.github.io/books/list.html" rel="alternate" type="text/html" />
   </entry>
+  <entry>
+    <id>https://siiky.github.io/osm/cheatsheet.md</id>
+    <title type="text">OpenStreetMap Cheatsheet</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/osm/cheatsheet.html" rel="alternate" type="text/html" />
+  </entry>
 </feed>
