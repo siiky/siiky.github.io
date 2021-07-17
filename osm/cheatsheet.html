@@ -55,8 +55,36 @@ text-decoration:underline
 <p class="date">2021/07/12</p>
 </header>
 <p>Here you’ll find some personal notes I’ve gathered, or am still gathering, to ease and quicken creating and correctly tagging common features on OpenStreetMap.</p>
+<p>If you can’t find what you want to map here, have a look at <a href="https://wiki.openstreetmap.org/wiki/How_to_map_a"><em>How to map a</em></a>.</p>
 <h1 data-number="1" id="water-source"><span class="header-section-number">1</span> Water Source</h1>
-<p><strong>TODO</strong></p>
+<p>For sources of water to be used (mainly) by humans. Water sources to used by animals require a different tag (<a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=watering_place"><code>amenity=watering_place</code></a>). Likewise for water to be used to refill RV’s deposits and the like (<a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=water_point"><code>amenity=water_point</code></a>).</p>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:drinking_water"><code>drinking_water=*</code></a></dt>
+<dd><p>After defining the type of water source, you may specify whether the water is drinkable. Apart from the obvious <code>yes</code> and <code>no</code>, <code>conditional</code> means <em>don’t know</em>, or <em>drink at your own risk</em>.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:drinking_water:legal"><code>drinking_water:legal=*</code></a> (optional)</dt>
+<dd><p>Additionally, you may use to specify whether the water source is officially (un)safe to drink.</p>
+</dd>
+</dl>
+<p>Other possibly interesting tags to take a look at are <a href="https://wiki.openstreetmap.org/wiki/Tag:natural=water"><code>natural=water</code></a> and <a href="https://wiki.openstreetmap.org/wiki/Tag:natural=spring"><code>natural=spring</code></a>.</p>
+<h2 data-number="1.1" id="simple-water-source"><span class="header-section-number">1.1</span> Simple Water Source</h2>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"><code>amenity=drinking_water</code></a></dt>
+<dd><p>Specifies the feature is a simple source of water. Check the documentation for examples.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:drinking_water"><code>drinking_water=*</code></a> (optional; <code>yes</code>)</dt>
+<dd><p>Specifies whether the water is drinkable. From my understanding, together with <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"><code>amenity=drinking_water</code></a>, not using this tag is the same as using <code>drinking_water=yes</code>.</p>
+</dd>
+</dl>
+<h2 data-number="1.2" id="ornamented-water-source"><span class="header-section-number">1.2</span> Ornamented Water Source</h2>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=fountain"><code>amenity=fountain</code></a> (<a href="https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=fountain">PT</a>)</dt>
+<dd><p>Specifies the feature is a fountain. Check the documentation for examples.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:natural=water"><code>natural=water</code></a> (optional)</dt>
+<dd><p>Commonly used together to specify bodies of water next, around, under, etc the fountain.</p>
+</dd>
+</dl>
 <h1 data-number="2" id="waste"><span class="header-section-number">2</span> Waste</h1>
 <p>Features related to <a href="https://wiki.openstreetmap.org/wiki/Waste_Processing">waste processing</a>, such as of trash and recyclables.</p>
 <h2 data-number="2.1" id="recycling-container"><span class="header-section-number">2.1</span> Recycling Container</h2>
@@ -67,15 +95,15 @@ text-decoration:underline
 <dt><a href="https://wiki.openstreetmap.org/wiki/Tag:recycling_type=container"><code>recycling_type=container</code></a></dt>
 <dd><p>Specifies the feature is a recycling container, similar to <a href="https://wiki.openstreetmap.org/wiki/File:Altglas.jpg">this one</a> or <a href="https://wiki.openstreetmap.org/wiki/File:Jt_osm_recycling_underfloor.jpg">this one</a>.</p>
 </dd>
-<dt><a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a></dt>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:location"><code>location=*</code></a> (optional)</dt>
 <dd><p>Specifies where the feature is located, i.e., on the surface, under the surface, etc. Two common ones are <a href="https://wiki.openstreetmap.org/wiki/Tag:location=overground"><code>location=overground</code></a> (<a href="https://wiki.openstreetmap.org/wiki/File:Altglas.jpg">pic</a>) and <a href="https://wiki.openstreetmap.org/wiki/Tag:location=underground"><code>location=underground</code></a> (<a href="https://wiki.openstreetmap.org/wiki/File:Jt_osm_recycling_underfloor.jpg">pic</a>). It seems to be optional in the case of <a href="https://wiki.openstreetmap.org/wiki/Tag:location=overground"><code>location=overground</code></a>, as it seems to me to be implied by <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=recycling"><code>amenity=recycling</code></a>.</p>
 </dd>
 <dt><code>recycling:&lt;material&gt;=yes/no</code></dt>
 <dd><p>A list of materials can be found on <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=recycling"><code>amenity=recycling</code></a>, and as is mentioned on that page, if <code>recycling:X=*</code> is ommitted, then it is assumed to be <code>no</code>, as if <code>recycling:X=no</code> was present; <em>unless</em> a tag of a supergroup of <code>X</code> is present and <code>yes</code>, in which case it’s as if <code>recycling:X=yes</code> was present.</p>
 </dd>
 </dl>
-<h3 data-number="2.1.1" id="the-big-three"><span class="header-section-number">2.1.1</span> The Big Three</h3>
-<p>By <q>big three</q> I mean paper, plastic, and glass:</p>
+<h3 data-number="2.1.1" id="the-big-three"><span class="header-section-number">2.1.1</span> <em>The Big Three</em></h3>
+<p>By <em>big three</em> I mean paper, plastic, and glass:</p>
 <dl>
 <dt>Paper container (<q>papelão</q>)</dt>
 <dd><p>Alongside paper itself, all kinds of paper-related and paper-derived materials, like cardboard, can be deposited.</p>
@@ -105,7 +133,7 @@ recycling:newspaper=yes
 recycling:glass=yes
 recycling:glass_bottles=yes</code></pre>
 <p><strong>NOTE</strong>: I think styrofoam is allowed in the plastic container. However, I’m not sure it actually is, nor if it’s implied by the tags above.</p>
-<p>And in case there’s a batteries container, include also the following:</p>
+<p>And in case there’s a batteries basket, include also the following:</p>
 <pre><code>recycling:batteries=yes
 recycling:car_batteries=no</code></pre>
 <h3 data-number="2.1.2" id="clothes-footwear"><span class="header-section-number">2.1.2</span> Clothes &amp; Footwear</h3>
@@ -143,6 +171,31 @@ recycling:clothes=yes</code></pre>
 </dd>
 <dt><a href="https://wiki.openstreetmap.org/wiki/Key:material"><code>material=*</code></a> (optional)</dt>
 <dd><p>Specifies the material it’s made of.</p>
+</dd>
+</dl>
+<h2 data-number="3.3" id="bbq-grill"><span class="header-section-number">3.3</span> BBQ Grill</h2>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=bbq"><code>amenity=bbq</code></a></dt>
+<dd><p>Specifies the feature is a BBQ grill.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:fuel"><code>fuel=*</code></a> (optional)</dt>
+<dd><p>The type of material you can use as fuel.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:covered"><code>covered=*</code></a> (optional; <code>no</code>)</dt>
+<dd><p>Whether it’s covered, either partially or completely.</p>
+</dd>
+</dl>
+<h1 data-number="4" id="tourism"><span class="header-section-number">4</span> Tourism</h1>
+<h2 data-number="4.1" id="viewpoint-miradouro"><span class="header-section-number">4.1</span> Viewpoint (Miradouro)</h2>
+<dl>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Tag:tourism=viewpoint"><code>tourism=viewpoint</code></a></dt>
+<dd><p>Specifies the feature is a viewpoint.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name=*</code></a> (optional?)</dt>
+<dd><p>Specifies the name of the viewpoint.</p>
+</dd>
+<dt><a href="https://wiki.openstreetmap.org/wiki/Key:direction"><code>direction=*</code></a> (optional)</dt>
+<dd><p>The direction of the view; e.g., <code>0-360</code> is <q>all-round</q>.</p>
 </dd>
 </dl>
 <div class="line-block">places:<br />
