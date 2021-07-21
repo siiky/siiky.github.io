@@ -4,8 +4,10 @@
 
 # Reading
 
+ * Albert Camus, _A Happy Death_: 2021/07/21
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
+ * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
