@@ -35,7 +35,8 @@
   (prefix
     (only ssg.converters.pandoc
           append-default-extra-options!
-          md->html)
+          md->html
+          ->)
     |ssg:pandoc:|)
 
   (prefix
@@ -167,7 +168,8 @@
                       )
 
              (ssg:dir wip "functional_programming"
-                      (ssg:ent "./immutability.md" "2020/04/10" "Immutability")
+                      (ssg:ent wip "./immutability.md" "2020/04/10" "Immutability")
+                      (ssg:ent wip "./curriculum.org" "2021/05/25" "FP vs IP Curriculum")
                       )
 
              (ssg:dir wip "todo"
@@ -186,7 +188,8 @@
     )
   )
 
-(define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)))
+(define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)
+                                                  ("org" "html" (ssg:pandoc:-> "org" "html"))))
 (define css (ssg:css-file "assets/monokai.css"))
 (define header "header.html")
 (define footer "footer.html")
@@ -209,6 +212,7 @@
                #:type 'atom))
 
 (begin
+  (ssg:pandoc:append-default-extra-options! '("--mathml"))
   (ssg:pandoc:append-default-extra-options! `("-B" ,header))
   (ssg:pandoc:append-default-extra-options! `("-A" ,footer))
   (ssg:ssg

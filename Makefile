@@ -19,7 +19,7 @@ DIRS := \
     -D work/                   \
     -D philosophy/             \
 
-all: cv $(SVG) html
+all: curriculum cv $(SVG) html
 
 force-redo: cv $(SVG) html-redo
 
@@ -30,13 +30,18 @@ html: $(MD) $(FOOTER) $(HEADER)
 	./siiky.github.io.scm
 
 watch:
-	find cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
+	find functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
 
 $(FOOTER): $(FOOTER:.html=.md)
 	pandoc -f markdown -t html $< -o $@
 
 $(HEADER): $(HEADER:.html=.md)
 	pandoc -f markdown -t html $< -o $@
+
+curriculum: functional_programming/curriculum.pdf
+
+functional_programming/curriculum.pdf: functional_programming/curriculum.org
+	pandoc -s -f org -t latex $< -o $@
 
 cv: cv-en.pdf
 
