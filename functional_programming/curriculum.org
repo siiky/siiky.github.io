@@ -1,4 +1,7 @@
 #+TITLE: Curriculum for the Imperative vs Functional Programming Teaching Experiment
+#+AUTHOR: siiky
+#+DATE: 2021/05/25
+#+LANGUAGE: en
 
 You can find this document in [[./curriculum.html][HTML]], [[./curriculum.pdf][PDF]], and the original [[./curriculum.org][Org]].
 
@@ -418,7 +421,7 @@ i.e., the function that given a (signed) number always returns a positive
 number, that is the input number itself, or its symmetric.
 
 $$
-abs(x)
+abs(x) =
 \begin{cases}
 -x & \text{if}\ x < 0 \\
 x  & \text{otherwise} \\
@@ -485,7 +488,7 @@ example, if we were to define arithmetic operators, we should probably add one
 or more clauses to take care of 0 or 1, because they're usually "special".
 
 $$
-mul(x, y)
+mul(x, y) =
 \begin{cases}
 0 & \text{if}\ x = 0 \\
 0 & \text{if}\ y = 0 \\

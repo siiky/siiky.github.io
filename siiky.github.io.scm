@@ -128,6 +128,33 @@
                       (ssg:ent wip "./posets.md" "2021/01/25" "POSets")
                       )
 
+             (ssg:dir "books"
+                      (ssg:ent "./list.md" "2020/12/21" "Books list")
+                      )
+
+             (ssg:dir "functional_programming"
+                      (ssg:ent wip "./immutability.md" "2020/04/10" "Immutability")
+                      (ssg:ent "./curriculum.org" "2021/05/25" "Curriculum")
+                      )
+
+             (ssg:dir "osm"
+                      (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
+                      )
+
+             (ssg:dir "philosophy"
+                      (ssg:ent "./links.md" "2020/09/07" "Links")
+                      (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
+                      (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
+                      (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
+                      (ssg:ent wip "./identity.md" "2020/06/28" "Identity")
+                      (ssg:ent wip "./utilitarianism.md" "" "Utilitarianism")
+                      (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
+                      )
+
+             (ssg:dir "psychology"
+                      (ssg:ent "./links.md" "2020/09/07" "Links")
+                      )
+
              (ssg:dir "scheme"
                       (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
                       (ssg:ent "./kless.md" "2019/10/13" "kless")
@@ -148,41 +175,14 @@
                       (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
                       )
 
-             (ssg:dir "philosophy"
-                      (ssg:ent "./links.md" "2020/09/07" "Links")
-                      (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
-                      (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
-                      (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
-                      (ssg:ent wip "./identity.md" "2020/06/28" "Identity")
-                      (ssg:ent wip "./utilitarianism.md" "" "Utilitarianism")
-                      (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
-                      )
-
-             (ssg:dir "psychology"
-                      (ssg:ent "./links.md" "2020/09/07" "Links")
-                      )
-
              (ssg:dir "work"
                       (ssg:ent wip "./credit.md" "2020/04/30" "Credit")
                       (ssg:ent "./CVE-2020-26935.md" "2020/11/06" "CVE-2020-26935")
                       )
 
-             (ssg:dir wip "functional_programming"
-                      (ssg:ent wip "./immutability.md" "2020/04/10" "Immutability")
-                      (ssg:ent wip "./curriculum.org" "2021/05/25" "FP vs IP Curriculum")
-                      )
-
              (ssg:dir wip "todo"
                       (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
                       (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz Scheme DSL")
-                      )
-
-             (ssg:dir "books"
-                      (ssg:ent "./list.md" "2020/12/21" "Books list")
-                      )
-
-             (ssg:dir "osm"
-                      (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
                       )
              )
     )

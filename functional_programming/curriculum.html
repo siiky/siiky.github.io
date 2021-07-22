@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="siiky" />
   <title>Curriculum for the Imperative vs Functional Programming Teaching Experiment</title>
   <style>
     code{white-space: pre-wrap;}
@@ -111,6 +112,8 @@ text-decoration:underline
 <h1 id="nothing-interesting-here">nothing interesting here</h1>
 <header id="title-block-header">
 <h1 class="title">Curriculum for the Imperative vs Functional Programming Teaching Experiment</h1>
+<p class="author">siiky</p>
+<p class="date">2021/05/25</p>
 </header>
 <p>You can find this document in <a href="./curriculum.html">HTML</a>, <a href="./curriculum.pdf">PDF</a>, and the original <a href="./curriculum.org">Org</a>.</p>
 <h1 data-number="1" id="introduction"><span class="header-section-number">1</span> Introduction</h1>
@@ -321,8 +324,8 @@ g)(x)</annotation></semantics></math> is the same as <math display="inline" xmln
 <p>This is going to be a packed section, with several important bits. Let&#39;s start with <em>flow control</em>.</p>
 <h3 data-number="3.4.1" id="flow-control"><span class="header-section-number">3.4.1</span> Flow Control</h3>
 <p>It sometimes may happen that we need or want a function to do different things depending on some condition. Imagine we&#39;re defining the <em>absolute</em> function, i.e., the function that given a (signed) number always returns a positive number, that is the input number itself, or its symmetric.</p>
-<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>b</mi><mi>s</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mo>−</mo><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">otherwise</mtext></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
-abs(x)
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>b</mi><mi>s</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mo>−</mo><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">otherwise</mtext></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
+abs(x) =
 \begin{cases}
 -x &amp; \text{if}\ x &lt; 0 \\
 x  &amp; \text{otherwise} \\
@@ -357,8 +360,8 @@ x  &amp; \text{otherwise} \\
 <p>Next we&#39;ll learn about a major Haskell feature, available on many functional programming languages, but not as much in imperative languages.</p>
 <h3 data-number="3.4.2" id="pattern-matching-and-function-clauses"><span class="header-section-number">3.4.2</span> Pattern Matching and Function Clauses</h3>
 <p><em>Pattern matching</em> allows us to <em>match</em> values according to patterns. For example, if we were to define arithmetic operators, we should probably add one or more clauses to take care of 0 or 1, because they&#39;re usually &quot;special&quot;.</p>
-<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>u</mi><mi>l</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>y</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>y</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>y</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><mtext mathvariant="normal">The common case...</mtext></mtd><mtd columnalign="left"><mi>o</mi><mi>t</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>w</mi><mi>i</mi><mi>s</mi><mi>e</mi></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
-mul(x, y)
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>u</mi><mi>l</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>y</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>y</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>x</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><mi>x</mi></mtd><mtd columnalign="left"><mtext mathvariant="normal">if</mtext><mspace width="0.222em"></mspace><mi>y</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><mtext mathvariant="normal">The common case...</mtext></mtd><mtd columnalign="left"><mi>o</mi><mi>t</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>w</mi><mi>i</mi><mi>s</mi><mi>e</mi></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
+mul(x, y) =
 \begin{cases}
 0 &amp; \text{if}\ x = 0 \\
 0 &amp; \text{if}\ y = 0 \\

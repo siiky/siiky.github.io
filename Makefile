@@ -30,7 +30,7 @@ html: $(MD) $(FOOTER) $(HEADER)
 	./siiky.github.io.scm
 
 watch:
-	find functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
+	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
 
 $(FOOTER): $(FOOTER:.html=.md)
 	pandoc -f markdown -t html $< -o $@
