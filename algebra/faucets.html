@@ -59,6 +59,7 @@ text-decoration:underline
 <p>So, in our simplified model, the state of a faucet alone will determine the water state: both water temperature and output pressure.</p>
 <p>The plan is to prove that the faucet types are <em>functionally equivalent</em> to each other, and that each is <em>fully functional</em>.</p>
 <p>We’ll call two faucet types <em>functionally equivalent</em> iff they can both represent the same set of water states. And we’ll call a faucet type <em>fully functional</em> iff it can represent all water states, i.e., iff there’s a total surjective function <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mi>a</mi><mi>u</mi><mi>c</mi><mi>e</mi><mi>t</mi><mi>S</mi><mi>t</mi><mi>a</mi><mi>t</mi><mi>e</mi><mo>→</mo><mi>W</mi><mi>a</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>S</mi><mi>t</mi><mi>a</mi><mi>t</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">FaucetState \to WaterState</annotation></semantics></math>.</p>
+<p>After proving that both are equivalent in <em>function</em>, we’ll follow by proving that it’s not enough to be actually equivalent, and that, in some respects, one of them is better than the other.</p>
 <h1 data-number="2" id="water"><span class="header-section-number">2</span> Water</h1>
 <p>Instead of dealing with actual values and their correct units, we’ll simplify our model further and use percentages instead.</p>
 <p>Water pressure will range from 0% (off, no water running), to 100% (water running to the faucet’s full capacity). Likewise, temperature will range from 0% (cold, the coldest water you can get out of the faucet), to 100% (hot, the hottest water you can get out of the faucet).</p>
@@ -120,6 +121,7 @@ c = 2(p - pt) \\
 <h3 data-number="3.2.1" id="proof-1"><span class="header-section-number">3.2.1</span> Proof</h3>
 <p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>B</mi><annotation encoding="application/x-tex">B</annotation></semantics></math> clearly is surjective, because it is the identity function.</p>
 <hr />
+<p>Being that both faucet types are <em>fully functional</em>, then they’re also <em>functionally equivalent</em>.</p>
 <h1 data-number="4" id="faucets-as-used-by-physical-beings-through-mechanical-interaction"><span class="header-section-number">4</span> Faucets as Used by Physical Beings through Mechanical Interaction</h1>
 <p>Did you notice something with the mathematical models?</p>
 <p>I’ll give you a hint: it’s obvious – I’ve even mentioned it already.</p>

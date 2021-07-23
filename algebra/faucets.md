@@ -27,6 +27,10 @@ represent the same set of water states. And we'll call a faucet type _fully
 functional_ iff it can represent all water states, i.e., iff there's a total
 surjective function $FaucetState \to WaterState$.
 
+After proving that both are equivalent in _function_, we'll follow by proving
+that it's not enough to be actually equivalent, and that, in some respects, one
+of them is better than the other.
+
 # Water
 
 Instead of dealing with actual values and their correct units, we'll simplify
@@ -136,6 +140,9 @@ $$B(p, h) \mapsto (p, h)$$
 $B$ clearly is surjective, because it is the identity function.
 
 ---
+
+Being that both faucet types are _fully functional_, then they're also
+_functionally equivalent_.
 
 # Faucets as Used by Physical Beings through Mechanical Interaction
 
