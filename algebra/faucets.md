@@ -173,7 +173,7 @@ current. Or maybe you like the current but wish it was a tad hotter. What do
 you do if you have a faucet _A_? Just change the thing right away! What do you
 do if you have a faucet _B_? _Roll for luck!_
 
-As physical beings using faucets through mechanical interaction, it follows
-that faucets _A_ are *superior*.
+For us, physical beings using faucets through mechanical interaction, it
+follows that faucets _A_ are *superior*.
 
 [KISS]: https://en.wikipedia.org/wiki/KISS_principle
