@@ -124,7 +124,7 @@
                       (ssg:ent "./groups.md" "2019/01/01" "A quick intro to Group Theory")
                       (ssg:ent "./cat_theory_perf.md" "2019/10/15" "Category Theory and Performance")
                       (ssg:ent wip "./functors.md" "2019/10/15" "Functors")
-                      (ssg:ent wip "./faucets.md" "2020/11/20" "Faucets")
+                      (ssg:ent "./faucets.md" "2020/11/20~2021/07/23" "Faucets")
                       (ssg:ent wip "./posets.md" "2021/01/25" "POSets")
                       )
 
