@@ -4,7 +4,6 @@
 
 # Reading
 
- * Albert Camus, _A Happy Death_: 2021/07/21
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
@@ -14,6 +13,7 @@
 
 # Read
 
+ * Albert Camus, _A Happy Death_: 2021/07/21~2021/07/28
  * Albert Camus, _Bread and Freedom_: 2020/12/23
  * Albert Camus, _Create Dangerously_: 2020/12/21~2020/12/22
  * Albert Camus, _Defence of Intelligence_: 2020/12/22
