@@ -8,7 +8,6 @@
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Guillaume Pitron, _The Rare Metals War_: 2020
- * Henry David Thoreau, [_Walden_]: 2021/06/07
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
 
 # Read
@@ -26,6 +25,7 @@
  * George Orwell, _1984_: 2020
  * George Orwell, _Animal Farm_: 2020
  * Hanya Yanagihara, _A Little Life_: 2020~2021/03/07
+ * Henry David Thoreau, [_Walden_]: 2021/06/07~2021/07/29
  * Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
  * J. D. Salinger, _The Catcher in the Rye_: 2019
  * Jerome K. Jerome, [_Idle Thoughts of an Idle Fellow_]: 2020
