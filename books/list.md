@@ -5,8 +5,8 @@
 # Reading
 
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
- * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
+ * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
 
@@ -20,6 +20,7 @@
  * Aldous Huxley, _Brave New World_: 2020
  * Alfred Mill, _Personal Finance 101_: 2021/07/09~2021/07/18
  * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/05/29~2021/06/01
+ * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08~2021/07/29
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Epictetus, [_The Enchiridion_]: 2021/04/14~2021/04/16
  * George Orwell, _1984_: 2020
