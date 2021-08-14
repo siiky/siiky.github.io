@@ -134,7 +134,7 @@
 
              (ssg:dir "functional_programming"
                       (ssg:ent wip "./immutability.md" "2020/04/10" "Immutability")
-                      (ssg:ent "./curriculum.org" "2021/05/25" "Curriculum")
+                      (ssg:ent "./curriculum.org" "2021/05/25" "[WIP] Curriculum")
                       )
 
              (ssg:dir "osm"

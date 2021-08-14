@@ -127,10 +127,12 @@ text-decoration:underline
 <li><p>No program structure required – requiring a program in its entirety to live inside an artificial block is insane! – Java, C#, and similar are out of the question.</p></li>
 <li><p>A REPL is a <strong>big</strong> plus! It facilitates and encourages experimentation with the language.</p></li>
 </ul>
-<p>A learner&#39;s choice of languages should consist of <em>at least</em> one language of each of the paradigms.</p>
+<p>A learner&#39;s choice of languages must consist of <em>at least</em> one language of each of the paradigms.</p>
+<p>For the purpose of the experiment, Haskell will be required. As such, it will be used and assumed throughout this text in examples, due to it being strongly typed and so straightforward in this regard.</p>
+<p>Here follow ideas/suggestions for possibly good language options.</p>
 <h2 data-number="2.1" id="imperative"><span class="header-section-number">2.1</span> Imperative</h2>
 <h3 data-number="2.1.1" id="python"><span class="header-section-number">2.1.1</span> Python</h3>
-<p>Possibly the easiest of these three imperative languages, used mostly in science. Has lots of magic.</p>
+<p>Possibly the easiest of the listed imperative languages, used mostly in science. Has lots of magic.</p>
 <h3 data-number="2.1.2" id="lua"><span class="header-section-number">2.1.2</span> Lua</h3>
 <p>Very simple, small, and fast interpreted language, used a lot on game development and as an embedded language. No magic whatsoever.</p>
 <h3 data-number="2.1.3" id="go"><span class="header-section-number">2.1.3</span> <span class="todo TODO">TODO</span> Go?</h3>
@@ -143,8 +145,6 @@ text-decoration:underline
 <p>Very simple general-purpose language with advanced meta programming, mainly due to its straightforward syntax. No magic whatsoever.</p>
 <h3 data-number="2.2.3" id="elixir"><span class="header-section-number">2.2.3</span> Elixir</h3>
 <p>Powerful language that runs on the <em>BEAM</em> VM, suited for parallel systems, with an actor model for its concurrency model. Brings lots of new features to the Erlang table, including proper modules and modules hierarchy, a decent polymorphic system, meta programming capabilities, and good tooling. Not much magic.</p>
-<h2 data-number="2.3" id="conclusion"><span class="header-section-number">2.3</span> Conclusion</h2>
-<p>For the purpose of the experiment, Haskell will be required, and as such, it will be used and assumed throughout this text in examples, due to it being strongly typed and so straightforward in this regard.</p>
 <h1 data-number="3" id="programming"><span class="header-section-number">3</span> Programming</h1>
 <h2 data-number="3.1" id="basic-types"><span class="header-section-number">3.1</span> Basic types</h2>
 <p>The types that we will call <em>basic</em> are types provided by the base language. These vary between languages, but there&#39;s usually a set of <em>basic types</em> shared by most programming languages. Here we will cover the most common types that are available to all the languages discussed above.</p>
@@ -199,9 +199,8 @@ not?\&quot;&quot;</code>.</p>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>[<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>]</span></code></pre></div></li>
 <li><p><span class="todo TODO">TODO</span> Tuples?</p></li>
 </ol>
-<h3 data-number="3.1.3" id="conclusion-1"><span class="header-section-number">3.1.3</span> Conclusion</h3>
-<p>Now that you know how to create, define, write, read, and understand the basic types, you&#39;re ready to get your hands dirty and do something with them.</p>
 <h2 data-number="3.2" id="basic-operations-on-basic-types"><span class="header-section-number">3.2</span> Basic operations on basic types</h2>
+<p>Now that you know how to create, define, write, read, and understand the basic types, you&#39;re ready to get your hands dirty and do something with them.</p>
 <h3 data-number="3.2.1" id="atomics-1"><span class="header-section-number">3.2.1</span> Atomics</h3>
 <ol>
 <li><p>Numbers</p>
@@ -255,8 +254,7 @@ not?\&quot;&quot;</code>.</p>
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true"></a><span class="dv">1</span><span class="op">:</span><span class="dv">2</span><span class="op">:</span><span class="dv">3</span><span class="op">:</span>[]</span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true"></a>[]<span class="op">:</span>[]</span></code></pre></div>
 <p>What you saw above with <code>(:)</code> is an important Haskell convention to keep in mind. A function (or operator) that&#39;s defined (called) as <code>(fun)</code> (notice the parentheses) is an <em>infix</em> operator, i.e., it&#39;s placed in between the operands; while usually, for example with <code>head</code> and <code>tail</code>, functions are <em>prefix</em>, i.e., they&#39;re placed before the operands. The most common examples of <em>infix</em> operators are the arithmetic operators (<code>(+)</code>, <code>(/)</code>, etc). To turn an <em>infix</em> operator into a <em>prefix</em> operator, all you have to do is surround the operator with parentheses. So, <code>(+) 1 2</code> is the same as <code>1 + 2</code>.</p>
-<p>There&#39;s also a convention to turn <em>prefix</em> operators into <em>infix</em> operators, which is to surround the operator with backticks (<code>`</code>) – we don&#39;t have an example yet, but it goes like this: <code>op arg1 arg2</code> is equivalent to <code>arg1 `op`
-arg2</code>. Later on we&#39;ll get to see examples of this.</p></li>
+<p>There&#39;s also a convention to turn <em>prefix</em> operators into <em>infix</em> operators, which is to surround the operator with backticks (<code>`</code>) – we don&#39;t have an example yet, but it goes like this: <code>op arg1 arg2</code> is equivalent to <code>arg1 `op` arg2</code>. Later on we&#39;ll get to see examples of this.</p></li>
 <li><p>Concatenation</p>
 <p>The operation that takes two sequences of the same type and &quot;glues&quot; them together is called <em>concatenation</em>.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true"></a>[<span class="dv">0</span>, <span class="dv">1</span>] <span class="op">++</span> [<span class="dv">2</span>, <span class="dv">3</span>]</span>
@@ -300,7 +298,7 @@ arg2</code>. Later on we&#39;ll get to see examples of this.</p></li>
 </tr>
 </tbody>
 </table>
-<p>The reason to use <code>==</code> instead of <code>=</code> for equality will be clear later.</p>
+<p>The reason to use <code>==</code> instead of <code>=</code> for equality will be clear next.</p>
 <h2 data-number="3.3" id="pure-numerical-functions-sn---sm"><span class="header-section-number">3.3</span> (Pure) Numerical Functions – S<sup>n</sup> -&gt; S<sup>m</sup></h2>
 <p>Let&#39;s start now defining our own functions. A very high-level and hand-wavy way to explain is: whenever you would write <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>e</mi><mi>x</mi><mi>p</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">f(x) = expr</annotation></semantics></math>, in Haskell you translate that by writing <code>f x = expr</code>. So, for example, to define the <em>identity</em> function, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi><mi>d</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>i</mi><mi>t</mi><mi>y</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">identity(x) = x</annotation></semantics></math>, in Haskell, you just write <code>identity x = x</code>. For multivariable functions, you just need to add the parentheses in Haskell: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>x</mi><mo>⋅</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">f(x, y) = x \cdot y</annotation></semantics></math> translates to <code>f (x, y) = x * y</code>; <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo>,</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x, y) = (y, x)</annotation></semantics></math> translates to <code>f (x, y) = (y, x)</code>; <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x) = (x, x)</annotation></semantics></math> translates to <code>f x = (x, x)</code>.</p>
 <h3 data-number="3.3.1" id="doubles"><span class="header-section-number">3.3.1</span> Doubles</h3>

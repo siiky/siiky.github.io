@@ -34,15 +34,21 @@ given as alternatives should satisfy these requisites:
 
 - A REPL is a *big* plus! It facilitates and encourages experimentation with the language.
 
-A learner's choice of languages should consist of /at least/ one language of
-each of the paradigms.
+A learner's choice of languages must consist of /at least/ one language of each
+of the paradigms.
+
+For the purpose of the experiment, Haskell will be required. As such, it will be
+used and assumed throughout this text in examples, due to it being strongly
+typed and so straightforward in this regard.
+
+Here follow ideas/suggestions for possibly good language options.
 
 ** Imperative
 
 *** Python
 
-Possibly the easiest of these three imperative languages, used mostly in
-science. Has lots of magic.
+Possibly the easiest of the listed imperative languages, used mostly in science.
+Has lots of magic.
 
 *** Lua
 
@@ -75,12 +81,6 @@ an actor model for its concurrency model. Brings lots of new features to the
 Erlang table, including proper modules and modules hierarchy, a decent
 polymorphic system, meta programming capabilities, and good tooling. Not much
 magic.
-
-** Conclusion
-
-For the purpose of the experiment, Haskell will be required, and as such, it
-will be used and assumed throughout this text in examples, due to it being
-strongly typed and so straightforward in this regard.
 
 * Programming
 
@@ -205,12 +205,10 @@ Some examples follow:
 
 **** TODO Tuples?
 
-*** Conclusion
+** Basic operations on basic types
 
 Now that you know how to create, define, write, read, and understand the basic
 types, you're ready to get your hands dirty and do something with them.
-
-** Basic operations on basic types
 
 *** Atomics
 
@@ -326,8 +324,8 @@ with parentheses. So, ~(+) 1 2~ is the same as ~1 + 2~.
 
 There's also a convention to turn /prefix/ operators into /infix/ operators,
 which is to surround the operator with backticks (~`~) -- we don't have an
-example yet, but it goes like this: ~op arg1 arg2~ is equivalent to ~arg1 `op`
-arg2~. Later on we'll get to see examples of this.
+example yet, but it goes like this: ~op arg1 arg2~ is equivalent to
+~arg1 `op` arg2~. Later on we'll get to see examples of this.
 
 **** Concatenation
 
@@ -358,7 +356,7 @@ is also very useful. So here's the table:
 | $=$         | ~==~    |
 | $\neq$      | ~/=~    |
 
-The reason to use ~==~ instead of ~=~ for equality will be clear later.
+The reason to use ~==~ instead of ~=~ for equality will be clear next.
 
 ** (Pure) Numerical Functions -- S^n -> S^m
 
