@@ -84,6 +84,18 @@ magic.
 
 * Programming
 
+First thing to know about Haskell is that it's strongly typed, which means every
+value has a type, and the compiler/interpreter enforces these types.
+
+The syntax is similar to notation used in mathematics: an object $x$ of type $A$
+is written $x : A$; in Haskell it's written ~x :: A~. A function $f$ that given
+an $A$ calculates a $B$ is written $f : A \to B$; in Haskell it's written
+~f :: A -> B~. And so on...
+
+In many cases Haskell can infer ("guess") the type of some value, so specifying
+types is mostly optional. In these initial examples we will keep the types
+explicit, but later we will ignore them, unless there's good reason not to.
+
 ** Basic types
 
 The types that we will call /basic/ are types provided by the base language.
@@ -110,17 +122,17 @@ likely for this to be the cause.
 
 The reasons to call non-integer numbers reals are that a computer may still be
 useful to do calculations on (approximate) reals, and that most programming
-languages don't have exact rational numbers -- they just "fake" it.
+languages don't have exact rational numbers -- they just fake it.
 
 ***** Integers
 
 Just what one would expect -- some examples:
 
 #+BEGIN_SRC haskell
-0
--1
-21
-42
+0 :: Int
+-1 :: Int
+21 :: Int
+42 :: Int
 #+END_SRC
 
 Some languages provide /unsigned/ integer types, i.e., the naturals (including
@@ -131,18 +143,18 @@ Some languages provide /unsigned/ integer types, i.e., the naturals (including
 Mostly what one would expect as well:
 
 #+BEGIN_SRC haskell
-0
-1
-3.14
--6.28
-1.4142135
+0 :: Float
+1 :: Float
+3.14 :: Float
+-6.28 :: Float
+1.4142135 :: Float
 #+END_SRC
 
 Notation similar to the /scientific notation/ is also common on many languages,
-but the exact notation differs between languages, so we won't detail it too
-much. However, they usually go something like this: ~0.1234e5~ is the same as
-$0.1234*10^5$. Check the official documentation of each language for the exact
-supported notations.
+but the exact notation differs between languages. We won't be using it in this
+document, so we won't detail it here. However, they usually go something like
+this: ~0.1234e5~ is the same as $0.1234*10^5$. Check the official documentation
+of each language for the exact supported notations.
 
 **** Booleans
 
@@ -196,12 +208,20 @@ with square brackets (~[]~), and separating the elements with commas (~,~).
 Some examples follow:
 
 #+BEGIN_SRC haskell
-[]
-[1, 2, -4]
-['h', 'e', 'l', 'l', 'o']
-[3.14, -6.28, 1.4142135]
-["hello", "there"]
+[] :: [Int]
+[] :: [Float]
+[] :: [Char]
+"" :: [Char]
+[1, 2, -4] :: [Int]
+[1, 2, -4] :: [Float]
+['h', 'e', 'l', 'l', 'o'] :: [Char]
+['h', 'e', 'l', 'l', 'o'] :: String
+[3.14, -6.28, 1.4142135] :: [Float]
+["hello", "there"] :: [[Char]]
+["hello", "there"] :: [String]
 #+END_SRC
+
+Try to understand these type annotations; it will be useful later on.
 
 **** TODO Tuples?
 
@@ -224,13 +244,15 @@ otherwise, operations are applied from left to right. Nonetheless, it's possible
 to force operation precedence and clarify ambiguities with parentheses (~()~).
 
 #+BEGIN_SRC haskell
-1 + 1
-21 * 2
-66 / 3
-2 * 2 - 3
-2 * (2 - 3)
-(2 * 2) - 3
+1 + 1 :: Int
+21 * 2 :: Int
+66 / 3 :: Float -- Int doesn't work; why?
+2 * 2 - 3 :: Int
+2 * (2 - 3) :: Int
+(2 * 2) - 3 :: Int
 #+END_SRC
+
+All of the examples above work as well if you specify ~Float~ as their type.
 
 **** Booleans
 
@@ -241,9 +263,9 @@ The most basic logical operators from mathematics are also available: /not/
 precedence, from the most precedent to the least one is ~not~, ~&&~, ~||~.
 
 #+BEGIN_SRC haskell
-True || False
-not False
-True && True
+True || False :: Bool
+not False :: Bool
+True && True :: Bool
 #+END_SRC
 
 A note on implementation details: most programming languages evaluate both
@@ -270,9 +292,9 @@ In Haskell, to index a list (consequently strings too) you use the ~!!~ function
 -- indexes start at 0:
 
 #+BEGIN_SRC haskell
-[0, 1, 2, 3] !! 2
-"hello" !! 4
-[[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]] !! 1 !! 1
+[0, 1, 2, 3] !! 2 :: Int
+"hello" !! 4 :: Char
+[[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]] !! 1 !! 1 :: Int
 #+END_SRC
 
 **** Destructuring
@@ -283,12 +305,12 @@ list. So, in order to destruct (i.e., separate) a list in its components, you
 use the creatively named functions ~head~ and ~tail~:
 
 #+BEGIN_SRC haskell
-head [0, 1, 2, 3]
-tail [0, 1, 2, 3]
-head "hello"
-tail "hello"
-head (tail [0, 1, 2, 3])
-tail (tail [0, 1, 2, 3])
+head [0, 1, 2, 3] :: Int
+tail [0, 1, 2, 3] :: [Int]
+head "hello" :: Char
+tail "hello" :: String -- [Char]
+head (tail [0, 1, 2, 3]) :: Int
+tail (tail [0, 1, 2, 3]) :: [Int]
 #+END_SRC
 
 Given that we can /destruct/ a list into both its components, we should also be
@@ -305,22 +327,22 @@ And to put a /head/ and a /tail/ together to form a new list you can use the
 /cons/ operator ~(:)~.
 
 #+BEGIN_SRC haskell
-[]
-(:) 1 []
-1:[]
-1:(2:(3:[]))
-1:2:3:[]
-[]:[]
+[] :: String
+(:) 1 [] :: [Int]
+1:[] :: [Int]
+1:(2:(3:[])) :: [Int]
+1:2:3:[] :: [Int]
+[]:[] :: [[String]]
 #+END_SRC
 
 What you saw above with ~(:)~ is an important Haskell convention to keep in
-mind. A function (or operator) that's defined (called) as ~(fun)~ (notice the
-parentheses) is an /infix/ operator, i.e., it's placed in between the operands;
-while usually, for example with ~head~ and ~tail~, functions are /prefix/, i.e.,
-they're placed before the operands. The most common examples of /infix/
-operators are the arithmetic operators (~(+)~, ~(/)~, etc). To turn an /infix/
-operator into a /prefix/ operator, all you have to do is surround the operator
-with parentheses. So, ~(+) 1 2~ is the same as ~1 + 2~.
+mind. A function (or operator) that's defined/called as ~(fun)~ (notice the
+parentheses) is an /infix/ operator, i.e., it's placed in between the operands
+when used; while usually, for example with ~head~ and ~tail~, functions are
+/prefix/, i.e., they're placed before the operands when used. The most common
+examples of /infix/ operators are the arithmetic operators (~(+)~, ~(/)~, etc).
+To turn an /infix/ operator into a /prefix/ operator, all you have to do is
+surround the operator with parentheses. So, ~(+) 1 2~ is the same as ~1 + 2~.
 
 There's also a convention to turn /prefix/ operators into /infix/ operators,
 which is to surround the operator with backticks (~`~) -- we don't have an
@@ -333,9 +355,9 @@ The operation that takes two sequences of the same type and "glues" them
 together is called /concatenation/.
 
 #+BEGIN_SRC haskell
-[0, 1] ++ [2, 3]
-(++) [0, 1] [2, 3]
-"hello" ++ " " ++ "world"
+[0, 1] ++ [2, 3] :: [Int]
+(++) [0, 1] [2, 3] :: [Int]
+"hello" ++ " " ++ "world" :: String
 #+END_SRC
 
 **** TODO Interpolation?
@@ -361,34 +383,45 @@ The reason to use ~==~ instead of ~=~ for equality will be clear next.
 ** (Pure) Numerical Functions -- S^n -> S^m
 
 Let's start now defining our own functions. A very high-level and hand-wavy way
-to explain is: whenever you would write $f(x) = expr$, in Haskell you translate
-that by writing ~f x = expr~. So, for example, to define the /identity/
-function, $identity(x) = x$, in Haskell, you just write ~identity x = x~. For
-multivariable functions, you just need to add the parentheses in Haskell:
-$f(x, y) = x \cdot y$ translates to ~f (x, y) = x * y~; $f(x, y) = (y, x)$
-translates to ~f (x, y) = (y, x)~; $f(x) = (x, x)$ translates to ~f x = (x, x)~.
+to explain is: you translate $f(x) = expr$ into Haskell as ~f x = expr~. So, for
+example, to define the /identity/ function, $identity(x) = x$, in Haskell, you
+write ~identity x = x~. For multivariable functions, you just need to add the
+parentheses in Haskell: $f(x, y) = x \cdot y$ translates to ~f (x, y) = x * y~;
+$f(x, y) = (y, x)$ translates to ~f (x, y) = (y, x)~; $f(x) = (x, x)$ translates
+to ~f x = (x, x)~; etc.
 
 *** Doubles
 
+Define a function in Haskell that given an ~Int~ doubles it.
+
 #+BEGIN_SRC haskell
+double :: Int -> Int
 double x = 2 * x
 #+END_SRC
 
+Question for the learner: how would you define a function that given a ~Float~ doubles it?
+
 *** Squares
+
+Define a function in Haskell that given an ~Int~ squares it.
 
 #+BEGIN_SRC haskell
 square x = x * x
 #+END_SRC
+
+Question for the learner: how would you define a function that given a ~Float~ squares it?
 
 *** etc
 
 *** Function composition
 
 Like in mathematics (calculus), it's possible to compose functions to define a
-new function. The notation is similar, and so are the semantics: $(f \circ
-g)(x)$ is the same as $f(g(x))$. And in Haskell:
+new function. The notation is similar, and so are the semantics: $(f \circ g)(x)$
+is the same as $f(g(x))$. And in Haskell:
 
 #+BEGIN_SRC haskell
+-- What if we want Float?
+double_square :: Int -> Int
 -- double_square x = double (square x)
 double_square = double . square
 #+END_SRC
@@ -401,7 +434,13 @@ h x = (x, x + 1)
 g (x, y) = (x * 3, y * 2, x + y)
 f (x, y, z) = x * y + z
 k = f . g . h
-k 10
+
+-- Define k by expanding the definitions of f, g, and h; i.e., define k with a
+-- single expression.
+k' = undefined
+
+-- What happens if you change this expression to another type of number?
+k 10 :: Int
 #+END_SRC
 
 ** (Pure) Logical Functions
@@ -416,7 +455,7 @@ with /flow control/.
 It sometimes may happen that we need or want a function to do different things
 depending on some condition. Imagine we're defining the /absolute/ function,
 i.e., the function that given a (signed) number always returns a positive
-number, that is the input number itself, or its symmetric.
+number, that is the input number itself, or its symmetric:
 
 $$
 abs(x) =
@@ -466,9 +505,9 @@ f (x, y, z) -- Notice that there's no equal sign here!
 #+END_SRC
 
 The conditions are evaluated one by one, in the order defined; if a condition
-evaluates to true, then the corresponding expression is evaluated and the result
+evaluates to true, then the corresponding expression is evaluated and its result
 is returned as the function's result; otherwise the next condition is tried.
-This exactly like the ~if then else~ expressions before. Because of that, you
+This exactly like the ~if then else~ expressions above. Because of that, you
 should consider the order of the conditions when using guards.
 
 The ~otherwise~ clause isn't necessary, but if all the different conditions
@@ -505,8 +544,8 @@ mul (x, y)
   | y == 0 = 0
   | x == 1 = y
   | y == 1 = x
-  -- `undefined` can be used to "make holes" when we don't know
-  -- how, or don't want, to define some expression.
+  -- `undefined` can be used to "make holes" when we don't know how to, or don't
+  -- want to define some expression.
   | otherwise = undefined
 #+END_SRC
 
@@ -514,19 +553,20 @@ And you might be able to guess that /pattern matching/ (together with several
 function clauses) can be used to define this function even more succinctly:
 
 #+BEGIN_SRC haskell
-mul (0, y) = 0
-mul (x, 0) = 0
-mul (1, y) = y
-mul (x, 1) = x
-mul (x, y) = undefined
+mul (x, y) = case (x, y) of
+    (0, y) -> 0
+    (x, 0) -> 0
+    (1, y) -> y
+    (x, 1) -> x
+    (x, y) -> undefined
 #+END_SRC
 
 A function clause is analogous to a guard clause -- each one will be tried in
-order, and the first one to "work" is chosen. Each of the clauses is composed of
-a /pattern/, and when the function is called, the arguments are matched with the
+order, and the first one to "work" is chosen. Each of the clauses consists of a
+/pattern/, and when the function is called, the arguments are matched with the
 pattern. If they do match, then the corresponding expression is evaluated, and
-the result is returned as the function's result. Otherwise, the next pattern is
-tried. Similar to the case of guards, if the arguments don't match any of the
+its result is returned as the function's result. Otherwise, the next pattern is
+tried. Also similarly to guards, if the arguments don't match any of the
 patterns, then an error is thrown.
 
 One last tip on pattern matching: if you don't care about a particular value,
@@ -535,16 +575,34 @@ a name. Thus, the first two clauses of the ~mul~ function could be rewritten
 like this:
 
 #+BEGIN_SRC haskell
-mul (0, _) = 0
-mul (_, 0) = 0
+mul (x, y) = case (x, y) of
+    (0, _) -> 0
+    (_, 0) -> 0
 #+END_SRC
 
 Pattern matching isn't limited to numbers, however -- you can pattern match on
 values of any type. And that's what you'll practice next.
 
+Just one more thing before we move forward. Another Haskell syntax we can use is
+/function clauses/. The "full" definition of ~mul~ above can be rewritten like
+this:
+
+#+BEGIN_SRC haskell
+mul (0, _) = 0
+mul (_, 0) = 0
+mul (1, y) = y
+mul (x, 1) = x
+mul (x, y) = undefined
+#+END_SRC
+
+There's usually no good reason to use one over the other, as they are
+equivalent. This latter definition is more /idiomatic/, but if you prefer using
+~case~, then ~case~ is the way to go!
+
 *** NOT
 
 #+BEGIN_SRC haskell
+myNot :: Bool -> Bool
 myNot True = False
 myNot False = True
 #+END_SRC
@@ -552,6 +610,7 @@ myNot False = True
 *** AND
 
 #+BEGIN_SRC haskell
+myAnd :: (Bool, Bool) -> Bool
 myAnd (True, True) = True
 myAnd (_, _) = False
 #+END_SRC
@@ -559,6 +618,7 @@ myAnd (_, _) = False
 *** OR
 
 #+BEGIN_SRC haskell
+myOr :: (Bool, Bool) -> Bool
 myOr (False, False) = False
 myOr (_, _) = True
 #+END_SRC
@@ -566,34 +626,325 @@ myOr (_, _) = True
 *** XOR
 
 #+BEGIN_SRC haskell
+myXor :: (Bool, Bool) -> Bool
 myXor (True, False) = True
 myXor (False, True) = True
 myXor (_, _) = False
 #+END_SRC
 
-*** etc
+*** Haskell Boolean Operators
+
+Haskell already has most of these operations defined. Here's the table:
+
+| Math    | Haskell |
+|---------+---------+
+| $\land$ | ~&&~    |
+| $\lor$  | ~||~    |
+| $\lnot$ | ~not~   |
+
+Define the following boolean function, first using the ~my*~ functions defined
+above, and then using the standard Haskell boolean operators:
+
+$$h : (Bool \times Bool \times Bool) \to (Bool \times Bool)$$
+$$h (a, b, c) = ((a \land b) \oplus c, a \lor b \lor c)$$
+
+#+BEGIN_SRC haskell
+h :: (Bool, Bool, Bool) -> (Bool, Bool)
+h (a, b, c) = (myXor (myAnd (a, b)) c, myOr a (myOr b c))
+h (a, b, c) = (myXor (a && b) c, a || b || c)
+#+END_SRC
 
 ** (Pure) Predicates on Numbers
 
-*** Is multiple? -- in terms of division
 *** Is even/odd? -- in terms of division
+
+The functions ~div~, ~mod~, and ~divMod~ may be useful.
+
+#+BEGIN_SRC haskell
+-- All of the following definitions are valid.
+isEven :: Int -> Bool
+
+isEven n = (a `mod` 2) == 0
+
+isEven n = (a `mod` 2) /= 1
+
+isEven n = case a `mod` 2 of
+    0 -> True
+    1 -> False
+
+isEven n = not isOdd n
+
+isEven = not . isOdd
+
+-- All of the following definitions are valid.
+isOdd :: Int -> Bool
+
+isOdd n = (a `mod` 2) == 1
+
+isOdd n = (a `mod` 2) /= 0
+
+isOdd n = case a `mod` 2 of
+    0 -> False
+    1 -> True
+
+isOdd n = not isEven n
+
+isOdd = not . isEven
+#+END_SRC
+
+The only pair of definitions that wouldn't work is that of the mutually
+recursive definitions, that is, the one where each function calls the other.
+More details about recursive functions will come next.
+
+*** Is multiple? -- in terms of division
+
+The functions ~div~, ~mod~, and ~divMod~ may be useful.
+
+#+BEGIN_SRC haskell
+isMultiple :: Int -> Int -> Bool
+isMultiple a b = (a `mod` b) == 0
+
+isMultiple a b = case a `mod` b of
+    0 -> True
+    _ -> False
+#+END_SRC
+
 *** etc
 
 ** (Pure) Predicates on Chars?
 
-*** Is number?
-*** Is alpha?
+*** Is digit?
+
+#+BEGIN_SRC haskell
+isDigit '0' = True
+isDigit '1' = True
+isDigit '2' = True
+isDigit '3' = True
+isDigit '4' = True
+isDigit '5' = True
+isDigit '6' = True
+isDigit '7' = True
+isDigit '8' = True
+isDigit '9' = True
+isDigit _ = False
+#+END_SRC
+
+*** Is whitespace?
+
+#+BEGIN_SRC haskell
+isWhitespace ' ' = True
+isWhitespace '\t' = True
+isWhitespace '\v' = True
+isWhitespace _ = False
+#+END_SRC
+
 *** Is symbol?
+*** Is alpha?
 *** etc
 
 ** (Pure) Recursive Functions on Numbers
 
-*** Is even/odd?
-*** Is multiple?
-*** Sum, product, ... -- recursive process
+In short, recursive functions are functions that, directly or indirectly, call
+themselves. A popular one is that of the Fibonacci number:
+
+$$fib : \mathbb{N_0} \to \mathbb{N}$$
+$$
+fib(n) =
+\begin{cases}
+1 & \text{if}\ n < 2 \\
+fib(n-1) + fib(n-2)  & \text{otherwise} \\
+\end{cases}
+$$
+
 *** Fibonacci -- the mathematical definition (recursive process)
+
+The definition above translates to:
+
+#+BEGIN_SRC haskell
+fib :: Int -> Int
+fib n
+    | n < 2 = 1
+    | otherwise = fib (n-1) + fib (n-2)
+#+END_SRC
+
+*** Is even/odd?
+
+Here we're going to define ~isEven~ and ~isOdd~ in a mutually recursive manner,
+but neither will use the ~mod~ function. Instead, we'll say that a number $n$ is
+even if it 0, or if $n-1$ is odd. Likewise, we'll say that a number $n$ is odd
+if it is not 0, or if $n-1$ is even.
+
+#+BEGIN_SRC haskell
+isEven :: Int -> Bool
+isEven 0 = True
+isEven n = isOdd (n-1)
+
+isOdd :: Int -> Bool
+isOdd 0 = False
+isOdd n = isEven (n-1)
+#+END_SRC
+
+*** Is multiple?
+
+#+BEGIN_SRC haskell
+isMultiple :: Int -> Int -> Bool
+isMultiple a b
+    | a == b = True
+    | a > b = isMultiple (a - b) b
+    | a < b = False
+#+END_SRC
+
+*** Sum, product, ... -- recursive process
+
+Given two numbers $a$ and $b$ such that $a < b$, we'll define the following
+expressions:
+
+$\sum_{i=a}^b i$
+
+$\prod_{i=a}^b i$
+
+#+BEGIN_SRC haskell
+-- What happens if a > b?
+sum a b
+    | a == b = a
+    | a < b = a + sum (a + 1) b
+
+-- What happens if a > b?
+prod a b
+    | a == b = a
+    | a < b = a * prod (a + 1) b
+#+END_SRC
+
 *** Sum, product, ... -- iterative process
+
+Because of how the computers work, the definitions of ~sum~ and ~prod~ above are
+very inefficient, and may even not work for a large enough $b - a$. That is
+because the definitions above evolve into a /recursive process/; while computers
+are /iterative/ machines. To explain it better, let's look at an example ~sum~
+call, and manually evaluate it.
+
+#+BEGIN_SRC haskell
+sum 0 4
+==
+0 + sum 1 4
+==
+0 + (1 + sum 2 4)
+==
+0 + (1 + (2 + sum 3 4))
+==
+0 + (1 + (2 + (3 + sum 4 4)))
+==
+0 + (1 + (2 + (3 + 4)))
+==
+0 + (1 + (2 + 7))
+==
+0 + (1 + 9)
+==
+0 + 10
+==
+10
+#+END_SRC
+
+It's possible to do better, however. Let's look at the iterative definition, and
+then see the difference between the two by also manually evaluating it.
+
+#+BEGIN_SRC haskell
+sum :: Int -> Int -> Int
+sum a b = sumAux 0 a b
+
+sum :: Int -> Int -> Int -> Int
+sumAux ret a b
+    | a == b = ret + a
+    | a < b = sumAux (ret + a) (a + 1) b
+#+END_SRC
+
+Here's the manual evaluation of ~sum 0 4~, according to this new definition:
+
+#+BEGIN_SRC haskell
+sum 0 4
+==
+sumAux 0 0 4
+==
+sumAux (0 + 0) 1 4
+==
+sumAux 0 1 4
+==
+sumAux (0 + 1) 2 4
+==
+sumAux 1 2 4
+==
+sumAux (1 + 2) 3 4
+==
+sumAux 3 3 4
+==
+sumAux (3 + 3) 4 4
+==
+sumAux 6 4 4
+==
+6 + 4
+==
+10
+#+END_SRC
+
+Notice that this function results in roughly the same number of steps, but it
+doesn't grow "to the right", in a triangle, as with the other definition. That
+is the big difference. If $b - a = n$, then the first definition would grow into
+a triangle of height $n + 1$, that is, it would evolve eventually into a bunch
+of "pending" operations. With the second definition, the number of "pending"
+operations can be considered constant.
+
+This new definition has a couple more steps, but that can be improved, for
+example like this:
+
+#+BEGIN_SRC haskell
+sum :: Int -> Int -> Int
+sum a b
+    | a == b = a
+    | a < b = sumAux a (a + 1) b
+
+sumAux :: Int -> Int -> Int -> Int
+sumAux ret a b
+    | a == b = ret + a
+    | a < b = sumAux (ret + a) (a + 1) b
+#+END_SRC
+
+Exercise: show that the two definitions are equivalent.
+
 *** Fibonacci -- iterative process
+
+A similar iterative "conversion" can be applied to the Fibonacci function. It
+isn't as obvious, but here's the definition:
+
+#+BEGIN_SRC haskell
+fib n = fibAux 1 1 n
+
+-- n1 corresponds to fib(n-1); and n2 correspends to fib(n-2)
+fibAux n2 _ 0 = n2
+fibAux n2 n1 s = fibAux n1 (n1 + n2) (s - 1)
+#+END_SRC
+
+To try and explain by visualizing it, let's build a diagram. The parentheses surround ~n2~ and ~n1~ (i.e., $fib(n-2)$ and $fib(n-1)$).
+
+#+BEGIN_SRC
+fib(n=2) = 2
+(1 1) 2 3 5 8 13
+
+fib(n=3) = 3
+1 (1 2) 3 5 8 13
+
+fib(n=4) = 5
+1 1 (2 3) 5 8 13
+
+fib(n=5) = 8
+1 1 2 (3 5) 8 13
+
+fib(n=6) = 13
+1 1 2 3 (5 8) 13
+#+END_SRC
+
+Exercise: manually evaluate $fib(n)$, according to the first mathematical
+definition and this new definition, for a small $n$ ($n < 5$).
+
 *** etc
 
 ** (Pure) Functions on Sequences
