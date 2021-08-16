@@ -665,24 +665,81 @@ fib(n=6) = 13
 <h3 data-number="3.7.7" id="etc-3"><span class="header-section-number">3.7.7</span> etc</h3>
 <h2 data-number="3.8" id="pure-functions-on-sequences"><span class="header-section-number">3.8</span> (Pure) Functions on Sequences</h2>
 <h3 data-number="3.8.1" id="is-empty"><span class="header-section-number">3.8.1</span> Is empty?</h3>
+<div class="sourceCode" id="cb40"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true"></a><span class="ot">empty ::</span> [a] <span class="ot">-&gt;</span> <span class="dt">Bool</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true"></a>empty [] <span class="ot">=</span> <span class="dt">True</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true"></a>empty _ <span class="ot">=</span> <span class="dt">False</span></span></code></pre></div>
 <h3 data-number="3.8.2" id="has-member"><span class="header-section-number">3.8.2</span> Has member?</h3>
+<div class="sourceCode" id="cb41"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true"></a><span class="ot">member ::</span> <span class="dt">Eq</span> a <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> [a] <span class="ot">-&gt;</span> <span class="dt">Bool</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true"></a>member _ [] <span class="ot">=</span> <span class="dt">False</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true"></a>member x (y<span class="op">:</span>ys) <span class="ot">=</span> (x <span class="op">==</span> y) <span class="op">||</span> member x ys</span></code></pre></div>
 <h3 data-number="3.8.3" id="length-recursive-and-iterative-processes"><span class="header-section-number">3.8.3</span> Length – recursive and iterative processes</h3>
+<div class="sourceCode" id="cb42"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true"></a><span class="fu">length</span><span class="ot"> ::</span> [a] <span class="ot">-&gt;</span> <span class="dt">Int</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true"></a><span class="fu">length</span> [] <span class="ot">=</span> <span class="dv">0</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true"></a><span class="fu">length</span> (_<span class="op">:</span>xs) <span class="ot">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="fu">length</span> xs</span></code></pre></div>
+<p>This definition evolves into a recursive process, as we&#39;ve seen before, but it&#39;s possible to turn it into one that evolves into an iterative process.</p>
 <h3 data-number="3.8.4" id="reverse-recursive-and-iterative-processes"><span class="header-section-number">3.8.4</span> Reverse – recursive and iterative processes</h3>
+<div class="sourceCode" id="cb43"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true"></a><span class="fu">reverse</span> [] <span class="ot">=</span> []</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true"></a><span class="fu">reverse</span> (h<span class="op">:</span>t) <span class="ot">=</span> <span class="fu">reverse</span> t <span class="op">++</span> [h]</span></code></pre></div>
+<p>This definition too, evolves into a recursive process, but there&#39;s a better one evolving into an iterative process.</p>
 <h3 data-number="3.8.5" id="etc-4"><span class="header-section-number">3.8.5</span> etc</h3>
-<h2 data-number="3.9" id="pure-functions-over-sequences"><span class="header-section-number">3.9</span> (Pure) Functions over Sequences</h2>
-<p>With explicit recursion.</p>
+<h2 data-number="3.9" id="pure-functions-over-sequences-explicit-recursion"><span class="header-section-number">3.9</span> (Pure) Functions over Sequences (Explicit Recursion)</h2>
+<p>Compare different definitions with recursive and iterative processes.</p>
 <h3 data-number="3.9.1" id="double-add-1"><span class="header-section-number">3.9.1</span> Double, add 1, …</h3>
-<div class="sourceCode" id="cb40"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true"></a>double [] <span class="ot">=</span> []</span>
-<span id="cb40-2"><a href="#cb40-2" aria-hidden="true"></a>double (h<span class="op">:</span>t) <span class="ot">=</span> (<span class="dv">2</span> <span class="op">*</span> h)<span class="op">:</span>(double t)</span>
-<span id="cb40-3"><a href="#cb40-3" aria-hidden="true"></a></span>
-<span id="cb40-4"><a href="#cb40-4" aria-hidden="true"></a>add1 [] <span class="ot">=</span> []</span>
-<span id="cb40-5"><a href="#cb40-5" aria-hidden="true"></a>add1 (h<span class="op">:</span>t) <span class="ot">=</span> (h <span class="op">+</span> <span class="dv">1</span>)<span class="op">:</span>(add1 t)</span></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true"></a>double [] <span class="ot">=</span> []</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true"></a>double (h<span class="op">:</span>t) <span class="ot">=</span> (<span class="dv">2</span> <span class="op">*</span> h)<span class="op">:</span>(double t)</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true"></a></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true"></a>add1 [] <span class="ot">=</span> []</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true"></a>add1 (h<span class="op">:</span>t) <span class="ot">=</span> (h <span class="op">+</span> <span class="dv">1</span>)<span class="op">:</span>(add1 t)</span></code></pre></div>
+<p>Notice that the two functions are essentially the same:</p>
+<div class="sourceCode" id="cb45"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true"></a>func [] <span class="ot">=</span> []</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true"></a>func (h<span class="op">:</span>t) <span class="ot">=</span> (f h)<span class="op">:</span>(func t) <span class="co">-- for some given f</span></span></code></pre></div>
+<p>For <code>double</code>, <code>f</code> would be <code>(*2)</code>; and for <code>add1</code>, <code>(+1)</code>.</p>
 <h3 data-number="3.9.2" id="sum-product"><span class="header-section-number">3.9.2</span> <code>sum</code>, <code>product</code>, …</h3>
+<div class="sourceCode" id="cb46"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true"></a><span class="fu">sum</span><span class="ot"> ::</span> [<span class="dt">Int</span>] <span class="ot">-&gt;</span> <span class="dt">Int</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true"></a><span class="fu">sum</span> [] <span class="ot">=</span> <span class="dv">0</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true"></a><span class="fu">sum</span> (h<span class="op">:</span>t) <span class="ot">=</span> h <span class="op">+</span> <span class="fu">sum</span> t</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true"></a></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true"></a><span class="fu">product</span><span class="ot"> ::</span> [<span class="dt">Int</span>] <span class="ot">-&gt;</span> <span class="dt">Int</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true"></a><span class="fu">product</span> [] <span class="ot">=</span> <span class="dv">1</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true"></a><span class="fu">product</span> (h<span class="op">:</span>t) <span class="ot">=</span> h <span class="op">*</span> <span class="fu">product</span> t</span></code></pre></div>
+<p>Notice that here too, the two functions are essentially the same:</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true"></a>func [] <span class="ot">=</span> ret <span class="co">-- for some given ret</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true"></a>func (h<span class="op">:</span>t) <span class="ot">=</span> h <span class="ot">`f`</span> func t <span class="co">-- for some given f</span></span></code></pre></div>
+<p>For <code>sum</code>, <code>ret</code> would be 0, and <code>f</code> would be <code>(+)</code>; and for <code>product</code>, <code>ret</code> would be 1, and <code>f</code> would be <code>(*)</code>.</p>
 <h2 data-number="3.10" id="pure-functions-over-sequences-higher-order-functions"><span class="header-section-number">3.10</span> (Pure) Functions over Sequences (Higher-order Functions)</h2>
-<p>Using higher-order functions.</p>
+<p>We saw in the previous chapter that some computations we want to compute are very similar. In this chapter we&#39;ll see that they can indeed be abstracted, that is, be made more general.</p>
 <h3 data-number="3.10.1" id="map-double-add-1-triple"><span class="header-section-number">3.10.1</span> <code>map</code> – double, add 1, triple, …</h3>
+<div class="sourceCode" id="cb48"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true"></a><span class="fu">map</span><span class="ot"> ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> [a] <span class="ot">-&gt;</span> [b]</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true"></a><span class="fu">map</span> _ [] <span class="ot">=</span> []</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true"></a><span class="fu">map</span> f (h<span class="op">:</span>t) <span class="ot">=</span> (f h)<span class="op">:</span>(<span class="fu">map</span> f t)</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true"></a>double <span class="ot">=</span> <span class="fu">map</span> (<span class="op">*</span><span class="dv">2</span>)</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true"></a></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true"></a>add1 <span class="ot">=</span> <span class="fu">map</span> (<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true"></a></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true"></a>triple <span class="ot">=</span> <span class="fu">map</span> (<span class="op">*</span><span class="dv">3</span>)</span></code></pre></div>
 <h3 data-number="3.10.2" id="fold-length-reverse-has-member"><span class="header-section-number">3.10.2</span> <code>fold</code> – length, reverse, has member?, …</h3>
-<h3 data-number="3.10.3" id="map-in-terms-of-fold"><span class="header-section-number">3.10.3</span> <code>map</code> in terms of <code>fold</code></h3>
+<h3 data-number="3.10.3" id="sum-product-1"><span class="header-section-number">3.10.3</span> <code>sum</code>, <code>product</code></h3>
+<div class="sourceCode" id="cb49"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true"></a><span class="fu">foldr</span><span class="ot"> ::</span> (a <span class="ot">-&gt;</span> b <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> b <span class="ot">-&gt;</span> [a] <span class="ot">-&gt;</span> b</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true"></a><span class="fu">foldr</span> _ ret [] <span class="ot">=</span> ret</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true"></a><span class="fu">foldr</span> f ret (h<span class="op">:</span>t) <span class="ot">=</span> f h (<span class="fu">foldr</span> ret f t)</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true"></a></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true"></a><span class="fu">sum</span> <span class="ot">=</span> <span class="fu">foldr</span> (<span class="op">+</span>) <span class="dv">0</span></span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true"></a></span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true"></a><span class="fu">product</span> <span class="ot">=</span> <span class="fu">foldr</span> (<span class="op">*</span>) <span class="dv">1</span></span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true"></a></span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true"></a><span class="fu">foldl</span><span class="ot"> ::</span> (b <span class="ot">-&gt;</span> a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> b <span class="ot">-&gt;</span> [a] <span class="ot">-&gt;</span> b</span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true"></a><span class="fu">foldl</span> _ ret [] <span class="ot">=</span> ret</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true"></a><span class="fu">foldl</span> f ret (h<span class="op">:</span>t) <span class="ot">=</span> <span class="fu">foldl</span> f (f ret h) t</span>
+<span id="cb49-12"><a href="#cb49-12" aria-hidden="true"></a></span>
+<span id="cb49-13"><a href="#cb49-13" aria-hidden="true"></a><span class="fu">sum</span> <span class="ot">=</span> <span class="fu">foldl</span> (<span class="op">+</span>) <span class="dv">0</span></span>
+<span id="cb49-14"><a href="#cb49-14" aria-hidden="true"></a></span>
+<span id="cb49-15"><a href="#cb49-15" aria-hidden="true"></a><span class="fu">product</span> <span class="ot">=</span> <span class="fu">foldl</span> (<span class="op">*</span>) <span class="dv">1</span></span></code></pre></div>
+<h3 data-number="3.10.4" id="map-in-terms-of-fold"><span class="header-section-number">3.10.4</span> <code>map</code> in terms of <code>fold</code></h3>
+<p>On top of these, <code>map</code> can also be written as a <code>fold?</code>.</p>
+<div class="sourceCode" id="cb50"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true"></a><span class="fu">map</span> f <span class="ot">=</span> <span class="fu">foldr</span> (\x ret <span class="ot">-&gt;</span> (f x) <span class="op">:</span> ret) []</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true"></a><span class="fu">map</span> f <span class="ot">=</span> <span class="fu">foldl</span> (\ret x <span class="ot">-&gt;</span> (f x) <span class="op">:</span> ret) []</span></code></pre></div>
+<p>How do these two definitions differ from each other? How do the definitions for <code>sum</code> and <code>product</code> using <code>foldr</code> and <code>foldl</code> differ from each other? How does <code>foldr</code> differ from <code>foldl</code>? Is one better than the other? Should one be preferred over the other?</p>
 <div class="line-block">places:<br />
 <a href="https://siiky.github.io">Go home!</a><br />
 <a href="https://github.com/siiky">GitHub</a><br />

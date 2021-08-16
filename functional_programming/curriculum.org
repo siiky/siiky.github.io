@@ -923,7 +923,8 @@ fibAux n2 _ 0 = n2
 fibAux n2 n1 s = fibAux n1 (n1 + n2) (s - 1)
 #+END_SRC
 
-To try and explain by visualizing it, let's build a diagram. The parentheses surround ~n2~ and ~n1~ (i.e., $fib(n-2)$ and $fib(n-1)$).
+To try and explain by visualizing it, let's build a diagram. The parentheses
+surround ~n2~ and ~n1~ (i.e., $fib(n-2)$ and $fib(n-1)$).
 
 #+BEGIN_SRC
 fib(n=2) = 2
@@ -950,14 +951,47 @@ definition and this new definition, for a small $n$ ($n < 5$).
 ** (Pure) Functions on Sequences
 
 *** Is empty?
+
+#+BEGIN_SRC haskell
+empty :: [a] -> Bool
+empty [] = True
+empty _ = False
+#+END_SRC
+
 *** Has member?
+
+#+BEGIN_SRC haskell
+member :: Eq a => a -> [a] -> Bool
+member _ [] = False
+member x (y:ys) = (x == y) || member x ys
+#+END_SRC
+
 *** Length -- recursive and iterative processes
+
+#+BEGIN_SRC haskell
+length :: [a] -> Int
+length [] = 0
+length (_:xs) = 1 + length xs
+#+END_SRC
+
+This definition evolves into a recursive process, as we've seen before, but it's
+possible to turn it into one that evolves into an iterative process.
+
 *** Reverse -- recursive and iterative processes
+
+#+BEGIN_SRC haskell
+reverse [] = []
+reverse (h:t) = reverse t ++ [h]
+#+END_SRC
+
+This definition too, evolves into a recursive process, but there's a better one
+evolving into an iterative process.
+
 *** etc
 
-** (Pure) Functions over Sequences
+** (Pure) Functions over Sequences (Explicit Recursion)
 
-With explicit recursion.
+Compare different definitions with recursive and iterative processes.
 
 *** Double, add 1, ...
 
@@ -969,12 +1003,89 @@ add1 [] = []
 add1 (h:t) = (h + 1):(add1 t)
 #+END_SRC
 
+Notice that the two functions are essentially the same:
+
+#+BEGIN_SRC haskell
+func [] = []
+func (h:t) = (f h):(func t) -- for some given f
+#+END_SRC
+
+For ~double~, ~f~ would be ~(*2)~; and for ~add1~, ~(+1)~.
+
 *** ~sum~, ~product~, ...
+
+#+BEGIN_SRC haskell
+sum :: [Int] -> Int
+sum [] = 0
+sum (h:t) = h + sum t
+
+product :: [Int] -> Int
+product [] = 1
+product (h:t) = h * product t
+#+END_SRC
+
+Notice that here too, the two functions are essentially the same:
+
+#+BEGIN_SRC haskell
+func [] = ret -- for some given ret
+func (h:t) = h `f` func t -- for some given f
+#+END_SRC
+
+For ~sum~, ~ret~ would be 0, and ~f~ would be ~(+)~; and for ~product~, ~ret~
+would be 1, and ~f~ would be ~(*)~.
 
 ** (Pure) Functions over Sequences (Higher-order Functions)
 
-Using higher-order functions.
+We saw in the previous chapter that some computations we want to compute are
+very similar. In this chapter we'll see that they can indeed be abstracted, that
+is, be made more general.
 
 *** ~map~ -- double, add 1, triple, ...
+
+#+BEGIN_SRC haskell
+map :: (a -> b) -> [a] -> [b]
+map _ [] = []
+map f (h:t) = (f h):(map f t)
+
+double = map (*2)
+
+add1 = map (+1)
+
+triple = map (*3)
+#+END_SRC
+
 *** ~fold~ -- length, reverse, has member?, ...
+
+*** ~sum~, ~product~
+
+#+BEGIN_SRC haskell
+foldr :: (a -> b -> b) -> b -> [a] -> b
+foldr _ ret [] = ret
+foldr f ret (h:t) = f h (foldr ret f t)
+
+sum = foldr (+) 0
+
+product = foldr (*) 1
+
+foldl :: (b -> a -> b) -> b -> [a] -> b
+foldl _ ret [] = ret
+foldl f ret (h:t) = foldl f (f ret h) t
+
+sum = foldl (+) 0
+
+product = foldl (*) 1
+#+END_SRC
+
 *** ~map~ in terms of ~fold~
+
+On top of these, ~map~ can also be written as a ~fold?~.
+
+#+BEGIN_SRC haskell
+map f = foldr (\x ret -> (f x) : ret) []
+map f = foldl (\ret x -> (f x) : ret) []
+#+END_SRC
+
+How do these two definitions differ from each other? How do the definitions for
+~sum~ and ~product~ using ~foldr~ and ~foldl~ differ from each other? How does
+~foldr~ differ from ~foldl~? Is one better than the other? Should one be
+preferred over the other?
