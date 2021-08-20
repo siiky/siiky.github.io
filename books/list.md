@@ -4,11 +4,13 @@
 
 # Reading
 
+ * Akwaeke Emezi, _Freshwater_: 2021/07/30
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
+ * Niccolò Machiavelli, [_The Prince_]: 2021/07/30
 
 # Read
 
@@ -119,6 +121,7 @@
 [_Tao Te Ching_]: https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge
 [_The Communist Manifesto_]: https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore
 [_The Enchiridion_]: https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter
+[_The Prince_]: https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott
 [_Timaeus_]: https://www.gutenberg.org/ebooks/1572
 [_Tokyo Zero_]: https://www.feedbooks.com/userbook/3501/tokyo-zero
 [_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
