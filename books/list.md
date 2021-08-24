@@ -4,7 +4,7 @@
 
 # Reading
 
- * Akwaeke Emezi, _Freshwater_: 2021/07/30
+ * Michele Cagan, _Budgeting 101_: 2021/08/24
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
@@ -13,6 +13,7 @@
 
 # Read
 
+ * Akwaeke Emezi, _Freshwater_: 2021/07/30~2021/08/23
  * Albert Camus, _A Happy Death_: 2021/07/21~2021/07/28
  * Albert Camus, _Bread and Freedom_: 2020/12/23
  * Albert Camus, _Create Dangerously_: 2020/12/21~2020/12/22
