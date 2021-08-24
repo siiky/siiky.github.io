@@ -10,7 +10,6 @@
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Niccolò Machiavelli, [_The Prince_]: 2021/07/30
 
 # Read
 
@@ -40,6 +39,7 @@
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06~2021/06/05
  * Marc Horne, [_Tokyo Zero_]
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
+ * Niccolò Machiavelli, [_The Prince_]: 2021/07/30~2021/08/23
  * Nikolai Gogol, [_A May Night_][gogol_short-stories]: 2021/03
  * Nikolai Gogol, [_Old-Fashioned Farmers_][gogol_short-stories]: 2021/06/11
  * Nikolai Gogol, [_St. John's Eve_][gogol_short-stories]: 2021/03

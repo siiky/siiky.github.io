@@ -1,6 +1,6 @@
-#+TITLE: Curriculum for the Imperative vs Functional Programming Teaching Experiment
+#+TITLE: [WIP] Curriculum for the Imperative vs Functional Programming Teaching Experiment
 #+AUTHOR: siiky
-#+DATE: 2021/05/25
+#+DATE: \today
 #+LANGUAGE: en
 
 You can find this document in [[./curriculum.html][HTML]], [[./curriculum.pdf][PDF]], and the original [[./curriculum.org][Org]].
@@ -251,8 +251,12 @@ to force operation precedence and clarify ambiguities with parentheses (~()~).
 2 * (2 - 3) :: Int
 (2 * 2) - 3 :: Int
 #+END_SRC
+#+CAPTION: Examples of numbers.
+#+NAME: code:numbers
+#+LABEL: code:numbers
 
 All of the examples above work as well if you specify ~Float~ as their type.
+[@code:numbers]
 
 **** Booleans
 
@@ -268,14 +272,14 @@ not False :: Bool
 True && True :: Bool
 #+END_SRC
 
-A note on implementation details: most programming languages evaluate both
-arithmetic and logical operators from left to right. However, computers are at
-essence sequential machines, and therefore cannot compute the value of two
-expressions simultaneously (a bit of a stretch here). Because of this, and for
-performance reasons, apart from ~not~ which is unary, logical operators are
-/short circuiting/ -- this is just a fancy way of saying that it'll try to do
-the least amount of work to get to the resulting value. This /short circuiting/
-is possible in these two cases:
+A note on implementation details: computers are at essence sequential machines,
+and therefore cannot compute the value of two expressions simultaneously (a bit
+of a stretch here). And most programming languages evaluate arithmetic and
+logical expressions from left to right. Because of this, and for performance
+reasons, apart from ~not~ which is unary, logical operators are /short
+circuiting/ -- this is just a fancy way of saying that it'll try to do the least
+amount of work to get to the resulting value. This /short circuiting/ is
+possible in these two cases:
 
 - ~False && B~, which evaluates to ~False~
 - ~True || B~, which evaluates to ~True~
@@ -392,24 +396,18 @@ to ~f x = (x, x)~; etc.
 
 *** Doubles
 
-Define a function in Haskell that given an ~Int~ doubles it.
+Define a function in Haskell that given an ~Int~ doubles it [@code:int_double],
+the equivalent of $f(x) = x \cdot x$.
 
-#+BEGIN_SRC haskell
-double :: Int -> Int
-double x = 2 * x
-#+END_SRC
-
-Question for the learner: how would you define a function that given a ~Float~ doubles it?
+How would you define a function that given a ~Float~ doubles it
+[@code:float_double]?
 
 *** Squares
 
-Define a function in Haskell that given an ~Int~ squares it.
+Define a function in Haskell that given an ~Int~ squares it [@code:int_square].
 
-#+BEGIN_SRC haskell
-square x = x * x
-#+END_SRC
-
-Question for the learner: how would you define a function that given a ~Float~ squares it?
+How would you define a function that given a ~Float~ squares it
+[@code:float_square]?
 
 *** etc
 
@@ -435,11 +433,12 @@ g (x, y) = (x * 3, y * 2, x + y)
 f (x, y, z) = x * y + z
 k = f . g . h
 
--- Define k by expanding the definitions of f, g, and h; i.e., define k with a
--- single expression.
+-- Define k by expanding the definitions of f, g, and h;
+-- i.e., define k with a single expression.
 k' = undefined
 
--- What happens if you change this expression to another type of number?
+-- What happens if you change this expression to another
+-- type of number?
 k 10 :: Int
 #+END_SRC
 
@@ -544,8 +543,8 @@ mul (x, y)
   | y == 0 = 0
   | x == 1 = y
   | y == 1 = x
-  -- `undefined` can be used to "make holes" when we don't know how to, or don't
-  -- want to define some expression.
+  -- `undefined` can be used to "make holes" when we don't
+  -- know how to, or don't want to define some expression.
   | otherwise = undefined
 #+END_SRC
 
@@ -752,7 +751,7 @@ $$
 fib(n) =
 \begin{cases}
 1 & \text{if}\ n < 2 \\
-fib(n-1) + fib(n-2)  & \text{otherwise} \\
+fib(n-1) + fib(n-2) & \text{otherwise} \\
 \end{cases}
 $$
 
@@ -797,11 +796,7 @@ isMultiple a b
 *** Sum, product, ... -- recursive process
 
 Given two numbers $a$ and $b$ such that $a < b$, we'll define the following
-expressions:
-
-$\sum_{i=a}^b i$
-
-$\prod_{i=a}^b i$
+expressions: $\sum_{i=a}^b i$ and $\prod_{i=a}^b i$.
 
 #+BEGIN_SRC haskell
 -- What happens if a > b?
@@ -923,7 +918,7 @@ fibAux n2 _ 0 = n2
 fibAux n2 n1 s = fibAux n1 (n1 + n2) (s - 1)
 #+END_SRC
 
-To try and explain by visualizing it, let's build a diagram. The parentheses
+To try and explain by visualizing it, let's make a diagram. The parentheses
 surround ~n2~ and ~n1~ (i.e., $fib(n-2)$ and $fib(n-1)$).
 
 #+BEGIN_SRC
@@ -1089,3 +1084,36 @@ How do these two definitions differ from each other? How do the definitions for
 ~sum~ and ~product~ using ~foldr~ and ~foldl~ differ from each other? How does
 ~foldr~ differ from ~foldl~? Is one better than the other? Should one be
 preferred over the other?
+
+
+* Exercise Solutions
+
+#+CAPTION: Doubles a given integer.
+#+LABEL: @code:int_double
+#+NAME: @code:int_double
+#+BEGIN_SRC haskell
+double :: Int -> Int
+double x = 2 * x
+#+END_SRC
+
+#+CAPTION: Doubles a given float.
+#+LABEL: @code:float_double
+#+NAME: @code:float_double
+#+BEGIN_SRC haskell
+double :: Float -> Float
+double x = 2 * x
+#+END_SRC
+
+#+CAPTION: Squares a given integer.
+#+LABEL: @code:int_square
+#+NAME: @code:int_square
+#+BEGIN_SRC haskell
+square x = x * x
+#+END_SRC
+
+#+CAPTION: Squares a given float.
+#+LABEL: @code:float_square
+#+NAME: @code:float_square
+#+BEGIN_SRC haskell
+square x = x * x
+#+END_SRC

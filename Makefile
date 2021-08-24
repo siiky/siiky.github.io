@@ -41,7 +41,7 @@ $(HEADER): $(HEADER:.html=.md)
 curriculum: functional_programming/curriculum.pdf
 
 functional_programming/curriculum.pdf: functional_programming/curriculum.org
-	pandoc -s -f org -t latex $< -o $@
+	pandoc --number-sections -s -f org -t latex $< -o $@
 
 cv: cv-en.pdf
 
