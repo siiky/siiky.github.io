@@ -7,6 +7,7 @@ HTML := $(MD:.md=.html)
 SPELL := $(MD:.md=.spell)
 FOOTER := footer.html
 HEADER := header.html
+PANDOC := pandoc
 
 DIRS := \
     -D algebra/                \
@@ -33,20 +34,20 @@ watch:
 	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
 
 $(FOOTER): $(FOOTER:.html=.md)
-	pandoc -f markdown -t html $< -o $@
+	$(PANDOC) -f markdown -t html $< -o $@
 
 $(HEADER): $(HEADER:.html=.md)
-	pandoc -f markdown -t html $< -o $@
+	$(PANDOC) -f markdown -t html $< -o $@
 
 curriculum: functional_programming/curriculum.pdf
 
 functional_programming/curriculum.pdf: functional_programming/curriculum.org
-	pandoc --number-sections -s -f org -t latex $< -o $@
+	$(PANDOC) -F pandoc-crossref --number-sections -s -f org -t latex $< -o $@
 
 cv: cv-en.pdf
 
 cv-en.pdf: cv-en.md cv-en.template.latex
-	pandoc -s -f markdown --template cv-en.template.latex -t latex cv-en.md -o cv-en.pdf
+	$(PANDOC) -s -f markdown --template cv-en.template.latex -t latex cv-en.md -o cv-en.pdf
 
 %.png: %.gv
 	dot -Tpng -o $@ $<
