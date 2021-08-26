@@ -3,8 +3,6 @@
 #+DATE: \today
 #+LANGUAGE: en
 
-# TODO How to remove the ~<script>~ tag from the converted HTML?
-
 You can find this document in [[./curriculum.html][HTML]], [[./curriculum.pdf][PDF]], and the original [[./curriculum.org][Org]].
 
 * Introduction
