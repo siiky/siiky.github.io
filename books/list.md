@@ -10,7 +10,6 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Michele Cagan, _Budgeting 101_: 2021/08/24
- * Nikolai Gogol, _The Viy_: 2021/08/24
 
 # Read
 
@@ -47,6 +46,7 @@
  * Nikolai Gogol, [_St. John's Eve_][gogol_short-stories]: 2021/03
  * Nikolai Gogol, [_Taras Bulba_][gogol_short-stories]: 2021/06/12~2021/06/24
  * Nikolai Gogol, [_The Night of Christmas Eve_][gogol_short-stories]: 2021/05/31~2021/06/07
+ * Nikolai Gogol, [_The Viy_][gogol_short-stories]: 2021/08/24~2021/08/28
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
  * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
