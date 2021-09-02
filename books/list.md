@@ -10,6 +10,7 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Michele Cagan, _Budgeting 101_: 2021/08/24
+ * Steve Toutonghi, _Join_: 2021/08/31
 
 # Read
 
