@@ -9,7 +9,6 @@
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Michele Cagan, _Budgeting 101_: 2021/08/24
  * Steve Toutonghi, _Join_: 2021/08/31
 
 # Read
@@ -40,6 +39,7 @@
  * Leo Tolstoy, [_A Confession_]: 2021/04/20~2021/04/27
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06~2021/06/05
  * Marc Horne, [_Tokyo Zero_]
+ * Michele Cagan, _Budgeting 101_: 2021/08/24~2021/09/05
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Niccolò Machiavelli, [_The Prince_]: 2021/07/30~2021/08/23
  * Nikolai Gogol, [_A May Night_][gogol_short-stories]: 2021/03
