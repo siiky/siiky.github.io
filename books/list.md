@@ -10,6 +10,7 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Steve Toutonghi, _Join_: 2021/08/31
+ * Voltaire, [_Candide_]: 2021/09/06
 
 # Read
 
@@ -105,6 +106,7 @@
 [_Apology_]: https://www.gutenberg.org/ebooks/1656
 [_Behemoth_]: https://www.rifters.com/real/Behemoth.htm
 [_Blindsight_]: https://www.rifters.com/real/Blindsight.htm
+[_Candide_]: https://standardebooks.org/ebooks/voltaire/candide/the-modern-library
 [_Charmides_]: https://www.gutenberg.org/ebooks/1580
 [_Critias_]: https://www.gutenberg.org/ebooks/1571
 [_Crito_]: https://www.gutenberg.org/ebooks/1657
