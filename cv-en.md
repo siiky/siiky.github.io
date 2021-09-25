@@ -30,7 +30,7 @@ My assigned job was developing unfinished features, as well as new features,
 for a consumer facing product. These features entailed working with Augmented
 Reality in iOS. In the process, I've also learned about the Scrum framework.
 
-## Application Security Analyst at Checkmarx (September of 2019 - present)
+## Application Security Analyst at Checkmarx (September of 2019 - September of 2021)
 
 My job as an analyst consists in analysing existing security vulnerabilities,
 with or without a CVE number, with the end goal being to learn which versions
@@ -38,6 +38,8 @@ of the affected software are actually vulnerable. Although I'm not tasked with
 software development, apart from internal tools, as vulnerabilities are found
 in a wide range of projects, I come in contact with many languages, the most
 common being C, Clojure, Java, JavaScript, PHP and Python.
+
+## Software Engineer at Lamassu (September of 2021 - present)
 
 # Additional Information
 
