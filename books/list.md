@@ -10,7 +10,6 @@
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Steve Toutonghi, _Join_: 2021/08/31
- * Voltaire, [_Candide_]: 2021/09/06
 
 # Read
 
@@ -88,6 +87,7 @@
  * Susan Kaye Quinn, _The Legacy Human_: 2020
  * Travis Bughi, _Beyond the Plains_: 2020
  * Victor Hugo, [_Les Misérables_]: 2020/01/01~2021/06/10
+ * Voltaire, [_Candide_]: 2021/09/06~2021/10/04
  * Voltaire, [_Letters on England_]: 2020~2021/01/21
  * Voltaire, [_Micromegas_]: 2020
  * Voltaire, [_Socrates_]: 2020
