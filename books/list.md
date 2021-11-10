@@ -9,7 +9,6 @@
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Steve Toutonghi, _Join_: 2021/08/31
 
 # Read
 
@@ -83,6 +82,7 @@
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
  * Robert Louis Stevenson, _The Strange Case of Dr. Jekyll and Mr. Hyde_: 2020
  * Stephen King, _The Shining_: 2019~2020
+ * Steve Toutonghi, _Join_: 2021/08/31~2021/11/10
  * Sun Tzu, _The Art of War_
  * Susan Kaye Quinn, _The Legacy Human_: 2020
  * Travis Bughi, _Beyond the Plains_: 2020
