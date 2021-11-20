@@ -67,9 +67,9 @@
              (body ,content)
              (footer
                "\nplaces:\n"
-               (a (@ (href "https://siiky.github.io")) "Go home!") "\n"
+               (a (@ (href "/")) "Go home!") "\n"
                (a (@ (href "https://github.com/siiky")) "GitHub") "\n"
-               (a (@ (href ,(string-append "https://siiky.github.io/" feed-output-path))) "Atom Feed")))))
+               (a (@ (href ,(string-append "/" feed-output-path))) "Atom Feed")))))
 
   (define (*text* _ str) str)
   (define (*default* . x) x)

@@ -1,4 +1,4 @@
 | places:
-| [Go home!](https://siiky.github.io)
+| [Go home!](/)
 | [GitHub](https://github.com/siiky)
-| [Atom Feed](https://siiky.github.io/atom.xml)
+| [Atom Feed](/atom.xml)
