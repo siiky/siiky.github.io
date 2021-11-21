@@ -10,7 +10,7 @@ type. In this post I'll prove them wrong.
 
 The state of a faucet determines 2 things: (1) water output pressure; and (2)
 water temperature. In real life, many things, including external factors,
-affect water temperature: water pressure (especially for hot watter), if the
+affect water temperature: water pressure (especially for hot water), if the
 pipes are exposed to the sun, rain, etc. Also in real life, it's not uncommon
 for the maximum hot water pressure to be lower than that of cold water.
 However, to [KISS], we won't take these things into account. In the case of

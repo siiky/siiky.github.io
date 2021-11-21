@@ -80,7 +80,7 @@ but it's a good paragraph from a good book.
 #
 
 > The creatures outside looked from pig to man, and from man to pig, and from
-> pig to man again; but alread it was impossible to say which was which.
+> pig to man again; but already it was impossible to say which was which.
 
 -- From _Animal Farm_, by George Orwell
 

@@ -79,7 +79,7 @@ Features related to [waste processing], such as of trash and recyclables.
 `recycling:<material>=yes/no`
 
  ~ A list of materials can be found on [`amenity=recycling`], and as is
-   mentioned on that page, if `recycling:X=*` is ommitted, then it is assumed
+   mentioned on that page, if `recycling:X=*` is omitted, then it is assumed
    to be `no`, as if `recycling:X=no` was present; _unless_ a tag of a
    supergroup of `X` is present and `yes`, in which case it's as if
    `recycling:X=yes` was present.
