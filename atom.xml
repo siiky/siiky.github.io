@@ -62,6 +62,12 @@
     <link href="https://siiky.github.io/scheme/exceptions.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/scheme/gv-dsl.md</id>
+    <title type="text">GraphViz DOT Scheme DSL</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/scheme/gv-dsl.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/scheme/kless.md</id>
     <title type="text">kless</title>
     <updated></updated>
@@ -90,6 +96,12 @@
     <title type="text">just quotes</title>
     <updated></updated>
     <link href="https://siiky.github.io/words/quotes.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
+    <id>https://siiky.github.io/work/credit.md</id>
+    <title type="text">Credit</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/work/credit.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
     <id>https://siiky.github.io/work/CVE-2020-26935.md</id>

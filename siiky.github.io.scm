@@ -157,6 +157,7 @@
 
              (ssg:dir "scheme"
                       (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
+                      (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz DOT Scheme DSL")
                       (ssg:ent "./kless.md" "2019/10/13" "kless")
                       )
 
@@ -176,13 +177,12 @@
                       )
 
              (ssg:dir "work"
-                      (ssg:ent wip "./credit.md" "2020/04/30" "Credit")
+                      (ssg:ent "./credit.md" "2020/04/30" "Credit")
                       (ssg:ent "./CVE-2020-26935.md" "2020/11/06" "CVE-2020-26935")
                       )
 
              (ssg:dir wip "todo"
                       (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
-                      (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz Scheme DSL")
                       )
              )
     )

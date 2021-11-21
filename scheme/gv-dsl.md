@@ -1,0 +1,15 @@
+% GraphViz DOT Scheme DSL
+% siiky
+% 2019/10/01
+
+I've (loosely) defined a DSL to represent GraphViz DOT in Scheme, and created a
+converter library & program that takes the DSL as input and outputs `.gv` text.
+It almost certainly doesn't support all of the features of DOT, but I
+intentionally left out "validation" of input, because I don't know all of DOT
+and I don't pretend to. The DSL is not only a Scheme representation but also
+saves some work.
+
+I use it on this site, e.g. on [/algebra/cat_theory_perf.md](/algebra/cat_theory_perf.html).
+
+The code can be found on https://github.com/siiky/gvs but try not to read it,
+it's much too ugly. :/
