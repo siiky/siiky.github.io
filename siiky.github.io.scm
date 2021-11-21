@@ -1,6 +1,7 @@
 #!/usr/bin/env -S csi -s
 
 (import
+  (only chicken.base alist-ref)
   (only chicken.keyword keyword?)
   (only chicken.process-context command-line-arguments)
 
@@ -8,10 +9,9 @@
   (only srfi-13 string-any string-concatenate)
   (only matchable match-lambda)
 
-  (prefix
-    (only ssg
-          ssg)
-    |ssg:|)
+  (rename
+    (only ssg ssg)
+    (ssg ssg:build))
 
   (prefix
     (only ssg.css
@@ -23,7 +23,8 @@
     (only ssg.index
           dir
           ent
-          idx)
+          idx
+          idx-file-input-filename)
     |ssg:|)
 
   (prefix
@@ -41,13 +42,21 @@
 
   (prefix
     (only ssg.feed
-          feed-options)
+          feed-options
+          feed-entry-path)
     |ssg:|)
 
   (prefix
     (only ssg.site
           make-converter-table
-          site)
+          site
+          site-index
+          index-entries-for-feed)
+    |ssg:|)
+
+  (prefix
+    (only ssg.result
+          handle-result)
     |ssg:|)
   )
 
@@ -92,8 +101,8 @@
   (define (code _ . content)
     (if (and (not (null? content))
              (any (lambda (str) (string-any #\newline str)) content))
-        `(code "```" ,@content "```\n")
-        `(code "`" ,@content "`")))
+      `(code "```" ,@content "```\n")
+      `(code "`" ,@content "`")))
   (define (strong _ . content)
     `(strong "**" ,@content "**"))
   (define (em/i tag . content)
@@ -191,8 +200,8 @@
 (define converter-table (ssg:make-converter-table ("md" "html" ssg:pandoc:md->html)
                                                   ("org" "html" (ssg:pandoc:-> "org" "html"))))
 (define css (ssg:css-file "assets/monokai.css"))
-(define header "header.html")
-(define footer "footer.html")
+(define-constant header "header.html")
+(define-constant footer "footer.html")
 (define (index-maker . args)
   (define update-css-key
     (match-lambda
@@ -200,8 +209,8 @@
 
       ((k v . rest)
        (if (and (keyword? k) (eq? k #:css))
-           `(,k ,(ssg:css-file "assets/index.css") . ,rest)
-           (cons k (update-css-key (cons v rest)))))))
+         `(,k ,(ssg:css-file "assets/index.css") . ,rest)
+         (cons k (update-css-key (cons v rest)))))))
 
   (apply ssg:lowdown:idx->html (update-css-key args)))
 
@@ -211,20 +220,39 @@
                #:path feed-output-path
                #:type 'atom))
 
-(begin
+(define force-redo? (->bool (member "--force-redo" (command-line-arguments))))
+(define site
+  (ssg:site
+    #:converter-table converter-table
+    #:css css
+    #:feed feed
+    #:force-redo? force-redo?
+    #:index index
+    #:index-maker index-maker
+    #:metafile "siiky.github.io.meta.scm"
+    #:sxml-custom-rules (make-sxml-custom-rules)
+    ))
+
+(define (build site)
   (ssg:pandoc:append-default-extra-options! '("--mathml"))
   (ssg:pandoc:append-default-extra-options! `("-B" ,header))
   (ssg:pandoc:append-default-extra-options! `("-A" ,footer))
-  (ssg:ssg
-    (ssg:site
-      #:converter-table converter-table
-      #:css css
-      #:feed feed
-      #:force-redo? (->bool (member "--force-redo" (command-line-arguments)))
-      #:index index
-      #:index-maker index-maker
-      #:metafile "siiky.github.io.meta.scm"
-      #:sxml-custom-rules (make-sxml-custom-rules)
-      )
-    )
-  )
+  (ssg:build site))
+
+(define list-files
+  (o (cute for-each print <>)
+     ;(cute map ssg:idx-file-input-filename <>)
+     (cute map ssg:feed-entry-path <>)
+     ssg:index-entries-for-feed
+     ssg:site-index
+     (cute ssg:handle-result <> identity error)))
+
+(define command (car (command-line-arguments)))
+
+((alist-ref
+   command
+   `(("build" . ,build)
+     ("list-files" . ,list-files))
+   string=?
+   (lambda _ (error "Command must be either build or list-files" (command-line-arguments))))
+ site)

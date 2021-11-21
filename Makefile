@@ -25,10 +25,13 @@ all: curriculum cv $(SVG) html
 force-redo: cv $(SVG) html-redo
 
 html-redo: $(MD) $(FOOTER) $(HEADER)
-	./siiky.github.io.scm --force-redo
+	./siiky.github.io.scm build --force-redo
 
 html: $(MD) $(FOOTER) $(HEADER)
-	./siiky.github.io.scm
+	./siiky.github.io.scm build
+
+list-files:
+	@./siiky.github.io.scm list-files
 
 watch:
 	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
