@@ -129,14 +129,13 @@ pred example1 {
 		d->e in edges
 		e->a in edges
 
-		some p:Path | isEulerPath[p]
+		some p:Path | isEulerCircuit[p]
 	}
 }
 
 pred example2 [n:Int] {
 	#Node >= n
-	some Path
-	all p:Path | isEulerCircuit[p]
+	some p:Path | isEulerCircuit[p]
 }
 
 run {
