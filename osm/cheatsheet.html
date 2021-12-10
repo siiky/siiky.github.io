@@ -171,6 +171,36 @@ recycling:clothes=yes</code></pre>
 <dd><p>The direction of the view; e.g., <code>0-360</code> is <q>all-round</q>.</p>
 </dd>
 </dl>
+<h1 data-number="5" id="education"><span class="header-section-number">5</span> Education</h1>
+<h2 data-number="5.1" id="study-center"><span class="header-section-number">5.1</span> Study Center</h2>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity=prep_school"><code>amenity=prep_school</code></a> seems to be the most appropriate, but for more info see also <a href="https://wiki.openstreetmap.org/wiki/Education_features"><em>Education features</em></a>.</p>
+<p>Some other possible options:</p>
+<ul>
+<li>[<code>education=center</code>]</li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag:office=tutoring"><code>office=tutoring</code></a></li>
+</ul>
+<h1 data-number="6" id="popular-restaurantcafeetc-chains"><span class="header-section-number">6</span> Popular Restaurant/Cafe/etc chains</h1>
+<h2 data-number="6.1" id="mcdonalds"><span class="header-section-number">6.1</span> <em>McDonald’s</em></h2>
+<p>From <a href="https://wiki.openstreetmap.org/wiki/Tag:name=McDonald&#39;s"><em>McDonald’s</em></a>:</p>
+<pre><code>amenity=fast_food
+brand:wikidata=Q38076
+brand=McDonald&#39;s
+cuisine=burger
+name=McDonald&#39;s</code></pre>
+<p>Overpass query to find <em>McDonald’s</em> restaurants with no <code>brand</code>:</p>
+<pre><code>[out:json][timeout:120];
+(
+  node[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
+  way[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
+  relation[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
+);
+out body;
+&gt;;
+out skel qt;</code></pre>
+<h2 data-number="6.2" id="montalegrense"><span class="header-section-number">6.2</span> <em>Montalegrense</em></h2>
+<p><strong>TODO</strong>: <code>amenity=cafe</code>, <code>amenity=bakery</code>, <code>shop=confectionery</code>, or something else?</p>
+<h2 data-number="6.3" id="mixpão"><span class="header-section-number">6.3</span> <em>Mixpão</em></h2>
+<p><strong>TODO</strong>: <code>amenity=cafe</code>, <code>amenity=bakery</code>, <code>shop=confectionery</code>, or something else?</p>
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />
 <a href="https://github.com/siiky">GitHub</a><br />

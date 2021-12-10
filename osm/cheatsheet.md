@@ -230,12 +230,63 @@ You may also include [`location=*`].
 
  ~ The direction of the view; e.g., `0-360` is "all-round".
 
+# Education
+
+## Study Center
+
+[`amenity=prep_school`] seems to be the most appropriate, but for more info
+see also [_Education features_].
+
+Some other possible options:
+
+ * [`education=center`]
+ * [`office=tutoring`]
+
+# Popular Restaurant/Cafe/etc chains
+
+## _McDonald's_
+
+From [_McDonald's_]:
+
+```
+amenity=fast_food
+brand:wikidata=Q38076
+brand=McDonald's
+cuisine=burger
+name=McDonald's
+```
+
+Overpass query to find _McDonald's_ restaurants with no `brand`:
+
+```
+[out:json][timeout:120];
+(
+  node["name"="McDonald's"][!"brand"]({{bbox}});
+  way["name"="McDonald's"][!"brand"]({{bbox}});
+  relation["name"="McDonald's"][!"brand"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
+```
+
+## _Montalegrense_
+
+**TODO**: `amenity=cafe`, `amenity=bakery`, `shop=confectionery`, or something else?
+
+## _Mixpão_
+
+**TODO**: `amenity=cafe`, `amenity=bakery`, `shop=confectionery`, or something else?
+
+[_Education features_]: https://wiki.openstreetmap.org/wiki/Education_features
 [_How to map a_]: https://wiki.openstreetmap.org/wiki/How_to_map_a
+[_McDonald's_]: https://wiki.openstreetmap.org/wiki/Tag:name=McDonald's
 [`amenity=bbq`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=bbq
 [`amenity=bench`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=bench
 [`amenity=drinking_water`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water
 [`amenity=fountain` (PT)]: https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=fountain
 [`amenity=fountain`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=fountain
+[`amenity=prep_school`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=prep_school
 [`amenity=recycling` (PT)]: https://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=recycling
 [`amenity=recycling`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=recycling
 [`amenity=waste_basket`]: https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket
@@ -247,6 +298,7 @@ You may also include [`location=*`].
 [`direction=*`]: https://wiki.openstreetmap.org/wiki/Key:direction
 [`drinking_water:legal=*`]: https://wiki.openstreetmap.org/wiki/Key:drinking_water:legal
 [`drinking_water=*`]: https://wiki.openstreetmap.org/wiki/Key:drinking_water
+[`education=centre`]: https://wiki.openstreetmap.org/wiki/Tag:education=centre
 [`fuel=*`]: https://wiki.openstreetmap.org/wiki/Key:fuel
 [`leisure=picnic_table`]: https://wiki.openstreetmap.org/wiki/Tag:leisure=picnic_table
 [`location=*`]: https://wiki.openstreetmap.org/wiki/Key:location
@@ -256,6 +308,7 @@ You may also include [`location=*`].
 [`name=*`]: https://wiki.openstreetmap.org/wiki/Key:name
 [`natural=spring`]: https://wiki.openstreetmap.org/wiki/Tag:natural=spring
 [`natural=water`]: https://wiki.openstreetmap.org/wiki/Tag:natural=water
+[`office=tutoring`]: https://wiki.openstreetmap.org/wiki/Tag:office=tutoring
 [`recycling_type=container`]: https://wiki.openstreetmap.org/wiki/Tag:recycling_type=container
 [`tourism=viewpoint`]: https://wiki.openstreetmap.org/wiki/Tag:tourism=viewpoint
 [`waste=*`]: https://wiki.openstreetmap.org/wiki/Key:waste
