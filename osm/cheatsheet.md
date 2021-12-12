@@ -246,7 +246,7 @@ Some other possible options:
 
 ## _McDonald's_
 
-From [_McDonald's_]:
+Tags common to all, from [_McDonald's_]:
 
 ```
 amenity=fast_food
@@ -255,6 +255,26 @@ brand=McDonald's
 cuisine=burger
 name=McDonald's
 ```
+
+I believe all McDonald's have takeaway, so:
+
+```
+takeaway=yes
+```
+
+Some common tags that vary:
+
+```
+outdoor_seating=yes/no
+smoking=outside
+drive_through=yes/no
+opening_hours=*
+wheelchair=yes/no/...
+```
+
+Don't forget to add `addr:*=*`, `payment:*=*`.
+
+---
 
 Overpass query to find _McDonald's_ restaurants with no `brand`:
 

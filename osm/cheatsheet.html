@@ -181,12 +181,22 @@ recycling:clothes=yes</code></pre>
 </ul>
 <h1 data-number="6" id="popular-restaurantcafeetc-chains"><span class="header-section-number">6</span> Popular Restaurant/Cafe/etc chains</h1>
 <h2 data-number="6.1" id="mcdonalds"><span class="header-section-number">6.1</span> <em>McDonald’s</em></h2>
-<p>From <a href="https://wiki.openstreetmap.org/wiki/Tag:name=McDonald&#39;s"><em>McDonald’s</em></a>:</p>
+<p>Tags common to all, from <a href="https://wiki.openstreetmap.org/wiki/Tag:name=McDonald&#39;s"><em>McDonald’s</em></a>:</p>
 <pre><code>amenity=fast_food
 brand:wikidata=Q38076
 brand=McDonald&#39;s
 cuisine=burger
 name=McDonald&#39;s</code></pre>
+<p>I believe all McDonald’s have takeaway, so:</p>
+<pre><code>takeaway=yes</code></pre>
+<p>Some common tags that vary:</p>
+<pre><code>outdoor_seating=yes/no
+smoking=outside
+drive_through=yes/no
+opening_hours=*
+wheelchair=yes/no/...</code></pre>
+<p>Don’t forget to add <code>addr:*=*</code>, <code>payment:*=*</code>.</p>
+<hr />
 <p>Overpass query to find <em>McDonald’s</em> restaurants with no <code>brand</code>:</p>
 <pre><code>[out:json][timeout:120];
 (
