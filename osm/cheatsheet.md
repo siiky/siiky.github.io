@@ -279,11 +279,11 @@ Don't forget to add `addr:*=*`, `payment:*=*`.
 Overpass query to find _McDonald's_ restaurants with no `brand`:
 
 ```
-[out:json][timeout:120];
+[out:json][timeout:300];
 (
-  node["name"="McDonald's"][!"brand"]({{bbox}});
-  way["name"="McDonald's"][!"brand"]({{bbox}});
-  relation["name"="McDonald's"][!"brand"]({{bbox}});
+  nwr["name"~"^mcdonald.?s", i]({{bbox}});
+  nwr["brand"~"^mcdonald.?s", i]({{bbox}});
+  nwr["operator"~"^mcdonald.?s", i]({{bbox}});
 );
 out body;
 >;
