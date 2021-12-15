@@ -42,3 +42,5 @@ It also comes with rather nice advantages -- just compare the two approaches in 
 + Imagine you want to change the order of operations in the chain;
 + Imagine you want to add an operation to the chain;
 + Imagine you want to remove an operation from the chain.
+
+And a final bonus: the "better" approach is easier to read than the "bad" approach, and requires less typing, thank you very much.
