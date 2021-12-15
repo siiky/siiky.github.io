@@ -198,11 +198,11 @@ wheelchair=yes/no/...</code></pre>
 <p>Don’t forget to add <code>addr:*=*</code>, <code>payment:*=*</code>.</p>
 <hr />
 <p>Overpass query to find <em>McDonald’s</em> restaurants with no <code>brand</code>:</p>
-<pre><code>[out:json][timeout:120];
+<pre><code>[out:json][timeout:300];
 (
-  node[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
-  way[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
-  relation[&quot;name&quot;=&quot;McDonald&#39;s&quot;][!&quot;brand&quot;]({{bbox}});
+  nwr[&quot;name&quot;~&quot;^mcdonald.?s&quot;, i]({{bbox}});
+  nwr[&quot;brand&quot;~&quot;^mcdonald.?s&quot;, i]({{bbox}});
+  nwr[&quot;operator&quot;~&quot;^mcdonald.?s&quot;, i]({{bbox}});
 );
 out body;
 &gt;;

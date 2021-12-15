@@ -1,0 +1,44 @@
+#+title: Naming Operations rather than Variables
+#+author: siiky
+
+Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named -- and everyone knows naming is hard.
+
+Bad:
+
+#+begin_src python
+x = '42'
+x_food = foo(x)
+x_bard_food = bar(x_food)
+#+end_src
+
+Good (using procedural composition):
+
+#+begin_src python
+x = bar(foo('42'))
+#+end_src
+
+Better (if the chain of operations is long):
+
+#+begin_src python
+x = '42'
+x = foo(x)
+x = bar(x)
+#+end_src
+
+Best (using functional composition):
+
+#+begin_src scheme
+(=> '42'
+    foo
+    bar)
+
+; OR
+
+((-> foo bar) '42')
+#+end_src
+
+It also comes with rather nice advantages -- just compare the two approaches in each scenario:
+
++ Imagine you want to change the order of operations in the chain;
++ Imagine you want to add an operation to the chain;
++ Imagine you want to remove an operation from the chain.
