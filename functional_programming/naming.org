@@ -9,12 +9,13 @@ Bad:
 x = '42'
 x_food = foo(x)
 x_bard_food = bar(x_food)
+x_zazd_bard_food = zaz(x_bard_food)
 #+end_src
 
 Good (using procedural composition):
 
 #+begin_src python
-x = bar(foo('42'))
+x = zaz(bar(foo('42')))
 #+end_src
 
 Better (if the chain of operations is long):
@@ -23,6 +24,7 @@ Better (if the chain of operations is long):
 x = '42'
 x = foo(x)
 x = bar(x)
+x = zaz(x)
 #+end_src
 
 Best (using functional composition):
@@ -30,11 +32,12 @@ Best (using functional composition):
 #+begin_src scheme
 (=> '42'
     foo
-    bar)
+    bar
+    zaz)
 
 ; OR
 
-((-> foo bar) '42')
+((-> foo bar zaz) '42')
 #+end_src
 
 It also comes with rather nice advantages -- just compare the two approaches in each scenario:
