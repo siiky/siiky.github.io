@@ -17,8 +17,7 @@ The subtitle's translation:
 > Listen. So you think you'd just be a shepherd's dog. What's wrong with that?
 > A good dog can lead the sheep to greener pastures and earn their gratitude.
 
--- Kageyama, to Kaji, from _The Human Condition: No Greater Love_
-([Wikipedia][human_condition_wp_en], [IMDb][human_condition_imdb])
+-- Kageyama, to Kaji, from _The Human Condition: No Greater Love_ ([Wikipedia][human_condition_wp_en], [IMDb][human_condition_imdb])
 
 #
 
@@ -37,15 +36,13 @@ The subtitle's translation:
 > Lenina shook her head. "Was and will make me ill," she quoted, "I take a
 > gramme and only am."
 
--- Lenina, from _Brave New World_, by Aldous Huxley
-([Wikipedia][brave_new_world_huxley_wp])
+-- Lenina, from _Brave New World_, by Aldous Huxley ([Wikipedia][brave_new_world_huxley_wp])
 
 #
 
 > It's the triumph of superior reason to live with folks who don't have any.
 
--- Socrates, from _Socrates_, by Voltaire ([Wikipedia][socrates_voltaire_wp],
-[Project Gutenberg][socrates_voltaire_pg])
+-- Socrates, from _Socrates_, by Voltaire ([Wikipedia][socrates_voltaire_wp], [Project Gutenberg][socrates_voltaire_pg])
 
 #
 
@@ -74,8 +71,7 @@ but it's a good paragraph from a good book.
 > the first; then sighed. "What fun it would be," he thought, "if one didn't
 > have to think about happiness!"
 
--- From _Brave New World_, by Aldous Huxley
-([Wikipedia][brave_new_world_huxley_wp])
+-- From _Brave New World_, by Aldous Huxley ([Wikipedia][brave_new_world_huxley_wp])
 
 #
 
@@ -94,7 +90,7 @@ but it's a good paragraph from a good book.
 > inferences more certain and infallible than these. In what respect, then, do
 > his benevolence and mercy resemble the benevolence and mercy of men?
 
--- David Hume, [Dialogues Concerning Natural Religion]
+-- From [_Dialogues Concerning Natural Religion_], by David Hume
 
 #
 
@@ -103,11 +99,19 @@ but it's a good paragraph from a good book.
 
 -- From [_Tractatus Logico-Philosophicus_], by Ludwig Wittgenstein
 
+#
+
+> If one desires to be happy, sir, one must never understand duty; for, as soon
+> as one has comprehended it, it is implacable.
+
+-- Jean Valjean to Marius Pontmercy, from [_Les Misérables_], by Victor Hugo
+
+[_Dialogues Concerning Natural Religion_]: https://en.wikipedia.org/wiki/Problem_of_evil#Atheistic_viewpoint
+[_Les Misérables_]: https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood
+[_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
 [brave_new_world_huxley_wp]: https://en.wikipedia.org/wiki/Brave_new_world
 [human_condition_imdb]: https://www.imdb.com/title/tt0053114/
 [human_condition_wp_en]: https://en.wikipedia.org/wiki/The_Human_Condition_%28film_series%29
 [human_condition_wp_jp]: https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%96%93%E3%81%AE%E6%A2%9D%E4%BB%B6_%28%E6%98%A0%E7%94%BB%29
 [socrates_voltaire_pg]: https://www.gutenberg.org/ebooks/4683
 [socrates_voltaire_wp]: https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_%28play%29
-[Dialogues Concerning Natural Religion]: https://en.wikipedia.org/wiki/Problem_of_evil#Atheistic_viewpoint
-[_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
