@@ -78,6 +78,7 @@
  * Plato, [_Euthyphro_]: 2020
  * Plato, [_Gorgias_]: 2021~2021/03/13
  * Plato, [_Ion_]: 2020
+ * Plato, [_Lesser Hippias_]: 2021/12/29
  * Plato, [_Timaeus_]: 2020
  * René Descartes, _Discourse on the Method_: 2020
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
@@ -119,6 +120,7 @@
 [_Idle Thoughts of an Idle Fellow_]: https://www.gutenberg.org/ebooks/849
 [_Ion_]: https://www.gutenberg.org/ebooks/1635
 [_Les Misérables_]: https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood
+[_Lesser Hippias_]: https://www.gutenberg.org/ebooks/1673
 [_Letters on England_]: https://www.gutenberg.org/ebooks/2445
 [_Maelstrom_]: https://rifters.com/real/MAELSTROM.htm
 [_Micromegas_]: https://www.gutenberg.org/ebooks/30123
