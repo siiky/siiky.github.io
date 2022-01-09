@@ -66,7 +66,7 @@
 
 ; NOTE: For use with ssg.converters.lowdown.
 ; Read http://www.more-magic.net/docs/scheme/sxslt.pdf for more info
-(define (make-sxml-custom-rules)
+(define (make-sxml-custom-rules footer)
   (define (page _ title css . content)
     (let ((css (and css `(style ,(ssg:css-content css)))))
       `(html (@ (lang "en"))
@@ -169,6 +169,7 @@
                       (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
                       (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz DOT Scheme DSL")
                       (ssg:ent "./kless.md" "2019/10/13" "kless")
+                      (ssg:ent "./pipes.md" "2022/01/09" "Pipes")
                       )
 
              (ssg:dir "care"
@@ -235,7 +236,7 @@
     #:index index
     #:index-maker index-maker
     #:metafile "siiky.github.io.meta.scm"
-    #:sxml-custom-rules (make-sxml-custom-rules)
+    #:sxml-custom-rules (make-sxml-custom-rules footer)
     ))
 
 (define (build site)

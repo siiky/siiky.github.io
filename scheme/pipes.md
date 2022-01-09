@@ -1,0 +1,105 @@
+% Pipes
+% siiky
+% 2022/01/09
+
+I've been using my own pipe operators for a while. This is the latest
+definition:
+
+```scm
+(define (*=> vals . funs)
+  (foldl (lambda (val fun) (fun val))
+         (apply (car funs) vals)
+         (cdr funs)))
+
+(define ((*-> . funs) . vals)
+  (foldl (lambda (val fun) (fun val))
+         (apply (car funs) vals)
+         (cdr funs)))
+
+(define (=> val . funs)
+  (foldl (lambda (val fun) (fun val)) val funs))
+
+(define ((-> . funs) val)
+  (foldl (lambda (val fun) (fun val)) val funs))
+```
+
+And this is the original definition (they have different semantics):
+
+```scm
+(define (=*> val funs)
+  (foldl (lambda (val fun) (fun val)) val funs))
+
+(define ((-*> funs) val)
+  (=*> val funs))
+
+(define (=> val . funs)
+  (=*> val funs))
+
+(define ((-> . funs) val)
+  (=*> val funs))
+```
+
+Comparing with Scheme's `o`:
+
+```scm
+(o snd fst)
+(-> fst snd)
+```
+
+There's no equivalent to Scheme's `compose`.
+
+I've never used `=*>` and `-*>` directly, they're there _just in case_. But
+I've grown attached to `->` and `=>`.
+
+The reasoning behind the names is simple: think of a function as a "processing
+pipe". `->` is a chain of such pipes, and a pipe on its own, without "contents"
+-- you have to plug something on one end to get something on the other end. On
+the other hand, `=>` already has the stuff plugged in, ready to go, so it's
+fatter.
+
+Some uses:
+
+```scm
+(map (-> do-this
+         and-that)
+     some-list)
+
+(=> some-list
+    (cute map (-> do-this and-that) <>)
+    (cute filter (o not screwed?) <>))
+
+((-> (cute map (-> do-this and-that) <>)
+     (cute filter (o not screwed?) <>))
+   some-list)
+
+(filter (o not screwed?)
+        (map (-> do-this and-that)
+             some-list))
+```
+
+`(-> do-this and-that)` is an unary function -- that's why it can be given to
+`map`.
+
+`(=> some-list ...)` evaluates to a value, which is the result of applying the
+`filter` to the result of applying the `map` to `some-list`.
+
+The third and fourth expressions, `((-> ...) some-list)` and `(filter ...)`,
+are equivalent to the second.
+
+Note the use of `o` instead of `->` in the `filter`'s predicate. Personal
+preference, but I think that case reads better with `o` because it's closer to
+English.
+
+---
+
+But now that'll probably be the end of them for me.
+
+Yesterday I learned of [SRFI-197] -- very cool! There's even an [egg for
+CHICKEN] already.
+
+I guess the only situation(s) I don't see myself using it is if I want to avoid
+dependencies.
+
+[SRFI-197]: https://srfi.schemers.org/srfi-197/srfi-197.html
+[UNLICENSE]: https://unlicense.org
+[egg for CHICKEN]: https://wiki.call-cc.org/eggref/5/srfi-197
