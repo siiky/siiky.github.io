@@ -33,7 +33,7 @@
   </entry>
   <entry>
     <id>https://siiky.github.io/functional_programming/curriculum.org</id>
-    <title type="text">[WIP] Curriculum</title>
+    <title type="text">[WIP] Programming Curriculum</title>
     <updated></updated>
     <link href="https://siiky.github.io/functional_programming/curriculum.html" rel="alternate" type="text/html" />
   </entry>
@@ -78,6 +78,12 @@
     <title type="text">kless</title>
     <updated></updated>
     <link href="https://siiky.github.io/scheme/kless.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
+    <id>https://siiky.github.io/care/list.md</id>
+    <title type="text">Care list</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/care/list.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
     <id>https://siiky.github.io/server_stuffs/seamless_updates.md</id>

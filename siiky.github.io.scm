@@ -143,7 +143,7 @@
 
              (ssg:dir "functional_programming"
                       (ssg:ent wip "./immutability.md" "2020/04/10" "Immutability")
-                      (ssg:ent "./curriculum.org" "2021/05/25" "[WIP] Curriculum")
+                      (ssg:ent "./curriculum.org" "2021/05/25" "[WIP] Programming Curriculum")
                       (ssg:ent "./naming.org" "2021/12/15" "Naming Operations rather than Variables")
                       )
 
@@ -169,6 +169,10 @@
                       (ssg:ent "./exceptions.md" "2019/08/13" "Exceptions in Scheme")
                       (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz DOT Scheme DSL")
                       (ssg:ent "./kless.md" "2019/10/13" "kless")
+                      )
+
+             (ssg:dir "care"
+                      (ssg:ent "./list.md" "2022/01/09" "Care list")
                       )
 
              (ssg:dir "server_stuffs"
