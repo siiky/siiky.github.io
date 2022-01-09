@@ -2,44 +2,30 @@ GVS := $(wildcard assets/*.gvs)
 GV := $(GVS:.gvs=.gv)
 PNG := $(GV:.gv=.png)
 SVG := $(GV:.gv=.svg)
-MD := $(wildcard */*.md)
-HTML := $(MD:.md=.html)
-SPELL := $(MD:.md=.spell)
+SRCS := $(wildcard */*.md) $(wildcard */*.org)
+HTML := $(SRCS:.md=.html)
+SPELL := $(SRCS:.md=.spell)
 FOOTER := footer.html
 HEADER := header.html
 PANDOC := pandoc
-
-DIRS := \
-    -D algebra/                \
-    -D scheme/                 \
-    -D server_stuffs/          \
-    -D ssg/                    \
-    -D todo/                   \
-    -D words/                  \
-    -D functional_programming/ \
-    -D work/                   \
-    -D philosophy/             \
 
 all: curriculum cv $(SVG) html
 
 force-redo: cv $(SVG) html-redo
 
-html-redo: $(MD) $(FOOTER) $(HEADER)
+html-redo: $(SRCS) $(FOOTER) $(HEADER)
 	./siiky.github.io.scm build --force-redo
 
-html: $(MD) $(FOOTER) $(HEADER)
+html: $(SRCS) $(FOOTER) $(HEADER)
 	./siiky.github.io.scm build
 
 list-files:
 	@./siiky.github.io.scm list-files
 
 watch:
-	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md index.scm $(MD) $(GVS) -type f | entr -c make
+	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md $(SRCS) $(GVS) -type f | entr -c make
 
-$(FOOTER): $(FOOTER:.html=.md)
-	$(PANDOC) -f markdown -t html $< -o $@
-
-$(HEADER): $(HEADER:.html=.md)
+%.html: %.md
 	$(PANDOC) -f markdown -t html $< -o $@
 
 curriculum: functional_programming/curriculum.pdf
@@ -66,4 +52,4 @@ spell: $(SPELL)
 %.spell: %.md
 	aspell -c $<
 
-.PHONY: all cv html watch spell
+.PHONY: all curriculum cv force-redo html html-redo list-files spell watch
