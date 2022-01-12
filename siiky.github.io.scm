@@ -151,18 +151,8 @@
                       (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
                       )
 
-             (ssg:dir "philosophy"
-                      (ssg:ent "./links.md" "2020/09/07" "Links")
-                      (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
-                      (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
-                      (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
-                      (ssg:ent wip "./identity.md" "2020/06/28" "Identity")
-                      (ssg:ent wip "./utilitarianism.md" "" "Utilitarianism")
-                      (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
-                      )
-
-             (ssg:dir "psychology"
-                      (ssg:ent "./links.md" "2020/09/07" "Links")
+             (ssg:dir "kB45oC"
+                      (ssg:ent "./gnuplot.org" "2022/01/12" "Gnuplot Quickstart")
                       )
 
              (ssg:dir "scheme"
@@ -176,19 +166,33 @@
                       (ssg:ent "./list.md" "2022/01/09" "Care list")
                       )
 
+             (ssg:dir "philosophy"
+                      (ssg:ent "./links.md" "2020/09/07" "Links")
+                      (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
+                      (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
+                      (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
+                      (ssg:ent wip "./identity.md" "2020/06/28" "Identity")
+                      (ssg:ent wip "./utilitarianism.md" "" "Utilitarianism")
+                      (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
+                      )
+
              (ssg:dir "server_stuffs"
                       (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
+                      )
+
+             (ssg:dir "words"
+                      (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
+                      (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
+                      )
+
+             (ssg:dir "psychology"
+                      (ssg:ent "./links.md" "2020/09/07" "Links")
                       )
 
              (ssg:dir "ssg"
                       (ssg:ent "./page.md" "2017/03/06" "simple static site generator (idea)")
                       (ssg:ent wip "./lib.md" "2019/10/18" "SSG, the Library")
                       (ssg:ent wip "./site.md" "2018/01/01" "SSG, Your own, personal, Static Site Generator")
-                      )
-
-             (ssg:dir "words"
-                      (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
-                      (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
                       )
 
              (ssg:dir "work"

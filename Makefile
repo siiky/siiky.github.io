@@ -1,7 +1,8 @@
+GP := $(wildcard assets/*.gp)
 GVS := $(wildcard assets/*.gvs)
 GV := $(GVS:.gvs=.gv)
-PNG := $(GV:.gv=.png)
-SVG := $(GV:.gv=.svg)
+PNG := $(GV:.gv=.png) $(GP:.gp=.png)
+SVG := $(GV:.gv=.svg) $(GP:.gp=.svg)
 SRCS := $(wildcard */*.md) $(wildcard */*.org)
 HTML := $(SRCS:.md=.html)
 SPELL := $(SRCS:.md=.spell)
@@ -23,7 +24,7 @@ list-files:
 	@./siiky.github.io.scm list-files
 
 watch:
-	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md $(SRCS) $(GVS) -type f | entr -c make
+	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md $(SRCS) $(GVS) $(GP) -type f | entr -c make
 
 %.html: %.md
 	$(PANDOC) -f markdown -t html $< -o $@
@@ -46,6 +47,12 @@ cv-en.pdf: cv-en.md cv-en.template.latex
 
 %.gv: %.gvs
 	gvs2gv $<
+
+%.svg: %.gp
+	gnuplot -c $^
+
+%.png: %.gp
+	gnuplot -c $^
 
 spell: $(SPELL)
 
