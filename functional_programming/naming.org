@@ -1,5 +1,7 @@
-#+title: Naming Operations rather than Variables
-#+author: siiky
+#+TITLE: Naming Operations rather than Variables
+#+AUTHOR: siiky
+#+DATE: 2021/12/15
+#+LANGUAGE: en
 
 Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named -- and everyone knows naming is hard.
 

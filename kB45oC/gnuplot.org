@@ -1,6 +1,7 @@
 #+TITLE: Gnuplot Quickstart
 #+AUTHOR: siiky
 #+DATE: 2022/01/12
+#+LANGUAGE: en
 
 I started learning Gnuplot for a PA because I didn't want to deal with Python BS
 or whatnot, and Gnuplot has been around since like... even before the dinosaurs
