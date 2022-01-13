@@ -148,7 +148,7 @@
                       )
 
              (ssg:dir "osm"
-                      (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheatsheet")
+                      (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheat Sheet")
                       )
 
              (ssg:dir "kB45oC"

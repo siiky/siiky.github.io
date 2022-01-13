@@ -1,4 +1,4 @@
-% OpenStreetMap Cheatsheet
+% OpenStreetMap Cheat Sheet
 % siiky
 % 2021/07/12
 

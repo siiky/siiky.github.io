@@ -4,7 +4,7 @@
 
 Terapia de Divã (Portuguese) ([posts][TdD_de], [posts][TdD_do])
 
-  ~ Interviews to portuguese psychologists on various subjects.
+  ~ Interviews to Portuguese psychologists on various subjects.
 
 [TdD_de]: https://www.comunidadeculturaearte.com/tag/terapia-de-diva/
 [TdD_do]: https://www.comunidadeculturaearte.com/tag/terapia-do-diva/
