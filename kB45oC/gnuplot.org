@@ -280,7 +280,7 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
 
 [[file:assets/errorlines.svg]]
 
----
+-----
 
 Just a couple of notes on security, especially for someone wanting to develop an
 interface library. These are things that /may/ be useful when writing and
