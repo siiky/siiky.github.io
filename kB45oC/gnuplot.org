@@ -280,10 +280,12 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
 
 [[file:assets/errorlines.svg]]
 
-* Notes on security
+---
 
-Things to take note, that /may/ be useful when writing and running scripts
-directly in Gnuplot, but are a security nightmare.
+Just a couple of notes on security, especially for someone wanting to develop an
+interface library. These are things that /may/ be useful when writing and
+running scripts directly in Gnuplot, but that are a security nightmare if left
+as something to think about tomorrow.
 
 ~system()~ (a la C) is a thing. Not only that, but backticks like in shell
 languages are also a thing: ~"`echo hello from Gnuplot`"~ runs the ~echo~
