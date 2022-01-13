@@ -245,14 +245,14 @@ set ytics nomirror
 set y2tics nomirror
 
 set xlabel "#Elements"
-set ylabel "Time (ms)"
+set ylabel "Time (s)"
 set y2label "L1 Cache Misses"
 
 set grid
 
-# The `($n/1000)` syntax asks Gnuplot to divide the values of the field `n` by
-#   1000 (in this case, the time is in microseconds, so dividing by 1000
-#   converts to milisecconds).
+# The `($n/1000000)` syntax asks Gnuplot to divide the values of the field `n`
+#   by 1000000 (in this case, the time is in microseconds, so dividing by
+#   1000000 converts to secconds).
 #
 # `with yerrorlines` changes the style of plot, in this case lines with error
 #   bars. `yerrorbars` is the same but without the connecting lines.
@@ -272,8 +272,8 @@ set grid
 # Finally, `axis x1y1` & `axis x1y2` set the axes the data should be plotted in
 #   -- x1 & x2 for bottom & top XX respectively; y1 & y2 for left & right YY
 #   respectively.
-plot $Dataset using 1:($2/1000):($3/1000):($4/1000) with yerrorlines title columnheader axis x1y1,\
-     ""       using 1:11:12:13                      with yerrorlines title columnheader axis x1y2
+plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines title columnheader axis x1y1,\
+     ""       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 #+end_src
 
 [[../assets/errorlines.gp][download]]
