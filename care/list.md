@@ -2,13 +2,13 @@
 % siiky
 % 2022/01/09
 
-IPFS root directory of this list: ipfs://bafybeicbi5rcan64h2es5ecmuunf7k3dinfa4onl3pyoafychybsue5ssy
+IPFS root directory of this list: ipfs://bafybeigifvvhvt4koxoq6nykrr44ghi5qgqrmfzlgpofog7zuikawch6gi
 
 # OPLSS (Oregon Programming Language Summer School)
 
 The [official OPLSS site](https://www.cs.uoregon.edu/research/summerschool/archives.html).
 
-Some of the lectures are mirrored on the path `/videos/oplss/`: ipfs://bafybeicbi5rcan64h2es5ecmuunf7k3dinfa4onl3pyoafychybsue5ssy/videos/oplss/
+Some of the lectures are mirrored on the path `/videos/oplss/`, or here: ipfs://bafybeidlgjvd6qdjgdb2vqtdnssvvfbv47m3wj2uyzknswhj5twktr37ne
 
 # _Steal this Film_
 
