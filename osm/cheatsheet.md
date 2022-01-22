@@ -298,6 +298,10 @@ out skel qt;
 
 **TODO**: `amenity=cafe`, `amenity=bakery`, `shop=confectionery`, or something else?
 
+# NIF/VAT number
+
+Use [`ref:vatin`], e.g. `ref:vatin=PT123456789`.
+
 [_Education features_]: https://wiki.openstreetmap.org/wiki/Education_features
 [_How to map a_]: https://wiki.openstreetmap.org/wiki/How_to_map_a
 [_McDonald's_]: https://wiki.openstreetmap.org/wiki/Tag:name=McDonald's
@@ -330,6 +334,7 @@ out skel qt;
 [`natural=water`]: https://wiki.openstreetmap.org/wiki/Tag:natural=water
 [`office=tutoring`]: https://wiki.openstreetmap.org/wiki/Tag:office=tutoring
 [`recycling_type=container`]: https://wiki.openstreetmap.org/wiki/Tag:recycling_type=container
+[`ref:vatin`]: https://wiki.openstreetmap.org/wiki/Key:ref:vatin
 [`tourism=viewpoint`]: https://wiki.openstreetmap.org/wiki/Tag:tourism=viewpoint
 [`waste=*`]: https://wiki.openstreetmap.org/wiki/Key:waste
 [waste processing]: https://wiki.openstreetmap.org/wiki/Waste_Processing
