@@ -50,6 +50,12 @@
     <link href="https://siiky.github.io/osm/cheatsheet.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/osm/prettymaps.org</id>
+    <title type="text">prettymaps</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/osm/prettymaps.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/kB45oC/gnuplot.org</id>
     <title type="text">Gnuplot Quickstart</title>
     <updated></updated>

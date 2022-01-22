@@ -1,0 +1,16 @@
+#+TITLE: prettymaps
+#+AUTHOR: siiky
+#+DATE: 2022/01/22
+#+LANGUAGE: en
+
+Found this library reading [[https://weeklyosm.eu/archives/14825][WeeklyOSM 580]] called "prettymaps":
+https://github.com/marceloprates/prettymaps
+
+It does indeed create pretty maps!
+
+Found also a website that exposes a limited set of options to the library:
+https://prettymaps-online-nzcbpymxfq-uc.a.run.app
+
+And created this pretty thing from https://www.openstreetmap.org/#map=16/40.4144/-7.7073:
+
+[[file:assets/seia.png]]
