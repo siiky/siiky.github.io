@@ -302,6 +302,14 @@ out skel qt;
 
 Use [`ref:vatin`], e.g. `ref:vatin=PT123456789`.
 
+# Adding turn restrictions
+
+First, in this order, select the "from" way, the intersecting ("via") node, and
+the "to" way. Then, "Presets">"Relations">"Turn restriction". Select the
+correct restriction (e.g. "no_u_turn") and hit "New relation". On the lower
+left list of objects, select the "from" way and change its role to "from" (and
+similarly to the "via" node and the "to" way). Hit "Ok" and you're done.
+
 [_Education features_]: https://wiki.openstreetmap.org/wiki/Education_features
 [_How to map a_]: https://wiki.openstreetmap.org/wiki/How_to_map_a
 [_McDonald's_]: https://wiki.openstreetmap.org/wiki/Tag:name=McDonald's
