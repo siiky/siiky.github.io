@@ -2,6 +2,9 @@
 % siiky
 % 2020/12/21
 
+These are the books that I'm reading, have read, or haven't read. You may find
+some of them for download in the [care list](care/list.html).
+
 # Reading
 
  * Bill Gates, _How to Avoid a Climate Disaster_: 2022/01/07
