@@ -3,7 +3,7 @@
 % 2020/12/21
 
 These are the books that I'm reading, have read, or haven't read. You may find
-some of them for download in the [care list](care/list.html).
+some of them for download in the [care list](/care/list.html).
 
 # Reading
 
@@ -13,7 +13,7 @@ some of them for download in the [care list](care/list.html).
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
- * Mark Graham & Martin Dittus, _Geographies of Digital Exclusion: Data and Inequality_: 2022/01/22
+ * Mark Graham & Martin Dittus, [_Geographies of Digital Exclusion: Data and Inequality_]: 2022/01/22
 
 # Read
 
@@ -121,6 +121,7 @@ some of them for download in the [care list](care/list.html).
 [_Eryxias_]: https://www.gutenberg.org/ebooks/1681
 [_Euthyphro_]: https://www.gutenberg.org/ebooks/1642
 [_Game Programming Patterns_]: https://gameprogrammingpatterns.com
+[_Geographies of Digital Exclusion: Data and Inequality_]: /care/list.html
 [_Gorgias_]: https://www.gutenberg.org/ebooks/1672
 [_Idle Thoughts of an Idle Fellow_]: https://www.gutenberg.org/ebooks/849
 [_Ion_]: https://www.gutenberg.org/ebooks/1635
