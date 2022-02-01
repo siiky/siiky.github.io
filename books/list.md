@@ -3,7 +3,8 @@
 % 2020/12/21
 
 These are the books that I'm reading, have read, or haven't read. You may find
-some of them for download in the [care list](/care/list.html).
+many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
+[care list](/care/list.html).
 
 # Reading
 
@@ -87,10 +88,10 @@ some of them for download in the [care list](/care/list.html).
  * Plato, [_Timaeus_]: 2020
  * René Descartes, _Discourse on the Method_: 2020
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
- * Robert Louis Stevenson, _The Strange Case of Dr. Jekyll and Mr. Hyde_: 2020
+ * Robert Louis Stevenson, [_The Strange Case of Dr. Jekyll and Mr. Hyde_]: 2020
  * Stephen King, _The Shining_: 2019~2020
  * Steve Toutonghi, _Join_: 2021/08/31~2021/11/10
- * Sun Tzu, _The Art of War_
+ * Sun Tzu, [_The Art of War_]
  * Susan Kaye Quinn, _The Legacy Human_: 2020
  * Travis Bughi, _Beyond the Plains_: 2020
  * Victor Hugo, [_Les Misérables_]: 2020/01/01~2021/06/10
@@ -107,6 +108,8 @@ some of them for download in the [care list](/care/list.html).
 
  * Travis Bughi, _The Forest of Angor_: 2020
 
+[Gutenberg]: https://www.gutenberg.org
+[Standard Ebooks]: https://standardebooks.org
 [_A Confession_]: https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude
 [_Alcibiades II_]: https://www.gutenberg.org/ebooks/1677
 [_Alcibiades I_]: https://www.gutenberg.org/ebooks/1676
@@ -133,9 +136,11 @@ some of them for download in the [care list](/care/list.html).
 [_Socrates_]: https://www.gutenberg.org/ebooks/4683
 [_Starfish_]: https://www.rifters.com/real/STARFISH.htm
 [_Tao Te Ching_]: https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge
+[_The Art of War_]: https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles
 [_The Communist Manifesto_]: https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore
 [_The Enchiridion_]: https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter
 [_The Prince_]: https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott
+[_The Strange Case of Dr. Jekyll and Mr. Hyde_]: https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde
 [_Timaeus_]: https://www.gutenberg.org/ebooks/1572
 [_Tokyo Zero_]: https://www.feedbooks.com/userbook/3501/tokyo-zero
 [_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
