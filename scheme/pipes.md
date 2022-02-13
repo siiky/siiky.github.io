@@ -87,7 +87,7 @@ The third and fourth expressions, `((-> ...) some-list)` and `(filter ...)`,
 are equivalent to the second.
 
 Note the use of `o` instead of `->` in the `filter`'s predicate. Personal
-preference, but I think that case reads better with `o` because it's closer to
+preference, but I think that case reads better with `o` because it's more like
 English.
 
 ---
@@ -95,7 +95,43 @@ English.
 But now that'll probably be the end of them for me.
 
 Yesterday I learned of [SRFI-197] -- very cool! There's even an [egg for
-CHICKEN] already.
+CHICKEN] already. _And_ I can rename the exported identifiers to the ones I've
+been using:
+
+```scm
+(import
+  chicken.module
+  (rename
+    (only srfi-197
+          chain
+          chain-lambda)
+    (chain =>)
+    (chain-lambda ->)))
+```
+
+With that, the previous example is written like so:
+
+```scm
+(map (-> (do-this _)
+         (and-that _))
+     some-list)
+
+(=> some-list
+    (map (-> (do-this _) (and-that _)) _)
+    (filter (o not screwed?) _))
+
+((-> (map (-> (do-this _) (and-that _)) _)
+     (filter (o not screwed?) _))
+   some-list)
+
+(filter (o not screwed?)
+        (map (-> (do-this _) (and-that _))
+             some-list))
+```
+
+Maybe the advantage(s) aren't obvious (maybe they're not advantages at all!),
+but to me not having to write `cute` for non-unary functions is a plus, even if
+I'm now forced to write parenthesis and an underscore on every unary function.
 
 I guess the only situation(s) I don't see myself using it is if I want to avoid
 dependencies.

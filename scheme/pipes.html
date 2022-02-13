@@ -143,10 +143,35 @@
 <p><code>(-&gt; do-this and-that)</code> is an unary function – that’s why it can be given to <code>map</code>.</p>
 <p><code>(=&gt; some-list ...)</code> evaluates to a value, which is the result of applying the <code>filter</code> to the result of applying the <code>map</code> to <code>some-list</code>.</p>
 <p>The third and fourth expressions, <code>((-&gt; ...) some-list)</code> and <code>(filter ...)</code>, are equivalent to the second.</p>
-<p>Note the use of <code>o</code> instead of <code>-&gt;</code> in the <code>filter</code>’s predicate. Personal preference, but I think that case reads better with <code>o</code> because it’s closer to English.</p>
+<p>Note the use of <code>o</code> instead of <code>-&gt;</code> in the <code>filter</code>’s predicate. Personal preference, but I think that case reads better with <code>o</code> because it’s more like English.</p>
 <hr />
 <p>But now that’ll probably be the end of them for me.</p>
-<p>Yesterday I learned of <a href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a> – very cool! There’s even an <a href="https://wiki.call-cc.org/eggref/5/srfi-197">egg for CHICKEN</a> already.</p>
+<p>Yesterday I learned of <a href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a> – very cool! There’s even an <a href="https://wiki.call-cc.org/eggref/5/srfi-197">egg for CHICKEN</a> already. <em>And</em> I can rename the exported identifiers to the ones I’ve been using:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(import</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  chicken.module</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  (rename</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    (only srfi-197</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>          chain</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>          chain-lambda)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    (chain <span class="op">=&gt;</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    (chain-lambda -&gt;)))</span></code></pre></div>
+<p>With that, the previous example is written like so:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode scm"><code class="sourceCode scheme"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(map (-&gt; (do-this <span class="op">_</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>         (and-that <span class="op">_</span>))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>     some-list)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>(<span class="op">=&gt;</span> some-list</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>)) <span class="op">_</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">filter</span> (o <span class="kw">not</span> screwed?) <span class="op">_</span>))</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>((-&gt; (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>)) <span class="op">_</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>     (<span class="kw">filter</span> (o <span class="kw">not</span> screwed?) <span class="op">_</span>))</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>   some-list)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>(<span class="kw">filter</span> (o <span class="kw">not</span> screwed?)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>))</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>             some-list))</span></code></pre></div>
+<p>Maybe the advantage(s) aren’t obvious (maybe they’re not advantages at all!), but to me not having to write <code>cute</code> for non-unary functions is a plus, even if I’m now forced to write parenthesis and an underscore on every unary function.</p>
 <p>I guess the only situation(s) I don’t see myself using it is if I want to avoid dependencies.</p>
 <hr />
 <div class="line-block">places:<br />
