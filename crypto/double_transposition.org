@@ -1,0 +1,109 @@
+#+TITLE: Double Transposition Cipher
+#+AUTHOR: siiky
+#+DATE: 2022/02/13
+#+LANGUAGE: en
+
+Got into "hand ciphers" recently, and this was the first (seemingly) decent that
+is easy-ish and quick-ish to use -- some info on [[https://en.wikipedia.org/wiki/Double_transposition][Wikipedia]], and the [[https://www.pbs.org/wgbh/nova/decoding/doubtrans.html][site where I
+originally learned it]].
+
+The basic idea is that you create a matrix of =N= rows (number of letters of the
+key), where you will write down row-wise the message you want to encipher, and
+then reorder the result column-wise according to the chosen key.
+
+An interesting property of this method is that the resulting cipher text has the
+exact same length and letters of the plain text -- it's an anagram! However,
+this is, of course, its main flaw.
+
+* Ciphering
+
+Let's say we want to encipher the text =TOMORROW AT DUSK MOJITOS AT THE BEACH=. First,
+you choose the key, e.g. =GORILLA=, make the matrix and annotate each letter's
+sequence number:
+
+#+BEGIN_SRC txt
+2673451
+GORILLA
+-------
+#+END_SRC
+
+Then write down the message row-wise (left-to-right, top-to-bottom) in the
+matrix:
+
+#+BEGIN_SRC txt
+2673451  1234567
+GORILLA  AGILLOR
+-------  -------
+TOMORRO  OTORROM
+WATDUSK  KWDUSAT
+MOJITOS  SMITOOJ
+ATTHEBE  EAHEBTT
+ACH       A   CH
+#+END_SRC
+
+And that's it, the first transposition is done. The ciphered text can be read
+column-wise (top-to-bottom, column number) in the columns order: =OKSE TWMAA ODIH RUTE RSOB OAOTC MTJTH=.
+Some places recommend breaking the ciphered text into blocks of for example =5=,
+so as to be easier to transmit/read off. But I believe also as to not give more
+hints about the key (due to the shorter columns). With that: =OKSET WMAAO DIHRU TERSO BOAOT CMTJT H=.
+
+To get to a /double transposition/ ciphered text you have to apply this process
+again, now using the previous ciphered text as the plain text (and probably a
+good idea to use a different key). E.g., with the key =ALMOND=:
+
+#+BEGIN_SRC txt
+134652
+ALMOND
+------
+OKSETW
+MAAODI
+HRUTER
+SOBOAO
+TCMTJT
+H
+#+END_SRC
+
+The final ciphered text: =OMHST HWIRO TKARO CSAUB MTDEA JEOTO T=.
+
+* Deciphering
+
+To decipher you have to do the reverse. You make the matrix as before, and then
+the way you fill it depends on the number of columns and the length of the
+message. For the key =ALMOND= and the previous cipher text: ~len("ALMOND") = 6~;
+~len(cipher_text) = 31~; ~ceil(31/6) = 6~; ~31-6*5 = 1~. This means that the
+matrix must have 6 rows, but that the last row has only 1 letter.
+
+The formulas are:
+
++ ~ceil(len(cipher_text)/len(key)) = #rows~
++ ~len(cipher_text) - (len(key)-1)*#rows = len(last row)~
+
+Putting it into practice, we get this:
+
+#+BEGIN_SRC txt
+134652
+ALMOND
+------
+******
+******
+******
+******
+******
+*
+#+END_SRC
+
+Now just fill in the matrix column-wise:
+
+#+BEGIN_SRC txt
+134652
+ALMOND
+------
+O****W
+M****I
+H****R
+S****O
+T****T
+H
+#+END_SRC
+
+And so on...

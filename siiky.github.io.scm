@@ -178,6 +178,10 @@
                       (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
                       )
 
+             (ssg:dir "crypto"
+                      (ssg:ent "./double_transposition.org" "2022/02/13" "Double Transposition Cipher")
+                      )
+
              (ssg:dir "server_stuffs"
                       (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
                       )

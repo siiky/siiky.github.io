@@ -104,6 +104,12 @@
     <link href="https://siiky.github.io/philosophy/donating.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/crypto/double_transposition.org</id>
+    <title type="text">Double Transposition Cipher</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/crypto/double_transposition.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/server_stuffs/seamless_updates.md</id>
     <title type="text">Seamless Updates</title>
     <updated></updated>
