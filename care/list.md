@@ -47,8 +47,8 @@ Published in 2022/01 by Pluto Press, with ISBN 9780745340180.
 Written by José Nuno Oliveira, professor of the Informatics Department of the
 University of Minho.
 
-Usually available [here][pdbc], and at `/books/pdbc.pdf` (not necessarily the
-latest version).
+At `/books/pdbc.pdf` (not necessarily the latest version), and the original is
+usually available [here][pdbc].
 
 # Videos
 
