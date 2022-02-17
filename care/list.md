@@ -2,7 +2,7 @@
 % siiky
 % 2022/01/09
 
-IPFS root directory of this list: ipfs://bafybeicez3k6wpfddksj24zuwbfkqclur52c3go3wdu5pgzo3px6uyakpa
+IPFS root directory of this list: ipfs://bafybeifrpvm2vhbbjj6b34tgr4ocnbtzcxdfvsx7wo272vigl2c5zofoz4
 
 Because _sharing is caring_. This is a list of things I'm caring with others.
 Some of the type of cares you may find here are books from [Gutenberg] or
@@ -42,6 +42,14 @@ Institute](https://www.oii.ox.ac.uk/research/publications/geographies-of-digital
 
 Published in 2022/01 by Pluto Press, with ISBN 9780745340180.
 
+## _Program Design by Calculation_
+
+Written by José Nuno Oliveira, professor of the Informatics Department of the
+University of Minho.
+
+Usually available [here][pdbc], and at `/books/pdbc.pdf` (not necessarily the
+latest version).
+
 # Videos
 
 ## OPLSS (Oregon Programming Language Summer School)
@@ -53,6 +61,19 @@ ipfs://bafybeidlgjvd6qdjgdb2vqtdnssvvfbv47m3wj2uyzknswhj5twktr37ne
 
 **NOTE THAT I _may_ forget to update this URL, but the root will always be up
 to date!**
+
+## _Nothing to Hide_
+
+ * [VidCommons' PeerTube instance](https://vidcommons.org/w/efeEpsHSK3bzJwVLW9fh7U)
+ * `/videos/Nothing to Hide - The documentary about surveillance and you (2017) 1080p.mp4`
+ * magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4
+ * ipfs://bafybeidi44wekwu3bi24m5x6ofnttzbcsfomr4dw5bssovqq35wdwva26m?filename=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20(2017)%201080p.mp4
+
+## _TPB: AFK_
+
+Torrent: magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&dn=TPB.AFK.2013.1080p.h264-SimonKlose&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
+
+And on IPFS at `/videos/TPB.AFK.2013.1080p.h264-SimonKlose.mkv`.
 
 ## _Steal this Film_
 
@@ -66,18 +87,6 @@ On IPFS:
  1. `/videos/StealThisFilm.Part1.mov`
  1. `/videos/StealThisFilmII.720p.mov`
 
-## _TPB: AFK_
-
-Torrent: magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&dn=TPB.AFK.2013.1080p.h264-SimonKlose&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
-
-And on IPFS at `/videos/TPB.AFK.2013.1080p.h264-SimonKlose.mkv`.
-
-## _Nothing to Hide_
-
- * [VidCommons' PeerTube instance](https://vidcommons.org/w/efeEpsHSK3bzJwVLW9fh7U)
- * `/videos/Nothing to Hide - The documentary about surveillance and you (2017) 1080p.mp4`
- * magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4
- * ipfs://bafybeidi44wekwu3bi24m5x6ofnttzbcsfomr4dw5bssovqq35wdwva26m?filename=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20(2017)%201080p.mp4
-
 [Gutenberg]: https://www.gutenberg.org
 [Standard Ebooks]: https://standardebooks.org
+[pdbc]: http://www4.di.uminho.pt/~jno/ps/pdbc.pdf
