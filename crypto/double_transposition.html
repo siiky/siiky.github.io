@@ -123,7 +123,7 @@
 <p>The formulas are:</p>
 <ul>
 <li><code>ceil(len(cipher_text)/len(key)) = #rows</code></li>
-<li><code>len(cipher_text) - (len(key)-1)*#rows = len(last row)</code></li>
+<li><code>len(cipher_text) - len(key)*(#rows-1) = len(last row)</code></li>
 </ul>
 <p>Putting it into practice, we get this:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>134652</span>

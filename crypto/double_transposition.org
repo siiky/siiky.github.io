@@ -76,7 +76,7 @@ matrix must have 6 rows, but that the last row has only 1 letter.
 The formulas are:
 
 + ~ceil(len(cipher_text)/len(key)) = #rows~
-+ ~len(cipher_text) - (len(key)-1)*#rows = len(last row)~
++ ~len(cipher_text) - len(key)*(#rows-1) = len(last row)~
 
 Putting it into practice, we get this:
 

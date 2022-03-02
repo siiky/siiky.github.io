@@ -15,6 +15,7 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Mark Graham & Martin Dittus, [_Geographies of Digital Exclusion: Data and Inequality_]: 2022/01/22
+ * Plato, _Cratylus_: 2022/02/22
 
 # Read
 
