@@ -15,7 +15,6 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
  * Mark Graham & Martin Dittus, [_Geographies of Digital Exclusion: Data and Inequality_]: 2022/01/22
- * Plato, _Cratylus_: 2022/02/22
 
 # Read
 
@@ -87,6 +86,7 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
  * Plato, [_Ion_]: 2020
  * Plato, [_Lesser Hippias_]: 2021/12/29
  * Plato, [_Timaeus_]: 2020
+ * Plato, _Cratylus_: 2022/02/22~2022/03/09
  * René Descartes, _Discourse on the Method_: 2020
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
  * Robert Louis Stevenson, [_The Strange Case of Dr. Jekyll and Mr. Hyde_]: 2020
