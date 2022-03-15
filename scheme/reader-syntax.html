@@ -110,7 +110,7 @@
 <p><code class="verbatim">klovett</code> on IRC mentioned that it&#39;s possible to use <code class="verbatim">-X/-extend</code> to make it available at compile time only. As an example, <code class="verbatim">klovett</code> said that compiling with <code class="verbatim">csc -X srfi-19-literals</code> would allow one to write <code>#@1-1-22</code>. Try this, after installing SRFI-19:</p>
 <pre class="shell"><code>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +&#39;%Y-%m-%d&#39;`&quot;
 </code></pre>
-<p>You can find the relevant CHICKEN documentation <a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">here</a> or <a href="https://api.call-cc.org/5/doc/chicken/read-syntax">here</a>.</p>
+<p>You can find the relevant CHICKEN documentation for <code>set-read-syntax!</code> &amp; friends <a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">here</a> or <a href="https://api.call-cc.org/5/doc/chicken/read-syntax">here</a>; and you can find the relevant SRFI-19 literals documentation <a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">here</a> or <a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">here</a>.</p>
 <hr />
 <p>To make it more obvious why this is cool, here goes a slightly more realistic, though still simple, example.</p>
 <p>Let&#39;s say we have these SQL files:</p>

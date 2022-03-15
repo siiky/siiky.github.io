@@ -47,7 +47,9 @@ after installing SRFI-19:
 csi -R srfi-19 -R srfi-19-literals -p "#@`date +'%Y-%m-%d'`"
 #+END_SRC
 
-You can find the relevant CHICKEN documentation [[https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)][here]] or [[https://api.call-cc.org/5/doc/chicken/read-syntax][here]].
+You can find the relevant CHICKEN documentation for ~set-read-syntax!~ & friends
+[[https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)][here]] or [[https://api.call-cc.org/5/doc/chicken/read-syntax][here]]; and you can find the relevant SRFI-19 literals documentation [[https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form][here]]
+or [[https://api.call-cc.org/5/doc/srfi-19/date-literal-form][here]].
 
 -----
 
