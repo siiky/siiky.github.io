@@ -5,8 +5,8 @@
 
 TIL a bit of reader syntax magic. With very few lines of code I was able to make
 available the ~#!sql~ reader syntax to let me read the contents of SQL files as
-a *literal string* given its path (any file actually, but I was thinking of
-using it for SQL files only).
+a *literal string* (any file actually, but I was thinking of using it for SQL
+files only).
 
 #+BEGIN_SRC scheme
 ; This:
