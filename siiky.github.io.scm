@@ -161,6 +161,7 @@
                       (ssg:ent "./gv-dsl.md" "2019/10/01" "GraphViz DOT Scheme DSL")
                       (ssg:ent "./kless.md" "2019/10/13" "kless")
                       (ssg:ent "./pipes.md" "2022/01/09" "Pipes")
+                      (ssg:ent "./reader-syntax.org" "2022/03/15" "Reader Syntax")
                       )
 
              (ssg:dir "care"
