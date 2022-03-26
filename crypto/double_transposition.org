@@ -7,9 +7,9 @@ Got into "hand ciphers" recently, and this was the first (seemingly) decent that
 is easy-ish and quick-ish to use -- some info on [[https://en.wikipedia.org/wiki/Double_transposition][Wikipedia]], and the [[https://www.pbs.org/wgbh/nova/decoding/doubtrans.html][site where I
 originally learned it]].
 
-The basic idea is that you create a matrix of =N= rows (number of letters of the
-key), where you will write down row-wise the message you want to encipher, and
-then reorder the result column-wise according to the chosen key.
+The basic idea is that you create a matrix of =N= columns (number of letters of
+the key), where you will write down row-wise the message you want to encipher,
+and then reorder the result column-wise according to the chosen key.
 
 An interesting property of this method is that the resulting cipher text has the
 exact same length and letters of the plain text -- it's an anagram! However,
@@ -69,41 +69,44 @@ The final ciphered text: =OMHST HWIRO TKARO CSAUB MTDEA JEOTO T=.
 
 To decipher you have to do the reverse. You make the matrix as before, and then
 the way you fill it depends on the number of columns and the length of the
-message. For the key =ALMOND= and the previous cipher text: ~len("ALMOND") = 6~;
-~len(cipher_text) = 31~; ~ceil(31/6) = 6~; ~31-6*5 = 1~. This means that the
-matrix must have 6 rows, but that the last row has only 1 letter.
+message. To get the number of rows, and the number of columns of the last row,
+the formula in Scheme is:
 
-The formulas are:
+#+BEGIN_SRC scheme
+(receive (q r) (quotient&modulo (string-length cipher-text) (string-length key))
+  (+ q 1) ; #rows
+  r)      ; #columns of the last row
+#+END_SRC
 
-+ ~ceil(len(cipher_text)/len(key)) = #rows~
-+ ~len(cipher_text) - len(key)*(#rows-1) = len(last row)~
+(~quotient&modulo~ is actually CHICKEN-specific; in plain Scheme you'd use
+~quotient~ and ~modulo~)
+
+In English: the number of rows is the quotient of the division of
+~length cipher_text~ by ~length key~ plus 1; the number of columns of the last
+row is the remainder.
+
+So, for the previous cipher text and the key =ALMOND=:
+
++ ~(string-length cipher-text) = 31~
++ ~(string-length "ALMOND") = 6~
++ ~(quotient 31 6) = 5~
++ ~(modulo 31 6) = 1~
+
+This means that the matrix must have 6 rows, but that the last row has only 1
+letter.
 
 Putting it into practice, we get this:
 
 #+BEGIN_SRC txt
-134652
-ALMOND
-------
-******
-******
-******
-******
-******
-*
-#+END_SRC
-
-Now just fill in the matrix column-wise:
-
-#+BEGIN_SRC txt
-134652
-ALMOND
-------
-O****W
-M****I
-H****R
-S****O
-T****T
-H
+134652      134652      134652
+ALMOND      ALMOND      ALMOND
+------      ------      ------
+******      O*****      O****W
+******  =>  M*****  =>  M****I  => ...
+******      H*****      H****R
+******      S*****      S****O
+******      T*****      T****T
+*           H           H
 #+END_SRC
 
 And so on...
