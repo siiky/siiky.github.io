@@ -56,6 +56,12 @@
     <link href="https://siiky.github.io/osm/prettymaps.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/osm/overpass.org</id>
+    <title type="text">Overpass</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/osm/overpass.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/kB45oC/gnuplot.org</id>
     <title type="text">Gnuplot Quickstart</title>
     <updated></updated>

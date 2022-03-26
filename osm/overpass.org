@@ -1,0 +1,48 @@
+#+TITLE: Overpass
+#+AUTHOR: siiky
+#+DATE: 2022/03/26
+#+LANGUAGE: en
+
+/Overpass/ is an interface used to query OSM data. /Overpass Turbo/ is an
+Overpass web client you can use to query OSM data, export it, &c.
+
+Some links:
+
++ Overpass Turbo ::
+ - https://overpass-turbo.eu
+ - https://wiki.openstreetmap.org/wiki/Overpass_turbo
++ Overpass Query Language :: https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL
++ Overpass API :: https://wiki.openstreetmap.org/wiki/Overpass_API
+
+-----
+
+* Useful Queries
+
+This is a list of useful queries I've learned over time.
+
+** Features last modified by some user
+
+#+BEGIN_SRC txt
+[out:json][timeout:250];
+// Is this part alright?
+{{geocodeArea:loughborough}}->.searchArea;
+(
+  nwr(user:"user name");
+);
+out body;
+>;
+out skel qt;
+#+END_SRC
+
+** Features modified between two dates
+
+#+BEGIN_SRC txt
+// The to date is optional and defaults to now
+[diff:"2022-02-04T00:00:00Z","to date"];
+(
+  nwr["amenity"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
+#+END_SRC

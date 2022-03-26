@@ -150,6 +150,7 @@
              (ssg:dir "osm"
                       (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheat Sheet")
                       (ssg:ent "./prettymaps.org" "2022/01/22" "prettymaps")
+                      (ssg:ent "./overpass.org" "2022/03/26" "Overpass")
                       )
 
              (ssg:dir "kB45oC"
