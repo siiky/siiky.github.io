@@ -8,7 +8,6 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
 
 # Reading
 
- * Bill Gates, _How to Avoid a Climate Disaster_: 2022/01/07
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
@@ -27,6 +26,7 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
  * Aldous Huxley, _Brave New World_: 2020
  * Alfred Mill, _Personal Finance 101_: 2021/07/09~2021/07/18
  * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/05/29~2021/06/01
+ * Bill Gates, _How to Avoid a Climate Disaster_: 2022/01/07~2022/04/05
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08~2021/07/29
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Douglas Adams, _The Restaurant at the End of the Universe_: 2021/11/14~2022/01/06
