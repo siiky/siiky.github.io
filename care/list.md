@@ -87,6 +87,13 @@ On IPFS:
  1. `/videos/StealThisFilm.Part1.mov`
  1. `/videos/StealThisFilmII.720p.mov`
 
+## _O Lado Negro das Energias Verdes_
+
+This is the documentary [_The Dark Side of Green Energies_], but in PT
+(narration & subtitles) from RTP. Available at
+`/videos/o_lado_negro_das_energias_verdes.mp4`.
+
 [Gutenberg]: https://www.gutenberg.org
 [Standard Ebooks]: https://standardebooks.org
+[_The Dark Side of Green Energies_]: https://www.imdb.com/title/tt13524468
 [pdbc]: http://www4.di.uminho.pt/~jno/ps/pdbc.pdf
