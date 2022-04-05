@@ -10,16 +10,15 @@ IPFS root directory of this list: ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzze
 Because _sharing is caring_. This is a list of things I'm caring with others.
 Some of the type of cares you may find here are books from [Gutenberg] or
 [Standard Ebooks] that I particularly like; public movies/documentaries I find
-interesting, important, and/or important (such as _Steal this Film_); and
-copies of technical material distributed publicly and freely by their creators
-(such as OPLSS lectures). Whatever care you may find here, it shouldn't be
-illegal.
+interesting and/or important (such as _Nothing to Hide_); and copies of
+technical material distributed publicly and freely by their creators (such as
+OPLSS lectures). Whatever care you may find here, it shouldn't be illegal.
 
 You'll find at least three spider cares.
 
 ![Three Spider cares](assets/spidercare.jpg)
 
-The URL of the root of the list will be always at the top of the page (the
+The URI of the root of the list will be always at the top of the page (the
 "IPFS root directory ..."). From it you can get to all other cares (if I don't
 screw up). Over the rest of the page I'll post some notable cares and/or
 (maybe) more details, maybe even sources.
@@ -62,7 +61,7 @@ The [official OPLSS site](https://www.cs.uoregon.edu/research/summerschool/archi
 Some of the lectures are mirrored on the path `/videos/oplss/`, or here:
 ipfs://bafybeidlgjvd6qdjgdb2vqtdnssvvfbv47m3wj2uyzknswhj5twktr37ne
 
-**NOTE THAT I _may_ forget to update this URL, but the root will always be up
+**NOTE THAT I _may_ forget to update this URI, but the root will always be up
 to date!**
 
 ## _Nothing to Hide_
