@@ -104,6 +104,12 @@
     <link href="https://siiky.github.io/care/list.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/care/ipfs.org</id>
+    <title type="text">IPFS</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/care/ipfs.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/philosophy/links.md</id>
     <title type="text">Links</title>
     <updated></updated>

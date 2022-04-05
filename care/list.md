@@ -2,6 +2,9 @@
 % siiky
 % 2022/01/09
 
+(If you don't know what IPFS is or don't know how to use it, see
+[here](/care/ipfs.html))
+
 IPFS root directory of this list: ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzzerrgsx7fxmy4kxwthpkbi
 
 Because _sharing is caring_. This is a list of things I'm caring with others.

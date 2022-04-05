@@ -167,6 +167,7 @@
 
              (ssg:dir "care"
                       (ssg:ent "./list.md" "2022/01/09" "Care list")
+                      (ssg:ent "./ipfs.org" "2022/04/05" "IPFS")
                       )
 
              (ssg:dir "philosophy"
