@@ -139,6 +139,7 @@
 
              (ssg:dir "books"
                       (ssg:ent "./list.md" "2020/12/21" "Books list")
+                      (ssg:ent "./bill_gates.how_to_avoid_a_climate_disaster.org" "2022/04/09" "/How to Avoid a Climate Disaster/, Bill Gates")
                       )
 
              (ssg:dir "functional_programming"
