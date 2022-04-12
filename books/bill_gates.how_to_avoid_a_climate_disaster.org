@@ -8,19 +8,20 @@ want to share my opinions/critique, and try to compile all the notes I took
 while and after reading.
 
 I'll put down page numbers in this post. If you have the same edition, cool, if
-not: the /Introduction/ starts on p3, and the /Climate Change and COVID-19/ ends
-on p230. Hopefully that will help getting around. For figures and tables you can
+not: the /Introduction/ starts on p3, and /Climate Change and COVID-19/ ends on
+p230. Hopefully that will help getting around. For figures and tables you can
 try the /Notes/ where you can find the sources and corresponding page.
 
 * Overview
 
 Here are some of my thoughts on the book in general, or the things I got out of
 it. Maybe you won't agree with them, but /that's life/ (insert Frank Sinatra
-reference).
+reference here).
 
 ** Tone
 
-First off, I didn't like the overall tone and his unquestionably stating that
+First off, this is kinda personal preference, what makes me tick or makes me
+cringe, but I didn't like the overall tone and his unquestionably stating that
 "progress" is good.
 
 My impression, from reading this book alone, is that he *really* believes that
@@ -40,8 +41,8 @@ about?
 It's almost funny after he mentioned David Foster Wallace's /This Is Water/
 (more later).
 
-This point is related to some of the themes in /Sex at Dawn/ from my point of
-view.
+This point is related to some of the themes discussed in /Sex at Dawn/ from my
+point of view.
 
 ** Pollution of "greener" alternatives
 
@@ -62,7 +63,7 @@ I like the idea of raising/lowering the price of something based on its
 environmental impact, thus better reflecting the true cost of something, and
 simultaneously discouraging "bad" alternatives over "good" alternatives.
 
-The difficulty, would be convincing people that this is a good thing. During the
+The difficulty would be convincing people that this is a good thing. During the
 transition, the average Joe probably won't be interested in the fact the new
 thing is better for the environment but rather that what they're using currently
 became more expensive. In my view, this is of course irrational -- negative
@@ -71,7 +72,7 @@ not something easy to convince someone of, and I for sure commit the same
 mistake occasionally.
 ** Sources
 
-Some of his statements are not backed by any source, you're supposed (I guess?)
+Some of his statements are not backed by any sources, you're supposed (I guess?)
 to just believe in his authority on the matter and go with it. Examples:
 
 + money spent/saved over some period of time when comparing alternatives -- e.g. planting mangrove trees rather than not saves the world $80B/year;
@@ -105,10 +106,12 @@ just because it may be of interest, here's the index (with shitty formatting):
 ** /Why Zero?/
 
 We went from almost 0 (in 1850) to almost 40 billion (in 2018) tons of CO2
-(emitted per year, I suppose). The figure includes also the rise of the average
-temperature over the years. (fig p24)
+(emitted per year, I suppose). (fig p24) The figure includes also the rise of
+the average temperature over the years.
 
 ** /This Will Be Hard/
+
+From David Foster Wallace's speech /This Is Water/ (p37-38):
 
 #+BEGIN_QUOTE
 There are these two young fish swimming along, and they happen to meet an older
@@ -117,15 +120,13 @@ the water?" And the two young fish swim on for a bit, and then eventually one of
 them looks over at the other and goes, "What the hell is water?"
 #+END_QUOTE
 
-David Foster Wallace (speech, /This Is Water/) (p38-39).
+David's explanation (p38):
 
 #+BEGIN_QUOTE
 The immediate point of the fish story is that the most obvious, ubiquitous,
 important realities are often the ones that are the hardest to see and talk
 about.
 #+END_QUOTE
-
-David's explanation (p38).
 
 -----
 
@@ -136,9 +137,9 @@ right now using those tools means producing more greenhouse gases.
 #+END_QUOTE
 
 (fig p43) Why assume that /we/ are the superior ones and that /they/ have to
-"evolve"? Until 1850 (according to fig p24) we barely made a dent to the
-climate. How can you assume that evolving was a good thing? Even agriculture may
-have been a mistake (/Sex at Dawn/, again)!
+"progress"? Until 1850 (according to fig p24) we barely made a dent to the
+climate. How can you assume that "progressing" was a good thing? Even
+agriculture may have been a mistake (/Sex at Dawn/, again)!
 
 ** /Five Questions to Ask in Every Climate Conversation/
 
@@ -148,13 +149,12 @@ have been a mistake (/Sex at Dawn/, again)!
 | Making things         |        31% | Producing materials (cement, metals, plastics) |
 | Plugging in           |        27% | Producing electricity                          |
 | Growing things        |        19% | For food (plants & animals)                    |
-| Getting around        |        16% | Cars, planes, trucks, trains, ...              |
+| Getting around        |        16% | Cars, planes, ships, trains, trucks, ...       |
 | Keeping warm and cool |         7% | Heating & cooling, refrigeration               |
 |-----------------------+------------+------------------------------------------------|
 
-Human activities and their percentage of greenhouse gases emitted (tbl p55)
-(unfortunately unsourced). He gives a definition of what goes where in a
-footnote:
+Human activities and their percentage of greenhouse gases emitted (tbl p55; src:
+none). He gives a definition of what goes where in a footnote:
 
 #+BEGIN_QUOTE
 These percentages represent global greenhouse gas emissions. When you're
@@ -185,7 +185,8 @@ transport. Just shows how well (un)informed I am (or was)...
 | average american house | 1 kilowatt   |
 |------------------------+--------------|
 
-"How much power does it take?" -- Gates' cheatsheet on energy quantities. (tbl p57)
+"How much power does it take?" -- Gates' cheatsheet on energy quantities. (tbl
+p57; src: none)
 
 #+BEGIN_QUOTE
 Whenever you hear "kilowatt", think "house." "Gigawatt", think "city." A hundred
@@ -214,8 +215,8 @@ Again suggesting it's a good thing to increase energy usage. (p74)
 
 Histogram showing the amount of resources needed to build and run a power plant
 of different types, measured in tons of material per TWh, ordered from most to
-least material hungry. (tbl p85) The numbers here are approximate, measured with
-a ruler.
+least material hungry. (tbl p85; src: /U.S. Department of Energy/) The numbers here are
+approximate, measured with a ruler.
 
 |-------------------+------------|
 | Energy Source     | Deaths/TWh |
@@ -227,7 +228,7 @@ a ruler.
 | Nuclear (fission) |       0.07 |
 |-------------------+------------|
 
-Histogram showing number of deaths per unit of electricity generated. (p87) The
+Histogram showing number of deaths per unit of electricity generated. (p87; src: /Our World in Data/) The
 numbers here are exact, each column had a label.
 
 #+BEGIN_QUOTE
@@ -264,7 +265,7 @@ paragraph:
 Anything that reduces the scale we need to reach is helpful.
 #+END_QUOTE
 
-(p96) Well, obviously! Finally he says something more sensible:
+(p96) Whouldathunkit! Finally he says something more sensible:
 
 #+BEGIN_QUOTE
 There's also a related approach called load shifting or demand shifting, which
@@ -290,13 +291,13 @@ Normam Borlaug -- discoverer/inventor of "super crops". (p115)
 
 A grown chicken gives 1 calorie for every 2 calories that it consumes; a pig 1
 for every 3 calories; cows 1 for every 6. That is, we get only 1/2, 1/3, and
-1/6, respectively, of the energy "we put in". (p115) (This is one of the bits
-mentioned at the top of the post that have no source stated).
+1/6, respectively, of the energy "we put in". (p115; src: none)
 
 Graph of the trend of meat consumption on some countries over the years, from
-2000 to 2020, with predictions until 2028. (fig p116) In 2020, million tons of
-meat consumed (approximate numbers, measured with a ruler): Mexico, 9.6; Brazil,
-19.2; EU, 40; USA, 42; China, 80. Source: OECD-FAO Agricultural Outlook 2020.
+2000 to 2020, with predictions until 2028. (fig p116; src: /OECD-FAO
+Agricultural Outlook 2020/) In 2020, million tons of meat consumed (approximate
+numbers, measured with a ruler): Mexico, 9.6; Brazil, 19.2; EU, 40; USA, 42;
+China, 80.
 
 -----
 
@@ -400,8 +401,7 @@ floods, and they save billions more in other ways. Planting mangroves is much
 cheaper than building breakwaters, and the trees also improve the water quality.
 #+END_QUOTE
 
-Pros of planting mangrove trees (one of the unsourced statements).
-(p172-173)
+Pros of planting mangrove trees. (p172-173; src: none)
 
 * Mentioned books
 
@@ -429,6 +429,11 @@ reading, even though there were a few negative points and where I
 - [ ] Slightly disagree
 - [ ] Disagree
 - [X] Strongly disagree
+
+The tone of the book really did turn me off a bit... But that's probably just
+me. Other than that, a really big omission is that of the pollution of "greener"
+alternatives. However, to give him some credit, he seems to really be intested
+in the problem and to be investing some phat $$$ into it.
 
 Whether it's worth reading for you depends on you, however. If you're well into
 the topic, you probably learned nothing from this post, and in that case maybe
