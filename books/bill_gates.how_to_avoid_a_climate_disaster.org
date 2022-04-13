@@ -340,11 +340,11 @@ website, "The gastronomic meal emphasizes togetherness, the pleasure of taste,
 and the balance between human beings and the products of nature"
 #+END_QUOTE
 
-Gates on "hard-core veganism". (p118-119)
+Gates on "hard-core [[https://en.wikipedia.org/wiki/Veganism][veganism]]". (p118-119)
 
 /*What the fuck?*/
 
-1st WTF: "hard-core [[https://en.wikipedia.org/wiki/Veganism][vegan]]"? I'm pretty sure a vegan doesn't have to be hardcore
+1st WTF: "hard-core vegan"? I'm pretty sure a vegan doesn't have to be hardcore
 to be of that opinion.
 
 2nd WTF: "[[https://en.wikipedia.org/wiki/Cultural_heritage][Cultural Heritage]]"? My brain goes [[https://en.wikipedia.org/wiki/Computer_says_no][/computer says no/]] with this... The
