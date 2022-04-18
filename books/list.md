@@ -36,8 +36,8 @@ Disaster_, for example.
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Douglas Adams, _The Restaurant at the End of the Universe_: 2021/11/14~2022/01/06
  * Epictetus, [_The Enchiridion_]: 2021/04/14~2021/04/16
- * George Orwell, _1984_: 2020
- * George Orwell, _Animal Farm_: 2020
+ * George Orwell, [_1984_]: 2020
+ * George Orwell, [_Animal Farm_]: 2020
  * Hanya Yanagihara, _A Little Life_: 2020~2021/03/07
  * Henry David Thoreau, [_Walden_]: 2021/06/07~2021/07/29
  * Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
@@ -67,22 +67,23 @@ Disaster_, for example.
  * Peter Watts, [_Maelstrom_]
  * Peter Watts, [_Starfish_]
  * Philip K. Dick, _Adjustment Team_: 2020
- * Philip K. Dick, _Beyond Lies the Wub_: 2020
- * Philip K. Dick, _Beyond the Door_: 2020
+ * Philip K. Dick, [_Beyond Lies the Wub_]: 2020
+ * Philip K. Dick, [_Beyond the Door_]: 2020
  * Philip K. Dick, _Of Withered Apples_: 2020
- * Philip K. Dick, _Piper in the Woods_: 2020
- * Philip K. Dick, _Second Variety_: 2021/07/06~2021/07/09
- * Philip K. Dick, _The Crystal Crypt_: 2020
- * Philip K. Dick, _The Defenders_: 2020
+ * Philip K. Dick, [_Piper in the Woods_]: 2020
+ * Philip K. Dick, [_Second Variety_]: 2021/07/06~2021/07/09
+ * Philip K. Dick, [_The Crystal Crypt_]: 2020
+ * Philip K. Dick, [_The Defenders_]: 2020
  * Philip K. Dick, _The Golden Man_: 2021/05/30
- * Philip K. Dick, _The Gun_: 2020
- * Philip K. Dick, _The Skull_: 2020
- * Philip K. Dick, _The Variable Man_: 2020
- * Philip K. Dick, _Tony and the Beetles_: 2020
+ * Philip K. Dick, [_The Gun_]: 2020
+ * Philip K. Dick, [_The Skull_]: 2020
+ * Philip K. Dick, [_The Variable Man_]: 2020
+ * Philip K. Dick, [_Tony and the Beetles_]: 2020
  * Plato, [_Alcibiades II_]: 2020
  * Plato, [_Alcibiades I_]: 2020
  * Plato, [_Apology_]: 2020
  * Plato, [_Charmides_]: 2020
+ * Plato, [_Cratylus_]: 2022/02/22~2022/03/09
  * Plato, [_Critias_]: 2020
  * Plato, [_Crito_]: 2020
  * Plato, [_Eryxias_]: 2020
@@ -91,7 +92,6 @@ Disaster_, for example.
  * Plato, [_Ion_]: 2020
  * Plato, [_Lesser Hippias_]: 2021/12/29
  * Plato, [_Timaeus_]: 2020
- * Plato, _Cratylus_: 2022/02/22~2022/03/09
  * René Descartes, _Discourse on the Method_: 2020
  * René Descartes, _Selections from the Principles of Philosophy_: 2020
  * Robert Louis Stevenson, [_The Strange Case of Dr. Jekyll and Mr. Hyde_]: 2020
@@ -99,7 +99,7 @@ Disaster_, for example.
  * Steve Toutonghi, _Join_: 2021/08/31~2021/11/10
  * Sun Tzu, [_The Art of War_]
  * Susan Kaye Quinn, _The Legacy Human_: 2020
- * Travis Bughi, _Beyond the Plains_: 2020
+ * Travis Bughi, [_Beyond the Plains_]: 2020
  * Victor Hugo, [_Les Misérables_]: 2020/01/01~2021/06/10
  * Voltaire, [_Candide_]: 2021/09/06~2021/10/04
  * Voltaire, [_Letters on England_]: 2020~2021/01/21
@@ -112,15 +112,20 @@ Disaster_, for example.
 
 # Dropped
 
- * Travis Bughi, _The Forest of Angor_: 2020
+ * Travis Bughi, [_The Forest of Angor_]: 2020
 
 [Gutenberg]: https://www.gutenberg.org
 [Standard Ebooks]: https://standardebooks.org
+[_1984_]: https://gutenberg.net.au/plusfifty-n-z.html#orwell
 [_A Confession_]: https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude
 [_Alcibiades II_]: https://www.gutenberg.org/ebooks/1677
 [_Alcibiades I_]: https://www.gutenberg.org/ebooks/1676
+[_Animal Farm_]: https://gutenberg.net.au/plusfifty-n-z.html#orwell
 [_Apology_]: https://www.gutenberg.org/ebooks/1656
 [_Behemoth_]: https://www.rifters.com/real/Behemoth.htm
+[_Beyond Lies the Wub_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
+[_Beyond the Door_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
+[_Beyond the Plains_]: https://www.smashwords.com/books/view/234617
 [_Blindsight_]: https://www.rifters.com/real/Blindsight.htm
 [_Candide_]: https://standardebooks.org/ebooks/voltaire/candide/the-modern-library
 [_Charmides_]: https://www.gutenberg.org/ebooks/1580
@@ -140,16 +145,25 @@ Disaster_, for example.
 [_Letters on England_]: https://www.gutenberg.org/ebooks/2445
 [_Maelstrom_]: https://rifters.com/real/MAELSTROM.htm
 [_Micromegas_]: https://www.gutenberg.org/ebooks/30123
+[_Piper in the Woods_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
+[_Second Variety_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_Socrates_]: https://www.gutenberg.org/ebooks/4683
 [_Starfish_]: https://www.rifters.com/real/STARFISH.htm
 [_Tao Te Ching_]: https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge
 [_The Art of War_]: https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles
 [_The Communist Manifesto_]: https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore
+[_The Crystal Crypt_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
+[_The Defenders_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_The Enchiridion_]: https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter
+[_The Forest of Angor_]: https://www.smashwords.com/books/view/273775
+[_The Gun_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_The Prince_]: https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott
+[_The Skull_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_The Strange Case of Dr. Jekyll and Mr. Hyde_]: https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde
+[_The Variable Man_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_Timaeus_]: https://www.gutenberg.org/ebooks/1572
 [_Tokyo Zero_]: https://www.feedbooks.com/userbook/3501/tokyo-zero
+[_Tony and the Beetles_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_Tractatus Logico-Philosophicus_]: https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden
 [_Walden_]: https://standardebooks.org/ebooks/henry-david-thoreau/walden
 [_『注文の多い料理店』序_]: https://www.aozora.gr.jp/cards/000081/card43736.html
