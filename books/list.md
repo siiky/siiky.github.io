@@ -4,10 +4,15 @@
 
 These are the books that I'm reading, have read, or haven't read. You may find
 many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
-[care list](/care/list.html).
+[care list](/care/list.html). If I don't forget, I'll link to their sources.
+
+Though less common, if I have a page dedicated to a book of this list, I'll
+link to it from the dates interval, like I did with _How to Avoid a Climate
+Disaster_, for example.
 
 # Reading
 
+ * Albert Camus, _The Plague_: 2022/04/15
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
@@ -26,7 +31,7 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
  * Aldous Huxley, _Brave New World_: 2020
  * Alfred Mill, _Personal Finance 101_: 2021/07/09~2021/07/18
  * Arthur Horn, _Manipulation: Dark Psychology to Manipulate and Control People_: 2021/05/29~2021/06/01
- * Bill Gates, _How to Avoid a Climate Disaster_: 2022/01/07~2022/04/05
+ * Bill Gates, _How to Avoid a Climate Disaster_: [2022/01/07~2022/04/05](bill_gates.how_to_avoid_a_climate_disaster.html)
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08~2021/07/29
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Douglas Adams, _The Restaurant at the End of the Universe_: 2021/11/14~2022/01/06
@@ -119,6 +124,7 @@ many of them on [Gutenberg] and/or [Standard Ebooks], and some of them in the
 [_Blindsight_]: https://www.rifters.com/real/Blindsight.htm
 [_Candide_]: https://standardebooks.org/ebooks/voltaire/candide/the-modern-library
 [_Charmides_]: https://www.gutenberg.org/ebooks/1580
+[_Cratylus_]: https://www.gutenberg.org/ebooks/1616
 [_Critias_]: https://www.gutenberg.org/ebooks/1571
 [_Crito_]: https://www.gutenberg.org/ebooks/1657
 [_Designing Elixir Systems With OTP_]: https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp
