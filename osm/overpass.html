@@ -77,7 +77,37 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -89,40 +119,79 @@
 <p class="author">siiky</p>
 <p class="date">2022/03/26</p>
 </header>
-<p><em>Overpass</em> is an interface used to query OSM data. <em>Overpass Turbo</em> is an Overpass web client you can use to query OSM data, export it, &amp;c.</p>
+<p><em>Overpass</em> is an interface used to query OSM data.
+<em>Overpass Turbo</em> is an Overpass web client you can use to query
+OSM data, export it, &amp;c.</p>
 <p>Some links:</p>
 <dl>
 <dt>Overpass Turbo</dt>
-<dd><ul>
+<dd>
+<ul>
 <li><a href="https://overpass-turbo.eu">https://overpass-turbo.eu</a></li>
 <li><a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo">https://wiki.openstreetmap.org/wiki/Overpass_turbo</a></li>
 </ul>
 </dd>
 <dt>Overpass Query Language</dt>
-<dd><a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL</a>
+<dd>
+<a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL</a>
 </dd>
 <dt>Overpass API</dt>
-<dd><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">https://wiki.openstreetmap.org/wiki/Overpass_API</a>
+<dd>
+<a href="https://wiki.openstreetmap.org/wiki/Overpass_API">https://wiki.openstreetmap.org/wiki/Overpass_API</a>
 </dd>
 </dl>
 <hr />
 <h1 data-number="1" id="useful-queries"><span class="header-section-number">1</span> Useful Queries</h1>
 <p>This is a list of useful queries I&#39;ve learned over time.</p>
-<h2 data-number="1.1" id="features-last-modified-by-an-user"><span class="header-section-number">1.1</span> Features last modified by an user</h2>
+<h2 data-number="1.1" id="features-last-modified-by-an-user"><span class="header-section-number">1.1</span> Features last modified by an
+user</h2>
 <p>Nodes, ways, or relations last modified by &quot;user name&quot;:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>nwr(user:&quot;user name&quot;)({{bbox}});</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
-<h2 data-number="1.2" id="features-modified-between-two-dates"><span class="header-section-number">1.2</span> Features modified between two dates</h2>
-<p>Node, way, or relation amenities modified between 2022-02-04T00:00:00Z and &quot;to-date&quot;:</p>
+<h2 data-number="1.2" id="features-modified-between-two-dates"><span class="header-section-number">1.2</span> Features modified between two
+dates</h2>
+<p>Node, way, or relation amenities modified between
+2022-02-04T00:00:00Z and &quot;to-date&quot;:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>// The to-date is optional and defaults to now</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>[diff:&quot;2022-02-04T00:00:00Z&quot;,&quot;to-date&quot;];</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>nwr[&quot;amenity&quot;]({{bbox}});</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
-<h2 data-number="1.3" id="features-around-other-features"><span class="header-section-number">1.3</span> Features around other features</h2>
+<h2 data-number="1.3" id="features-around-other-features"><span class="header-section-number">1.3</span> Features around other
+features</h2>
 <p>Picnic sites within a 1km radius of restaurants with takeaway:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>node[amenity=restaurant][takeaway=yes]({{bbox}});</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>node(around:1000)[tourism=picnic_site];</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
+<h2 data-number="1.4" id="features-inside-some-area-object"><span class="header-section-number">1.4</span> Features inside some area
+object</h2>
+<p>Libraries in Portugal:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>nwr[&quot;amenity&quot;=&quot;library&quot;](area:3600295480);</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>out body;</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>// Or:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>area(3600295480)-&gt;.searchArea;</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>(nwr[&quot;amenity&quot;=&quot;library&quot;](area.searchArea););</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>out body;</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>&gt;;</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>out skel qt;</span></code></pre></div>
+<p>I don&#39;t understand the difference between the two yet, but the latter
+is supposed to be more correct. All I know is that <code>&gt;;</code> is
+supposed to make the query recursive.</p>
+<p>The explanation of the <code>area:XXX</code> from <a href="https://stackoverflow.com/a/65982945">this StackOverflow
+answer</a>:</p>
+<blockquote>
+<p>If the polygon you want to query inside of is an OSM feature, you can
+also query using an area ID.</p>
+<p>Area IDs are generated by the Overpass server to make querying data
+within existing polygons easier. You can determine the area ID for a way
+by adding 2400000000 to the way ID and the area ID for a relation by
+adding 3600000000 to the relation ID (assuming that the way or relation
+is a valid area feature).</p>
+</blockquote>
+<p>I found <a href="https://www.openstreetmap.org/relation/295480">Portugal&#39;s relation
+object</a>, which is the relation <code class="verbatim">295480</code>,
+and <code class="verbatim">3600000000 + 295480 = 3600295480</code>.</p>
 <hr />
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />
