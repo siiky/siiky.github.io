@@ -78,7 +78,37 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -90,40 +120,111 @@
 <p class="author">siiky</p>
 <p class="date">2020/02/20</p>
 </header>
-<p>This post is about <a href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a> (whouldathunkit).</p>
+<p>This post is about <a href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a>
+(whouldathunkit).</p>
 <h1 data-number="1" id="conventionsnotation"><span class="header-section-number">1</span> Conventions/Notation</h1>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v: P</annotation></semantics></math> means <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math> is true for all possible <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
-<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\exists v: P</annotation></semantics></math> means <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math> is true for at least one <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
-<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>!</mi><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\exists! v: P</annotation></semantics></math> means <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math> is true for exactly one <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
-<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mn>1</mn><mo>:</mo><mo>∀</mo><mi>v</mi><mn>2</mn><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v1: \forall v2: P</annotation></semantics></math> will be abbreviated as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mn>1</mn><mo>,</mo><mi>v</mi><mn>2</mn><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v1, v2: P</annotation></semantics></math></p>
-<p>Sets are written as its elements surrounded by brackets. For example, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>∅</mi><annotation encoding="application/x-tex">\emptyset</annotation></semantics></math> is the empty set and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{ a, b, c \}</annotation></semantics></math> is a set with the elements <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>. Sets comprehension will be written as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mi>e</mi><mi>x</mi><mi>p</mi><mi>r</mi><mo>:</mo><mi>v</mi><mi>a</mi><mi>r</mi><mi>s</mi><mo>,</mo><mi>r</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>r</mi><mi>i</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>s</mi><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{ expr : vars, restrictions \}</annotation></semantics></math> and the cardinal of a set will be written as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">\#S</annotation></semantics></math>.</p>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{N}</annotation></semantics></math> is the set of natural numbers (no zero).<br />
-<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math> is the set of natural numbers (and zero).<br />
-<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math> is the set of integers.</p>
-<p>The modulo operator will be recurrent throughout this post. Some examples: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>5</mn></mrow><mo>≡</mo><mn>9</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>5</mn></mrow><mo>≡</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">4\ \bmod 5 \equiv 9\ \bmod 5 \equiv 4</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>2</mn></mrow><mo>≡</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">5\ \bmod 2 \equiv 1</annotation></semantics></math>. This operator is called <code class="sourceCode c"><span class="op">%</span></code> in C, <code class="sourceCode scheme"><span class="kw">modulo</span></code> in Scheme and <code class="sourceCode haskell"><span class="fu">mod</span></code> in Haskell. Another useful definition, is: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>≡</mo><mi>q</mi><mspace width="0.222em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>⇔</mo><mi>p</mi><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi></mrow><mo>≡</mo><mi>q</mi><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi></mrow></mrow><annotation encoding="application/x-tex">p \equiv q\ (\bmod n) \Leftrightarrow p\ \bmod n \equiv q\ \bmod n</annotation></semantics></math><br />
-<q><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo stretchy="false" form="prefix">|</mo><annotation encoding="application/x-tex">|</annotation></semantics></math></q> will be used to mean <q>divides</q>, as in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo stretchy="false" form="prefix">|</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a | b</annotation></semantics></math> means <q>a divides b</q>, <q>b is a multiple of a</q>, or, with modulo, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo stretchy="false" form="prefix">|</mo><mi>b</mi><mo>⇔</mo><mi>b</mi><mo>≡</mo><mn>0</mn><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">a | b \Leftrightarrow b \equiv 0 (\bmod a)</annotation></semantics></math></p>
-<p>We will be needing the concept of a <q>Congruential Equivalence Class</q> later on. They are written as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>m</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><annotation encoding="application/x-tex">[m]_n</annotation></semantics></math> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>n</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>,</mo><mi>m</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle></mrow><annotation encoding="application/x-tex">\forall n \in \mathbb{N}, m \in \mathbb{Z}</annotation></semantics></math>) and are defined as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>m</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><mo stretchy="false" form="prefix">{</mo><mi>x</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mo>:</mo><mi>x</mi><mo>≡</mo><mi>m</mi><mspace width="0.222em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">[m]_n = \{ x \in \mathbb{Z} : x \equiv m\ (\bmod n) \}</annotation></semantics></math>.</p>
-<p>Depending on context, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math> will either be the usual addition and multiplication of numbers, or addition and multiplication of classes.<br />
-Addition and multiplication of classes are defined as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>+</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">[p]_n + [q]_n = [p+q]_n</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>×</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo>×</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">[p]_n \times [q]_n = [p \times q]_n</annotation></semantics></math>. Some examples: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">2+2=4</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>2</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>+</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">[2]_3 + [1]_3 = [2+1]_3 = [0]_3</annotation></semantics></math></p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v: P</annotation></semantics></math>
+means
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math>
+is true for all possible
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\exists v: P</annotation></semantics></math>
+means
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math>
+is true for at least one
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>!</mi><mi>v</mi><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\exists! v: P</annotation></semantics></math>
+means
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math>
+is true for exactly one
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math><br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mn>1</mn><mo>:</mo><mo>∀</mo><mi>v</mi><mn>2</mn><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v1: \forall v2: P</annotation></semantics></math>
+will be abbreviated as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>v</mi><mn>1</mn><mo>,</mo><mi>v</mi><mn>2</mn><mo>:</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">\forall v1, v2: P</annotation></semantics></math></p>
+<p>Sets are written as its elements surrounded by brackets. For example,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>∅</mi><annotation encoding="application/x-tex">\emptyset</annotation></semantics></math>
+is the empty set and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{ a, b, c \}</annotation></semantics></math>
+is a set with the elements
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>.
+Sets comprehension will be written as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mi>e</mi><mi>x</mi><mi>p</mi><mi>r</mi><mo>:</mo><mi>v</mi><mi>a</mi><mi>r</mi><mi>s</mi><mo>,</mo><mi>r</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>r</mi><mi>i</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>s</mi><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{ expr : vars, restrictions \}</annotation></semantics></math>
+and the cardinal of a set will be written as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">\#S</annotation></semantics></math>.</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{N}</annotation></semantics></math>
+is the set of natural numbers (no zero).<br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math>
+is the set of natural numbers (and zero).<br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>
+is the set of integers.</p>
+<p>The modulo operator will be recurrent throughout this post. Some
+examples:
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>5</mn></mrow><mo>≡</mo><mn>9</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>5</mn></mrow><mo>≡</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">4\ \bmod 5 \equiv 9\ \bmod 5 \equiv 4</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mn>2</mn></mrow><mo>≡</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">5\ \bmod 2 \equiv 1</annotation></semantics></math>.
+This operator is called <code class="sourceCode c"><span class="op">%</span></code> in C, <code class="sourceCode scheme"><span class="kw">modulo</span></code> in
+Scheme and <code class="sourceCode haskell"><span class="fu">mod</span></code> in
+Haskell. Another useful definition, is:
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>≡</mo><mi>q</mi><mspace width="0.222em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>⇔</mo><mi>p</mi><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi></mrow><mo>≡</mo><mi>q</mi><mspace width="0.222em"></mspace><mrow><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi></mrow></mrow><annotation encoding="application/x-tex">p \equiv q\ (\bmod n) \Leftrightarrow p\ \bmod n \equiv q\ \bmod n</annotation></semantics></math><br />
+<q><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo stretchy="false" form="prefix">|</mo><annotation encoding="application/x-tex">|</annotation></semantics></math></q>
+will be used to mean <q>divides</q>, as in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo stretchy="false" form="prefix">|</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a | b</annotation></semantics></math>
+means <q>a divides b</q>, <q>b is a multiple of a</q>, or, with modulo,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo stretchy="false" form="prefix">|</mo><mi>b</mi><mo>⇔</mo><mi>b</mi><mo>≡</mo><mn>0</mn><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">a | b \Leftrightarrow b \equiv 0 (\bmod a)</annotation></semantics></math></p>
+<p>We will be needing the concept of a <q>Congruential Equivalence
+Class</q> later on. They are written as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>m</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><annotation encoding="application/x-tex">[m]_n</annotation></semantics></math>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>n</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>,</mo><mi>m</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle></mrow><annotation encoding="application/x-tex">\forall n \in \mathbb{N}, m \in \mathbb{Z}</annotation></semantics></math>)
+and are defined as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>m</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><mo stretchy="false" form="prefix">{</mo><mi>x</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mo>:</mo><mi>x</mi><mo>≡</mo><mi>m</mi><mspace width="0.222em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><mspace width="0.222em"></mspace><mo>mod</mo><mspace width="0.222em"></mspace><mi>n</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">[m]_n = \{ x \in \mathbb{Z} : x \equiv m\ (\bmod n) \}</annotation></semantics></math>.</p>
+<p>Depending on context,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math>
+will either be the usual addition and multiplication of numbers, or
+addition and multiplication of classes.<br />
+Addition and multiplication of classes are defined as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>+</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">[p]_n + [q]_n = [p+q]_n</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>×</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mi>p</mi><mo>×</mo><mi>q</mi><mo stretchy="true" form="postfix">]</mo></mrow><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">[p]_n \times [q]_n = [p \times q]_n</annotation></semantics></math>.
+Some examples:
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">2+2=4</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>2</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>+</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub><mo>=</mo><msub><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo stretchy="true" form="postfix">]</mo></mrow><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">[2]_3 + [1]_3 = [2+1]_3 = [0]_3</annotation></semantics></math></p>
 <h1 data-number="2" id="what-is-a-group"><span class="header-section-number">2</span> What is a Group?!</h1>
 <h2 data-number="2.1" id="in-general"><span class="header-section-number">2.1</span> In general</h2>
-<p>A group is just a pair <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>S</mi><mo>,</mo><mi>O</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(S, O)</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> is a set and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>O</mi><annotation encoding="application/x-tex">O</annotation></semantics></math> is a binary operation on <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> (i.e., <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo>:</mo><mi>S</mi><mo>×</mo><mi>S</mi><mo>→</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">O \colon S \times S \to S</annotation></semantics></math>) with the following properties:</p>
+<p>A group is just a pair
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>S</mi><mo>,</mo><mi>O</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(S, O)</annotation></semantics></math>,
+where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math>
+is a set and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>O</mi><annotation encoding="application/x-tex">O</annotation></semantics></math>
+is a binary operation on
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math>
+(i.e.,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo>:</mo><mi>S</mi><mo>×</mo><mi>S</mi><mo>→</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">O \colon S \times S \to S</annotation></semantics></math>)
+with the following properties:</p>
 <ol class="example" type="1">
 <li><dl>
 <dt><em>Associativity</em></dt>
-<dd><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>,</mo><mi>c</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\forall a, b, c \in S: O(a, O(b, c)) = O(O(a, b), c)</annotation></semantics></math>
+<dd>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>,</mo><mi>c</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\forall a, b, c \in S: O(a, O(b, c)) = O(O(a, b), c)</annotation></semantics></math>
 </dd>
 </dl></li>
 <li><dl>
 <dt><em>Identity</em></dt>
-<dd><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>!</mi><mi>i</mi><mi>d</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mo>∀</mo><mi>a</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>i</mi><mi>d</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>i</mi><mi>d</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\exists! id \in S: \forall a \in S: O(a, id) = O(id, a) = a</annotation></semantics></math>
+<dd>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∃</mo><mi>!</mi><mi>i</mi><mi>d</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mo>∀</mo><mi>a</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>i</mi><mi>d</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>i</mi><mi>d</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\exists! id \in S: \forall a \in S: O(a, id) = O(id, a) = a</annotation></semantics></math>
 </dd>
 </dl></li>
 <li><dl>
 <dt><em>Inverse</em></dt>
-<dd><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mo>∃</mo><mi>!</mi><mi>a</mi><mi>′</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>a</mi><mi>′</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mi>′</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>i</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">\forall a \in S: \exists! a&#39; \in S: O(a, a&#39;) = O(a&#39;, a) = id</annotation></semantics></math>
+<dd>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mo>∃</mo><mi>!</mi><mi>a</mi><mi>′</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>a</mi><mi>′</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mi>′</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>i</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">\forall a \in S: \exists! a&#39; \in S: O(a, a&#39;) = O(a&#39;, a) = id</annotation></semantics></math>
 </dd>
-<dd>id always has inverse, itself
+<dd>
+id always has inverse, itself
 </dd>
 </dl></li>
 </ol>
@@ -131,64 +232,137 @@ Addition and multiplication of classes are defined as <math display="inline" xml
 <ol start="4" class="example" type="1">
 <li><dl>
 <dt><em>Commutativity</em></dt>
-<dd><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\forall a, b \in S: O(a, b) = O(b, a)</annotation></semantics></math>
+<dd>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mi>S</mi><mo>:</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>O</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\forall a, b \in S: O(a, b) = O(b, a)</annotation></semantics></math>
 </dd>
 </dl></li>
 </ol>
-<p>A group with a commutative operation is called a commutative group or an abelian group.</p>
-<p>Given <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>G</mi><mo>,</mo><mi>O</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">G = (G, O)</annotation></semantics></math> a group, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> will be used to refer both to the group itself and its associated set.</p>
-<p>A group <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> is said to be infinite if <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">\#G</annotation></semantics></math> is infinite, and finite if <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">\#G</annotation></semantics></math> is finite.</p>
-<p>That is the generic definition. We will focus on groups with integer sets and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> or <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math> as the operation, however, so to make things easier:</p>
+<p>A group with a commutative operation is called a commutative group or
+an abelian group.</p>
+<p>Given
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>G</mi><mo>,</mo><mi>O</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">G = (G, O)</annotation></semantics></math>
+a group,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>
+will be used to refer both to the group itself and its associated
+set.</p>
+<p>A group
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>
+is said to be infinite if
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">\#G</annotation></semantics></math>
+is infinite, and finite if
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>#</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">\#G</annotation></semantics></math>
+is finite.</p>
+<p>That is the generic definition. We will focus on groups with integer
+sets and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+or
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math>
+as the operation, however, so to make things easier:</p>
 <h2 data-number="2.2" id="integers"><span class="header-section-number">2.2</span> Integers</h2>
-<p>When the operation is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> we call the identity element <q>null element</q> and represent it with 0.<br />
-When the operation is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math> we call the identity element <q>unity element</q> and represent it with 1.</p>
-<p>When the operation is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> we call the inverse of an element <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> its symmetric and represent it as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\minus a</annotation></semantics></math>.<br />
-When the operation is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math> we call the inverse of an element <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> its inverse and represent it as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>a</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><annotation encoding="application/x-tex">a^{-1}</annotation></semantics></math>.</p>
-<h3 data-number="2.2.1" id="mathbbn_0"><span class="header-section-number">2.2.1</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math>, +)</h3>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math> is the set of natural numbers (with zero), and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> is the usual addition on natural numbers.<br />
+<p>When the operation is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+we call the identity element <q>null element</q> and represent it with
+0.<br />
+When the operation is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math>
+we call the identity element <q>unity element</q> and represent it with
+1.</p>
+<p>When the operation is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+we call the inverse of an element
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+its symmetric and represent it as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\minus a</annotation></semantics></math>.<br />
+When the operation is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math>
+we call the inverse of an element
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+its inverse and represent it as
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>a</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><annotation encoding="application/x-tex">a^{-1}</annotation></semantics></math>.</p>
+<h3 data-number="2.2.1" id="mathbbn_0"><span class="header-section-number">2.2.1</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math>,
++)</h3>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math>
+is the set of natural numbers (with zero), and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+is the usual addition on natural numbers.<br />
 Is it a group?</p>
 <ol type="1">
 <li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>∈</mo><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><mo>:</mo><mi>a</mi><mo>+</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>+</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">\forall a, b, c \in \mathbb{N}_0: a + (b + c) = (a + b) + c</annotation></semantics></math></li>
-<li>0 is the identity of the group, because <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>∈</mo><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><mo>:</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>=</mo><mn>0</mn><mo>+</mo><mi>a</mi><mo>=</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\forall a \in \mathbb{N}_0: a + 0 = 0 + a = a</annotation></semantics></math></li>
-<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>:</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>≠</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\forall a, b \in \mathbb{N}: a + b \neq 0</annotation></semantics></math> (Note that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>=</mo><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><mo>\</mo><mo stretchy="false" form="prefix">{</mo><mn>0</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\mathbb{N} = \mathbb{N}_0 \setminus \{0\}</annotation></semantics></math>)</li>
+<li>0 is the identity of the group, because
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>∈</mo><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><mo>:</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>=</mo><mn>0</mn><mo>+</mo><mi>a</mi><mo>=</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\forall a \in \mathbb{N}_0: a + 0 = 0 + a = a</annotation></semantics></math></li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>:</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>≠</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\forall a, b \in \mathbb{N}: a + b \neq 0</annotation></semantics></math>
+(Note that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mo>=</mo><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><mo>\</mo><mo stretchy="false" form="prefix">{</mo><mn>0</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\mathbb{N} = \mathbb{N}_0 \setminus \{0\}</annotation></semantics></math>)</li>
 </ol>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math> together with <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> does not satisfy property 3, so it is not a group.</p>
-<h3 data-number="2.2.2" id="mathbbz"><span class="header-section-number">2.2.2</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>, +)</h3>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math> is the set of integers, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math> is the usual addition on integers. Is it a group?</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle><mn>0</mn></msub><annotation encoding="application/x-tex">\mathbb{N}_0</annotation></semantics></math>
+together with
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+does not satisfy property 3, so it is not a group.</p>
+<h3 data-number="2.2.2" id="mathbbz"><span class="header-section-number">2.2.2</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>,
++)</h3>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>
+is the set of integers, and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>+</mo><annotation encoding="application/x-tex">+</annotation></semantics></math>
+is the usual addition on integers. Is it a group?</p>
 <ol type="1">
 <li>a, b, c in Z: a + (b + c) = (a + b) + c</li>
-<li>0 is the identity of the group, because a in Z: a + 0 = 0 + a = a</li>
+<li>0 is the identity of the group, because a in Z: a + 0 = 0 + a =
+a</li>
 <li>a in Z: ! a’ in Z: a + a’ = 0</li>
 </ol>
-<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math> satisfies all 3 requirements so it is a group. We also know that addition is commutative, so <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math> is an abelian group (see property 4).</p>
-<h3 data-number="2.2.3" id="other-groups-and-non-groups"><span class="header-section-number">2.2.3</span> Other groups and non-groups</h3>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>
+satisfies all 3 requirements so it is a group. We also know that
+addition is commutative, so
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math>
+is an abelian group (see property 4).</p>
+<h3 data-number="2.2.3" id="other-groups-and-non-groups"><span class="header-section-number">2.2.3</span> Other groups and
+non-groups</h3>
 <ul>
 <li>(R, +), where R is the set of real numbers, is a group</li>
 <li>(R\{0}, *) is also a group</li>
 <li>(R, *) is not a group, because 0 has no inverse (R3)</li>
-<li>(N, +) is not a group, because there is no identity and no inverse (R2 and R3)</li>
+<li>(N, +) is not a group, because there is no identity and no inverse
+(R2 and R3)</li>
 <li>(N, *) is not a group, because there is no inverse (R3)</li>
-<li>(Z\{0}, *) is not a group, because other than 1 and -1, no element has inverse (R3)</li>
+<li>(Z\{0}, *) is not a group, because other than 1 and -1, no element
+has inverse (R3)</li>
 </ul>
 <h1 data-number="3" id="whats-next"><span class="header-section-number">3</span> What’s next?</h1>
 <p>Some useful definitions follow.</p>
 <h2 data-number="3.1" id="subgroup"><span class="header-section-number">3.1</span> Subgroup</h2>
-<p>Given a group G, H is called a subgroup of G if H is contained in G and it is also a group, and we write <code>H &lt;= G</code>. Examples:</p>
+<p>Given a group G, H is called a subgroup of G if H is contained in G
+and it is also a group, and we write <code>H &lt;= G</code>.
+Examples:</p>
 <ul>
 <li><code>\forall (G, +) group: (G, +) &lt;= (G, +)</code></li>
-<li><em>Trivial Subgroup</em>: <code>\forall (G, +) group: ({0}, +) &lt;= (G, +)</code></li>
+<li><em>Trivial Subgroup</em>:
+<code>\forall (G, +) group: ({0}, +) &lt;= (G, +)</code></li>
 <li><code>(2Z, +) &lt;= (Z, +)</code></li>
 </ul>
-<p>A subgroup H of a group G that is not G itself (H != G, or H is strictly contained in G) is called a <q>Proper Subgroup</q>, and we write <code>H &lt; G</code>. Examples:</p>
+<p>A subgroup H of a group G that is not G itself (H != G, or H is
+strictly contained in G) is called a <q>Proper Subgroup</q>, and we
+write <code>H &lt; G</code>. Examples:</p>
 <ul>
-<li><em>Trivial Subgroup</em>: <code>\forall (G, +) group: ({0}, +) &lt; (G, +)</code></li>
+<li><em>Trivial Subgroup</em>:
+<code>\forall (G, +) group: ({0}, +) &lt; (G, +)</code></li>
 <li><code>(2Z, +) &lt; (Z, +)</code></li>
 </ul>
-<h2 data-number="3.2" id="multiplespowers-of-an-element"><span class="header-section-number">3.2</span> Multiples/Powers of an element</h2>
-<p>Given an element a of an additive group, <code>a + ... + a</code> (n times) can be written as <code>n * a</code>. Special case: <code>0 * a = 0</code>. Given an element a of a multiplicative group, <code>a * ... * a</code> (n times) can be written as <code>a ^ n</code>. Special case: <code>a ^ 0 = 1</code>.</p>
-<p>For negative n, <code>n * a = -((-n) * a) = (-n) * (-a)</code>. For negative n, <code>a ^ n = (a ^ (-n)) ^ -1 = (a ^ -1) ^ (-n)</code>.</p>
+<h2 data-number="3.2" id="multiplespowers-of-an-element"><span class="header-section-number">3.2</span> Multiples/Powers of an
+element</h2>
+<p>Given an element a of an additive group, <code>a + ... + a</code> (n
+times) can be written as <code>n * a</code>. Special case:
+<code>0 * a = 0</code>. Given an element a of a multiplicative group,
+<code>a * ... * a</code> (n times) can be written as <code>a ^ n</code>.
+Special case: <code>a ^ 0 = 1</code>.</p>
+<p>For negative n, <code>n * a = -((-n) * a) = (-n) * (-a)</code>. For
+negative n, <code>a ^ n = (a ^ (-n)) ^ -1 = (a ^ -1) ^ (-n)</code>.</p>
 <h2 data-number="3.3" id="order-of-an-element"><span class="header-section-number">3.3</span> Order of an element</h2>
-<p>The order of an element a is the minimum number of times it must be operated with itself until it reaches the identity, and is written as <code>o(a)</code>. If, no matter how many times you operate the element, it doesn’t reach the identity, its order is said to be infinite.</p>
+<p>The order of an element a is the minimum number of times it must be
+operated with itself until it reaches the identity, and is written as
+<code>o(a)</code>. If, no matter how many times you operate the element,
+it doesn’t reach the identity, its order is said to be infinite.</p>
 <p>A more rigorous definition is:</p>
 <ul>
 <li>a has <em>infinite order</em> if n in N: n * a != 0</li>
@@ -199,48 +373,87 @@ Is it a group?</p>
 <li>n in N: <code>n * a = 0</code> =&gt; <code>n &lt;= k</code></li>
 </ol></li>
 </ul>
-<p>In particular, the order of the identity is 1, and the identity is the only element with order 1. Useful fact: G group: a in G: o(a) | #G. From this comes the fact that, in a finite group, no element has infinite order.</p>
+<p>In particular, the order of the identity is 1, and the identity is
+the only element with order 1. Useful fact: G group: a in G: o(a) | #G.
+From this comes the fact that, in a finite group, no element has
+infinite order.</p>
 <h2 data-number="3.4" id="generated-subgroup"><span class="header-section-number">3.4</span> Generated Subgroup</h2>
-<p>Given an additive group (G, +) and an element a, <code>&lt;a&gt; = { n * a : n in Z }</code> is a subgroup of G and is called the <q>Subgroup of G generated by a</q>. In particular, if <code>G = &lt;a&gt;</code>, a is said to generate G, or that G is generated by a. Note that <code>#&lt;a&gt; = o(a)</code>. An example of this is <code>&lt;1&gt; = &lt;-1&gt; = Z</code>.</p>
-<h1 data-number="4" id="mathbbz_n-groups"><span class="header-section-number">4</span> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mi>n</mi></msub><annotation encoding="application/x-tex">\mathbb{Z}_n</annotation></semantics></math> Groups</h1>
-<p>You can group integers together according to their (mod n), make a set out of them, and define a group with it. These groups are called <em>Zn</em>, for some n in N, and are defined as Zn = { [m]n : m in { 0, …, n-1 } }.</p>
-<p>These will get repetitive after Z2, but the reason why they’re here will become clear.</p>
-<h2 data-number="4.1" id="mathbbz_1"><span class="header-section-number">4.1</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>1</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_1</annotation></semantics></math>, +)</h2>
-<p>According to definition above, Z1 = { [0]1 }, but you can go further here:</p>
-<p>[0]1 = (def [m]n) { x : x in Z, x = 0 (mod 1) } = (def (mod n)) { x : x in Z, x % 1 = 0 % 1 } = (0 % 1 = 0) { x : x in Z, x % 1 = 0 } = (every integer is a multiple of 1) { x : x in Z } = (def Z) Z</p>
-<p>Z1 is a trivial group (#Z1 = 1), so it isn’t that interesting, other than Z being its only element.</p>
+<p>Given an additive group (G, +) and an element a,
+<code>&lt;a&gt; = { n * a : n in Z }</code> is a subgroup of G and is
+called the <q>Subgroup of G generated by a</q>. In particular, if
+<code>G = &lt;a&gt;</code>, a is said to generate G, or that G is
+generated by a. Note that <code>#&lt;a&gt; = o(a)</code>. An example of
+this is <code>&lt;1&gt; = &lt;-1&gt; = Z</code>.</p>
+<h1 data-number="4" id="mathbbz_n-groups"><span class="header-section-number">4</span>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mi>n</mi></msub><annotation encoding="application/x-tex">\mathbb{Z}_n</annotation></semantics></math>
+Groups</h1>
+<p>You can group integers together according to their (mod n), make a
+set out of them, and define a group with it. These groups are called
+<em>Zn</em>, for some n in N, and are defined as Zn = { [m]n : m in { 0,
+…, n-1 } }.</p>
+<p>These will get repetitive after Z2, but the reason why they’re here
+will become clear.</p>
+<h2 data-number="4.1" id="mathbbz_1"><span class="header-section-number">4.1</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>1</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_1</annotation></semantics></math>,
++)</h2>
+<p>According to definition above, Z1 = { [0]1 }, but you can go further
+here:</p>
+<p>[0]1 = (def [m]n) { x : x in Z, x = 0 (mod 1) } = (def (mod n)) { x :
+x in Z, x % 1 = 0 % 1 } = (0 % 1 = 0) { x : x in Z, x % 1 = 0 } = (every
+integer is a multiple of 1) { x : x in Z } = (def Z) Z</p>
+<p>Z1 is a trivial group (#Z1 = 1), so it isn’t that interesting, other
+than Z being its only element.</p>
 <p>Some things we can find about it:</p>
 <ul>
 <li>Since it is a trivial group, its only subgroup is itself</li>
 <li>[0]1 is the identity, so o([0]1) = 1</li>
 <li>Z1 = &lt;[0]1&gt;</li>
 </ul>
-<h2 data-number="4.2" id="mathbbz_2"><span class="header-section-number">4.2</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>2</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_2</annotation></semantics></math>, +)</h2>
+<h2 data-number="4.2" id="mathbbz_2"><span class="header-section-number">4.2</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>2</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_2</annotation></semantics></math>,
++)</h2>
 <p>When n = 2 we get Z2 = { [0]2, [1]2 }.</p>
-<p>[0]2 = (def [m]n) { x : x in Z, x = 0 (mod 2) } = (def (mod n)) { x : x in Z, x % 2 = 0 % 2 } = (0 % 2 = 0) { x : x in Z, x % 2 = 0 } = (x % 2 = 0 =&gt; k in Z: x = 2 * k) { 2 * x : x in Z } = (def 2Z) 2Z</p>
-<p>So [0]2 = 2Z is the set of even integers. You can probably guess by now, but:</p>
-<p>[1]2 = (def [m]n) { x : x in Z, x = 1 (mod 2) } = (def (mod n)) { x : x in Z, x % 2 = 1 % 2 } = (1 % 2 = 1) { x : x in Z, x % 2 = 1 } = (x % 2 = 1 =&gt; k in Z: x = 2 * k + 1) { 2 * x + 1 : x in Z } = (def 2Z+1) 2Z+1</p>
+<p>[0]2 = (def [m]n) { x : x in Z, x = 0 (mod 2) } = (def (mod n)) { x :
+x in Z, x % 2 = 0 % 2 } = (0 % 2 = 0) { x : x in Z, x % 2 = 0 } = (x % 2
+= 0 =&gt; k in Z: x = 2 * k) { 2 * x : x in Z } = (def 2Z) 2Z</p>
+<p>So [0]2 = 2Z is the set of even integers. You can probably guess by
+now, but:</p>
+<p>[1]2 = (def [m]n) { x : x in Z, x = 1 (mod 2) } = (def (mod n)) { x :
+x in Z, x % 2 = 1 % 2 } = (1 % 2 = 1) { x : x in Z, x % 2 = 1 } = (x % 2
+= 1 =&gt; k in Z: x = 2 * k + 1) { 2 * x + 1 : x in Z } = (def 2Z+1)
+2Z+1</p>
 <p>And with that you see that [1]2 is the set of odd integers.</p>
 <p>Some things we can find about it:</p>
 <ul>
 <li>[0]2 is the identity, so o([0]2) = 1</li>
-<li>[1]2 != [0]2, but [1]2 + [1]2 = [1 + 1]2 = [2]2 = [0]2, so o([1]2) = 2</li>
+<li>[1]2 != [0]2, but [1]2 + [1]2 = [1 + 1]2 = [2]2 = [0]2, so o([1]2) =
+2</li>
 <li>&lt;[0]2&gt; = { [0]2 } &lt; Z2</li>
 <li>&lt;[1]2&gt; = Z2</li>
 </ul>
-<h2 data-number="4.3" id="mathbbz_3"><span class="header-section-number">4.3</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>3</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_3</annotation></semantics></math>, +)</h2>
+<h2 data-number="4.3" id="mathbbz_3"><span class="header-section-number">4.3</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>3</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_3</annotation></semantics></math>,
++)</h2>
 <p>Z3 = { [0]3, [1]3, [2]3 }</p>
-<p>I’ll skip showing how to get to the definition of each of the classes from now. Also, you may have already noticed, but if not, [0]n is the set of multiples of n, nZ.</p>
+<p>I’ll skip showing how to get to the definition of each of the classes
+from now. Also, you may have already noticed, but if not, [0]n is the
+set of multiples of n, nZ.</p>
 <p>[0]3 = 3Z [1]3 = 3Z + 1 [2]3 = 3Z + 2</p>
 <p>And now things about Z3:</p>
 <ul>
 <li>o([0]3) = 1</li>
-<li>o([1]3) = 3; you may also have noticed that o([1]n) = n. This has to do with the fact that n in Z: n * 1 = n. So n * [1]n = [n * 1]n = [n]n = [0]n</li>
-<li>o([2]3) = 3; [2]3 != [0]3, 2 * [2]3 = [1]3 != [0]3, 3 * [2]3 = [0]3 This one has to do with the fact that 2 and 3 are coprime, which means lcm(2, 3) = 6, and 6 / 2 = 3</li>
+<li>o([1]3) = 3; you may also have noticed that o([1]n) = n. This has to
+do with the fact that n in Z: n * 1 = n. So n * [1]n = [n * 1]n = [n]n =
+[0]n</li>
+<li>o([2]3) = 3; [2]3 != [0]3, 2 * [2]3 = [1]3 != [0]3, 3 * [2]3 = [0]3
+This one has to do with the fact that 2 and 3 are coprime, which means
+lcm(2, 3) = 6, and 6 / 2 = 3</li>
 <li>&lt;[0]3&gt; = { [0]3 } &lt; Z3</li>
 <li>&lt;[1]3&gt; = &lt;[2]3&gt; = Z3</li>
 </ul>
-<h2 data-number="4.4" id="mathbbz_4"><span class="header-section-number">4.4</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>4</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_4</annotation></semantics></math>, +)</h2>
+<h2 data-number="4.4" id="mathbbz_4"><span class="header-section-number">4.4</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>4</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_4</annotation></semantics></math>,
++)</h2>
 <p>Z4 = { [0]4, [1]4, [2]4, [3]4 }</p>
 <p>[0]4 = 4Z [1]4 = 4Z + 1 [2]4 = 4Z + 2 [3]4 = 4Z + 3</p>
 <p>Once again, things about this group:</p>
@@ -251,13 +464,38 @@ Is it a group?</p>
 <li>&lt;[2]4&gt; = { [0]4, [2]4 } &lt; Z4</li>
 <li>&lt;[1]4&gt; = &lt;[3]4&gt; = Z4</li>
 </ul>
-<p>Now something interesting happened here! Remember that G group: a in G: o(a) | #G Because of this we know that the only possible orders are 1, 2 and 4. This also means that it is possible for a subgroup of cardinal 2 to exist. In this case, the only one is &lt;[2]4&gt;. Why, though, did this happen with Z4, but not with Z1, Z2 or Z3? Z1 is obvious: #Z1 = 1, so the only possible subgroup is itself. Z2 is also easy: its only elements are [0]2 and [1]2, and we know that n in N: &lt;[0]n&gt; = { [0]n } and that n in N: &lt;[1]n&gt; = Zn For Z3 it’s not as clear. The hint is, again: G group: a in G: o(a) | #G Both 2 and 3 are prime, which means, their only divisors are 1 and themselves. So it’s not possible for a subgroup of Z3 with cardinal 2 to exist.</p>
-<h2 data-number="4.5" id="mathbbz_5"><span class="header-section-number">4.5</span> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>5</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_5</annotation></semantics></math>, +)</h2>
+<p>Now something interesting happened here! Remember that G group: a in
+G: o(a) | #G Because of this we know that the only possible orders are
+1, 2 and 4. This also means that it is possible for a subgroup of
+cardinal 2 to exist. In this case, the only one is &lt;[2]4&gt;. Why,
+though, did this happen with Z4, but not with Z1, Z2 or Z3? Z1 is
+obvious: #Z1 = 1, so the only possible subgroup is itself. Z2 is also
+easy: its only elements are [0]2 and [1]2, and we know that n in N:
+&lt;[0]n&gt; = { [0]n } and that n in N: &lt;[1]n&gt; = Zn For Z3 it’s
+not as clear. The hint is, again: G group: a in G: o(a) | #G Both 2 and
+3 are prime, which means, their only divisors are 1 and themselves. So
+it’s not possible for a subgroup of Z3 with cardinal 2 to exist.</p>
+<h2 data-number="4.5" id="mathbbz_5"><span class="header-section-number">4.5</span>
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="double-struck"><mi>ℤ</mi></mstyle><mn>5</mn></msub><annotation encoding="application/x-tex">\mathbb{Z}_5</annotation></semantics></math>,
++)</h2>
 <p>Try this one</p>
-<p>Summing up: n in N: Zn has more than one proper subgroup &lt;=&gt; n is not prime or n in N: Zn has exactly one proper subgroup &lt;=&gt; n is prime</p>
+<p>Summing up: n in N: Zn has more than one proper subgroup &lt;=&gt; n
+is not prime or n in N: Zn has exactly one proper subgroup &lt;=&gt; n
+is prime</p>
 <p>Proving this is easy: Let n be in N.</p>
-<p>Suppose that Zn has more than one proper subgroup. We want to prove that n is not prime. There is a proper subgroup H such that <strong>#H &gt; 1</strong>. Since H is a proper subgroup, then <strong>#H &lt; n</strong>. From this, and the fact that #H | n, we can conclude n is not prime.</p>
-<p>Now the other way: Suppose <code>n</code> is not prime. We want to prove that Zn has more than one proper subgroup. Since <code>n</code> is not prime, then k in N: <code>1 &lt; k &lt; n</code> and <code>k | n</code> Let <code>k</code> be such a number. Then a in Zn: o(a) = k Let <code>a</code> be such an element. <strong>o(a) = k =&gt; #&lt;a&gt; = k</strong> We know that <strong>&lt;a&gt; &lt;= Zn</strong> and that <strong>k &lt; n</strong>, so <strong>&lt;a&gt; &lt; Zn</strong>.</p>
+<p>Suppose that Zn has more than one proper subgroup. We want to prove
+that n is not prime. There is a proper subgroup H such that <strong>#H
+&gt; 1</strong>. Since H is a proper subgroup, then <strong>#H &lt;
+n</strong>. From this, and the fact that #H | n, we can conclude n is
+not prime.</p>
+<p>Now the other way: Suppose <code>n</code> is not prime. We want to
+prove that Zn has more than one proper subgroup. Since <code>n</code> is
+not prime, then k in N: <code>1 &lt; k &lt; n</code> and
+<code>k | n</code> Let <code>k</code> be such a number. Then a in Zn:
+o(a) = k Let <code>a</code> be such an element. <strong>o(a) = k =&gt;
+#&lt;a&gt; = k</strong> We know that <strong>&lt;a&gt; &lt;= Zn</strong>
+and that <strong>k &lt; n</strong>, so <strong>&lt;a&gt; &lt;
+Zn</strong>.</p>
 <h1 data-number="5" id="todo"><span class="header-section-number">5</span> TODO</h1>
 <p>Groups that are isomorphic to some proper subgroup.</p>
 <hr />

@@ -15,7 +15,37 @@
     ul.task-list{list-style: none;}
     q { quotes: "“" "”" "‘" "’"; }
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -27,12 +57,15 @@
 <p class="author">siiky</p>
 <p class="date">2017/03/04</p>
 </header>
-<p><code>SLPOD</code> is a podcatcher design idea, supposed to be simple, fast and easy to use.</p>
+<p><code>SLPOD</code> is a podcatcher design idea, supposed to be
+simple, fast and easy to use.</p>
 <h1 data-number="1" id="simple-design"><span class="header-section-number">1</span> Simple design</h1>
 <ul>
-<li><q>Database</q> file in plain-text so it can be easily read/written</li>
+<li><q>Database</q> file in plain-text so it can be easily
+read/written</li>
 <li>Download to predefined local directory(ies)</li>
-<li>Sync downloaded files to remote directory (e.g. DAP, phone, tablet)</li>
+<li>Sync downloaded files to remote directory (e.g. DAP, phone,
+tablet)</li>
 <li>Fields associated with each file to represent statuses, such as:
 <ul>
 <li>Downloaded</li>
@@ -47,6 +80,12 @@
 <li>Sync local and remote directories</li>
 </ul>
 <table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 16%" />
+<col style="width: 11%" />
+<col style="width: 58%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Present[0]</th>
@@ -107,9 +146,12 @@
 </tbody>
 </table>
 <ol start="0" type="1">
-<li><code>Present</code>: whether or not the file is present on the local directory</li>
-<li><code>Downloaded</code>: whether or not the file is marked as downloaded</li>
-<li><code>Played</code>: whether or not the file is marked as played</li>
+<li><code>Present</code>: whether or not the file is present on the
+local directory</li>
+<li><code>Downloaded</code>: whether or not the file is marked as
+downloaded</li>
+<li><code>Played</code>: whether or not the file is marked as
+played</li>
 <li><code>Action(s)</code>: the action taken in this situation</li>
 </ol>
 <hr />

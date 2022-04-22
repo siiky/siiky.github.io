@@ -77,7 +77,37 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -89,7 +119,10 @@
 <p class="author">siiky</p>
 <p class="date">2022/03/15</p>
 </header>
-<p>TIL a bit of reader syntax magic. With very few lines of code I was able to make available the <code>#!sql</code> reader syntax to let me read the contents of SQL files as a <strong>literal string</strong> (any file actually, but I was thinking of using it for SQL files only).</p>
+<p>TIL a bit of reader syntax magic. With very few lines of code I was
+able to make available the <code>#!sql</code> reader syntax to let me
+read the contents of SQL files as a <strong>literal string</strong> (any
+file actually, but I was thinking of using it for SQL files only).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">; This:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">#!sql</span> <span class="st">&quot;path/to/file.sql&quot;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">; Into this:</span></span>
@@ -106,13 +139,27 @@
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        (unless (<span class="kw">string?</span> sql-stmt)</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>          (syntax-error <span class="st">&quot;Failed reading the SQL file&quot;</span>))</span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        sql-stmt))))</span></code></pre></div>
-<p>There&#39;s one caveat with this approach, however: the reader syntax will be available to the whole program, not just the file or module that defined or imported it. This means that the identifiers must be unique, otherwise different definitions will collide with each other and the compiled program won&#39;t be what you expect. <strong>AND</strong> I think that it will be available not only at compile time, but at runtime as well – very good to keep in mind!</p>
-<p><code class="verbatim">klovett</code> on IRC mentioned that it&#39;s possible to use <code class="verbatim">-X/-extend</code> to make it available at compile time only. As an example, <code class="verbatim">klovett</code> said that compiling with <code class="verbatim">csc -X srfi-19-literals</code> would allow one to write <code>#@1-1-22</code>. Try this, after installing SRFI-19:</p>
+<p>There&#39;s one caveat with this approach, however: the reader syntax
+will be available to the whole program, not just the file or module that
+defined or imported it. This means that the identifiers must be unique,
+otherwise different definitions will collide with each other and the
+compiled program won&#39;t be what you expect. <strong>AND</strong> I think
+that it will be available not only at compile time, but at runtime as
+well – very good to keep in mind!</p>
+<p><code class="verbatim">klovett</code> on IRC mentioned that it&#39;s
+possible to use <code class="verbatim">-X/-extend</code> to make it
+available at compile time only. As an example, <code class="verbatim">klovett</code> said that compiling with <code class="verbatim">csc -X srfi-19-literals</code> would allow one to write
+<code>#@1-1-22</code>. Try this, after installing SRFI-19:</p>
 <pre class="shell"><code>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +&#39;%Y-%m-%d&#39;`&quot;
 </code></pre>
-<p>You can find the relevant CHICKEN documentation for <code>set-read-syntax!</code> &amp; friends <a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">here</a> or <a href="https://api.call-cc.org/5/doc/chicken/read-syntax">here</a>; and you can find the relevant SRFI-19 literals documentation <a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">here</a> or <a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">here</a>.</p>
+<p>You can find the relevant CHICKEN documentation for
+<code>set-read-syntax!</code> &amp; friends <a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">here</a>
+or <a href="https://api.call-cc.org/5/doc/chicken/read-syntax">here</a>;
+and you can find the relevant SRFI-19 literals documentation <a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">here</a>
+or <a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">here</a>.</p>
 <hr />
-<p>To make it more obvious why this is cool, here goes a slightly more realistic, though still simple, example.</p>
+<p>To make it more obvious why this is cool, here goes a slightly more
+realistic, though still simple, example.</p>
 <p>Let&#39;s say we have these SQL files:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">-- schema.sql</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">CREATE</span> <span class="kw">TABLE</span> sometbl (col TINYINT <span class="kw">NOT</span> <span class="kw">NULL</span>);</span>
@@ -138,11 +185,15 @@
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>             (query fetch-all schema)</span>
 <span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>             (query fetch-all data)</span>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>             (query fetch-all select)))))</span></code></pre></div>
-<p>And the <code>set-read-syntax!</code> call from before wrapped up in a module <code class="verbatim">sql-reader-syntax</code>. After compiling the module you can compile the example with <code class="verbatim">csc -X sql-reader-syntax example.scm</code>, and this is the result of running it:</p>
+<p>And the <code>set-read-syntax!</code> call from before wrapped up in
+a module <code class="verbatim">sql-reader-syntax</code>. After
+compiling the module you can compile the example with <code class="verbatim">csc -X sql-reader-syntax example.scm</code>, and this
+is the result of running it:</p>
 <pre class="shell"><code>$ ./example
 ((1 0) (2 1) (3 2) (4 3) (5 4) (6 5))
 </code></pre>
-<p>The <code class="verbatim">example.scm</code> is basically transformed into this before being compiled:</p>
+<p>The <code class="verbatim">example.scm</code> is basically
+transformed into this before being compiled:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(import sql-de-lite)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>(define-constant schema <span class="st">&quot;CREATE TABLE sometbl (col TINYINT NOT NULL);&quot;</span>)</span>
@@ -158,7 +209,10 @@
 <span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>             (query fetch-all schema)</span>
 <span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>             (query fetch-all data)</span>
 <span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>             (query fetch-all select)))))</span></code></pre></div>
-<p>And notice how <code>schema</code>, <code>data</code>, and <code>select</code> are constants (defined with <code>define-constant</code>, kinda similar to the <code>static</code> keyword in C).</p>
+<p>And notice how <code>schema</code>, <code>data</code>, and
+<code>select</code> are constants (defined with
+<code>define-constant</code>, kinda similar to the <code>static</code>
+keyword in C).</p>
 <hr />
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />

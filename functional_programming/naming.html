@@ -77,7 +77,37 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -89,7 +119,10 @@
 <p class="author">siiky</p>
 <p class="date">2021/12/15</p>
 </header>
-<p>Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named – and everyone knows naming is hard.</p>
+<p>Naming, using, reading, and understanding well named operations
+rather than (kinda) well named variables grows the habit of reading and
+understanding code rather than relying on variables being well named –
+and everyone knows naming is hard.</p>
 <p>Bad:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">&#39;42&#39;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x_food <span class="op">=</span> foo(x)</span>
@@ -111,13 +144,16 @@
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">; OR</span></span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>((-&gt; foo bar zaz) &#39;<span class="dv">42</span>&#39;)</span></code></pre></div>
-<p>It also comes with rather nice advantages – just compare the two approaches in each scenario:</p>
+<p>It also comes with rather nice advantages – just compare the two
+approaches in each scenario:</p>
 <ul>
-<li>Imagine you want to change the order of operations in the chain;</li>
+<li>Imagine you want to change the order of operations in the
+chain;</li>
 <li>Imagine you want to add an operation to the chain;</li>
 <li>Imagine you want to remove an operation from the chain.</li>
 </ul>
-<p>And a final bonus: the &quot;better&quot; approach is easier to read than the &quot;bad&quot; approach, and requires less typing, thank you very much.</p>
+<p>And a final bonus: the &quot;better&quot; approach is easier to read than the
+&quot;bad&quot; approach, and requires less typing, thank you very much.</p>
 <hr />
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />

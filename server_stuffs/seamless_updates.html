@@ -15,7 +15,37 @@
     ul.task-list{list-style: none;}
     q { quotes: "“" "”" "‘" "’"; }
   </style>
-  <link rel="stylesheet" href="data:text/css,%0Abody%20%7B%0Abackground%2Dcolor%3A%23101010%3B%0Acolor%3A%23FD971F%3B%0Afont%2Dfamily%3Amonospace%3B%0Afont%2Dsize%3A15px%3B%0A%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%20%7B%0Acolor%3A%23A6E22E%3B%0Atext%2Ddecoration%3Abold%3B%0A%7D%0Ah1%20%7B%20font%2Dsize%3A21px%3B%20%7D%0Ah2%20%7B%20font%2Dsize%3A20px%3B%20%7D%0Ah3%20%7B%20font%2Dsize%3A19px%3B%20%7D%0Ah4%20%7B%20font%2Dsize%3A18px%3B%20%7D%0Ah5%20%7B%20font%2Dsize%3A17px%3B%20%7D%0Ah6%20%7B%20font%2Dsize%3A16px%3B%20%7D%0Aa%20%7B%0Acolor%3A%2366D9EF%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%23A6E22E%0A%7D%0Aa%3Ahover%20%7B%0Abackground%2Dcolor%3A%2366D9EF%3B%0Acolor%3A%23101010%3B%0Atext%2Ddecoration%3Aunderline%0A%7D%0A" />
+  <style type="text/css">
+body {
+background-color:#101010;
+color:#FD971F;
+font-family:monospace;
+font-size:15px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+color:#A6E22E;
+text-decoration:bold;
+}
+h1 { font-size:21px; }
+h2 { font-size:20px; }
+h3 { font-size:19px; }
+h4 { font-size:18px; }
+h5 { font-size:17px; }
+h6 { font-size:16px; }
+a {
+color:#66D9EF;
+text-decoration:none
+}
+a:visited {
+color:#A6E22E
+}
+a:hover {
+background-color:#66D9EF;
+color:#101010;
+text-decoration:underline
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -28,23 +58,62 @@
 <p class="date">2020/03/13</p>
 </header>
 <h1 data-number="1" id="context"><span class="header-section-number">1</span> Context</h1>
-<p>You have a server (HW &amp; SW) up and running; clients are connected to it; they need constant connection to function; the server starts to smoke; you sense it’s the beginnings of a fire; you have to shut it down before you can put the fire out and put it in some rice to boot it up again right after; before the server burns down in flames you have just enough time to do updates; you take the chance because you’re never gonna get another like this one!</p>
-<p>Updating SW is ezpz with hot code reload, so we’ll consider that a solved problem and only care about updates that require a HW reboot, e.g., OS packages updates.</p>
+<p>You have a server (HW &amp; SW) up and running; clients are connected
+to it; they need constant connection to function; the server starts to
+smoke; you sense it’s the beginnings of a fire; you have to shut it down
+before you can put the fire out and put it in some rice to boot it up
+again right after; before the server burns down in flames you have just
+enough time to do updates; you take the chance because you’re never
+gonna get another like this one!</p>
+<p>Updating SW is ezpz with hot code reload, so we’ll consider that a
+solved problem and only care about updates that require a HW reboot,
+e.g., OS packages updates.</p>
 <h1 data-number="2" id="problem"><span class="header-section-number">2</span> Problem</h1>
-<p>How to update the server in a way the clients don’t notice the server has been/is being updated? The clients (the program itself) may know the server is going down, but functionality must not be interrupted, i.e., the user (someone or something interacting with the client program) shouldn’t be able to notice it.</p>
-<h1 data-number="3" id="idea-on-how-to-possibly-solve-the-problem"><span class="header-section-number">3</span> (Idea on) How to (Possibly) Solve the Problem</h1>
-<p>Let’s call the currently running server (HW&amp;SW) that is on fire <code>current_srv</code>. Let’s assume we have another similar server (HW&amp;SW) that is fully updated with the latest OS packages and server SW, but is real nice and cool and not on fire and ready to go! We’ll call it <code>next_srv</code>.</p>
+<p>How to update the server in a way the clients don’t notice the server
+has been/is being updated? The clients (the program itself) may know the
+server is going down, but functionality must not be interrupted, i.e.,
+the user (someone or something interacting with the client program)
+shouldn’t be able to notice it.</p>
+<h1 data-number="3" id="idea-on-how-to-possibly-solve-the-problem"><span class="header-section-number">3</span> (Idea on) How to (Possibly) Solve
+the Problem</h1>
+<p>Let’s call the currently running server (HW&amp;SW) that is on fire
+<code>current_srv</code>. Let’s assume we have another similar server
+(HW&amp;SW) that is fully updated with the latest OS packages and server
+SW, but is real nice and cool and not on fire and ready to go! We’ll
+call it <code>next_srv</code>.</p>
 <h2 data-number="3.1" id="high-level"><span class="header-section-number">3.1</span> High Level</h2>
-<p><code>current_srv</code> tells the clients <q>Yo, goin’ away for a while</q>.</p>
-<p><q>OHMYGAWD! What happened? Tell me everything!</q> say the clients.</p>
-<p><q>None o’ yo’ goddamn biz! But fret not, for I’ve a friend ’ere ready to handle all’yer needs.</q></p>
+<p><code>current_srv</code> tells the clients <q>Yo, goin’ away for a
+while</q>.</p>
+<p><q>OHMYGAWD! What happened? Tell me everything!</q> say the
+clients.</p>
+<p><q>None o’ yo’ goddamn biz! But fret not, for I’ve a friend ’ere
+ready to handle all’yer needs.</q></p>
 <p><q>Fine, if you’re gonna be like that…</q></p>
 <p>(<strong><em>enter <code>next_srv</code></em></strong>)</p>
-<p>Here is where they part ways; the clients mind their own biz, start chatting with <code>next_srv</code>, and a coupla messages later they completely forget about <code>current_srv</code>.</p>
-<p>However, it is not so easy for <code>current_srv</code>. It knows the relationships have to end, but it still wants what’s best for the clients, and so, in the background, it shares all their secrets with <code>next_srv</code>.</p>
-<p><code>current_srv</code> can now finally take a nap and bathe in sweet white dry rice.</p>
+<p>Here is where they part ways; the clients mind their own biz, start
+chatting with <code>next_srv</code>, and a coupla messages later they
+completely forget about <code>current_srv</code>.</p>
+<p>However, it is not so easy for <code>current_srv</code>. It knows the
+relationships have to end, but it still wants what’s best for the
+clients, and so, in the background, it shares all their secrets with
+<code>next_srv</code>.</p>
+<p><code>current_srv</code> can now finally take a nap and bathe in
+sweet white dry rice.</p>
 <h2 data-number="3.2" id="with-more-detail"><span class="header-section-number">3.2</span> With More Detail</h2>
-<p>Start <code>next_srv</code>. Tell <code>current_srv</code> it’s time, how to contact <code>next_srv</code>, and how clients can connect to <code>next_srv</code>. <code>current_srv</code> tells the clients to connect to <code>next_srv</code>. The clients start connecting to <code>next_srv</code>. When a client connects to <code>next_srv</code>, it tells <code>current_srv</code> it’s done so. The client doesn’t start communicating with <code>next_srv</code> just yet. <code>current_srv</code> syncs with <code>next_srv</code>, by sending it the current state, and then tells the client to start communicating with <code>next_srv</code>. Now the client should stop communicating with <code>current_srv</code> and can disconnect from it. This syncing phase is where lag may happen and state may be screwed, but this should be minimal, assuming <code>current_srv</code> and <code>next_srv</code> have a fast connection between each other.</p>
+<p>Start <code>next_srv</code>. Tell <code>current_srv</code> it’s time,
+how to contact <code>next_srv</code>, and how clients can connect to
+<code>next_srv</code>. <code>current_srv</code> tells the clients to
+connect to <code>next_srv</code>. The clients start connecting to
+<code>next_srv</code>. When a client connects to <code>next_srv</code>,
+it tells <code>current_srv</code> it’s done so. The client doesn’t start
+communicating with <code>next_srv</code> just yet.
+<code>current_srv</code> syncs with <code>next_srv</code>, by sending it
+the current state, and then tells the client to start communicating with
+<code>next_srv</code>. Now the client should stop communicating with
+<code>current_srv</code> and can disconnect from it. This syncing phase
+is where lag may happen and state may be screwed, but this should be
+minimal, assuming <code>current_srv</code> and <code>next_srv</code>
+have a fast connection between each other.</p>
 <hr />
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />
