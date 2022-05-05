@@ -198,6 +198,7 @@
 
              (ssg:dir "psychology"
                       (ssg:ent "./links.md" "2020/09/07" "Links")
+                      (ssg:ent "./fagot.org" "2022/05/05" "Fagot")
                       )
 
              (ssg:dir "ssg"
