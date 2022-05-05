@@ -155,6 +155,7 @@
                       )
 
              (ssg:dir "kB45oC"
+                      (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
                       (ssg:ent "./gnuplot.org" "2022/01/12" "Gnuplot Quickstart")
                       )
 
@@ -185,10 +186,6 @@
 
              (ssg:dir "crypto"
                       (ssg:ent "./double_transposition.org" "2022/02/13" "Double Transposition Cipher")
-                      )
-
-             (ssg:dir "server_stuffs"
-                      (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
                       )
 
              (ssg:dir "words"
