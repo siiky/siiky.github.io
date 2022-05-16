@@ -148,6 +148,11 @@
                       (ssg:ent "./naming.org" "2021/12/15" "Naming Operations rather than Variables")
                       )
 
+             (ssg:dir "petri_nets"
+                      (ssg:ent "./logs.org" "2022/05/16" "Logs")
+                      (ssg:ent "./log001.org" "2022/05/16" "Log 001")
+                      )
+
              (ssg:dir "osm"
                       (ssg:ent "./cheatsheet.md" "2021/07/12" "OpenStreetMap Cheat Sheet")
                       (ssg:ent "./prettymaps.org" "2022/01/22" "prettymaps")

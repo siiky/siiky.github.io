@@ -1,0 +1,6 @@
+#+TITLE: Logs
+#+AUTHOR: siiky
+#+DATE: 2022/05/16
+#+LANGUAGE: en
+
+1. [[./log001.html][#001]]

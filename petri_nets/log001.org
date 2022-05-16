@@ -1,0 +1,41 @@
+#+TITLE: Log 001
+#+AUTHOR: siiky
+#+DATE: 2022/05/16
+#+LANGUAGE: en
+
+[[./logs.html][Log index]]
+
+-----
+
+I started studying [[https://en.wikipedia.org/wiki/Petri_net][Petri nets]] a few weeks ago, reading the [[https://statebox.org][Statebox]] [[https://statebox.org/research/publications/monograph][monograph]]
+([[https://arxiv.org/abs/1906.07629][ArXiv]]), and just finished today reading Ch. 2, the formalization of Petri nets
+and useful definitions.
+
+At first I didn't understand the point of having places (seemingly analogous to
+"states" in more common automata theories) and transitions (analogous to arrows
+in more common automata theories) as disjunctive sets of nodes of a graph --
+other than the obvious advantage of it being easier to specify several
+inputs/outputs of a transition. Plus, there's no current "state" (the mentioned
+places) -- it's very different from other more common automata theories! Not
+only that, but what they call a "state" is the number of tokens in each place --
+what?
+
+Once I saw Fig. 2.8 and 2.9, however, it clicked: A transitions is /enabled/
+(can /fire/, "execute") if its input tokens can be satisfied by all its input
+places. So what's currently a valid "step" in the system is determined by the
+number of tokens in each place, just like the "current state" of other automata.
+*And*, several transitions may execute simultaneously (as long as their
+executions don't prevent each other)!
+
+So yesterday and today were good days. I now understand how Petri nets can
+represent concurrent/parallel behaviour, because transitions are like
+independent "processes" (a la Erlang); and that places are more like variables,
+or resources, possibly shared between many transitions (processes).
+
+On [[https://petrinet.org][this site]], which referenced right at the end of Ch. 2, you can read the
+basics of the basics and play with some simple nets (unfortunately only with
+already defined ones; you can't define new ones or change those of the website).
+
+One of these days I should start combing through and arranging my notes to
+publish them. I'll try to make this a sort of regular log with updates on my
+study, my comments/opinions, and maybe notes.
