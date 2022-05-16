@@ -23,16 +23,16 @@ what?
 Once I saw Fig. 2.8 and 2.9, however, it clicked: A transitions is /enabled/
 (can /fire/, "execute") if its input tokens can be satisfied by all its input
 places. So what's currently a valid "step" in the system is determined by the
-number of tokens in each place, just like the "current state" of other automata.
-*And*, several transitions may execute simultaneously (as long as their
-executions don't prevent each other)!
+number of tokens in each place, just like the "current state" of other automata
+determines the possible next transitions. /And/, several transitions may
+execute simultaneously (as long as their executions don't prevent each other)!
 
-So yesterday and today were good days. I now understand how Petri nets can
-represent concurrent/parallel behaviour, because transitions are like
+Yesterday and today were good days in this regard. I now understand how Petri
+nets can represent concurrent/parallel behaviour, because transitions are like
 independent "processes" (a la Erlang); and that places are more like variables,
 or resources, possibly shared between many transitions (processes).
 
-On [[https://petrinet.org][this site]], which referenced right at the end of Ch. 2, you can read the
+On [[https://petrinet.org][this site]], which is referenced right at the end of Ch. 2, you can read the
 basics of the basics and play with some simple nets (unfortunately only with
 already defined ones; you can't define new ones or change those of the website).
 

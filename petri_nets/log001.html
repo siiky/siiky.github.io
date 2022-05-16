@@ -75,15 +75,16 @@ other more common automata theories! Not only that, but what they call a
 <em>enabled</em> (can <em>fire</em>, &quot;execute&quot;) if its input tokens can
 be satisfied by all its input places. So what&#39;s currently a valid &quot;step&quot;
 in the system is determined by the number of tokens in each place, just
-like the &quot;current state&quot; of other automata. <strong>And</strong>,
-several transitions may execute simultaneously (as long as their
-executions don&#39;t prevent each other)!</p>
-<p>So yesterday and today were good days. I now understand how Petri
-nets can represent concurrent/parallel behaviour, because transitions
-are like independent &quot;processes&quot; (a la Erlang); and that places are more
-like variables, or resources, possibly shared between many transitions
-(processes).</p>
-<p>On <a href="https://petrinet.org">this site</a>, which referenced
+like the &quot;current state&quot; of other automata determines the possible next
+transitions. <em>And</em>, several transitions may execute
+simultaneously (as long as their executions don&#39;t prevent each
+other)!</p>
+<p>Yesterday and today were good days in this regard. I now understand
+how Petri nets can represent concurrent/parallel behaviour, because
+transitions are like independent &quot;processes&quot; (a la Erlang); and that
+places are more like variables, or resources, possibly shared between
+many transitions (processes).</p>
+<p>On <a href="https://petrinet.org">this site</a>, which is referenced
 right at the end of Ch. 2, you can read the basics of the basics and
 play with some simple nets (unfortunately only with already defined
 ones; you can&#39;t define new ones or change those of the website).</p>
