@@ -50,6 +50,7 @@ Disaster_, for example.
  * Leo Tolstoy, [_A Confession_]: 2021/04/20~2021/04/27
  * Ludwig Wittgenstein, [_Tractatus Logico-Philosophicus_]: 2021/05/06~2021/06/05
  * Marc Horne, [_Tokyo Zero_]
+ * Michael T. Stevens, _The Art of Psychological Warfare_: 2022/05/09~2022/05/16
  * Michele Cagan, _Budgeting 101_: 2021/08/24~2021/09/05
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Niccolò Machiavelli, [_The Prince_]: 2021/07/30~2021/08/23
@@ -66,19 +67,19 @@ Disaster_, for example.
  * Peter Watts, [_Blindsight_]: 2020
  * Peter Watts, [_Maelstrom_]
  * Peter Watts, [_Starfish_]
- * Philip K. Dick, _Adjustment Team_: 2020
  * Philip K. Dick, [_Beyond Lies the Wub_]: 2020
  * Philip K. Dick, [_Beyond the Door_]: 2020
- * Philip K. Dick, _Of Withered Apples_: 2020
  * Philip K. Dick, [_Piper in the Woods_]: 2020
  * Philip K. Dick, [_Second Variety_]: 2021/07/06~2021/07/09
  * Philip K. Dick, [_The Crystal Crypt_]: 2020
  * Philip K. Dick, [_The Defenders_]: 2020
- * Philip K. Dick, _The Golden Man_: 2021/05/30
  * Philip K. Dick, [_The Gun_]: 2020
  * Philip K. Dick, [_The Skull_]: 2020
  * Philip K. Dick, [_The Variable Man_]: 2020
  * Philip K. Dick, [_Tony and the Beetles_]: 2020
+ * Philip K. Dick, _Adjustment Team_: 2020
+ * Philip K. Dick, _Of Withered Apples_: 2020
+ * Philip K. Dick, _The Golden Man_: 2021/05/30
  * Plato, [_Alcibiades II_]: 2020
  * Plato, [_Alcibiades I_]: 2020
  * Plato, [_Apology_]: 2020
