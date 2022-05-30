@@ -36,6 +36,7 @@ Disaster_, for example.
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Douglas Adams, _The Restaurant at the End of the Universe_: 2021/11/14~2022/01/06
  * Edgar Allan Poe, _The Murders in the Rue Morgue_: 2022/05/17~2022/05/17
+ * Edgar Allan Poe, _The Mystery of Marie Rogêt_: 2022/05/29~2022/05/30
  * Epictetus, [_The Enchiridion_]: 2021/04/14~2021/04/16
  * George Orwell, [_1984_]: 2020
  * George Orwell, [_Animal Farm_]: 2020
