@@ -35,8 +35,9 @@ Disaster_, for example.
  * Christopher Ryan & Cacilda Jethá, _Sex at Dawn_: 2021/06/08~2021/07/29
  * Douglas Adams, _The Hitchhiker's Guide to the Galaxy_: 2021/06/13~2021/07/05
  * Douglas Adams, _The Restaurant at the End of the Universe_: 2021/11/14~2022/01/06
- * Edgar Allan Poe, _The Murders in the Rue Morgue_: 2022/05/17~2022/05/17
- * Edgar Allan Poe, _The Mystery of Marie Rogêt_: 2022/05/29~2022/05/30
+ * Edgar Allan Poe, [_The Black Cat_][allan_poe-shorts]: 2022/05/30~2022/05/30
+ * Edgar Allan Poe, [_The Murders in the Rue Morgue_][allan_poe-shorts]: 2022/05/17~2022/05/17
+ * Edgar Allan Poe, [_The Mystery of Marie Rogêt_][allan_poe-shorts]: 2022/05/29~2022/05/30
  * Epictetus, [_The Enchiridion_]: 2021/04/14~2021/04/16
  * George Orwell, [_1984_]: 2020
  * George Orwell, [_Animal Farm_]: 2020
@@ -45,6 +46,7 @@ Disaster_, for example.
  * Ichiro Kishimi & Fumitake Koga, _The Courage to Be Disliked_: 2020
  * J. D. Salinger, _The Catcher in the Rye_: 2019
  * Jerome K. Jerome, [_Idle Thoughts of an Idle Fellow_]: 2020
+ * Jorge Luis Borges, [_Blue Tigers_]: 2022/05/30~2022/05/30
  * Karl Marx & Friedrich Engels, [_The Communist Manifesto_]: 2021/04/28~2021/05/03
  * Kazuo Ishiguro, _Never Let Me Go_: 2020
  * Kazuo Ishiguro, _The Remains of the Day_: 2020/12/14~2020/12/29
@@ -56,12 +58,12 @@ Disaster_, for example.
  * Michele Cagan, _Budgeting 101_: 2021/08/24~2021/09/05
  * Nassim Nicholas Taleb, _Fooled by Randomness_: 2020
  * Niccolò Machiavelli, [_The Prince_]: 2021/07/30~2021/08/23
- * Nikolai Gogol, [_A May Night_][gogol_short-stories]: 2021/03
- * Nikolai Gogol, [_Old-Fashioned Farmers_][gogol_short-stories]: 2021/06/11
- * Nikolai Gogol, [_St. John's Eve_][gogol_short-stories]: 2021/03
- * Nikolai Gogol, [_Taras Bulba_][gogol_short-stories]: 2021/06/12~2021/06/24
- * Nikolai Gogol, [_The Night of Christmas Eve_][gogol_short-stories]: 2021/05/31~2021/06/07
- * Nikolai Gogol, [_The Viy_][gogol_short-stories]: 2021/08/24~2021/08/28
+ * Nikolai Gogol, [_A May Night_][gogol-shorts]: 2021/03
+ * Nikolai Gogol, [_Old-Fashioned Farmers_][gogol-shorts]: 2021/06/11
+ * Nikolai Gogol, [_St. John's Eve_][gogol-shorts]: 2021/03
+ * Nikolai Gogol, [_Taras Bulba_][gogol-shorts]: 2021/06/12~2021/06/24
+ * Nikolai Gogol, [_The Night of Christmas Eve_][gogol-shorts]: 2021/05/31~2021/06/07
+ * Nikolai Gogol, [_The Viy_][gogol-shorts]: 2021/08/24~2021/08/28
  * Paul Kleinman, _Philosophy 101_: 2020/12/20~2021/04/08
  * Paul Kleinman, _Psych 101_: 2020
  * Peter Archer, _Religion 101_: 2021/03/29~2021/05/28
@@ -130,6 +132,7 @@ Disaster_, for example.
 [_Beyond the Door_]: https://standardebooks.org/ebooks/philip-k-dick/short-fiction
 [_Beyond the Plains_]: https://www.smashwords.com/books/view/234617
 [_Blindsight_]: https://www.rifters.com/real/Blindsight.htm
+[_Blue Tigers_]: https://www.independent.co.uk/arts-entertainment/short-story-blue-tigers-1194505.html
 [_Candide_]: https://standardebooks.org/ebooks/voltaire/candide/the-modern-library
 [_Charmides_]: https://www.gutenberg.org/ebooks/1580
 [_Cratylus_]: https://www.gutenberg.org/ebooks/1616
@@ -173,4 +176,5 @@ Disaster_, for example.
 [_三人の百姓_]: https://www.aozora.gr.jp/cards/001584/card53182.html
 [_大人の眼と子供の眼_]: https://www.aozora.gr.jp/cards/000800/card53186.html
 [_私の見た米国の少年_]: https://www.aozora.gr.jp/cards/000311/card3693.html
-[gogol_short-stories]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
+[allan_poe-shorts]: https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction
+[gogol-shorts]: https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy
