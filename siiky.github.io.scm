@@ -197,6 +197,7 @@
              (ssg:dir "words"
                       (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
                       (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
+                      (ssg:ent "./covid.org" "2022/05/31" "The COVID Experience")
                       )
 
              (ssg:dir "psychology"
