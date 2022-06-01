@@ -3,8 +3,8 @@
 #+DATE: 2022/05/31
 #+LANGUAGE: en
 
-Late at the night of 2022/05/17, while reading Poe's /The Murders in the Rue
-Morgue/ before going to sleep, I started feeling sick -- tired, minor headache,
+Late at the night of 2022/05/17, while reading Poe's [[file:/books/list.html][/The Murders in the Rue
+Morgue/]] before going to sleep, I started feeling sick -- tired, minor headache,
 and raspy throat, that started earlier during the day. The following morning I
 felt like total shit: I could barely stand, my head was killing me (the first
 real head ache I've had in /many/ years!), felt dizzy, my mouth dry as a bone
