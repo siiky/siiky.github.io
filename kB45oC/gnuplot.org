@@ -61,7 +61,7 @@ plot exp(x) title "Super straight line"
 #+end_src
 
 
-[[../assets/exp.gp][download]]
+[[file:/assets/exp.gp][download]]
 
 [[file:assets/exp.svg]]
 
@@ -81,7 +81,7 @@ set samples 1000
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title "Rollercoaster"
 #+end_src
 
-[[../assets/rollercoaster.gp][download]]
+[[file:/assets/rollercoaster.gp][download]]
 
 [[file:assets/rollercoaster.svg]]
 
@@ -110,7 +110,7 @@ set output "assets/gnuplot-test.svg"
 test
 #+end_src
 
-[[../assets/gnuplot-test.gp][download]]
+[[file:/assets/gnuplot-test.gp][download]]
 
 [[file:assets/gnuplot-test.svg]]
 
@@ -276,7 +276,7 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
      ""       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 #+end_src
 
-[[../assets/errorlines.gp][download]]
+[[file:/assets/errorlines.gp][download]]
 
 [[file:assets/errorlines.svg]]
 
