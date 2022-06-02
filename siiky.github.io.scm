@@ -7,6 +7,7 @@
 
   (only srfi-1 any assoc)
   (only srfi-13 string-any string-concatenate)
+  (only srfi-197 chain-lambda)
   (only matchable match-lambda)
 
   (rename
@@ -267,12 +268,12 @@
   (ssg:build site))
 
 (define list-files
-  (o (cute for-each print <>)
-     ;(cute map ssg:idx-file-input-filename <>)
-     (cute map ssg:feed-entry-path <>)
-     ssg:index-entries-for-feed
-     ssg:site-index
-     (cute ssg:handle-result <> identity error)))
+  (chain-lambda
+    (ssg:handle-result _ identity error)
+    (ssg:site-index _)
+    (ssg:index-entries-for-feed _)
+    (map ssg:feed-entry-path _)
+    (for-each print _)))
 
 (define command (car (command-line-arguments)))
 
@@ -281,5 +282,5 @@
    `(("build" . ,build)
      ("list-files" . ,list-files))
    string=?
-   (lambda _ (error "Command must be either build or list-files" (command-line-arguments))))
+   (lambda _ (error "Command must be either `build` or `list-files`" command)))
  site)
