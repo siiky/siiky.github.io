@@ -10,7 +10,7 @@ FOOTER := footer.html
 HEADER := header.html
 PANDOC := pandoc
 
-all: curriculum cv $(SVG) html
+all: curriculum cv $(SVG) html ipfs-publish
 
 force-redo: cv $(SVG) html-redo
 
@@ -22,6 +22,21 @@ html: $(SRCS) $(FOOTER) $(HEADER)
 
 list-files:
 	@./siiky.github.io.scm list-files
+
+list-ipfs-files:
+	@./siiky.github.io.scm list-files
+	@./siiky.github.io.scm list-files | sed 's/\.\(org\|md\)$$/.html/;'
+	@ls -1d atom.xml index.html assets/ functional_programming/curriculum.pdf
+
+ipfs-publish: ipfs.scm ipfs.json ipfs.html
+
+ipfs.scm: ipfs-publish.scm
+	echo "($$(make list-ipfs-files | grep -v '^make\[[0-9]\+\]:' | sed 's|^.*$$|"&"|;'))" | csi -s ipfs-publish.scm
+
+ipfs.json: ipfs.scm
+
+ipfs.html: ipfs.template.html ipfs.scm
+	pandoc --quiet -f markdown -t html -Vcid=`csi -R srfi-197 -p '(chain (read) (alist-ref "ipfs" _ string=? (list #f)) (car _))' < ipfs.scm` /dev/null --template ipfs.template.html -o ipfs.html
 
 watch:
 	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md $(SRCS) $(GVS) $(GP) -type f | entr -c make
@@ -59,4 +74,4 @@ spell: $(SPELL)
 %.spell: %.md
 	aspell -c $<
 
-.PHONY: all curriculum cv force-redo html html-redo list-files spell watch
+.PHONY: all curriculum cv force-redo html html-redo ipfs-publish list-files list-ipfs-files spell watch

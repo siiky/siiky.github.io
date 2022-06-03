@@ -10,15 +10,15 @@
 (chain
   (read)
 
-  (map (lambda (p)
-         ((cond
-            ; TODO: writer/directory* is wrong, just adds an empty directory.
-            ; Have to use writer/filesystem to list the files of the directory.
-            ((directory-exists? p) ipfs:writer/directory*)
-            ((file-exists? p) ipfs:writer/file*)
-            (else (error "Path doesn't exist" p)))
-          p #:name p))
-       _)
+  (append-map
+    (lambda (p)
+      (cond
+        ((directory-exists? p)
+         (ipfs:writer/filesystem p #:dotfiles #t))
+        ((file-exists? p)
+         (ipfs:writer/file p #:name p))
+        (else (error "Path doesn't exist" p))))
+    _)
 
   (ipfs:add #:cid-version 1
             #:pin #f
@@ -48,5 +48,8 @@
        (with-output-to-file "ipfs.json" (cute write-json json))
 
        ; Human-readable, to stderr
-       (with-output-to-port (current-error-port) (cute print hash #\tab name #\tab size))))
+       (with-output-to-port
+         (current-error-port)
+         (cute print "Hash" #\tab "Name" #\tab "Size"
+               #\newline hash #\tab name #\tab size))))
    _))
