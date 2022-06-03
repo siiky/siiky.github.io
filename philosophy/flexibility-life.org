@@ -7,21 +7,20 @@ To be able to [[file:/psychology/fagot.html][withstand the punches life throws a
 helpful, methinks. It allows you to focus on what matters to you, overlook what
 doesn't, and to dodge them punches like a pro. Not only that, but you can more
 easily experiment with things and try to find what works best. If you don't have
-the room to fail, you have the room to remain only.
+the room to fail, you only have the room to remain.
 
 Let me try to explain what I mean.
 
 -----
 
-From my very limitted knowledge of Chinese philosophy and martial arts
-philosophy (not a student or practitioner), before anything else, what you need
-most is flexibility.
+From my very limitted knowledge of [[https://en.wikipedia.org/wiki/Chinese_philosophy][Chinese philosophy]] and [[https://en.wikipedia.org/wiki/Chinese_martial_arts][martial arts
+philosophy]] (*DISCLAIMER*: I'm not a student or practitioner), before anything
+else, what you need most is flexibility.
 
-From the [[file:/books/list.html][/Tao Te Ching/]] ([[https://en.wikipedia.org/wiki/Tao_Te_Ching][Wikipedia]]) (that I should reread some day in the near
-future) the main takeway I got is that you'll have a hard time if you go against
-nature -- certainly harder than if you go along it. If you're lucky (or maybe
-strong enough? depending on your definition of strength), that's all it will be,
-harder; more likely, however, you'll simply lose.
+From the [[file:/books/list.html][/Tao Te Ching/]] ([[https://en.wikipedia.org/wiki/Tao_Te_Ching][Wikipedia]]) the main takeway I got is that you'll have a
+hard time if you go against nature -- certainly harder than if you go along it.
+If you're lucky (or maybe strong enough?) that's all it will be, harder; more
+likely, however, you'll simply lose.
 
 Thus, from my (very likely wrong and/or incomplete) understanding, the [[https://en.wikipedia.org/wiki/Tao][/Tao/]] is
 to go with nature, accept nature, go with the flow, accept things as they are
@@ -49,8 +48,8 @@ and must not go many hours without eating" (I can't remember who nor why; have
 to research). Similarly, someone once /declared/ that "breakfast is the most
 important meal of the day and so must also be the heaviest/fullest" (this one I
 do remember: [[https://www.theguardian.com/lifeandstyle/2016/nov/28/breakfast-health-america-kellog-food-lifestyle][Kellogg's and some bacon company]]). I purposefully say "declared"
-because this wasn't the result of some scientific study or some other method.
-Saying a bunch of bullshit nobody listens to is quite alright -- no harm done,
+because this wasn't the result of a scientific study or some other method.
+Saying a bunch of bullshit nobody pays heed to is quite alright -- no harm done,
 right? The problem is that these "truths" are actually accepted as truths in (at
 least some of) today's western society!
 
@@ -60,9 +59,9 @@ Let's imagine some scenarios:
  2. You don't feel hungry, and you don't eat (no matter why).
  3. You don't feel hungry, but you eat anyway.
 
-I'm not talking here about people that actually suffer from hunger. I'm assuming
-you're skipping only one, maybe two, meals at most. *Actually suffering from
-hunger is serious, and I'm not trying in any way to downplay its seriousness!*
+I'm not talking here about people that starve. I'm assuming you're skipping only
+one, maybe two, meals at most. *Actually starving is serious, and I'm not trying
+in any way to downplay its seriousness!*
 
 If you don't believe in any of the declared crap, all's fine, you just go on
 with your day, in any of the 3 scenarios. But what if you do believe it?
@@ -74,18 +73,17 @@ eaten, or that you're stressing because you believe it's bad you haven't eaten
 In (1), what's worse: the fact that you haven't eaten, or that you're stressing
 because you feel hungry? Though stress does actual harm, I can't empathize with
 this particular "pain". If you feel hungry but you can't eat right now: yes,
-it's unpleasant, but STFU and suck it up! Many people around the world suffer
-from hunger for real, not you. You're lucky you don't, and you should appreciate
-that fact.
+it's unpleasant, but STFU and suck it up! Many people around the world starve
+for real, not you. You're lucky you don't, and you should appreciate that fact.
 
 In (3) whatever food you have is arguably unnecessary -- your body didn't feel
-it necessary, at least. It may be extra food that makes you fatter.
+it necessary, at least. It may simply be extra food to make you fatter.
 
 And particulars matter, of course. If you do hard physical work, skipping a meal
 may be enough to have you pass out after a while. But many people nowadays
 /don't/ do any hard physical work. And they eat *tons* of food. Food that they
-don't need. For these many people, skipping a meal or even two, as long as they
-don't feel ill because of it, is very likely OK.
+don't need. For them, skipping a meal or even two, as long as they don't feel
+ill/weak because of it, is very likely OK.
 
 -----
 
@@ -114,12 +112,12 @@ freedom to experiment, I'll go with food again (I don't know why, it's just
 what's popping into my head).
 
 If you go travelling, you should try to enjoy the place as much as possible
-while while you're still there -- this should be obvious?
+while you're still there -- this should be obvious?
 
-Let's say that you go for a walk at this place, that may be completely unknown
-to you. You may or may not be able to plan the walk, with any amount of detail,
-but let's say that you are. You found some guides or whatever, you decided to go
-here and there, and you marked possible food stops.
+Let's say you go for a walk at this place that may be completely unknown to you.
+You may or may not be able to plan the walk, with any amount of detail, but
+let's say that you are. You found some guides or whatever, you decided to go
+here and there, and you marked possible food stops (like restaurants or cafes).
 
 Alas! The guides were outdated and the food places are closed! Quick! What do
 you do?
@@ -129,9 +127,9 @@ big deal, it's not a showstopper! Carry on with your plan, visit what other
 places you planned to visit. Enjoy them as much as you would weren't the food
 places closed. After the walk you can be sure you'll enjoy the food even more.
 
-The alternatives I can think of: be stuck with "oh no, I have no food!"; or
-abort the rest of the plan to go for food instead. Shit alternatives if you ask
-me...
+The alternatives I can think of: continue with the rest of the plan but be stuck
+with "oh no, I have no food!", thus not enjoying the walk; or abort the rest of
+the plan to go for food instead. Shit alternatives if you ask me...
 
 -----
 
@@ -150,16 +148,16 @@ and/or cooperate.
 
 The best practical example I can think of is physics. It certainly is easier to
 let gravity do its thing than to go against it -- ever tried jumping and
-remaining in the air? -- but if you don't go against it, ever, you'll go
-nowhere. On the flip side of the coin, if you feel so strongly against it that
-you can only brood over it, you'll also go nowhere, it'll be miserable. Thus,
-the way (/Tao/ means "way" or "path", by the way) is through the middle ground,
-where you and your surroundings can meet.
+remaining in the air? Not that easy, right? -- but if you don't go against it,
+ever, you'll go nowhere. On the flip side of the coin, if you feel so strongly
+against it that you can only brood over it, you'll also go nowhere, it'll be
+miserable. Thus, the way (/Tao/ means "way" or "path", by the way) is through
+the middle ground, where you and your surroundings can meet.
 
 Little side-note: in my view, this is one of the ideas that lead me to believe
-the best way of life is the one that ruffles leaves the least. With regards to
-the planet specifically, I think that we should be striving to the best of our
-abilities not to screw it.
+the best way of life is the one that ruffles leaves the least (in number and
+ruffled-ness). With regards to the planet specifically, I think that we should
+be striving to the best of our abilities not to screw it.
 
 -----
 

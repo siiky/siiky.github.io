@@ -10,7 +10,7 @@ FOOTER := footer.html
 HEADER := header.html
 PANDOC := pandoc
 
-all: curriculum cv $(SVG) html ipfs-publish
+all: curriculum cv $(SVG) html
 
 force-redo: cv $(SVG) html-redo
 

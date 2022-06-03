@@ -36,7 +36,7 @@
 
   (ipfs:add
     #:cid-version 1
-    #:pin #t
+    #:pin #f
     #:raw-leaves #t
     ; TODO: Did the behaviour of the `silent` flag change? Seems to
     ; return all the entries...
