@@ -50,16 +50,16 @@ We like imagining, so we'll do it once more: there's a complicated (imaginary)
 category representing our complicated (imaginary) program, with performance
 annotations. The program takes an input `I` and transforms it into some output
 `O`. For simplicity, we'll only represent the most performant morphism between
-each two objects. And because naming is hard, a morphism between `X` and `Y`
-will be named `xy`: `xy : X -> Y`.
+each two objects.
 
 ![Complicated Category](assets/ctp-complicated-cat.svg)
 
 Omitted labels because they clutter too much. {X, Y, Z, W} form a complete
 graph. Now finding the most performant way to write our program, is finding the
-shortest weighted path between `I` and `O`. The hardest part is coming up with
-different implementations and analyzing their performance, really, because even
-a _computer_ can find the best way to write the program.
+shortest weighted path between `I` and `O`, with the performance as the weight.
+The hardest part is coming up with different implementations and analyzing
+their performance, really, because even a _computer_ can find the best way to
+optimize the program.
 
 [ct]: https://en.wikipedia.org/wiki/Category_theory
 [cat]: https://en.wikipedia.org/wiki/Category_(mathematics)
