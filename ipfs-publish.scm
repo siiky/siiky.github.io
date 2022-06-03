@@ -57,7 +57,7 @@
             (size (alist-ref 'Size alist eq? ""))
             (name (alist-ref 'Name alist eq? ""))
             (name (if (string=? name "") "/" name))
-            (scm `(("ipfs" ,CID)))
+            (scm `(("ipfs" . ,CID)))
             (json `((ipfs . ,CID)))
             (old-CID
               (chain
