@@ -80,7 +80,7 @@
                (a (@ (href "/")) "Go home!") "\n"
                (a (@ (href "https://github.com/siiky")) "GitHub") "\n"
                (a (@ (href ,(string-append "/" feed-output-path))) "Atom Feed") "\n"
-               "Published on IPFS (" (a (@ (href "/ipfs.html")) "redirect") "); machine-readable Scheme alist (" (a (@ (href "/ipfs.scm")) "ipfs.scm") "); machine-readable JSON (" (a (@ (href "/ipfs.json")) "ipfs.json") ")"
+               "Published on IPFS (" (a (@ (href "/ipfs.html")) "redirect") "); machine-readable Scheme alist (" (a (@ (href "/ipfs.scm")) "ipfs.scm") ") and JSON (" (a (@ (href "/ipfs.json")) "ipfs.json") ")"
                ))))
 
   (define (*text* _ str) str)
