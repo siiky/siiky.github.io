@@ -21,6 +21,8 @@
        (eprint arg ... x)
        x))))
 
+(define ipfs-nodes '("localhost" "stollingrones"))
+
 (chain
   (read)
 
@@ -34,7 +36,7 @@
 
   (ipfs:add
     #:cid-version 1
-    #:pin #f ; ipfs:pin/update pins the new CID
+    #:pin #t
     #:raw-leaves #t
     ; TODO: Did the behaviour of the `silent` flag change? Seems to
     ; return all the entries...
@@ -64,13 +66,17 @@
                 (car _))))
 
        (if (string=? old-CID CID)
-           (eprint "CID hasn't changed -- nothing else to do!")
+           (eprint "CID hasn't changed: " CID)
            (begin
-             ; Replace old CID with new. Errors with HTTP 500 if the old CID is
-             ; not pinned on the node.
              (eprint "Replacing old CID (" old-CID ") with new (" CID ")")
-             (ipfs:pin/update #:old-path old-CID #:new-path CID #:unpin #t)
-             (eprint "Replaced old CID with new.")
+             (let loop ((ipfs-nodes ipfs-nodes))
+               (unless (null? ipfs-nodes)
+                 (let ((host (car ipfs-nodes)))
+                   (parameterize ((ipfs:*host* host))
+                     ; TODO: Handle HTTP 500
+                     (ipfs:pin/update #:old-path old-CID #:new-path CID #:unpin #t))
+                   (eprint "Replaced old CID with new in " host ".")
+                   (loop (cdr ipfs-nodes)))))
 
              ; Machine-readable Scheme alist
              (with-output-to-file "ipfs.scm" (cute write scm))
