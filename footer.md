@@ -4,6 +4,7 @@
 | [Go home!](/)
 | [GitHub](https://github.com/siiky)
 | [Atom Feed](/atom.xml)
+| Published on IPFS ([redirect](/ipfs.html)); machine-readable Scheme alist ([ipfs.scm](/ipfs.scm)) and JSON ([ipfs.json](/ipfs.json))
 
 All content found on this website, written or otherwise, should've been
 produced by me. Code is release under the terms of the [UNLICENSE], unless
