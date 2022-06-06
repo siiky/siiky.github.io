@@ -36,7 +36,7 @@ ipfs.scm: ipfs-publish.scm
 ipfs.json: ipfs.scm
 
 ipfs.html: ipfs.template.html ipfs.scm
-	pandoc --quiet -f markdown -t html -Vcid=`csi -R srfi-197 -p '(chain (read) (alist-ref "ipfs" _ string=? (list #f)) (car _))' < ipfs.scm` /dev/null --template ipfs.template.html -o ipfs.html
+	pandoc --quiet -f markdown -t html -Vcid=`csi -R srfi-197 -p '(chain (read) (alist-ref "ipfs" _ string=? ""))' < ipfs.scm` /dev/null --template ipfs.template.html -o ipfs.html
 
 watch:
 	find siiky.github.io.scm functional_programming/curriculum.org cv-en.template.latex cv-en.md $(SRCS) $(GVS) $(GP) -type f | entr -c make

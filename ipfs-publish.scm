@@ -62,8 +62,7 @@
             (old-CID
               (chain
                 (with-input-from-file "ipfs.scm" read)
-                (alist-ref "ipfs" _ string=? "" '(""))
-                (car _))))
+                (alist-ref "ipfs" _ string=? "" '("")))))
 
        (if (string=? old-CID CID)
            (eprint "CID hasn't changed: " CID)
