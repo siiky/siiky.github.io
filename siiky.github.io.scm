@@ -186,6 +186,7 @@
                       (ssg:ent "./donating.org" "2022/02/01" "Donating")
                       (ssg:ent "./butterfly_effect.org" "2022/02/17" "Butterfly Effect")
                       (ssg:ent "./flexibility-life.org" "2022/06/01" "Flexibility & Life")
+                      (ssg:ent wip "./flexibility-relations.org" "2022/06/07" "Flexibility & Relations")
                       (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
                       (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
                       (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")

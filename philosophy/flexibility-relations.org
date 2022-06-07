@@ -1,0 +1,49 @@
+#+TITLE: Flexibility & Relations
+#+AUTHOR: siiky
+#+DATE: 2022/06/07
+#+LANGUAGE: en
+
+I recently wrote about how [[file:/philosophy/flexibility-life.html][flexibility may be beneficial in your course of life]].
+
+I've thought some times in the past how after I present myself in some way, I
+can no longer present myself some other (conflicting) way in the future (to the
+same person(s)). At least not with some [[https://en.wikipedia.org/wiki/Friction][friction]].
+
+In this post I'd like to write about that, yet another aspect of life where
+flexibility can be useful, but also possibly a hindrance(!): human relations.
+
+-----
+
+I first came across a similar idea when reading one of [[file:/books/list.html][Descartes' books]] (either
+/Discourse on the Method/ or /Selections from the Principles of Philosophy/, I
+can't remember). In that book he wrote that there were works he didn't want to
+publish during his lifetime. /Wut? why?/ And he goes on to explain that his
+works were often controversial due to their nature -- religion and God, were
+particularly controversial¹ -- and by not publishing them he could continue with
+his life and work without any impediments (read: being imprisoned and/or
+killed).
+
+-----
+
+If you tell a friend one day that you like a nice and hot [[https://en.wikipedia.org/wiki/Churro][/churro/]] (or
+[[https://en.wikipedia.org/wiki/Fartura_(food)][/fartura/]], the inferior alternative), you can't then tell them the next day that
+you /don't/ like it, right? It doesn't make sense!² It can look like you lied or
+are lying now. And it applies to everything, not only food.
+
+Think of [[https://en.wikipedia.org/wiki/Knowledge][knowledge]] as a (consistent, i.e. non-contradictory) set of
+[[https://en.wikipedia.org/wiki/Proposition][propositions]]. From this [[https://en.wikipedia.org/wiki/Point_of_view_(philosophy)][POV]], acquiring knowledge is performing the [[https://en.wikipedia.org/wiki/Set_union][set-union]] of
+the current propositions with the new. If a person knows that you like churros
+(=P=), and learns later that you /don't/ like churros (=!P=), their knowledge
+set becomes inconsistent: =P /\ !P= is a contradiction!
+
+-----
+
+¹ Not that they somehow went against the state of affairs of the time -- he
+believed in God (one of the books is supposed to be a proof it exists) and was
+religious (even supported the church IIRC) -- but that they were such a
+different way to look at and think of things, that people had to assume he was a
+heretic when they didn't understand him -- and understanding him was no simple
+task!
+
+² Of course people can change their opinions, tastes, and whatnot, but it's a
+slow process, slow enough not to be flexible enough.
