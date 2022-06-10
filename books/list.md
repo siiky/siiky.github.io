@@ -15,6 +15,7 @@ Disaster_, for example.
  * Albert Camus, _The Plague_: 2022/04/15
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
+ * Esther Perel, _Mating in Captivity: Unlocking Erotic Intelligence_: 2022/06/10
  * Francis Crick, _The Astonishing Hypothesis_: 2021/07/30
  * Guillaume Pitron, _The Rare Metals War_: 2020
  * James Edward Gray & Bruce A. Tate, [_Designing Elixir Systems With OTP_]: 2021/05/20
