@@ -1,0 +1,71 @@
+#+TITLE: Content-based Mirrors
+#+AUTHOR: siiky
+#+DATE: 2022/06/09
+#+LANGUAGE: en
+
+Contacted [[https://plato.stanford.edu][SEP]] yesterday asking if there was a way to make personal
+archives/mirrors of either the whole website or several entries.
+
+They kindly replied (aweome, and thanks!) quoting the [[https://plato.stanford.edu/info.html#terms][/Terms of Use/]]¹, saying
+that I have permission to freely crawl/download entries for personal use, within
+reasonable network use (1. /User Rights/) -- I just can't make it public
+(non-personal) (2b. & 2d. /Limited Electronic Distribution Rights/).
+
+While I don't mean to convince them of anything, it gave me the idea for this
+post: big websites that publish content publicly for free use are a great fit
+for experimenting with novel means of distribution and archival other than the
++good+ bad old HTTP we have today.
+
+More specifically, I'll try to convince you that /content-based content
+addressing/ is a better alternative to /location-based content addressing/ (the
+current web), and try to explain how and why.
+
+To make writing easier, I'll pick the Debian package repos as a sort of "case
+study", but other package repositories (Arch, Nix, F-Droid, Flathub, ...) would
+work equally well. A good alternative would be any Wikimedia site, such as
+Wikipedia.² Also, I'll write about mirrors but much of it applies to archives as
+well, even though they're different. And finally, some of the points I'll raise
+may have nuances that make more sense to sites or to package repos, to archives
+or to mirrors, but the spirit is there!
+
+Let's start with /content/. Setting up a mirror site isn't for just about
+anyone. You can't wake up one day and think /yup, feel like mirroring Debian's
+repos starting today./ The reason is that, ignoring technical requirements,
+there's too much bureaucracy for you to decide it on such a whim.³ But is this
+bureaucracy necessary? I don't think so, I think it's only a symptom of the
+current web.
+
+On the current web (/location-based/), when you go to
+=https://example.com/some-page.html= you don't know what you're gonna get --
+hopefully whatever it is you're looking for, but you just can't know. Plus, the
+content you get /from a location/ may change from today to tomorrow -- a very
+important point; the most important point, almost.
+
+Imagine if anyone could claim to be a Debian mirror. Users set one up on
+=sources.list=, thinking they're getting the official Debian packages, but
+(dramatic plot twist) the mirror is malicious and all the packages play nyan cat
+in loop.
+
+To emphasize it: there's no way for a site to prove what content it's serving,
+so there's no way for you to know that you'll get what you're expecting, when
+you visit some page on the current web, you *have* to trust the website.
+
+What would the consequences be if this hypothetical scenario actually came true?
+Assuming the mirror was an official one (i.e., listed on the [[https://www.debian.org/mirror/list][mirrors]]): if
+instead of being malicious from the start it turned malicious, first of all,
+Debian would have to drop it from the list; then the rules for registering as a
+mirror would very likely become stricter in an effort to avoid another incident.
+
+* content is exact
+* therefore it can be freely shared by anyone
+* therefore network strain is decreased
+
+¹ I hadn't come across the /ToU/ before while browsing the site -- refreshing!
+-- and even had some trouble finding them after the email.
+
+² Except there are no "official" Wikipedia mirrors, and no restrictions or
+bureaucracies to become one. See [[https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks][/Mirrors and forks/]] and [[https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking][/Forking FAQ/]].
+
+³ Admittedly, much less than I would ever have expected -- a manual request! See
+[[https://www.debian.org/mirror/ftpmirror][/Setting up a Debian archive mirror/]]. But even this little is already too
+much...
