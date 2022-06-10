@@ -66,6 +66,6 @@ mirror would very likely become stricter in an effort to avoid another incident.
 ² Except there are no "official" Wikipedia mirrors, and no restrictions or
 bureaucracies to become one. See [[https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks][/Mirrors and forks/]] and [[https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking][/Forking FAQ/]].
 
-³ Admittedly, much less than I would ever have expected -- a manual request! See
+³ Admittedly, much less than I would ever have expected: a manual request! See
 [[https://www.debian.org/mirror/ftpmirror][/Setting up a Debian archive mirror/]]. But even this little is already too
 much...
