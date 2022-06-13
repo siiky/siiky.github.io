@@ -98,6 +98,12 @@
     <link href="https://siiky.github.io/kB45oC/water_stations.html" rel="alternate" type="text/html" />
   </entry>
   <entry>
+    <id>https://siiky.github.io/kB45oC/archives.org</id>
+    <title type="text">Content-based Mirrors</title>
+    <updated></updated>
+    <link href="https://siiky.github.io/kB45oC/archives.html" rel="alternate" type="text/html" />
+  </entry>
+  <entry>
     <id>https://siiky.github.io/scheme/exceptions.md</id>
     <title type="text">Exceptions in Scheme</title>
     <updated></updated>
