@@ -12,7 +12,6 @@ Disaster_, for example.
 
 # Reading
 
- * Albert Camus, _The Plague_: 2022/04/15
  * Bob Nystrom, [_Game Programming Patterns_]: 2021
  * Daniel P. Friedman & David Thrane Christiansen, _The Little Typer_: 2021/02/06
  * Esther Perel, _Mating in Captivity: Unlocking Erotic Intelligence_: 2022/06/10
@@ -28,6 +27,7 @@ Disaster_, for example.
  * Albert Camus, _Bread and Freedom_: 2020/12/23
  * Albert Camus, _Create Dangerously_: 2020/12/21~2020/12/22
  * Albert Camus, _Defence of Intelligence_: 2020/12/22
+ * Albert Camus, _The Plague_: 2022/04/15~2022/06/15
  * Albert Camus, _The Stranger_: 2019
  * Aldous Huxley, _Brave New World_: 2020
  * Alfred Mill, _Personal Finance 101_: 2021/07/09~2021/07/18
