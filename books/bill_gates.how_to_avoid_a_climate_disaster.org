@@ -263,7 +263,7 @@ It goes both ways too. We stopped using nuclear because of the accidents, but
 even though the other energy sources result in more deaths per unit of energy
 (tbl p85), we prefer using those.
 
-Mentions [[https://en.wikipedia.org/wiki/Terrapower][TerraPower]] (p86). Some marketing words (mainly for me to read about
+Mentions [[https://en.wikipedia.org/wiki/TerraPower][TerraPower]] (p86). Some marketing words (mainly for me to read about
 later): [[https://en.wikipedia.org/wiki/Traveling_wave_reactor]["traveling wave reactor"]], capable of running off of the waste of other
 reactors (that is, used up Uranium, Plutonium, &c). (p87)
 
