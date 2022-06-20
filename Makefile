@@ -26,7 +26,7 @@ list-files:
 list-ipfs-files:
 	@./siiky.github.io.scm list-files
 	@./siiky.github.io.scm list-files | sed 's/\.\(org\|md\)$$/.html/;'
-	@ls -1d atom.xml index.html assets/ functional_programming/curriculum.pdf
+	@ls -1d atom.xml index.html assets/ functional_programming/curriculum.pdf tinylog.gmi
 
 ipfs-publish: ipfs.scm ipfs.json ipfs.html
 
