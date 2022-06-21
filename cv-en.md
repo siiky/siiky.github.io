@@ -30,7 +30,7 @@ The assigned job was developing unfinished, as well as new, features for a
 consumer facing product. These entailed working with _Augmented Reality_ in iOS.
 In the process, I've also learned about the Scrum development framework.
 
-## Application Security Analyst at Checkmarx (September 2019 ~ September 2021)
+## _Application Security Analyst_ at Checkmarx (September 2019 ~ September 2021)
 
 The job as an analyst consists in analysing existing security vulnerabilities,
 with or without a CVE number, the end goal being to learn which versions of the
@@ -40,7 +40,7 @@ tools of everyday use, as vulnerabilities are found in a wide range of projects,
 I come in contact with many languages, with the most common being C, Clojure,
 Java, JavaScript, PHP and Python.
 
-## Software Engineer at Lamassu (September 2021 ~ present)
+## _Software Engineer_ at Lamassu (September 2021 ~ present)
 
 Responsible for maintaining and refactoring existing code and developing new
 features, using almost exclusively JavaScript on Node.js and React projects.
@@ -53,37 +53,11 @@ a very strict GraphQL one.
 
 # Additional Information
 
-## Open Source Work
-
-On my spare time I work on personal projects and contribute to open source
-projects, such as IPFS and the CHICKEN Scheme ecosystem. The most notable among
-them:
-
-<https://github.com/siiky/ipfs.scm> & <https://github.com/siiky/ipfs.lua>
- ~ Author & maintainer of IPFS HTTP RPC clients in CHICKEN Scheme and Lua.
-
-<https://github.com/siiky/invidious.scm>
- ~ Author & maintainer of an Invidious REST API client in CHICKEN Scheme.
-
-<https://github.com/siiky/transmission.scm>
- ~ Author & maintainer of a Transmission RPC client in CHICKEN Scheme.
-
-<https://www.phpmyadmin.net>
- ~ Found and responsibly disclosed CVE-2020-26935, while working at Checkmarx.
-
-<https://github.com/siiky/c-utils>
- ~ Type-generic data structures and utilities written in C, tested with
-   QuickCheck-like tests.
-
-<https://github.com/universal-ctags/ctags>
- ~ Found and fixed two `NULL`-dereference bugs.
-
-<https://github.com/iraikov/chicken-unitconv>
- ~ Changed all constants to exact numbers, to improve precision.
-
 ## Areas of Interest
 
 I'm a big proponent of the FLOSS movement and sharing of knowledge in general.
+On my spare time I work on/contribute to open source projects, personal and
+otherwise, and I contribute to OpenStreetMap mainly as a mapper.
 
 I have a special interest in functional and distributed programming, and in code
 quality. I believe low-level and performance to be very important aspects of
@@ -91,13 +65,37 @@ programming and programming languages, and because of this, the languages that
 have caught my eyes most recently are Elixir, CHICKEN Scheme, and Rust.
 
 Other than technical programming-related topics, I enjoy reading and learning
-about various other random hard and natural sciences. These include, but are not
+about various other hard and natural sciences. These include, but are not
 limitted to: mathematics (especially abstract math), philosophy, psychology,
 ecology, zoology, botany, physics, and chemistry.
 
-Additionally, I write from time to time about these subjects, to better organize
-myself and my thought, and in hope that my writings may be of use to other
-sentient beings as limitted as myself.
+Additionally, I write from time to time about these subjects on my personal
+website, to better organize myself and my thought, and in hope that my writings
+may be of use to other sentient beings as limitted as myself.
+
+## Open Source Work
+
+Of the open source projects I work on and contribute to, such as IPFS and the
+CHICKEN Scheme ecosystem, these may be my most notable contributions:
+
+<https://github.com/siiky/ipfs.scm> & <https://github.com/siiky/ipfs.lua>
+ ~ Author & maintainer of IPFS HTTP RPC clients in CHICKEN Scheme and Lua.
+
+<https://www.phpmyadmin.net>
+ ~ Found and responsibly disclosed CVE-2020-26935, while working at Checkmarx.
+
+<https://github.com/universal-ctags/ctags>
+ ~ Found and fixed two `NULL`-dereference bugs.
+
+<https://github.com/siiky/invidious.scm>
+ ~ Author & maintainer of an Invidious REST API client in CHICKEN Scheme.
+
+<https://github.com/siiky/transmission.scm>
+ ~ Author & maintainer of a Transmission RPC client in CHICKEN Scheme.
+
+<https://github.com/iraikov/chicken-unitconv>
+ ~ Changed all floating-point constants to exact numbers, in order to improve
+   arithmetic precision by default.
 
 ## Programming Languages
 
