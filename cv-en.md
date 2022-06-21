@@ -61,16 +61,16 @@ them:
 
 <https://github.com/siiky/ipfs.scm> & <https://github.com/siiky/ipfs.lua>
  ~ Author & maintainer of IPFS HTTP RPC clients in CHICKEN Scheme and Lua.
- 
+
 <https://github.com/siiky/invidious.scm>
  ~ Author & maintainer of an Invidious REST API client in CHICKEN Scheme.
- 
+
 <https://github.com/siiky/transmission.scm>
  ~ Author & maintainer of a Transmission RPC client in CHICKEN Scheme.
 
 <https://www.phpmyadmin.net>
  ~ Found and responsibly disclosed CVE-2020-26935, while working at Checkmarx.
- 
+
 <https://github.com/siiky/c-utils>
  ~ Type-generic data structures and utilities written in C, tested with
    QuickCheck-like tests.
@@ -83,12 +83,21 @@ them:
 
 ## Areas of Interest
 
-I have a special interest in functional and distributed programming and in code
+I'm a big proponent of the FLOSS movement and sharing of knowledge in general.
+
+I have a special interest in functional and distributed programming, and in code
 quality. I believe low-level and performance to be very important aspects of
 programming and programming languages, and because of this, the languages that
 have caught my eyes most recently are Elixir, CHICKEN Scheme, and Rust.
 
-I'm a big proponent of the FLOSS movement and sharing of knowledge in general.
+Other than technical programming-related topics, I enjoy reading and learning
+about various other random hard and natural sciences. These include, but are not
+limitted to: mathematics (especially abstract math), philosophy, psychology,
+ecology, zoology, botany, physics, and chemistry.
+
+Additionally, I write from time to time about these subjects, to better organize
+myself and my thought, and in hope that my writings may be of use to other
+sentient beings as limitted as myself.
 
 ## Programming Languages
 
