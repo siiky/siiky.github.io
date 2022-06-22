@@ -21,7 +21,7 @@
        (eprint arg ... x)
        x))))
 
-(define ipfs-nodes '("localhost" "stollingrones"))
+(define ipfs-nodes '("localhost" "stollingrones.local"))
 
 (chain
   (read)
