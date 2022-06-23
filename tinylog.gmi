@@ -5,6 +5,11 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-NC 4.0
 
+## 2022-06-23 13:47 +0100
+I use card-like pieces (train/subway tickets) as markers for places I want to transcribe or take notes from physical books, but I never write right away what the marker is for, so I forget often when it's time to type into Org Roam.
+Yesterday I thought a teeny tiny A7 notebook per book may be a good alternative, and ~1yr ago I learned how to manually bind books -- very simple method, single-signature only, not at all polished: a single A4 sheet of paper cut into 4 A6 sheets, and each A6 sheet folded in half: 16 A7 pages of readily available paper estate! Just made one in ~10min: 2 holes at about 3cm from the top and bottom margin, thread with a needle 3/4 times, knot.
+Has the downside of needing a pencil/pen at all times, but it's so slim it can be used as a book marker too.
+
 ## 2022-06-23 01:51 +0100
 Wrote a oneliner to get a (I think valid) Gemfeed out of all my input files, ordered by the date each was last edited according to git log, complete with title and all -- the first line of all my files is the title, be they Markdown, Org, or Gemtext, and luckily for me the line starts with some sort of tag, some space, and then the title.
 Here it is:
@@ -37,6 +42,10 @@ Just some minutes ago, due to a conversation on #chicken, I realized why foldl a
 Command to generate tinylog dates:
 ```
 date +'%F %R %z'
+```
+To use with Vim:
+```
+r!date +'\%F \%R \%z'
 ```
 
 ## 2022-06-18 10:00 +0100
