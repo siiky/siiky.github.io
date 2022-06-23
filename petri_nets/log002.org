@@ -31,9 +31,21 @@ Additionally, these morphisms must preserve a couple of properties:
 + =°(-)_M . f = g . °(-)_N=
 + =(-)°_M . f = g . (-)°_N=
 
+I can't explain these in words right now, so... exercise for the reader!
+
+But I'll try anyway with an example: suppose that =f= transforms transitions in
+such a way that they consume and produce double the amount of tokens, and that
+=g= doubles the amount of tokens of each place; then, if a particular place
+=p_N= of the net =N= has 2 tokens, and a transition =t_N= that consumes 2 tokens
+from =p_N=, there's a place =p_M= with 4 tokens, and a transition =t_M= that
+consumes 4 tokens from =p_M=.
+
+Altogether, I think these form a sort of super/subnet relation between nets,
+that visually looks a lot like super/subgraphs.
+
 The category =Petri= is actually restricted to a subcategory (=Petri_G=), which
 is the one used in practice, but I think the details aren't relevant for this
-post.
+post (it has to do with the =g=, if you wish to know).
 
 -----
 

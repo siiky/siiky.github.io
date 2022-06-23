@@ -81,10 +81,18 @@ properties:</p>
 <li><code class="verbatim">°(-)_M . f = g . °(-)_N</code></li>
 <li><code class="verbatim">(-)°_M . f = g . (-)°_N</code></li>
 </ul>
+<p>I can&#39;t explain these in words right now, so… exercise for the
+reader!</p>
+<p>But I&#39;ll try anyway with an example: suppose that <code class="verbatim">f</code> transforms transitions in such a way that they
+consume and produce double the amount of tokens, and that <code class="verbatim">g</code> doubles the amount of tokens of each place;
+then, if a particular place <code class="verbatim">p_N</code> of the net
+<code class="verbatim">N</code> has 2 tokens, and a transition <code class="verbatim">t_N</code> that consumes 2 tokens from <code class="verbatim">p_N</code>, there&#39;s a place <code class="verbatim">p_M</code> with 4 tokens, and a transition <code class="verbatim">t_M</code> that consumes 4 tokens from <code class="verbatim">p_M</code>.</p>
+<p>Altogether, I think these form a sort of super/subnet relation
+between nets, that visually looks a lot like super/subgraphs.</p>
 <p>The category <code class="verbatim">Petri</code> is actually
 restricted to a subcategory (<code class="verbatim">Petri_G</code>),
 which is the one used in practice, but I think the details aren&#39;t
-relevant for this post.</p>
+relevant for this post (it has to do with the <code class="verbatim">g</code>, if you wish to know).</p>
 <hr />
 <h1 data-number="1" id="executions"><span class="header-section-number">1</span> <span class="todo TODO">TODO</span> Executions</h1>
 <hr />
