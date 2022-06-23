@@ -1,0 +1,40 @@
+#+TITLE: Log002
+#+AUTHOR: siiky
+#+DATE: 2022/06/23
+#+LANGUAGE: en
+
+[[./logs.html][Log index]]
+
+-----
+
+Finished reading Ch. 3 & 4 some weeks ago.
+
+On Ch. 3 there wasn't that much new to me -- notation was slightly different
+from what I was used to, but in general it wasn't complicated to follow. There
+was terminology I didn't remember too, but mostly just had to go back and read
+my notes from University.
+
+Ch. 4, however, was an interesting one. They define two categories: one of Petri
+nets (called =Petri=), with nets as objects; and another of Petri net executions
+for a given net (called =F(N)=, with some Petri net =N=, and a fancy
+calligraphic =F=), with markings as objects.
+
+-----
+
+A morphism =N -> M= of =Petri= is a pair =〈f, g〉= where:
+
++ =f= is a function between the transitions of =N= and those of =M= (=T_N -> T_M=)
++ =g= is a multiset homomorphism between the markings(?) of both nets
+
+Additionally, these morphisms must preserve a couple of properties:
+
++ =°(-)_M . f = g . °(-)_N=
++ =(-)°_M . f = g . (-)°_N=
+
+The category =Petri= is actually restricted to a subcategory (=Petri_G=), which
+is the one used in practice, but I think the details aren't relevant for this
+post.
+
+-----
+
+* TODO Executions

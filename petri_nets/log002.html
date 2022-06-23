@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="siiky" />
-  <title>Logs</title>
+  <title>Log002</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -52,17 +52,41 @@ text-decoration:underline
 <body>
 <h1 id="nothing-interesting-here">nothing interesting here</h1>
 <header id="title-block-header">
-<h1 class="title">Logs</h1>
+<h1 class="title">Log002</h1>
 <p class="author">siiky</p>
-<p class="date">2022/05/16</p>
+<p class="date">2022/06/23</p>
 </header>
-<p>This is the list of logs I wrote about my journey studying Petri
-nets. I&#39;ll try to make this a sort of regular log with updates, my
-comments/opinions, and maybe notes. One of these days I should start
-combing through and arranging my notes to publish them.</p>
-<ol>
-<li><a href="./log001.html">#001</a></li>
-</ol>
+<p><a href="./logs.html">Log index</a></p>
+<hr />
+<p>Finished reading Ch. 3 &amp; 4 some weeks ago.</p>
+<p>On Ch. 3 there wasn&#39;t that much new to me – notation was slightly
+different from what I was used to, but in general it wasn&#39;t complicated
+to follow. There was terminology I didn&#39;t remember too, but mostly just
+had to go back and read my notes from University.</p>
+<p>Ch. 4, however, was an interesting one. They define two categories:
+one of Petri nets (called <code class="verbatim">Petri</code>), with
+nets as objects; and another of Petri net executions for a given net
+(called <code class="verbatim">F(N)</code>, with some Petri net <code class="verbatim">N</code>, and a fancy calligraphic <code class="verbatim">F</code>), with markings as objects.</p>
+<hr />
+<p>A morphism <code class="verbatim">N -&gt; M</code> of <code class="verbatim">Petri</code> is a pair <code class="verbatim">〈f, g〉</code> where:</p>
+<ul>
+<li><code class="verbatim">f</code> is a function between the
+transitions of <code class="verbatim">N</code> and those of <code class="verbatim">M</code> (<code class="verbatim">T_N -&gt; T_M</code>)</li>
+<li><code class="verbatim">g</code> is a multiset homomorphism between
+the markings(?) of both nets</li>
+</ul>
+<p>Additionally, these morphisms must preserve a couple of
+properties:</p>
+<ul>
+<li><code class="verbatim">°(-)_M . f = g . °(-)_N</code></li>
+<li><code class="verbatim">(-)°_M . f = g . (-)°_N</code></li>
+</ul>
+<p>The category <code class="verbatim">Petri</code> is actually
+restricted to a subcategory (<code class="verbatim">Petri_G</code>),
+which is the one used in practice, but I think the details aren&#39;t
+relevant for this post.</p>
+<hr />
+<h1 data-number="1" id="executions"><span class="header-section-number">1</span> <span class="todo TODO">TODO</span> Executions</h1>
 <hr />
 <div class="line-block">places:<br />
 <a href="/">Go home!</a><br />

@@ -154,6 +154,7 @@
              (ssg:dir "petri_nets"
                       (ssg:ent "./logs.org" "2022/05/16" "Logs")
                       (ssg:ent "./log001.org" "2022/05/16" "Log 001")
+                      (ssg:ent wip "./log002.org" "2022/06/23" "Log 002")
                       )
 
              (ssg:dir "osm"
