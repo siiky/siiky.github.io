@@ -3,7 +3,7 @@
 Random tiny thoughts that don't merit their own full-sized posts.
 
 author: @siiky
-license: CC BY-NC 4.0
+license: CC BY-SA 4.0
 
 ## 2022-06-29 23:21 +0100
 I'm completely against current DRM systems, but some time ago I thought of a valid (IMO) use case for a proper implementation (before that I held "DRM-free good, DRM bad" in my mind as a truism).
