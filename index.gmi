@@ -1,0 +1,10 @@
+# nothing interesting here
+
+This is where you'll find nothing interesting, welcome.
+
+=> about.gmi About
+=> tinylog.gmi Tinylog
+
+## Posts
+
+=> meta/dates/ 2022-06-23 - Post dates

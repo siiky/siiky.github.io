@@ -26,11 +26,11 @@ list-files:
 list-ipfs-files:
 	@./siiky.github.io.scm list-files
 	@./siiky.github.io.scm list-files | sed 's/\.\(org\|md\)$$/.html/;'
-	@ls -1d atom.xml index.html assets/ functional_programming/curriculum.pdf tinylog.gmi
+	@ls -1d atom.xml index.html assets/ functional_programming/curriculum.pdf index.gmi tinylog.gmi about.gmi
 
 ipfs-publish: ipfs.scm ipfs.json ipfs.html
 
-ipfs.scm: ipfs-publish.scm
+ipfs.scm: ipfs-publish.scm index.html index.gmi tinylog.gmi about.gmi
 	echo "($$(make list-ipfs-files | grep -v '^make\[[0-9]\+\]:' | sed 's|^.*$$|"&"|;'))" | csi -s ipfs-publish.scm
 
 ipfs.json: ipfs.scm
