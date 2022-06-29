@@ -5,6 +5,9 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-NC 4.0
 
+## 2022-06-29 10:50 +0100
+The other day I heard some pop song on the radio (note-se: because I was forced to). It was almost like any other shitty pop song that goes on the radio, but it had a flair to it you don't usually hear in pop; it had a weird sequence of notes, almost dissonant. Now, I would never in general be in favor of shit music. But if this one is popular enough to result in people listening to more weird (and better) music, that's a good thing! So this song is good (though still not a good song). I don't know the song's name, but I'm almost 100% sure it was by Carolina Deslandes.
+
 ## 2022-06-23 13:47 +0100
 I use card-like pieces (train/subway tickets) as markers for places I want to transcribe or take notes from physical books, but I never write right away what the marker is for, so I forget often when it's time to type into Org Roam.
 Yesterday I thought a teeny tiny A7 notebook per book may be a good alternative, and ~1yr ago I learned how to manually bind books -- very simple method, single-signature only, not at all polished: a single A4 sheet of paper cut into 4 A6 sheets, and each A6 sheet folded in half: 16 A7 pages of readily available paper estate! Just made one in ~10min: 2 holes at about 3cm from the top and bottom margin, thread with a needle 3/4 times, knot.
