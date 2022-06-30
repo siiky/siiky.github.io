@@ -8,11 +8,11 @@
 IPFS root directory of this list: ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzzerrgsx7fxmy4kxwthpkbi
 
 Because _sharing is caring_. This is a list of things I'm caring with others.
-Some of the type of cares you may find here are books from [Gutenberg] or
+Some of the types of cares you may find here are books from [Gutenberg] or
 [Standard Ebooks] that I particularly like; public movies/documentaries I find
-interesting and/or important (such as _Nothing to Hide_); and copies of
-technical material distributed publicly and freely by their creators (such as
-OPLSS lectures). Whatever care you may find here, it shouldn't be illegal.
+interesting and/or important; and copies of technical material distributed
+publicly and freely by their creators. Whatever care you may find here, it
+shouldn't be illegal.
 
 You'll find at least three spider cares.
 
