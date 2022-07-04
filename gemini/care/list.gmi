@@ -1,0 +1,113 @@
+# Care list
+@siiky
+2022/01/09
+
+If you don't know what IPFS is or don't know how to use it, see this quickstart:
+
+=> ipfs.gmi
+
+IPFS root directory of this list:
+
+=> ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzzerrgsx7fxmy4kxwthpkbi
+
+Because sharing is caring. This is a list of things I'm caring with others. Some of the types of cares you may find here are books from Gutenberg or Standard Ebooks that I particularly like; public movies/documentaries I find interesting and/or important; and copies of technical material distributed publicly and freely by their creators. Whatever care you may find here, it shouldn't be illegal.
+
+=> https://www.gutenberg.org Gutenberg
+=> https://standardebooks.org Standard Ebooks
+
+You'll find at least three spider cares.
+
+=> /assets/spidercare.jpg
+
+The URI of the root of the list will be always at the top of the page (the "IPFS root directory ..."). From it you can get to all other cares (if I don't screw up). Over the rest of the page I'll post some notable cares and/or (maybe) more details -- maybe even sources!
+
+The cares are added to IPFS using `ipfs add` with the options `--recursive --raw-leaves --cid-version=1`. Videos also get a `--trickle `. The full command is something like this:
+
+```
+ipfs files cp /ipfs/`ipfs add -p -Q -r -t --pin=false --cid-version=1 --raw-leaves '/path/to/file_or_directory'` '/care-list/videos/file_or_directory'
+```
+
+If you feel the urge to support someone after finding or benefitting from this list, support the creators of the cares themselves.
+
+# Books
+
+## Geographies of Digital Exclusion: Data and Inequality
+
+```
+/books/geographies_of_digital_exclusion.pdf.
+```
+
+Originally downloaded from the website of the Oxford Internet Institute.
+
+=> https://www.oii.ox.ac.uk/research/publications/geographies-of-digital-exclusion-data-and-inequality
+
+Published in 2022/01 by Pluto Press, with ISBN 9780745340180.
+
+## Program Design by Calculation
+
+```
+/books/pdbc.pdf
+```
+
+Written by José Nuno Oliveira, professor of the Informatics Department of the University of Minho.
+
+Not necessarily the latest version! The original is usually available here.
+
+=> http://www4.di.uminho.pt/~jno/ps/pdbc.pdf
+
+# Videos
+
+## OPLSS (Oregon Programming Language Summer School)
+
+```
+/videos/oplss/
+```
+
+Only some of the lectures are mirrored on this path.
+
+=> https://www.cs.uoregon.edu/research/summerschool/archives.html Official OPLSS site
+=> ipfs://bafybeidlgjvd6qdjgdb2vqtdnssvvfbv47m3wj2uyzknswhj5twktr37ne
+
+NOTE THAT I may forget to update this URI, but the root will always be up to date!
+
+## Nothing to Hide
+
+```
+/videos/Nothing to Hide - The documentary about surveillance and you (2017) 1080p.mp4
+```
+
+=> https://vidcommons.org/w/efeEpsHSK3bzJwVLW9fh7U VidCommons' PeerTube instance
+=> ipfs://bafybeidi44wekwu3bi24m5x6ofnttzbcsfomr4dw5bssovqq35wdwva26m?filename=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20(2017)%201080p.mp4
+=> magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4
+
+## TPB: AFK
+
+```
+/videos/TPB.AFK.2013.1080p.h264-SimonKlose.mkv
+```
+
+=> magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&dn=TPB.AFK.2013.1080p.h264-SimonKlose&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
+
+## Steal this Film
+
+```
+/videos/StealThisFilm.Part1.mov
+/videos/StealThisFilmII.720p.mov
+```
+
+=> https://www.stealthisfilm.com Official site
+
+=> magnet:?xt=urn:btih:2d71be0c1bcc93373e926f02aaa4ab484979a542&dn=StealThisFilm.Part1.mov&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce
+=> magnet:?xt=urn:btih:0ff9cd4f43f5df2a30c694c87e63978af26ee9d4&dn=Steal%20This%20Film%20II.720p.mov&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce
+
+The torrents are from the official site.
+
+## O Lado Negro das Energias Verdes
+
+```
+/videos/o_lado_negro_das_energias_verdes.mp4
+```
+
+This is the documentary The Dark Side of Green Energies, but in PT from RTP (narration & subtitles).
+
+=> https://www.imdb.com/title/tt13524468 The Dark Side of Green Energies
