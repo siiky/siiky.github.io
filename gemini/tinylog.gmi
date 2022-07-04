@@ -5,6 +5,16 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-07-04 01:02 +0100
+I finally got my paid SourceHut subscription! From today I'll be (slowly) moving my stuff away from GitHub, starting with ipfs.scm and my website.
+The website will be hosted on SourceHut Pages, that also supports Gemini! I already started working on converting my so very complexicated webshite into a lean and simple(r) Gemini capsule. Still have some quirks to think about (how to make it available in HTML form, because of links), but should be up soon enough! Only the math-heavy posts will be a real PITA :/
+Coincidentally, I learned of GiveUpGitHub after getting the subscription...
+=> https://sourcehut.org
+=> https://git.sr.ht/~siiky/ipfs.scm ipfs.scm
+=> gemini://srht.site SourceHut Pages (Gemini)
+=> https://srht.site SourceHut Pages (HTTP)
+=> https://sfconservancy.org/GiveUpGitHub
+
 ## 2022-06-29 23:21 +0100
 I'm completely against current DRM systems, but some time ago I thought of a valid (IMO) use case for a proper implementation (before that I held "DRM-free good, DRM bad" in my mind as a truism).
 If you share digital content with someone (a photo, some text, w.e.), they can technically do whatever they want with it. Maybe you're OK with that, but if you eventually become unOK, there's nothing you can technically do to deny them future access. With a proper DRM system this should be possible. I was reminded of this by a couple of posts I read recently:
