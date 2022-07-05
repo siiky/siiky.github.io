@@ -2,10 +2,10 @@
 
 This is where you'll find nothing interesting, welcome.
 
-=> about.gmi About
-=> tinylog.gmi Tinylog
+=> /about.gmi About
+=> /tinylog.gmi Tinylog
 
 ## Posts
 
-=> code/gemtext.gmi 2022-07-05 - Scheme Gemtext Reader
-=> meta/dates/ 2022-06-23 - Post dates
+=> /code/gemtext.gmi 2022-07-05 - Scheme Gemtext Reader
+=> /meta/dates.gmi 2022-06-23 - Post dates
