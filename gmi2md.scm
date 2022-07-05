@@ -21,6 +21,8 @@
 
 (define (extension/gmi->html link)
   (let* ((uri (gmi:link:uri link))
+         ; TODO: Be smarter about this -- e.g., check if this link points to a
+         ;       file that exists
          (uri (pathname-replace-extension uri ".html"))
          (alt-text (gmi:link:text link)))
     `(link ,uri ,alt-text)))
