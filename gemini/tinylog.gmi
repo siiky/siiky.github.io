@@ -5,6 +5,11 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-07-06 01:23 +0100
+Found the other day's song, and it wasn't Carolina Deslandes:
+=> https://invidious.snopyta.org/watch?v=PSmbg9y4BgE "Mais ou Menos Isto", by Rita Rocha
+Apparently she won The Voice Kids Portugal...? Faugh!
+
 ## 2022-07-04 01:02 +0100
 I finally got my paid SourceHut subscription! From today I'll be (slowly) moving my stuff away from GitHub, starting with ipfs.scm and my website.
 The website will be hosted on SourceHut Pages, that also supports Gemini! I already started working on converting my so very complexicated webshite into a lean and simple(r) Gemini capsule. Still have some quirks to think about (how to make it available in HTML form, because of links), but should be up soon enough! Only the math-heavy posts will be a real PITA :/
@@ -32,7 +37,7 @@ Has the downside of needing a pencil/pen at all times, but it's so slim it can b
 ## 2022-06-23 01:51 +0100
 Wrote a oneliner to get a (I think valid) Gemfeed out of all my input files, ordered by the date each was last edited according to git log, complete with title and all -- the first line of all my files is the title, be they Markdown, Org, or Gemtext, and luckily for me the line starts with some sort of tag, some space, and then the title.
 Here it is:
-```
+```sh
 find */ -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
 while read file; do
   # Get the last commit
@@ -59,7 +64,7 @@ Just some minutes ago, due to a conversation on #chicken, I realized why foldl a
 
 ## 2022-06-22 20:19 +0100
 Command to generate tinylog dates:
-```
+```sh
 date +'%F %R %z'
 ```
 To use with Vim:
