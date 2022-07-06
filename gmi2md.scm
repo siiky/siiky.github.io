@@ -57,9 +57,11 @@
 (define (gmi:link->md:link l)
   (let* ((text (gmi:link:text l))
          (uri (gmi:link:uri l))
-         (text (if (string-null? text) uri text)))
+         (link (if (string-null? text)
+                   (string-append "<" uri ">")
+                   (string-append "[" text "](" uri ")"))))
     ; TODO: Escape characters?
-    (list (string-append " * [" text "](" uri ")"))))
+    (list (string-append " * " link))))
 
 (define (grouped-gmi-element->md-element elem)
   (cond
@@ -72,7 +74,7 @@
 
     ; Grouped list of links
     ((and (list? elem) (eq? (car elem) 'links))
-     (cons "" (concatenate (map gmi:link->md:link (cdr elem)))))
+     `("" ,@(concatenate (map gmi:link->md:link (cdr elem))) ""))
 
     ((gmi:link? elem)
      (gmi:link->md:link elem))
