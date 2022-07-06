@@ -84,10 +84,11 @@
 
     ((gmi:code? elem)
      `(""
-       ;"```" ; NOTE: lowdown doesn't support alt-text for code blocks
-       ,(string-append "```" (gmi:code:text elem))
-       ,@(gmi:code:lines elem)
-       "```"
+       ; NOTE: lowdown doesn't support ``` code blocks
+       ;,(string-append "```" (gmi:code:text elem))
+       ;,@(gmi:code:lines elem)
+       ;"```"
+       ,@(map (cute string-append "\t" <>) (gmi:code:lines elem))
        ""))
     ))
 
