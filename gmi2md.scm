@@ -94,17 +94,14 @@
 
 
 (define (main args)
-  (let ((gmi-file (car args))
-        (gemini-root (make-absolute-pathname (current-directory) (cadr args))))
-    (call-with-input-file
-      gmi-file
-      (chain-lambda (gmi:read _)
-                    (map (phi (convert? gemini-root) extension/gmi->html) _)
-                    (group-links _)
-                    (map grouped-gmi-element->md-element _)
-                    (concatenate _)
-                    (for-each write-line _)
-                    ))))
+  (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))
+    (chain (gmi:read)
+           (map (phi (convert? gemini-root) extension/gmi->html) _)
+           (group-links _)
+           (map grouped-gmi-element->md-element _)
+           (concatenate _)
+           (for-each write-line _)
+           )))
 
 
 (main (command-line-arguments))
