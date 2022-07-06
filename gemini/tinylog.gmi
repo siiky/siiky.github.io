@@ -37,7 +37,8 @@ Has the downside of needing a pencil/pen at all times, but it's so slim it can b
 ## 2022-06-23 01:51 +0100
 Wrote a oneliner to get a (I think valid) Gemfeed out of all my input files, ordered by the date each was last edited according to git log, complete with title and all -- the first line of all my files is the title, be they Markdown, Org, or Gemtext, and luckily for me the line starts with some sort of tag, some space, and then the title.
 Here it is:
-```sh
+```bash
+#!/usr/bin/env bash
 find */ -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
 while read file; do
   # Get the last commit
