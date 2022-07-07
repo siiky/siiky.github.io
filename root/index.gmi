@@ -18,7 +18,7 @@ This is where you'll find nothing interesting, welcome.
 => words/covid.gmi 2022-07-07 - COVID Experience
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
-=> kB45oC/water_stations.org 2022-07-07 - Water Stations
+=> kB45oC/water_stations.gmi 2022-07-07 - Water Stations
 => psychology/fagot.org 2022-07-07 - Fagot
 => books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - /How to Avoid a Climate Disaster/, Bill Gates
 => care/ipfs.gmi 2022-07-07 - IPFS
