@@ -39,7 +39,7 @@ This is where you'll find nothing interesting, welcome.
 => books/list.md 2022-07-07 - Books list
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => philosophy/identity.md 2022-07-07 - Identity
-=> words/quotes.md 2022-07-07 - just quotes
+=> words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.md 2022-07-07 - Credit
 => functional_programming/immutability.md 2022-07-07 - Immutability
 => kB45oC/seamless_updates.md 2022-07-07 - Seamless Updates
@@ -58,4 +58,3 @@ This is where you'll find nothing interesting, welcome.
 => words/slpod.md 2022-07-07 - SLPOD (Suckless Podcatcher)
 => philosophy/utilitarianism.md 2022-07-07 - Utilitarianism
 => functional_programming/curriculum.org 2022-07-07 - [WIP] Curriculum for the Imperative vs Functional Programming Teaching Experiment
-=> words/quotes.gmi 2020/05/26 - just quotes

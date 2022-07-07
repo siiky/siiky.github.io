@@ -48,8 +48,8 @@ Lenina, from Brave New World, by Aldous Huxley
 
 Socrates, from Socrates, by Voltaire
 
-=> https://www.gutenberg.org/ebooks/4683 Project Gutenberg
 => https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_%28play%29 Wikipedia
+=> https://www.gutenberg.org/ebooks/4683 Project Gutenberg
 
 ====================
 
@@ -69,6 +69,7 @@ From Brave New World, by Aldous Huxley
 From Animal Farm, by George Orwell
 
 => https://en.wikipedia.org/wiki/Animal_Farm Wikipedia
+=> https://gutenberg.net.au/plusfifty-n-z.html#orwell Project Gutenberg Australia
 
 ====================
 
@@ -84,6 +85,7 @@ From Dialogues Concerning Natural Religion, by David Hume
 
 From Tractatus Logico-Philosophicus, by Ludwig Wittgenstein
 
+=> https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus Wikipedia
 => https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden Standard Ebooks
 
 ====================
@@ -92,4 +94,5 @@ From Tractatus Logico-Philosophicus, by Ludwig Wittgenstein
 
 Jean Valjean to Marius Pontmercy, from Les Misérables, by Victor Hugo
 
+=> https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables Wikipedia
 => https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood Standard Ebooks
