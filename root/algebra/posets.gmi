@@ -1,22 +1,17 @@
-% POSets
-% siiky
-% 2021/01/25
+# WIP POSets
+@siiky
+2021/01/25
 
-Take a look at my other page on [groups](groups.html) for the notation I'll be
-using here.
+Take a look at my other page on groups for the notation I'll be using here.
 
-The _transitive closure_ of a relation $\theta$, often represented as
-$\theta^{*}$, is defined as:
+=> groups.md Groups
 
-$(a, b) \in \theta^{*} \iff \exists c \in S: (a, c) \in \theta \land (c, b) \in \theta^{*}$
+The transitive closure of a relation θ, often represented as θ^*, is defined as:
 
-# Interesting relations
+(a, b) ∈ θ^* ⇔ ∃ c ∈ S: (a, c) ∈ θ ∧ (c, b) ∈ θ^*
 
-Non-Reflexive
- ~ $\forall a \in S: (a, a) \notin \theta$
+# Interesting relation properties
 
-Anti-Symmetric
- ~ $\forall a, b \in S: (a, b) \in \theta \implies (b, a) \notin \theta$
-
-Anti-Transitive
- ~ $\forall a, b, c \in S: (a, b) \in \theta \land (b, c) \in \theta \implies (a, c) \notin \theta$
+* Non-Reflexive: ∀ a ∈ S: (a, a) ∉ θ
+* Anti-Symmetric: ∀ a, b ∈ S: (a, b) ∈ θ ⇒ (b, a) ∉ θ
+* Anti-Transitive: ∀ a, b, c ∈ S: (a, b) ∈ θ ∧ (b, c) ∈ θ ⇒ (a, c) ∉ θ

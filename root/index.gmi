@@ -10,7 +10,6 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => code/gemtext.gmi 2022-07-07 - Scheme Gemtext Reader
-=> petri_nets/log002.org 2022-07-07 - Log002
 => meta/dates.gmi 2022-07-07 - Post dates
 => kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
 => philosophy/flexibility-relations.org 2022-07-07 - Flexibility & Relations
@@ -34,27 +33,17 @@ This is where you'll find nothing interesting, welcome.
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
 => algebra/faucets.md 2022-07-07 - Faucets
 => osm/cheatsheet.md 2022-07-07 - OpenStreetMap Cheat Sheet
-=> algebra/posets.md 2022-07-07 - POSets
-=> philosophy/hard_determinism.md 2022-07-07 - Hard Determinism
 => books/list.md 2022-07-07 - Books list
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
-=> philosophy/identity.gmi 2022-07-07 - Identity
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
-=> functional_programming/immutability.md 2022-07-07 - Immutability
 => kB45oC/seamless_updates.md 2022-07-07 - Seamless Updates
 => psychology/links.md 2022-07-07 - Psychology Links
 => philosophy/links.md 2022-07-07 - Philosophy Links
 => algebra/groups.md 2022-07-07 - Groups
-=> ssg/lib.md 2022-07-07 - SSG, _the Library_
-=> algebra/functors.md 2022-07-07 - Functors
 => algebra/cat_theory_perf.md 2022-07-07 - Category Theory and Performance
 => scheme/kless.gmi 2022-07-07 - kless
-=> todo/sbn.md 2022-07-07 - Small Big Numbers
 => scheme/gv-dsl.gmi 2022-07-07 - GraphViz Scheme DSL
 => scheme/exceptions.md 2022-07-07 - Exceptions (aka Conditions) in Scheme
-=> ssg/site.md 2022-07-07 - SSG, _Your own, personal, Static Site Generator_
 => ssg/page.md 2022-07-07 - Static Site Generator
 => words/slpod.md 2022-07-07 - SLPOD (Suckless Podcatcher)
-=> philosophy/utilitarianism.md 2022-07-07 - Utilitarianism
-=> functional_programming/curriculum.org 2022-07-07 - [WIP] Curriculum for the Imperative vs Functional Programming Teaching Experiment

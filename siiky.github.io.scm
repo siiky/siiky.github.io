@@ -189,11 +189,8 @@
                       (ssg:ent "./butterfly_effect.org" "2022/02/17" "Butterfly Effect")
                       (ssg:ent "./flexibility-life.org" "2022/06/01" "Flexibility & Life")
                       (ssg:ent "./flexibility-relations.org" "2022/06/07" "Flexibility & Relations")
-                      (ssg:ent wip "./descartes.discourse_of_a_method_for_the_well_guiding_of_reason_and_the_discovery_of_truth_in_the_sciences.md" "" "_A Discourse of a Method for the Well Guiding of Reason and the Discovery of Truth in the Sciences_, by Descartes")
                       (ssg:ent wip "./descartes.meditations_on_first_philosophy.md" "" "_Meditations on First Philosophy_, by Descartes")
-                      (ssg:ent wip "./plato.alcibiades_2.md" "" "_Alcibiades II_, by Plato")
                       (ssg:ent wip "./identity.md" "2020/06/28" "Identity")
-                      (ssg:ent wip "./utilitarianism.md" "" "Utilitarianism")
                       (ssg:ent wip "./hard_determinism.md" "" "Hard Determinism")
                       )
 
@@ -202,7 +199,6 @@
                       )
 
              (ssg:dir "words"
-                      (ssg:ent "./slpod.md" "2017/03/04" "SLPOD - a simple, suckless podcatcher (idea)")
                       (ssg:ent "./quotes.md" "2020/05/26" "just quotes")
                       (ssg:ent "./covid.org" "2022/05/31" "The COVID Experience")
                       )
@@ -212,19 +208,9 @@
                       (ssg:ent "./fagot.org" "2022/05/05" "Fagot")
                       )
 
-             (ssg:dir "ssg"
-                      (ssg:ent "./page.md" "2017/03/06" "simple static site generator (idea)")
-                      (ssg:ent wip "./lib.md" "2019/10/18" "SSG, the Library")
-                      (ssg:ent wip "./site.md" "2018/01/01" "SSG, Your own, personal, Static Site Generator")
-                      )
-
              (ssg:dir "work"
                       (ssg:ent "./credit.md" "2020/04/30" "Credit")
                       (ssg:ent "./CVE-2020-26935.md" "2020/11/06" "CVE-2020-26935")
-                      )
-
-             (ssg:dir wip "todo"
-                      (ssg:ent "./sbn.md" "2019/10/01" "Small Big Numbers")
                       )
              )
     )
