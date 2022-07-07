@@ -12,17 +12,19 @@ while read file; do
     sed 's|0\([0-9]\{2\}\)$|\1|;' |
     sed 's|Jan|01|; s|Feb|02|; s|Mar|03|; s|Apr|04|; s|May|05|; s|Jun|06|; s|Jul|07|; s|Aug|08|; s|Sep|09|; s|Oct|10|; s|Nov|11|; s|Dec|12|;')"
   cdate="$(head -3 "$file" | tail +3 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)|\1|;')"
+  file="$(echo "$file" | sed "s|^'||; s|'$||")"
+  title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
+
   # The single quotes let `read` split the words correctly always!
-  echo -e "'$update'\t'$cdate'\t'$file'"
+  echo "$title" | grep -qvw WIP && echo -e "'$update'\t'$cdate'\t$file\t$title"
 done |
 sort -nr |
-while read update cdate file; do
+while read update cdate file title; do
   date="$(echo -e "$update\n$cdate" | sed "s|^'||; s|'$||;" | grep -v '^\s*$' | sort -nr | head -1)"
   file="$(echo "$file" | sed "s|^'||; s|'$||")"
 
   # Remove formatting and spaces of the beginning of the line, leaving the title
-  title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
-  uri="$(echo "$file" | sed "s|^$root||; s|^/||;")"
+  uri="$(echo "$file" | sed "s|^$root/*||; s|^/||;")"
 
-  echo "$title" | grep -qvw WIP && echo "=> $uri $date - $title"
+  echo "=> $uri $date - $title"
 done
