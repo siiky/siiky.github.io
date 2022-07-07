@@ -18,7 +18,7 @@ This is where you'll find nothing interesting, welcome.
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
 => kB45oC/water_stations.gmi 2022-07-07 - Water Stations
-=> psychology/fagot.org 2022-07-07 - Fagot
+=> psychology/fagot.gmi 2022-07-07 - Fagot
 => books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - /How to Avoid a Climate Disaster/, Bill Gates
 => care/ipfs.gmi 2022-07-07 - IPFS
 => osm/overpass.org 2022-07-07 - Overpass
@@ -45,5 +45,3 @@ This is where you'll find nothing interesting, welcome.
 => scheme/kless.gmi 2022-07-07 - kless
 => scheme/gv-dsl.gmi 2022-07-07 - GraphViz Scheme DSL
 => scheme/exceptions.md 2022-07-07 - Exceptions (aka Conditions) in Scheme
-=> ssg/page.md 2022-07-07 - Static Site Generator
-=> words/slpod.md 2022-07-07 - SLPOD (Suckless Podcatcher)
