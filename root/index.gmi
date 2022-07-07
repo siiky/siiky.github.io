@@ -5,6 +5,8 @@ This is where you'll find nothing interesting, welcome.
 => about.gmi About
 => tinylog.gmi Tinylog
 
+*TODO:* Mention IPFS
+
 ## Posts
 
 => code/gemtext.gmi 2022-07-07 - Scheme Gemtext Reader
