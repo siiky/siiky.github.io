@@ -40,7 +40,7 @@ This is where you'll find nothing interesting, welcome.
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => philosophy/identity.gmi 2022-07-07 - Identity
 => words/quotes.gmi 2022-07-07 - just quotes
-=> work/credit.md 2022-07-07 - Credit
+=> work/credit.gmi 2022-07-07 - Credit
 => functional_programming/immutability.md 2022-07-07 - Immutability
 => kB45oC/seamless_updates.md 2022-07-07 - Seamless Updates
 => psychology/links.md 2022-07-07 - Psychology Links
