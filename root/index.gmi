@@ -25,6 +25,7 @@ This is where you'll find nothing interesting, welcome.
 => osm/overpass.org 2022-07-07 - Overpass
 => scheme/reader-syntax.org 2022-07-07 - Reader Syntax
 => philosophy/butterfly_effect.org 2022-07-07 - Butterfly Effect
+=> crypto/double_transposition.gmi 2022-07-07 - Double Transposition Cipher
 => philosophy/donating.org 2022-07-07 - Donating
 => osm/prettymaps.org 2022-07-07 - prettymaps
 => kB45oC/gnuplot.org 2022-07-07 - Gnuplot Quickstart
@@ -57,4 +58,4 @@ This is where you'll find nothing interesting, welcome.
 => words/slpod.md 2022-07-07 - SLPOD (Suckless Podcatcher)
 => philosophy/utilitarianism.md 2022-07-07 - Utilitarianism
 => functional_programming/curriculum.org 2022-07-07 - [WIP] Curriculum for the Imperative vs Functional Programming Teaching Experiment
-=> crypto/double_transposition.gmi 2022/02/13 - Double Transposition Cipher
+=> words/quotes.gmi 2020/05/26 - just quotes
