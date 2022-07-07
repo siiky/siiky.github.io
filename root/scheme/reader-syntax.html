@@ -1,105 +1,86 @@
-<p>TIL a bit of reader syntax magic. With very few lines of code I was
-able to make available the <code>#!sql</code> reader syntax to let me
-read the contents of SQL files as a <strong>literal string</strong> (any
-file actually, but I was thinking of using it for SQL files only).</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">; This:</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">#!sql</span> <span class="st">&quot;path/to/file.sql&quot;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">; Into this:</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;CREATE TABLE entries (</span><span class="ch">\n</span><span class="st">    cid      TEXT        PRIMARY KEY NOT NULL UNIQUE,</span><span class="ch">\n</span><span class="st">    name     TEXT        NOT NULL,</span><span class="ch">\n</span><span class="st">    consumed BOOLEAN     NOT NULL DEFAULT FALSE,</span><span class="ch">\n</span><span class="st">    url      TEXT        UNIQUE,</span><span class="ch">\n</span><span class="st">    type     VARCHAR(10) NOT NULL REFERENCES types (name)</span><span class="ch">\n</span><span class="st">);</span><span class="ch">\n\n</span><span class="st">CREATE TABLE nodes (</span><span class="ch">\n</span><span class="st">    id   TEXT        PRIMARY KEY NOT NULL UNIQUE,</span><span class="ch">\n</span><span class="st">    name VARCHAR(20) UNIQUE</span><span class="ch">\n</span><span class="st">);</span><span class="ch">\n\n</span><span class="st">CREATE TABLE pins (</span><span class="ch">\n</span><span class="st">    node TEXT NOT NULL REFERENCES nodes (id),</span><span class="ch">\n</span><span class="st">    cid  TEXT NOT NULL REFERENCES entries (cid)</span><span class="ch">\n</span><span class="st">);</span><span class="ch">\n\n</span><span class="st">CREATE TABLE types (</span><span class="ch">\n</span><span class="st">    name VARCHAR(10) PRIMARY KEY NOT NULL UNIQUE</span><span class="ch">\n</span><span class="st">);</span><span class="ch">\n</span><span class="st">&quot;</span></span></code></pre></div>
-<p>Here's the necessary code in its entirety:</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(set-read-syntax!</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  &#39;sql</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">lambda</span> (port)</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">let</span> ((path (<span class="kw">read</span> port)))</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>      (unless (<span class="kw">string?</span> path)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        (syntax-error <span class="st">&quot;The #!sql syntax expects a string&quot;</span>))</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>      (<span class="kw">let</span> ((sql-stmt (<span class="kw">call-with-input-file</span> path (cute read-string <span class="dv">#f</span> &lt;&gt;) #:text)))</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        (unless (<span class="kw">string?</span> sql-stmt)</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>          (syntax-error <span class="st">&quot;Failed reading the SQL file&quot;</span>))</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        sql-stmt))))</span></code></pre></div>
-<p>There's one caveat with this approach, however: the reader syntax
-will be available to the whole program, not just the file or module that
-defined or imported it. This means that the identifiers must be unique,
-otherwise different definitions will collide with each other and the
-compiled program won't be what you expect. <strong>AND</strong> I think
-that it will be available not only at compile time, but at runtime as
-well – very good to keep in mind!</p>
-<p><code class="verbatim">klovett</code> on IRC mentioned that it's
-possible to use <code class="verbatim">-X/-extend</code> to make it
-available at compile time only. As an example, <code
-class="verbatim">klovett</code> said that compiling with <code
-class="verbatim">csc -X srfi-19-literals</code> would allow one to write
-<code>#@1-1-22</code>. Try this, after installing SRFI-19:</p>
-<pre class="shell"><code>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +&#39;%Y-%m-%d&#39;`&quot;
+
+<h1>Reader Syntax</h1>
+<p>@siiky
+2022/03/15</p>
+<p>TIL a bit of reader syntax magic. With very few lines of code I was able to make available the #!sql reader syntax to let me read the contents of SQL files as a literal string (any file actually, but I was thinking of using it for SQL files only).</p>
+<pre><code>; This:
+#!sql &quot;path/to/file.sql&quot;
+; Into this:
+&quot;CREATE TABLE entries (\n    cid      TEXT        PRIMARY KEY NOT NULL UNIQUE,\n    name     TEXT        NOT NULL,\n    consumed BOOLEAN     NOT NULL DEFAULT FALSE,\n    url      TEXT        UNIQUE,\n    type     VARCHAR(10) NOT NULL REFERENCES types (name)\n);\n\nCREATE TABLE nodes (\n    id   TEXT        PRIMARY KEY NOT NULL UNIQUE,\n    name VARCHAR(20) UNIQUE\n);\n\nCREATE TABLE pins (\n    node TEXT NOT NULL REFERENCES nodes (id),\n    cid  TEXT NOT NULL REFERENCES entries (cid)\n);\n\nCREATE TABLE types (\n    name VARCHAR(10) PRIMARY KEY NOT NULL UNIQUE\n);\n&quot;
 </code></pre>
-<p>You can find the relevant CHICKEN documentation for
-<code>set-read-syntax!</code> &amp; friends <a
-href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">here</a>
-or <a href="https://api.call-cc.org/5/doc/chicken/read-syntax">here</a>;
-and you can find the relevant SRFI-19 literals documentation <a
-href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">here</a>
-or <a
-href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">here</a>.</p>
+<p>Here's the necessary code in its entirety:</p>
+<pre><code>(set-read-syntax!
+  'sql
+  (lambda (port)
+    (let ((path (read port)))
+      (unless (string? path)
+        (syntax-error &quot;The #!sql syntax expects a string&quot;))
+
+      (let ((sql-stmt (call-with-input-file path (cute read-string #f &lt;&gt;) #:text)))
+        (unless (string? sql-stmt)
+          (syntax-error &quot;Failed reading the SQL file&quot;))
+        sql-stmt))))
+</code></pre>
+<p>There's one caveat with this approach, however: the reader syntax will be available to the whole program, not just the file or module that defined or imported it. This means that the identifiers must be unique, otherwise different definitions will collide with each other and the compiled program won't be what you expect. AND I think that it will be available not only at compile time, but at runtime as well -- very good to keep in mind!</p>
+<p>Someone on IRC mentioned that it's possible to use -extend (-X) to make it available at compile time only. As an example, they said that compiling with -X srfi-19-literals would allow one to write #@1-1-22. Try this, after installing SRFI-19:</p>
+<pre><code>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +'%Y-%m-%d'`&quot;
+</code></pre>
+<p>Relevant CHICKEN documentation for set-read-syntax! &amp; friends:</p>
+<ul>
+<li><a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)</a></li>
+<li><a href="https://api.call-cc.org/5/doc/chicken/read-syntax">https://api.call-cc.org/5/doc/chicken/read-syntax</a></li></ul>
+<p>And the relevant SRFI-19 literals documentation:</p>
+<ul>
+<li><a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form</a></li>
+<li><a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">https://api.call-cc.org/5/doc/srfi-19/date-literal-form</a></li></ul>
 <hr />
-<p>To make it more obvious why this is cool, here goes a slightly more
-realistic, though still simple, example.</p>
+<p>To make it more obvious why this is cool, here goes a slightly more realistic, though still simple, example.</p>
 <p>Let's say we have these SQL files:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">-- schema.sql</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">CREATE</span> <span class="kw">TABLE</span> sometbl (col TINYINT <span class="kw">NOT</span> <span class="kw">NULL</span>);</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">-- data.sql</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="kw">INSERT</span> <span class="kw">INTO</span> sometbl (col) <span class="kw">VALUES</span> (<span class="dv">0</span>),(<span class="dv">1</span>),(<span class="dv">2</span>),(<span class="dv">3</span>),(<span class="dv">4</span>),(<span class="dv">5</span>);</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">-- select.sql</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="dt">rowid</span>, col <span class="kw">FROM</span> sometbl;</span></code></pre></div>
-<p>An <code class="verbatim">example.scm</code>:</p>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(import sql-de-lite)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>(define-constant schema <span class="ex">#!sql</span><span class="st">&quot;schema.sql&quot;</span>)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>(define-constant data <span class="ex">#!sql</span><span class="st">&quot;data.sql&quot;</span>)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>(define-constant select <span class="ex">#!sql</span><span class="st">&quot;select.sql&quot;</span>)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>(print (call-with-database</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>         &#39;memory</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>         (<span class="kw">lambda</span> (db)</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>           (<span class="kw">let</span> ((schema (sql db schema))</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                 (data (sql db data))</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>                 (select (sql db select)))</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>             (query fetch-all schema)</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>             (query fetch-all data)</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>             (query fetch-all select)))))</span></code></pre></div>
-<p>And the <code>set-read-syntax!</code> call from before wrapped up in
-a module <code class="verbatim">sql-reader-syntax</code>. After
-compiling the module you can compile the example with <code
-class="verbatim">csc -X sql-reader-syntax example.scm</code>, and this
-is the result of running it:</p>
-<pre class="shell"><code>$ ./example
+<pre><code>-- schema.sql
+CREATE TABLE sometbl (col TINYINT NOT NULL);
+
+-- data.sql
+INSERT INTO sometbl (col) VALUES (0),(1),(2),(3),(4),(5);
+
+-- select.sql
+SELECT rowid, col FROM sometbl;
+</code></pre>
+<p>An example.scm:</p>
+<pre><code>(import sql-de-lite)
+
+(define-constant schema #!sql&quot;schema.sql&quot;)
+(define-constant data #!sql&quot;data.sql&quot;)
+(define-constant select #!sql&quot;select.sql&quot;)
+
+(print (call-with-database
+         'memory
+         (lambda (db)
+           (let ((schema (sql db schema))
+                 (data (sql db data))
+                 (select (sql db select)))
+             (query fetch-all schema)
+             (query fetch-all data)
+             (query fetch-all select)))))
+</code></pre>
+<p>And the set-read-syntax! call from before wrapped up in a module sql-reader-syntax. After compiling the module you can compile the example with csc -X sql-reader-syntax example.scm, and this is the result of running it:</p>
+<pre><code>$ ./example
 ((1 0) (2 1) (3 2) (4 3) (5 4) (6 5))
 </code></pre>
-<p>The <code class="verbatim">example.scm</code> is basically
-transformed into this before being compiled:</p>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(import sql-de-lite)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>(define-constant schema <span class="st">&quot;CREATE TABLE sometbl (col TINYINT NOT NULL);&quot;</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>(define-constant data <span class="st">&quot;INSERT INTO sometbl (col) VALUES (0),(1),(2),(3),(4),(5);&quot;</span>)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>(define-constant select <span class="st">&quot;SELECT rowid, col FROM sometbl;&quot;</span>)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>(print (call-with-database</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>         &#39;memory</span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>         (<span class="kw">lambda</span> (db)</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>           (<span class="kw">let</span> ((schema (sql db schema))</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>                 (data (sql db data))</span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>                 (select (sql db select)))</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>             (query fetch-all schema)</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>             (query fetch-all data)</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>             (query fetch-all select)))))</span></code></pre></div>
-<p>And notice how <code>schema</code>, <code>data</code>, and
-<code>select</code> are constants (defined with
-<code>define-constant</code>, kinda similar to the <code>static</code>
-keyword in C).</p>
+<p>The example.scm is basically transformed into this before being compiled:</p>
+<pre><code>(import sql-de-lite)
+
+(define-constant schema &quot;CREATE TABLE sometbl (col TINYINT NOT NULL);&quot;)
+(define-constant data &quot;INSERT INTO sometbl (col) VALUES (0),(1),(2),(3),(4),(5);&quot;)
+(define-constant select &quot;SELECT rowid, col FROM sometbl;&quot;)
+
+(print (call-with-database
+         'memory
+         (lambda (db)
+           (let ((schema (sql db schema))
+                 (data (sql db data))
+                 (select (sql db select)))
+             (query fetch-all schema)
+             (query fetch-all data)
+             (query fetch-all select)))))
+</code></pre>
+<p>And notice how schema, data, and select are constants (defined with define-constant, kinda similar to the static keyword in C).</p>
