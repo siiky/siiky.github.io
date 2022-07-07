@@ -21,11 +21,13 @@
   (let* ((uri (gmi:link:uri link))
          (uri (pathname-replace-extension uri ".html"))
          (alt-text (gmi:link:text link)))
-    `(link ,uri ,alt-text)))
+    (gmi:link uri alt-text)))
 
 
 (define concatenate (cute apply append <>))
 (define string-null? (chain-lambda (string-length _) (zero? _)))
+
+(define (links? l) (and (list? l) (eq? (car l) 'links)))
 
 
 (define (group-links gmi)
@@ -73,7 +75,7 @@
                           (gmi:header:text elem))))
 
     ; Grouped list of links
-    ((and (list? elem) (eq? (car elem) 'links))
+    ((links? elem)
      `("" ,@(concatenate (map gmi:link->md:link (cdr elem))) ""))
 
     ((gmi:link? elem)
@@ -81,6 +83,9 @@
 
     ((gmi:list? elem)
      `("" ,@(map (cute string-append " * " <>) (gmi:list:items elems)) ""))
+
+    ((gmi:blockquote? elem)
+     `(,(string-append "> " (gmi:blockquote:text elem))))
 
     ((gmi:code? elem)
      `(""

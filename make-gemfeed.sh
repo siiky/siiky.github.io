@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-find */ -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
+root=$1
+
+find "$root" -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
 while read file; do
   # Get the last commit
   date="$(git log -1 -- "$file" |
@@ -15,5 +17,6 @@ sort -nr |
 while read date file; do
   # The sed command removes the formatting and spaces of the beginning of the line, leaving the title
   title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
-  echo "=> $file $date - $title"
+  uri="$(echo "$file" | sed "s|^$root||;")"
+  echo "=> $uri $date - $title"
 done
