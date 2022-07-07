@@ -43,4 +43,4 @@ This is where you'll find nothing interesting, welcome.
 => algebra/cat_theory_perf.md 2022-07-07 - Category Theory and Performance
 => scheme/kless.gmi 2022-07-07 - kless
 => scheme/gv-dsl.gmi 2022-07-07 - GraphViz Scheme DSL
-=> scheme/exceptions.md 2022-07-07 - Exceptions (aka Conditions) in Scheme
+=> scheme/exceptions.gmi 2022-07-07 - Exceptions (aka Conditions) in Scheme
