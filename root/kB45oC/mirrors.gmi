@@ -1,0 +1,90 @@
+# Content-based Mirrors
+@siiky
+2022/06/09
+
+Contacted SEP yesterday asking if there was a way to make personal archives/mirrors of either the whole site or several entries.
+
+=> https://plato.stanford.edu Stanford Encyclopedia of Philosophy
+
+They kindly replied (aweome, and thanks!) quoting the Terms of Use¹, saying that I have permission to freely crawl/download entries for personal use, within reasonable network use (1. User Rights) -- I just can't make them public (non-personal) (2b. & 2d. Limited Electronic Distribution Rights).
+
+=> https://plato.stanford.edu/info.html#terms Terms of Use
+
+While I don't mean to convince them of anything, it gave me the idea for this post: big sites that publish content publicly for free use are a great fit for experimenting with novel means of distribution and archival other than the good (bad) old HTTP we have today.
+
+More specifically, I'll try to convince you that content-based content addressing is a better alternative to location-based content addressing (the current web), and try to explain how and why.
+
+=> https://en.wikipedia.org/wiki/Content-addressable_network Content-addressable network (Wikipedia)
+=> https://docs.ipfs.io/concepts/glossary/#content-addressing Content addressing (IPFS glossary)
+
+To make writing easier, I'll pick the Debian package repos as a sort of "case study", but other package repositories would work equally well (Arch, Nix, F-Droid, Flathub, ...). A good alternative would be any Wikimedia site, such as Wikipedia.² I'll write about mirrors but much of it applies to archives equally well. Although some of the points I'll raise may have nuances that make more sense to sites or to package repos, to archives or to mirrors, the spirit is there!
+
+## Location-based Addressing
+
+Let's start with content.
+
+Setting up a mirror site isn't for just about anyone. You can't wake up one day and think "yup, feel like mirroring Debian's repos starting today." Ignoring technical requirements, there's too much bureaucracy for you to decide it on such a whim.³ But is this bureaucracy necessary? I don't think so, I think it's only a symptom of the current web.
+
+On the current web (location-based), when you go to https://example.com/some-page.html you don't know what you're gonna get. Hopefully whatever it is you're looking for, but you just can't know. Plus, the content you get from a location may change from today to tomorrow -- a very important point.
+
+Imagine if anyone could claim to be a Debian mirror. Users set example.com/debian-repo in sources.list, thinking they're getting the official Debian packages, but (dramatic plot twist) the mirror is malicious and all the packages play nyan cat in loop.
+
+To emphasize it: there's no way for a site to prove what content it's serving, or for you to know that you'll get what you're expecting.⁴ When you visit some page on the current web, you have to trust the site. And because the content delivered from a particular location may change, the trustworthy sites of today may not be so tomorrow.
+
+What would the consequences be if a hypothetical Debian mirror was/became malicious? Assuming it was an "official" one (listed on the mirrors): Debian would have to drop it from the list; damage to its users resulting from it couldn't be undone (or very unlikely); but worst of all, the rules for registering as a mirror would very likely become stricter in an effort to avoid another incident, thus making the content more centralized.
+
+=> https://www.debian.org/mirror/list Debian mirrors
+
+## Content-based Addressing
+
+In contrast, in a content-based system, content is uniquely identified by something⁵, so that when you ask for content ABC you'll get ABC, not XYZ. This has lots of implications!
+
+Side note: a content-based system needn't necessarily be a public P2P network, but since the post is about publicly shared & shareable content, it's what makes most sense, and what I'll use as a model here, with all the bad (good) that comes with it.
+
+First, since the content is no longer tied to a trusted entity (site owner/operator), the content can be distributed by anyone, and the system can take care of making sure the content you get corresponds to the content you request.
+
+With the trust deal sealed, the bureaucracy is no longer necessary. If Debian's repos were available through such a system, deciding to mirror them from one day to the next wouldn't be unthinkable! You could easily opt-in to mirror their repos, and they could trust the system to deliver users the (authentic) packages they request, independently of whom they get the packages from.
+
+Since anyone can safely share the content with anyone else more easily, more people can join in and help share that content. I could share the packages I have installed on my own PCs, for example, helping others download them too.
+
+Bonus benefit: Debian's traffic would decrease, and file transfer would be more local, that is, you'd generally get the files from your closest neighbors (that have them, of course), making the whole packaging system more robust (resilient) -- even if Debian's servers go down, I can install things as long as I can connect to anyone that has them.
+
+=> https://en.wikipedia.org/wiki/Resilience_%28network%29 Network resiliency (Wikipedia)
+
+Unfortunately, however, this is only the ideal. For some reason unbeknownst to me, people prefer to stick with the archaic C-S architecture and the so very great HTTP centralized web.
+
+=> https://en.wikipedia.org/wiki/Client%E2%80%93server_model C-S architecture (Wikipedia)
+
+The only problem I haven't mentioned yet is that we don't want content to be immutable (one of the implications of content-based addressing). There must be a way to "update" content. Put another way, we still need some form of location-based addressing, of which there are some. One is for the content owner to provide the latest "root" address through some current means, e.g., https://debian.org/root-content, so that I can ask Debian for the latest content, but fetch it from other peers. Another is to bake a similar mechanism into the system itself -- entities may publish the latest "root" address to the network on a known address (location-based but not necessarily human-readable/human-friendly).
+
+## IPFS
+
+Now, I didn't come up with any of these ideas myself. I tried to make the post a bit generic, but always thinking of a particular network in the background. And it should be unsurprising that this network should be IPFS. It's the best content-based addressable P2P content distribution network that I know of to date.
+
+I won't go into details here, but there's a "namespace" of content-identifiers (CIDs), and two network schemes: one for content-based addressing (IPFS, ipfs://) and another for location-based addressing (IPNS, ipns://).⁶
+
+Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribuition networks, unpopular content is hard to get (especially slow to find). Finally, the "reference" IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷
+
+## Footnotes
+
+¹ I hadn't come across the ToU before while browsing the site (refreshing!) and even had some trouble finding them after the email.
+
+² Except there are no "official" Wikipedia mirrors, and no restrictions or bureaucracies to become one.
+
+=> https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks Mirrors and forks (Wikipedia)
+=> https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking Forking FAQ (Wikipedia)
+
+³ Admittedly, much less than I would ever have expected: a manual request! But even this little is already too much...
+
+=> https://www.debian.org/mirror/ftpmirror Setting up a Debian archive mirror
+
+⁴ In the particular case of package repos, a list of checksums, for example, could be downloaded from the official repos, and used to confirm individual files haven't been altered (apt uses a simple "clock" version to detect outdated mirrors but nothing else). Authenticity of files could be checked using, for example, pubkey cryptography (apt does this), but still there are caveats -- you know a file came from who you expect, but not that it *is* the file you want.
+
+⁵ This is a technical implementation detail, but if it makes it easier to understand you can think of it as a cryptographic hash of the content. It's only important that the something be determinisc and based on the content itself.
+
+⁶ The CID "namespace" is shared, so the same CID may identify different content depending on the scheme (ipfs:// or ipns://), as should be expected.
+
+⁷ While you may be able to run a BT client on a phone, for example, a full IPFS node would likely be inefficient/slow -- a Raspberry Pi 2 can still manage it for light use. Version v0.13.0 introduced some changes that make "light nodes" closer to a possibility, but no such (working) node exists as of now, AFAIK. Also new in this version is resource management configuration, making it possible to limit certain resources based on configuration. Previously you could only have some heuristics to "garbage collect" connected peers; now you can limit the number of connections, open FDs, maximum memory, &c! My Raspberry Pi 2 is no longer beaten dead by IPFS. :3
+
+=> https://github.com/ipfs/go-ipfs/releases/tag/v0.13.0#support-for-block-and-car-response-formats IPFS v0.13.0 Release Notes
+=> https://github.com/ipfs/kubo/blob/master/docs/config.md#swarmresourcemgr IPFS resource management

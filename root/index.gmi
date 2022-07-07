@@ -12,7 +12,7 @@ This is where you'll find nothing interesting, welcome.
 => code/gemtext.gmi 2022-07-07 - Scheme Gemtext Reader
 => petri_nets/log002.org 2022-07-07 - Log002
 => meta/dates.gmi 2022-07-07 - Post dates
-=> kB45oC/mirrors.org 2022-07-07 - Content-based Mirrors
+=> kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
 => philosophy/flexibility-relations.org 2022-07-07 - Flexibility & Relations
 => philosophy/flexibility-life.org 2022-07-07 - Flexibility & Life
 => words/covid.gmi 2022-07-07 - COVID Experience
