@@ -47,16 +47,11 @@
          (cond
            ((null? gmi)
             (reverse (cons (reverse links) ret)))
-
            ((gmi:link? (car gmi))
             (iloop ret (cdr gmi) (cons (car gmi) links)))
+           (else (oloop (cons (reverse links) ret) gmi)))))
 
-           (else
-             (oloop (cons (reverse links) ret) gmi))
-           )))
-
-      (else
-        (oloop (cons (car gmi) ret) (cdr gmi))))))
+      (else (oloop (cons (car gmi) ret) (cdr gmi))))))
 
 
 (define (gmi:link->md:link l)
