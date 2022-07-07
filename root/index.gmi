@@ -51,7 +51,7 @@ This is where you'll find nothing interesting, welcome.
 => algebra/cat_theory_perf.md 2022-07-07 - Category Theory and Performance
 => scheme/kless.gmi 2022-07-07 - kless
 => todo/sbn.md 2022-07-07 - Small Big Numbers
-=> scheme/gv-dsl.md 2022-07-07 - GraphViz DOT Scheme DSL
+=> scheme/gv-dsl.gmi 2022-07-07 - GraphViz Scheme DSL
 => scheme/exceptions.md 2022-07-07 - Exceptions (aka Conditions) in Scheme
 => ssg/site.md 2022-07-07 - SSG, _Your own, personal, Static Site Generator_
 => ssg/page.md 2022-07-07 - Static Site Generator
