@@ -164,7 +164,6 @@
                       )
 
              (ssg:dir "kB45oC"
-                      (ssg:ent "./seamless_updates.md" "2020/03/13" "Seamless Updates")
                       (ssg:ent "./gnuplot.org" "2022/01/12" "Gnuplot Quickstart")
                       (ssg:ent "./water_stations.org" "2022/05/11" "Water Stations")
                       (ssg:ent "./mirrors.org" "2022/06/09" "Content-based Mirrors")

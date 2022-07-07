@@ -37,7 +37,6 @@ This is where you'll find nothing interesting, welcome.
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
-=> kB45oC/seamless_updates.md 2022-07-07 - Seamless Updates
 => psychology/links.md 2022-07-07 - Psychology Links
 => philosophy/links.md 2022-07-07 - Philosophy Links
 => algebra/groups.md 2022-07-07 - Groups
