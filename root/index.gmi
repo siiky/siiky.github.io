@@ -37,7 +37,6 @@ This is where you'll find nothing interesting, welcome.
 => algebra/posets.md 2022-07-07 - POSets
 => philosophy/hard_determinism.md 2022-07-07 - Hard Determinism
 => books/list.md 2022-07-07 - Books list
-=> work/CVE-2020-26935.md 2022-07-07 - CVE-2020-26935
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => philosophy/identity.md 2022-07-07 - Identity
 => words/quotes.md 2022-07-07 - just quotes

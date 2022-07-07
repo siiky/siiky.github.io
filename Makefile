@@ -17,9 +17,9 @@ ORG_HTML := $(ORG:.org=.html)
 SRC := $(GMI) $(MD) $(ORG)
 HTML := $(GMI_HTML) $(MD_HTML) $(ORG_HTML)
 
-all: $(ROOT)/index.html
+all: $(HTML) $(ROOT)/index.html
 
-$(ROOT)/index.gmi: index.gmi $(HTML)
+$(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
 	./make-gemfeed.sh $(ROOT) >> $@
 
