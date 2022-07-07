@@ -1,0 +1,96 @@
+# Double Transposition Cipher
+@siiky
+2022/02/13
+
+Got into "hand ciphers" recently, and this was the first (seemingly) decent one that is easy-ish and quick-ish to use.
+
+=> https://en.wikipedia.org/wiki/Double_transposition Wikipedia
+=> https://www.pbs.org/wgbh/nova/decoding/doubtrans.html Where I first learned of it
+
+The basic idea is that you create a matrix of N columns (number of letters of the key), where you will write down row-wise the message you want to encipher, and then reorder the result column-wise according to the chosen key.
+
+An interesting property of this method is that the resulting cipher text has the exact same length and letters of the plain text -- it's an anagram! This is also its main flaw, of course.
+
+## Ciphering
+
+Let's say we want to encipher the text "TOMORROW AT DUSK MOJITOS AT THE BEACH". First, you choose the key, e.g. "GORILLA", make the matrix and annotate each letter's sequence number:
+
+```
+2673451
+GORILLA
+-------
+```
+
+Then write down the message row-wise (left-to-right, top-to-bottom) in the matrix:
+
+```
+2673451  1234567
+GORILLA  AGILLOR
+-------  -------
+TOMORRO  OTORROM
+WATDUSK  KWDUSAT
+MOJITOS  SMITOOJ
+ATTHEBE  EAHEBTT
+ACH       A   CH
+```
+
+And that's it, the first transposition is done. The ciphered text can be read column-wise (top-to-bottom, column number) in the columns order: "OKSE TWMAA ODIH RUTE RSOB OAOTC MTJTH".
+I read some places recommending breaking the ciphered text into blocks of for example 5, so as to be easier to transmit/read off. But I believe also as not to give more hints about the key (due to the shorter columns). With that: "OKSET WMAAO DIHRU TERSO BOAOT CMTJT H".
+
+To get to a double transposition ciphered text you have to apply this process again, now using the previous ciphered text as the plain text (and probably a good idea to use a different key). E.g., with the key "ALMOND":
+
+```
+134652
+ALMOND
+------
+OKSETW
+MAAODI
+HRUTER
+SOBOAO
+TCMTJT
+H
+```
+
+The final ciphered text: "OMHST HWIRO TKARO CSAUB MTDEA JEOTO T".
+
+## Deciphering
+
+To decipher you have to do the reverse. You make the matrix as before, and then the way you fill it depends on the number of columns and the length of the message. To get the number of rows, and the number of columns of the last row, the formula in Scheme is:
+
+```
+(receive (q r) (quotient&modulo (string-length cipher-text)
+                                (string-length key))
+  (+ q 1) ; #rows
+  r)      ; #columns of the last row
+```
+
+(quotient&modulo is actually CHICKEN-specific; in plain Scheme you'd use quotient and modulo separately)
+
+In English: the number of rows is the quotient of the division of the length of the cipher text by the length of the key, plus 1; the number of columns of the last row is the remainder.
+
+So, for the previous cipher text and the key "ALMOND":
+
+```
+(string-length cipher-text) ;=> 31
+(string-length "ALMOND") ;=> 6
+(quotient 31 6) ;=> 5
+(modulo 31 6) ;=> 1
+```
+
+This means that the matrix must have 6 rows, but that the last row has only 1 letter.
+
+Putting it into practice, we get this (using * to denote blanks and # blocked blanks):
+
+```
+134652      134652      134652
+ALMOND      ALMOND      ALMOND
+------      ------      ------
+******      O*****      O****W
+******  =>  M*****  =>  M****I  => ...
+******      H*****      H****R
+******      S*****      S****O
+******      T*****      T****T
+*#####      H#####      H#####
+```
+
+And so on...

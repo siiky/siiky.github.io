@@ -1,94 +1,68 @@
-<p>Got into "hand ciphers" recently, and this was the first (seemingly)
-decent that is easy-ish and quick-ish to use – some info on <a
-href="https://en.wikipedia.org/wiki/Double_transposition">Wikipedia</a>,
-and the <a
-href="https://www.pbs.org/wgbh/nova/decoding/doubtrans.html">site where
-I originally learned it</a>.</p>
-<p>The basic idea is that you create a matrix of <code
-class="verbatim">N</code> columns (number of letters of the key), where
-you will write down row-wise the message you want to encipher, and then
-reorder the result column-wise according to the chosen key.</p>
-<p>An interesting property of this method is that the resulting cipher
-text has the exact same length and letters of the plain text – it's an
-anagram! However, this is, of course, its main flaw.</p>
-<h1 id="ciphering">Ciphering</h1>
-<p>Let's say we want to encipher the text <code
-class="verbatim">TOMORROW AT DUSK MOJITOS AT THE BEACH</code>. First,
-you choose the key, e.g. <code class="verbatim">GORILLA</code>, make the
-matrix and annotate each letter's sequence number:</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>2673451</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>GORILLA</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>-------</span></code></pre></div>
-<p>Then write down the message row-wise (left-to-right, top-to-bottom)
-in the matrix:</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>2673451  1234567</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>GORILLA  AGILLOR</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>-------  -------</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>TOMORRO  OTORROM</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>WATDUSK  KWDUSAT</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>MOJITOS  SMITOOJ</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>ATTHEBE  EAHEBTT</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>ACH       A   CH</span></code></pre></div>
-<p>And that's it, the first transposition is done. The ciphered text can
-be read column-wise (top-to-bottom, column number) in the columns order:
-<code class="verbatim">OKSE TWMAA ODIH RUTE RSOB OAOTC MTJTH</code>.
-Some places recommend breaking the ciphered text into blocks of for
-example <code class="verbatim">5</code>, so as to be easier to
-transmit/read off. But I believe also as to not give more hints about
-the key (due to the shorter columns). With that: <code
-class="verbatim">OKSET WMAAO DIHRU TERSO BOAOT CMTJT H</code>.</p>
-<p>To get to a <em>double transposition</em> ciphered text you have to
-apply this process again, now using the previous ciphered text as the
-plain text (and probably a good idea to use a different key). E.g., with
-the key <code class="verbatim">ALMOND</code>:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>134652</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>ALMOND</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>------</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>OKSETW</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>MAAODI</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>HRUTER</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>SOBOAO</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>TCMTJT</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>H</span></code></pre></div>
-<p>The final ciphered text: <code
-class="verbatim">OMHST HWIRO TKARO CSAUB MTDEA JEOTO T</code>.</p>
-<h1 id="deciphering">Deciphering</h1>
-<p>To decipher you have to do the reverse. You make the matrix as
-before, and then the way you fill it depends on the number of columns
-and the length of the message. To get the number of rows, and the number
-of columns of the last row, the formula in Scheme is:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(receive (q r) (quotient&amp;modulo (<span class="kw">string-length</span> cipher-text) (<span class="kw">string-length</span> key))</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  (<span class="op">+</span> q <span class="dv">1</span>) <span class="co">; #rows</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  r)      <span class="co">; #columns of the last row</span></span></code></pre></div>
-<p>(<code>quotient&amp;modulo</code> is actually CHICKEN-specific; in
-plain Scheme you'd use <code>quotient</code> and
-<code>modulo</code>)</p>
-<p>In English: the number of rows is the quotient of the division of
-<code>length cipher_text</code> by <code>length key</code> plus 1; the
-number of columns of the last row is the remainder.</p>
-<p>So, for the previous cipher text and the key <code
-class="verbatim">ALMOND</code>:</p>
+
+<h1>Double Transposition Cipher</h1>
+<p>@siiky
+2022/02/13</p>
+<p>Got into &quot;hand ciphers&quot; recently, and this was the first (seemingly) decent one that is easy-ish and quick-ish to use.</p>
 <ul>
-<li><code>(string-length cipher-text) = 31</code></li>
-<li><code>(string-length "ALMOND") = 6</code></li>
-<li><code>(quotient 31 6) = 5</code></li>
-<li><code>(modulo 31 6) = 1</code></li>
-</ul>
-<p>This means that the matrix must have 6 rows, but that the last row
-has only 1 letter.</p>
-<p>Putting it into practice, we get this:</p>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>134652      134652      134652</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>ALMOND      ALMOND      ALMOND</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>------      ------      ------</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>******      O*****      O****W</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>******  =&gt;  M*****  =&gt;  M****I  =&gt; ...</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>******      H*****      H****R</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>******      S*****      S****O</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>******      T*****      T****T</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>*           H           H</span></code></pre></div>
-<p>And so on…</p>
+<li><a href="https://en.wikipedia.org/wiki/Double_transposition">Wikipedia</a></li>
+<li><a href="https://www.pbs.org/wgbh/nova/decoding/doubtrans.html">Where I first learned of it</a></li></ul>
+<p>The basic idea is that you create a matrix of N columns (number of letters of the key), where you will write down row-wise the message you want to encipher, and then reorder the result column-wise according to the chosen key.</p>
+<p>An interesting property of this method is that the resulting cipher text has the exact same length and letters of the plain text -- it's an anagram! This is also its main flaw, of course.</p>
+<h2>Ciphering</h2>
+<p>Let's say we want to encipher the text &quot;TOMORROW AT DUSK MOJITOS AT THE BEACH&quot;. First, you choose the key, e.g. &quot;GORILLA&quot;, make the matrix and annotate each letter's sequence number:</p>
+<pre><code>2673451
+GORILLA
+-------
+</code></pre>
+<p>Then write down the message row-wise (left-to-right, top-to-bottom) in the matrix:</p>
+<pre><code>2673451  1234567
+GORILLA  AGILLOR
+-------  -------
+TOMORRO  OTORROM
+WATDUSK  KWDUSAT
+MOJITOS  SMITOOJ
+ATTHEBE  EAHEBTT
+ACH       A   CH
+</code></pre>
+<p>And that's it, the first transposition is done. The ciphered text can be read column-wise (top-to-bottom, column number) in the columns order: &quot;OKSE TWMAA ODIH RUTE RSOB OAOTC MTJTH&quot;.
+I read some places recommending breaking the ciphered text into blocks of for example 5, so as to be easier to transmit/read off. But I believe also as not to give more hints about the key (due to the shorter columns). With that: &quot;OKSET WMAAO DIHRU TERSO BOAOT CMTJT H&quot;.</p>
+<p>To get to a double transposition ciphered text you have to apply this process again, now using the previous ciphered text as the plain text (and probably a good idea to use a different key). E.g., with the key &quot;ALMOND&quot;:</p>
+<pre><code>134652
+ALMOND
+------
+OKSETW
+MAAODI
+HRUTER
+SOBOAO
+TCMTJT
+H
+</code></pre>
+<p>The final ciphered text: &quot;OMHST HWIRO TKARO CSAUB MTDEA JEOTO T&quot;.</p>
+<h2>Deciphering</h2>
+<p>To decipher you have to do the reverse. You make the matrix as before, and then the way you fill it depends on the number of columns and the length of the message. To get the number of rows, and the number of columns of the last row, the formula in Scheme is:</p>
+<pre><code>(receive (q r) (quotient&amp;modulo (string-length cipher-text)
+                                (string-length key))
+  (+ q 1) ; #rows
+  r)      ; #columns of the last row
+</code></pre>
+<p>(quotient&amp;modulo is actually CHICKEN-specific; in plain Scheme you'd use quotient and modulo separately)</p>
+<p>In English: the number of rows is the quotient of the division of the length of the cipher text by the length of the key, plus 1; the number of columns of the last row is the remainder.</p>
+<p>So, for the previous cipher text and the key &quot;ALMOND&quot;:</p>
+<pre><code>(string-length cipher-text) ;=&gt; 31
+(string-length &quot;ALMOND&quot;) ;=&gt; 6
+(quotient 31 6) ;=&gt; 5
+(modulo 31 6) ;=&gt; 1
+</code></pre>
+<p>This means that the matrix must have 6 rows, but that the last row has only 1 letter.</p>
+<p>Putting it into practice, we get this (using * to denote blanks and # blocked blanks):</p>
+<pre><code>134652      134652      134652
+ALMOND      ALMOND      ALMOND
+------      ------      ------
+******      O*****      O****W
+******  =&gt;  M*****  =&gt;  M****I  =&gt; ...
+******      H*****      H****R
+******      S*****      S****O
+******      T*****      T****T
+*#####      H#####      H#####
+</code></pre>
+<p>And so on...</p>
