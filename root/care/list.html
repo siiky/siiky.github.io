@@ -13,8 +13,7 @@
 <li><a href="https://www.gutenberg.org">Gutenberg</a></li>
 <li><a href="https://standardebooks.org">Standard Ebooks</a></li></ul>
 <p>You'll find at least three spider cares.</p>
-<ul>
-<li>&lt;/assets/spidercare.jpg&gt;</li></ul>
+<p><img src="/assets/spidercare.jpg" alt /></p>
 <p>The URI of the root of the list will be always at the top of the page (the &quot;IPFS root directory ...&quot;). From it you can get to all other cares (if I don't screw up). Over the rest of the page I'll post some notable cares and/or (maybe) more details -- maybe even sources!</p>
 <p>The cares are added to IPFS using <code>ipfs add</code> with the options <code>--recursive --raw-leaves --cid-version=1</code>. Videos also get a <code>--trickle</code>. The full command is something like this:</p>
 <pre><code>ipfs files cp /ipfs/`ipfs add -p -Q -r -t --pin=false --cid-version=1 --raw-leaves '/path/to/file_or_directory'` '/care-list/videos/file_or_directory'

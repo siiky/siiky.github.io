@@ -6,6 +6,9 @@
   srfi-197
   gmi)
 
+(define-constant source-extensions '("gmi" "md" "org"))
+(define-constant image-extensions '("svg" "png" "jpg" "jpeg" "webp"))
+
 (define ((? p? f g) x) ((if (p? x) f g) x))
 (define phi (cute ? <> <> identity))
 
@@ -13,7 +16,7 @@
 (define ((convert? gemini-root) l)
   (and (gmi:link? l)
        (let ((uri (gmi:link:uri l)))
-         (and (member (pathname-extension uri) '("gmi" "md" "org"))
+         (and (member (pathname-extension uri) source-extensions)
               (file-exists? (make-absolute-pathname gemini-root uri))))))
 
 
@@ -59,11 +62,13 @@
 (define (gmi:link->md:link l)
   (let* ((text (gmi:link:text l))
          (uri (gmi:link:uri l))
-         (link (if (string-null? text)
-                   (string-append "<" uri ">")
-                   (string-append "[" text "](" uri ")"))))
+         (image? (member (pathname-extension uri) image-extensions)))
     ; TODO: Escape characters?
-    (list (string-append " * " link))))
+    (list
+      (cond
+        (image? (string-append "![" text "](" uri ")"))
+        ((string-null? text) (string-append " * <" uri ">"))
+        (else (string-append " * [" text "](" uri ")"))))))
 
 (define (grouped-gmi-element->md-element elem)
   (cond
