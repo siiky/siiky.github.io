@@ -82,7 +82,7 @@
      (gmi:link->md:link elem))
 
     ((gmi:list? elem)
-     `("" ,@(map (cute string-append " * " <>) (gmi:list:items elems)) ""))
+     `("" ,@(map (cute string-append " * " <>) (gmi:list:items elem)) ""))
 
     ((gmi:blockquote? elem)
      `(,(string-append "> " (gmi:blockquote:text elem))))

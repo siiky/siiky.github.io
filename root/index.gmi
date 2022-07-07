@@ -31,7 +31,7 @@ This is where you'll find nothing interesting, welcome.
 => kB45oC/gnuplot.org 2022-07-07 - Gnuplot Quickstart
 => scheme/pipes.md 2022-07-07 - Pipes
 => care/list.gmi 2022-07-07 - Care list
-=> functional_programming/naming.org 2022-07-07 - Naming Operations rather than Variables
+=> functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
 => algebra/faucets.md 2022-07-07 - Faucets
 => osm/cheatsheet.md 2022-07-07 - OpenStreetMap Cheat Sheet
 => algebra/posets.md 2022-07-07 - POSets

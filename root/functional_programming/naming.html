@@ -1,39 +1,36 @@
-<p>Naming, using, reading, and understanding well named operations
-rather than (kinda) well named variables grows the habit of reading and
-understanding code rather than relying on variables being well named –
-and everyone knows naming is hard.</p>
+
+<h1>Naming Operations rather than Variables</h1>
+<p>@siiky
+2021/12/15</p>
+<p>Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named -- and everyone knows naming is hard.</p>
 <p>Bad:</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">&#39;42&#39;</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x_food <span class="op">=</span> foo(x)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>x_bard_food <span class="op">=</span> bar(x_food)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>x_zazd_bard_food <span class="op">=</span> zaz(x_bard_food)</span></code></pre></div>
+<pre><code>x = '42'
+x_food = foo(x)
+x_bard_food = bar(x_food)
+x_zazd_bard_food = zaz(x_bard_food)
+</code></pre>
 <p>Good (using procedural composition):</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> zaz(bar(foo(<span class="st">&#39;42&#39;</span>)))</span></code></pre></div>
+<pre><code>x = zaz(bar(foo('42')))
+</code></pre>
 <p>Better (if the chain of operations is long):</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">&#39;42&#39;</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> foo(x)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> bar(x)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> zaz(x)</span></code></pre></div>
+<pre><code>x = '42'
+x = foo(x)
+x = bar(x)
+x = zaz(x)
+</code></pre>
 <p>Best (using functional composition):</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(<span class="op">=&gt;</span> &#39;<span class="dv">42</span>&#39;</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    foo</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    bar</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    zaz)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">; OR</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>((-&gt; foo bar zaz) &#39;<span class="dv">42</span>&#39;)</span></code></pre></div>
-<p>It also comes with rather nice advantages – just compare the two
-approaches in each scenario:</p>
+<pre><code>(=&gt; '42'
+    foo
+    bar
+    zaz)
+
+; OR
+
+((-&gt; foo bar zaz) '42')
+</code></pre>
+<p>It also comes with rather nice advantages. Just compare the two approaches in each scenario:</p>
 <ul>
-<li>Imagine you want to change the order of operations in the
-chain;</li>
+<li>Imagine you want to change the order of operations in the chain;</li>
 <li>Imagine you want to add an operation to the chain;</li>
-<li>Imagine you want to remove an operation from the chain.</li>
-</ul>
-<p>And a final bonus: the "better" approach is easier to read than the
-"bad" approach, and requires less typing, thank you very much.</p>
+<li>Imagine you want to remove an operation from the chain.</li></ul>
+<p>And a final bonus: the &quot;better&quot; approach is easier to read than the &quot;bad&quot; approach, and requires less typing, thank you very much.</p>
