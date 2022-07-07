@@ -1,3 +1,4 @@
+MAKE_GEMFEED := ./make-gemfeed.sh
 GMI2MD_SCM := gmi2md.scm
 GMI2MD := csi -s $(GMI2MD_SCM)
 MD2HTML_SCM := md2html.scm
@@ -21,7 +22,7 @@ all: $(HTML) $(ROOT)/index.html
 
 $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
-	./make-gemfeed.sh $(ROOT) >> $@
+	$(MAKE_GEMFEED) $(ROOT) >> $@
 
 %.html: %.gmi $(GMI2MD_SCM) $(MD2HTML_SCM)
 	$(GMI2MD) $(ROOT) < $< | $(MD2HTML) > $@

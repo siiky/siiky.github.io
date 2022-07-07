@@ -4,6 +4,11 @@
 
 Online I go by siiky, silky, or other derivatives. You can find me most often on #chicken@libera.chat -- feel free to PM if you so wish.
 
+My repositories can be found on SourceHut. I'm slowly moving away from GitHub but you can still find stuff there.
+
+=> https://sr.ht/~siiky
+=> https://github.com/siiky
+
 All content published on this capsule/site, written or otherwise, should've been produced by me.
 Code is release under the terms of the UNLICENSE, unless stated otherwise; and content other than code is released under CC BY-SA 4.0, unless stated otherwise.
 There will inevitably be some content that wasn't produced by me but that I forgot to credit correctly -- my bad! Such content is obviously not released under terms chosen by me.
