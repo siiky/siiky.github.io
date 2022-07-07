@@ -15,7 +15,7 @@ This is where you'll find nothing interesting, welcome.
 => kB45oC/mirrors.org 2022-07-07 - Content-based Mirrors
 => philosophy/flexibility-relations.org 2022-07-07 - Flexibility & Relations
 => philosophy/flexibility-life.org 2022-07-07 - Flexibility & Life
-=> words/covid.org 2022-07-07 - The COVID Experience
+=> words/covid.gmi 2022-07-07 - COVID Experience
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
 => kB45oC/water_stations.org 2022-07-07 - Water Stations
