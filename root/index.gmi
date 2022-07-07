@@ -19,7 +19,6 @@ This is where you'll find nothing interesting, welcome.
 => kB45oC/water_stations.org 2022-07-07 - Water Stations
 => psychology/fagot.org 2022-07-07 - Fagot
 => books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - /How to Avoid a Climate Disaster/, Bill Gates
-=> care/ipfs.org 2022-07-07 - IPFS
 => care/ipfs.gmi 2022-07-07 - IPFS
 => osm/overpass.org 2022-07-07 - Overpass
 => scheme/reader-syntax.org 2022-07-07 - Reader Syntax
@@ -29,7 +28,6 @@ This is where you'll find nothing interesting, welcome.
 => osm/prettymaps.org 2022-07-07 - prettymaps
 => kB45oC/gnuplot.org 2022-07-07 - Gnuplot Quickstart
 => scheme/pipes.md 2022-07-07 - Pipes
-=> care/list.md 2022-07-07 - Care list
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.org 2022-07-07 - Naming Operations rather than Variables
 => algebra/faucets.md 2022-07-07 - Faucets

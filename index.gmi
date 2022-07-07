@@ -5,5 +5,7 @@ This is where you'll find nothing interesting, welcome.
 => about.gmi About
 => tinylog.gmi Tinylog
 
+*TODO:* Mention IPFS
+
 ## Posts
 
