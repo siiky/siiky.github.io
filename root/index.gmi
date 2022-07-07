@@ -28,7 +28,7 @@ This is where you'll find nothing interesting, welcome.
 => philosophy/donating.org 2022-07-07 - Donating
 => osm/prettymaps.org 2022-07-07 - prettymaps
 => kB45oC/gnuplot.org 2022-07-07 - Gnuplot Quickstart
-=> scheme/pipes.md 2022-07-07 - Pipes
+=> scheme/pipes.gmi 2022-07-07 - Pipes
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
 => algebra/faucets.md 2022-07-07 - Faucets

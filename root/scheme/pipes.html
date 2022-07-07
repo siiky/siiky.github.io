@@ -1,115 +1,100 @@
-<p>I’ve been using my own pipe operators for a while. This is the latest
-definition:</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>(*=&gt; vals <span class="op">.</span> funs)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  (foldl (<span class="kw">lambda</span> (val fun) (fun val))</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>         (apply (<span class="kw">car</span> funs) vals)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         (<span class="kw">cdr</span> funs)))</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>((*-&gt; <span class="op">.</span> funs) <span class="op">.</span> vals)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  (foldl (<span class="kw">lambda</span> (val fun) (fun val))</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>         (apply (<span class="kw">car</span> funs) vals)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>         (<span class="kw">cdr</span> funs)))</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>(<span class="op">=&gt;</span> val <span class="op">.</span> funs)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  (foldl (<span class="kw">lambda</span> (val fun) (fun val)) val funs))</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>((-&gt; <span class="op">.</span> funs) val)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  (foldl (<span class="kw">lambda</span> (val fun) (fun val)) val funs))</span></code></pre></div>
-<p>And this is the original definition (they have different
-semantics):</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>(=*&gt; val funs)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  (foldl (<span class="kw">lambda</span> (val fun) (fun val)) val funs))</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>((-*&gt; funs) val)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  (=*&gt; val funs))</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>(<span class="op">=&gt;</span> val <span class="op">.</span> funs)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  (=*&gt; val funs))</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>((-&gt; <span class="op">.</span> funs) val)</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  (=*&gt; val funs))</span></code></pre></div>
-<p>Comparing with Scheme’s <code>o</code>:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(o snd fst)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>(-&gt; fst snd)</span></code></pre></div>
-<p>There’s no equivalent to Scheme’s <code>compose</code>.</p>
-<p>I’ve never used <code>=*&gt;</code> and <code>-*&gt;</code> directly,
-they’re there <em>just in case</em>. But I’ve grown attached to
-<code>-&gt;</code> and <code>=&gt;</code>.</p>
-<p>The reasoning behind the names is simple: think of a function as a
-“processing pipe”. <code>-&gt;</code> is a chain of such pipes, and a
-pipe on its own, without “contents” – you have to plug something on one
-end to get something on the other end. On the other hand,
-<code>=&gt;</code> already has the stuff plugged in, ready to go, so
-it’s fatter.</p>
+
+<h1>Pipes</h1>
+<p>@siiky
+2022/01/09</p>
+<p>I've been using my own pipe operators for a while. This is the latest definition:</p>
+<pre><code>(define (*=&gt; vals . funs)
+  (foldl (lambda (val fun) (fun val))
+         (apply (car funs) vals)
+         (cdr funs)))
+
+(define ((*-&gt; . funs) . vals)
+  (foldl (lambda (val fun) (fun val))
+         (apply (car funs) vals)
+         (cdr funs)))
+
+(define (=&gt; val . funs)
+  (foldl (lambda (val fun) (fun val)) val funs))
+
+(define ((-&gt; . funs) val)
+  (foldl (lambda (val fun) (fun val)) val funs))
+</code></pre>
+<p>And this is the original definition (with slightly different semantics):</p>
+<pre><code>(define (=*&gt; val funs)
+  (foldl (lambda (val fun) (fun val)) val funs))
+
+(define ((-*&gt; funs) val)
+  (=*&gt; val funs))
+
+(define (=&gt; val . funs)
+  (=*&gt; val funs))
+
+(define ((-&gt; . funs) val)
+  (=*&gt; val funs))
+</code></pre>
+<p>Comparing with Scheme's <code>o</code>:</p>
+<pre><code>(o snd fst)
+(-&gt; fst snd)
+</code></pre>
+<p>There's no equivalent to Scheme's <code>compose</code>.</p>
+<p>I've never used =<em>> and -</em>> directly (they're there just in case, and as the base for the other two), but I've grown attached to -> and =&gt;.</p>
+<p>The reasoning behind the names is simple: think of a function as a &quot;processing pipe&quot;. -> is a chain of such pipes, and a pipe on its own, without &quot;contents&quot; -- you have to plug something on one end to get something on the other end. On the other hand, =&gt; already has the stuff plugged in, ready to go, so it's fatter.</p>
 <p>Some uses:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(map (-&gt; do-this</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>         and-that)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>     some-list)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>(<span class="op">=&gt;</span> some-list</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    (cute map (-&gt; do-this and-that) &lt;&gt;)</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    (cute <span class="kw">filter</span> (o <span class="kw">not</span> screwed?) &lt;&gt;))</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>((-&gt; (cute map (-&gt; do-this and-that) &lt;&gt;)</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>     (cute <span class="kw">filter</span> (o <span class="kw">not</span> screwed?) &lt;&gt;))</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>   some-list)</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>(<span class="kw">filter</span> (o <span class="kw">not</span> screwed?)</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        (map (-&gt; do-this and-that)</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>             some-list))</span></code></pre></div>
-<p><code>(-&gt; do-this and-that)</code> is an unary function – that’s
-why it can be given to <code>map</code>.</p>
-<p><code>(=&gt; some-list ...)</code> evaluates to a value, which is the
-result of applying the <code>filter</code> to the result of applying the
-<code>map</code> to <code>some-list</code>.</p>
-<p>The third and fourth expressions,
-<code>((-&gt; ...) some-list)</code> and <code>(filter ...)</code>, are
-equivalent to the second.</p>
-<p>Note the use of <code>o</code> instead of <code>-&gt;</code> in the
-<code>filter</code>’s predicate. Personal preference, but I think that
-case reads better with <code>o</code> because it’s more like
-English.</p>
+<pre><code>(map (-&gt; do-this
+         and-that)
+     some-list)
+
+(=&gt; some-list
+    (cute map (-&gt; do-this and-that) &lt;&gt;)
+    (cute filter (o not screwed?) &lt;&gt;))
+
+((-&gt; (cute map (-&gt; do-this and-that) &lt;&gt;)
+     (cute filter (o not screwed?) &lt;&gt;))
+   some-list)
+
+(filter (o not screwed?)
+        (map (-&gt; do-this and-that)
+             some-list))
+</code></pre>
+<p>(-> do-this and-that) is an unary function -- that's why it can be given to map.</p>
+<p>(=&gt; some-list ...) evaluates to a value, which is the result of applying the filter to the result of applying the map to some-list.</p>
+<p>The third and fourth expressions, ((-> ...) some-list) and (filter ...), are equivalent to the second.</p>
+<p>Note the use of o instead of -> in the filter's predicate. Personal preference, but I think that case reads better with o because it's more like English.</p>
 <hr />
-<p>But now that’ll probably be the end of them for me.</p>
-<p>Yesterday I learned of <a
-href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a> –
-very cool! There’s even an <a
-href="https://wiki.call-cc.org/eggref/5/srfi-197">egg for CHICKEN</a>
-already. <em>And</em> I can rename the exported identifiers to the ones
-I’ve been using:</p>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(import</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  chicken.module</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  (rename</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    (only srfi-197</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>          chain</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>          chain-lambda)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    (chain <span class="op">=&gt;</span>)</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    (chain-lambda -&gt;)))</span></code></pre></div>
+<p>But now that'll probably be the end of them for me.</p>
+<p>Yesterday I learned of SRFI-197 -- very cool! There's even an egg for CHICKEN already.</p>
+<ul>
+<li><a href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a></li>
+<li><a href="https://wiki.call-cc.org/eggref/5/srfi-197">SRFI-197 egg</a></li></ul>
+<p>And I can rename the exported identifiers to the ones I've been using:</p>
+<pre><code>(import
+  chicken.module
+  (rename
+    (only srfi-197
+          chain
+          chain-lambda)
+    (chain =&gt;)
+    (chain-lambda -&gt;)))
+</code></pre>
 <p>With that, the previous example is written like so:</p>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode scm"><code class="sourceCode scheme"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(map (-&gt; (do-this <span class="op">_</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>         (and-that <span class="op">_</span>))</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>     some-list)</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>(<span class="op">=&gt;</span> some-list</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>)) <span class="op">_</span>)</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">filter</span> (o <span class="kw">not</span> screwed?) <span class="op">_</span>))</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>((-&gt; (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>)) <span class="op">_</span>)</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>     (<span class="kw">filter</span> (o <span class="kw">not</span> screwed?) <span class="op">_</span>))</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>   some-list)</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>(<span class="kw">filter</span> (o <span class="kw">not</span> screwed?)</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        (map (-&gt; (do-this <span class="op">_</span>) (and-that <span class="op">_</span>))</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>             some-list))</span></code></pre></div>
-<p>Maybe the advantage(s) aren’t obvious (maybe they’re not advantages
-at all!), but to me not having to write <code>cute</code> for non-unary
-functions is a plus, even if I’m now forced to write parenthesis and an
-underscore on every unary function.</p>
-<p>I guess the only situation(s) I don’t see myself using it is if I
-want to avoid dependencies.</p>
+<pre><code>(map (-&gt; (do-this _)
+         (and-that _))
+     some-list)
+
+(=&gt; some-list
+    (map (-&gt; (do-this _) (and-that _)) _)
+    (filter (o not screwed?) _))
+
+((-&gt; (map (-&gt; (do-this _) (and-that _)) _)
+     (filter (o not screwed?) _))
+   some-list)
+
+(filter (o not screwed?)
+        (map (-&gt; (do-this _) (and-that _))
+             some-list))
+</code></pre>
+<p>Maybe the advantage(s) aren't obvious (maybe they're not advantages at all!),
+but to me not having to write <code>cute</code> for non-unary functions is a plus, even if
+I'm now forced to write parenthesis and an underscore on every unary function.</p>
+<p>I guess the only situation(s) I don't see myself using it is if I want to avoid
+dependencies.</p>
