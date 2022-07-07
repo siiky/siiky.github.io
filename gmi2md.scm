@@ -13,7 +13,7 @@
 (define ((convert? gemini-root) l)
   (and (gmi:link? l)
        (let ((uri (gmi:link:uri l)))
-         (and (member (pathname-extension uri) '("gmi"))
+         (and (member (pathname-extension uri) '("gmi" "md" "org"))
               (file-exists? (make-absolute-pathname gemini-root uri))))))
 
 
