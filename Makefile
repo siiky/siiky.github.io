@@ -1,9 +1,11 @@
+# Scripts
 MAKE_GEMFEED := ./make-gemfeed.sh
 GMI2MD_SCM := gmi2md.scm
 GMI2MD := csi -s $(GMI2MD_SCM)
 MD2HTML_SCM := md2html.scm
 MD2HTML := csi -s $(MD2HTML_SCM)
 
+# The root directory of the site/capsule -- may be published to IPFS as-is
 ROOT := root
 
 GMI := $(shell find $(ROOT) -type f -iname '*.gmi' -not -name index.gmi)
@@ -34,4 +36,6 @@ $(ROOT)/index.gmi: index.gmi $(SRC)
 	pandoc -f org -t html $< -o $@
 
 watch:
-	ls -1 $(SRC) | entr -c make
+	ls -1 index.gmi $(SRC) | entr -c make
+
+.PHONY: all watch
