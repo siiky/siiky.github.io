@@ -1,83 +1,54 @@
-<p><em>Overpass</em> is an interface used to query OSM data.
-<em>Overpass Turbo</em> is an Overpass web client you can use to query
-OSM data, export it, &amp;c.</p>
+
+<h1>Overpass</h1>
+<p>@siiky
+2022/03/26</p>
+<p>Overpass is an interface used to query OSM data. Overpass Turbo is an Overpass web client you can use to query OSM data, export it, &amp;c.</p>
 <p>Some links:</p>
-<dl>
-<dt>Overpass Turbo</dt>
-<dd>
 <ul>
-<li><a
-href="https://overpass-turbo.eu">https://overpass-turbo.eu</a></li>
-<li><a
-href="https://wiki.openstreetmap.org/wiki/Overpass_turbo">https://wiki.openstreetmap.org/wiki/Overpass_turbo</a></li>
-</ul>
-</dd>
-<dt>Overpass Query Language</dt>
-<dd>
-<a
-href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL</a>
-</dd>
-<dt>Overpass API</dt>
-<dd>
-<a
-href="https://wiki.openstreetmap.org/wiki/Overpass_API">https://wiki.openstreetmap.org/wiki/Overpass_API</a>
-</dd>
-</dl>
-<hr />
-<h1 id="useful-queries">Useful Queries</h1>
+<li><a href="https://overpass-turbo.eu">Overpass Turbo</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo">Overpass Turbo (OSM Wiki)</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a></li></ul>
+<h2>Useful Queries</h2>
 <p>This is a list of useful queries I've learned over time.</p>
-<h2 id="features-last-modified-by-an-user">Features last modified by an
-user</h2>
-<p>Nodes, ways, or relations last modified by "user name":</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>nwr(user:&quot;user name&quot;)({{bbox}});</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
-<h2 id="features-modified-between-two-dates">Features modified between
-two dates</h2>
-<p>Node, way, or relation amenities modified between
-2022-02-04T00:00:00Z and "to-date":</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>// The to-date is optional and defaults to now</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>[diff:&quot;2022-02-04T00:00:00Z&quot;,&quot;to-date&quot;];</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>nwr[&quot;amenity&quot;]({{bbox}});</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
-<h2 id="features-around-other-features">Features around other
-features</h2>
+<h3>Features last modified by an user</h3>
+<p>Nodes, ways, or relations last modified by &quot;user name&quot;:</p>
+<pre><code>nwr(user:&quot;user name&quot;)({{bbox}});
+out body;
+</code></pre>
+<h3>Features modified between two dates</h3>
+<p>Node, way, or relation amenities modified between 2022-02-04T00:00:00Z and &quot;to-date&quot;:</p>
+<pre><code>// to-date is optional and defaults to now
+[diff:&quot;2022-02-04T00:00:00Z&quot;,&quot;to-date&quot;];
+nwr[&quot;amenity&quot;]({{bbox}});
+out body;
+</code></pre>
+<h3>Features around other features</h3>
 <p>Picnic sites within a 1km radius of restaurants with takeaway:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>node[amenity=restaurant][takeaway=yes]({{bbox}});</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>node(around:1000)[tourism=picnic_site];</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>out body;</span></code></pre></div>
-<h2 id="features-inside-some-area-object">Features inside some area
-object</h2>
+<pre><code>node[amenity=restaurant][takeaway=yes]({{bbox}});
+node(around:1000)[tourism=picnic_site];
+out body;
+</code></pre>
+<h3>Features inside some area object</h3>
 <p>Libraries in Portugal:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>nwr[&quot;amenity&quot;=&quot;library&quot;](area:3600295480);</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>out body;</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>// Or:</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>area(3600295480)-&gt;.searchArea;</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>(nwr[&quot;amenity&quot;=&quot;library&quot;](area.searchArea););</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>out body;</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>&gt;;</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>out skel qt;</span></code></pre></div>
-<p>I don't understand the difference between the two yet, but the latter
-is supposed to be more correct. All I know is that <code>&gt;;</code> is
-supposed to make the query recursive.</p>
-<p>The explanation of the <code>area:XXX</code> from <a
-href="https://stackoverflow.com/a/65982945">this StackOverflow
-answer</a>:</p>
+<pre><code>nwr[&quot;amenity&quot;=&quot;library&quot;](area:3600295480);
+out body;
+
+// Or:
+
+area(3600295480)-&gt;.searchArea;
+(nwr[&quot;amenity&quot;=&quot;library&quot;](area.searchArea););
+out body;
+&gt;;
+out skel qt;
+</code></pre>
+<p>I don't understand the difference between the two yet, but the latter is supposed to be more correct. All I know is that >; makes the query recursive (whatever that means).</p>
+<p>Found on StackOverflow an explanation of the area:XXX:</p>
 <blockquote>
-<p>If the polygon you want to query inside of is an OSM feature, you can
-also query using an area ID.</p>
-<p>Area IDs are generated by the Overpass server to make querying data
-within existing polygons easier. You can determine the area ID for a way
-by adding 2400000000 to the way ID and the area ID for a relation by
-adding 3600000000 to the relation ID (assuming that the way or relation
-is a valid area feature).</p>
-</blockquote>
-<p>I found <a
-href="https://www.openstreetmap.org/relation/295480">Portugal's relation
-object</a>, which is the relation <code class="verbatim">295480</code>,
-and <code class="verbatim">3600000000 + 295480 = 3600295480</code>.</p>
+<p>If the polygon you want to query inside of is an OSM feature, you can also query using an area ID.</p>
+<p>Area IDs are generated by the Overpass server to make querying data within existing polygons easier. You can determine the area ID for a way by adding 2400000000 to the way ID and the area ID for a relation by adding 3600000000 to the relation ID (assuming that the way or relation is a valid area feature).</p></blockquote>
+<ul>
+<li><a href="https://stackoverflow.com/a/65982945">https://stackoverflow.com/a/65982945</a></li></ul>
+<p>I found Portugal's relation object, which is the relation 295480, and 3600000000+295480=3600295480.</p>
+<ul>
+<li><a href="https://www.openstreetmap.org/relation/295480">https://www.openstreetmap.org/relation/295480</a></li></ul>
