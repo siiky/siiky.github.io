@@ -49,7 +49,7 @@ This is where you'll find nothing interesting, welcome.
 => ssg/lib.md 2022-07-07 - SSG, _the Library_
 => algebra/functors.md 2022-07-07 - Functors
 => algebra/cat_theory_perf.md 2022-07-07 - Category Theory and Performance
-=> scheme/kless.md 2022-07-07 - `kless`
+=> scheme/kless.gmi 2022-07-07 - kless
 => todo/sbn.md 2022-07-07 - Small Big Numbers
 => scheme/gv-dsl.md 2022-07-07 - GraphViz DOT Scheme DSL
 => scheme/exceptions.md 2022-07-07 - Exceptions (aka Conditions) in Scheme
