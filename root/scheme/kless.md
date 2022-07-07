@@ -138,16 +138,16 @@ No hierarchy, inheritance, no nothing!
 No "static" class methods. Because, what? Just make a function, prefix it with
 the class name and be done with it.
 
-No extending already defined classes, a la Haskell's type classes (with
-`instance ... where`{.hs}), or Rust's traits (with `impl`{.rs}). Put everything
-inside `kless` and dick-typing does the rest.
+No extending already defined classes, a la Haskell's type classes (`instance
+... where`), or Rust's traits (`impl`). Put everything inside `kless` and
+dick-typing does the rest.
 
 Method overriding on a per object basis is not possible. This may be easy to
 implement. One way is to put a table inside the object, from method name to
-procedure (`Symbol -> Method`{.hs}), and arrange a way to get and set that
-procedure from outside the object. A problem arises then: this new method
-doesn't have the instance variables in scope. One could be tempted to think
-that something like the following solves the problem.
+procedure (`Symbol -> Method`), and arrange a way to get and set that procedure
+from outside the object. A problem arises then: this new method doesn't have
+the instance variables in scope. One could be tempted to think that something
+like the following solves the problem.
 
 ```scm
 (define (meth-setter meth-name meth-maker)

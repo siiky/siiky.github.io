@@ -119,19 +119,16 @@ don’t use other methods.</p>
 <p>No “static” class methods. Because, what? Just make a function,
 prefix it with the class name and be done with it.</p>
 <p>No extending already defined classes, a la Haskell’s type classes
-(with <code
-class="sourceCode haskell"><span class="kw">instance</span> <span class="op">...</span> <span class="kw">where</span></code>),
-or Rust’s traits (with <code
-class="sourceCode rust"><span class="kw">impl</span></code>). Put
-everything inside <code>kless</code> and dick-typing does the rest.</p>
+(<code>instance ... where</code>), or Rust’s traits (<code>impl</code>).
+Put everything inside <code>kless</code> and dick-typing does the
+rest.</p>
 <p>Method overriding on a per object basis is not possible. This may be
 easy to implement. One way is to put a table inside the object, from
-method name to procedure (<code
-class="sourceCode haskell"><span class="dt">Symbol</span> <span class="ot">-&gt;</span> <span class="dt">Method</span></code>),
-and arrange a way to get and set that procedure from outside the object.
-A problem arises then: this new method doesn’t have the instance
-variables in scope. One could be tempted to think that something like
-the following solves the problem.</p>
+method name to procedure (<code>Symbol -&gt; Method</code>), and arrange
+a way to get and set that procedure from outside the object. A problem
+arises then: this new method doesn’t have the instance variables in
+scope. One could be tempted to think that something like the following
+solves the problem.</p>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode scm"><code class="sourceCode scheme"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(<span class="ex">define</span><span class="fu"> </span>(meth-setter meth-name meth-maker)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  (update-meth-table meth-name (meth-maker ver-name <span class="op">...</span>)))</span></code></pre></div>
