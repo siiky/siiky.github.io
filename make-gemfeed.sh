@@ -23,5 +23,6 @@ while read update cdate file; do
   # Remove formatting and spaces of the beginning of the line, leaving the title
   title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
   uri="$(echo "$file" | sed "s|^$root||; s|^/||;")"
-  echo "=> $uri $date - $title"
+
+  echo "$title" | grep -qvw WIP && echo "=> $uri $date - $title"
 done
