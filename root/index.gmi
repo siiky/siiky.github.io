@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/gnuplot.gmi 2022-07-12 - Gnuplot Quickstart
 => osm/overpass.gmi 2022-07-08 - Overpass
 => philosophy/donating.gmi 2022-07-08 - Donating
 => osm/prettymaps.gmi 2022-07-08 - prettymaps
@@ -27,7 +28,6 @@ This is where you'll find nothing interesting, welcome.
 => scheme/reader-syntax.gmi 2022-07-07 - Reader Syntax
 => philosophy/butterfly_effect.gmi 2022-07-07 - Butterfly Effect
 => crypto/double_transposition.gmi 2022-07-07 - Double Transposition Cipher
-=> kB45oC/gnuplot.org 2022-07-07 - Gnuplot Quickstart
 => scheme/pipes.gmi 2022-07-07 - Pipes
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables

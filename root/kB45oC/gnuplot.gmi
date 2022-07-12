@@ -1,32 +1,18 @@
-#+TITLE: Gnuplot Quickstart
-#+AUTHOR: siiky
-#+DATE: 2022/01/12
-#+LANGUAGE: en
+# Gnuplot Quickstart
+@siiky
+2022/01/12
 
-I started learning Gnuplot for a PA because I didn't want to deal with Python BS
-or whatnot, and Gnuplot has been around since like... even before the dinosaurs
-were invented, so it must be super specialized for this kinda thing, and it must
-be pretty good right?
+I started learning Gnuplot for a PA because I didn't want to deal with Python BS or whatnot, and Gnuplot has been around since like... even before the dinosaurs were invented, so it must be super specialized for this kinda thing, and it must be pretty good right?
 
-Hopefully I'll document well enough the things I've learned these past few days,
-for posterity or someone else. I've been using it to plot 2D graphs of recorded
-data, not functions/expressions, so my focus will be on that.
+Hopefully I'll document well enough the things I've learned these past few days, for posterity or someone else. I've been using it to plot 2D graphs of recorded data, not functions/expressions, so my focus will be on that.
 
-Gnuplot files don't have a "standard" file extension, but some common ones seem
-to be =.gp=, =.plot=, =.gnu=, =.gnuplot=, =.plt=. I've been using =.gp= and I'll
-be using =.gp= here.
+Gnuplot files don't have a "standard" file extension, but some common ones seem to be .gp, .plot, .gnu, .gnuplot, .plt. I've been using .gp and will use .gp here.
 
-To run Gnuplot scripts, just call ~gnuplot script.gp~. It's possible to pass
-arguments to the script by using the ~-c~ flag: ~gnuplot -c script.gp arg1 arg2
-etc~. And inside the script the arguments are available as the variables ~ARG1~,
-~ARG2~, &c. As is common on other programming languages, ~ARG0~ is the script
-name. I don't know if there are, or what are the limits on the number of
-arguments, nor how to loop through them, but I'm guessing it's possible.
+To run Gnuplot scripts, just call gnuplot script.gp. It's possible to pass arguments to the script by using the -c flag: gnuplot -c script.gp arg1 arg2 etc. And inside the script the arguments are available as the variables ARG1, ARG2, etc. As is common on other programming languages, ARG0 is the script name. I don't know if there are, or what are the limits on the number of arguments, nor how to loop through them, but I'm guessing it's possible.
 
-Now let's get going with some Gnuplot code. I said the focus would be on
-plotting datafiles, so let's start with expressions:
+Now let's get going with some Gnuplot code. I said the focus would be on plotting datafiles, so let's start with expressions:
 
-#+begin_src sh
+```gp
 # The output "format".
 set terminal svg
 
@@ -58,19 +44,16 @@ set logscale y 7
 #
 # `title "..."` sets this line's legend.
 plot exp(x) title "Super straight line"
-#+end_src
+```
 
+=> /assets/exp.gp
+=> /assets/exp.svg
 
-[[file:/assets/exp.gp][download]]
-
-[[file:assets/exp.svg]]
-
-Notice how it starts to grow really fucking quick after ~t=5~ -- right after
-HTML was invented.
+Notice how it starts to grow really fucking quick after t=5 -- right after HTML was invented.
 
 Here's another one:
 
-#+begin_src sh
+```gp
 set terminal svg
 set output "assets/rollercoaster.svg"
 
@@ -79,66 +62,56 @@ set samples 1000
 
 # The ranges here specify the XX and YY ranges respectively.
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title "Rollercoaster"
-#+end_src
+```
 
-[[file:/assets/rollercoaster.gp][download]]
+=> /assets/rollercoaster.gp
+=> /assets/rollercoaster.svg
 
-[[file:assets/rollercoaster.svg]]
+The website, with documentation and all (including a 300+ pages PDF of all the documentation, with proper PDF index!):
 
-The website, with documentation and all (including a 300+ pages PDF of all the
-documentation, with proper PDF index!), seems to be
-http://gnuplot.sourceforge.net -- I say /seems/ because the official website is
-supposed to be http://www.gnuplot.info, except that it's offline?
+=> http://www.gnuplot.info
+=> http://gnuplot.sourceforge.net
 
-You can use the ~help~ command to read the documentation inside the ~gnuplot~
-REPL too.
+The first seems to be the "official" one, but is sometimes offline? The second looks like a mirror.
 
-An important concept is that of the /terminal/, as seen above being set to SVG.
-It's nothing but an "output backend", and Gnuplot has tons of those -- run ~set
-terminal~ and see for yourself; there's even one to output ASCII art to the
-terminal! Different terminals may have different specific options -- RTFM for
-those.
+You can use the help command to read the documentation inside the Gnuplot REPL too.
 
-Once you start messing around with line styles, line types, colors, and whatnot,
-it's helpful to know what the valid values are. For that use the ~test~ command
-after setting the terminal (the result of the ~test~ command varies depending on
-the terminal, so it's important to set it):
+An important concept is that of the terminal, as seen above being set to SVG. It's nothing but an "output backend", and Gnuplot has tons of those -- run set terminal and see for yourself; there's even one to output ASCII art to the terminal! Different terminals may have different specific options -- RTFM for those.
 
-#+begin_src sh
+Once you start messing around with line styles, line types, colors, and whatnot, it's helpful to know what the valid values are. For that use the test command after setting the terminal (the result of the test command varies depending on the terminal, so it's important to set it):
+
+```gp
 set terminal svg
 set output "assets/gnuplot-test.svg"
 test
-#+end_src
+```
 
-[[file:/assets/gnuplot-test.gp][download]]
-
-[[file:assets/gnuplot-test.svg]]
+=> /assets/gnuplot-test.gp
+=> /assets/gnuplot-test.svg
 
 Variables are a thing, and you can define them just as you'd expect:
 
-#+begin_src sh
+```gp
 some_var = 42
-#+end_src
+```
 
-To plot data from files just pass the filename to ~plot~:
+To plot data from files just pass the filename to plot:
 
-#+begin_src sh
+```gp
 plot "/path/to/file.tsv" # ...
-#+end_src
+```
 
-Gnuplot is supposed to support many different formats but I don't know details
-here. I've been using TSV because it makes sense. For tabular data files (TSV,
-CSV, ...), this may be useful:
+Gnuplot is supposed to support many different formats but I don't know details here. I've been using TSV because it makes sense. For tabular data files (TSV, CSV, ...), this may be useful:
 
-#+begin_src sh
+```gp
 set datafile separator tab
-#+end_src
+```
 
-RTFM for details (~help set datafile separator~).
+RTFM for details: help set datafile separator.
 
-It's possible to define datasets inside a Gnuplot script, inline, like this:
+It's possible to define datasets inside a Gnuplot script, too, like this:
 
-#+begin_src sh
+```gp
 plot "-"
 1 2
 3 4
@@ -146,12 +119,11 @@ plot "-"
 7 8
 9 0
 e
-#+end_src
+```
 
-Notice the ~e~ at the end! You can even define more than one for the same
-~plot~ command:
+Notice the e at the end! You can even define more than one for the same plot command:
 
-#+begin_src sh
+```gp
 plot "-", "-"
 1 2
 3 4
@@ -165,56 +137,47 @@ e
 8 7
 0 9
 e
-#+end_src
+```
 
-Another arguably more useful way is to do it like so:
+Another arguably more useful way is to do it like so (notice the dollar!):
 
-#+begin_src sh
+```gp
 $SomeData << EOD
 1 2
 4 5
 7 8
 EOD
 plot $SomeData # ...
-#+end_src
+```
 
-Notice the ~$~! This kind of inline data definition doesn't seem to work on the
-REPL though... At least I couldn't make it work.
+This kind of inline data definition doesn't seem to work on the REPL though... At least I couldn't make it work.
 
 For tabular data files, files may have many columns, some that you want, some
 that you don't, some that are in the wrong order... To solve that, you use
-~using~:
+using:
 
-#+begin_src sh
+```gp
 plot "-" using 1:3
 1 2 3
 4 5 6
 7 8 9
-#+end_src
+```
 
 The above uses the first and third columns of the dataset.
 
-And with that, if you want to plot different lines from the same dataset, you
-can do so like so:
+And with that, if you want to plot several graphs from the same dataset, you can do it like so:
 
-#+begin_src sh
+```gp
 plot "/path/to/file.tsv" using 1:3, "" using 1:4
-#+end_src
+```
 
-Assuming the data file has at least 4 columns, the above will plot a line/w.e.
-using the first and third columns, and then another using the first and fourth
-columns. The empty string there is a shortcut to mean "the previous
-dataset/file".
+Assuming the data file has at least 4 columns, the above will plot a line/w.e. using the first and third columns, and then another using the first and fourth columns. The empty string there is a shortcut to mean "the previous dataset/file".
 
-For certain plot types, such as for errorlines or errorbars, you may want or
-need to use more than 2 columns of data.
+For certain plot types, such as for errorlines or errorbars, you may want or need to use more than 2 columns of data.
 
-And a final plot, pretty much the most advanced I can get right now -- the
-fields are separated by tabs, but unfortunaly they are converted to spaces in
-HTML, so download the file instead of copying from here for greater
-€€€profit€€€:
+And a final plot, pretty much the most advanced I can get right now. The fields are all separated by tabs but your browser or something may present them as spaces, so download the file for greater €€€profit€€€.
 
-#+begin_src sh
+```gp
 $Dataset << EOD
 NELEMS	RTIME-MEAN	RTIME-MIN	RTIME-MAX	TOTCYC-MEAN	TOTCYC-MIN	TOTCYC-MAX	TOTINS-MEAN	TOTINS-MIN	TOTINS-MAX	L1DCM-MEAN	L1DCM-MIN	L1DCM-MAX	L2DCM-MEAN	L2DCM-MIN	L2DCM-MAX
 100	51.5	51	52	153107.0	151836	154378	49774.5	42768	56781	912.5	849	976	557.0	528	586
@@ -274,19 +237,20 @@ set grid
 #   respectively.
 plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines title columnheader axis x1y1,\
      ""       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
-#+end_src
+```
 
-[[file:/assets/errorlines.gp][download]]
-
-[[file:assets/errorlines.svg]]
+=> /assets/errorlines.gp
+=> /assets/errorlines.svg
 
 -----
 
-Just a couple of notes on security, especially for someone wanting to develop an
-interface library. These are things that /may/ be useful when writing and
-running scripts directly in Gnuplot, but that are a security nightmare if left
-as something to think about tomorrow.
+Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.
 
-~system()~ (a la C) is a thing. Not only that, but backticks like in shell
-languages are also a thing: ~"`echo hello from Gnuplot`"~ runs the ~echo~
-command, but ~'`echo hello from Gnuplot`'~ doesn't.
+system() (a la C) is a thing!
+
+Backticks like in shell languages are also a thing! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:
+
+```sh
+"`echo hello from Gnuplot`"
+'`echo hello from Gnuplot`'
+```

@@ -4,8 +4,6 @@
 
 Overpass is an interface used to query OSM data. Overpass Turbo is an Overpass web client you can use to query OSM data, export it, &c.
 
-Some links:
-
 => https://overpass-turbo.eu Overpass Turbo
 => https://wiki.openstreetmap.org/wiki/Overpass_turbo Overpass Turbo (OSM Wiki)
 => https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL Overpass Query Language
