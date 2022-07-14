@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/flexibility-relations.gmi 2022-07-15 - Flexibility & Relations
 => philosophy/flexibility-life.gmi 2022-07-15 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-15 - Fagots
 => psychology/links.gmi 2022-07-15 - Psychology Links
@@ -23,7 +24,6 @@ This is where you'll find nothing interesting, welcome.
 => code/gemtext.gmi 2022-07-07 - Scheme Gemtext Reader
 => meta/dates.gmi 2022-07-07 - Post dates
 => kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
-=> philosophy/flexibility-relations.org 2022-07-07 - Flexibility & Relations
 => words/covid.gmi 2022-07-07 - COVID Experience
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
