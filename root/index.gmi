@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> psychology/links.gmi 2022-07-15 - Psychology Links
 => philosophy/links.gmi 2022-07-15 - Philosophy Links
 => kB45oC/gnuplot.gmi 2022-07-14 - Gnuplot Quickstart
 => algebra/faucets.gmi 2022-07-14 - Faucets
@@ -40,7 +41,6 @@ This is where you'll find nothing interesting, welcome.
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
-=> psychology/links.md 2022-07-07 - Psychology Links
 => algebra/groups.md 2022-07-07 - Groups
 => scheme/kless.gmi 2022-07-07 - kless
 => scheme/exceptions.gmi 2022-07-07 - Exceptions (aka Conditions) in Scheme
