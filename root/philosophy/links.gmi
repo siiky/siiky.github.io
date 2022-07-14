@@ -1,0 +1,29 @@
+# Philosophy Links
+@siiky
+2020/02/20
+
+## Stanford Encyclopedia of Philosophy (SEP)
+
+Lots of detailed and in-depth articles about all sorts of topics. The RSS feed is for updates to articles.
+
+=> https://plato.stanford.edu/contents.html
+=> https://plato.stanford.edu/rss/sep.xml
+
+## Internet Encyclopedia of Philosophy (IEP)
+
+Another site full of in-depth articles, similar to SEP.
+
+=> https://iep.utm.edu
+
+## Wikipedia
+
+Wikipedia, of course!
+
+=> https://en.wikipedia.org/wiki/Philosophy
+
+## Wikiversity School of Philosophy
+
+Wikiversity pages on philosophy. The main page has a sizeable list of books. The resources page has links to some big philosophy sites, such as SEP, IEP, &c, and to some freely available works.
+
+=> https://en.wikiversity.org/wiki/School:Philosophy
+=> https://en.wikiversity.org/wiki/Philosophy/Resources
