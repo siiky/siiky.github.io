@@ -1,74 +1,30 @@
-<p>Imagine for a second that we understand <a
-href="https://en.wikipedia.org/wiki/Category_theory">Category
-Theory</a>. Now imagine that we have a fancy <a
-href="https://en.wikipedia.org/wiki/Category_(mathematics)">category</a>,
-representing a part of a program, with two objects <code>X</code> and
-<code>Y</code> (representing the input and output types of our program
-respectively), and morphisms <code>f : X -&gt; Y</code> and
-<code>g : Y -&gt; X</code> (because this is a category). This is what we
-have:</p>
-<figure>
-<img src="assets/ctp-cat.svg" alt="Category" />
-<figcaption aria-hidden="true">Category</figcaption>
-</figure>
-<p>Imagine now that there’s a (reasonable) way to determine if two
-morphisms are equal. Given <code>f, g : X -&gt; Y</code>:
-<code>f = g &lt;=&gt; forall x in X: f(x) = g(x)</code>.</p>
-<p>Imagine there’s also a way to analyze performance of a given
-morphism. We’ll represent the performance of a given morphism
-<code>f</code> as <code>P(f)</code>. The lesser P(f) is, for any given
-morphism, the better.</p>
-<p>We’ll analyze all morphisms of our category, and annotate them with
-their performance. We’ll represent an annotated morphism <code>f</code>
-as <code>(f, P(f))</code>. Like so:</p>
-<figure>
-<img src="assets/ctp-cat-perf.svg"
-alt="Category w/ Performance Analysis" />
-<figcaption aria-hidden="true">Category w/ Performance
-Analysis</figcaption>
-</figure>
-<p>For this post, I’ll say that “two morphisms are equal” to mean the
-condition above, that two morphisms “behave” in the same way; and I’ll
-say that “two morphisms are the same”, iff they’re really the same.
-Think of two different implementations of a certain abstract algorithm.
-Both implementations perform the same operation, but they’re not the
-same implementation; they (may possibly) have different properties.
-We’re interested in performance here.</p>
-<p>So, two equal morphisms <code>f</code> and <code>g</code> do not
-necessarily have equal performance:
-<code>f = g =/&gt; P(f) = P(g)</code>.</p>
-<p>Obviously, <code>P(f) = P(g) =/&gt; f = g</code>, and
-<code>P(f) != P(g) =/&gt; f != g</code>, but this doesn’t add much to
-our toolbox.</p>
-<p>Now, from our original category, we’ll forsake <code>g</code>,
-because who cares, and we’ll add to it a morphism <code>h</code> equal
-to <code>f</code>.</p>
-<figure>
-<img src="assets/ctp-cat-perf-h.svg"
-alt="Category w/ Performance Analysis &amp; h" />
-<figcaption aria-hidden="true">Category w/ Performance Analysis &amp;
-h</figcaption>
-</figure>
-<p>Because <code>f = h</code>, improving the performance of our program,
-without changing its results, consists in choosing the morphism with
-better performance. If <code>P(f) &lt; P(h)</code>, choose
-<code>f</code>; if <code>P(h) &lt; P(f)</code>, choose <code>h</code>;
-otherwise, ask your mirror for the prettier of the two.</p>
-<p>“What’s this all good for?” you may ask! Nothing, really, if you
-don’t use it. We like imagining, so we’ll do it once more: there’s a
-complicated (imaginary) category representing our complicated
-(imaginary) program, with performance annotations. The program takes an
-input <code>I</code> and transforms it into some output <code>O</code>.
-For simplicity, we’ll only represent the most performant morphism
-between each two objects.</p>
-<figure>
-<img src="assets/ctp-complicated-cat.svg" alt="Complicated Category" />
-<figcaption aria-hidden="true">Complicated Category</figcaption>
-</figure>
-<p>Omitted labels because they clutter too much. {X, Y, Z, W} form a
-complete graph. Now finding the most performant way to write our
-program, is finding the shortest weighted path between <code>I</code>
-and <code>O</code>, with the performance as the weight. The hardest part
-is coming up with different implementations and analyzing their
-performance, really, because even a <em>computer</em> can find the best
-way to optimize the program.</p>
+
+<h1>Category Theory and Performance</h1>
+<p>@siiky
+2019/10/15</p>
+<p>Imagine for a second that we understand Category Theory. Now imagine that we have a fancy category, representing a part of a program, with two objects X and Y (representing the input and output types of our program respectively), and morphisms f : X → Y and g : Y → X (because this is a category). This is what we have:</p>
+<p><img src="/assets/ctp-cat.svg" alt="Some category" /></p>
+<p>Imagine now that there's a (reasonable) way to determine if two morphisms are equal. That is, given f, g : X → Y, f and g are equal iff, ∀ x ∈ X: f(x) = g(x).</p>
+<p>Imagine there's also a way to analyze performance of a given morphism. We'll represent the performance of a given morphism f as P(f). The lesser P(f) is, for any given morphism, the better.</p>
+<p>From this category we'll generate a new one where the morphisms are annotated along with their performance. We'll represent an annotated morphism f as (f, P(f)). Like so:</p>
+<p><img src="assets/ctp-cat-perf.svg" alt="Some category w/ performance analysis" /></p>
+<p>Application of a morphism to an object and composition of morphisms ignores the right component of the tuple:</p>
+<ul>
+<li>(f, P(f))(x) = f(x)</li>
+<li>(g, P(g)) • (f, P(f)) = (g•f, P(g•f))</li></ul>
+<p>And thus, for this post, I'll say that &quot;two morphisms are equal&quot; to mean that the &quot;plain morphism&quot; is equal, that is, ignoring the right component of the tuples; and I'll say that &quot;two morphisms are the same&quot; when both components of the tuple are equal. Think of two different implementations of a certain abstract algorithm. Both implementations perform the same operation, but they're not the same implementation, they (may) have different properties. We're interested in performance here.</p>
+<p>Some properties right away:</p>
+<ul>
+<li>Two equal morphisms do not necessarily have equal performance: ¬(f = g ⇒ P(f) = P(g)).</li>
+<li>Two morphisms with the same performance aren't necessarily equal: ¬(P(f) = P(g) ⇒ f = g)</li>
+<li>Two morphisms with different performance aren't necessarity different: ¬(P(f) ≠ P(g) ⇒ f ≠ g)</li></ul>
+<p>The latter two don't add much to our toolbox.</p>
+<p>Now, from our original category, we'll forsake g, because who cares, and we'll add to it a morphism h equal to f.</p>
+<p><img src="/assets/ctp-cat-perf-h.svg" alt="Category w/ performance analysis &amp; h" /></p>
+<p>Because f = h, improving the performance of our program, without changing its results, consists in choosing the morphism with better performance. If P(f) &lt; P(h), choose f; if P(h) &lt; P(f), choose h; otherwise, ask your mirror for the prettier of the two.</p>
+<p>&quot;What's this all good for?&quot; you may ask! Nothing, really, if you don't use it. We like imagining, so we'll do it once more: there's a complicated (imaginary) category representing our complicated (imaginary) program, with performance annotations. The program takes an input I and transforms it into some output O. For simplicity, we'll only represent the most performant morphism between each two objects.</p>
+<p><img src="/assets/ctp-complicated-cat.svg" alt="Complicated Category" /></p>
+<p>Omitted labels because they clutter too much. {X, Y, Z, W} form a complete graph. Now finding the most performant way to write our program is finding the shortest weighted path between I and O, with the performance as the weight. The hardest part is coming up with different implementations and analyzing their performance, really, because even a computer can find the best way to optimize the program!</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Category_theory">Category Theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category_(mathematics)">Category</a></li></ul>
