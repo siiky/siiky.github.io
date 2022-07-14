@@ -9,6 +9,8 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/flexibility-life.gmi 2022-07-15 - Flexibility & Life
+=> psychology/fagots.gmi 2022-07-15 - Fagots
 => psychology/links.gmi 2022-07-15 - Psychology Links
 => philosophy/links.gmi 2022-07-15 - Philosophy Links
 => kB45oC/gnuplot.gmi 2022-07-14 - Gnuplot Quickstart
@@ -22,12 +24,10 @@ This is where you'll find nothing interesting, welcome.
 => meta/dates.gmi 2022-07-07 - Post dates
 => kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
 => philosophy/flexibility-relations.org 2022-07-07 - Flexibility & Relations
-=> philosophy/flexibility-life.org 2022-07-07 - Flexibility & Life
 => words/covid.gmi 2022-07-07 - COVID Experience
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
 => kB45oC/water_stations.gmi 2022-07-07 - Water Stations
-=> psychology/fagot.gmi 2022-07-07 - Fagot
 => books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - /How to Avoid a Climate Disaster/, Bill Gates
 => care/ipfs.gmi 2022-07-07 - IPFS
 => scheme/reader-syntax.gmi 2022-07-07 - Reader Syntax
