@@ -9,8 +9,8 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
-=> kB45oC/gnuplot.gmi 2022-07-12 - Gnuplot Quickstart
-=> osm/overpass.gmi 2022-07-08 - Overpass
+=> kB45oC/gnuplot.gmi 2022-07-14 - Gnuplot Quickstart
+=> osm/overpass.gmi 2022-07-12 - Overpass
 => philosophy/donating.gmi 2022-07-08 - Donating
 => osm/prettymaps.gmi 2022-07-08 - prettymaps
 => code/gemtext.gmi 2022-07-07 - Scheme Gemtext Reader

@@ -175,7 +175,7 @@ Assuming the data file has at least 4 columns, the above will plot a line/w.e. u
 
 For certain plot types, such as for errorlines or errorbars, you may want or need to use more than 2 columns of data.
 
-And a final plot, pretty much the most advanced I can get right now. The fields are all separated by tabs but your browser or something may present them as spaces, so download the file for greater €€€profit€€€.
+And a final plot, pretty much the most advanced I can get right now. The dataset's fields are separated by tabs but your browser or something may present them as spaces, so download the file for greater €€€profit€€€.
 
 ```gp
 $Dataset << EOD
@@ -246,9 +246,9 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
 
 Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.
 
-system() (a la C) is a thing!
+system() a la C is a thing!
 
-Backticks like in shell languages are also a thing! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:
+And so are backticks like in shell languages! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:
 
 ```sh
 "`echo hello from Gnuplot`"

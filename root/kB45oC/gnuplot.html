@@ -128,7 +128,7 @@ using:</p>
 </code></pre>
 <p>Assuming the data file has at least 4 columns, the above will plot a line/w.e. using the first and third columns, and then another using the first and fourth columns. The empty string there is a shortcut to mean &quot;the previous dataset/file&quot;.</p>
 <p>For certain plot types, such as for errorlines or errorbars, you may want or need to use more than 2 columns of data.</p>
-<p>And a final plot, pretty much the most advanced I can get right now. The fields are all separated by tabs but your browser or something may present them as spaces, so download the file for greater €€€profit€€€.</p>
+<p>And a final plot, pretty much the most advanced I can get right now. The dataset's fields are separated by tabs but your browser or something may present them as spaces, so download the file for greater €€€profit€€€.</p>
 <pre><code>$Dataset &lt;&lt; EOD
 NELEMS  RTIME-MEAN  RTIME-MIN   RTIME-MAX   TOTCYC-MEAN TOTCYC-MIN  TOTCYC-MAX  TOTINS-MEAN TOTINS-MIN  TOTINS-MAX  L1DCM-MEAN  L1DCM-MIN   L1DCM-MAX   L2DCM-MEAN  L2DCM-MIN   L2DCM-MAX
 100 51.5    51  52  153107.0    151836  154378  49774.5 42768   56781   912.5   849 976 557.0   528 586
@@ -194,8 +194,8 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
 <img src="/assets/errorlines.svg" alt /></li></ul>
 <hr />
 <p>Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.</p>
-<p>system() (a la C) is a thing!</p>
-<p>Backticks like in shell languages are also a thing! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:</p>
+<p>system() a la C is a thing!</p>
+<p>And so are backticks like in shell languages! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:</p>
 <pre><code>&quot;`echo hello from Gnuplot`&quot;
 '`echo hello from Gnuplot`'
 </code></pre>
