@@ -12,7 +12,7 @@ NELEMS	RTIME-MEAN	RTIME-MIN	RTIME-MAX	TOTCYC-MEAN	TOTCYC-MIN	TOTCYC-MAX	TOTINS-M
 EOD
 
 set terminal svg
-set output "assets/errorlines.svg"
+set output "root/assets/errorlines.svg"
 
 # Tell Gnuplot that fields are separated by a tab, as briefly mentioned before.
 set datafile separator tab

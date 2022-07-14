@@ -1,5 +1,5 @@
 set terminal svg
-set output "assets/rollercoaster.svg"
+set output "root/assets/rollercoaster.svg"
 
 # The number of samples to use to plot the expression.
 set samples 1000

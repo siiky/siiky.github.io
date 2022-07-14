@@ -1,3 +1,3 @@
 set terminal svg
-set output "assets/gnuplot-test.svg"
+set output "root/assets/gnuplot-test.svg"
 test
