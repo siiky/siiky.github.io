@@ -14,6 +14,7 @@ This is where you'll find nothing interesting, welcome.
 => psychology/fagots.gmi 2022-07-15 - Fagots
 => psychology/links.gmi 2022-07-15 - Psychology Links
 => philosophy/links.gmi 2022-07-15 - Philosophy Links
+=> algebra/groups.gmi 2022-07-15 - Groups
 => kB45oC/gnuplot.gmi 2022-07-14 - Gnuplot Quickstart
 => algebra/faucets.gmi 2022-07-14 - Faucets
 => algebra/cat_theory_perf.gmi 2022-07-14 - Category Theory and Performance
@@ -28,7 +29,7 @@ This is where you'll find nothing interesting, welcome.
 => petri_nets/logs.org 2022-07-07 - Logs
 => petri_nets/log001.org 2022-07-07 - Log 001
 => kB45oC/water_stations.gmi 2022-07-07 - Water Stations
-=> books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - /How to Avoid a Climate Disaster/, Bill Gates
+=> books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-07 - Bill Gates, "How to Avoid a Climate Disaster"
 => care/ipfs.gmi 2022-07-07 - IPFS
 => scheme/reader-syntax.gmi 2022-07-07 - Reader Syntax
 => philosophy/butterfly_effect.gmi 2022-07-07 - Butterfly Effect
@@ -41,6 +42,5 @@ This is where you'll find nothing interesting, welcome.
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
-=> algebra/groups.md 2022-07-07 - Groups
 => scheme/kless.gmi 2022-07-07 - kless
 => scheme/exceptions.gmi 2022-07-07 - Exceptions (aka Conditions) in Scheme

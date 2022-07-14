@@ -1,339 +1,194 @@
-<p>This post is about <a
-href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a>
-(whouldathunkit).</p>
-<h1 id="conventionsnotation">Conventions/Notation</h1>
-<p><span class="math inline">∀<em>v</em> : <em>P</em></span> means <span
-class="math inline"><em>P</em></span> is true for all possible <span
-class="math inline"><em>v</em></span><br />
-<span class="math inline">∃<em>v</em> : <em>P</em></span> means <span
-class="math inline"><em>P</em></span> is true for at least one <span
-class="math inline"><em>v</em></span><br />
-<span class="math inline">∃!<em>v</em> : <em>P</em></span> means <span
-class="math inline"><em>P</em></span> is true for exactly one <span
-class="math inline"><em>v</em></span><br />
-<span
-class="math inline">∀<em>v</em>1 : ∀<em>v</em>2 : <em>P</em></span> will
-be abbreviated as <span
-class="math inline">∀<em>v</em>1, <em>v</em>2 : <em>P</em></span></p>
-<p>Sets are written as its elements surrounded by brackets. For example,
-<span class="math inline">∅</span> is the empty set and <span
-class="math inline">{<em>a</em>, <em>b</em>, <em>c</em>}</span> is a set
-with the elements <span class="math inline"><em>a</em></span>, <span
-class="math inline"><em>b</em></span> and <span
-class="math inline"><em>c</em></span>. Sets comprehension will be
-written as <span
-class="math inline">{<em>e</em><em>x</em><em>p</em><em>r</em> : <em>v</em><em>a</em><em>r</em><em>s</em>, <em>r</em><em>e</em><em>s</em><em>t</em><em>r</em><em>i</em><em>c</em><em>t</em><em>i</em><em>o</em><em>n</em><em>s</em>}</span>
-and the cardinal of a set will be written as <span
-class="math inline">#<em>S</em></span>.</p>
-<p><span class="math inline">ℕ</span> is the set of natural numbers (no
-zero).<br />
-<span class="math inline">ℕ<sub>0</sub></span> is the set of natural
-numbers (and zero).<br />
-<span class="math inline">ℤ</span> is the set of integers.</p>
-<p>The modulo operator will be recurrent throughout this post. Some
-examples: <span class="math inline">4  mod  5 ≡ 9  mod  5 ≡ 4</span>,
-<span class="math inline">5  mod  2 ≡ 1</span>. This operator is called
-<code class="sourceCode c"><span class="op">%</span></code> in C, <code
-class="sourceCode scheme"><span class="kw">modulo</span></code> in
-Scheme and <code
-class="sourceCode haskell"><span class="fu">mod</span></code> in
-Haskell. Another useful definition, is: <span
-class="math inline"><em>p</em> ≡ <em>q</em> ( mod <em>n</em>) ⇔ <em>p</em>  mod  <em>n</em> ≡ <em>q</em>  mod  <em>n</em></span><br />
-“<span class="math inline">|</span>” will be used to mean “divides”, as
-in <span class="math inline"><em>a</em>|<em>b</em></span> means “a
-divides b”, “b is a multiple of a”, or, with modulo, <span
-class="math inline"><em>a</em>|<em>b</em> ⇔ <em>b</em> ≡ 0( mod <em>a</em>)</span></p>
-<p>We will be needing the concept of a “Congruential Equivalence Class”
-later on. They are written as <span
-class="math inline">[<em>m</em>]<sub><em>n</em></sub></span> (<span
-class="math inline">∀<em>n</em> ∈ ℕ, <em>m</em> ∈ ℤ</span>) and are
-defined as <span
-class="math inline">[<em>m</em>]<sub><em>n</em></sub> = {<em>x</em> ∈ ℤ : <em>x</em> ≡ <em>m</em> ( mod <em>n</em>)}</span>.</p>
-<p>Depending on context, <span class="math inline">+</span> and <span
-class="math inline">×</span> will either be the usual addition and
-multiplication of numbers, or addition and multiplication of
-classes.<br />
-Addition and multiplication of classes are defined as <span
-class="math inline">[<em>p</em>]<sub><em>n</em></sub> + [<em>q</em>]<sub><em>n</em></sub> = [<em>p</em>+<em>q</em>]<sub><em>n</em></sub></span>
-and <span
-class="math inline">[<em>p</em>]<sub><em>n</em></sub> × [<em>q</em>]<sub><em>n</em></sub> = [<em>p</em>×<em>q</em>]<sub><em>n</em></sub></span>.
-Some examples: <span class="math inline">2 + 2 = 4</span>, <span
-class="math inline">[2]<sub>3</sub> + [1]<sub>3</sub> = [2+1]<sub>3</sub> = [0]<sub>3</sub></span></p>
-<h1 id="what-is-a-group">What is a Group?!</h1>
-<h2 id="in-general">In general</h2>
-<p>A group is just a pair <span
-class="math inline">(<em>S</em>,<em>O</em>)</span>, where <span
-class="math inline"><em>S</em></span> is a set and <span
-class="math inline"><em>O</em></span> is a binary operation on <span
-class="math inline"><em>S</em></span> (i.e., <span
-class="math inline"><em>O</em>: <em>S</em> × <em>S</em> → <em>S</em></span>)
-with the following properties:</p>
-<ol class="example" type="1">
-<li><dl>
-<dt><em>Associativity</em></dt>
-<dd>
-<span
-class="math inline">∀<em>a</em>, <em>b</em>, <em>c</em> ∈ <em>S</em> : <em>O</em>(<em>a</em>,<em>O</em>(<em>b</em>,<em>c</em>)) = <em>O</em>(<em>O</em>(<em>a</em>,<em>b</em>),<em>c</em>)</span>
-</dd>
-</dl></li>
-<li><dl>
-<dt><em>Identity</em></dt>
-<dd>
-<span
-class="math inline">∃!<em>i</em><em>d</em> ∈ <em>S</em> : ∀<em>a</em> ∈ <em>S</em> : <em>O</em>(<em>a</em>,<em>i</em><em>d</em>) = <em>O</em>(<em>i</em><em>d</em>,<em>a</em>) = <em>a</em></span>
-</dd>
-</dl></li>
-<li><dl>
-<dt><em>Inverse</em></dt>
-<dd>
-<span
-class="math inline">∀<em>a</em> ∈ <em>S</em> : ∃!<em>a</em>′ ∈ <em>S</em> : <em>O</em>(<em>a</em>,<em>a</em>′) = <em>O</em>(<em>a</em>′,<em>a</em>) = <em>i</em><em>d</em></span>
-</dd>
-<dd>
-id always has inverse, itself
-</dd>
-</dl></li>
-</ol>
-<p>There is one extra property:</p>
-<ol start="4" class="example" type="1">
-<li><dl>
-<dt><em>Commutativity</em></dt>
-<dd>
-<span
-class="math inline">∀<em>a</em>, <em>b</em> ∈ <em>S</em> : <em>O</em>(<em>a</em>,<em>b</em>) = <em>O</em>(<em>b</em>,<em>a</em>)</span>
-</dd>
-</dl></li>
-</ol>
-<p>A group with a commutative operation is called a commutative group or
-an abelian group.</p>
-<p>Given <span
-class="math inline"><em>G</em> = (<em>G</em>,<em>O</em>)</span> a group,
-<span class="math inline"><em>G</em></span> will be used to refer both
-to the group itself and its associated set.</p>
-<p>A group <span class="math inline"><em>G</em></span> is said to be
-infinite if <span class="math inline">#<em>G</em></span> is infinite,
-and finite if <span class="math inline">#<em>G</em></span> is
-finite.</p>
-<p>That is the generic definition. We will focus on groups with integer
-sets and <span class="math inline">+</span> or <span
-class="math inline">×</span> as the operation, however, so to make
-things easier:</p>
-<h2 id="integers">Integers</h2>
-<p>When the operation is <span class="math inline">+</span> we call the
-identity element “null element” and represent it with 0.<br />
-When the operation is <span class="math inline">×</span> we call the
-identity element “unity element” and represent it with 1.</p>
-<p>When the operation is <span class="math inline">+</span> we call the
-inverse of an element <span class="math inline"><em>a</em></span> its
-symmetric and represent it as <span
-class="math inline"> − <em>a</em></span>.<br />
-When the operation is <span class="math inline">×</span> we call the
-inverse of an element <span class="math inline"><em>a</em></span> its
-inverse and represent it as <span
-class="math inline"><em>a</em><sup>−1</sup></span>.</p>
-<h3 id="mathbbn_0">(<span class="math inline">ℕ<sub>0</sub></span>,
-+)</h3>
-<p><span class="math inline">ℕ<sub>0</sub></span> is the set of natural
-numbers (with zero), and <span class="math inline">+</span> is the usual
-addition on natural numbers.<br />
-Is it a group?</p>
-<ol type="1">
-<li><span
-class="math inline">∀<em>a</em>, <em>b</em>, <em>c</em> ∈ ℕ<sub>0</sub> : <em>a</em> + (<em>b</em>+<em>c</em>) = (<em>a</em>+<em>b</em>) + <em>c</em></span></li>
-<li>0 is the identity of the group, because <span
-class="math inline">∀<em>a</em> ∈ ℕ<sub>0</sub> : <em>a</em> + 0 = 0 + <em>a</em> = <em>a</em></span></li>
-<li><span
-class="math inline">∀<em>a</em>, <em>b</em> ∈ ℕ : <em>a</em> + <em>b</em> ≠ 0</span>
-(Note that <span
-class="math inline">ℕ = ℕ<sub>0</sub> \ {0}</span>)</li>
-</ol>
-<p><span class="math inline">ℕ<sub>0</sub></span> together with <span
-class="math inline">+</span> does not satisfy property 3, so it is not a
-group.</p>
-<h3 id="mathbbz">(<span class="math inline">ℤ</span>, +)</h3>
-<p><span class="math inline">ℤ</span> is the set of integers, and <span
-class="math inline">+</span> is the usual addition on integers. Is it a
-group?</p>
-<ol type="1">
-<li>a, b, c in Z: a + (b + c) = (a + b) + c</li>
-<li>0 is the identity of the group, because a in Z: a + 0 = 0 + a =
-a</li>
-<li>a in Z: ! a’ in Z: a + a’ = 0</li>
-</ol>
-<p><span class="math inline">ℤ</span> satisfies all 3 requirements so it
-is a group. We also know that addition is commutative, so <span
-class="math inline">ℤ</span> is an abelian group (see property 4).</p>
-<h3 id="other-groups-and-non-groups">Other groups and non-groups</h3>
+
+<h1>Groups</h1>
+<p>@siiky
+2020/02/20</p>
+<p>This post is about groups (whouldathunkit).</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Group_(mathematics)">https://en.wikipedia.org/wiki/Group_(mathematics)</a></li></ul>
+<h1>Conventions/Notation</h1>
+<ul>
+<li>∀ v: P means P is true for all possible v</li>
+<li>∃ v: P means P is true for at least one v</li>
+<li>∃¹ v: P means P is true for exactly one v</li>
+<li>∀ v1: ∀ v2: P will be abbreviated as ∀ v1, v2: P</li></ul>
+<p>Sets are written as its elements surrounded by brackets. For example, ∅ is the empty set and { a, b, c } is a set with the elements a, b and c. Sets comprehension will be written as { expr : vars, restrictions } and the cardinal of a set will be written as #S.</p>
+<p>N is the set of natural numbers (w/o zero), N₀ the set of natural numbers (w/ zero), Z the set of integers, and R the set of real numbers.</p>
+<p>The modulo operator will be recurrent throughout this post. A couple of examples:</p>
+<ul>
+<li>4 mod 5 ≣ 9 mod 5 ≣ 4</li>
+<li>5 mod 2 ≣ 1</li></ul>
+<p>This operator is called % in C, modulo in Scheme and mod in Haskell.</p>
+<p>A useful definition: p ≣ q (mod n) ⇔ p mod n ≣ q mod n.</p>
+<p>&quot;|&quot; will be used to mean &quot;divides&quot;: &quot;a | b&quot; means &quot;a divides b&quot;, &quot;b is a multiple of a&quot;, or, with modulo, &quot;a | b ⇔ b ≣ 0 (mod a)&quot;.</p>
+<p>We will be needing the concept of a &quot;Congruential Equivalence Class&quot; later on. They are written as [m]ₙ (∀ n ∈ N, m ∈ Z) and are defined as [m]ₙ = { x ∈ Z : x ≣ m (mod n) }.</p>
+<p>Depending on context, + and ∗ will either be the usual addition and multiplication of numbers, or addition and multiplication of classes.</p>
+<p>Addition and multiplication of classes are defined as [p]ₙ + [q]ₙ = [p+q]ₙ and [p]ₙ ∗ [q]ₙ = [p∗q]ₙ. Example: 2+2=4, [2]₃ + [1]₃ = [2+1]₃ = [0]₃.</p>
+<h1>What is a Group?!</h1>
+<h2>In general</h2>
+<p>A group is just a pair (S, O), where S is a set and O is a binary operation on S (i.e., O : S ∗ S → S) with the following required properties:</p>
+<ul>
+<li>(R1) Associativity: ∀ a, b, c ∈ S: O(a, O(b, c)) = O(O(a, b), c)</li>
+<li>(R2) Identity: ∃¹ id ∈ S: ∀ a ∈ S: O(a, id) = O(id, a) = a</li>
+<li>(R3) Inverse: ∀ a ∈ S: ∃¹ a' ∈ S: O(a, a') = O(a', a) = id</li></ul>
+<p>From (R2) and (R3) we can conclude that id always has inverse, itself.</p>
+<p>There is one extra optional property:</p>
+<ul>
+<li>(R4) Commutativity: ∀ a, b ∈ S: O(a, b) = O(b, a)</li></ul>
+<p>A group with a commutative operation is called a commutative group or an abelian group.</p>
+<p>Given G = (G, O) a group, G will be used to refer both to the group itself and its associated set.</p>
+<p>A group G is said to be infinite if #G is infinite, and finite if #G is finite.</p>
+<p>That is the generic definition. We will focus on groups with integer sets and + or ∗ as the operation, however.</p>
+<h2>Integers</h2>
+<p>When the operation is + we call the identity element &quot;null element&quot; and represent it with 0. When the operation is ∗ we call the identity element &quot;unity element&quot; and represent it with 1.</p>
+<p>When the operation is + we call the inverse of an element a its symmetric and represent it as -a. When the operation is ∗ we call the inverse of an element a its inverse and represent it as a⁻¹.</p>
+<h3>(N₀, +)</h3>
+<p>N₀ is the set of natural numbers (w/ zero), and + is the usual addition on natural numbers. Is it a group?</p>
+<ul>
+<li>∀ a, b, c ∈ N₀: a + (b + c) = (a + b) + c</li>
+<li>0 is the identity of the group, because ∀ a ∈ N₀: a + 0 = 0 + a = a</li>
+<li>∀ a, b ∈ N: a + b ≠ 0 (Note that N = N₀∖{0})</li></ul>
+<p>N₀ with + does not satisfy property R3, so it is not a group.</p>
+<h3>(Z, +)</h3>
+<p>Z is the set of integers, and + is the usual addition on integers. Is it a group?</p>
+<ul>
+<li>∀ a, b, c ∈ Z: a + (b + c) = (a + b) + c</li>
+<li>0 is the identity of the group, because ∀ a ∈ Z: a + 0 = 0 + a = a</li>
+<li>∀ a ∈ Z: ∃¹ a' ∈ Z: a + a' = 0</li></ul>
+<p>Z satisfies all 3 requirements so it is a group. We also know that addition is commutative, so Z is an abelian group (see property R4).</p>
+<h3>Other examples</h3>
 <ul>
 <li>(R, +), where R is the set of real numbers, is a group</li>
-<li>(R\{0}, *) is also a group</li>
-<li>(R, *) is not a group, because 0 has no inverse (R3)</li>
-<li>(N, +) is not a group, because there is no identity and no inverse
-(R2 and R3)</li>
-<li>(N, *) is not a group, because there is no inverse (R3)</li>
-<li>(Z\{0}, *) is not a group, because other than 1 and -1, no element
-has inverse (R3)</li>
-</ul>
-<h1 id="whats-next">What’s next?</h1>
-<p>Some useful definitions follow.</p>
-<h2 id="subgroup">Subgroup</h2>
-<p>Given a group G, H is called a subgroup of G if H is contained in G
-and it is also a group, and we write <code>H &lt;= G</code>.
-Examples:</p>
+<li>(R∖{0}, ∗) is also a group</li>
+<li>(R, ∗) is not a group, because 0 has no inverse (R3)</li>
+<li>(N, +) is not a group, because there is no identity and no inverse (R2 and R3)</li>
+<li>(N, ∗) is not a group, because there is no inverse (R3)</li>
+<li>(Z∖{0}, ∗) is not a group, because other than 1 and -1, no element has inverse (R3)</li></ul>
+<h1>What's next?</h1>
+<p>Some more definitions.</p>
+<h2>Subgroup</h2>
+<p>Given a group G, H is called a subgroup of G if H is contained in G and it is also a group, and we write H ≤ G. Examples:</p>
 <ul>
-<li><code>\forall (G, +) group: (G, +) &lt;= (G, +)</code></li>
-<li><em>Trivial Subgroup</em>:
-<code>\forall (G, +) group: ({0}, +) &lt;= (G, +)</code></li>
-<li><code>(2Z, +) &lt;= (Z, +)</code></li>
-</ul>
-<p>A subgroup H of a group G that is not G itself (H != G, or H is
-strictly contained in G) is called a “Proper Subgroup”, and we write
-<code>H &lt; G</code>. Examples:</p>
+<li>∀ (G, +) group: (G, +) ≤ (G, +)</li>
+<li>Trivial Subgroup: ∀ (G, +) group: ({0}, +) ≤ (G, +)</li>
+<li>(2Z, +) ≤ (Z, +)</li></ul>
+<p>A subgroup H of a group G that is not G itself (H ≠ G, or H ⊂ G) is called a &quot;Proper Subgroup&quot;, and we write H &lt; G. Examples:</p>
 <ul>
-<li><em>Trivial Subgroup</em>:
-<code>\forall (G, +) group: ({0}, +) &lt; (G, +)</code></li>
-<li><code>(2Z, +) &lt; (Z, +)</code></li>
-</ul>
-<h2 id="multiplespowers-of-an-element">Multiples/Powers of an
-element</h2>
-<p>Given an element a of an additive group, <code>a + ... + a</code> (n
-times) can be written as <code>n * a</code>. Special case:
-<code>0 * a = 0</code>. Given an element a of a multiplicative group,
-<code>a * ... * a</code> (n times) can be written as <code>a ^ n</code>.
-Special case: <code>a ^ 0 = 1</code>.</p>
-<p>For negative n, <code>n * a = -((-n) * a) = (-n) * (-a)</code>. For
-negative n, <code>a ^ n = (a ^ (-n)) ^ -1 = (a ^ -1) ^ (-n)</code>.</p>
-<h2 id="order-of-an-element">Order of an element</h2>
-<p>The order of an element a is the minimum number of times it must be
-operated with itself until it reaches the identity, and is written as
-<code>o(a)</code>. If, no matter how many times you operate the element,
-it doesn’t reach the identity, its order is said to be infinite.</p>
+<li>Trivial Subgroup: ∀ (G, +) group: ({0}, +) &lt; (G, +)</li>
+<li>(2Z, +) &lt; (Z, +)</li></ul>
+<h2>Multiples/Powers of an element</h2>
+<p>Given an element a of an additive group, a+...+a (n times) can be written as n∗a. Special case: 0∗a = 0.</p>
+<p>Given an element a of a multiplicative group, a∗...∗a (n times) can be written as aⁿ. Special case: a⁰ = 1.</p>
+<p>For negative n, n∗a = -((-n)∗a) = (-n)∗(-a); and aⁿ = (a⁻ⁿ)⁻¹ = (a⁻¹)⁻ⁿ.</p>
+<h2>Order of an element</h2>
+<p>The order of an element a is the minimum number of times it must be operated with itself until it turns into the identity, and is written as o(a). If no matter how many times you operate the element it doesn't turn into the identity, its order is said to be infinite.</p>
 <p>A more rigorous definition is:</p>
 <ul>
-<li>a has <em>infinite order</em> if n in N: n * a != 0</li>
-<li>a has <em>finite order</em> k, i.e., o(a) = k if:
-<ol type="1">
-<li>k is in N</li>
-<li>k * a = 0</li>
-<li>n in N: <code>n * a = 0</code> =&gt; <code>n &lt;= k</code></li>
-</ol></li>
-</ul>
-<p>In particular, the order of the identity is 1, and the identity is
-the only element with order 1. Useful fact: G group: a in G: o(a) | #G.
-From this comes the fact that, in a finite group, no element has
-infinite order.</p>
-<h2 id="generated-subgroup">Generated Subgroup</h2>
-<p>Given an additive group (G, +) and an element a,
-<code>&lt;a&gt; = { n * a : n in Z }</code> is a subgroup of G and is
-called the “Subgroup of G generated by a”. In particular, if
-<code>G = &lt;a&gt;</code>, a is said to generate G, or that G is
-generated by a. Note that <code>#&lt;a&gt; = o(a)</code>. An example of
-this is <code>&lt;1&gt; = &lt;-1&gt; = Z</code>.</p>
-<h1 id="mathbbz_n-groups"><span
-class="math inline">ℤ<sub><em>n</em></sub></span> Groups</h1>
-<p>You can group integers together according to their (mod n), make a
-set out of them, and define a group with it. These groups are called
-<em>Zn</em>, for some n in N, and are defined as Zn = { [m]n : m in { 0,
-…, n-1 } }.</p>
-<p>These will get repetitive after Z2, but the reason why they’re here
-will become clear.</p>
-<h2 id="mathbbz_1">(<span class="math inline">ℤ<sub>1</sub></span>,
-+)</h2>
-<p>According to definition above, Z1 = { [0]1 }, but you can go further
-here:</p>
-<p>[0]1 = (def [m]n) { x : x in Z, x = 0 (mod 1) } = (def (mod n)) { x :
-x in Z, x % 1 = 0 % 1 } = (0 % 1 = 0) { x : x in Z, x % 1 = 0 } = (every
-integer is a multiple of 1) { x : x in Z } = (def Z) Z</p>
-<p>Z1 is a trivial group (#Z1 = 1), so it isn’t that interesting, other
-than Z being its only element.</p>
+<li>a has infinite order if ∀ n ∈ N: n∗a ≠ 0</li>
+<li>a has finite order k, that is, o(a) = k, if: (1) k ∈ N; (2) k∗a = 0; (3) ∀ n ∈ N: n∗a = 0 ⇒ n ≤ k</li></ul>
+<p>In particular, the order of the identity is 1, and the identity is the only element with order 1.</p>
+<p>Useful fact: ∀ G group: ∀ a ∈ G: o(a) | #G. From this comes that in a finite group no element has infinite order.</p>
+<h2>Generated Subgroup</h2>
+<p>Given a ∈ (G, +), 〈a〉 = { n∗a : n ∈ Z } is a subgroup of G and is called the &quot;Subgroup of G generated by a&quot;. In particular, if G = 〈a〉, a is said to generate G, or that G is generated by a. Note that #〈a〉 = o(a). An example of this is 〈1〉 = 〈-1〉 = Z.</p>
+<h1>Zₙ Groups</h1>
+<p>You can group integers together according to their (mod n), make a set out of them, and define a group with it. These groups are called Zₙ, for some n ∈ N, and are defined as Zₙ = { [m]ₙ : m ∈ { 0, ..., n-1 } }.</p>
+<p>These will get repetitive after Z₂, but the reason why they're here will become clear.</p>
+<h2>(Z₁, +)</h2>
+<p>According to definition above Z₁ = { [0]₁ }, but you can go further here:</p>
+<p>[0]₁
+  = { def [m]ₙ }
+{ x : x ∈ Z, x ≣ 0 (mod 1) }
+  = { def (mod n) }
+{ x : x ∈ Z, x mod 1 = 0 mod 1 }
+  = { 0 mod 1 = 0 }
+{ x : x ∈ Z, x mod 1 = 0 }
+  = { ∀ x ∈ Z: 1 | x }
+{ x : x ∈ Z }
+  = { def Z }
+Z</p>
+<p>Z₁ is a trivial group (#Z₁ = 1), so it isn't that interesting, other than Z being its only element.</p>
 <p>Some things we can find about it:</p>
 <ul>
 <li>Since it is a trivial group, its only subgroup is itself</li>
-<li>[0]1 is the identity, so o([0]1) = 1</li>
-<li>Z1 = &lt;[0]1&gt;</li>
-</ul>
-<h2 id="mathbbz_2">(<span class="math inline">ℤ<sub>2</sub></span>,
-+)</h2>
-<p>When n = 2 we get Z2 = { [0]2, [1]2 }.</p>
-<p>[0]2 = (def [m]n) { x : x in Z, x = 0 (mod 2) } = (def (mod n)) { x :
-x in Z, x % 2 = 0 % 2 } = (0 % 2 = 0) { x : x in Z, x % 2 = 0 } = (x % 2
-= 0 =&gt; k in Z: x = 2 * k) { 2 * x : x in Z } = (def 2Z) 2Z</p>
-<p>So [0]2 = 2Z is the set of even integers. You can probably guess by
-now, but:</p>
-<p>[1]2 = (def [m]n) { x : x in Z, x = 1 (mod 2) } = (def (mod n)) { x :
-x in Z, x % 2 = 1 % 2 } = (1 % 2 = 1) { x : x in Z, x % 2 = 1 } = (x % 2
-= 1 =&gt; k in Z: x = 2 * k + 1) { 2 * x + 1 : x in Z } = (def 2Z+1)
+<li>[0]₁ is the identity, so o([0]₁) = 1</li>
+<li>Z₁ = 〈[0]₁〉</li></ul>
+<h2>(Z₂, +)</h2>
+<p>When n=2 we get Z₂ = { [0]₂, [1]₂ }.</p>
+<p>[0]₂
+  = { def [m]ₙ }
+{ x : x ∈ Z, x = 0 (mod 2) }
+  = { def (mod n) }
+{ x : x ∈ Z, x mod 2 = 0 mod 2 }
+  = { 0 mod 2 = 0 }
+{ x : x ∈ Z, x mod 2 = 0 }
+  = { x mod 2 = 0 ⇒ ∃ k ∈ Z: x = 2 ∗ k }
+{ 2 ∗ x : x ∈ Z }
+  = { def 2Z }
+2Z</p>
+<p>So [0]₂ = 2Z is the set of even integers. You can probably guess by now, but:</p>
+<p>[1]₂
+  = (def [m]n)
+{ x : x ∈ Z, x = 1 (mod 2) }
+  = (def (mod n))
+{ x : x ∈ Z, x mod 2 = 1 mod 2 }
+  = (1 mod 2 = 1)
+{ x : x ∈ Z, x mod 2 = 1 }
+  = (x mod 2 = 1 ⇒ ∃ k ∈ Z: x = 2 ∗ k + 1)
+{ 2 ∗ x + 1 : x ∈ Z }
+  = (def 2Z+1)
 2Z+1</p>
-<p>And with that you see that [1]2 is the set of odd integers.</p>
+<p>And with that you see that [1]₂ is the set of odd integers.</p>
 <p>Some things we can find about it:</p>
 <ul>
-<li>[0]2 is the identity, so o([0]2) = 1</li>
-<li>[1]2 != [0]2, but [1]2 + [1]2 = [1 + 1]2 = [2]2 = [0]2, so o([1]2) =
-2</li>
-<li>&lt;[0]2&gt; = { [0]2 } &lt; Z2</li>
-<li>&lt;[1]2&gt; = Z2</li>
-</ul>
-<h2 id="mathbbz_3">(<span class="math inline">ℤ<sub>3</sub></span>,
-+)</h2>
-<p>Z3 = { [0]3, [1]3, [2]3 }</p>
-<p>I’ll skip showing how to get to the definition of each of the classes
-from now. Also, you may have already noticed, but if not, [0]n is the
-set of multiples of n, nZ.</p>
-<p>[0]3 = 3Z [1]3 = 3Z + 1 [2]3 = 3Z + 2</p>
-<p>And now things about Z3:</p>
+<li>[0]₂ is the identity, so o([0]₂) = 1</li>
+<li>[1]₂ ≠ [0]₂, but [1]₂ + [1]₂ = [1 + 1]₂ = [2]₂ = [0]₂, so o([1]₂) = 2</li>
+<li>〈[0]₂〉 = { [0]₂ } &lt; Z₂</li>
+<li>〈[1]₂〉 = Z₂</li></ul>
+<h2>(Z₃, +)</h2>
+<p>Z₃ = { [0]₃, [1]₃, [2]₃ }</p>
+<p>I'll skip showing how to get to the definition of each of the classes from now. Also, you may have already noticed, but if not, [0]ₙ is the set of multiples of n, nZ.</p>
+<p>[0]₃ = 3Z
+[1]₃ = 3Z + 1
+[2]₃ = 3Z + 2</p>
+<p>And now things about Z₃:</p>
 <ul>
-<li>o([0]3) = 1</li>
-<li>o([1]3) = 3; you may also have noticed that o([1]n) = n. This has to
-do with the fact that n in Z: n * 1 = n. So n * [1]n = [n * 1]n = [n]n =
-[0]n</li>
-<li>o([2]3) = 3; [2]3 != [0]3, 2 * [2]3 = [1]3 != [0]3, 3 * [2]3 = [0]3
-This one has to do with the fact that 2 and 3 are coprime, which means
-lcm(2, 3) = 6, and 6 / 2 = 3</li>
-<li>&lt;[0]3&gt; = { [0]3 } &lt; Z3</li>
-<li>&lt;[1]3&gt; = &lt;[2]3&gt; = Z3</li>
-</ul>
-<h2 id="mathbbz_4">(<span class="math inline">ℤ<sub>4</sub></span>,
-+)</h2>
-<p>Z4 = { [0]4, [1]4, [2]4, [3]4 }</p>
-<p>[0]4 = 4Z [1]4 = 4Z + 1 [2]4 = 4Z + 2 [3]4 = 4Z + 3</p>
+<li>o([0]₃) = 1</li>
+<li>o([1]₃) = 3; you may also have noticed that o([1]n) = n. This has to do with the fact that ∀ n ∈ Z: n ∗ 1 = n. So n ∗ [1]n = [n ∗ 1]n = [n]n = [0]n</li>
+<li>o([2]₃) = 3; [2]₃ ≠ [0]₃, 2 ∗ [2]₃ = [1]₃ ≠ [0]₃, 3 ∗ [2]₃ = [0]₃ This one has to do with the fact that 2 and 3 are coprime, which means lcm(2, 3) = 6, and 6 / 2 = 3</li>
+<li>〈[0]₃〉 = { [0]₃ } &lt; Z₃</li>
+<li>〈[1]₃〉 = 〈[2]₃〉 = Z₃</li></ul>
+<h2>(Z₄, +)</h2>
+<p>Z₄ = { [0]₄, [1]₄, [2]₄, [3]₄ }</p>
+<p>[0]₄ = 4Z
+[1]₄ = 4Z + 1
+[2]₄ = 4Z + 2
+[3]₄ = 4Z + 3</p>
 <p>Once again, things about this group:</p>
 <ul>
-<li>o([0]4) = 1</li>
-<li>o([2]4) = 2</li>
-<li>o([1]4) = o([3]4) = 4</li>
-<li>&lt;[2]4&gt; = { [0]4, [2]4 } &lt; Z4</li>
-<li>&lt;[1]4&gt; = &lt;[3]4&gt; = Z4</li>
-</ul>
-<p>Now something interesting happened here! Remember that G group: a in
-G: o(a) | #G Because of this we know that the only possible orders are
-1, 2 and 4. This also means that it is possible for a subgroup of
-cardinal 2 to exist. In this case, the only one is &lt;[2]4&gt;. Why,
-though, did this happen with Z4, but not with Z1, Z2 or Z3? Z1 is
-obvious: #Z1 = 1, so the only possible subgroup is itself. Z2 is also
-easy: its only elements are [0]2 and [1]2, and we know that n in N:
-&lt;[0]n&gt; = { [0]n } and that n in N: &lt;[1]n&gt; = Zn For Z3 it’s
-not as clear. The hint is, again: G group: a in G: o(a) | #G Both 2 and
-3 are prime, which means, their only divisors are 1 and themselves. So
-it’s not possible for a subgroup of Z3 with cardinal 2 to exist.</p>
-<h2 id="mathbbz_5">(<span class="math inline">ℤ<sub>5</sub></span>,
-+)</h2>
-<p>Try this one</p>
-<p>Summing up: n in N: Zn has more than one proper subgroup &lt;=&gt; n
-is not prime or n in N: Zn has exactly one proper subgroup &lt;=&gt; n
-is prime</p>
-<p>Proving this is easy: Let n be in N.</p>
-<p>Suppose that Zn has more than one proper subgroup. We want to prove
-that n is not prime. There is a proper subgroup H such that <strong>#H
-&gt; 1</strong>. Since H is a proper subgroup, then <strong>#H &lt;
-n</strong>. From this, and the fact that #H | n, we can conclude n is
-not prime.</p>
-<p>Now the other way: Suppose <code>n</code> is not prime. We want to
-prove that Zn has more than one proper subgroup. Since <code>n</code> is
-not prime, then k in N: <code>1 &lt; k &lt; n</code> and
-<code>k | n</code> Let <code>k</code> be such a number. Then a in Zn:
-o(a) = k Let <code>a</code> be such an element. <strong>o(a) = k =&gt;
-#&lt;a&gt; = k</strong> We know that <strong>&lt;a&gt; &lt;= Zn</strong>
-and that <strong>k &lt; n</strong>, so <strong>&lt;a&gt; &lt;
-Zn</strong>.</p>
-<h1 id="todo">TODO</h1>
+<li>o([0]₄) = 1</li>
+<li>o([2]₄) = 2</li>
+<li>o([1]₄) = o([3]₄) = 4</li>
+<li>〈[2]₄〉 = { [0]₄, [2]₄ } &lt; Z₄</li>
+<li>〈[1]₄〉 = 〈[3]₄〉 = Z₄</li></ul>
+<p>Now something interesting happened here! Remember that ∀ G group: ∀ a ∈ G: o(a) | #G</p>
+<p>Because of this we know that the only possible orders are 1, 2 and 4.</p>
+<p>This also means that it is possible for a subgroup of cardinal 2 to exist. In this case, the only one is 〈[2]₄〉. Why, though, did this happen with Z₄, but not with Z₁, Z₂ or Z₃? Z₁ is obvious: #Z₁ = 1, so the only possible subgroup is itself. Z₂ is also easy: its only elements are [0]₂ and [1]₂, and we know that:</p>
+<ul>
+<li>∀ n ∈ N: 〈[0]n〉 = { [0]n }; and that</li>
+<li>∀ n ∈ N: 〈[1]n〉 = Zₙ</li></ul>
+<p>For Z₃ it's not as clear. The hint is, again: ∀ G group: ∀ a ∈ G: o(a) | #G</p>
+<p>Both 2 and 3 are prime, which means, their only divisors are 1 and themselves. So it's not possible for a subgroup of Z₃ with cardinal 2 to exist.</p>
+<h2>(Z₅, +)</h2>
+<p>Try this one yourself.</p>
+<h2>(Zₙ, +)</h2>
+<p>Summing up:</p>
+<ul>
+<li>∀ n ∈ N: Zₙ has more than one proper subgroup ⇔ n is not prime</li>
+<li>∀ n ∈ N: Zₙ has exactly one proper subgroup ⇔ n is prime</li></ul>
+<p>Proving this is easy: Let n ∈ N.</p>
+<p>Suppose that Zₙ has more than one proper subgroup. We want to prove that n is not prime.</p>
+<p>There is a proper subgroup H such that #H > 1. Since H is a proper subgroup, then #H &lt; n. From this, and the fact that #H | n, we can conclude n is not prime.</p>
+<p>Now the other way: Suppose n is not prime. We want to prove that Zₙ has more than one proper subgroup. Since n is not prime, then ∃ k ∈ N: 1 &lt; k &lt; n ∧ k | n.</p>
+<p>Let k be such a number. Then ∃ a ∈ Zₙ: o(a) = k.</p>
+<p>Let a be such an element. o(a) = k ⇒ #〈a〉 = k. We know that 〈a〉 ≤ Zₙ and that k &lt; n, so 〈a〉 &lt; Zₙ.</p>
+<h1>TODO</h1>
 <p>Groups that are isomorphic to some proper subgroup.</p>
