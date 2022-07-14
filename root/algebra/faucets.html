@@ -1,193 +1,78 @@
-<p>Recently I asked a bunch of people which one out of two types of
-faucets they prefer. The answers were pretty surprising (to me), as
-everyone chose the same type. In this post I’ll prove them wrong.</p>
-<h1 id="the-problem">The Problem</h1>
-<p>The state of a faucet determines 2 things: (1) water output pressure;
-and (2) water temperature. In real life, many things, including external
-factors, affect water temperature: water pressure (especially for hot
-water), if the pipes are exposed to the sun, rain, etc. Also in real
-life, it’s not uncommon for the maximum hot water pressure to be lower
-than that of cold water. However, to <a
-href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a>, we won’t
-take these things into account. In the case of pressure, we’ll just
-assume it’s the same for both hot and cold water.</p>
-<p>So, in our simplified model, the state of a faucet alone will
-determine the water state: both water temperature and output
-pressure.</p>
-<p>The plan is to prove that the faucet types are <em>functionally
-equivalent</em> to each other, and that each is <em>fully
-functional</em>.</p>
-<p>We’ll call two faucet types <em>functionally equivalent</em> iff they
-can both represent the same set of water states. And we’ll call a faucet
-type <em>fully functional</em> iff it can represent all water states,
-i.e., iff there’s a total surjective function <span
-class="math inline"><em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em> → <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>.</p>
-<p>After proving that both are equivalent in <em>function</em>, we’ll
-follow by proving that it’s not enough to be actually equivalent, and
-that, in some respects, one of them is better than the other.</p>
-<h1 id="water">Water</h1>
-<p>Instead of dealing with actual values and their correct units, we’ll
-simplify our model further and use percentages instead.</p>
-<p>Water pressure will range from 0% (off, no water running), to 100%
-(water running to the faucet’s full capacity). Likewise, temperature
-will range from 0% (cold, the coldest water you can get out of the
-faucet), to 100% (hot, the hottest water you can get out of the
-faucet).</p>
-<p>The water pressure and temperature considered are the output pressure
-and temperature, that is, what you’d feel right out of the faucet.</p>
+
+<h1>Faucets</h1>
+<p>@siiky
+2021/07/23</p>
+<p>Recently I asked a bunch of people which one out of two types of faucets they prefer. The answers were pretty surprising (to me), as everyone chose the same type.</p>
+<p>In this post I'll prove them wrong.</p>
+<h1>The Problem</h1>
+<p>The state of a faucet determines 2 things: output pressure and temperature. In real life, many things affect water temperature, including external factors: water pressure (especially for hot water), if the pipes are exposed to the sun, rain, etc. Also in real life, it's not uncommon for the maximum hot water pressure to be lower than that of cold water. However, to KISS, we won't take these details into account. In the case of pressure, we'll just assume it's the same for both hot and cold water.</p>
+<p>So, in our simplified model, the state of a faucet alone will determine the water state: both water temperature and output pressure.</p>
+<p>The plan is to prove that the faucet types are functionally equivalent to each other, and that each type is fully functional.</p>
+<p>We'll call two faucet types functionally equivalent iff they can both represent the same set of water states, i.e., if the codomain of the functions FaucetState → WaterState that represent each type is the same. And we'll call a faucet type fully functional iff it can represent all water states, i.e., there's a surjective function FaucetState → WaterState.</p>
+<p>After proving that both types are equivalent in function, we'll follow by proving that it's not enough to be equivalent, and that in some respects one of them is better than the other.</p>
+<h1>Water</h1>
+<p>Instead of dealing with actual values and their correct units, we'll simplify our model further and use percentages instead.</p>
+<p>Water pressure will range from 0% (off, no water running), to 100% (water running to the faucet's full capacity). Likewise, temperature will range from 0% (the coldest water you can get out of the faucet), to 100% (the hottest water you can get out of the faucet).</p>
+<p>The water pressure and temperature considered are the output pressure and temperature, that is, what you'd feel right out of the faucet.</p>
 <p>The types so far:</p>
 <ul>
-<li><span
-class="math inline"><em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em>: 101</span>
-(or, (roughly) equivalently, <span
-class="math inline">[0,1]</span>);</li>
-<li><span
-class="math inline"><em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>;</li>
-<li><span
-class="math inline"><em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>T</em><em>e</em><em>m</em><em>p</em><em>e</em><em>r</em><em>a</em><em>t</em><em>u</em><em>r</em><em>e</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>
-– we’ll say the temperature is the percentage of hot water in the total
-amount of water – this fits just right with the definition written in
-the paragraphs above;</li>
-<li><span
-class="math inline"><em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em>: <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em> × <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>T</em><em>e</em><em>m</em><em>p</em><em>e</em><em>r</em><em>a</em><em>t</em><em>u</em><em>r</em><em>e</em> ≈ <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em><sup>2</sup></span>.</li>
-</ul>
-<h1 id="faucets">Faucets</h1>
-<hr />
-<h2 id="type-a">Type <em>A</em></h2>
-<figure>
-<img src="assets/type_a_faucet.png" alt="Type A Faucet" />
-<figcaption aria-hidden="true">Type A Faucet</figcaption>
-</figure>
-<p>This faucet type has two 1D handles, or knobs: one for cold water,
-and one for hot water.</p>
-<p>In this type of faucet, the water pressure is simply the sum of hot
-water pressure and cold water pressure. There’s a catch, however: the
-pressure of hot and cold water being independent, the maximum hot and
-cold water pressure must be half of the maximum faucet water
-pressure.</p>
-<p>And the water temperature is simply the ratio of hot water over the
-total amount of water, i.e., hot water pressure over faucet
-pressure.</p>
+<li>Percentage :: 101 (or (roughly) equivalently [0, 1])</li>
+<li>WaterPressure :: Percentage</li>
+<li>WaterTemperature :: Percentage -- we'll say the temperature is the percentage of hot water in the total amount of water, which fits just right with the definition written in the paragraphs above</li>
+<li>WaterState :: WaterPressure ∗ WaterTemperature ≈ Percentage²</li></ul>
+<h1>Faucets</h1>
+<p>Let's start by introducing both contenders:</p>
+<p><img src="/assets/type_a_faucet.png" alt="Type A faucet specimen" />
+<img src="/assets/type_b_faucet.png" alt="Type B faucet specimen" /></p>
+<p>And now let's move on to the mathematical models.</p>
+<h2>Type A</h2>
+<p>This faucet type has two 1D handles, or knobs: one for cold water, and one for hot water.</p>
+<p>In this type of faucet, the water pressure is simply the sum of hot water pressure and cold water pressure. There's a catch, however: the pressure of hot and cold water being independent, the maximum hot and cold water pressure must be half of the maximum faucet water pressure.</p>
+<p>And the water temperature is simply the ratio of hot water over the total amount of water:  hot water pressure over faucet pressure.</p>
 <p>This is what we have algebraically:</p>
 <ul>
-<li><span
-class="math inline"><em>H</em><em>o</em><em>t</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>;</li>
-<li><span
-class="math inline"><em>C</em><em>o</em><em>l</em><em>d</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>;</li>
-<li><span
-class="math inline"><em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em>: <em>H</em><em>o</em><em>t</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em> × <em>C</em><em>o</em><em>l</em><em>d</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em></span>.</li>
-</ul>
-<p><span
-class="math display"><em>A</em>: <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em> → <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>
-<span
-class="math display"><em>A</em>(<em>h</em>,<em>c</em>) ↦ ((<em>h</em>+<em>c</em>)/2,<em>h</em>/(<em>h</em>+<em>c</em>))</span></p>
-<h3 id="proof">Proof</h3>
-<p>We want to prove that <span class="math inline"><em>A</em></span> is
-surjective. <span class="math inline"><em>A</em></span> is surjective
-iff</p>
-<p><span
-class="math display">∀(<em>p</em>,<em>t</em>) ∈ <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em>:</span>
-<span
-class="math display">∃(<em>h</em>,<em>c</em>) ∈ <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em>:</span>
-<span
-class="math display"><em>A</em>(<em>h</em>,<em>c</em>) = (<em>p</em>,<em>t</em>)</span></p>
-<p>So, let <span
-class="math inline">(<em>p</em>,<em>t</em>) ∈ <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>;
-let’s go find our <span
-class="math inline">(<em>h</em>,<em>c</em>) ∈ <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>:</p>
-<p><span class="math display">$$
-A(h, c) = (p, t)
-\iff
-\begin{cases}
-h = 2pt \\
-c = 2(p - pt) \\
-\end{cases}
-$$</span></p>
-<p>Try <span
-class="math inline"><em>A</em>(2<em>p</em><em>t</em>,2(<em>p</em>−<em>p</em><em>t</em>))</span>
-if you don’t believe me. <span
-class="math inline"><em>p</em> − <em>p</em><em>t</em></span> makes sense
-because <span class="math inline"><em>p</em></span> and <span
-class="math inline"><em>t</em></span> are percentages:</p>
-<ol type="1">
-<li>The product of two percentages is also a percentage;</li>
-<li><span
-class="math inline"><em>p</em> ≥ <em>p</em><em>t</em> ⟹ <em>p</em> − <em>p</em><em>t</em> ≥ 0</span>.
-Alternatively, if you think of a percentage as a real number in the
-range <span class="math inline">[0,1]</span>, this inequality can be
-expressed as such: <span
-class="math inline"><em>p</em> ≥ <em>p</em><em>t</em> ⇔ 1 ≥ <em>t</em></span>.</li>
-</ol>
-<p>A less obvious way to write the <span
-class="math inline"><em>c</em></span> is <span
-class="math inline">2<em>p</em>(1−<em>t</em>)</span>. Less obvious how
-to get to it, but more obvious what it means: the pressure of
-<em>non</em>-hot water, since <span
-class="math inline"><em>t</em></span> is the temperature (with greater
-meaning hotter).</p>
-<hr />
-<h2 id="type-b">Type <em>B</em></h2>
-<figure>
-<img src="assets/type_b_faucet.png" alt="Type B Faucet" />
-<figcaption aria-hidden="true">Type B Faucet</figcaption>
-</figure>
-<p>This faucet type has only one 2D handle: one dimension controls the
-water pressure, and the other the hot/cold water mixture. In this type
-of faucet, both the water pressure and temperature are the faucet’s
-pressure and temperature, so its mathematical model is <em>the simplest
-possible</em>.</p>
+<li>HotPressure :: Percentage</li>
+<li>ColdPressure :: Percentage</li>
+<li>FaucetState :: HotPressure ∗ ColdPressure</li></ul>
+<p>fA  :: FaucetState → WaterState
+fA (h, c) ↦ ((h + c) / 2, h / (h + c))</p>
+<h3>Proof</h3>
+<p>We want to prove that fA is surjective, that is: ∀ (p, t) ∈ WaterState: ∃ (h, c) ∈ FaucetState: fA(h, c) = (p, t)</p>
+<p>So, let's fix some (p, t) ∈ WaterState; let's find our (h, c) ∈ FaucetState:</p>
+<p>fA(h, c) = (p, t)
+  ≣ { exercise for the reader }
+h = 2pt ∧ c = 2(p-pt)</p>
+<p>Try fA(2pt, 2(p - pt)) if you don't believe me. p-pt makes sense because p and t are percentages:</p>
+<ul>
+<li>The product of two percentages is also a percentage</li>
+<li>p ≥ pt ⇔ p-pt ≥ 0. Alternatively: p ≥ pt ⇔ 1 ≥ t ⇔ t ≤ 1</li></ul>
+<p>Another way to write c is 2p(1-t). Less obvious how to get to it, but more obvious what it means: the pressure of non-hot water, since t is the temperature (with greater meaning hotter).</p>
+<h2>Type B</h2>
+<p>This faucet type has only one 2D handle: one dimension controls the water pressure, and the other the hot/cold water mixture. In this type of faucet, both the water pressure and temperature are the faucet's pressure and temperature, so its mathematical model is the simplest possible.</p>
 <p>Algebraically:</p>
 <ul>
-<li><span
-class="math inline"><em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>;</li>
-<li><span
-class="math inline"><em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>H</em><em>o</em><em>t</em><em>P</em><em>e</em><em>r</em><em>c</em>: <em>P</em><em>e</em><em>r</em><em>c</em><em>e</em><em>n</em><em>t</em><em>a</em><em>g</em><em>e</em></span>
-– to make things easy, we’ll say that the hot/cold water mixture
-dimension is to be represented simply as the percentage of hot
-water;</li>
-<li><span
-class="math inline"><em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em>: <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>P</em><em>r</em><em>e</em><em>s</em><em>s</em><em>u</em><em>r</em><em>e</em> × <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>H</em><em>o</em><em>t</em><em>P</em><em>e</em><em>r</em><em>c</em> ≈ <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>.</li>
-</ul>
-<p><span
-class="math display"><em>B</em>: <em>F</em><em>a</em><em>u</em><em>c</em><em>e</em><em>t</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em> → <em>W</em><em>a</em><em>t</em><em>e</em><em>r</em><em>S</em><em>t</em><em>a</em><em>t</em><em>e</em></span>
-<span
-class="math display"><em>B</em>(<em>p</em>,<em>h</em>) ↦ (<em>p</em>,<em>h</em>)</span></p>
-<h3 id="proof-1">Proof</h3>
-<p><span class="math inline"><em>B</em></span> clearly is surjective,
-because it is the identity function.</p>
-<hr />
-<p>Being that both faucet types are <em>fully functional</em>, then
-they’re also <em>functionally equivalent</em>.</p>
-<h1
-id="faucets-as-used-by-physical-beings-through-mechanical-interaction">Faucets
-as Used by Physical Beings through Mechanical Interaction</h1>
-<p>Did you notice something with the mathematical models?</p>
-<p>I’ll give you a hint: it’s obvious – I’ve even mentioned it
-already.</p>
-<p>Not there yet? Here’s another: type <em>B</em>.</p>
-<p><em>Right?!</em> It is the <em>epitome of simplicity!</em></p>
-<p>Did you notice something else?</p>
-<p>Here’s a hint: it’s not obvious.</p>
-<p>Still not obvious? Here: type <em>A</em>.</p>
-<p><em>Right?!</em> <strong>Not a damn clue!</strong> But squint
-harder…</p>
-<p>Here goes by analogy: ever tried to move a (computer) cursor on <em>a
-single axis</em> (vertical, horizontal, doesn’t matter) with a
-(computer) mouse? I’ll bet you have! I’ll also bet you’ve very rarely
-(and barely) did so satisfactorily, even if trying very hard! This is
-easily explained, because while we aim to affect one dimension only, the
-controls we have available for use affect more than that one dimension,
-<em>and</em> one may simultaneously (and unintentionally) affect more
-than that one dimension.</p>
-<p>How does this translate to the faucets discussion? Faucets <em>B</em>
-require you to set one or two parameters with a single 2D control, that
-is, set one or two parameters <em>simultaneously</em>. While with
-faucets <em>A</em> you’re only required to set a single parameter at a
-time, through a single 1D control for each parameter.</p>
-<p>Imagine you’re enjoying the current temperature but not so much the
-current current. Or maybe you like the current but wish it was a tad
-hotter. What do you do if you have a faucet <em>A</em>? Just change the
-thing right away! What do you do if you have a faucet <em>B</em>?
-<em>Roll for luck!</em></p>
-<p>For us, physical beings using faucets through mechanical interaction,
-it follows that faucets <em>A</em> are <em>superior</em>.</p>
+<li>FaucetPressure :: Percentage</li>
+<li>FaucetHotPerc :: Percentage -- to make things easy, we'll say that the hot/cold water mixture dimension is to be represented simply as the percentage of hot water</li>
+<li>FaucetState :: FaucetPressure ∗ FaucetHotPerc ≈ WaterState</li></ul>
+<p>fB :: FaucetState → WaterState
+fB(p, h) = (p, h)</p>
+<h3>Proof</h3>
+<p>fB clearly is surjective, because it is the identity function.</p>
+<h2>Of As and Bs</h2>
+<p>Since both faucet types are fully functional they're also functionally equivalent.</p>
+<h1>As Used by Physical Beings through Mechanical Interaction</h1>
+<p>Did you notice something with the mathematical models?
+I'll give you a hint: it's obvious -- I've even mentioned it already.
+Not there yet? Here's another: type B.
+Right?! It is the epitome of simplicity!</p>
+<p>Did you notice something else?
+Here's a hint: it's not obvious.
+Still not obvious? Here: type A.
+Right?! Not a damn clue! But squint harder...</p>
+<p>Here goes by analogy: ever tried to move a (computer) cursor on a single axis (vertical, horizontal, doesn't matter) with a (computer) mouse? I'll bet you have! I'll also bet you've very rarely (and barely) did so satisfactorily, even if trying very hard! This is easily explained, because while we aim to affect one dimension only, the controls we have available for use affect more than that one dimension, and one may simultaneously (and unintentionally) affect more than that one dimension.</p>
+<p>How does this translate to the faucets discussion? Faucets B require you to set one or two parameters with a single 2D control, that is, set one or two parameters simultaneously. While with faucets A you're only required to set a single parameter at a time, through a single 1D control for each parameter.</p>
+<p>Imagine you're enjoying the current temperature but not so much the current current. Or maybe you like the current but wish it was a tad hotter. What do you do if you have a faucet A? Just change the thing right away! What do you do if you have a faucet B? Roll for luck!</p>
+<p>For us, physical beings using faucets through mechanical interaction, it follows that faucets A are superior.</p>
+<p>I can think of more reasons to justify the superiority of faucets A, but I'll leave them for another post, maybe.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a></li></ul>

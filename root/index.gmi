@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => kB45oC/gnuplot.gmi 2022-07-14 - Gnuplot Quickstart
+=> algebra/faucets.gmi 2022-07-14 - Faucets
 => osm/overpass.gmi 2022-07-12 - Overpass
 => philosophy/donating.gmi 2022-07-08 - Donating
 => osm/prettymaps.gmi 2022-07-08 - prettymaps
@@ -31,7 +32,6 @@ This is where you'll find nothing interesting, welcome.
 => scheme/pipes.gmi 2022-07-07 - Pipes
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
-=> algebra/faucets.md 2022-07-07 - Faucets
 => osm/cheatsheet.md 2022-07-07 - OpenStreetMap Cheat Sheet
 => books/list.md 2022-07-07 - Books list
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
