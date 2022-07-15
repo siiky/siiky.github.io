@@ -44,6 +44,9 @@ $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
 	$(MAKE_GEMFEED) $(ROOT) >> $@
 
+serve:
+	csi -s geminid.scm
+
 watch:
 	ls -1 index.gmi $(SRC) | entr -c make
 
@@ -69,4 +72,4 @@ watch:
 %.svg: %.gp
 	$(GNUPLOT) -c $^
 
-.PHONY: all html index svg watch
+.PHONY: all html index serve svg watch
