@@ -1,5 +1,0 @@
-#+TITLE: TODO
-
-* TODO Remove this new ~<script>~ tag Pandoc is including in HTML
-
-Can I use a Lua filter for it?
