@@ -9,8 +9,9 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
-=> petri_nets/logs.gmi 2022-07-23 - Logs
-=> petri_nets/log001.gmi 2022-07-23 - Log 001
+=> petri_nets/log002.gmi 2022-07-23 - Petri Nets Log #002
+=> petri_nets/logs.gmi 2022-07-23 - Petri Nets Logs
+=> petri_nets/log001.gmi 2022-07-23 - Petri Nets Log #001
 => philosophy/flexibility-relations.gmi 2022-07-15 - Flexibility & Relations
 => philosophy/flexibility-life.gmi 2022-07-15 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-15 - Fagots
