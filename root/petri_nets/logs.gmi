@@ -4,4 +4,4 @@
 
 This is the list of logs I wrote about my journey studying Petri nets. I'll try to make this a sort of regular log with updates, my comments/opinions, and maybe notes. One of these days I should start combing through and arranging my notes to publish them.
 
-=> log001.org #001
+=> log001.gmi #001

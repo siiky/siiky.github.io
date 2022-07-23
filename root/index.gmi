@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => petri_nets/logs.gmi 2022-07-23 - Logs
+=> petri_nets/log001.gmi 2022-07-23 - Log 001
 => philosophy/flexibility-relations.gmi 2022-07-15 - Flexibility & Relations
 => philosophy/flexibility-life.gmi 2022-07-15 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-15 - Fagots
@@ -28,7 +29,6 @@ This is where you'll find nothing interesting, welcome.
 => meta/dates.gmi 2022-07-07 - Post dates
 => kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
 => words/covid.gmi 2022-07-07 - COVID Experience
-=> petri_nets/log001.org 2022-07-07 - Log 001
 => kB45oC/water_stations.gmi 2022-07-07 - Water Stations
 => care/ipfs.gmi 2022-07-07 - IPFS
 => scheme/reader-syntax.gmi 2022-07-07 - Reader Syntax
