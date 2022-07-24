@@ -47,6 +47,18 @@ $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
 	$(MAKE_GEMFEED) $(ROOT) >> $@
 
+sourcehut-pages: gemini.tgz http.tgz ipfs-publish
+
+gemini.tgz:
+	tar --exclude='*.html' -cvz -C root/ . > gemini.tgz
+
+http.tgz:
+	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cvz -C root/ . > http.tgz
+
+ipfs-publish:
+
+.PHONY: gemini.tgz http.tgz ipfs-publish sourcehut-pages
+
 serve:
 	csi -s geminid.scm
 
@@ -78,4 +90,4 @@ watch:
 %.svg: %.gp
 	$(GNUPLOT) -c $^
 
-.PHONY: all html index serve svg watch
+.PHONY: all html index png serve svg watch
