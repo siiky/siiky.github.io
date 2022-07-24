@@ -30,15 +30,18 @@ GVS := $(shell find $(ROOT) -type f -iname '*.gvs')
 GP := $(shell find $(ROOT) -type f -iname '*.gp')
 
 SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
+PNG := $(GVS:.gvs=.png)
 
 
-all: index html svg
+all: index html svg png
 
 index: $(ROOT)/index.html
 
 html: $(HTML)
 
 svg: $(SVG)
+
+png: $(PNG)
 
 $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
@@ -48,7 +51,7 @@ serve:
 	csi -s geminid.scm
 
 watch:
-	ls -1 index.gmi $(SRC) | entr -c make
+	ls -1 index.gmi $(SRC) $(GVS) $(GP) Makefile | entr -c make
 
 # Text files rules
 
@@ -65,6 +68,9 @@ watch:
 
 %.svg: %.gv
 	$(DOT) -Tsvg -o $@ $<
+
+%.png: %.gv
+	$(DOT) -Tpng -o $@ $<
 
 %.gv: %.gvs
 	$(GVS2GV) $<
