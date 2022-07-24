@@ -1,0 +1,19 @@
+
+<h1>ipfs.scm</h1>
+<p>@siiky
+2022/07/23</p>
+<p>I wrote a CHICKEN Scheme egg to control a Kubo node through its RPC API.</p>
+<ul>
+<li><a href="https://git.sr.ht/~siiky/ipfs.scm">Repository</a></li>
+<li><a href="https://wiki.call-cc.org/eggref/5/ipfs">Documentation</a></li></ul>
+<p>I'm really glad how it turned out. I think the list of endpoints along with their arguments is very easy to maintain (easily the most tedious job of such a library), and more importantly I think it's very easy to use also.</p>
+<p>A new version of Kubo was released some day of this past week, and today I spent a few hours updating the egg. I received nice comments from teiresias and a couple of improvements. That and the fact that they're using the egg made today that much better.</p>
+<ul>
+<li><a href="https://github.com/ipfs/kubo/releases/tag/v0.14.0">Kubo v0.14.0 release notes</a></li>
+<li><a href="https://git.sr.ht/~siiky/ipfs.scm/commit/0.0.4">ipfs.scm v0.0.4</a></li>
+<li><a href="gemini://the-brannons.com">teiresias</a></li></ul>
+<p>What prompted me to write this was Petri nets log #003, where I write about languages convertable to other target languages. The idea didn't come to me while writing that log but because of this egg. After writing it and getting something already usable I thought of using IPFS where CHICKEN didn't fit: some mpv hacks with its Lua interface. &quot;Why not write an ipfs.lua?&quot;, thought I. And so I did, the following couple of hours. I progressed along well, until I reached the point where only the endpoints were missing. Of course, I didn't want to write them by hand yet again, screw that! Instead, I wrote a different version of export-rpc-call and voila: a Lua file with all the endpoints defined, ready to be used!</p>
+<ul>
+<li><a href="/petri_nets/log003.html">Petri Nets Log #003</a></li>
+<li><a href="https://git.sr.ht/~siiky/ipfs.lua">ipfs.lua</a></li></ul>
+<p>Have to think what to do about the recent rename someday...</p>

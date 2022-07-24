@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => petri_nets/log003.gmi 2022/07/23 - Petri Nets Log #003
+=> code/ipfs.gmi 2022/07/23 - ipfs.scm
 => petri_nets/log002.gmi 2022-07-23 - Petri Nets Log #002
 => petri_nets/logs.gmi 2022-07-23 - Petri Nets Logs
 => petri_nets/log001.gmi 2022-07-23 - Petri Nets Log #001
@@ -32,7 +33,7 @@ This is where you'll find nothing interesting, welcome.
 => kB45oC/mirrors.gmi 2022-07-07 - Content-based Mirrors
 => words/covid.gmi 2022-07-07 - COVID Experience
 => kB45oC/water_stations.gmi 2022-07-07 - Water Stations
-=> care/ipfs.gmi 2022-07-07 - IPFS
+=> care/ipfs.gmi 2022-07-07 - IPFS Quickstart
 => scheme/reader-syntax.gmi 2022-07-07 - Reader Syntax
 => philosophy/butterfly_effect.gmi 2022-07-07 - Butterfly Effect
 => crypto/double_transposition.gmi 2022-07-07 - Double Transposition Cipher
