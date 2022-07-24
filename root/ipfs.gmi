@@ -1,0 +1,3 @@
+=> ipfs://bafybeig3owgquwxaqo6h423475kqkskrb2obrgctofhnp7z7ndcpig4dfe
+=> https://bafybeig3owgquwxaqo6h423475kqkskrb2obrgctofhnp7z7ndcpig4dfe.ipfs.dweb.link
+=> ipfs.txt

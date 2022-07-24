@@ -2,3 +2,4 @@
 siiky.github.io
 *.pem
 *.tgz
+env.make

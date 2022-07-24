@@ -1,3 +1,5 @@
+include env.make
+
 # Scripts
 MAKE_GEMFEED := ./make-gemfeed.sh
 GMI2MD_SCM := gmi2md.scm
@@ -47,17 +49,23 @@ $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
 	$(MAKE_GEMFEED) $(ROOT) >> $@
 
-sourcehut-pages: gemini.tgz http.tgz ipfs-publish
+tarballs: all ipfs-publish gemini.tgz http.tgz
+
+sourcehut-pages: tarballs
+	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
+	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
 gemini.tgz:
-	tar --exclude='*.html' -cvz -C root/ . > gemini.tgz
+	tar --exclude='*.html' -cz -C root/ . > gemini.tgz
 
 http.tgz:
-	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cvz -C root/ . > http.tgz
+	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C root/ . > http.tgz
 
 ipfs-publish:
+	csi -s ipfs-publish.scm $(ROOT)
+	make $(ROOT)/ipfs.html
 
-.PHONY: gemini.tgz http.tgz ipfs-publish sourcehut-pages
+.PHONY: gemini.tgz http.tgz ipfs-publish sourcehut-pages tarballs
 
 serve:
 	csi -s geminid.scm
