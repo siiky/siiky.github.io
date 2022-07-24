@@ -1,0 +1,10 @@
+# nothing interesting here
+
+This is where you'll find nothing interesting, welcome.
+
+=> about.gmi About
+=> tinylog.gmi Tinylog
+=> ipfs.gmi Also available through IPFS
+
+## Posts
+
