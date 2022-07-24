@@ -6,6 +6,7 @@ GMI2MD_SCM := gmi2md.scm
 GMI2MD := csi -s $(GMI2MD_SCM)
 MD2HTML_SCM := md2html.scm
 MD2HTML := csi -s $(MD2HTML_SCM)
+IPFS_PUBLISH := csi -s ipfs-publish.scm
 
 GVS2GV := gvs2gv
 GNUPLOT := gnuplot
@@ -49,9 +50,9 @@ $(ROOT)/index.gmi: index.gmi $(SRC)
 	cat index.gmi > $@
 	$(MAKE_GEMFEED) $(ROOT) >> $@
 
-tarballs: all ipfs-publish gemini.tgz http.tgz
+# TODO: Split IPFS add from publish
 
-sourcehut-pages: tarballs
+publish: ipfs-publish gemini.tgz http.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
@@ -61,11 +62,11 @@ gemini.tgz:
 http.tgz:
 	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C root/ . > http.tgz
 
-ipfs-publish:
-	csi -s ipfs-publish.scm $(ROOT)
+ipfs-publish: all
+	$(IPFS_PUBLISH) $(ROOT)
 	make $(ROOT)/ipfs.html
 
-.PHONY: gemini.tgz http.tgz ipfs-publish sourcehut-pages tarballs
+.PHONY: gemini.tgz http.tgz ipfs-publish publish
 
 serve:
 	csi -s geminid.scm
