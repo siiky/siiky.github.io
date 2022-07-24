@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> petri_nets/log003.gmi 2022/07/23 - Petri Nets Log #003
 => petri_nets/log002.gmi 2022-07-23 - Petri Nets Log #002
 => petri_nets/logs.gmi 2022-07-23 - Petri Nets Logs
 => petri_nets/log001.gmi 2022-07-23 - Petri Nets Log #001

@@ -1,0 +1,19 @@
+; vim: ft=scheme
+(digraph
+  somenet
+
+  (settings (graph (rankdir LR)))
+
+  (settings (node (shape circle)))
+  (nodes 0 1 2 3)
+
+  (settings (node (shape box)))
+  (nodes t1 t2)
+
+  (-> 0 t1)
+  (-> t1 1)
+  (-> t1 2)
+  (-> 1 t2)
+  (-> 2 t2)
+  (-> t2 3)
+  )

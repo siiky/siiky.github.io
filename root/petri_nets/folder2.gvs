@@ -1,0 +1,28 @@
+; vim: ft=scheme
+(digraph
+  folder2
+
+  (settings (graph (rankdir LR)))
+
+  (settings (node (shape circle)))
+  (nodes input output acc bound)
+
+  (settings (node (shape box)))
+  (nodes kons peek "default-acc")
+
+  (settings)
+
+  (-> input kons)
+  (-> input "default-acc")
+
+  (-> acc kons)
+  (-> kons acc)
+
+  (-> "default-acc" acc)
+  (-> bound "default-acc")
+
+  (-> acc peek)
+
+  (-> peek output)
+  (-> peek bound)
+  )
