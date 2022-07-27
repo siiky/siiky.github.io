@@ -67,7 +67,7 @@ gemini.tgz:
 	cd $(ROOT) && tar --exclude='*.html' -cz * > $(REPO_ROOT)/gemini.tgz
 
 http.tgz:
-	cd $(ROOT) && tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C $(ROOT) * > $(REPO_ROOT)/http.tgz
+	cd $(ROOT) && tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz * > $(REPO_ROOT)/http.tgz
 
 ipfs-publish: all
 	$(IPFS_PUBLISH) $(ROOT) $(IPFS_NODES)
