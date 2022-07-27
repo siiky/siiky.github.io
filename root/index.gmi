@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> books/list.gmi 2022-07-27 - Books list
 => petri_nets/log003.gmi 2022-07-24 - Petri Nets Log #003
 => code/ipfs.gmi 2022-07-24 - ipfs.scm
 => care/ipfs.gmi 2022-07-24 - IPFS Quickstart
@@ -41,7 +42,6 @@ This is where you'll find nothing interesting, welcome.
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
 => osm/cheatsheet.md 2022-07-07 - OpenStreetMap Cheat Sheet
-=> books/list.md 2022-07-07 - Books list
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
