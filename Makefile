@@ -13,6 +13,7 @@ GNUPLOT := gnuplot
 DOT := dot
 
 # The root directory of the site/capsule -- may be published to IPFS as-is
+REPO_ROOT := $(PWD)
 ROOT := root
 
 # Source text files and targets
@@ -57,10 +58,10 @@ publish: ipfs-publish gemini.tgz http.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
 gemini.tgz:
-	tar --exclude='*.html' -cz -C root/ . > gemini.tgz
+	cd $(ROOT) && tar --exclude='*.html' -cz * > $(REPO_ROOT)/gemini.tgz
 
 http.tgz:
-	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C root/ . > http.tgz
+	cd $(ROOT) && tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C $(ROOT) * > $(REPO_ROOT)/http.tgz
 
 ipfs-publish: all
 	$(IPFS_PUBLISH) $(ROOT) $(IPFS_NODES)
