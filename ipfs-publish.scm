@@ -100,10 +100,12 @@
 
              ; Pin the new CID to all hosts
              (for-each (lambda (host)
-                         (parameterize ((ipfs:*host* host))
-                           (ipfs:pin/update old-path: old-cid new-path: cid #:unpin #t))
-                         (eprint "Replaced old CID with new in " host "."))
-                       ipfs-nodes)
+			 (parameterize ((ipfs:*host* host))
+			   (if old-cid
+			       (ipfs:pin/update old-path: old-cid new-path: cid unpin: #t)
+			       (ipfs:pin/add path: cid recursive: #t)))
+			 (eprint "Pinned the CID in " host "."))
+		       ipfs-nodes)
 
              (eprint "CID" #\tab "Name" #\tab "Size" #\newline
                      cid #\tab name #\tab size)))))
