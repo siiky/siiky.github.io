@@ -1,0 +1,5 @@
+# Contact
+
+You can contact me through my public mailing list hosted on SourceHut, by sending an email to ~username/list-name@mailing-lists-domain, where username is siiky, list-name is public, and mailing-lists-domain is lists.sr.ht.
+
+=> https://lists.sr.ht/~siiky/public
