@@ -16,21 +16,21 @@ DOT := dot
 ROOT := root
 
 # Source text files and targets
-GMI := $(shell find $(ROOT) -type f -iname '*.gmi' -not -name index.gmi)
+GMI := $(shell find $(ROOT)/*/ -type f -iname '*.gmi')
 GMI_HTML := $(GMI:.gmi=.html)
 
-MD := $(shell find $(ROOT) -type f -iname '*.md')
+MD := $(shell find $(ROOT)/*/ -type f -iname '*.md')
 MD_HTML := $(MD:.md=.html)
 
-ORG := $(shell find $(ROOT) -type f -iname '*.org')
+ORG := $(shell find $(ROOT)/*/ -type f -iname '*.org')
 ORG_HTML := $(ORG:.org=.html)
 
 SRC := $(GMI) $(MD) $(ORG)
 HTML := $(GMI_HTML) $(MD_HTML) $(ORG_HTML)
 
 # Source assets
-GVS := $(shell find $(ROOT) -type f -iname '*.gvs')
-GP := $(shell find $(ROOT) -type f -iname '*.gp')
+GVS := $(shell find $(ROOT)/*/ -type f -iname '*.gvs')
+GP := $(shell find $(ROOT)/*/ -type f -iname '*.gp')
 
 SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
