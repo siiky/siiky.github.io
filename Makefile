@@ -17,8 +17,14 @@ REPO_ROOT := $(PWD)
 ROOT := root
 
 # Source text files and targets
+NON_POSTS := \
+ $(ROOT)/about \
+ $(ROOT)/contact \
+ $(ROOT)/publish-to-antenna \
+ $(ROOT)/tinylog \
+
 GMI := $(shell find $(ROOT)/*/ -type f -iname '*.gmi')
-GMI_HTML := $(GMI:.gmi=.html)
+GMI_HTML := $(GMI:.gmi=.html) $(NON_POSTS:=.html)
 
 MD := $(shell find $(ROOT)/*/ -type f -iname '*.md')
 MD_HTML := $(MD:.md=.html)
