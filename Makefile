@@ -63,7 +63,7 @@ http.tgz:
 	tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz -C root/ . > http.tgz
 
 ipfs-publish: all
-	$(IPFS_PUBLISH) $(ROOT)
+	$(IPFS_PUBLISH) $(ROOT) $(IPFS_NODES)
 	make $(ROOT)/ipfs.html
 
 .PHONY: gemini.tgz http.tgz ipfs-publish publish

@@ -31,8 +31,8 @@
        (eprint arg ... x)
        x))))
 
-(define-constant ipfs-nodes '("localhost" "stollingrones.local"))
 (define root (car (command-line-arguments)))
+(define ipfs-nodes (cdr (command-line-arguments)))
 
 (define make-ipfs-pathname
   (cute make-pathname root "ipfs" <>))
