@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/hard_determinism.gmi 2022-07-27 - Hard Determinism
 => books/list.gmi 2022-07-27 - Books list
 => petri_nets/log003.gmi 2022-07-24 - Petri Nets Log #003
 => code/ipfs.gmi 2022-07-24 - ipfs.scm
