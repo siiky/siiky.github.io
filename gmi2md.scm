@@ -61,7 +61,7 @@
     ; TODO: Escape characters?
     (list
       (cond
-        (image? (string-append "![" text "](" uri ")"))
+        (image? (string-append "\n![" text "](" uri ")\n"))
         ((string-null? text) (string-append " * <" uri ">"))
         (else (string-append " * [" text "](" uri ")"))))))
 
