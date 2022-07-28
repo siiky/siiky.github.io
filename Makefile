@@ -87,7 +87,7 @@ watch:
 	$(GMI2MD) $(ROOT) < $< | $(MD2HTML) > $@
 
 %.html: %.md
-	pandoc -f markdown -t html $< -o $@
+	$(MD2HTML) < $< > $@
 
 %.html: %.org
 	pandoc -f org -t html $< -o $@
