@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> books/bill_gates.how_to_avoid_a_climate_disaster.gmi 2022-07-28 - Bill Gates, "How to Avoid a Climate Disaster"
 => philosophy/hard_determinism.gmi 2022-07-27 - Hard Determinism
 => books/list.gmi 2022-07-27 - Books list
 => petri_nets/log003.gmi 2022-07-24 - Petri Nets Log #003
@@ -20,7 +21,6 @@ This is where you'll find nothing interesting, welcome.
 => philosophy/flexibility-relations.gmi 2022-07-15 - Flexibility & Relations
 => philosophy/flexibility-life.gmi 2022-07-15 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-15 - Fagots
-=> books/bill_gates.how_to_avoid_a_climate_disaster.org 2022-07-15 - Bill Gates, "How to Avoid a Climate Disaster"
 => psychology/links.gmi 2022-07-15 - Psychology Links
 => philosophy/links.gmi 2022-07-15 - Philosophy Links
 => algebra/groups.gmi 2022-07-15 - Groups

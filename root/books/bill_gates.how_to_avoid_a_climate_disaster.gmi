@@ -1,0 +1,376 @@
+# Bill Gates, "How to Avoid a Climate Disaster"
+@siiky
+2022/04/09
+
+Finished reading this book recently (ISBN 978-0-241-44830-4) and in this post I want to share my opinions/critique, and try to compile all the notes I took while and after reading.
+
+=> /books/list.gmi Books list
+=> https://en.wikipedia.org/wiki/How_to_Avoid_a_Climate_Disaster Wikipedia
+
+I'll put down page numbers in this post. If you have the same edition, cool, if not: the "Introduction" starts on p3, and "Climate Change and COVID-19" ends on p230. Hopefully that will help getting around. For figures and tables you can try the "Notes" where you can find the sources and corresponding page.
+
+Because Gemtext is so limitted, here are some notes to disambiguate formating: titles of things will be surrounded by quotes "Like This". ALL CAPS mean either italics or bold. Page numbers will be shown as p123, figures and tables as "fig p123" and "tbl p123" respectively, and sources as "src". Tables will be formatted in code blocks, and will additionally have their page and souce in the block's alt text. The page numbers of other things (quotes, figures, &c) will always come afterwards, never before. Likewise, comments about quotes/figures/tables/&c should in general come afterwards, not before.
+
+# Overview
+
+Here are some of my thoughts on the book in general, or the things I got out of it. Maybe you won't agree with them, but that's life (insert Frank Sinatra reference here).
+
+## Tone
+
+First off, this is kinda personal preference, what makes me tick or makes me cringe, but I didn't like the overall tone and his unquestionably stating that "progress" is good.
+
+My impression, from reading this book alone, is that he REALLY believes that the incresing consumerism of resources -- be they electricity, water, minerals/metals, &c -- is a good thing, especially by "the poor", as he puts it.
+
+The exact thing that got us into this, he thinks should be liberally given to and used by "the poor". So that they can wreck their own countries/land/habitat? Is this rational?
+
+The acknowledgements chapter even has a huge list of people that supposedly contributed to the inception of the book in some way or another, including several researchers, professors, and renowned authors in the matter. Is it just me thinking about this? Or am I missing something that everyone else knows about?
+
+It's almost funny after he mentioned David Foster Wallace's "This Is Water" (more later).
+
+This is related to some of the themes discussed in "Sex at Dawn" from my point of view.
+
+=> https://en.wikipedia.org/wiki/Sex_at_Dawn Sex at Dawn
+
+## Pollution of "greener" alternatives
+
+Throughout the whole book he continuously advocates for green energies (like solar and wind) and alternatives (like electric vehicles) but fails to mention even once the polution involved in their production, and the fact that the current products/methods are not recyclable (see "The Dark Side of Green Energies"). Other actually greener production methods may exists, even if not as efficient as the currently in use -- as an example, see "How to Build a Low-tech Solar Panel?". But for some reason there's no interest in these other methods.
+
+=> https://en.wikipedia.org/wiki/Guillaume_Pitron The Dark Side of Green Energies
+=> https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (solar powered site)
+=> https://www.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (conventional always-on site)
+
+## Green premium
+
+Didn't know the "green premium" term -- the extra price paid for greener alternatives. (I was familiar with the concept of course, just not the term)
+
+## Reflect cost in price
+
+I like the idea of raising/lowering the price of something based on its environmental impact, thus better reflecting the true cost of something, and simultaneously discouraging "bad" alternatives over "good" alternatives.
+
+The difficulty would be convincing people that this is a good thing. During the transition, the average Joe probably won't be interested in the fact the new thing is better for the environment but rather that what they're using currently became more expensive. In my view, this is of course irrational -- negative effects on the environment negatively affect everyone in the long run. But it's not something easy to convince someone of, and I for sure commit the same mistake occasionally.
+
+The "true cost" of something is what snan calls "externalities".
+
+=> gemini://idiomdrottning.org/externalities Idiomdrottning, "Externalities"
+
+## Sources & lack thereof
+
+Some of his statements are not backed by any sources, you're supposed (I guess?) to just believe in his authority on the matter and go with it. Examples:
+
+* money spent/saved over some period of time when comparing alternatives -- e.g. planting mangrove trees rather than not saves the world $80B/year;
+* amount of energy provided per amount of energy consumed by produced chickens, pigs, and cows -- 1/2, 1/3, 1/6, respectively; don't even know if that's the meat alone, or if it includes eggs, milk, &c;
+* the amount of CO2 absorbed by a tree during its lifetime -- "a good rule of thumb is 4 tons over the course 40 years."
+
+At least graphs and the like usually have sources.
+
+# Chapters
+
+Didn't take notes on some of the chapters, so obviously those aren't here. But just because it may be of interest, here's the whole index:
+
+* Introduction: 51 Billion to Zero
+* 1. Why Zero?
+* 2. This Will Be Hard
+* 3. Five Questions to Ask in Every Climate Conversation
+* 4. How We Plug In
+* 5. How We Make Things
+* 6. How We Grow Things
+* 7. How We Get Around
+* 8. How We Keep Cool and Stay Warm
+* 9. Adapting to a Warmer World
+* 10. Why Government Policies Matter
+* 11. A Plan for Getting to Zero
+* 12. What Each of Us Can Do
+* Afterword: Climate Change and COVID-19
+
+## 1. Why Zero?
+
+We went from almost 0 (in 1850) to almost 40 billion (in 2018) tons of CO2 (emitted per year, I suppose). (fig p24) The figure includes also the rise of the average temperature over the years.
+
+## 2. This Will Be Hard
+
+From David Foster Wallace's speech "This Is Water" (p37-38):
+
+> There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, "Morning, boys, how's the water?" And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, "What the hell is water?"
+
+David's explanation (p38):
+
+> The immediate point of the fish story is that the most obvious, ubiquitous, important realities are often the ones that are the hardest to see and talk about.
+
+=> https://en.wikipedia.org/wiki/This_Is_Water This Is Water
+=> https://en.wikipedia.org/wiki/David_Foster_Wallace David Foster Wallace
+
+> Many farmers still have to use ancient techniques, which is one of the reasons they're trapped in poverty. They deserve modern equipment and approaches, but right now using those tools means producing more greenhouse gases.
+
+(fig p43) Why assume that WE are the superior ones and that THEY have to "progress"? Until 1850 (according to fig p24) we barely made a dent to the climate. How can you assume that "progressing" was a good thing? Even agriculture may have been a mistake ("Sex at Dawn")!
+
+## 3. Five Questions to Ask in Every Climate Conversation
+
+```tbl p55; src: none
+|-----------------------+------------+------------------------------------------------|
+| Activity              | Percentage | Description                                    |
+|-----------------------+------------+------------------------------------------------|
+| Making things         |        31% | Producing materials (cement, metals, plastics) |
+| Plugging in           |        27% | Producing electricity                          |
+| Growing things        |        19% | For food (plants & animals)                    |
+| Getting around        |        16% | Cars, planes, ships, trains, trucks, ...       |
+| Keeping warm and cool |         7% | Heating & cooling, refrigeration               |
+|-----------------------+------------+------------------------------------------------|
+```
+
+Human activities and their percentage of greenhouse gases emitted. He gives a definition of what goes where in a footnote:
+
+> These percentages represent global greenhouse gas emissions. When you're categorizing emissions from various sources, one of the questions you have to decide is how to count products that cause emissions both when you make them and when you use them. For example, we produce greenhouse gases when we refine oil into gasoline and again when we burn the gasoline. In this book, I've included all the emissions from making things in "How we make things" and all the emissions from using them in their respective categories. So oil refining goes under "How we make things," and burning gasoline is included in "How we get around." The same goes for things like cars, planes, and ships. The steel that they're made of is counted under "How we make things," and the emissions from the fuels they burn go under "How we get around."
+
+This (tbl p55) was possibly the most unexpected thing I learned from the book. I didn't expect at all for production of materials to be at the top and electricity next. Even more for food (mainly animals) being worse than transport. Just shows how well (un)informed I am (or was)...
+
+```tbl p57; src: none
+|------------------------+--------------|
+| Place                  | Energy       |
+|------------------------+--------------|
+| world                  | 5k gigawatts |
+| US                     | 1k gigawatts |
+| mid-size city          | 1 gigawatt   |
+| small town             | 1 megawatt   |
+| average american house | 1 kilowatt   |
+|------------------------+--------------|
+```
+
+"How much power does it take?" -- Gates' cheatsheet on energy quantities.
+
+> Whenever you hear "kilowatt", think "house." "Gigawatt", think "city." A hundred or more gigawatts, think "big country."
+
+(p57)
+
+```tbl p58; src: none
+|----------------------+-----------|
+| Energy source        |     W/m^2 |
+|----------------------+-----------|
+| Fossil fuels         | 500-10000 |
+| Nuclear              |  500-1000 |
+| Solar                |      5-20 |
+| Hydropower           |      5-50 |
+| Wind                 |       1-2 |
+| Wood & other biomass |        <1 |
+|----------------------+-----------|
+```
+
+"How much power can we generate per square meter?". Has this note about solar:
+
+> The power density of solar could theoretically reach 100 W/m^2, though no one has accomplished this yet.
+
+## 4. How We Plug In
+
+Again suggesting it's a good thing to increase energy usage. (p74)
+
+```tbl p85; src: U.S. Department of Energy
+|-------------------+----------|
+| Source            | Tons/TWh |
+|-------------------+----------|
+| Solar             |     16.4 |
+| Hydropower        |     13.9 |
+| Wind              |      9.9 |
+| Geothermal        |      5.3 |
+| Coal              |     1.39 |
+| Nuclear (fission) |     0.99 |
+| Natural gas       |     0.79 |
+|-------------------+----------|
+```
+
+Histogram showing the amount of resources needed to build and run a power plant of different types, measured in tons of material per TWh, ordered from most to least material hungry. The numbers here are approximate, measured with a ruler.
+
+```p87; src: Our World in Data
+|-------------------+------------|
+| Energy Source     | Deaths/TWh |
+|-------------------+------------|
+| Coal              |       24.6 |
+| Oil               |       18.4 |
+| Biomass           |        4.6 |
+| Gas               |        2.8 |
+| Nuclear (fission) |       0.07 |
+|-------------------+------------|
+```
+
+Histogram showing number of deaths per unit of electricity generated. The numbers here are exact, each column had a label.
+
+> Imagine if everyone had gotten together one day and said, "Hey, cars are killing people. They're dangerous. Let's stop driving and give up these automobiles."
+
+Analogy with cars about how we stopped using and researching nuclear energy because of the past accidents. (p86)
+
+It goes both ways too. We stopped using nuclear because of the accidents, but even though the other energy sources result in more deaths per unit of energy (tbl p85), we prefer using those.
+
+Mentions TerraPower (p86). Some marketing words (mainly for me to read about later): traveling wave reactor, capable of running off of the waste of other reactors (that is, used up Uranium, Plutonium, &c). (p87)
+
+=> https://en.wikipedia.org/wiki/TerraPower TerraPower
+=> https://en.wikipedia.org/wiki/Traveling_wave_reactor Traveling wave reactor
+
+
+Direct Air Capture: taking CO2 right off the air. (p95) The alternative, which seems to be more practicable nowadays, is point carbon capture.
+
+=> https://en.wikipedia.org/wiki/Direct_air_capture Direct Air Capture (DAC)
+=> https://en.wikipedia.org/wiki/Carbon_capture_and_storage Point Carbon Capture
+
+> I used to scoff at the idea that using power more efficiently would make a dent in climate change. My rationale: If you have limited resources to reduce emitions (and we do), then you'd get the biggest impact by moving to zero emissions rather than by spending a lot trying to reduce the demand for energy.
+
+A comment about using less energy. (p95) Is it dumb or what? The following paragraph:
+
+> Anything that reduces the scale we need to reach is helpful.
+
+(p96) Whouldathunkit! Finally he says something more sensible:
+
+> There's also a related approach called load shifting or demand shifting, which involves using power more consistently throughout the day.
+
+(p96) This sounds like a VERY good idea, for the reason he states afterwards:
+
+> Right now, we tend to generate power when we use it -- for example, cranking up electric plants to run a city's light at night. With load shifting, though, we do the opposite: we use more electricity when it's cheapest to generate.
+
+(p96) And he goes on giving some examples of changes of thinking and habits.
+
+This relates to a habit that I have to break... I tend to stay up late and wake up late.
+
+## 6. How We Grow Things
+
+=> https://en.wikipedia.org/wiki/Norman_Borlaug Normam Borlaug
+
+Discoverer/inventor of "super crops". (p115)
+
+A grown chicken gives 1 calorie for every 2 calories that it consumes; a pig 1 for every 3 calories; cows 1 for every 6. That is, we get only 1/2, 1/3, and 1/6, respectively, of the energy "we put in" or "invest". (p115; src: none)
+
+Graph of the trend of meat consumption on some countries over the years, from 2000 to 2020, with predictions until 2028. (fig p116; src: OECD-FAO Agricultural Outlook 2020) In 2020, million tons of meat consumed (approximate numbers, measured with a ruler): Mexico, 9.6; Brazil, 19.2; EU, 40; USA, 42; China, 80.
+
+
+After exposing how "growing" animals significantly contributes to global
+warming and how greenhouse gases come to be from this practice, and of ways to
+work around that or improve the situation (such as bioengineering animals to not
+produce greenhouse gases), this comes along:
+
+> A hard-core vegan might propose another solution: /Instead of trying all these ways of reducing emissions, we should just stop raising livestock./ I can see the appeal of that argument, but I don't think it's realistic. For one thing, meat plays too important a role in human culture. In many parts of the world, even where it's scarce, eating meat is a crucial part of festivals and celebrations. In France, the gastronomic meal -- including started, meat or fish, cheese, and dessert -- is officially listed as part of the country's Intangible Cultural Heritage of Humanity. According to the listing on the UNESCO website, "The gastronomic meal emphasizes togetherness, the pleasure of taste, and the balance between human beings and the products of nature"
+
+Gates on "hard-core veganism". (p118-119)
+
+WHAT THE FUCK?
+
+1st WTF: "hard-core vegan"? I'm pretty sure a vegan doesn't have to be hardcore to be of that opinion.
+
+2nd WTF: "Cultural Heritage"? My brain goes "computer says no" with this... The culture we're leaving behind -- possibly literally -- is to destroy what made it possible to exist in the first place?
+
+=> https://en.wikipedia.org/wiki/Cultural_heritage Cultural Heritage
+=> https://en.wikipedia.org/wiki/Computer_says_no
+
+3rd WTF: UNESCO? Aren't these the guys behind the SDGs ("Sustainable Development Goals", quotes super apropes)?
+
+The same guys that put "Climate action", "Life below water", and "Life on land" as ALMOST the least important goals (13, 14, and 15, respectively, out of 17 -- pic below)? So much for sustainable...
+
+The same guys that put water (6) as less important than poverty (1), food (2), health & well being (3), quality education (4), and gender equality (5)? Yes, everybody knows you all your thirsts with knowledge quench! And what not...
+
+And what the hell are "No poverty" (1), "Responsible consumption and production" (12) and "Partnerships for the goals" (17), anyway? Couldn't they have been any vaguer?
+
+(To be fair, I haven't read each of the goals' descriptions yet)
+
+=> https://en.wikipedia.org/wiki/Unesco UNESCO
+=> https://en.wikipedia.org/wiki/Sustainable_Development_Goals SDGs
+=> https://en.wikipedia.org/wiki/List_of_Sustainable_Development_Goal_targets_and_indicators SDGs descriptions
+=> https://upload.wikimedia.org/wikipedia/commons/a/a7/Sustainable_Development_Goals.svg SDGs diagram
+
+4th WTF: "togetherness"? You have to eat an animal (or animal product) to feel close to other people, like your friends and family? Reminds me of an episode of FlashForward where a listener/commenter(?) said "a Sunday isn't a Sunday without my chicken wings" or something of the sort. Ok, then... Maybe I'm really so very abnormally undemanding, but I'm good with a (literal) walk in the park.
+
+=> https://www.flashforwardpod.com/2016/08/10/episode-19-wheres-the-beef FlashForward, "Where’s the Beef?"
+
+5th WTF: "pleasure of taste"? Hmmm... Let's see. How do you season your meat or fish? Salt (lit. some rock out of sea water)? Spices (plants, seeds, roots, ...)? Butter (or, more likely, margerine -- plant)? Some garlic (plant) and/or onion (plant)? Maybe some alcoholic beverage (wine -- grapes; beer -- cereals; vodka -- cereals/potatoes; rum -- sugarcanes)? Why use so many non-animal products if the said "pleasure of taste" comes from the meat? Admittedly, nowhere does it say that the "pleasure of taste" does come from the meat, but why would it be mentioned otherwise?
+
+6th WTF: "balance between human beings and the products of nature"? Must have been a typo for sure: "inbalance". And yes, good thing we, the good, well intentioned humans, are here to consume all the products of nature, otherwise, what a waste! And y'all know that waste is a sin!
+
+This must be the most stupidestest paragraph of the entire book... He does say he enjoys a good burger, but it would be only an assumption, of course, to think that this is his opinion or that he's just sharing something he's heard. Plus, he says he has invested in two companies working on "plant-based meat": Beyond Meat and Impossible Foods. (I think calling it "plant-based meat" is stupid -- if it's plant-based then it's not meat -- but whatever, after that paragraph...)
+
+=> https://en.wikipedia.org/wiki/Meat_substitutes
+=> https://en.wikipedia.org/wiki/Beyond_meat Beyond Meat
+=> https://en.wikipedia.org/wiki/Impossible_Foods Impossible Foods
+
+And yes, some of my comments above may be a bit exaggedated, but... WHAT THE FUCK?
+
+
+### Planting trees
+
+Raises a few good questions about the idea of planting trees. (p128-129)
+
+That bit mentioned at the top of the post:
+
+> How much carbon dioxide can a tree absorb in its lifetime?
+> (...)
+> (...) a good rule of thumb is 4 tons over the course 40 years.
+
+> How long will the tree survive?
+> (...)
+> If it burns down, all the carbon dioxide it was storing will be released into the atmosphere.
+
+> What would've happened if you hadn't planted that tree?
+> (...)
+> If a tree would've grown there naturally, you haven't added any extra carbon absorption.
+
+> In what part of the world will you plant the tree?
+> (...)
+> (...) trees in snowy areas cause more warming than cooling, because they're darker than the snow and ice (...). (...) trees in tropical forests cause more cooling than warming, because they release a lot of moisture, which becomes clouds, which reflect sunlight. Trees in the midlatitudes -- between the tropics and the polar circles -- are more or less a wash.
+
+> Was anything else growing in that spot?
+> (...)
+> If, for example, you eliminate a soybean farm and replace it with a fores, you've reduced the total amount of soybeans available, which will drive up their price, making it more likely that someone will cut down trees somewhere else to grow soybeans. This will offset at least some of the good you do by planting your trees.
+
+## 8. How We Keep Cool and Stay Warm
+
+Mentions the Bullit Center, a supposedly uber environment friendly building in Seattle. (p157-158)
+
+Mentions ACs a few times and how they're oh so cool, but darn it they pollute...
+
+Would have been a better use of paper talking about some alternatives not based on electricity. For heating, a rocket mass heater sounds like a very good idea (some people also call it a rocket stove, even though they seem to be different things). The Wikipedia page about ACs also presents some alternatives.
+
+=> https://en.wikipedia.org/wiki/Bullitt_Center Bullit Center
+=> https://en.wikipedia.org/wiki/Air_conditioning ACs
+=> https://en.wikipedia.org/wiki/Rocket_mass_heater Rocket mass heater
+=> https://en.wikipedia.org/wiki/Rocket_stove Rocket stove
+
+## 9. Adapting to a Warmer World
+
+> All told, mangroves help the world avoid some $80 billion a year in losses from floods, and they save billions more in other ways. Planting mangroves is much cheaper than building breakwaters, and the trees also improve the water quality.
+
+Pros of planting mangrove trees. (p172-173; src: none)
+
+=> https://en.wikipedia.org/wiki/Mangrove Mangrove trees
+
+# Mentioned books
+
+Books mentioned throughout the book -- may have missed some.
+
+* p43, Vaclav Smil, "Energy Transitions"
+* p43, Vaclav Smil, "Energy Myths and Realities"
+* "Earth's Changing Climate" -- can't find much info on this one, but I believe the ISBN is 978-0-7166-2765-4
+* "Weather for Dummies"
+* Acknowledgements, David MacKay, "Sustainable Energy -- Without the Hot Air"
+* p113-114, Paul Ehrlich, "The Population Bomb" -- a best selling flop; predicted tons of people dying from hunger in the 1970s and 1980s, which didn't happen
+
+=> https://en.wikipedia.org/wiki/Vaclav_Smil Vaclav Smil
+=> https://en.wikipedia.org/wiki/David_J._C._MacKay David MacKay
+=> https://en.wikipedia.org/wiki/Paul_R._Ehrlich Paul Ehrlich
+=> https://en.wikipedia.org/wiki/The_Population_Bomb "The Population Bomb"
+
+Didn't take note of the page of some of the books and I can't find them now... If you'd like to help complete this list, contact me (see the bottom of the page).
+
+# Conclusion
+
+It's likely that there are sources out there to learn about the problem better than this book, but I learned some things from it. So to me it was worth reading even though there were a few negative points and where I
+
+```
+- [ ] Strongly agree
+- [ ] Agree
+- [ ] Slightly agree
+- [ ] Neither agree nor disagree
+- [ ] Slightly disagree
+- [ ] Disagree
+- [X] Strongly disagree
+```
+
+The tone of the book really did turn me off a bit... But that's probably just me. Other than that, a really big omission is that of the pollution of "greener" alternatives. However, to give him some credit, he seems to really be invested in the problem and to be investing some phat $$$ into it.
+
+Whether it's worth reading for you depends on you, however. If you're well into the topic, you probably learned nothing from this post, and in that case maybe you won't learn nothing from the book that's significantly worth it either. On the other hand, if you're leaving this post more informed than you were before, you may want to give the book a try.
+
+If you have a different view on points I've raised, contact me, I'm interested in what other people have to say about the topic. If you know your stuff and have reading suggestions, do contact me!
+
+=> /contact.gmi Contact
