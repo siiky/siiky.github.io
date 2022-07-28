@@ -4,7 +4,7 @@
 
 Take a look at my other page on groups for the notation I'll be using here.
 
-=> groups.md Groups
+=> groups.gmi Groups
 
 The transitive closure of a relation θ, often represented as θ^*, is defined as:
 

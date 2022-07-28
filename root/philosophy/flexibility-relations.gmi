@@ -43,4 +43,4 @@ Just another tool in the toolbox... Maybe. Or not. ¯\__(ツ)_/¯
 => https://en.wikipedia.org/wiki/Consistent Consistent
 => https://en.wikipedia.org/wiki/Contradiction Contradiction
 => https://en.wikipedia.org/wiki/Proposition Proposition
-=> /books/list.md Books list
+=> /books/list.gmi Books list

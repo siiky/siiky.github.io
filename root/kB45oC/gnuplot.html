@@ -40,8 +40,8 @@ set logscale y 7
 plot exp(x) title &quot;Super straight line&quot;
 </code></pre>
 <ul>
-<li>&lt;/assets/exp.gp&gt;
-<img src="/assets/exp.svg" alt /></li></ul>
+<li>&lt;/assets/exp.gp&gt;</li></ul>
+<p><img src="/assets/exp.svg" alt /></p>
 <p>Notice how it starts to grow really fucking quick after t=5 -- right after HTML was invented.</p>
 <p>Here's another one:</p>
 <pre><code>set terminal svg
@@ -54,8 +54,8 @@ set samples 1000
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title &quot;Rollercoaster&quot;
 </code></pre>
 <ul>
-<li>&lt;/assets/rollercoaster.gp&gt;
-<img src="/assets/rollercoaster.svg" alt /></li></ul>
+<li>&lt;/assets/rollercoaster.gp&gt;</li></ul>
+<p><img src="/assets/rollercoaster.svg" alt /></p>
 <p>The website, with documentation and all (including a 300+ pages PDF of all the documentation, with proper PDF index!):</p>
 <ul>
 <li><a href="http://www.gnuplot.info">http://www.gnuplot.info</a></li>
@@ -69,8 +69,8 @@ set output &quot;assets/gnuplot-test.svg&quot;
 test
 </code></pre>
 <ul>
-<li>&lt;/assets/gnuplot-test.gp&gt;
-<img src="/assets/gnuplot-test.svg" alt /></li></ul>
+<li>&lt;/assets/gnuplot-test.gp&gt;</li></ul>
+<p><img src="/assets/gnuplot-test.svg" alt /></p>
 <p>Variables are a thing, and you can define them just as you'd expect:</p>
 <pre><code>some_var = 42
 </code></pre>
@@ -190,8 +190,8 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
      &quot;&quot;       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 </code></pre>
 <ul>
-<li>&lt;/assets/errorlines.gp&gt;
-<img src="/assets/errorlines.svg" alt /></li></ul>
+<li>&lt;/assets/errorlines.gp&gt;</li></ul>
+<p><img src="/assets/errorlines.svg" alt /></p>
 <hr />
 <p>Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.</p>
 <p>system() a la C is a thing!</p>

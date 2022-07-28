@@ -85,4 +85,4 @@ And that's that. I spent a good workday of time on this, totally worth it! Feels
 => https://en.wikipedia.org/wiki/Hard_determinism Hard Determinism
 => https://en.wikipedia.org/wiki/Tai_chi Tai Chi
 => https://www.theguardian.com/lifeandstyle/2016/nov/28/breakfast-health-america-kellog-food-lifestyle Breakfast (Kellogg's and some bacon company)
-=> /books/list.md Books list
+=> /books/list.gmi Books list
