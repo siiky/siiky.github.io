@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 => philosophy/flexibility-life.gmi 2022-07-28 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-28 - Fagots
 => books/bill_gates.how_to_avoid_a_climate_disaster.gmi 2022-07-28 - Bill Gates, "How to Avoid a Climate Disaster"
+=> osm/cheatsheet.md 2022-07-28 - OpenStreetMap Cheat Sheet
 => philosophy/hard_determinism.gmi 2022-07-27 - Hard Determinism
 => books/list.gmi 2022-07-27 - Books list
 => petri_nets/log003.gmi 2022-07-24 - Petri Nets Log #003
@@ -42,7 +43,6 @@ This is where you'll find nothing interesting, welcome.
 => scheme/pipes.gmi 2022-07-07 - Pipes
 => care/list.gmi 2022-07-07 - Care list
 => functional_programming/naming.gmi 2022-07-07 - Naming Operations rather than Variables
-=> osm/cheatsheet.md 2022-07-07 - OpenStreetMap Cheat Sheet
 => work/CVE-2020-26935.gmi 2022-07-07 - CVE-2020-26935
 => words/quotes.gmi 2022-07-07 - just quotes
 => work/credit.gmi 2022-07-07 - Credit
