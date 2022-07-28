@@ -29,13 +29,13 @@ It's almost funny after he mentioned David Foster Wallace's "This Is Water" (mor
 
 This is related to some of the themes discussed in "Sex at Dawn" from my point of view.
 
-=> https://en.wikipedia.org/wiki/Sex_at_Dawn Sex at Dawn
+=> https://en.wikipedia.org/wiki/Sex_at_Dawn Christopher Ryan, Cacilda Jethá, "Sex at Dawn"
 
 ## Pollution of "greener" alternatives
 
 Throughout the whole book he continuously advocates for green energies (like solar and wind) and alternatives (like electric vehicles) but fails to mention even once the polution involved in their production, and the fact that the current products/methods are not recyclable (see "The Dark Side of Green Energies"). Other actually greener production methods may exists, even if not as efficient as the currently in use -- as an example, see "How to Build a Low-tech Solar Panel?". But for some reason there's no interest in these other methods.
 
-=> https://en.wikipedia.org/wiki/Guillaume_Pitron The Dark Side of Green Energies
+=> https://en.wikipedia.org/wiki/Guillaume_Pitron "The Dark Side of Green Energies"
 => https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (solar powered site)
 => https://www.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (conventional always-on site)
 
@@ -96,7 +96,7 @@ David's explanation (p38):
 
 > The immediate point of the fish story is that the most obvious, ubiquitous, important realities are often the ones that are the hardest to see and talk about.
 
-=> https://en.wikipedia.org/wiki/This_Is_Water This Is Water
+=> https://en.wikipedia.org/wiki/This_Is_Water "This Is Water"
 => https://en.wikipedia.org/wiki/David_Foster_Wallace David Foster Wallace
 
 > Many farmers still have to use ancient techniques, which is one of the reasons they're trapped in poverty. They deserve modern equipment and approaches, but right now using those tools means producing more greenhouse gases.
@@ -281,7 +281,7 @@ And what the hell are "No poverty" (1), "Responsible consumption and production"
 
 This must be the most stupidestest paragraph of the entire book... He does say he enjoys a good burger, but it would be only an assumption, of course, to think that this is his opinion or that he's just sharing something he's heard. Plus, he says he has invested in two companies working on "plant-based meat": Beyond Meat and Impossible Foods. (I think calling it "plant-based meat" is stupid -- if it's plant-based then it's not meat -- but whatever, after that paragraph...)
 
-=> https://en.wikipedia.org/wiki/Meat_substitutes
+=> https://en.wikipedia.org/wiki/Meat_substitutes Plant-based meat
 => https://en.wikipedia.org/wiki/Beyond_meat Beyond Meat
 => https://en.wikipedia.org/wiki/Impossible_Foods Impossible Foods
 
