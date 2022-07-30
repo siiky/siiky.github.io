@@ -1,0 +1,39 @@
+
+<h1>Offline Code Reviews</h1>
+<p>@siiky
+2022/07/30</p>
+<p>I'm looking for a simple offline code review tool/workflow. I'm used to the GitHub PR workflow, but I'd like to be able to do CRs offline too. Since I'm moving away to SourceHut I want to learn something different, maybe the email workflow. However, two things:</p>
+<p>I want to change mail clients (Thunderbird needs too much mousework) but setting up terminal email clients looks like rocket science to me (looking at you (neo)mutt). Aerc was actually REALLY easy to setup! (except for my uni account) But unfortunately it doesn't work offline. Conclusion: getting contributions by email is OK as long as I don't need it for anything else.</p>
+<p>At work I use GH PRs still. Other than being online, the problem with the GH PR review interface for me is that it's slow for large PRs on my laptop. Having a tiny screen doesn't help either. Plus, I already have all of the necessary code on my PC all the time because I add my teammates' forks as remotes.</p>
+<p>When someone makes a PR, I should be able to make the code review completely offline without relying on the GH interface. And why should I have to use an interface to review code different from the one I use to program, anyway? On the browser I have some font I'm not used to, syntax highlighting I'm not used to, colors I'm not used to, keybindings (and lack thereof) I'm not used to, ... Some of this is probably partially fixable but... meh, I don't want to have to muck with yet more browser settings that I have to replicate manually from setup to setup never to get it exactly the same anywhere.</p>
+<p>There's a vim diff mode and a helper alias vimdiff, which is actually pretty good. Vim also recognizes the Git diff format and highlights everything correctly. So using vim to do CRs I think would be pretty dope.</p>
+<h2>Email workflow</h2>
+<p>An aside on the email workflow: as I understand it, contributors are supposed to send patchsets to some mailing list, and reviewers make the review right there in the email itself? Sending comments and whatnot as replies.</p>
+<p>How do people deal with big patchsets? What if you're reviewing file A that uses some functions from file B but file B is in another email? You jump between emails to check both? That sounds so hurgh but maybe because I'm thinking in Thunderbird terms...</p>
+<h2>webrev</h2>
+<p>Searched a bit around and found webrev, a script developed and maintained by the illumos project. Downloaded and managed to get it running after some modifications. It needs another script, which_scm, but since I won't use any VCS other than Git I removed all unnecessary code I could find.</p>
+<ul>
+<li><a href="https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh">webrev (latest by illumos)</a></li>
+<li><a href="https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/which_scm.sh">which_scm (latest by illumos)</a></li></ul>
+<p>The usage is simple enough though not clearly stated in the help message. It uses ksh which I don't have installed, but Nix makes this easy. On the directory of the repo you want to review: checkout the branch you want to merge and then you run webrev.</p>
+<pre><code>git checkout fix-bug-123
+nix-shell -p ksh --run 'webrev -p target-branch'
+</code></pre>
+<p>It creates a webrev directory with a bunch of files, one of which is index.html. This page has all the {add,chang,remov}ed files plus, for each: stats (total lines changed, additions, deletions, modified, unchanged); links to cdiff, udiff, sdiff; frames (not sure yet what this is); the before and the after; the patch; and the raw. Pretty neat.</p>
+<p>One thing that I didn't expect but should have: it's not a plebian  git diff target-branch...fix-bug-1234  (the best I know)! It's actually the list of new commits created on the fix-bug-123 branch. How it does this I would like to know. Have to read the code some day.</p>
+<p>It has a couple of quirks though, like, why the heck does it say that the arguments  -p target-branch  are unused if the result is different when I don't provide them? And why the heck doesn't the -? flag present the full help message?</p>
+<ul>
+<li><a href="https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh?r=bbf21555">webrev@bbf21555</a></li>
+<li><a href="webrev.patch">My Git only patch for webrev@bbf21555</a></li></ul>
+<p>It's neat that it creates a self contained set of files to review a specific PR, but it's still not quite there. :/ First of all, obviously it still uses the browser. And second, there's no way to mark a file as (un)reviewed, which is something I like from the GH and GitLab interfaces because it relieves me of the burden of wondering if I've already reviewed a certain file or not.</p>
+<h2>The solution?</h2>
+<p>I'm thinking if writing some helper scripts to make this flow easier would be doable or twm.</p>
+<p>I have to learn how webrev gets the list of commits introduced in a certain branch because it's the most useful starting point. Then, having the state in a file or w.e. is probably the best way to go (with the feature/target braches &amp; (un)reviewed files). Marking files as reviewed, and viewing the diff of a certain file (either with vimdiff or a git-diff in vim) should be easy enough.</p>
+<p>Two harder problems to solve: review comments and branch (PR) updates.</p>
+<p>How/Where to write and save review comments? Saving the git-diff somewhere and writing the comments there directly is the easiest way maybe, and maybe it's good enough. I can't think of any other way right now. AFAIK the email workflow works similarly (but in an email)?</p>
+<p>That leaves only the updates problem. How to deal with new commits, rewritten branch history, &amp;c? For this I still don't have any good ideas. Re-reviewing the whole thing from scratch is not ideal... It should be possible to unmark the reviewed files if they've changed between the old and the new branch tips. But I don't see any automatic way to reuse the old comments. In some cases they'll certainly be obsolete, but in others they'll still be valid. Making this step manual could be good enough...</p>
+<h2>Conclusion</h2>
+<p>I can't imagine I'm the only one wanting to do code reviews offline. And I can't imagine nobody before has wanted this either. After searching online almost all suggestions/ideas are complete overkill, like Gerrit, WTH! I just want to compare a bunch of files that I already have on my PC dammit! I shouln't've to set up some full-blown server for this...</p>
+<p>Hopefully I've missed something so obvious that everyone knows of. If you think that's the case, dear reader, please! Send me an email!</p>
+<ul>
+<li><a href="/contact.html">Contact</a></li></ul>

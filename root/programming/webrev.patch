@@ -1,0 +1,837 @@
+diff --git a/webrev.sh b~/.local/bin/webrev
+old mode 100644
+new mode 100755
+index a28e90eb..a503f0f1
+--- a/webrev.sh
++++ b~/.local/bin/webrev
+@@ -1,4 +1,4 @@
+-#!/usr/bin/ksh93 -p
++#!/usr/bin/env -S ksh -p
+ #
+ # CDDL HEADER START
+ #
+@@ -92,7 +92,7 @@ div.summary table th {
+     white-space: nowrap;
+ }
+ span.lineschanged {
+-    font-size: 0.7em;
++    font-size: 1em;
+ }
+ span.oldmarker {
+     color: red;
+@@ -1700,7 +1700,7 @@ diff_to_html()
+ 	/^\*\*\* old/	{ next }
+ 	/^\*\*\*\*/	{ next }
+ 	/^-------/	{ printf "<center><h1>%s</h1></center>\n", $0; next }
+-	/^\@\@.*\@\@$/	{ printf "</pre><hr></hr><pre>\n";
++	/^@@.*@@$/	{ printf "</pre><hr></hr><pre>\n";
+ 			  printf "<span class=\"newmarker\">%s</span>\n", $0;
+ 			  next}
+ 
+@@ -1736,40 +1736,6 @@ source_to_html()
+ 	print "</pre></body></html>"
+ }
+ 
+-#
+-# comments_from_wx {text|html} filepath
+-#
+-# Given the pathname of a file, find its location in a "wx" active
+-# file list and print the following comment.  Output is either text or
+-# HTML; if the latter, embedded bugids (sequence of 5 or more digits)
+-# are turned into URLs.
+-#
+-comments_from_wx()
+-{
+-	typeset fmt=$1
+-	typeset p=$2
+-
+-	comm=`$AWK '
+-	$1 == "'$p'" {
+-		do getline ; while (NF > 0)
+-		getline
+-		while (NF > 0) { print ; getline }
+-		exit
+-	}' < $wxfile`
+-
+-	if [[ -z $comm ]]; then
+-		comm="*** NO COMMENTS ***"
+-	fi
+-
+-	if [[ $fmt == "text" ]]; then
+-		print -- "$comm"
+-		return
+-	fi
+-
+-	print -- "$comm" | html_quote | its2url
+-
+-}
+-
+ #
+ # getcomments {text|html} filepath parentpath
+ #
+@@ -1784,10 +1750,6 @@ getcomments()
+ 	if [[ -n $Nflag ]]; then
+ 		return
+ 	fi
+-
+-	if [[ -n $wxfile ]]; then
+-		comments_from_wx $fmt $p
+-	fi
+ }
+ 
+ #
+@@ -1977,7 +1939,7 @@ function git_wxfile
+ 	my $parent = $ARGV[0];
+ 	my $child = $ARGV[1];
+ 
+-	open(F, "git diff -M --name-status $parent..$child |");
++	open(F, "git diff -M --name-status $parent..$child -- |");
+ 	while (<F>) {
+ 	    chomp;
+ 	    if (/^R(\d+)\s+([^ ]+)\s+([^ ]+)/) { # rename
+@@ -1995,7 +1957,7 @@ function git_wxfile
+ 	close(F);
+ 
+ 	my $state = 1;		    # 0|comments, 1|files
+-	open(F, "git whatchanged --pretty=format:%B $parent..$child |");
++	open(F, "git whatchanged --pretty=format:%B $parent..$child -- |");
+ 	while (<F>) {
+ 	    chomp;
+ 	    if (/^:[0-9]{6}/) {
+@@ -2042,23 +2004,6 @@ function flist_from_git
+ 	flist_from_wx $TMPFLIST
+ }
+ 
+-#
+-# flist_from_subversion
+-#
+-# Generate the file list by extracting file names from svn status.
+-#
+-function flist_from_subversion
+-{
+-	CWS=$1
+-	OLDPWD=$2
+-
+-	cd $CWS
+-	print -u2 " File list from: svn status ... \c"
+-	svn status | $AWK '/^[ACDMR]/ { print $NF }' > $FLIST
+-	print -u2 " Done."
+-	cd $OLDPWD
+-}
+-
+ function env_from_flist
+ {
+ 	[[ -r $FLIST ]] || return
+@@ -2087,15 +2032,9 @@ function env_from_flist
+ function look_for_prog
+ {
+ 	typeset path
+-	typeset ppath
+ 	typeset progname=$1
+ 
+-	ppath=$PATH
+-	ppath=$ppath:/usr/sfw/bin:/usr/bin:/usr/sbin
+-	ppath=$ppath:/opt/onbld/bin
+-	ppath=$ppath:/opt/onbld/bin/`uname -p`
+-
+-	PATH=$ppath prog=`whence $progname`
++	prog=`whence $progname`
+ 	if [[ -n $prog ]]; then
+ 		print $prog
+ 	fi
+@@ -2140,7 +2079,7 @@ function build_old_new_git
+ 	if [[ -n $parent_webrev && -e $PWS/$PDIR/$PF ]]; then
+ 		cp $PWS/$PDIR/$PF $olddir/$PDIR/$PF
+ 	else
+-		$GIT ls-tree $GIT_PARENT $file | read o_mode type o_object junk
++		$GIT ls-tree $GIT_PARENT -- $file | read o_mode type o_object junk
+ 		$GIT cat-file $type $o_object > $olddir/$file 2>/dev/null
+ 
+ 		if (( $? != 0 )); then
+@@ -2228,13 +2167,7 @@ function build_old_new
+ 	mkdir -p $olddir/$PDIR
+ 	mkdir -p $newdir/$DIR
+ 
+-	if [[ $SCM_MODE == "git" ]]; then
+-		build_old_new_git "$olddir" "$newdir"
+-	elif [[ $SCM_MODE == "subversion" ]]; then
+-		build_old_new_subversion "$olddir" "$newdir"
+-	elif [[ $SCM_MODE == "unknown" ]]; then
+-		build_old_new_unknown "$olddir" "$newdir"
+-	fi
++	build_old_new_git "$olddir" "$newdir"
+ 
+ 	if [[ ! -f $olddir/$PDIR/$PF && ! -f $newdir/$DIR/$F ]]; then
+ 		print "*** Error: file not in parent or child"
+@@ -2251,7 +2184,6 @@ function usage
+ {
+ 	print 'Usage:\twebrev [common-options]
+ 	webrev [common-options] ( <file> | - )
+-	webrev [common-options] -w <wx file>
+ 
+ Options:
+ 	-c <revision>: generate webrev for single revision (git only)
+@@ -2266,7 +2198,6 @@ Options:
+ 	-p <compare-against>: Use specified parent wkspc or basis for comparison
+ 	-t <remote_target>: Specify remote destination for webrev upload
+ 	-U: upload the webrev to remote destination
+-	-w <wxfile>: Use specified wx active file.
+ 
+ Environment:
+ 	WDIR: Control the output directory.
+@@ -2290,12 +2221,8 @@ trap "rm -f /tmp/$$.* ; exit" 0 1 2 3 15
+ 
+ set +o noclobber
+ 
+-PATH=$(/bin/dirname "$(whence $0)"):$PATH
+-
+ [[ -z $WDIFF ]] && WDIFF=`look_for_prog wdiff`
+-[[ -z $WX ]] && WX=`look_for_prog wx`
+ [[ -z $GIT ]] && GIT=`look_for_prog git`
+-[[ -z $WHICH_SCM ]] && WHICH_SCM=`look_for_prog which_scm`
+ [[ -z $PERL ]] && PERL=`look_for_prog perl`
+ [[ -z $RSYNC ]] && RSYNC=`look_for_prog rsync`
+ [[ -z $SCCS ]] && SCCS=`look_for_prog sccs`
+@@ -2321,11 +2248,6 @@ if [[ ! -x $PERL ]]; then
+ 	exit 1
+ fi
+ 
+-if [[ ! -x $WHICH_SCM ]]; then
+-	print -u2 "Error: Could not find which_scm.  Exiting."
+-	exit 1
+-fi
+-
+ [[ ! -x $WDIFF ]] && print -u2 "WARNING: wdiff not found."
+ 
+ # Declare global total counters.
+@@ -2345,7 +2267,6 @@ flist_file=
+ hflag=
+ iflag=
+ Iflag=
+-lflag=
+ Nflag=
+ nflag=
+ Oflag=
+@@ -2354,7 +2275,6 @@ pflag=
+ tflag=
+ uflag=
+ Uflag=
+-wflag=
+ remote_target=
+ 
+ while getopts "c:C:Dh:i:I:lnNo:Op:t:Uw" opt
+@@ -2396,18 +2316,12 @@ do
+ 
+ 	U)	Uflag=1;;
+ 
+-	w)	wflag=1;;
+-
+ 	?)	usage;;
+ 	esac
+ done
+ 
+ FLIST=/tmp/$$.flist
+ 
+-if [[ -n $wflag && -n $lflag ]]; then
+-	usage
+-fi
+-
+ # more sanity checking
+ if [[ -n $nflag && -z $Uflag ]]; then
+ 	print "it does not make sense to skip webrev generation" \
+@@ -2426,49 +2340,26 @@ fi
+ # $(basename ${CWS}).  So we need to get CWS set before we skip any remaining
+ # logic.
+ #
+-$WHICH_SCM | read SCM_MODE junk || exit 1
+ 
+-if [[ $SCM_MODE == "git" ]]; then
+-	#
+-	# Git priorities:
+-	# 1. git rev-parse --git-dir from CODEMGR_WS environment variable
+-	# 2. git rev-parse --git-dir from directory of invocation
+-	#
+-	[[ -z $codemgr_ws && -n $CODEMGR_WS ]] && \
+-	    codemgr_ws=$($GIT --git-dir=$CODEMGR_WS/.git rev-parse --git-dir \
+-		2>/dev/null)
+-	[[ -z $codemgr_ws ]] && \
+-	    codemgr_ws=$($GIT rev-parse --git-dir 2>/dev/null)
+-
+-	if [[ "$codemgr_ws" == ".git" ]]; then
+-		codemgr_ws="${PWD}/${codemgr_ws}"
+-	fi
++#
++# Git priorities:
++# 1. git rev-parse --git-dir from CODEMGR_WS environment variable
++# 2. git rev-parse --git-dir from directory of invocation
++#
++[[ -z $codemgr_ws && -n $CODEMGR_WS ]] && \
++    codemgr_ws=$($GIT --git-dir=$CODEMGR_WS/.git rev-parse --git-dir \
++	2>/dev/null)
++[[ -z $codemgr_ws ]] && \
++    codemgr_ws=$($GIT rev-parse --git-dir 2>/dev/null)
+ 
+-	if [[ "$codemgr_ws" = *"/.git" ]]; then
+-		codemgr_ws=$(dirname $codemgr_ws) # Lose the '/.git'
+-	fi
+-	CWS="$codemgr_ws"
+-elif [[ $SCM_MODE == "subversion" ]]; then
+-	#
+-	# Subversion priorities:
+-	# 1. CODEMGR_WS from environment
+-	# 2. Relative path from current directory to SVN repository root
+-	#
+-	if [[ -n $CODEMGR_WS && -d $CODEMGR_WS/.svn ]]; then
+-		CWS=$CODEMGR_WS
+-	else
+-		svn info | while read line; do
+-			if [[ $line == "URL: "* ]]; then
+-				url=${line#URL: }
+-			elif [[ $line == "Repository Root: "* ]]; then
+-				repo=${line#Repository Root: }
+-			fi
+-		done
++if [[ "$codemgr_ws" == ".git" ]]; then
++	codemgr_ws="${PWD}/${codemgr_ws}"
++fi
+ 
+-		rel=${url#$repo}
+-		CWS=${PWD%$rel}
+-	fi
++if [[ "$codemgr_ws" = *"/.git" ]]; then
++	codemgr_ws=$(dirname $codemgr_ws) # Lose the '/.git'
+ fi
++CWS="$codemgr_ws"
+ 
+ #
+ # If no SCM has been determined, take either the environment setting
+@@ -2503,233 +2394,107 @@ if [[ -n $pflag && -d $codemgr_parent/raw_files/new ]]; then
+ 	codemgr_parent=$(readlink -f "$codemgr_parent/raw_files/new")
+ fi
+ 
+-if [[ -z $wflag && -z $lflag ]]; then
+-	shift $(($OPTIND - 1))
+-
+-	if [[ $1 == "-" ]]; then
+-		cat > $FLIST
+-		flist_mode="stdin"
+-		flist_done=1
+-		shift
+-	elif [[ -n $1 ]]; then
+-		if [[ ! -r $1 ]]; then
+-			print -u2 "$1: no such file or not readable"
+-			usage
+-		fi
+-		cat $1 > $FLIST
+-		flist_mode="file"
+-		flist_file=$1
+-		flist_done=1
+-		shift
+-	else
+-		flist_mode="auto"
+-	fi
+-fi
+-
+-#
+-# Before we go on to further consider -l and -w, work out which SCM we think
+-# is in use.
+-#
+-case "$SCM_MODE" in
+-git|subversion)
+-	;;
+-unknown)
+-	if [[ $flist_mode == "auto" ]]; then
+-		print -u2 "Unable to determine SCM in use and file list not specified"
+-		print -u2 "See which_scm(1) for SCM detection information."
+-		exit 1
+-	fi
+-	;;
+-*)
+-	if [[ $flist_mode == "auto" ]]; then
+-		print -u2 "Unsupported SCM in use ($SCM_MODE) and file list not specified"
+-		exit 1
+-	fi
+-	;;
+-esac
+-
+-print -u2 "   SCM detected: $SCM_MODE"
+-
+-if [[ -n $wflag ]]; then
+-	#
+-	# If the -w is given then assume the file list is in Bonwick's "wx"
+-	# command format, i.e.  pathname lines alternating with SCCS comment
+-	# lines with blank lines as separators.  Use the SCCS comments later
+-	# in building the index.html file.
+-	#
+-	shift $(($OPTIND - 1))
+-	wxfile=$1
+-	if [[ -z $wxfile && -n $CODEMGR_WS ]]; then
+-		if [[ -r $CODEMGR_WS/wx/active ]]; then
+-			wxfile=$CODEMGR_WS/wx/active
+-		fi
+-	fi
+-
+-	[[ -z $wxfile ]] && print -u2 "wx file not specified, and could not " \
+-	    "be auto-detected (check \$CODEMGR_WS)" && exit 1
+-
+-	if [[ ! -r $wxfile ]]; then
+-		print -u2 "$wxfile: no such file or not readable"
+-		usage
+-	fi
+-
+-	print -u2 " File list from: wx 'active' file '$wxfile' ... \c"
+-	flist_from_wx $wxfile
+-	flist_done=1
+-	if [[ -n "$*" ]]; then
+-		shift
+-	fi
+-elif [[ $flist_mode == "stdin" ]]; then
+-	print -u2 " File list from: standard input"
+-elif [[ $flist_mode == "file" ]]; then
+-	print -u2 " File list from: $flist_file"
+-fi
++flist_mode="auto"
+ 
+ if [[ $# -gt 0 ]]; then
+ 	print -u2 "WARNING: unused arguments: $*"
+ fi
+ 
+ 
+-if [[ $SCM_MODE == "git" ]]; then
+-	# Check that "head" revision specified with -c or -h is sane
+-	if [[ -n $cflag || -n $hflag ]]; then
+-		head_rev=$($GIT rev-parse --verify --quiet "$codemgr_head")
+-		if [[ -z $head_rev ]]; then
+-			print -u2 "Error: bad revision ${codemgr_head}"
+-			exit 1
+-		fi
+-	fi
+-
+-	if [[ -z $codemgr_head ]]; then
+-		codemgr_head="HEAD";
+-	fi
+-
+-	# Parent can either be specified with -p, or specified with
+-	# CODEMGR_PARENT in the environment.
+-	if [[ -z $codemgr_parent && -n $CODEMGR_PARENT ]]; then
+-		codemgr_parent=$CODEMGR_PARENT
+-	fi
+-
+-	# Try to figure out the parent based on the branch the current
+-	# branch is tracking, if we fail, use origin/master
+-	this_branch=$($GIT branch | nawk '$1 == "*" { print $2 }')
+-	par_branch="origin/master"
+-
+-	# If we're not on a branch there's nothing we can do
+-	if [[ $this_branch != "(no branch)" ]]; then
+-		$GIT for-each-ref					\
+-		    --format='%(refname:short) %(upstream:short)'	\
+-		    refs/heads/ |					\
+-		    while read local remote; do
+-			if [[ "$local" == "$this_branch" ]]; then
+-				par_branch="$remote"
+-			fi
+-		done
+-	fi
+-
+-	if [[ -z $codemgr_parent ]]; then
+-		codemgr_parent=$par_branch
+-	fi
+-	PWS=$codemgr_parent
+-
+-	#
+-	# If the parent is a webrev, we want to do some things against
+-	# the natural workspace parent (file list, comments, etc)
+-	#
+-	if [[ -n $parent_webrev ]]; then
+-		real_parent=$par_branch
+-	else
+-		real_parent=$PWS
+-	fi
+-
+-	if [[ -z $flist_done ]]; then
+-		flist_from_git "$codemgr_head" "$real_parent"
+-		flist_done=1
+-	fi
+-
+-	#
+-	# If we have a file list now, pull out any variables set
+-	# therein.
+-	#
+-	if [[ -n $flist_done ]]; then
+-		env_from_flist
+-	fi
+-
+-	#
+-	# If we don't have a wx-format file list, build one we can pull change
+-	# comments from.
+-	#
+-	if [[ -z $wxfile ]]; then
+-		print "  Comments from: git...\c"
+-		git_wxfile "$codemgr_head" "$real_parent"
+-		print " Done."
+-	fi
+-
+-	if [[ -z $GIT_PARENT ]]; then
+-		GIT_PARENT=$($GIT merge-base "$real_parent" "$codemgr_head")
+-	fi
+-	if [[ -z $GIT_PARENT ]]; then
+-		print -u2 "Error: Cannot discover parent revision"
++# Check that "head" revision specified with -c or -h is sane
++if [[ -n $cflag || -n $hflag ]]; then
++	head_rev=$($GIT rev-parse --verify --quiet "$codemgr_head" --)
++	if [[ -z $head_rev ]]; then
++		print -u2 "Error: bad revision ${codemgr_head}"
+ 		exit 1
+ 	fi
++fi
+ 
+-	pnode=$(trim_digest $GIT_PARENT)
+-
+-	if [[ -n $cflag ]]; then
+-		PRETTY_PWS="previous revision (at ${pnode})"
+-	elif [[ $real_parent == */* ]]; then
+-		origin=$(echo $real_parent | cut -d/ -f1)
+-		origin=$($GIT remote -v | \
+-		    $AWK '$1 == "'$origin'" { print $2; exit }')
+-		PRETTY_PWS="${PWS} (${origin} at ${pnode})"
+-	elif [[ -n $pflag && -z $parent_webrev ]]; then
+-		PRETTY_PWS="${CWS} (explicit revision ${pnode})"
+-	else
+-		PRETTY_PWS="${PWS} (at ${pnode})"
+-	fi
++if [[ -z $codemgr_head ]]; then
++	codemgr_head="HEAD";
++fi
+ 
+-	cnode=$($GIT --git-dir=${codemgr_ws}/.git rev-parse --short=12 \
+-	    ${codemgr_head} 2>/dev/null)
++# Parent can either be specified with -p, or specified with
++# CODEMGR_PARENT in the environment.
++if [[ -z $codemgr_parent && -n $CODEMGR_PARENT ]]; then
++	codemgr_parent=$CODEMGR_PARENT
++fi
+ 
+-	if [[ -n $cflag || -n $hflag ]]; then
+-		PRETTY_CWS="${CWS} (explicit head at ${cnode})"
+-	else
+-		PRETTY_CWS="${CWS} (at ${cnode})"
+-	fi
+-elif [[ $SCM_MODE == "subversion" ]]; then
++# Try to figure out the parent based on the branch the current
++# branch is tracking, if we fail, use origin/master
++this_branch=$($GIT branch | nawk '$1 == "*" { print $2 }')
++par_branch="origin/master"
++
++# If we're not on a branch there's nothing we can do
++if [[ $this_branch != "(no branch)" ]]; then
++	$GIT for-each-ref					\
++	    --format='%(refname:short) %(upstream:short)'	\
++	    refs/heads/ |					\
++	    while read local remote; do
++		if [[ "$local" == "$this_branch" ]]; then
++			par_branch="$remote"
++		fi
++	done
++fi
+ 
+-	#
+-	# We only will have a real parent workspace in the case one
+-	# was specified (be it an older webrev, or another checkout).
+-	#
+-	[[ -n $codemgr_parent ]] && PWS=$codemgr_parent
++if [[ -z $codemgr_parent ]]; then
++	codemgr_parent=$par_branch
++fi
++PWS=$codemgr_parent
+ 
+-	if [[ -z $flist_done && $flist_mode == "auto" ]]; then
+-		flist_from_subversion $CWS $OLDPWD
+-	fi
++#
++# If the parent is a webrev, we want to do some things against
++# the natural workspace parent (file list, comments, etc)
++#
++if [[ -n $parent_webrev ]]; then
++	real_parent=$par_branch
+ else
+-	if [[ $SCM_MODE == "unknown" ]]; then
+-		print -u2 "    Unknown type of SCM in use"
+-	else
+-		print -u2 "    Unsupported SCM in use: $SCM_MODE"
+-	fi
++	real_parent=$PWS
++fi
+ 
++if [[ -z $flist_done ]]; then
++	flist_from_git "$codemgr_head" "$real_parent"
++	flist_done=1
++fi
++
++#
++# If we have a file list now, pull out any variables set
++# therein.
++#
++if [[ -n $flist_done ]]; then
+ 	env_from_flist
++fi
+ 
+-	if [[ -z $CODEMGR_WS ]]; then
+-		print -u2 "SCM not detected/supported and " \
+-		    "CODEMGR_WS not specified"
+-		exit 1
+-		fi
++if [[ -z $GIT_PARENT ]]; then
++	GIT_PARENT=$($GIT merge-base "$real_parent" "$codemgr_head")
++fi
++if [[ -z $GIT_PARENT ]]; then
++	print -u2 "Error: Cannot discover parent revision"
++	exit 1
++fi
+ 
+-	if [[ -z $CODEMGR_PARENT ]]; then
+-		print -u2 "SCM not detected/supported and " \
+-		    "CODEMGR_PARENT not specified"
+-		exit 1
+-	fi
++pnode=$(trim_digest $GIT_PARENT)
++
++if [[ -n $cflag ]]; then
++	PRETTY_PWS="previous revision (at ${pnode})"
++elif [[ $real_parent == */* ]]; then
++	origin=$(echo $real_parent | cut -d/ -f1)
++	origin=$($GIT remote -v | \
++	    $AWK '$1 == "'$origin'" { print $2; exit }')
++	PRETTY_PWS="${PWS} (${origin} at ${pnode})"
++elif [[ -n $pflag && -z $parent_webrev ]]; then
++	PRETTY_PWS="${CWS} (explicit revision ${pnode})"
++else
++	PRETTY_PWS="${PWS} (at ${pnode})"
++fi
++
++cnode=$($GIT --git-dir=${codemgr_ws}/.git rev-parse --short=12 \
++    ${codemgr_head} 2>/dev/null)
+ 
+-	CWS=$CODEMGR_WS
+-	PWS=$CODEMGR_PARENT
++if [[ -n $cflag || -n $hflag ]]; then
++	PRETTY_CWS="${CWS} (explicit head at ${cnode})"
++else
++	PRETTY_CWS="${CWS} (at ${cnode})"
+ fi
+ 
+ #
+@@ -2760,121 +2525,6 @@ if [[ -n $Nflag ]]; then
+ 	break
+ fi
+ 
+-typeset -A itsinfo
+-typeset -r its_sed_script=/tmp/$$.its_sed
+-valid_prefixes=
+-if [[ -z $nflag ]]; then
+-	DEFREGFILE="$(/bin/dirname "$(whence $0)")/../etc/its.reg"
+-	if [[ -n $Iflag ]]; then
+-		REGFILE=$ITSREG
+-	elif [[ -r $HOME/.its.reg ]]; then
+-		REGFILE=$HOME/.its.reg
+-	else
+-		REGFILE=$DEFREGFILE
+-	fi
+-	if [[ ! -r $REGFILE ]]; then
+-		print "ERROR: Unable to read database registry file $REGFILE"
+-		exit 1
+-	elif [[ $REGFILE != $DEFREGFILE ]]; then
+-		print "   its.reg from: $REGFILE"
+-	fi
+-
+-	$SED -e '/^#/d' -e '/^[ 	]*$/d' $REGFILE | while read LINE; do
+-
+-		name=${LINE%%=*}
+-		value="${LINE#*=}"
+-
+-		if [[ $name == PREFIX ]]; then
+-			p=${value}
+-			valid_prefixes="${p} ${valid_prefixes}"
+-		else
+-			itsinfo["${p}_${name}"]="${value}"
+-		fi
+-	done
+-
+-
+-	DEFCONFFILE="$(/bin/dirname "$(whence $0)")/../etc/its.conf"
+-	CONFFILES=$DEFCONFFILE
+-	if [[ -r $HOME/.its.conf ]]; then
+-		CONFFILES="${CONFFILES} $HOME/.its.conf"
+-	fi
+-	if [[ -n $Cflag ]]; then
+-		CONFFILES="${CONFFILES} ${ITSCONF}"
+-	fi
+-	its_domain=
+-	its_priority=
+-	for cf in ${CONFFILES}; do
+-		if [[ ! -r $cf ]]; then
+-			print "ERROR: Unable to read database configuration file $cf"
+-			exit 1
+-		elif [[ $cf != $DEFCONFFILE ]]; then
+-			print "       its.conf: reading $cf"
+-		fi
+-		$SED -e '/^#/d' -e '/^[ 	]*$/d' $cf | while read LINE; do
+-		    eval "${LINE}"
+-		done
+-	done
+-
+-	#
+-	# If an information tracking system is explicitly identified by prefix,
+-	# we want to disregard the specified priorities and resolve it accordingly.
+-	#
+-	# To that end, we'll build a sed script to do each valid prefix in turn.
+-	#
+-	for p in ${valid_prefixes}; do
+-		#
+-		# When an informational URL was provided, translate it to a
+-		# hyperlink.  When omitted, simply use the prefix text.
+-		#
+-		if [[ -z ${itsinfo["${p}_INFO"]} ]]; then
+-			itsinfo["${p}_INFO"]=${p}
+-		else
+-			itsinfo["${p}_INFO"]="<a href=\\\"${itsinfo["${p}_INFO"]}\\\">${p}</a>"
+-		fi
+-
+-		#
+-		# Assume that, for this invocation of webrev, all references
+-		# to this information tracking system should resolve through
+-		# the same URL.
+-		#
+-		# If the caller specified -O, then always use EXTERNAL_URL.
+-		#
+-		# Otherwise, look in the list of domains for a matching
+-		# INTERNAL_URL.
+-		#
+-		[[ -z $Oflag ]] && for d in ${its_domain}; do
+-			if [[ -n ${itsinfo["${p}_INTERNAL_URL_${d}"]} ]]; then
+-				itsinfo["${p}_URL"]="${itsinfo[${p}_INTERNAL_URL_${d}]}"
+-				break
+-			fi
+-		done
+-		if [[ -z ${itsinfo["${p}_URL"]} ]]; then
+-			itsinfo["${p}_URL"]="${itsinfo[${p}_EXTERNAL_URL]}"
+-		fi
+-
+-		#
+-		# Turn the destination URL into a hyperlink
+-		#
+-		itsinfo["${p}_URL"]="<a href=\\\"${itsinfo[${p}_URL]}\\\">&</a>"
+-
+-		# The character class below contains a literal tab
+-		print "/^${p}[: 	]/ {
+-				s;${itsinfo[${p}_REGEX]};${itsinfo[${p}_URL]};g
+-				s;^${p};${itsinfo[${p}_INFO]};
+-			}" >> ${its_sed_script}
+-	done
+-
+-	#
+-	# The previous loop took care of explicit specification.  Now use
+-	# the configured priorities to attempt implicit translations.
+-	#
+-	for p in ${its_priority}; do
+-		print "/^${itsinfo[${p}_REGEX]}[ 	]/ {
+-				s;^${itsinfo[${p}_REGEX]};${itsinfo[${p}_URL]};g
+-			}" >> ${its_sed_script}
+-	done
+-fi
+-
+ #
+ # Search for DO_EVERYTHING above for matching "for" statement
+ # and explanation of this terminator.
+@@ -3283,34 +2933,16 @@ print "<table>"
+ #
+ # Get the preparer's name:
+ #
+-# If the SCM detected is Git, and the configuration property user.name is
+-# available, use that, but be careful to properly escape angle brackets (HTML
+-# syntax characters) in the email address.
+-#
+-# Otherwise, use the current userid in the form "John Doe (jdoe)", but
+-# to maintain compatibility with passwd(5), we must support '&' substitutions.
++# Only works with Git. If the configuration property user.name is available,
++# use that, but be careful to properly escape angle brackets (HTML syntax
++# characters) in the email address.
+ #
+-preparer=
+-if [[ "$SCM_MODE" == git ]]; then
+-	preparer=$(git config user.name 2>/dev/null)
+-	if [[ -n "$preparer" ]]; then
+-		preparer="$(echo "$preparer" | html_quote)"
+-	fi
+-fi
+-if [[ -z "$preparer" ]]; then
+-	preparer=$(
+-	    $PERL -e '
+-	        ($login, $pw, $uid, $gid, $quota, $cmt, $gcos) = getpwuid($<);
+-	        if ($login) {
+-	            $gcos =~ s/\&/ucfirst($login)/e;
+-	            printf "%s (%s)\n", $gcos, $login;
+-	        } else {
+-	            printf "(unknown)\n";
+-	        }
+-	')
++preparer=$(git config user.name 2>/dev/null)
++if [[ -n "$preparer" ]]; then
++	preparer="$(echo "$preparer" | html_quote)"
+ fi
+ 
+-PREPDATE=$(LC_ALL=C /usr/bin/date +%Y-%b-%d\ %R\ %z\ %Z)
++PREPDATE=$(LC_ALL=C date +'%F %R %z')
+ print "<tr><th>Prepared by:</th><td>$preparer on $PREPDATE</td></tr>"
+ print "<tr><th>Workspace:</th><td>${PRETTY_CWS:-$CWS}"
+ print "</td></tr>"
+@@ -3515,37 +3147,6 @@ do
+ 	    rm $F.count
+ 	fi
+ 
+-	if [[ $SCM_MODE == "unknown" ]]; then
+-		# Include warnings for important file mode situations:
+-		# 1) New executable files
+-		# 2) Permission changes of any kind
+-		# 3) Existing executable files
+-		old_mode=
+-		if [[ -f $WDIR/raw_files/old/$PP ]]; then
+-			old_mode=`get_file_mode $WDIR/raw_files/old/$PP`
+-		fi
+-
+-		new_mode=
+-		if [[ -f $WDIR/raw_files/new/$P ]]; then
+-			new_mode=`get_file_mode $WDIR/raw_files/new/$P`
+-		fi
+-
+-		if [[ -z "$old_mode" && "$new_mode" = *[1357]* ]]; then
+-			print "<span class=\"chmod\">"
+-			print "<p>new executable file: mode $new_mode</p>"
+-			print "</span>"
+-		elif [[ -n "$old_mode" && -n "$new_mode" &&
+-		    "$old_mode" != "$new_mode" ]]; then
+-			print "<span class=\"chmod\">"
+-			print "<p>mode change: $old_mode to $new_mode</p>"
+-			print "</span>"
+-		elif [[ "$new_mode" = *[1357]* ]]; then
+-			print "<span class=\"chmod\">"
+-			print "<p>executable file: mode $new_mode</p>"
+-			print "</span>"
+-		fi
+-	fi
+-
+ 	print "</blockquote>"
+ done
+ 
+@@ -3554,9 +3155,9 @@ print
+ print "<hr></hr>"
+ print "<p style=\"font-size: small\">"
+ print "This code review page was prepared using <b>$0</b>."
+-print "Webrev is maintained by the <a href=\"http://www.illumos.org\">"
++print "Webrev is maintained by the <a href=\"https://www.illumos.org\">"
+ print "illumos</a> project.  The latest version may be obtained"
+-print "<a href=\"http://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh\">here</a>.</p>"
++print "<a href=\"https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh\">here</a>.</p>"
+ print "</body>"
+ print "</html>"
+ 

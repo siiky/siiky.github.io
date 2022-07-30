@@ -9,6 +9,9 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> programming/ocr.gmi 2022/07/30 - Offline Code Reviews
+=> projects/ipfs.gmi 2022-07-30 - ipfs.scm
+=> projects/gemtext.gmi 2022-07-30 - Scheme Gemtext Reader
 => philosophy/flexibility-relations.gmi 2022-07-28 - Flexibility & Relations
 => philosophy/flexibility-life.gmi 2022-07-28 - Flexibility & Life
 => psychology/fagots.gmi 2022-07-28 - Fagots
