@@ -5,6 +5,11 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-07-31 02:06 +0100
+Pretty much everything is in Gemtext now! But I clearly didn't think thoroughly through the matter of sorting posts by last commit date.
+Whenever I update Antenna it looks like I'm just reposting and spamming the feed... Guess having a manual second date like "last significant publish" is a better option.
+Af more work ahead...
+
 ## 2022-07-28 11:03 +0100
 A fren recommended me this video just now.
 => https://invidious.snopyta.org/watch?v=P9Q3crLWQY8 How the Frogs Cooked Dinner
