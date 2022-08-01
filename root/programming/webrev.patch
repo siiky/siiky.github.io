@@ -1,9 +1,9 @@
-diff --git a/webrev.sh b~/.local/bin/webrev
+diff --git a/webrev.sh b/webrev.sh
 old mode 100644
 new mode 100755
-index a28e90eb..a503f0f1
+index a28e90e..8be9502
 --- a/webrev.sh
-+++ b~/.local/bin/webrev
++++ b/webrev.sh
 @@ -1,4 +1,4 @@
 -#!/usr/bin/ksh93 -p
 +#!/usr/bin/env -S ksh -p
@@ -148,7 +148,54 @@ index a28e90eb..a503f0f1
  		$GIT cat-file $type $o_object > $olddir/$file 2>/dev/null
  
  		if (( $? != 0 )); then
-@@ -2228,13 +2167,7 @@ function build_old_new
+@@ -2172,46 +2111,6 @@ function build_old_new_git
+ 	cd $OWD
+ }
+ 
+-function build_old_new_subversion
+-{
+-	typeset olddir="$1"
+-	typeset newdir="$2"
+-
+-	# Snag new version of file.
+-	rm -f $newdir/$DIR/$F
+-	[[ -e $CWS/$DIR/$F ]] && cp $CWS/$DIR/$F $newdir/$DIR/$F
+-
+-	if [[ -n $PWS && -e $PWS/$PDIR/$PF ]]; then
+-		cp $PWS/$PDIR/$PF $olddir/$PDIR/$PF
+-	else
+-		# Get the parent's version of the file.
+-		svn status $CWS/$DIR/$F | read stat file
+-		if [[ $stat != "A" ]]; then
+-			svn cat -r BASE $CWS/$DIR/$F > $olddir/$PDIR/$PF
+-		fi
+-	fi
+-}
+-
+-function build_old_new_unknown
+-{
+-	typeset olddir="$1"
+-	typeset newdir="$2"
+-
+-	#
+-	# Snag new version of file.
+-	#
+-	rm -f $newdir/$DIR/$F
+-	[[ -e $CWS/$DIR/$F ]] && cp $CWS/$DIR/$F $newdir/$DIR/$F
+-
+-	#
+-	# Snag the parent's version of the file.
+-	#
+-	if [[ -f $PWS/$PDIR/$PF ]]; then
+-		rm -f $olddir/$PDIR/$PF
+-		cp $PWS/$PDIR/$PF $olddir/$PDIR/$PF
+-	fi
+-}
+-
+ function build_old_new
+ {
+ 	typeset WDIR=$1
+@@ -2228,13 +2127,7 @@ function build_old_new
  	mkdir -p $olddir/$PDIR
  	mkdir -p $newdir/$DIR
  
@@ -163,7 +210,7 @@ index a28e90eb..a503f0f1
  
  	if [[ ! -f $olddir/$PDIR/$PF && ! -f $newdir/$DIR/$F ]]; then
  		print "*** Error: file not in parent or child"
-@@ -2251,7 +2184,6 @@ function usage
+@@ -2251,7 +2144,6 @@ function usage
  {
  	print 'Usage:\twebrev [common-options]
  	webrev [common-options] ( <file> | - )
@@ -171,7 +218,7 @@ index a28e90eb..a503f0f1
  
  Options:
  	-c <revision>: generate webrev for single revision (git only)
-@@ -2266,7 +2198,6 @@ Options:
+@@ -2266,7 +2158,6 @@ Options:
  	-p <compare-against>: Use specified parent wkspc or basis for comparison
  	-t <remote_target>: Specify remote destination for webrev upload
  	-U: upload the webrev to remote destination
@@ -179,7 +226,7 @@ index a28e90eb..a503f0f1
  
  Environment:
  	WDIR: Control the output directory.
-@@ -2290,12 +2221,8 @@ trap "rm -f /tmp/$$.* ; exit" 0 1 2 3 15
+@@ -2290,12 +2181,8 @@ trap "rm -f /tmp/$$.* ; exit" 0 1 2 3 15
  
  set +o noclobber
  
@@ -192,7 +239,7 @@ index a28e90eb..a503f0f1
  [[ -z $PERL ]] && PERL=`look_for_prog perl`
  [[ -z $RSYNC ]] && RSYNC=`look_for_prog rsync`
  [[ -z $SCCS ]] && SCCS=`look_for_prog sccs`
-@@ -2321,11 +2248,6 @@ if [[ ! -x $PERL ]]; then
+@@ -2321,11 +2208,6 @@ if [[ ! -x $PERL ]]; then
  	exit 1
  fi
  
@@ -204,7 +251,7 @@ index a28e90eb..a503f0f1
  [[ ! -x $WDIFF ]] && print -u2 "WARNING: wdiff not found."
  
  # Declare global total counters.
-@@ -2345,7 +2267,6 @@ flist_file=
+@@ -2345,7 +2227,6 @@ flist_file=
  hflag=
  iflag=
  Iflag=
@@ -212,7 +259,7 @@ index a28e90eb..a503f0f1
  Nflag=
  nflag=
  Oflag=
-@@ -2354,7 +2275,6 @@ pflag=
+@@ -2354,7 +2235,6 @@ pflag=
  tflag=
  uflag=
  Uflag=
@@ -220,7 +267,7 @@ index a28e90eb..a503f0f1
  remote_target=
  
  while getopts "c:C:Dh:i:I:lnNo:Op:t:Uw" opt
-@@ -2396,18 +2316,12 @@ do
+@@ -2396,18 +2276,12 @@ do
  
  	U)	Uflag=1;;
  
@@ -239,12 +286,12 @@ index a28e90eb..a503f0f1
  # more sanity checking
  if [[ -n $nflag && -z $Uflag ]]; then
  	print "it does not make sense to skip webrev generation" \
-@@ -2426,49 +2340,26 @@ fi
+@@ -2426,49 +2300,26 @@ fi
  # $(basename ${CWS}).  So we need to get CWS set before we skip any remaining
  # logic.
  #
 -$WHICH_SCM | read SCM_MODE junk || exit 1
- 
+-
 -if [[ $SCM_MODE == "git" ]]; then
 -	#
 -	# Git priorities:
@@ -256,7 +303,7 @@ index a28e90eb..a503f0f1
 -		2>/dev/null)
 -	[[ -z $codemgr_ws ]] && \
 -	    codemgr_ws=$($GIT rev-parse --git-dir 2>/dev/null)
--
+ 
 -	if [[ "$codemgr_ws" == ".git" ]]; then
 -		codemgr_ws="${PWD}/${codemgr_ws}"
 -	fi
@@ -305,7 +352,7 @@ index a28e90eb..a503f0f1
  
  #
  # If no SCM has been determined, take either the environment setting
-@@ -2503,233 +2394,107 @@ if [[ -n $pflag && -d $codemgr_parent/raw_files/new ]]; then
+@@ -2503,233 +2354,107 @@ if [[ -n $pflag && -d $codemgr_parent/raw_files/new ]]; then
  	codemgr_parent=$(readlink -f "$codemgr_parent/raw_files/new")
  fi
  
@@ -562,12 +609,12 @@ index a28e90eb..a503f0f1
 -	fi
 +	real_parent=$PWS
 +fi
- 
++
 +if [[ -z $flist_done ]]; then
 +	flist_from_git "$codemgr_head" "$real_parent"
 +	flist_done=1
 +fi
-+
+ 
 +#
 +# If we have a file list now, pull out any variables set
 +# therein.
@@ -621,7 +668,7 @@ index a28e90eb..a503f0f1
  fi
  
  #
-@@ -2760,121 +2525,6 @@ if [[ -n $Nflag ]]; then
+@@ -2760,121 +2485,6 @@ if [[ -n $Nflag ]]; then
  	break
  fi
  
@@ -743,20 +790,20 @@ index a28e90eb..a503f0f1
  #
  # Search for DO_EVERYTHING above for matching "for" statement
  # and explanation of this terminator.
-@@ -3283,34 +2933,16 @@ print "<table>"
+@@ -3283,34 +2893,16 @@ print "<table>"
  #
  # Get the preparer's name:
  #
 -# If the SCM detected is Git, and the configuration property user.name is
 -# available, use that, but be careful to properly escape angle brackets (HTML
 -# syntax characters) in the email address.
--#
--# Otherwise, use the current userid in the form "John Doe (jdoe)", but
--# to maintain compatibility with passwd(5), we must support '&' substitutions.
 +# Only works with Git. If the configuration property user.name is available,
 +# use that, but be careful to properly escape angle brackets (HTML syntax
 +# characters) in the email address.
  #
+-# Otherwise, use the current userid in the form "John Doe (jdoe)", but
+-# to maintain compatibility with passwd(5), we must support '&' substitutions.
+-#
 -preparer=
 -if [[ "$SCM_MODE" == git ]]; then
 -	preparer=$(git config user.name 2>/dev/null)
@@ -785,7 +832,7 @@ index a28e90eb..a503f0f1
  print "<tr><th>Prepared by:</th><td>$preparer on $PREPDATE</td></tr>"
  print "<tr><th>Workspace:</th><td>${PRETTY_CWS:-$CWS}"
  print "</td></tr>"
-@@ -3515,37 +3147,6 @@ do
+@@ -3515,37 +3107,6 @@ do
  	    rm $F.count
  	fi
  
@@ -823,7 +870,7 @@ index a28e90eb..a503f0f1
  	print "</blockquote>"
  done
  
-@@ -3554,9 +3155,9 @@ print
+@@ -3554,9 +3115,9 @@ print
  print "<hr></hr>"
  print "<p style=\"font-size: small\">"
  print "This code review page was prepared using <b>$0</b>."
