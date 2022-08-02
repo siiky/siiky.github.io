@@ -9,6 +9,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> programming/shell.gmi 2022-08-02 - RE: Misadventures with bash shell
 => programming/ocr.gmi 2022/07/30 - Offline Code Reviews
 => projects/ipfs.gmi 2022-07-30 - ipfs.scm
 => projects/gemtext.gmi 2022-07-30 - Scheme Gemtext Reader

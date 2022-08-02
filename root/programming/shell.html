@@ -1,0 +1,60 @@
+
+<h1>RE: Misadventures with bash shell</h1>
+<p>@siiky
+2022/08/01</p>
+<p>As StackSmith prompted:</p>
+<blockquote>
+<p>In the meantime, if you have a few minutes, write about why you love your shell.  I really want to know.</p></blockquote>
+<ul>
+<li><a href="gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-01.bash.gmi">Misadventures with bash shell</a></li></ul>
+<p>I don't love it, I even agree with some of the points raised, but after learning it one has to admit: most tasks are damn terse. And I can't imagine any Lisp-like syntax that could come even close -- BTW it's been tried at least once, that I know of:</p>
+<ul>
+<li><a href="https://scsh.net">Scsh</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Scsh">Scsh (Wikipedia)</a></li></ul>
+<p>Maybe interesting, maybe not, but here are some of the features I use most often. I never know what's the right if/then syntax either, so when I want this:</p>
+<pre><code>(when (file-exists? &quot;...&quot;)
+  (do-this)
+  (and-that))
+
+(unless (file-exists? &quot;...&quot;)
+  (do-this)
+  (and-that))
+</code></pre>
+<p>I write this instead:</p>
+<pre><code>[ -f &quot;...&quot; ] &amp;&amp; (do-this; do-that)
+
+[ -f &quot;...&quot; ] || (do-this; do-that)
+</code></pre>
+<p>No more guessing where the hell the bang should go.</p>
+<p>Loops all follow the same pattern:</p>
+<pre><code>for/while/until ...; do ...; done
+</code></pre>
+<p>You can put the body of the loop in the background too, but obviously be careful not to forkbomb yourself.</p>
+<pre><code>for/while/until ...; do ... &amp; done
+</code></pre>
+<p>Something I do often to start multiple terminals in the same Nix shell:</p>
+<pre><code>exec nix-shell --run 'sh -c &quot;for i in {1..4}; do terminal &amp; done&quot;' &amp;
+</code></pre>
+<p>The <code>exec ... &amp;</code> makes the nix-shell and child processes &quot;independent&quot;, so that I can continue to use the current terminal and/or close it without affecting the others. <code>for i in {1..4}</code> is equivalent to <code>for i in 1 2 3 4</code>. I think this syntax is relatively &quot;new&quot;; if you don't have it, you can use seq instead:</p>
+<pre><code>for i in `seq 1 4`; do ...; done
+</code></pre>
+<p>Doing something for each line of input:</p>
+<pre><code>some-command | while read line; do ...; done
+</code></pre>
+<p>read alone is a can of worms. It's very useful for simple things so worth knowing.</p>
+<p>And some of the most important stuff: strings! There are 3 &quot;types&quot;: single quote, double quote, and backtick (plus $(...)). If you're unsure what type of string you need, go with single quotes because they're the safest and least surprising. If you need to interpolate values into your string, use double quote strings. If you need the result of a command as a string, use backticks (like the seq above). Backticks can be embedded in other string types.</p>
+<pre><code>test=hello
+echo 'hello world'         # &quot;hello world&quot;
+echo '$test world'         # &quot;$test world&quot;
+echo &quot;$test world&quot;         # &quot;hello world&quot;
+echo `echo &quot;$test world&quot;`  # &quot;hello world&quot;
+echo $(echo &quot;$test world&quot;) # &quot;hello world&quot;
+</code></pre>
+<p>(I got some examples wrong as I was writing this haha)</p>
+<p>In extreme cases, even though it's a mess to read, you can take advantage of automatic string concatenation to mix string types.</p>
+<pre><code>echo 'a string with a single quote ('&quot;'&quot;')'
+echo &quot;a string with a double quote (&quot;'&quot;'&quot;)&quot;
+</code></pre>
+<p>I've tried escaping in the past and failed too many times. This has never failed me once.</p>
+<p>As a sort of conclusion: for some reason bash is one of the most, if not the most, popular interactive shell. Probably because it's the default in many Linux distros, especially the biggest ones. The default effect certainly worked with me because I'm still &quot;stuck&quot; with it. But bash isn't the only one out there, so if you don't like it, do yourself a favor and try a different one! Some shells I can think of: fish, zsh, ksh, ion (of RedoxOS), csh.</p>
+<p>As for me, I've read my share of shit-throwing at bash, but it's been working OK. I don't need the fancy features offered by fish or zsh. If I tried any new interactive shell, it'd probably by zsh or ion.</p>
