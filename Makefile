@@ -31,6 +31,7 @@ NON_POSTS := \
  $(ROOT)/contact \
  $(ROOT)/publish-to-antenna \
  $(ROOT)/tinylog \
+ $(ROOT)/follow \
 
 GMI := $(shell find $(ROOT)/*/ -type f -iname '*.gmi')
 GMI_HTML := $(GMI:.gmi=.html) $(NON_POSTS:=.html)

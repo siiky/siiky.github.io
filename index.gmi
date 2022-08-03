@@ -5,6 +5,7 @@ This is where you'll find nothing interesting, welcome.
 => about.gmi About
 => tinylog.gmi Tinylog
 => alt.gmi Alternative ways to access this capsule
+=> follow.gmi Follow
 => contact.gmi Contact
 
 ## Posts

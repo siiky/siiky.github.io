@@ -1,0 +1,14 @@
+# nothing interesting here
+
+## Follow
+
+You can stay up to date with my posts through a few different means.
+
+On Gemini, you can subscribe with your Gemini client to my index page, which serves as a Gemfeed. Alternatively, check Antenna and you'll be able to follow other people too!
+
+=> index.gmi Gemfeed
+=> gemini://warmedal.se/~antenna Antenna
+
+On HTTPS, you can subscribe to my Atom feed.
+
+=> atom.xml Atom feed
