@@ -17,4 +17,4 @@ Found also a website that exposes a limited set of options to the library.
 And created this pretty thing from an area in Seia.
 
 => https://www.openstreetmap.org/#map=16/40.4144/-7.7073 Seia
-=> /assets/seia.png
+=> seia.png

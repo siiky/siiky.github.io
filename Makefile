@@ -48,8 +48,8 @@ SRC := $(GMI) $(MD) $(ORG) $(NON_POSTS:=.gmi)
 HTML := $(GMI_HTML) $(MD_HTML) $(ORG_HTML)
 
 # Source assets
-GVS := $(shell find $(ROOT)/*/ -type f -iname '*.gvs')
-GP := $(shell find $(ROOT)/*/ -type f -iname '*.gp')
+GVS := $(shell find $(ROOT)/* -type f -iname '*.gvs')
+GP := $(shell find $(ROOT)/* -type f -iname '*.gp')
 
 SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)

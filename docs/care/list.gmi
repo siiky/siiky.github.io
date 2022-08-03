@@ -18,7 +18,7 @@ Because sharing is caring. This is a list of things I'm caring with others. Some
 
 You'll find at least three spider cares.
 
-=> /assets/spidercare.jpg
+=> spidercare.jpg
 
 The URI of the root of the list will be always at the top of the page (the "IPFS root directory ..."). From it you can get to all other cares (if I don't screw up). Over the rest of the page I'll post some notable cares and/or (maybe) more details -- maybe even sources!
 

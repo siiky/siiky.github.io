@@ -38,8 +38,8 @@ The types so far:
 
 Let's start by introducing both contenders:
 
-=> /assets/type_a_faucet.png Type A faucet specimen
-=> /assets/type_b_faucet.png Type B faucet specimen
+=> type_a_faucet.png Type A faucet specimen
+=> type_b_faucet.png Type B faucet specimen
 
 And now let's move on to the mathematical models.
 
