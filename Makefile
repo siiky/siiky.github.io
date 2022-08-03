@@ -52,7 +52,7 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
-all: index html svg png
+all: index html svg png atom
 
 index: $(ROOT)/index.html
 
@@ -62,13 +62,15 @@ svg: $(SVG)
 
 png: $(PNG)
 
+atom: $(ROOT)/atom.xml
+
 meta.tsv: $(MAKE_META) $(SRC)
 	$(MAKE_META) $(ROOT) > $@
 
 $(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
 
-atom.xml: $(MAKE_ATOM) meta.tsv
+$(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
 	$(MAKE_ATOM) meta.tsv > $@
 
 # TODO: Split IPFS add from publish

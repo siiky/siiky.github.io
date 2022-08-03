@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<author><name>siiky</name></author>
+<id>siiky.srht.site</id>
+<title type="text">nothing interesting here</title>
+<updated>2022-08-03</updated>
+<entry>
+  <id>siiky.srht.site/meta/dates.gmi</id>
+  <title type="text">Post dates</title>
+  <updated>2022-08-03</updated>
+  <published>2022-06-23</published>
+  <link href="https://siiky.srht.site/meta/dates.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/meta/dates.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/programming/shell.gmi</id>
+  <title type="text">RE: Misadventures with bash shell</title>
+  <updated>2022-08-02</updated>
+  <published>2022-08-01</published>
+  <link href="https://siiky.srht.site/programming/shell.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/programming/shell.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/programming/ocr.gmi</id>
+  <title type="text">Offline Code Reviews</title>
+  <updated>2022-07-31</updated>
+  <published>2022-07-30</published>
+  <link href="https://siiky.srht.site/programming/ocr.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/programming/ocr.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/flexibility-relations.gmi</id>
+  <title type="text">Flexibility & Relations</title>
+  <updated>2022-07-28</updated>
+  <published>2022-06-07</published>
+  <link href="https://siiky.srht.site/philosophy/flexibility-relations.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/flexibility-relations.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/flexibility-life.gmi</id>
+  <title type="text">Flexibility & Life</title>
+  <updated>2022-07-28</updated>
+  <published>2022-06-01</published>
+  <link href="https://siiky.srht.site/philosophy/flexibility-life.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/flexibility-life.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/psychology/fagots.gmi</id>
+  <title type="text">Fagots</title>
+  <updated>2022-07-28</updated>
+  <published>2022-05-05</published>
+  <link href="https://siiky.srht.site/psychology/fagots.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/psychology/fagots.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/books/bill_gates.how_to_avoid_a_climate_disaster.gmi</id>
+  <title type="text">Bill Gates, "How to Avoid a Climate Disaster"</title>
+  <updated>2022-07-28</updated>
+  <published>2022-04-09</published>
+  <link href="https://siiky.srht.site/books/bill_gates.how_to_avoid_a_climate_disaster.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/books/bill_gates.how_to_avoid_a_climate_disaster.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/osm/cheatsheet.md</id>
+  <title type="text">OpenStreetMap Cheat Sheet</title>
+  <updated>2022-07-28</updated>
+  <published>2021-07-12</published>
+  <link href="https://siiky.srht.site/osm/cheatsheet.md" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/osm/cheatsheet.md" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/hard_determinism.gmi</id>
+  <title type="text">Hard Determinism</title>
+  <updated>2022-07-27</updated>
+  <published>2020-12-30</published>
+  <link href="https://siiky.srht.site/philosophy/hard_determinism.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/hard_determinism.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/books/list.gmi</id>
+  <title type="text">Books list</title>
+  <updated>2022-07-27</updated>
+  <published>2020-12-21</published>
+  <link href="https://siiky.srht.site/books/list.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/books/list.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/petri_nets/log003.gmi</id>
+  <title type="text">Petri Nets Log #003</title>
+  <updated>2022-07-24</updated>
+  <published>2022-07-23</published>
+  <link href="https://siiky.srht.site/petri_nets/log003.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/petri_nets/log003.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/projects/ipfs.gmi</id>
+  <title type="text">ipfs.scm</title>
+  <updated>2022-07-24</updated>
+  <published>2022-07-23</published>
+  <link href="https://siiky.srht.site/projects/ipfs.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/projects/ipfs.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/care/ipfs.gmi</id>
+  <title type="text">IPFS Quickstart</title>
+  <updated>2022-07-24</updated>
+  <published>2022-04-05</published>
+  <link href="https://siiky.srht.site/care/ipfs.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/care/ipfs.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/petri_nets/log002.gmi</id>
+  <title type="text">Petri Nets Log #002</title>
+  <updated>2022-07-23</updated>
+  <published>2022-06-23</published>
+  <link href="https://siiky.srht.site/petri_nets/log002.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/petri_nets/log002.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/petri_nets/logs.gmi</id>
+  <title type="text">Petri Nets Logs</title>
+  <updated>2022-07-23</updated>
+  <published>2022-05-16</published>
+  <link href="https://siiky.srht.site/petri_nets/logs.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/petri_nets/logs.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/petri_nets/log001.gmi</id>
+  <title type="text">Petri Nets Log #001</title>
+  <updated>2022-07-23</updated>
+  <published>2022-05-16</published>
+  <link href="https://siiky.srht.site/petri_nets/log001.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/petri_nets/log001.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/psychology/links.gmi</id>
+  <title type="text">Psychology Links</title>
+  <updated>2022-07-15</updated>
+  <published>2020-02-20</published>
+  <link href="https://siiky.srht.site/psychology/links.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/psychology/links.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/links.gmi</id>
+  <title type="text">Philosophy Links</title>
+  <updated>2022-07-15</updated>
+  <published>2020-02-20</published>
+  <link href="https://siiky.srht.site/philosophy/links.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/links.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/algebra/groups.gmi</id>
+  <title type="text">Groups</title>
+  <updated>2022-07-15</updated>
+  <published>2020-02-20</published>
+  <link href="https://siiky.srht.site/algebra/groups.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/algebra/groups.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/kB45oC/gnuplot.gmi</id>
+  <title type="text">Gnuplot Quickstart</title>
+  <updated>2022-07-14</updated>
+  <published>2022-01-12</published>
+  <link href="https://siiky.srht.site/kB45oC/gnuplot.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/kB45oC/gnuplot.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/algebra/faucets.gmi</id>
+  <title type="text">Faucets</title>
+  <updated>2022-07-14</updated>
+  <published>2021-07-23</published>
+  <link href="https://siiky.srht.site/algebra/faucets.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/algebra/faucets.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/algebra/cat_theory_perf.gmi</id>
+  <title type="text">Category Theory and Performance</title>
+  <updated>2022-07-14</updated>
+  <published>2019-10-15</published>
+  <link href="https://siiky.srht.site/algebra/cat_theory_perf.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/algebra/cat_theory_perf.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/scheme/gv-dsl.gmi</id>
+  <title type="text">GraphViz Scheme DSL</title>
+  <updated>2022-07-14</updated>
+  <published>2019-10-01</published>
+  <link href="https://siiky.srht.site/scheme/gv-dsl.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/scheme/gv-dsl.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/osm/overpass.gmi</id>
+  <title type="text">Overpass</title>
+  <updated>2022-07-12</updated>
+  <published>2022-03-26</published>
+  <link href="https://siiky.srht.site/osm/overpass.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/osm/overpass.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/donating.gmi</id>
+  <title type="text">Donating</title>
+  <updated>2022-07-08</updated>
+  <published>2022-02-01</published>
+  <link href="https://siiky.srht.site/philosophy/donating.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/donating.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/osm/prettymaps.gmi</id>
+  <title type="text">prettymaps</title>
+  <updated>2022-07-08</updated>
+  <published>2022-01-22</published>
+  <link href="https://siiky.srht.site/osm/prettymaps.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/osm/prettymaps.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/kB45oC/mirrors.gmi</id>
+  <title type="text">Content-based Mirrors</title>
+  <updated>2022-07-07</updated>
+  <published>2022-06-09</published>
+  <link href="https://siiky.srht.site/kB45oC/mirrors.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/kB45oC/mirrors.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/words/covid.gmi</id>
+  <title type="text">The COVID Experience</title>
+  <updated>2022-07-07</updated>
+  <published>2022-05-31</published>
+  <link href="https://siiky.srht.site/words/covid.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/words/covid.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/kB45oC/water_stations.gmi</id>
+  <title type="text">Water Stations</title>
+  <updated>2022-07-07</updated>
+  <published>2022-05-11</published>
+  <link href="https://siiky.srht.site/kB45oC/water_stations.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/kB45oC/water_stations.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/scheme/reader-syntax.gmi</id>
+  <title type="text">Reader Syntax</title>
+  <updated>2022-07-07</updated>
+  <published>2022-03-15</published>
+  <link href="https://siiky.srht.site/scheme/reader-syntax.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/scheme/reader-syntax.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/philosophy/butterfly_effect.gmi</id>
+  <title type="text">Butterfly Effect</title>
+  <updated>2022-07-07</updated>
+  <published>2022-02-17</published>
+  <link href="https://siiky.srht.site/philosophy/butterfly_effect.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/philosophy/butterfly_effect.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/crypto/double_transposition.gmi</id>
+  <title type="text">Double Transposition Cipher</title>
+  <updated>2022-07-07</updated>
+  <published>2022-02-13</published>
+  <link href="https://siiky.srht.site/crypto/double_transposition.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/crypto/double_transposition.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/scheme/pipes.gmi</id>
+  <title type="text">Pipes</title>
+  <updated>2022-07-07</updated>
+  <published>2022-01-09</published>
+  <link href="https://siiky.srht.site/scheme/pipes.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/scheme/pipes.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/functional_programming/naming.gmi</id>
+  <title type="text">Naming Operations rather than Variables</title>
+  <updated>2022-07-07</updated>
+  <published>2021-12-15</published>
+  <link href="https://siiky.srht.site/functional_programming/naming.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/functional_programming/naming.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/work/CVE-2020-26935.gmi</id>
+  <title type="text">CVE-2020-26935</title>
+  <updated>2022-07-07</updated>
+  <published>2020-11-06</published>
+  <link href="https://siiky.srht.site/work/CVE-2020-26935.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/work/CVE-2020-26935.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/words/quotes.gmi</id>
+  <title type="text">just quotes</title>
+  <updated>2022-07-07</updated>
+  <published>2020-05-26</published>
+  <link href="https://siiky.srht.site/words/quotes.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/words/quotes.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/work/credit.gmi</id>
+  <title type="text">Credit</title>
+  <updated>2022-07-07</updated>
+  <published>2020-04-30</published>
+  <link href="https://siiky.srht.site/work/credit.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/work/credit.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/scheme/kless.gmi</id>
+  <title type="text">kless</title>
+  <updated>2022-07-07</updated>
+  <published>2019-10-13</published>
+  <link href="https://siiky.srht.site/scheme/kless.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/scheme/kless.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/scheme/exceptions.gmi</id>
+  <title type="text">Exceptions (aka Conditions) in Scheme</title>
+  <updated>2022-07-07</updated>
+  <published>2019-08-13</published>
+  <link href="https://siiky.srht.site/scheme/exceptions.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/scheme/exceptions.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/projects/gemtext.gmi</id>
+  <title type="text">Scheme Gemtext Reader</title>
+  <updated>2022-07-05</updated>
+  <published>2022-07-05</published>
+  <link href="https://siiky.srht.site/projects/gemtext.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/projects/gemtext.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+<entry>
+  <id>siiky.srht.site/care/list.gmi</id>
+  <title type="text">Care list</title>
+  <updated>2022-07-04</updated>
+  <published>2022-01-09</published>
+  <link href="https://siiky.srht.site/care/list.gmi" rel="alternate" type="text/html" />
+  <link href="gemini://siiky.srht.site/care/list.gmi" rel="alternate" type="text/gemtext" />
+</entry>
+</feed>
