@@ -1,12 +1,11 @@
 include env.make
 
 # Scripts
+GMI2MD := ./gmi2md.scm
+IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_GEMFEED := ./make-gemfeed.sh
-GMI2MD_SCM := gmi2md.scm
-GMI2MD := csi -s $(GMI2MD_SCM)
-MD2HTML_SCM := md2html.scm
-MD2HTML := csi -s $(MD2HTML_SCM)
-IPFS_PUBLISH := csi -s ipfs-publish.scm
+MAKE_META := ./make-meta.sh
+MD2HTML := ./md2html.scm
 
 GVS2GV := gvs2gv
 GNUPLOT := gnuplot
@@ -54,9 +53,11 @@ svg: $(SVG)
 
 png: $(PNG)
 
-$(ROOT)/index.gmi: $(MAKE_GEMFEED) index.gmi $(SRC)
-	cat index.gmi > $@
-	$(MAKE_GEMFEED) $(ROOT) >> $@
+$(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
+	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
+
+meta.tsv: $(MAKE_META) $(SRC)
+	$(MAKE_META) $(ROOT) > $@
 
 # TODO: Split IPFS add from publish
 
@@ -84,7 +85,7 @@ watch:
 
 # Text files rules
 
-%.html: %.gmi $(GMI2MD_SCM) $(MD2HTML_SCM)
+%.html: %.gmi $(GMI2MD) $(MD2HTML)
 	$(GMI2MD) $(ROOT) < $< | $(MD2HTML) > $@
 
 %.html: %.md

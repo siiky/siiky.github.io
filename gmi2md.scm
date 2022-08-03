@@ -1,3 +1,4 @@
+#!/usr/bin/env -S csi -s
 (import
   chicken.file
   chicken.io
