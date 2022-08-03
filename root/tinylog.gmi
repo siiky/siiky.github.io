@@ -5,6 +5,33 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-08-03 12:58 +0100
+Today I changed the script I use to generate the index/gemfeed to read the last update date from the file itself instead of from the Git log (unlike I mentioned before in the tinylog). Now it doesn't look like I'm reposting the same post every other day, because I change the update date manually to the last significant update.
+=> meta/dates.gmi
+Here's the latest version:
+```make-gemfeed.sh
+root=$1
+
+find "$root"/*/ -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
+while read file; do
+  update="$(head -4 "$file" | tail +4 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)\s*$|\1|; s|/|-|g;')"
+  title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
+
+  # The single quotes let `read` split the words correctly always!
+  echo "$title" | grep -qvw WIP && echo "'$update'\t'$file'\t$title"
+done |
+sort -nr |
+while read date file title; do
+  date="$(echo "$date" | sed "s|^'||; s|'$||;")"
+  file="$(echo "$file" | sed "s|^'||; s|'$||;")"
+
+  # Remove formatting and spaces of the beginning of the line, leaving the title
+  uri="$(echo "$file" | sed "s|^$root/*||; s|^/||;")"
+
+  echo "=> $uri $date $title"
+done
+```
+
 ## 2022-07-31 02:06 +0100
 Pretty much everything is in Gemtext now! But I clearly didn't think thoroughly through the matter of sorting posts by last commit date.
 Whenever I update Antenna it looks like I'm just reposting and spamming the feed... Guess having a manual second date like "last significant publish" is a better option.
