@@ -11,7 +11,7 @@ while read file; do
     # Git's outputted date doesn't 0-pad DoM, but I do on the bit above; e.g. 023 => 23; 07 => 07
     sed 's|0\([0-9]\{2\}\)$|\1|;' |
     sed 's|Jan|01|; s|Feb|02|; s|Mar|03|; s|Apr|04|; s|May|05|; s|Jun|06|; s|Jul|07|; s|Aug|08|; s|Sep|09|; s|Oct|10|; s|Nov|11|; s|Dec|12|;')"
-  cdate="$(head -3 "$file" | tail +3 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)|\1|;')"
+  cdate="$(head -3 "$file" | tail +3 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)|\1|; s|/|-|g;')"
   title="$(head -1 "$file" | sed 's|^[^ ]*[ ]*||;')"
 
   # The single quotes let `read` split the words correctly always!
