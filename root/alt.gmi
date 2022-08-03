@@ -1,4 +1,6 @@
-# Alternative ways to access this capsule
+# nothing interesting here
+
+## Alternative ways to access this capsule
 
 This capsule is hosted on SourceHut Pages (Gemini & HTTPS) and GitHub Pages (HTTPS). I also publish each version of the capsule to IPFS (with an ipfs:// URI) which contains both Gemtext and HTML files.
 
