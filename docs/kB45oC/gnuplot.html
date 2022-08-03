@@ -12,7 +12,7 @@
 set terminal svg
 
 # The output file.
-set output &quot;assets/exp.svg&quot;
+set output &quot;exp.svg&quot;
 
 # Enable gridlines.
 set grid
@@ -41,12 +41,12 @@ set logscale y 7
 plot exp(x) title &quot;Super straight line&quot;
 </code></pre>
 <ul>
-<li>&lt;/assets/exp.gp&gt;</li></ul>
-<p><img src="/assets/exp.svg" alt /></p>
+<li>&lt;exp.gp&gt;</li></ul>
+<p><img src="exp.svg" alt /></p>
 <p>Notice how it starts to grow really fucking quick after t=5 -- right after HTML was invented.</p>
 <p>Here's another one:</p>
 <pre><code>set terminal svg
-set output &quot;assets/rollercoaster.svg&quot;
+set output &quot;rollercoaster.svg&quot;
 
 # The number of samples to use to plot the expression.
 set samples 1000
@@ -55,8 +55,8 @@ set samples 1000
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title &quot;Rollercoaster&quot;
 </code></pre>
 <ul>
-<li>&lt;/assets/rollercoaster.gp&gt;</li></ul>
-<p><img src="/assets/rollercoaster.svg" alt /></p>
+<li>&lt;rollercoaster.gp&gt;</li></ul>
+<p><img src="rollercoaster.svg" alt /></p>
 <p>The website, with documentation and all (including a 300+ pages PDF of all the documentation, with proper PDF index!):</p>
 <ul>
 <li><a href="http://www.gnuplot.info">http://www.gnuplot.info</a></li>
@@ -66,12 +66,12 @@ plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title &quot;Rollercoaster&quot;
 <p>An important concept is that of the terminal, as seen above being set to SVG. It's nothing but an &quot;output backend&quot;, and Gnuplot has tons of those -- run set terminal and see for yourself; there's even one to output ASCII art to the terminal! Different terminals may have different specific options -- RTFM for those.</p>
 <p>Once you start messing around with line styles, line types, colors, and whatnot, it's helpful to know what the valid values are. For that use the test command after setting the terminal (the result of the test command varies depending on the terminal, so it's important to set it):</p>
 <pre><code>set terminal svg
-set output &quot;assets/gnuplot-test.svg&quot;
+set output &quot;gnuplot-test.svg&quot;
 test
 </code></pre>
 <ul>
-<li>&lt;/assets/gnuplot-test.gp&gt;</li></ul>
-<p><img src="/assets/gnuplot-test.svg" alt /></p>
+<li>&lt;gnuplot-test.gp&gt;</li></ul>
+<p><img src="gnuplot-test.svg" alt /></p>
 <p>Variables are a thing, and you can define them just as you'd expect:</p>
 <pre><code>some_var = 42
 </code></pre>
@@ -144,7 +144,7 @@ NELEMS  RTIME-MEAN  RTIME-MIN   RTIME-MAX   TOTCYC-MEAN TOTCYC-MIN  TOTCYC-MAX  
 EOD
 
 set terminal svg
-set output &quot;assets/errorlines.svg&quot;
+set output &quot;errorlines.svg&quot;
 
 # Tell Gnuplot that fields are separated by a tab, as briefly mentioned before.
 set datafile separator tab
@@ -191,8 +191,8 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
      &quot;&quot;       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 </code></pre>
 <ul>
-<li>&lt;/assets/errorlines.gp&gt;</li></ul>
-<p><img src="/assets/errorlines.svg" alt /></p>
+<li>&lt;errorlines.gp&gt;</li></ul>
+<p><img src="errorlines.svg" alt /></p>
 <hr />
 <p>Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.</p>
 <p>system() a la C is a thing!</p>

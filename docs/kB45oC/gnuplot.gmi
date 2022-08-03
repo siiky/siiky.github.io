@@ -18,7 +18,7 @@ Now let's get going with some Gnuplot code. I said the focus would be on plottin
 set terminal svg
 
 # The output file.
-set output "assets/exp.svg"
+set output "exp.svg"
 
 # Enable gridlines.
 set grid
@@ -47,8 +47,8 @@ set logscale y 7
 plot exp(x) title "Super straight line"
 ```
 
-=> /assets/exp.gp
-=> /assets/exp.svg
+=> exp.gp
+=> exp.svg
 
 Notice how it starts to grow really fucking quick after t=5 -- right after HTML was invented.
 
@@ -56,7 +56,7 @@ Here's another one:
 
 ```gp
 set terminal svg
-set output "assets/rollercoaster.svg"
+set output "rollercoaster.svg"
 
 # The number of samples to use to plot the expression.
 set samples 1000
@@ -65,8 +65,8 @@ set samples 1000
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title "Rollercoaster"
 ```
 
-=> /assets/rollercoaster.gp
-=> /assets/rollercoaster.svg
+=> rollercoaster.gp
+=> rollercoaster.svg
 
 The website, with documentation and all (including a 300+ pages PDF of all the documentation, with proper PDF index!):
 
@@ -83,12 +83,12 @@ Once you start messing around with line styles, line types, colors, and whatnot,
 
 ```gp
 set terminal svg
-set output "assets/gnuplot-test.svg"
+set output "gnuplot-test.svg"
 test
 ```
 
-=> /assets/gnuplot-test.gp
-=> /assets/gnuplot-test.svg
+=> gnuplot-test.gp
+=> gnuplot-test.svg
 
 Variables are a thing, and you can define them just as you'd expect:
 
@@ -193,7 +193,7 @@ NELEMS	RTIME-MEAN	RTIME-MIN	RTIME-MAX	TOTCYC-MEAN	TOTCYC-MIN	TOTCYC-MAX	TOTINS-M
 EOD
 
 set terminal svg
-set output "assets/errorlines.svg"
+set output "errorlines.svg"
 
 # Tell Gnuplot that fields are separated by a tab, as briefly mentioned before.
 set datafile separator tab
@@ -240,8 +240,8 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
      ""       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 ```
 
-=> /assets/errorlines.gp
-=> /assets/errorlines.svg
+=> errorlines.gp
+=> errorlines.svg
 
 -----
 
