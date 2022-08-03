@@ -33,7 +33,7 @@ MD_HTML := $(MD:.md=.html)
 ORG := $(shell find $(ROOT)/*/ -type f -iname '*.org')
 ORG_HTML := $(ORG:.org=.html)
 
-SRC := $(GMI) $(MD) $(ORG)
+SRC := $(GMI) $(MD) $(ORG) $(NON_POSTS:=.gmi)
 HTML := $(GMI_HTML) $(MD_HTML) $(ORG_HTML)
 
 # Source assets
@@ -80,7 +80,7 @@ serve:
 	csi -s geminid.scm
 
 watch:
-	ls -1 index.gmi $(SRC) $(GVS) $(GP) Makefile | entr -c make
+	ls -1 $(MAKE_GEMFEED) $(SRC) $(GVS) $(GP) Makefile | entr -c make
 
 # Text files rules
 
