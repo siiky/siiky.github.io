@@ -1,6 +1,7 @@
 # RE: Misadventures with bash shell
 @siiky
 2022/08/01
+2022/08/02
 
 As StackSmith prompted:
 

@@ -1,6 +1,7 @@
 # Petri Nets Log #001
 @siiky
 2022/05/16
+2022/07/23
 
 I started studying Petri nets a few weeks ago, reading the Statebox monograph, and just finished today reading Ch. 2, the formalization of Petri nets and useful definitions.
 

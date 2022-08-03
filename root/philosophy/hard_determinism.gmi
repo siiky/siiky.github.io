@@ -1,6 +1,7 @@
 # Hard Determinism
 @siiky
 2020/12/30
+2022/07/27
 
 Thoughts on Hard Determinism, as described in Philosophy 101, by Paul Kleinman.
 

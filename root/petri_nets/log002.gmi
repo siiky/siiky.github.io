@@ -1,6 +1,7 @@
 # Petri Nets Log #002
 @siiky
 2022/06/23
+2022/07/23
 
 Unfortunately there are no uppercase subscript letters? When you see "_N" imagine "N" is in subscript. And I'm actually finishing writing this almost exactly one month later... :/ Some details of what I thought at the time escape me.
 

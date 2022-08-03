@@ -1,6 +1,7 @@
 # ipfs.scm
 @siiky
 2022/07/23
+2022/07/24
 
 I wrote a CHICKEN Scheme egg to control a Kubo node through its RPC API.
 

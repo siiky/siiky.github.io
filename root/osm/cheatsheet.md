@@ -1,6 +1,7 @@
 # OpenStreetMap Cheat Sheet
 @siiky
 2021/07/12
+2022/07/28
 
 Here you'll find some personal notes I've gathered, or am still gathering, to
 ease and quicken creating and correctly tagging common features on

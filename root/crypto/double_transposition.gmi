@@ -1,6 +1,7 @@
 # Double Transposition Cipher
 @siiky
 2022/02/13
+2022/07/07
 
 Got into "hand ciphers" recently, and this was the first (seemingly) decent one that is easy-ish and quick-ish to use.
 

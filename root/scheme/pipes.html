@@ -1,7 +1,8 @@
 
 <h1>Pipes</h1>
 <p>@siiky
-2022/01/09</p>
+2022/01/09
+2022/07/07</p>
 <p>I've been using my own pipe operators for a while. This is the latest definition:</p>
 <pre><code>(define (*=&gt; vals . funs)
   (foldl (lambda (val fun) (fun val))

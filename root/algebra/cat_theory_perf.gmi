@@ -1,6 +1,7 @@
 # Category Theory and Performance
 @siiky
 2019/10/15
+2022/07/14
 
 Imagine for a second that we understand Category Theory. Now imagine that we have a fancy category, representing a part of a program, with two objects X and Y (representing the input and output types of our program respectively), and morphisms f : X → Y and g : Y → X (because this is a category). This is what we have:
 

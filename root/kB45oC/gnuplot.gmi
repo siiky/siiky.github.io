@@ -1,6 +1,7 @@
 # Gnuplot Quickstart
 @siiky
 2022/01/12
+2022/07/14
 
 I started learning Gnuplot for a PA because I didn't want to deal with Python BS or whatnot, and Gnuplot has been around since like... even before the dinosaurs were invented, so it must be super specialized for this kinda thing, and it must be pretty good right?
 

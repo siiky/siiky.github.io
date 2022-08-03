@@ -1,6 +1,7 @@
 # Content-based Mirrors
 @siiky
 2022/06/09
+2022/07/07
 
 Contacted SEP yesterday asking if there was a way to make personal archives/mirrors of either the whole site or several entries.
 

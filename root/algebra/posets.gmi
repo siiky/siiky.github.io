@@ -1,6 +1,7 @@
 # WIP POSets
 @siiky
 2021/01/25
+2022/07/28
 
 Take a look at my other page on groups for the notation I'll be using here.
 

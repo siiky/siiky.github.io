@@ -1,6 +1,6 @@
 #+TITLE: WIP Curriculum for the Imperative vs Functional Programming Teaching Experiment
 #+AUTHOR: siiky
-#+DATE: 0000/00/00
+#+DATE: 2021/07/23~2021/08/26
 #+LANGUAGE: en
 
 You can find this document in [[./curriculum.html][HTML]], [[./curriculum.pdf][PDF]], and the original [[./curriculum.org][Org]].
