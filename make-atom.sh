@@ -19,10 +19,11 @@ EOF
 
 while IFS='	' read update cdate title uri; do
   html_uri="$(echo "$uri" | sed 's|\.\(gmi\|org\|md\)$|.html|;')"
+  html_safe_title="$(echo "$title" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g')"
   cat <<EOF
 <entry>
   <id>$srht/$uri</id>
-  <title type="text">$title</title>
+  <title type="text">$html_safe_title</title>
   <updated>$update</updated>
   <published>$cdate</published>
   <link href="https://$srht/$html_uri" rel="alternate" type="text/html" />
