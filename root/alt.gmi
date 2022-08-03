@@ -1,0 +1,15 @@
+# Alternative ways to access this capsule
+
+This capsule is hosted on SourceHut Pages (Gemini & HTTPS) and GitHub Pages (HTTPS). I also publish each version of the capsule to IPFS (with an ipfs:// URI) which contains both Gemtext and HTML files.
+
+SourceHut should be considered the main access point (as of now) and will continue to get updates unless I change places again and decide to drop it. GitHub should still get updates (unless I forget), but should be used only as a last resort -- I would much rather have you use SourceHut instead.
+
+Both the Gemini and the HTTPS versions of the capsule have the exact same content, so feel free to use whichever is more convenient to you. Just be warned that Gemini is my distribution/consumption target and that the Gemtext to HTML conversion is kind of a hack and may not exactly reflect the Gemtext content.
+
+The IPFS link that follows doesn't work if you're accessing the capsule through IPFS (due to technical reasons).
+
+=> gemini://siiky.srht.site SourceHut (Gemini)
+=> https://siiky.srht.site SourceHut (HTTPS)
+=> ipfs.gmi IPFS (the version you're reading now)
+
+=> https://siiky.github.io GitHub (HTTPS)

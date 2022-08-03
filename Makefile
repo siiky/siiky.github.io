@@ -19,6 +19,7 @@ ROOT := root
 # Source text files and targets
 NON_POSTS := \
  $(ROOT)/about \
+ $(ROOT)/alt \
  $(ROOT)/contact \
  $(ROOT)/publish-to-antenna \
  $(ROOT)/tinylog \

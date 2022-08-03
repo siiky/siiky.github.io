@@ -4,7 +4,7 @@ This is where you'll find nothing interesting, welcome.
 
 => about.gmi About
 => tinylog.gmi Tinylog
-=> ipfs.gmi Also available through IPFS
+=> alt.gmi Alternative ways to access this capsule
 => contact.gmi Contact
 
 ## Posts
