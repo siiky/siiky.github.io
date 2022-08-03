@@ -53,7 +53,7 @@ svg: $(SVG)
 
 png: $(PNG)
 
-$(ROOT)/index.gmi: index.gmi $(SRC)
+$(ROOT)/index.gmi: $(MAKE_GEMFEED) index.gmi $(SRC)
 	cat index.gmi > $@
 	$(MAKE_GEMFEED) $(ROOT) >> $@
 
