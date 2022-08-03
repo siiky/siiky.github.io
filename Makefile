@@ -6,6 +6,7 @@ GMI2MD := ./gmi2md.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_ATOM := ./make-atom.sh
 MAKE_GEMFEED := ./make-gemfeed.sh
+MAKE_IPFS_PAGE := ./make-ipfs-page.sh
 MAKE_META := ./make-meta.sh
 MD2HTML := ./md2html.scm
 
@@ -15,6 +16,7 @@ SCRIPTS := \
  IPFS_PUBLISH \
  MAKE_ATOM \
  MAKE_GEMFEED \
+ MAKE_IPFS_PAGE \
  MAKE_META \
  MD2HTML \
 
@@ -78,27 +80,31 @@ $(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
 
 # TODO: Split IPFS add from publish
 
-publish: ipfs-publish gemini.tgz http.tgz
+publish: $(ROOT)/ipfs.html gemini.tgz http.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
-gemini.tgz:
+gemini.tgz: $(ROOT)/ipfs.html
 	cd $(ROOT) && tar --exclude='*.html' -cz * > $(REPO_ROOT)/gemini.tgz
 
-http.tgz:
+http.tgz: $(ROOT)/ipfs.html
 	cd $(ROOT) && tar --exclude='*.gmi' --exclude='*.org' --exclude='*.md' -cz * > $(REPO_ROOT)/http.tgz
 
-ipfs-publish: all
+$(ROOT)/ipfs.txt: all
 	$(IPFS_PUBLISH) $(ROOT) $(IPFS_NODES)
-	make $(ROOT)/ipfs.html
 
-.PHONY: gemini.tgz http.tgz ipfs-publish publish
+$(ROOT)/ipfs.gmi: $(ROOT)/ipfs.txt
+	$(MAKE_IPFS_PAGE) $< > $@
+
+ipfs-publish: $(ROOT)/ipfs.html
+
+.PHONY: ipfs-publish publish
 
 serve:
 	$(GEMINID) $(ROOT)
 
 watch:
-	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c make
+	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
 
 # Text files rules
 

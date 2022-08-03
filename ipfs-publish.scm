@@ -29,7 +29,7 @@
   (syntax-rules ()
     ((spy arg ...)
      (lambda (x)
-       (eprint arg ... x)
+       (eprint arg ... x #\newline)
        x))))
 
 (define root (car (command-line-arguments)))
@@ -37,17 +37,6 @@
 
 (define make-ipfs-pathname
   (cute make-pathname root "ipfs" <>))
-
-(define (replace-ipfs.gmi cid)
-  (let ((filepath (make-ipfs-pathname "gmi")))
-    (with-output-to-file
-      filepath
-      (cute
-        print
-        "=> ipfs://" cid "\n"
-        "=> https://" cid ".ipfs.dweb.link\n"
-        "=> ipfs.txt"
-        ))))
 
 (define (replace-ipfs.txt cid)
   (let* ((filepath (make-ipfs-pathname "txt"))
@@ -96,9 +85,6 @@
            (when same? (eprint "CID hasn't changed: " cid))
 
            (unless same?
-             ; Write ipfs.gmi
-             (replace-ipfs.gmi cid)
-
              ; Pin the new CID to all hosts
              (for-each (lambda (host)
                          (parameterize ((ipfs:*host* host))
