@@ -1,8 +1,11 @@
+#!/usr/bin/env -S csi -s
 (import
   chicken.pathname
   chicken.process-context
   openssl
   geminid)
+
+(define root (car (command-line-arguments)))
 
 (define-constant ciphers "ECDH+CHACHA20:ECDH+AESGCM:ECDH+AES256:ECDH+AES128:!aNULL:!SHA1")
 
@@ -18,5 +21,5 @@
     verify?: #f
     ))
 
-(parameterize ((root-path (make-absolute-pathname (current-directory) "root")))
+(parameterize ((root-path (make-absolute-pathname (current-directory) root)))
   (start-server listener))

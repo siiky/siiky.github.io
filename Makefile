@@ -1,6 +1,7 @@
 include env.make
 
 # Scripts
+GEMINID := ./geminid.scm
 GMI2MD := ./gmi2md.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_ATOM := ./make-atom.sh
@@ -9,6 +10,7 @@ MAKE_META := ./make-meta.sh
 MD2HTML := ./md2html.scm
 
 SCRIPTS := \
+ GEMINID \
  GMI2MD \
  IPFS_PUBLISH \
  MAKE_ATOM \
@@ -22,7 +24,7 @@ DOT := dot
 
 # The root directory of the site/capsule -- may be published to IPFS as-is
 REPO_ROOT := $(PWD)
-ROOT := root
+ROOT := docs
 
 # Source text files and targets
 NON_POSTS := \
@@ -93,7 +95,7 @@ ipfs-publish: all
 .PHONY: gemini.tgz http.tgz ipfs-publish publish
 
 serve:
-	csi -s geminid.scm
+	$(GEMINID) $(ROOT)
 
 watch:
 	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c make
@@ -121,6 +123,6 @@ watch:
 	$(GVS2GV) $<
 
 %.svg: %.gp
-	$(GNUPLOT) -c $^
+	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
 .PHONY: all html index png serve svg watch

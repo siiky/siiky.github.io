@@ -2,7 +2,7 @@
 set terminal svg
 
 # The output file.
-set output "root/assets/exp.svg"
+set output "exp.svg"
 
 # Enable gridlines.
 set grid
