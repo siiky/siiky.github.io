@@ -25,5 +25,5 @@ while read update cdate file title; do
   # Remove formatting and spaces of the beginning of the line, leaving the title
   uri="$(echo "$file" | sed "s|^$root/*||; s|^/||;")"
 
-  echo "=> $uri $date - $title"
+  echo "=> $uri $date $title"
 done
