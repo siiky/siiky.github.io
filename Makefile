@@ -3,9 +3,18 @@ include env.make
 # Scripts
 GMI2MD := ./gmi2md.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
+MAKE_ATOM := ./make-atom.sh
 MAKE_GEMFEED := ./make-gemfeed.sh
 MAKE_META := ./make-meta.sh
 MD2HTML := ./md2html.scm
+
+SCRIPTS := \
+ GMI2MD \
+ IPFS_PUBLISH \
+ MAKE_ATOM \
+ MAKE_GEMFEED \
+ MAKE_META \
+ MD2HTML \
 
 GVS2GV := gvs2gv
 GNUPLOT := gnuplot
@@ -53,11 +62,14 @@ svg: $(SVG)
 
 png: $(PNG)
 
+meta.tsv: $(MAKE_META) $(SRC)
+	$(MAKE_META) $(ROOT) > $@
+
 $(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
 
-meta.tsv: $(MAKE_META) $(SRC)
-	$(MAKE_META) $(ROOT) > $@
+atom.xml: $(MAKE_ATOM) meta.tsv
+	$(MAKE_ATOM) meta.tsv > $@
 
 # TODO: Split IPFS add from publish
 
@@ -81,7 +93,7 @@ serve:
 	csi -s geminid.scm
 
 watch:
-	ls -1 $(MAKE_GEMFEED) $(SRC) $(GVS) $(GP) Makefile | entr -c make
+	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c make
 
 # Text files rules
 
