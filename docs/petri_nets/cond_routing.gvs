@@ -1,0 +1,20 @@
+; vim: ft=scheme
+(digraph
+  cond_routing
+
+  (settings (graph (rankdir LR)))
+
+  (settings (node (shape box)))
+  (nodes A B C D)
+
+  (settings (node (shape point)))
+  (nodes split join)
+  (node split (label ""))
+  (node join (label ""))
+
+  (-> A split)
+  (-> split B)
+  (-> split C)
+  (-> B join)
+  (-> C join)
+  (-> join D))

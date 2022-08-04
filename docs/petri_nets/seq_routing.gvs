@@ -1,0 +1,12 @@
+; vim: ft=scheme
+(digraph
+  seq_routing
+
+  (settings
+    (graph (rankdir LR))
+    (node (shape box)))
+
+  (nodes A B C)
+
+  (-> A B)
+  (-> B C))

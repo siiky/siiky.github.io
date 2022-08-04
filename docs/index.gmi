@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> petri_nets/log004.gmi 2022-08-04 Petri Nets Log #004
 => meta/dates.gmi 2022-08-03 Post dates
 => programming/shell.gmi 2022-08-02 RE: Misadventures with bash shell
 => programming/ocr.gmi 2022-07-31 Offline Code Reviews
