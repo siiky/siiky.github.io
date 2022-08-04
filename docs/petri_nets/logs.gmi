@@ -7,3 +7,5 @@ This is the list of logs I wrote about my journey studying Petri nets. I'll try 
 
 => log001.gmi #001
 => log002.gmi #002
+=> log003.gmi #003
+=> log004.gmi #004
