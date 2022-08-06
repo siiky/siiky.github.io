@@ -1,1 +1,0 @@
-=> gemini://warmedal.se/~antenna/submit?gemini://siiky.srht.site

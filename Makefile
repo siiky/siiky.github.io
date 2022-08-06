@@ -33,7 +33,6 @@ NON_POSTS := \
  $(ROOT)/about \
  $(ROOT)/alt \
  $(ROOT)/contact \
- $(ROOT)/publish-to-antenna \
  $(ROOT)/tinylog \
  $(ROOT)/follow \
 
@@ -97,6 +96,9 @@ $(ROOT)/ipfs.gmi: $(ROOT)/ipfs.txt
 	$(MAKE_IPFS_PAGE) $< > $@
 
 ipfs-publish: $(ROOT)/ipfs.html
+
+antenna-publish: ipfs-publish
+	xdg-open gemini://warmedal.se/~antenna/submit?gemini://siiky.srht.site
 
 .PHONY: ipfs-publish publish
 
