@@ -1,0 +1,27 @@
+# Custom Gemini Handlers
+@siiky
+2022/08/06
+2022/08/06
+
+Just learned how to setup custom handlers for the gemini scheme in Firefox and XDG.
+
+For Firefox, go to about:config, create a new boolean variable named network.protocol-handler.expose.gemini and set it to false. Open a gemini URL, choose your Gemini client and you're good to go.
+
+For XDG, create a desktop file in ~/.local/share/applications/ (or your equivalent) with the following content, replacing Lagrange with your client of choice:
+
+```lagrange.desktop
+[Desktop Entry]
+Type=Application
+Name=Lagrange Gemini Client
+Exec=lagrange %u
+StartupNotify=false
+MimeType=x-scheme-handler/gemini;
+```
+
+And you're good to go, opening gemini URLs with xdg-open or clicking things should work now. It seemed to take effect immediately here.
+
+Reference:
+
+=> https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox
+=> https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above
+=> https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler
