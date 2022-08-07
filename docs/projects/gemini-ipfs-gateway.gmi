@@ -1,0 +1,102 @@
+# gemini-ipfs-gateway
+@siiky
+2022/08/07
+2022/08/08
+
+I've been slowly working on a read-only Gemini IPFS gateway -- or is it an IPFS Gemini gateway? I still don't know... It's a Gemini server you can use to access the IPFS network, like the Kubo's HTTP gateway.
+
+There's a similar project by hsanjuan (who is one of the IPFS devs I think), but for one I didn't want to mess with Go, and for another it starts up a new lite IPFS node instead of using the local node -- why not? It's already running anyway.
+
+There were lots of tiny details here and there that made things go wrong, but I think I got the Good Case a'workin'! I can browse my own capsule through it just fine. I don't have anything else to try for now, and my plans for the gateway are still vague, but hopefully this'll be interesting enough to people into both Gemini and IPFS that they give it a go.
+
+It supports both IPFS and IPNS, but no CIDv0s (because it uses only the "subdomain trick"; see Usage). It's based on Kooda's geminid (with small changes from me), ipfs.scm, and ttltbl.scm (something I hacked together tonight).
+
+=> https://git.sr.ht/~hsanjuan/gemini-ipfs-gateway
+=> https://www.upyum.com/cgit.cgi/geminid
+=> ipfs.gmi ipfs.scm
+=> https://git.sr.ht/~siiky/geminid/tree/experiments
+=> https://git.sr.ht/~siiky/ttltbl.scm
+
+## Usage
+
+How do you actually use it? The URLs are similar to those you'd see with the HTTP gateway.
+
+Pick a CID (this capsule's for example), and go here:
+
+=> ../ipfs.txt Capsule CID
+=> gemini://<cid>.ipfs.localhost/
+
+There's also an example page:
+
+=> gemini://bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/
+=> ../hello.gmi
+
+As long as links are relative (link/to/some/../file.txt) or absolute but without scheme://hostname/ (/link/to/file.txt), everything just works inside the IPFS network.
+
+Note that the server doesn't list directories -- a little bit of intentionally and a little bit out of laziness. When you try to access a directory you're redirected to /index.gmi (this is a Gemini server after all). If there's no index.gmi then it borks. But it doesn't work only with Gemini capsules either, ofc! It should serve any files the HTTP gateway would too.
+
+
+To access IPNS, pick a CID or name, and go here:
+
+=> gemini://<cid>.ipns.localhost/
+=> gemini://<name>.ipns.localhost/
+
+For example the IPFS site (apparently they changed domains from .io to .tech?):
+
+=> gemini://ipfs.io.ipns.localhost/index.html
+=> gemini://ipfs.tech.ipns.localhost/index.html
+
+Your Gemini client won't render the HTML page probably, but you'll get the content!
+
+For some reason Lagrange doesn't like one of these two, doesn't even send a request to the gateway, instead saying "failed to look up hostname". The other works fine, I have no idea why, but it really didn't look like a problem with the gateway.
+
+## Setup
+
+Install and run the Kubo node.
+
+=> https://ipfs.tech/#install
+
+Install CHICKEN 5.
+
+=> https://code.call-cc.org
+
+Install the ipfs egg:
+
+```sh
+chicken-install ipfs
+```
+
+Install ttltbl:
+
+```sh
+git clone --depth=1 https://git.sr.ht/~siiky/ttltbl.scm
+cd ttltbl.scm
+chicken-install
+cd ..
+```
+
+Install the WIP IPFS branch of my geminid fork:
+
+```sh
+git clone --depth=1 --branch experiments https://git.sr.ht/~siiky/geminid
+cd geminid
+chicken-install
+```
+
+Generate a cert (suggestions welcome, I don't understand any of this shit):
+
+```sh
+openssl req -new -subj '/CN=localhost' -addext 'subjectAltName = DNS:*.localhost' -x509 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -days 1825 -nodes -out wild-cert.pem -keyout wild-key.pem
+```
+
+Run the gateway:
+
+```sh
+csi -s ipfs-server.scm
+```
+
+## Architecture
+
+Not much to say about it. The gateway accepts Gemini requests, interacts with the Kubo node through its RPC API (resolve IPNS CIDs/names if necessary, ask the type of a UnixFS object, and read the actual content), and sends back results.
+
+The post so far described how the gateway works with the ipfs-request-handler, which dynamically accepts an IPFS/IPNS CID/Name and serves content the user asks for. There's also constant-scheme/root-cid which, when given the scheme (ipfs/ipns) and CID/Name, works like any other Gemini server, serving content from that CID/Name tree only! This latter would be a pretty cool way to publish content. Similar to SourceHut pages but instead of sending a tarball with the content you send the CID/Name of the content.

@@ -1,0 +1,5 @@
+Hello from the Gemini IPFS gateway!
+
+This is an example page. For more info go here:
+
+=> gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi
