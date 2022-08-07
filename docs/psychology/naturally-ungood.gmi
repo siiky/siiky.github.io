@@ -1,0 +1,16 @@
+# Naturally Ungood
+@siiky
+2022/08/07
+2022/08/07
+
+I had this thought like 2 days ago, that people aren't naturally ungood and selfish, but instead do what seems to them to be the best way to minimize their own misery. Obviously it doesn't lead to the globally optimal results (both intuitively and empirically), but what is one to do? What is one to do when everything around is so out of one's control and in general so misery inducing?
+
+I don't know why it popped into my head while in the shower, but the thought was surely in part inspired by the recent "Human Un-nature", and an interview with Aaron Swartz where he mentioned the book "Moral Mazes". If memory serves me right (it's been several months) his own description of the book was something like, the decisions people make in companies are rational and even morally good decisions, possibly the best, but somehow the results are what we see all around us. It's in my reading list.
+
+I think it'll help me internally. I fail as much as anybody. It'll help me tolerate the actions of others but also my own, hopefully.
+
+=> gemini://beyondneolithic.life/posts/human_un-nature.gmi "Human Un-nature"
+=> gemini://degrowther.smol.pub/20220804_human_nature "Re: Human Un-nature", degrowther
+=> https://invidious.snopyta.org/watch?v=JUt5gjqNI1w "We Can Change The World"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Moral_Mazes "Moral Mazes", Robert Jackall
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Aaron_Swartz Aaron Swartz
