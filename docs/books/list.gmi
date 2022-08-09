@@ -1,30 +1,30 @@
 # Books list
 @siiky
 2020/12/21
-2022/07/27
+2022/08/09
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
 
 => https://www.gutenberg.org Gutenberg
 => https://gutenberg.net.au Gutenberg Australia
 => https://standardebooks.org Standard Ebooks
-=> /care/list.gmi Care list
+=> ..//care/list.gmi Care list
 
 For some of them I don't have a good link so I may use a not so great one, like to Goodreads. Sorry in advance. I'll mark them "DUB"ious as a warning.
 
 Please let me know if you find any of the links not working.
 
-=> /contact.gmi Contact
+=> ../contact.gmi Contact
 
 # Reading
 
 => https://gameprogrammingpatterns.com Bob Nystrom, Game Programming Patterns: 2021
 => https://mitpress.mit.edu/books/little-typer Daniel P. Friedman & David Thrane Christiansen, The Little Typer: 2021/02/06
 => https://en.wikipedia.org/wiki/The_Astonishing_Hypothesis Francis Crick, The Astonishing Hypothesis: 2021/07/30
-=> https://en.wikipedia.org/wiki/Guillaume_Pitron Guillaume Pitron, The Rare Metals War: 2020
 => https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp James Edward Gray & Bruce A. Tate, Designing Elixir Systems With OTP: 2021/05/20
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
-=> /care/list.gmi Mark Graham & Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22
+=> ../care/list.gmi Mark Graham & Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22
+=> https://theanarchistlibrary.org/library/anonymous-desert Desert, Anonymous: 2022/07/15
 
 # Read
 
@@ -125,3 +125,4 @@ Please let me know if you find any of the links not working.
 # Dropped
 
 => https://www.smashwords.com/books/view/273775 Travis Bughi, The Forest of Angor: 2020
+=> https://en.wikipedia.org/wiki/Guillaume_Pitron Guillaume Pitron, The Rare Metals War: 2020

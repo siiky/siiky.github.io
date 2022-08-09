@@ -4,7 +4,15 @@
 <author><name>siiky</name></author>
 <id>https://siiky.srht.site/</id>
 <title type="text">nothing interesting here</title>
-<updated>2022-08-08T00:00:00Z</updated>
+<updated>2022-08-09T00:00:00Z</updated>
+<entry>
+  <id>https://siiky.srht.site/books/list.gmi</id>
+  <title type="text">Books list</title>
+  <updated>2022-08-09T00:00:00Z</updated>
+  <published>2020-12-21T00:00:00Z</published>
+  <link href="https://siiky.srht.site/books/list.gmi" rel="alternate" type="text/html"/>
+  <link href="gemini://siiky.srht.site/books/list.gmi" rel="alternate" type="text/gemtext"/>
+</entry>
 <entry>
   <id>https://siiky.srht.site/projects/gemini-ipfs-gateway.gmi</id>
   <title type="text">gemini-ipfs-gateway</title>
@@ -108,14 +116,6 @@
   <published>2020-12-30T00:00:00Z</published>
   <link href="https://siiky.srht.site/philosophy/hard_determinism.gmi" rel="alternate" type="text/html"/>
   <link href="gemini://siiky.srht.site/philosophy/hard_determinism.gmi" rel="alternate" type="text/gemtext"/>
-</entry>
-<entry>
-  <id>https://siiky.srht.site/books/list.gmi</id>
-  <title type="text">Books list</title>
-  <updated>2022-07-27T00:00:00Z</updated>
-  <published>2020-12-21T00:00:00Z</published>
-  <link href="https://siiky.srht.site/books/list.gmi" rel="alternate" type="text/html"/>
-  <link href="gemini://siiky.srht.site/books/list.gmi" rel="alternate" type="text/gemtext"/>
 </entry>
 <entry>
   <id>https://siiky.srht.site/petri_nets/log003.gmi</id>

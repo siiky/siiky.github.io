@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> books/list.gmi 2022-08-09 Books list
 => projects/gemini-ipfs-gateway.gmi 2022-08-08 gemini-ipfs-gateway
 => psychology/naturally-ungood.gmi 2022-08-07 Naturally Ungood
 => kB45oC/gemini-handlers.gmi 2022-08-06 Custom Gemini Handlers
@@ -23,7 +24,6 @@ This is where you'll find nothing interesting, welcome.
 => books/bill_gates.how_to_avoid_a_climate_disaster.gmi 2022-07-28 Bill Gates, "How to Avoid a Climate Disaster"
 => osm/cheatsheet.md 2022-07-28 OpenStreetMap Cheat Sheet
 => philosophy/hard_determinism.gmi 2022-07-27 Hard Determinism
-=> books/list.gmi 2022-07-27 Books list
 => petri_nets/log003.gmi 2022-07-24 Petri Nets Log #003
 => projects/ipfs.gmi 2022-07-24 ipfs.scm
 => care/ipfs.gmi 2022-07-24 IPFS Quickstart
