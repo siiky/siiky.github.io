@@ -49,7 +49,7 @@ Finally, a Petri net is simply the set of its transitions:
 
 With two different macro implementations of define-transition and define-petri-net it's easy to have the same source file expand to compilable code and to some graphical representation (such as GVS, which can be converted to GraphViz, which can be converted to PNG, SVG, &c, with a couple of commands).
 
-=> /scheme/gv-dsl.gmi GVS
+=> ../scheme/gv-dsl.gmi GVS
 
 The detail I was most indecisive about was how to "present" input values to the transition procedure. Some of the alternatives I thought of were naming a single argument list to contain all of the values from all of the places; and, naming the input places and their multiplicities. Examples:
 

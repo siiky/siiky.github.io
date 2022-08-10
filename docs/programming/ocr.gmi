@@ -62,4 +62,4 @@ I can't imagine I'm the only one wanting to do code reviews offline. And I can't
 
 Hopefully I've missed something so obvious that everyone knows of. If you think that's the case, dear reader, please! Send me an email!
 
-=> /contact.gmi Contact
+=> ../contact.gmi Contact

@@ -37,7 +37,7 @@
 <p><img src="somenet.png" alt="Some net" /></p>
 <p>With two different macro implementations of define-transition and define-petri-net it's easy to have the same source file expand to compilable code and to some graphical representation (such as GVS, which can be converted to GraphViz, which can be converted to PNG, SVG, &amp;c, with a couple of commands).</p>
 <ul>
-<li><a href="/scheme/gv-dsl.html">GVS</a></li></ul>
+<li><a href="../scheme/gv-dsl.gmi">GVS</a></li></ul>
 <p>The detail I was most indecisive about was how to &quot;present&quot; input values to the transition procedure. Some of the alternatives I thought of were naming a single argument list to contain all of the values from all of the places; and, naming the input places and their multiplicities. Examples:</p>
 <pre><code>(define-transition
   (t1 args (p1 2) (p2 3) ...)

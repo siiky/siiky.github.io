@@ -108,7 +108,7 @@ serve:
 	$(GEMINID) $(ROOT)
 
 graph.scm: $(MAKE_GRAPH) $(SRC)
-	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(ROOT)/ipfs.gmi $(SRC) > $@
+	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(SRC) > $@
 
 graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@

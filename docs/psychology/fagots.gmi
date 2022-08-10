@@ -12,7 +12,7 @@ I think the analogy works well enough.
 
 DISCLAIMER: I haven't the faintest fucking clue what I'm talking about. All that I "know" about psychology is from Psych 101 by Paul Kleinman (maybe others meanwhile, check my book list), random Wikipedia pages, and a few random posts here and there (check my psychology links). I just had this thought after the already mentioned events and decided meditate on it.
 
-=> /books/list.gmi Books list
+=> ../books/list.gmi Books list
 => links.gmi Psychology links
 
 ## The Analogy

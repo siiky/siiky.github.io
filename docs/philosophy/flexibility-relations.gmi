@@ -5,7 +5,7 @@
 
 I recently wrote about how flexibility may be beneficial in your course of life.
 
-=> /philosophy/flexibility-life.gmi Flexibility & Life
+=> ../philosophy/flexibility-life.gmi Flexibility & Life
 
 I've thought some times in the past how after I present myself in some way, I can no longer present myself some other (conflicting) way in the future to the same person(s). At least not with some friction.
 
@@ -44,4 +44,4 @@ Just another tool in the toolbox... Maybe. Or not. ¯\__(ツ)_/¯
 => https://en.wikipedia.org/wiki/Consistent Consistent
 => https://en.wikipedia.org/wiki/Contradiction Contradiction
 => https://en.wikipedia.org/wiki/Proposition Proposition
-=> /books/list.gmi Books list
+=> ../books/list.gmi Books list

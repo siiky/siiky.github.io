@@ -7,7 +7,7 @@ I've (loosely) defined a DSL to represent GraphViz DOT in Scheme, and created a 
 
 I use it on this site, for example:
 
-=> /algebra/cat_theory_perf.gmi Category Theory and Performance
+=> ../algebra/cat_theory_perf.gmi Category Theory and Performance
 
 The code can be found online, but try not to read it, it's much too ugly. :/
 
