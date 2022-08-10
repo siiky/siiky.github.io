@@ -10,8 +10,8 @@
   srfi-13
   (rename
     (only srfi-197
-	  chain
-	  chain-lambda)
+          chain
+          chain-lambda)
     (chain =>)
     (chain-lambda ->))
 
@@ -36,7 +36,7 @@
   (let ((regex (irregex "^[a-z]+:"))) ; URLs w/ scheme
     (lambda (link)
       (not (or (string-prefix? "/" link)
-	       (irregex-search regex link))))))
+               (irregex-search regex link))))))
 
 (define ((relative-link->absolute-link from) link)
   (if (relative-link? link) (relative-to from link) link))
@@ -55,12 +55,12 @@
     (filter (-> (pathname-extension _) (string=? _ "gmi")) _)
     (map (-> (remove-root _) ((split identity read-links) _)) _)
     (map (lambda (kv)
-	   ((>< identity
-		(-> ;(filter relative-link? _)
-		    (map (relative-link->absolute-link (car kv)) _)
-		    (delete-duplicates _ string=?)))
-	    kv))
-	 _)
+           ((>< identity
+                (-> ;(filter relative-link? _)
+                    (map (relative-link->absolute-link (car kv)) _)
+                    (delete-duplicates _ string=?)))
+            kv))
+         _)
 
     (write _)
     )
