@@ -6,6 +6,7 @@ GMI2MD := ./gmi2md.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_ATOM := ./make-atom.sh
 MAKE_GEMFEED := ./make-gemfeed.sh
+MAKE_GRAPH := ./make-graph.scm
 MAKE_IPFS_PAGE := ./make-ipfs-page.sh
 MAKE_META := ./make-meta.sh
 MD2HTML := ./md2html.scm
@@ -104,6 +105,9 @@ antenna-publish: ipfs-publish
 
 serve:
 	$(GEMINID) $(ROOT)
+
+graph.scm: $(MAKE_GRAPH)
+	@$(MAKE_GRAPH) $(ROOT) $(SRC) > $@
 
 watch:
 	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
