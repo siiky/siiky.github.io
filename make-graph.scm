@@ -49,7 +49,7 @@
 (define read-links
   (-> (with-input-from-file _ gmi:read #:text)
       (filter gmi:link? _)
-      (map cadr _)))
+      (map gmi:link:uri _)))
 
 (=> files
     (filter (-> (pathname-extension _) (string=? _ "gmi")) _)

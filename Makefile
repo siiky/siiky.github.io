@@ -3,6 +3,7 @@ include env.make
 # Scripts
 GEMINID := ./geminid.scm
 GMI2MD := ./gmi2md.scm
+GRAPH2GVS := ./graph2gvs.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_ATOM := ./make-atom.sh
 MAKE_GEMFEED := ./make-gemfeed.sh
@@ -57,7 +58,7 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
-all: index html svg png atom
+all: index html svg png atom graph.svg
 
 index: $(ROOT)/index.html
 
@@ -106,8 +107,11 @@ antenna-publish: ipfs-publish
 serve:
 	$(GEMINID) $(ROOT)
 
-graph.scm: $(MAKE_GRAPH)
-	@$(MAKE_GRAPH) $(ROOT) $(SRC) > $@
+graph.scm: $(MAKE_GRAPH) $(SRC)
+	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(ROOT)/ipfs.gmi $(SRC) > $@
+
+graph.gvs: graph.scm $(GRAPH2GVS)
+	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
 	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
