@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/zettelkasten_utility.gmi 2022-08-11 RE: Zettelkasten Utility
 => books/list.gmi 2022-08-09 Books list
 => projects/gemini-ipfs-gateway.gmi 2022-08-08 gemini-ipfs-gateway
 => psychology/naturally-ungood.gmi 2022-08-07 Naturally Ungood

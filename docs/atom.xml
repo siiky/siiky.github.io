@@ -4,7 +4,15 @@
 <author><name>siiky</name></author>
 <id>https://siiky.srht.site/</id>
 <title type="text">nothing interesting here</title>
-<updated>2022-08-09T00:00:00Z</updated>
+<updated>2022-08-11T00:00:00Z</updated>
+<entry>
+  <id>https://siiky.srht.site/kB45oC/zettelkasten_utility.gmi</id>
+  <title type="text">RE: Zettelkasten Utility</title>
+  <updated>2022-08-11T00:00:00Z</updated>
+  <published>2022-08-10T00:00:00Z</published>
+  <link href="https://siiky.srht.site/kB45oC/zettelkasten_utility.gmi" rel="alternate" type="text/html"/>
+  <link href="gemini://siiky.srht.site/kB45oC/zettelkasten_utility.gmi" rel="alternate" type="text/gemtext"/>
+</entry>
 <entry>
   <id>https://siiky.srht.site/books/list.gmi</id>
   <title type="text">Books list</title>
