@@ -15,9 +15,11 @@ MD2HTML := ./md2html.scm
 SCRIPTS := \
  GEMINID \
  GMI2MD \
+ GRAPH2GVS \
  IPFS_PUBLISH \
  MAKE_ATOM \
  MAKE_GEMFEED \
+ MAKE_GRAPH \
  MAKE_IPFS_PAGE \
  MAKE_META \
  MD2HTML \
@@ -77,7 +79,7 @@ $(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
 
 $(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
-	$(MAKE_ATOM) meta.tsv > $@
+	$(MAKE_ATOM) $(ROOT) meta.tsv > $@
 
 # TODO: Split IPFS add from publish
 

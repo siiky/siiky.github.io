@@ -20,7 +20,7 @@ After reading both posts, I guess what I'm doing is more like a wiki too. I have
 
 I sometimes feel this too, especially for larger pages it can become a yak shaving activity -- "would it be better if I laid things out this way or that way?" And whichever way I choose I lose, it's never the right one, because every time I come back to the page I get that same feeling, that maybe it's still not just right...
 
-> It seems to me that one reason people will tend to impose structure in a zettelkasten-like system is that they are digesting information that is already structured. It seems like it would make sense to replicate that structure---that it would be useful---especially, as Schmiddi suggests, if the point of the lecture you are attending is for students to replicate its contents. 
+> It seems to me that one reason people will tend to impose structure in a zettelkasten-like system is that they are digesting information that is already structured. It seems like it would make sense to replicate that structure---that it would be useful---especially, as Schmiddi suggests, if the point of the lecture you are attending is for students to replicate its contents.
 
 Some of my most comprehensive and useful files are on Petri nets, and they exactly fit the description of this paragraph. I wrote these notes while reading the papers. Sometimes I would pause reading to take note or transcribe something directly on the computer, other times I would take note somewhere (a notebook or the paper itself) and later transcribe to the appropriate file. In general, the material wasn't adapted very much from the original text.
 
