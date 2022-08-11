@@ -3,3 +3,4 @@ siiky.github.io
 *.pem
 *.tgz
 env.make
+graph.gvs
