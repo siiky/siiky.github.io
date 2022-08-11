@@ -6,6 +6,10 @@ meta="$2"
 
 last_update="$(head -1 "${meta}" | cut -f 1)T00:00:00Z"
 
+html_escape() {
+  sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
+}
+
 # Write headers
 
 cat <<EOF
@@ -22,7 +26,7 @@ EOF
 
 while IFS='	' read update cdate title uri; do
   html_uri="$(echo "${uri}" | sed 's/\.\(gmi\|org\|md\)$/.html/;')"
-  html_safe_title="$(echo "${title}" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g')"
+  html_safe_title="$(echo "${title}" | html_escape)"
   updated="${update}T00:00:00Z"
   published="${cdate}T00:00:00Z"
   cat <<EOF
@@ -36,14 +40,14 @@ while IFS='	' read update cdate title uri; do
   <content type="text/gemini">
 EOF
 
-cat "${root}/${uri}"
+cat "${root}/${uri}" | html_escape
 
 cat <<EOF
   </content>
   <content type="text/html">
 EOF
 
-cat "${root}/${html_uri}"
+cat "${root}/${html_uri}" | html_escape
 
 cat <<EOF
   </content>
