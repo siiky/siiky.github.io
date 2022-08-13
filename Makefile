@@ -5,7 +5,7 @@ GEMINID := ./geminid.scm
 GMI2MD := ./gmi2md.scm
 GRAPH2GVS := ./graph2gvs.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
-MAKE_ATOM := ./make-atom.sh
+MAKE_ATOM := ./make-atom.scm
 MAKE_GEMFEED := ./make-gemfeed.sh
 MAKE_GRAPH := ./make-graph.scm
 MAKE_IPFS_PAGE := ./make-ipfs-page.sh
@@ -79,7 +79,7 @@ $(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
 
 $(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
-	$(MAKE_ATOM) $(ROOT) meta.tsv > $@
+	$(MAKE_ATOM) $(ROOT) < meta.tsv > $@
 
 # TODO: Split IPFS add from publish
 
