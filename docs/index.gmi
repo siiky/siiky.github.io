@@ -10,6 +10,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> petri_nets/log005.gmi 2022-08-15 Petri Nets Log #005
 => kB45oC/zettelkasten_utility.gmi 2022-08-11 RE: Zettelkasten Utility
 => books/list.gmi 2022-08-09 Books list
 => projects/gemini-ipfs-gateway.gmi 2022-08-08 gemini-ipfs-gateway
@@ -29,7 +30,6 @@ This is where you'll find nothing interesting, welcome.
 => projects/ipfs.gmi 2022-07-24 ipfs.scm
 => care/ipfs.gmi 2022-07-24 IPFS Quickstart
 => petri_nets/log002.gmi 2022-07-23 Petri Nets Log #002
-=> petri_nets/logs.gmi 2022-07-23 Petri Nets Logs
 => petri_nets/log001.gmi 2022-07-23 Petri Nets Log #001
 => psychology/links.gmi 2022-07-15 Psychology Links
 => philosophy/links.gmi 2022-07-15 Philosophy Links
@@ -56,3 +56,4 @@ This is where you'll find nothing interesting, welcome.
 => scheme/exceptions.gmi 2022-07-07 Exceptions (aka Conditions) in Scheme
 => projects/gemtext.gmi 2022-07-05 Scheme Gemtext Reader
 => care/list.gmi 2022-07-04 Care list
+=> petri_nets/logs.gmi 2022-05-16 Petri Nets Logs

@@ -1,0 +1,13 @@
+# Petri Nets Log #005
+@siiky
+2022/08/15
+2022/08/15
+
+I had a call with Statebox last week! \o/ Unfortunately one of the main devs couldn't attend so there was no technical discussion... But it was good to get a point of contact (now I have "permission" to ask them questions), and they gave us accounts to use the platform they're working on. It looks really neat, but I still haven't gotten around to try it out for real.
+
+=> https://statebox.tv/act2022/tutorial To get an idea check out Statebox TV
+
+If I understood correctly they still don't have an actual programming language for people to use. But several people can work on the same document simultaneously like in Overleaf, CoCalc, Google Colab, Google Docs, &c.
+
+
+=> logs.gmi Logs index

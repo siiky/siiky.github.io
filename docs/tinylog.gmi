@@ -7,7 +7,7 @@ license: CC BY-SA 4.0
 
 ## 2022-08-13 12:45 +0100
 => gemini://spool-five.com/gemlog/2022-08-07-offline_week.gmi Offline Week July 2022
-> [Thinking] seems to come on most strongly when we are bored, i.e., when our mind has no activity to latch on to. For example, while waiting for a train or walking. 
+> [Thinking] seems to come on most strongly when we are bored, i.e., when our mind has no activity to latch on to. For example, while waiting for a train or walking.
 I walk a lot (good side effect of shit public transports and having no car) and I like walking. In the past I would go with my DAP everywhere, always listening to music or podcasts. But nowadays when I'm walking I try to really pay attention to what's around me: I look at surface details, birds flying around, trees swaying, larger insects crawling about, what people around me are doing, ...
 Sometimes I do think about stuff instead, but that's the exception for sure, not the norm.
 

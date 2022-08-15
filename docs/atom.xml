@@ -8,7 +8,26 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-10T00:00:00Z</updated>
+  <updated>2022-08-15T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;Petri Nets Log #005&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/15
+2022/08/15&lt;/p&gt;
+&lt;p&gt;I had a call with Statebox last week! \o/ Unfortunately one of the main devs couldn't attend so there was no technical discussion... But it was good to get a point of contact (now I have &amp;quot;permission&amp;quot; to ask them questions), and they gave us accounts to use the platform they're working on. It looks really neat, but I still haven't gotten around to try it out for real.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://statebox.tv/act2022/tutorial"&gt;To get an idea check out Statebox TV&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;If I understood correctly they still don't have an actual programming language for people to use. But several people can work on the same document simultaneously like in Overleaf, CoCalc, Google Colab, Google Docs, &amp;amp;c.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="logs.gmi"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/petri_nets/log005.gmi</id>
+    <published>2022-08-15T00:00:00Z</published>
+    <title type="text">Petri Nets Log #005</title>
+    <updated>2022-08-15T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/petri_nets/log005.html" rel="alternate" type="text/html" title="Petri Nets Log #005" />
+    <link href="gemini://siiky.srht.site/petri_nets/log005.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #005" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;RE: Zettelkasten Utility&lt;/h1&gt;
@@ -1389,25 +1408,6 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <updated>2022-06-23T00:00:00Z</updated>
     <link href="https://siiky.srht.site/petri_nets/log002.html" rel="alternate" type="text/html" title="Petri Nets Log #002" />
     <link href="gemini://siiky.srht.site/petri_nets/log002.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #002" />
-  </entry>
-  <entry>
-    <content type="html">
-&lt;h1&gt;Petri Nets Logs&lt;/h1&gt;
-&lt;p&gt;@siiky
-2022/05/16
-2022/07/23&lt;/p&gt;
-&lt;p&gt;This is the list of logs I wrote about my journey studying Petri nets. I'll try to make this a sort of regular log with updates, my comments/opinions, and maybe notes. One of these days I should start combing through and arranging my notes to publish them.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="log001.gmi"&gt;#001&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="log002.gmi"&gt;#002&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="log003.gmi"&gt;#003&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="log004.gmi"&gt;#004&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
-    <id>gemini://siiky.srht.site/petri_nets/logs.gmi</id>
-    <published>2022-07-23T00:00:00Z</published>
-    <title type="text">Petri Nets Logs</title>
-    <updated>2022-05-16T00:00:00Z</updated>
-    <link href="https://siiky.srht.site/petri_nets/logs.html" rel="alternate" type="text/html" title="Petri Nets Logs" />
-    <link href="gemini://siiky.srht.site/petri_nets/logs.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Logs" />
   </entry>
   <entry>
     <content type="html">
@@ -3149,5 +3149,25 @@ fact n = prod [1..n]
     <updated>2022-01-09T00:00:00Z</updated>
     <link href="https://siiky.srht.site/care/list.html" rel="alternate" type="text/html" title="Care list" />
     <link href="gemini://siiky.srht.site/care/list.gmi" rel="alternate" type="text/gemtext" title="Care list" />
+  </entry>
+  <entry>
+    <content type="html">
+&lt;h1&gt;Petri Nets Logs&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/05/16
+2022/05/16&lt;/p&gt;
+&lt;p&gt;This is the list of logs I wrote about my journey studying Petri nets. I'll try to make this a sort of regular log with updates, my comments/opinions, and maybe notes. One of these days I should start combing through and arranging my notes to publish them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="log001.gmi"&gt;#001&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="log002.gmi"&gt;#002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="log003.gmi"&gt;#003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="log004.gmi"&gt;#004&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="log005.gmi"&gt;#005&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/petri_nets/logs.gmi</id>
+    <published>2022-05-16T00:00:00Z</published>
+    <title type="text">Petri Nets Logs</title>
+    <updated>2022-05-16T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/petri_nets/logs.html" rel="alternate" type="text/html" title="Petri Nets Logs" />
+    <link href="gemini://siiky.srht.site/petri_nets/logs.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Logs" />
   </entry>
 </feed>
