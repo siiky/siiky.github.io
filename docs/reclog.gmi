@@ -9,6 +9,9 @@ Sometimes I read posts that I find interesting and that I would like to share wi
 
 ## Posts
 
+=> gemini://altesq.net/~evenfire/posts/evaluating-our-relationship-with-technology.gmi 2022-08-16 Evaluating our relationship with technology
+=> gemini://amvc.mx/log/2022-08-16.gmi 2022-08-16 Why is Software Progressing so Slowly Now?
+
 => gemini://jsreed5.org/log/2022/202208/20220814-a-misuse-of-terms.gmi 2022-08-14 A Misuse of Terms
 => gemini://tilde.team/~smokey/logs/2022-08-14-esperanto-dive.gmi 2022-08-14 A Dive Into Esperanto
 
