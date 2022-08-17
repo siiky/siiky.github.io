@@ -1,13 +1,15 @@
 # Reclog
 @siiky
 2022/08/15
-2022/08/15
+2022/08/17
 
-Sometimes I read posts that I find interesting and that I would like to share with others but that I don't have anything particularly good to say about. Following a recent post introducing Re:logs, I just had the idea of starting a "recommendations log". I update this page manually.
+=> meta/reclog.gmi What's a reclog?
 
-=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi Introducing the Re:log concept
+I update this page manually.
 
 ## Posts
+
+=> gemini://ur.gs/blog/u-values 2022-08-17 U values
 
 => gemini://altesq.net/~evenfire/posts/evaluating-our-relationship-with-technology.gmi 2022-08-16 Evaluating our relationship with technology
 => gemini://amvc.mx/log/2022-08-16.gmi 2022-08-16 Why is Software Progressing so Slowly Now?
