@@ -1,0 +1,24 @@
+; vim: ft=scheme
+(digraph
+  example_or
+
+  (settings (graph (rankdir LR)))
+
+  ; Places
+  (settings (node (shape circle)))
+  (nodes result error f)
+
+  ; Transitions
+  (settings (node (shape box)))
+  (nodes R handleResult handleError F)
+
+  (settings)
+
+  (-> R result)
+  (-> R error)
+  (-> result handleResult)
+  (-> error handleError)
+  (-> handleResult f)
+  (-> handleError f)
+  (-> f F)
+)

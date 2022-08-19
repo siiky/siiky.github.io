@@ -10,3 +10,4 @@ This is the list of logs I wrote about my journey studying Petri nets. I'll try 
 => log003.gmi #003
 => log004.gmi #004
 => log005.gmi #005
+=> log006.gmi #006

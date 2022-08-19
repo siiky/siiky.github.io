@@ -8,7 +8,66 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-17T00:00:00Z</updated>
+  <updated>2022-08-19T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;Petri Nets Log #006&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/19
+2022/08/19&lt;/p&gt;
+&lt;p&gt;Following the call with Statebox from last week I sent an email with some questions. One of them was if/how they're thinking of (formally &amp;amp; technically) dealing with &amp;quot;OR transitions&amp;quot;.&lt;/p&gt;
+&lt;p&gt;I first read about &amp;quot;OR transitions&amp;quot; in the paper &amp;quot;The Application of Petri Nets to Workflow Management&amp;quot; (#004; &amp;quot;conditional routing&amp;quot;). In more detail (including the places between transitions), an &amp;quot;OR transition&amp;quot; is a transition that produces tokens to only one of its output places. I think this is useful to model computations that may fail (e.g. non-total functions) or that produce values from distinct subsets (&amp;quot;good&amp;quot;/&amp;quot;bad&amp;quot;). For example: subtracting in the naturals; dividing; making a web request (HTTP 4xx/5xx, timeouts, ...); determining if a value satisfies a property or not (x &gt;= 42); ...&lt;/p&gt;
+&lt;p&gt;In the end, OR transitions aren't necessary -- we're used to doing these things in code already. It may not even make sense or be worth the effort sometimes to model the alternatives, but there are certainly cases where it would be useful. I talked about it with my TL and we got a workaround, like a boilerplate pattern.&lt;/p&gt;
+&lt;p&gt;Some names: let's say the OR transition is called R, the &amp;quot;good case&amp;quot; place &amp;amp; transition are result &amp;amp; T, and the &amp;quot;bad case&amp;quot; are error &amp;amp; C. T and C produce a token in f, which is to be consumed by a single transition F.&lt;/p&gt;
+&lt;p&gt;&lt;img src="example_or.svg" alt="Example (SVG)" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="example_or.png" alt="Example (PNG)" /&gt;&lt;/p&gt;
+&lt;p&gt;First, R must be modified to produce an Either Error Result token, duplicated in each of the output places (result &amp;amp; error). The good and bad places remain the same. T and C must be modified to produce a token in a single (common) place (let's call it m, for middleman), and their types must change from:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;T :: Result -&amp;gt; Result'
+C :: Error -&amp;gt; Error'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;T :: Either Error Result -&amp;gt; Maybe (Either Error Result)
+C :: Either Error Result -&amp;gt; Maybe (Either Error' Result')
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;T and C must do nothing (i.e. return Nothing) for the cases they aren't supposed to handle. So T should return Nothing if the value is an Error, and C should return Nothing if the value is a Result. In the case they're supposed to handle they work as before these boilerplate changes, except they must rewrap it in the Either and in a Just (more details in code shortly).&lt;/p&gt;
+&lt;p&gt;Finally, an extra transition (let's call it M, for merge) must be added with m as its input place of multiplicity 2 (the number of the output places of R). M should filter out the Nothings, pick the only Just, and produce it (unwrapped) in f. In theory, F doesn't need to know about this dance.&lt;/p&gt;
+&lt;p&gt;&lt;img src="example_or_em.svg" alt="Example using this pattern (SVG)" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="example_or_em.png" alt="Example using this pattern (PNG)" /&gt;&lt;/p&gt;
+&lt;p&gt;Generally, the pattern goes like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="general_or.svg" alt="Generalized pattern (SVG)" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="general_or.png" alt="Generalized pattern (PNG)" /&gt;&lt;/p&gt;
+&lt;p&gt;Algebraically, in pseudo-Haskell (note on notaion afterwards):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;R : () -&amp;gt; (A1 + A2 + ... + An)^n
+ak : (A1 + A2 + ... + An)
+T'k : (A1 + A2 + ... + An) -&amp;gt; Maybe (A'1 + A'2 + ... + A'n)
+M : Maybe (A'1 + A'2 + ... + A'n)^n -&amp;gt; ()
+
+unSingle [a] = a
+M = fromJust . unSingle . filter isJust
+
+N = const Nothing
+J = Just
+
+Tk : Ak -&amp;gt; A'k
+hk = J . ik . Tk
+T'k = [N, N, ..., hk, ..., N, N]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(NOTE: The A + B notation is coproduct of A and B; ik is coproduct injection; and [f, g, ...] is not the usual list notation but the coproduct &amp;quot;either&amp;quot;, e.g. [f, g] (i1 x) = f x; [f, g] (i2 x) = g x)&lt;/p&gt;
+&lt;p&gt;For the simpler success/failure case, if R produces tokens of type Either Error Result:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;handleResult' = [J . Right . handleResult, N]
+handleError'  = [N,                        J . Left . handleError]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And thus I will end this log. Let's see what Statebox replies.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="log004.gmi"&gt;#004&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="logs.gmi"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/petri_nets/log006.gmi</id>
+    <published>2022-08-19T00:00:00Z</published>
+    <title type="text">Petri Nets Log #006</title>
+    <updated>2022-08-19T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/petri_nets/log006.html" rel="alternate" type="text/html" title="Petri Nets Log #006" />
+    <link href="gemini://siiky.srht.site/petri_nets/log006.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #006" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;Reclog&lt;/h1&gt;
@@ -3179,7 +3238,8 @@ fact n = prod [1..n]
 &lt;li&gt;&lt;a href="log002.gmi"&gt;#002&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="log003.gmi"&gt;#003&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="log004.gmi"&gt;#004&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="log005.gmi"&gt;#005&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="log005.gmi"&gt;#005&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="log006.gmi"&gt;#006&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <id>gemini://siiky.srht.site/petri_nets/logs.gmi</id>
     <published>2022-05-16T00:00:00Z</published>
     <title type="text">Petri Nets Logs</title>

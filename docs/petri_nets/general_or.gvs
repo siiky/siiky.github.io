@@ -1,0 +1,35 @@
+; vim: ft=scheme
+(digraph
+  general_or
+
+  (settings (graph (rankdir LR)))
+
+  ; Places
+  (settings (node (shape circle)))
+  (nodes a1 a2 "a..." an m f)
+
+  ; Transitions
+  (settings (node (shape box)))
+  (nodes R "T'1" "T'2" "T'..." "T'n" M F)
+
+  (settings)
+
+  (-> R a1)
+  (-> R a2)
+  (-> R "a...")
+  (-> R an)
+
+  (-> a1 "T'1")
+  (-> a2 "T'2")
+  (-> "a..." "T'...")
+  (-> an "T'n")
+
+  (-> "T'1" m)
+  (-> "T'2" m)
+  (-> "T'..." m)
+  (-> "T'n" m)
+
+  (-> m M (label n))
+  (-> M f)
+  (-> f F)
+)
