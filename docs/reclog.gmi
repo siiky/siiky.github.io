@@ -1,13 +1,16 @@
 # Reclog
 @siiky
 2022/08/15
-2022/08/17
+2022/08/19
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
 
 ## Posts
+
+=> gemini://gemini.circumlunar.space/users/solderpunk/gemlog/ssh-apps-and-accessible-gemini-publishing.gmi 2022-08-18 SSH apps and accessible Gemini publishing
+=> gemini://josias.dev/gemlog/ssh-notes.gmi 2022-08-18 SSH Notes
 
 => gemini://altesq.net/~evenfire/posts/writing-offline.gmi 2022-08-17 Writing offline
 => gemini://degrowther.smol.pub/20220803_freedom_ownership_infrastructure_hope 2022-08-17 Re: Freedom, Ownership, Infrastructure, and Hope
