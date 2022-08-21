@@ -76,7 +76,7 @@ handleError'  = [N,                        J . Left . handleError]
 2022/08/17&lt;/p&gt;
 &lt;p&gt;Sometimes I read posts that I find interesting and that I would like to share with others but that I don't have anything particularly good to say about. Following a recent post introducing Re:logs, I just had the idea of starting a &amp;quot;recommendations log&amp;quot;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi"&gt;Introducing the Re:log concept&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi"&gt;(Gemini Portal) Introducing the Re:log concept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../reclog.gmi"&gt;Reclog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <id>gemini://siiky.srht.site/meta/reclog.gmi</id>
     <published>2022-08-17T00:00:00Z</published>
@@ -112,14 +112,14 @@ handleError'  = [N,                        J . Left . handleError]
 2022/08/11&lt;/p&gt;
 &lt;p&gt;I started almost a year ago (damn!) using Org Roam to finally try and organize my notes and random things I write. I heard about zettelkasten I don't even remember whence anymore, but it stuck with me. I spent a couple of weeks learning more about it, searching for (software) systems, &amp;amp;c, until I finally settled on Org Roam. As a Vim user this was a very... interesting experience! But let's leave that for another day.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://blog.schmidhuberj.de/2022/08/07/when-does-a-zettelkasten-become-useful"&gt;When does a Zettelkasten become useful?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/blog.schmidhuberj.de/2022/08/07/when-does-a-zettelkasten-become-useful"&gt;(Gemini Portal) When does a Zettelkasten become useful?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Here, my notes are basically a structure-note for every big topic linking to structure-notes of every sub-topic linking to the actual information that sometimes links back to already learned information, but not from other subjects. The problem here is, that this is easily converted to a linear note structure, (...)
 (...)
 To basically summarize what I (believe) am doing differently in my Zettelkasten, I emphasize on collecting the information in a way I understand and is easy to search instead of linking the notes to create new ideas. Maybe the word &amp;quot;wiki&amp;quot; might be closer to what I am doing, but as I was starting off with the idea of creating a Zettelkasten, this word has stuck for now.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;After reading both posts, I guess what I'm doing is more like a wiki too. I have a page/file for a topic usually, where I write about it and how it relates to other topics. I tried opening some random notes just now (in Doom: SPC n r a) and like 5 in a row were pretty much useless. Some of these were created during the first few days, when I was kind of filling it up with whatever came to mind, kind of trying things out. Reflecting on how I use it too (more next) in retrospect it makes sense now that opening random notes doesn't prove too informative or interesting.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://rawtext.club/~mieum/relog/2022-08-08-zettelkasten_utility.gmi"&gt;Zettelkasten Utility&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/rawtext.club/~mieum/relog/2022-08-08-zettelkasten_utility.gmi"&gt;(Gemini Portal) Zettelkasten Utility&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;So much thought and energy went into organizing and maintaining a sensible structure that it became kind of unwieldy and was ultimately not very flexible.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I sometimes feel this too, especially for larger pages it can become a yak shaving activity -- &amp;quot;would it be better if I laid things out this way or that way?&amp;quot; And whichever way I choose I lose, it's never the right one, because every time I come back to the page I get that same feeling, that maybe it's still not just right...&lt;/p&gt;
@@ -285,7 +285,7 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
 &lt;p&gt;There were lots of tiny details here and there that made things go wrong, but I think I got the Good Case a'workin'! I can browse my own capsule through it just fine. I don't have anything else to try for now, and my plans for the gateway are still vague, but hopefully this'll be interesting enough to people into both Gemini and IPFS that they give it a go.&lt;/p&gt;
 &lt;p&gt;It supports both IPFS and IPNS, but no CIDv0s (because it uses only the &amp;quot;subdomain trick&amp;quot;; see Usage). It's based on Kooda's geminid (with small changes from me), ipfs.scm, and ttltbl.scm (something I hacked together tonight).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[&amp;quot;[ANN] Gemini-IPFS gateway&amp;quot;, hsanjuan](gemini://rawtext.club/~sloum/geminilist/005449.gmi)&lt;/li&gt;
+&lt;li&gt;[(Gemini Portal) &amp;quot;[ANN] Gemini-IPFS gateway&amp;quot;, hsanjuan](https://portal.mozz.us/gemini/rawtext.club/~sloum/geminilist/005449.gmi)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.upyum.com/cgit.cgi/geminid"&gt;geminid (by Kooda)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="ipfs.html"&gt;ipfs.scm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/geminid/tree/experiments"&gt;geminid (IPFS branch)&lt;/a&gt;&lt;/li&gt;
@@ -295,21 +295,24 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
 &lt;p&gt;Pick a CID (this capsule's for example), and go here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../ipfs.txt"&gt;Capsule CID&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://&amp;lt;cid"&gt;gemini://&amp;lt;cid&lt;/a&gt;.ipfs.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
+&lt;cid&gt;&lt;/cid&gt;.ipfs.localhost/)&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;There's also an example page:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/"&gt;gemini://bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;../hello.gmi&amp;gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;As long as links are relative (link/to/some/../file.txt) or absolute but without scheme://hostname/ (/link/to/file.txt), everything just works inside the IPFS network.&lt;/p&gt;
 &lt;p&gt;Note that the server doesn't list directories -- a little bit of intentionally and a little bit out of laziness. When you try to access a directory you're redirected to /index.gmi (this is a Gemini server after all). If there's no index.gmi then it borks. But it doesn't work only with Gemini capsules either, ofc! It should serve any files the HTTP gateway would too.&lt;/p&gt;
 &lt;p&gt;To access IPNS, pick a CID or name, and go here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://&amp;lt;cid"&gt;gemini://&amp;lt;cid&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://&amp;lt;name"&gt;gemini://&amp;lt;name&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
+&lt;cid&gt;&lt;/cid&gt;.ipns.localhost/)&lt;/li&gt;
+&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
+&lt;name&gt;&lt;/name&gt;.ipns.localhost/)&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;For example the IPFS site (apparently they changed domains from .io to .tech?):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://ipfs.io.ipns.localhost/index.html"&gt;gemini://ipfs.io.ipns.localhost/index.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://ipfs.tech.ipns.localhost/index.html"&gt;gemini://ipfs.tech.ipns.localhost/index.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.tech.ipns.localhost/index.html"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;Your Gemini client won't render the HTML page probably, but you'll get the content!&lt;/p&gt;
 &lt;p&gt;For some reason Lagrange doesn't like one of these two, doesn't even send a request to the gateway, instead saying &amp;quot;failed to look up hostname&amp;quot;. The other works fine, I have no idea why, but it really didn't look like a problem with the gateway.&lt;/p&gt;
 &lt;h2&gt;Setup&lt;/h2&gt;
@@ -359,11 +362,11 @@ chicken-install
 &lt;p&gt;I don't know why it popped into my head while in the shower, but the thought was surely in part inspired by the recent &amp;quot;Human Un-nature&amp;quot;, and an interview with Aaron Swartz where he mentioned the book &amp;quot;Moral Mazes&amp;quot;. If memory serves me right (it's been several months) his own description of the book was something like, the decisions people make in companies are rational and even morally good decisions, possibly the best, but somehow the results are what we see all around us. It's in my reading list.&lt;/p&gt;
 &lt;p&gt;I think it'll help me internally. I fail as much as anybody. It'll help me tolerate the actions of others but also my own, hopefully.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://beyondneolithic.life/posts/human_un-nature.gmi"&gt;&amp;quot;Human Un-nature&amp;quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://degrowther.smol.pub/20220804_human_nature"&gt;&amp;quot;Re: Human Un-nature&amp;quot;, degrowther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/beyondneolithic.life/posts/human_un-nature.gmi"&gt;(Gemini Portal) &amp;quot;Human Un-nature&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/degrowther.smol.pub/20220804_human_nature"&gt;(Gemini Portal) &amp;quot;Re: Human Un-nature&amp;quot;, degrowther&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://invidious.snopyta.org/watch?v=JUt5gjqNI1w"&gt;&amp;quot;We Can Change The World&amp;quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://gemi.dev/cgi-bin/wp.cgi/view?Moral_Mazes"&gt;&amp;quot;Moral Mazes&amp;quot;, Robert Jackall&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://gemi.dev/cgi-bin/wp.cgi/view?Aaron_Swartz"&gt;Aaron Swartz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Moral_Mazes"&gt;(Gemini Portal) &amp;quot;Moral Mazes&amp;quot;, Robert Jackall&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Aaron_Swartz"&gt;(Gemini Portal) Aaron Swartz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <id>gemini://siiky.srht.site/psychology/naturally-ungood.gmi</id>
     <published>2022-08-07T00:00:00Z</published>
     <title type="text">Naturally Ungood</title>
@@ -471,7 +474,7 @@ MimeType=x-scheme-handler/gemini;
 &lt;blockquote&gt;
 &lt;p&gt;In the meantime, if you have a few minutes, write about why you love your shell.  I really want to know.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-01.bash.gmi"&gt;Misadventures with bash shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemini.ctrl-c.club/~stack/gemlog/2022-08-01.bash.gmi"&gt;(Gemini Portal) Misadventures with bash shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;I don't love it, I even agree with some of the points raised, but after learning it one has to admit: most tasks are damn terse. And I can't imagine any Lisp-like syntax that could come even close -- BTW it's been tried at least once, that I know of:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://scsh.net"&gt;Scsh&lt;/a&gt;&lt;/li&gt;
@@ -759,7 +762,7 @@ nix-shell -p ksh --run 'webrev -p target-branch'
 &lt;p&gt;The difficulty would be convincing people that this is a good thing. During the transition, the average Joe probably won't be interested in the fact the new thing is better for the environment but rather that what they're using currently became more expensive. In my view, this is of course irrational -- negative effects on the environment negatively affect everyone in the long run. But it's not something easy to convince someone of, and I for sure commit the same mistake occasionally.&lt;/p&gt;
 &lt;p&gt;The &amp;quot;true cost&amp;quot; of something is what snan calls &amp;quot;externalities&amp;quot;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="gemini://idiomdrottning.org/externalities"&gt;Idiomdrottning, &amp;quot;Externalities&amp;quot;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/idiomdrottning.org/externalities"&gt;(Gemini Portal) Idiomdrottning, &amp;quot;Externalities&amp;quot;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;h2&gt;Sources &amp;amp; lack thereof&lt;/h2&gt;
 &lt;p&gt;Some of his statements are not backed by any sources, you're supposed (I guess?) to just believe in his authority on the matter and go with it. Examples:&lt;/p&gt;
 &lt;ul&gt;
@@ -911,7 +914,7 @@ produce greenhouse gases), this comes along:&lt;/p&gt;
 &lt;p&gt;2nd WTF: &amp;quot;Cultural Heritage&amp;quot;? My brain goes &amp;quot;computer says no&amp;quot; with this... The culture we're leaving behind -- possibly literally -- is to destroy what made it possible to exist in the first place?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Cultural_heritage"&gt;Cultural Heritage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Computer_says_no"&gt;https://en.wikipedia.org/wiki/Computer_says_no&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Computer_says_no"&gt;Computer says no&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;3rd WTF: UNESCO? Aren't these the guys behind the SDGs (&amp;quot;Sustainable Development Goals&amp;quot;, quotes super apropes)?&lt;/p&gt;
 &lt;p&gt;The same guys that put &amp;quot;Climate action&amp;quot;, &amp;quot;Life below water&amp;quot;, and &amp;quot;Life on land&amp;quot; as ALMOST the least important goals (13, 14, and 15, respectively, out of 17 -- pic below)? So much for sustainable...&lt;/p&gt;
 &lt;p&gt;The same guys that put water (6) as less important than poverty (1), food (2), health &amp;amp; well being (3), quality education (4), and gender equality (5)? Yes, everybody knows you all your thirsts with knowledge quench! And what not...&lt;/p&gt;
@@ -1396,7 +1399,7 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ipfs/kubo/releases/tag/v0.14.0"&gt;Kubo v0.14.0 release notes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/ipfs.scm/commit/0.0.4"&gt;ipfs.scm v0.0.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="gemini://the-brannons.com"&gt;teiresias&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/the-brannons.com"&gt;(Gemini Portal) teiresias&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;What prompted me to write this was Petri nets log #003, where I write about languages convertable to other target languages. The idea didn't come to me while writing that log but because of this egg. After writing it and getting something already usable I thought of using IPFS where CHICKEN didn't fit: some mpv hacks with its Lua interface. &amp;quot;Why not write an ipfs.lua?&amp;quot;, thought I. And so I did, the following couple of hours. I progressed along well, until I reached the point where only the endpoints were missing. Of course, I didn't want to write them by hand yet again, screw that! Instead, I wrote a different version of export-rpc-call and voila: a Lua file with all the endpoints defined, ready to be used!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../petri_nets/log003.gmi"&gt;Petri Nets Log #003&lt;/a&gt;&lt;/li&gt;

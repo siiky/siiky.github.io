@@ -4,14 +4,29 @@
   chicken.io
   chicken.pathname
   chicken.process-context
+  srfi-13
   srfi-197
   gmi)
 
 (define-constant source-extensions '("gmi" "md" "org"))
 (define-constant image-extensions '("svg" "png" "jpg" "jpeg" "webp"))
+(define-constant gemini:// "gemini://")
 
 (define ((? p? f g) x) ((if (p? x) f g) x))
 (define phi (cute ? <> <> identity))
+
+(define (gemini-link? l)
+  (and (gmi:link? l)
+       (string-prefix? gemini:// (gmi:link:uri l))))
+
+
+(define (gemini->portal l)
+  (gmi:link (chain (gmi:link:uri l)
+                   (substring/shared _ (string-length gemini://))
+                   (string-append "https://portal.mozz.us/gemini/" _))
+            ((phi (o not string-null?)
+                  (cute string-append "(Gemini Portal) " <>))
+             (gmi:link:text l))))
 
 
 (define ((convert? gemini-root) l)
@@ -98,11 +113,14 @@
        ""))
     ))
 
+(define (rewrite-links gemini-root)
+  (o (phi gemini-link? gemini->portal)
+     (phi (convert? gemini-root) extension/gmi->html)))
 
 (define (main args)
   (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))
     (chain (gmi:read)
-           (map (phi (convert? gemini-root) extension/gmi->html) _)
+           (map (rewrite-links gemini-root) _)
            (group-links _)
            (map grouped-gmi-element->md-element _)
            (concatenate _)
