@@ -1,11 +1,11 @@
 #!/usr/bin/env -S csi -s
 (import
-  chicken.file
-  chicken.io
-  chicken.pathname
-  chicken.process-context
-  srfi-13
-  srfi-197
+  (chicken file)
+  (chicken io)
+  (chicken pathname)
+  (chicken process-context)
+  (srfi 13)
+  (srfi 197)
   gmi)
 
 (define-constant source-extensions '("gmi" "md" "org"))
@@ -113,9 +113,11 @@
        ""))
     ))
 
+
 (define (rewrite-links gemini-root)
   (o (phi gemini-link? gemini->portal)
      (phi (convert? gemini-root) extension/gmi->html)))
+
 
 (define (main args)
   (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))

@@ -1,0 +1,62 @@
+
+<h1>gemini:// to Gemini Portal</h1>
+<p>@siiky
+2022/08/21
+2022/08/21</p>
+<p>I just modified my gmi->md script to rewrite gemini:// links to the Gemini Portal. With only 8 new (readable) lines the HTTPS/HTML version of the capsule became that much user friendlier. A handful of links are now broken in the process (gemini://localhost links from the gemini-ipfs-gateway) but no problem, they weren't valid anyway.</p>
+<p>Pretty happy with the results and with how easy it was. Good thing Gemtext is so simple.</p>
+<p>Here's the diff:</p>
+<pre><code>--- a/gmi2md.scm
++++ b/gmi2md.scm
+@@ -4,15 +4,30 @@
+   (chicken io)
+   (chicken pathname)
+   (chicken process-context)
++  (srfi 13)
+   (srfi 197)
+   gmi)
+
+ (define-constant source-extensions '(&quot;gmi&quot; &quot;md&quot; &quot;org&quot;))
+ (define-constant image-extensions '(&quot;svg&quot; &quot;png&quot; &quot;jpg&quot; &quot;jpeg&quot; &quot;webp&quot;))
++(define-constant gemini:// &quot;gemini://&quot;)
+
+ (define ((? p? f g) x) ((if (p? x) f g) x))
+ (define phi (cute ? &lt;&gt; &lt;&gt; identity))
+
++(define (gemini-link? l)
++  (and (gmi:link? l)
++       (string-prefix? gemini:// (gmi:link:uri l))))
++
++
++(define (gemini-&gt;portal l)
++  (gmi:link (chain (gmi:link:uri l)
++                   (substring/shared _ (string-length gemini://))
++                   (string-append &quot;https://portal.mozz.us/gemini/&quot; _))
++            ((phi (o not string-null?)
++                  (cute string-append &quot;(Gemini Portal) &quot; &lt;&gt;))
++             (gmi:link:text l))))
++
+
+ (define ((convert? gemini-root) l)
+   (and (gmi:link? l)
+@@ -98,11 +113,14 @@
+        &quot;&quot;))
+     ))
+
++(define (rewrite-links gemini-root)
++  (o (phi gemini-link? gemini-&gt;portal)
++     (phi (convert? gemini-root) extension/gmi-&gt;html)))
+
+ (define (main args)
+   (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))
+     (chain (gmi:read)
+-           (map (phi (convert? gemini-root) extension/gmi-&gt;html) _)
++           (map (rewrite-links gemini-root) _)
+            (group-links _)
+            (map grouped-gmi-element-&gt;md-element _)
+            (concatenate _)
+</code></pre>
+<ul>
+<li><a href="https://portal.mozz.us">Gemini Portal</a></li>
+<li><a href="../projects/gemini-ipfs-gateway.gmi">Gemini IPFS gateway</a></li>
+<li><a href="../projects/gemtext.gmi">Scheme Gemtext Reader</a></li></ul>

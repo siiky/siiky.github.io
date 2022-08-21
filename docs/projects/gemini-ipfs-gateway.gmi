@@ -1,4 +1,4 @@
-# gemini-ipfs-gateway
+# Gemini IPFS gateway
 @siiky
 2022/08/07
 2022/08/08

@@ -8,7 +8,77 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-19T00:00:00Z</updated>
+  <updated>2022-08-21T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;gemini:// to Gemini Portal&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/21
+2022/08/21&lt;/p&gt;
+&lt;p&gt;I just modified my gmi-&gt;md script to rewrite gemini:// links to the Gemini Portal. With only 8 new (readable) lines the HTTPS/HTML version of the capsule became that much user friendlier. A handful of links are now broken in the process (gemini://localhost links from the gemini-ipfs-gateway) but no problem, they weren't valid anyway.&lt;/p&gt;
+&lt;p&gt;Pretty happy with the results and with how easy it was. Good thing Gemtext is so simple.&lt;/p&gt;
+&lt;p&gt;Here's the diff:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;--- a/gmi2md.scm
++++ b/gmi2md.scm
+@@ -4,15 +4,30 @@
+   (chicken io)
+   (chicken pathname)
+   (chicken process-context)
++  (srfi 13)
+   (srfi 197)
+   gmi)
+
+ (define-constant source-extensions '(&amp;quot;gmi&amp;quot; &amp;quot;md&amp;quot; &amp;quot;org&amp;quot;))
+ (define-constant image-extensions '(&amp;quot;svg&amp;quot; &amp;quot;png&amp;quot; &amp;quot;jpg&amp;quot; &amp;quot;jpeg&amp;quot; &amp;quot;webp&amp;quot;))
++(define-constant gemini:// &amp;quot;gemini://&amp;quot;)
+
+ (define ((? p? f g) x) ((if (p? x) f g) x))
+ (define phi (cute ? &amp;lt;&amp;gt; &amp;lt;&amp;gt; identity))
+
++(define (gemini-link? l)
++  (and (gmi:link? l)
++       (string-prefix? gemini:// (gmi:link:uri l))))
++
++
++(define (gemini-&amp;gt;portal l)
++  (gmi:link (chain (gmi:link:uri l)
++                   (substring/shared _ (string-length gemini://))
++                   (string-append &amp;quot;https://portal.mozz.us/gemini/&amp;quot; _))
++            ((phi (o not string-null?)
++                  (cute string-append &amp;quot;(Gemini Portal) &amp;quot; &amp;lt;&amp;gt;))
++             (gmi:link:text l))))
++
+
+ (define ((convert? gemini-root) l)
+   (and (gmi:link? l)
+@@ -98,11 +113,14 @@
+        &amp;quot;&amp;quot;))
+     ))
+
++(define (rewrite-links gemini-root)
++  (o (phi gemini-link? gemini-&amp;gt;portal)
++     (phi (convert? gemini-root) extension/gmi-&amp;gt;html)))
+
+ (define (main args)
+   (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))
+     (chain (gmi:read)
+-           (map (phi (convert? gemini-root) extension/gmi-&amp;gt;html) _)
++           (map (rewrite-links gemini-root) _)
+            (group-links _)
+            (map grouped-gmi-element-&amp;gt;md-element _)
+            (concatenate _)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us"&gt;Gemini Portal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../projects/gemini-ipfs-gateway.gmi"&gt;Gemini IPFS gateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../projects/gemtext.gmi"&gt;Scheme Gemtext Reader&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/meta/portal.gmi</id>
+    <published>2022-08-21T00:00:00Z</published>
+    <title type="text">gemini:// to Gemini Portal</title>
+    <updated>2022-08-21T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/meta/portal.html" rel="alternate" type="text/html" title="gemini:// to Gemini Portal" />
+    <link href="gemini://siiky.srht.site/meta/portal.gmi" rel="alternate" type="text/gemtext" title="gemini:// to Gemini Portal" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;Petri Nets Log #006&lt;/h1&gt;
@@ -276,7 +346,7 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
   </entry>
   <entry>
     <content type="html">
-&lt;h1&gt;gemini-ipfs-gateway&lt;/h1&gt;
+&lt;h1&gt;Gemini IPFS gateway&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/07
 2022/08/08&lt;/p&gt;
@@ -295,24 +365,21 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
 &lt;p&gt;Pick a CID (this capsule's for example), and go here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../ipfs.txt"&gt;Capsule CID&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
-&lt;cid&gt;&lt;/cid&gt;.ipfs.localhost/)&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;cid"&gt;https://portal.mozz.us/gemini/&amp;lt;cid&lt;/a&gt;.ipfs.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;There's also an example page:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/"&gt;https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;../hello.gmi&amp;gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;As long as links are relative (link/to/some/../file.txt) or absolute but without scheme://hostname/ (/link/to/file.txt), everything just works inside the IPFS network.&lt;/p&gt;
 &lt;p&gt;Note that the server doesn't list directories -- a little bit of intentionally and a little bit out of laziness. When you try to access a directory you're redirected to /index.gmi (this is a Gemini server after all). If there's no index.gmi then it borks. But it doesn't work only with Gemini capsules either, ofc! It should serve any files the HTTP gateway would too.&lt;/p&gt;
 &lt;p&gt;To access IPNS, pick a CID or name, and go here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
-&lt;cid&gt;&lt;/cid&gt;.ipns.localhost/)&lt;/li&gt;
-&lt;li&gt;[(Gemini Portal) ](https://portal.mozz.us/gemini/
-&lt;name&gt;&lt;/name&gt;.ipns.localhost/)&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;cid"&gt;https://portal.mozz.us/gemini/&amp;lt;cid&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;name"&gt;https://portal.mozz.us/gemini/&amp;lt;name&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;For example the IPFS site (apparently they changed domains from .io to .tech?):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.tech.ipns.localhost/index.html"&gt;(Gemini Portal) &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html"&gt;https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.tech.ipns.localhost/index.html"&gt;https://portal.mozz.us/gemini/ipfs.tech.ipns.localhost/index.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;Your Gemini client won't render the HTML page probably, but you'll get the content!&lt;/p&gt;
 &lt;p&gt;For some reason Lagrange doesn't like one of these two, doesn't even send a request to the gateway, instead saying &amp;quot;failed to look up hostname&amp;quot;. The other works fine, I have no idea why, but it really didn't look like a problem with the gateway.&lt;/p&gt;
 &lt;h2&gt;Setup&lt;/h2&gt;
@@ -347,10 +414,10 @@ chicken-install
 &lt;p&gt;The post so far described how the gateway works with the ipfs-request-handler, which dynamically accepts an IPFS/IPNS CID/Name and serves content the user asks for. There's also constant-scheme/root-cid which, when given the scheme (ipfs/ipns) and CID/Name, works like any other Gemini server, serving content from that CID/Name tree only! This latter would be a pretty cool way to publish content. Similar to SourceHut pages but instead of sending a tarball with the content you send the CID/Name of the content.&lt;/p&gt;</content>
     <id>gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi</id>
     <published>2022-08-08T00:00:00Z</published>
-    <title type="text">gemini-ipfs-gateway</title>
+    <title type="text">Gemini IPFS gateway</title>
     <updated>2022-08-07T00:00:00Z</updated>
-    <link href="https://siiky.srht.site/projects/gemini-ipfs-gateway.html" rel="alternate" type="text/html" title="gemini-ipfs-gateway" />
-    <link href="gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi" rel="alternate" type="text/gemtext" title="gemini-ipfs-gateway" />
+    <link href="https://siiky.srht.site/projects/gemini-ipfs-gateway.html" rel="alternate" type="text/html" title="Gemini IPFS gateway" />
+    <link href="gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi" rel="alternate" type="text/gemtext" title="Gemini IPFS gateway" />
   </entry>
   <entry>
     <content type="html">
