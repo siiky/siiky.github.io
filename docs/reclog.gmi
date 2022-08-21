@@ -1,13 +1,16 @@
 # Reclog
 @siiky
 2022/08/15
-2022/08/19
+2022/08/21
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
 
 ## Posts
+
+=> gemini://altesq.net/~evenfire/posts/using-chroots.gmi 2022-08-21 Using chroots
+=> gemini://degrowther.smol.pub/20220820_social_media 2022-08-21 Social media
 
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/ssh-apps-and-accessible-gemini-publishing.gmi 2022-08-18 SSH apps and accessible Gemini publishing
 => gemini://josias.dev/gemlog/ssh-notes.gmi 2022-08-18 SSH Notes
