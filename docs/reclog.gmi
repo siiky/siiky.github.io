@@ -11,6 +11,9 @@ I update this page manually.
 
 => gemini://altesq.net/~evenfire/posts/using-chroots.gmi 2022-08-21 Using chroots
 => gemini://degrowther.smol.pub/20220820_social_media 2022-08-21 Social media
+=> gemini://warmedal.se/~bjorn/posts/2022-08-18-brain-fart.gmi 2022-08-21 Brain Fart
+=> gemini://warmedal.se/~bjorn/posts/2021-12-17-do-you-ever-feel-stuck-in-a-loop.gmi 2022-08-21 Do You Ever Feel Stuck in a Loop?
+=> gemini://warmedal.se/~bjorn/posts/2022-04-28-no-you-don-t-have-time-for-another-project.gmi 2022-08-21 No, You Don't Have Time For Another Project
 
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/ssh-apps-and-accessible-gemini-publishing.gmi 2022-08-18 SSH apps and accessible Gemini publishing
 => gemini://josias.dev/gemlog/ssh-notes.gmi 2022-08-18 SSH Notes

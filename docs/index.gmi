@@ -11,6 +11,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/re-brain_fart.gmi 2022-08-21 RE: Brain Fart
 => meta/portal.gmi 2022-08-21 gemini:// to Gemini Portal
 => petri_nets/log006.gmi 2022-08-19 Petri Nets Log #006
 => meta/reclog.gmi 2022-08-17 Reclog

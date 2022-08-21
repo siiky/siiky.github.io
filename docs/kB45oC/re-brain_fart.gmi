@@ -1,0 +1,50 @@
+# RE: Brain Fart
+@siiky
+2022-08-21
+2022-08-21
+
+I just read these posts by ew0k and really they hit the spot... Added to the reclog of today.
+
+=> gemini://warmedal.se/~bjorn/posts/2022-08-18-brain-fart.gmi Brain Fart
+=> gemini://warmedal.se/~bjorn/posts/2021-12-17-do-you-ever-feel-stuck-in-a-loop.gmi Do You Ever Feel Stuck in a Loop?
+=> gemini://warmedal.se/~bjorn/posts/2022-04-28-no-you-don-t-have-time-for-another-project.gmi No, You Don't Have Time For Another Project
+=> reclog.gmi Reclog
+
+> It's just that I have all these ideas that I'd like to deliver on.
+>
+> But at the same time I have neither the time nor the energy to take any of them on, frankly.
+>
+> You'd think I'd learned by now, but no.
+
+> Stuck in a loop, having a hard time breaking out.
+
+> There's never time. Maybe you feel like you'll have time, so you start something today. It'll just be a few hours this week and then it's done.
+
+I could quote almost the whole thing verbatim in here and just say "this ^".
+
+I can relate 100% with them. I'm like a squirrel chasing new nuts every 5 seconds, almost as if the nuts I catch rot by the touch. It's completely irrational to take on so many things simultaneously, and yet, here we are. I have more than 4 ongoing books for some reason. I haven't read a single word of any of them for the past... 2 weeks? Maybe more? Shiet...
+
+=> books/list.gmi Books list
+
+I'm honestly surprised I've been able to keep at it on the Petri nets. Fingers crossed it continues that way because I think they'll be key to getting some new doors open.
+
+=> petri_nets/logs.gmi Petri nets logs
+
+And the cherry on top: all the while I feel bad for putting other things to the side (in no particular order):
+
+* OSM editing
+* ARM64 Salmonella machine for CHICKEN
+* alist-let
+* save-for-later (a project I really would like to get done but feels daunting)
+* Books I still haven't finished
+* Books I still haven't started
+* Learning some basic survival skills
+* Topics I still haven't read about
+* (Natural) languages: haven't practiced my Japanese in a long while and I've stopped the Language Transfer Greek course at least 3 times now
+* (Programming) languages: Erlang, Elixir, Rust, Go, Common Lisp, Idris, FORTH, ...
+
+The list could go on and on for a really long time. I have literally hundreds of tabs open on Firefox of things that I at some point wanted to read but didn't have the time at the time. To put it in scale: I use one of those sidetabs plugins; the scrollbar is about the size of a tab; one screenful of tabs is 29 tabs; so I have roughly 29²=841 open tabs.
+
+=> zettelkasten_utility.gmi As I've said before, I may be a hoarder...
+
+(BTW ew0k, in case you read this, some of the links in those pages seem to be broken)
