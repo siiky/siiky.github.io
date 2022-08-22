@@ -1,0 +1,25 @@
+
+<h1>[RFC] alist-let</h1>
+<p>@siiky
+2022/08/22
+2022/08/22</p>
+<p>If you're a Lisper, even if you're not a Schemer, please don't skip this post! :)</p>
+<p>Almost two years ago I wrote a macro to make it easier to work with values of an alist (&quot;association list&quot; i.e. list of key/value pairs; Scheme's &quot;default&quot; dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.</p>
+<ul>
+<li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/fe13fe48e7cf9f0045c1aaa4a3e6f0b54cd2f4d7#tests/run.scm">First version of let-aref</a></li>
+<li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/688f9d996b00d834a8e7dfd94947b46862fa962b#tests/run.scm">First version of alist-let</a></li></ul>
+<p>At the time I didn't think much about it, just another tiny macro to make my life easier. But much later (only a few months ago) I needed something like it again. I went searching instead of copying it over and found nothing. Why the heck doesn't something like this exist? The only pattern matcher I know of doesn't seem to support it either.</p>
+<ul>
+<li><a href="https://wiki.call-cc.org/eggref/5/matchable">matchable</a></li></ul>
+<p>A bit over a month ago I started thinking of making it more general, because there were lots of assumptions in the original alist-let (most relevant: keys were &quot;simple&quot; symbols, that is, the unquoted key was a valid variable identifier); and also of introducing it to the broader Scheme community.</p>
+<ul>
+<li><a href="https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm">Latest (original) alist-let (and variants)</a></li></ul>
+<p>I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:</p>
+<ul>
+<li><a href="https://srfi-email.schemers.org/srfi-discuss/msg/19986652/">alist-let: let-like alist destructuring syntax</a></li></ul>
+<p>The goal (even though the &quot;project&quot; is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:</p>
+<ul>
+<li><a href="https://git.sr.ht/~siiky/alist-let">alist-let</a></li></ul>
+<p>If you're a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you're a Lisper, even if you're not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!</p>
+<ul>
+<li><a href="../contact.gmi">Contact</a></li></ul>

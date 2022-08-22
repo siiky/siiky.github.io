@@ -8,7 +8,40 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-21T00:00:00Z</updated>
+  <updated>2022-08-22T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;[RFC] alist-let&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/22
+2022/08/22&lt;/p&gt;
+&lt;p&gt;If you're a Lisper, even if you're not a Schemer, please don't skip this post! :)&lt;/p&gt;
+&lt;p&gt;Almost two years ago I wrote a macro to make it easier to work with values of an alist (&amp;quot;association list&amp;quot; i.e. list of key/value pairs; Scheme's &amp;quot;default&amp;quot; dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/transmission.scm/commit/fe13fe48e7cf9f0045c1aaa4a3e6f0b54cd2f4d7#tests/run.scm"&gt;First version of let-aref&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/transmission.scm/commit/688f9d996b00d834a8e7dfd94947b46862fa962b#tests/run.scm"&gt;First version of alist-let&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;At the time I didn't think much about it, just another tiny macro to make my life easier. But much later (only a few months ago) I needed something like it again. I went searching instead of copying it over and found nothing. Why the heck doesn't something like this exist? The only pattern matcher I know of doesn't seem to support it either.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.call-cc.org/eggref/5/matchable"&gt;matchable&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;A bit over a month ago I started thinking of making it more general, because there were lots of assumptions in the original alist-let (most relevant: keys were &amp;quot;simple&amp;quot; symbols, that is, the unquoted key was a valid variable identifier); and also of introducing it to the broader Scheme community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm"&gt;Latest (original) alist-let (and variants)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://srfi-email.schemers.org/srfi-discuss/msg/19986652/"&gt;alist-let: let-like alist destructuring syntax&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;The goal (even though the &amp;quot;project&amp;quot; is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/alist-let"&gt;alist-let&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;If you're a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you're a Lisper, even if you're not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../contact.gmi"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/scheme/alist-let.gmi</id>
+    <published>2022-08-22T00:00:00Z</published>
+    <title type="text">[RFC] alist-let</title>
+    <updated>2022-08-22T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/scheme/alist-let.html" rel="alternate" type="text/html" title="[RFC] alist-let" />
+    <link href="gemini://siiky.srht.site/scheme/alist-let.gmi" rel="alternate" type="text/gemtext" title="[RFC] alist-let" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;RE: Brain Fart&lt;/h1&gt;
