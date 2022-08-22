@@ -9,6 +9,9 @@ I update this page manually.
 
 ## Posts
 
+=> gemini://gemini.circumlunar.space/users/adiabatic/sywtlf/obesogens-out/ 2022-08-22 Getting rid of obesogens and endocrine-disruptors by (usefully) bleeding
+=> gemini://szczezuja.flounder.online/gemlog/2022-08-21-Why-is-the-cosmos-the-theme-of-Gemini.gmi 2022-08-22 Why is the cosmos the theme of Gemini?
+
 => gemini://altesq.net/~evenfire/posts/using-chroots.gmi 2022-08-21 Using chroots
 => gemini://degrowther.smol.pub/20220820_social_media 2022-08-21 Social media
 => gemini://warmedal.se/~bjorn/posts/2022-08-18-brain-fart.gmi 2022-08-21 Brain Fart
