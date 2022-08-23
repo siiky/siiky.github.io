@@ -9,6 +9,7 @@ I update this page manually.
 
 ## Posts
 
+=> gemini://gemini.bunburya.eu/gemlog/posts/2022-08-22-open-content.gmi 2022-08-23 Open content that you can contribute to
 => gemini://perplexing.space/2022/trendy-programming-languages.gmi 2022-08-23 Trendy Programming Languages
 => gemini://rawtext.club/~mieum/prose/2022-08-23-life_riparian.gmi 2022-08-23 The Life Riparian
 
