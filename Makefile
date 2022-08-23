@@ -13,16 +13,16 @@ MAKE_META := ./make-meta.sh
 MD2HTML := ./md2html.scm
 
 SCRIPTS := \
- GEMINID \
- GMI2MD \
- GRAPH2GVS \
- IPFS_PUBLISH \
- MAKE_ATOM \
- MAKE_GEMFEED \
- MAKE_GRAPH \
- MAKE_IPFS_PAGE \
- MAKE_META \
- MD2HTML \
+ $(GEMINID) \
+ $(GMI2MD) \
+ $(GRAPH2GVS) \
+ $(IPFS_PUBLISH) \
+ $(MAKE_ATOM) \
+ $(MAKE_GEMFEED) \
+ $(MAKE_GRAPH) \
+ $(MAKE_IPFS_PAGE) \
+ $(MAKE_META) \
+ $(MD2HTML) \
 
 GVS2GV := gvs2gv
 GNUPLOT := gnuplot
@@ -117,7 +117,7 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
-	ls -1 $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
+	ls -1 index.gmi $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
 
 # Text files rules
 

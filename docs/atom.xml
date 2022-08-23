@@ -11,11 +11,13 @@
   <updated>2022-08-22T00:00:00Z</updated>
   <entry>
     <content type="html">
-&lt;h1&gt;[RFC] alist-let&lt;/h1&gt;
+&lt;h1&gt;RFC: alist-let&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/22
-2022/08/22&lt;/p&gt;
+2022/08/23&lt;/p&gt;
+&lt;p&gt;(Reply (and an example) at the end)&lt;/p&gt;
 &lt;p&gt;If you're a Lisper, even if you're not a Schemer, please don't skip this post! :)&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
 &lt;p&gt;Almost two years ago I wrote a macro to make it easier to work with values of an alist (&amp;quot;association list&amp;quot; i.e. list of key/value pairs; Scheme's &amp;quot;default&amp;quot; dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/transmission.scm/commit/fe13fe48e7cf9f0045c1aaa4a3e6f0b54cd2f4d7#tests/run.scm"&gt;First version of let-aref&lt;/a&gt;&lt;/li&gt;
@@ -26,21 +28,80 @@
 &lt;p&gt;A bit over a month ago I started thinking of making it more general, because there were lots of assumptions in the original alist-let (most relevant: keys were &amp;quot;simple&amp;quot; symbols, that is, the unquoted key was a valid variable identifier); and also of introducing it to the broader Scheme community.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm"&gt;Latest (original) alist-let (and variants)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Now&lt;/h2&gt;
 &lt;p&gt;I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://srfi-email.schemers.org/srfi-discuss/msg/19986652/"&gt;alist-let: let-like alist destructuring syntax&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;The goal (even though the &amp;quot;project&amp;quot; is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/alist-let"&gt;alist-let&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/alist-let"&gt;https://git.sr.ht/~siiky/alist-let&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;If you're a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you're a Lisper, even if you're not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="../contact.gmi"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../contact.gmi"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Reply&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemini.ctrl-c.club/~stack/gemlog/2022-08-22.alists.gmi"&gt;(Gemini Portal) @stack replied with lots of confusion.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Reading back what I wrote I can understand why...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not very useful, as it is a tautology for the let macro in the first place!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Indeed but that's not it. :p&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;First question: what is the purpose of alist-let?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It seems you're thinking it's supposed to destructure alists at macro-expansion time? But that's not it, it's for destructuring alists at runtime.&lt;/p&gt;
+&lt;p&gt;In case you know JavaScript, alist-let is more like the following destructuring syntax:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const obj = { a: 1, b: 2, c: 3 }
+const { a, c } = obj
+// Do something with a and c
+console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you don't know JavaScript, and because I don't like JavaScript and &amp;quot;an example is worth a thousand words&amp;quot; or something: if you're writing a CLI program you're likely to need to parse the command line arguments into (positional) arguments, flags and options. Let's say the program has the flags &amp;quot;--recursive&amp;quot;, &amp;quot;--raw-leaves&amp;quot; and &amp;quot;--trickle&amp;quot;, and the options &amp;quot;--cid-version&amp;quot; and &amp;quot;--hash&amp;quot;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;;(defun main (opts) ...)
+(define (main opts)
+  (alist-let string=? opts
+             ; VAR         KEY           DEFAULT (optional)
+             ((recursive   &amp;quot;recursive&amp;quot;   #f)
+              (cid-version &amp;quot;cid-version&amp;quot; 1)
+              (raw-leaves  &amp;quot;raw-leaves&amp;quot;  ) ; #f is implicitly used as the default
+              (trickle     &amp;quot;trickle&amp;quot;     )
+              (hash        &amp;quot;hash&amp;quot;        &amp;quot;sha2-256&amp;quot;))
+    (print
+      &amp;quot;recursive=&amp;quot; recursive #\n     ; recursive=#t
+      &amp;quot;cid-version=&amp;quot; cid-version #\n ; cid-version=42
+      &amp;quot;raw-leaves=&amp;quot; raw-leaves #\n   ; raw-leaves=#t
+      &amp;quot;trickle=&amp;quot; trickle #\n         ; trickle=#f
+      &amp;quot;hash=&amp;quot; hash #\n               ; hash=&amp;quot;sha2-256&amp;quot;
+      )))
+
+; parse-arguments turns something like this: '(&amp;quot;--recursive&amp;quot; &amp;quot;--raw-leaves&amp;quot; &amp;quot;--cid-version&amp;quot; &amp;quot;42&amp;quot;)
+; Into this: '((&amp;quot;recursive&amp;quot; . #t) (&amp;quot;raw-leaves&amp;quot; . #t) (&amp;quot;cid-version&amp;quot; . 42))
+(main (parse-arguments (command-line-arguments)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The only (current) alternative I know of is to manually alist-ref each key (mentioned at the top of the email):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;;      VAR                     KEY                         DEFAULT (optional)
+(let ((recursive   (alist-ref &amp;quot;recursive&amp;quot;   opts string=?  #t))
+      (cid-version (alist-ref &amp;quot;cid-version&amp;quot; opts string=?  1))
+      (raw-leaves  (alist-ref &amp;quot;raw-leaves&amp;quot;  opts string=?  #f))
+      (trickle     (alist-ref &amp;quot;trickle&amp;quot;     opts string=?  ))
+      (hash        (alist-ref &amp;quot;hash&amp;quot;        opts string=?  &amp;quot;sha2-256&amp;quot;)))
+  ; Do something with recursive, cid-version, raw-leaves, trickle, hash
+  (print
+    &amp;quot;recursive=&amp;quot; recursive #\n
+    &amp;quot;cid-version=&amp;quot; cid-version #\n
+    &amp;quot;raw-leaves=&amp;quot; raw-leaves #\n
+    &amp;quot;trickle=&amp;quot; trickle #\n
+    &amp;quot;hash=&amp;quot; hash #\n))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(alist-ref key alist) is more or less (cdr (assoc key alist))&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/base/alist-ref"&gt;alist-ref&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Hope this helps.&lt;/p&gt;
+&lt;p&gt;BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?&lt;/p&gt;</content>
     <id>gemini://siiky.srht.site/scheme/alist-let.gmi</id>
-    <published>2022-08-22T00:00:00Z</published>
-    <title type="text">[RFC] alist-let</title>
+    <published>2022-08-23T00:00:00Z</published>
+    <title type="text">RFC: alist-let</title>
     <updated>2022-08-22T00:00:00Z</updated>
-    <link href="https://siiky.srht.site/scheme/alist-let.html" rel="alternate" type="text/html" title="[RFC] alist-let" />
-    <link href="gemini://siiky.srht.site/scheme/alist-let.gmi" rel="alternate" type="text/gemtext" title="[RFC] alist-let" />
+    <link href="https://siiky.srht.site/scheme/alist-let.html" rel="alternate" type="text/html" title="RFC: alist-let" />
+    <link href="gemini://siiky.srht.site/scheme/alist-let.gmi" rel="alternate" type="text/gemtext" title="RFC: alist-let" />
   </entry>
   <entry>
     <content type="html">

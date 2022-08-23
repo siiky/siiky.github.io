@@ -1,9 +1,13 @@
-# [RFC] alist-let
+# RFC: alist-let
 @siiky
 2022/08/22
-2022/08/22
+2022/08/23
+
+(Reply (and an example) at the end)
 
 If you're a Lisper, even if you're not a Schemer, please don't skip this post! :)
+
+## History
 
 Almost two years ago I wrote a macro to make it easier to work with values of an alist ("association list" i.e. list of key/value pairs; Scheme's "default" dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.
 
@@ -18,14 +22,91 @@ A bit over a month ago I started thinking of making it more general, because the
 
 => https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm Latest (original) alist-let (and variants)
 
+## Now
+
 I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:
 
 => https://srfi-email.schemers.org/srfi-discuss/msg/19986652/ alist-let: let-like alist destructuring syntax
 
 The goal (even though the "project" is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:
 
-=> https://git.sr.ht/~siiky/alist-let alist-let
+=> https://git.sr.ht/~siiky/alist-let
 
 If you're a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you're a Lisper, even if you're not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!
 
 => ../contact.gmi Contact
+
+
+## Reply
+
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-22.alists.gmi @stack replied with lots of confusion.
+
+Reading back what I wrote I can understand why...
+
+> Not very useful, as it is a tautology for the let macro in the first place!
+
+Indeed but that's not it. :p
+
+> First question: what is the purpose of alist-let?
+
+It seems you're thinking it's supposed to destructure alists at macro-expansion time? But that's not it, it's for destructuring alists at runtime.
+
+In case you know JavaScript, alist-let is more like the following destructuring syntax:
+
+```js
+const obj = { a: 1, b: 2, c: 3 }
+const { a, c } = obj
+// Do something with a and c
+console.log("a=", a, " b=", b)
+```
+
+If you don't know JavaScript, and because I don't like JavaScript and "an example is worth a thousand words" or something: if you're writing a CLI program you're likely to need to parse the command line arguments into (positional) arguments, flags and options. Let's say the program has the flags "--recursive", "--raw-leaves" and "--trickle", and the options "--cid-version" and "--hash".
+
+```scm
+;(defun main (opts) ...)
+(define (main opts)
+  (alist-let string=? opts
+             ; VAR         KEY           DEFAULT (optional)
+             ((recursive   "recursive"   #f)
+              (cid-version "cid-version" 1)
+              (raw-leaves  "raw-leaves"  ) ; #f is implicitly used as the default
+              (trickle     "trickle"     )
+              (hash        "hash"        "sha2-256"))
+    (print
+      "recursive=" recursive #\n     ; recursive=#t
+      "cid-version=" cid-version #\n ; cid-version=42
+      "raw-leaves=" raw-leaves #\n   ; raw-leaves=#t
+      "trickle=" trickle #\n         ; trickle=#f
+      "hash=" hash #\n               ; hash="sha2-256"
+      )))
+
+; parse-arguments turns something like this: '("--recursive" "--raw-leaves" "--cid-version" "42")
+; Into this: '(("recursive" . #t) ("raw-leaves" . #t) ("cid-version" . 42))
+(main (parse-arguments (command-line-arguments)))
+```
+
+The only (current) alternative I know of is to manually alist-ref each key (mentioned at the top of the email):
+
+```scm
+;      VAR                     KEY                         DEFAULT (optional)
+(let ((recursive   (alist-ref "recursive"   opts string=?  #t))
+      (cid-version (alist-ref "cid-version" opts string=?  1))
+      (raw-leaves  (alist-ref "raw-leaves"  opts string=?  #f))
+      (trickle     (alist-ref "trickle"     opts string=?  ))
+      (hash        (alist-ref "hash"        opts string=?  "sha2-256")))
+  ; Do something with recursive, cid-version, raw-leaves, trickle, hash
+  (print
+    "recursive=" recursive #\n
+    "cid-version=" cid-version #\n
+    "raw-leaves=" raw-leaves #\n
+    "trickle=" trickle #\n
+    "hash=" hash #\n))
+```
+
+(alist-ref key alist) is more or less (cdr (assoc key alist))
+
+=> https://api.call-cc.org/5/doc/chicken/base/alist-ref alist-ref
+
+Hope this helps.
+
+BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?

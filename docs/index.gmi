@@ -11,7 +11,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
-=> scheme/alist-let.gmi 2022-08-22 [RFC] alist-let
+=> scheme/alist-let.gmi 2022-08-23 RFC: alist-let
 => kB45oC/re-brain_fart.gmi 2022-08-21 RE: Brain Fart
 => meta/portal.gmi 2022-08-21 gemini:// to Gemini Portal
 => petri_nets/log006.gmi 2022-08-19 Petri Nets Log #006
