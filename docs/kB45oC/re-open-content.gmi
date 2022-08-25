@@ -1,0 +1,25 @@
+# RE: Open content that you can contribute to
+@siiky
+2022/08/25
+2022/08/25
+
+=> gemini://gemini.bunburya.eu/gemlog/posts/2022-08-22-open-content.gmi @bunburya shared several open crowdsourcing projects.
+
+I didn't know some of them, while others I knew only the name. Here I'd like to add that OpenFoodFacts has a couple of sister projects:
+
+=> https://world.openpetfoodfacts.org Open Pet Food Facts
+=> https://world.openbeautyfacts.org Open Beauty Facts
+
+And would also like to mention iNaturalist, where people can contribute observations of animals, plants, fungi, &c. Photos  are shared under user-chosen terms, but they recommend using some CC licenses compatible with Wikimedia Commons.
+
+=> https://www.inaturalist.org iNaturalist
+=> https://www.inaturalist.org/pages/developers Datasets (end of the page)
+=> https://commons.wikimedia.org Wikimedia Commons
+
+I can't find now the "official documentation" regarding the recommended license but I found these related pages instead:
+
+=> https://www.inaturalist.org/blog/48165-we-want-you-to-license-your-inaturalist-photos-before-april-15th
+=> https://www.inaturalist.org/blog/49564-inaturalist-licensed-observation-images-in-the-amazon-open-data-sponsorship-program
+=> https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg
+
+=> ../reclog.gmi Added to the reclog.

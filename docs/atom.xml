@@ -8,7 +8,41 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-22T00:00:00Z</updated>
+  <updated>2022-08-25T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;RE: Open content that you can contribute to&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/25
+2022/08/25&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemini.bunburya.eu/gemlog/posts/2022-08-22-open-content.gmi"&gt;(Gemini Portal) @bunburya shared several open crowdsourcing projects.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;I didn't know some of them, while others I knew only the name. Here I'd like to add that OpenFoodFacts has a couple of sister projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://world.openpetfoodfacts.org"&gt;Open Pet Food Facts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://world.openbeautyfacts.org"&gt;Open Beauty Facts&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;And would also like to mention iNaturalist, where people can contribute observations of animals, plants, fungi, &amp;amp;c. Photos  are shared under user-chosen terms, but they recommend using some CC licenses compatible with Wikimedia Commons.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.inaturalist.org"&gt;iNaturalist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.inaturalist.org/pages/developers"&gt;Datasets (end of the page)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://commons.wikimedia.org"&gt;Wikimedia Commons&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;I can't find now the &amp;quot;official documentation&amp;quot; regarding the recommended license but I found these related pages instead:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.inaturalist.org/blog/48165-we-want-you-to-license-your-inaturalist-photos-before-april-15th"&gt;https://www.inaturalist.org/blog/48165-we-want-you-to-license-your-inaturalist-photos-before-april-15th&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.inaturalist.org/blog/49564-inaturalist-licensed-observation-images-in-the-amazon-open-data-sponsorship-program"&gt;https://www.inaturalist.org/blog/49564-inaturalist-licensed-observation-images-in-the-amazon-open-data-sponsorship-program&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg"&gt;https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="../reclog.gmi"&gt;Added to the reclog.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/kB45oC/re-open-content.gmi</id>
+    <published>2022-08-25T00:00:00Z</published>
+    <title type="text">RE: Open content that you can contribute to</title>
+    <updated>2022-08-25T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/re-open-content.html" rel="alternate" type="text/html" title="RE: Open content that you can contribute to" />
+    <link href="gemini://siiky.srht.site/kB45oC/re-open-content.gmi" rel="alternate" type="text/gemtext" title="RE: Open content that you can contribute to" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;RFC: alist-let&lt;/h1&gt;
