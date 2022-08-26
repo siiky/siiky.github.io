@@ -1,13 +1,24 @@
 # Reclog
 @siiky
 2022/08/15
-2022/08/24
+2022/08/26
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
 
 ## Posts
+
+=> gemini://alexschroeder.ch/page/2022-08-23%20Summer%20holidays 2022-08-26 Summer holidays
+=> gemini://compudanzas.net/biosejo_120220825.gmi 2022-08-26 Movement: A personal reframing
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-25.android.gmi 2022-08-26 The Horribleness that is Android...
+=> gemini://idiomdrottning.org/solution 2022-08-26 My best guess at a climate solution
+=> gemini://josias.dev/gemlog/boundaries.gmi 2022-08-26 Thoughts on Boundaries in Communication
+=> gemini://jsreed5.org/log/2022/202208/20220825-on-the-frustrations-of-android.gmi 2022-08-26 On the Frustrations of Android
+=> gemini://tilde.pink/~telepta/gems/firemaking-level.gmi 2022-08-26 Why You Should Hone Your Firecraft
+=> gemini://ur.gs/blog/off-grid-in-suburbia 2022-08-26 Off-grid in suburbia
+
+=> gemini://rochelimit.uk/articles/20220824_on_keeping_gimmicks_out_of_the_classroom.gmi 2022-08-25 On Keeping Gimmicks Out of the Classroom
 
 => gemini://gemini.bunburya.eu/gemlog/posts/2022-08-22-open-content.gmi 2022-08-23 Open content that you can contribute to
 => gemini://josias.dev/gemlog/industry.gmi 2022-08-23 Thoughts on Industry
