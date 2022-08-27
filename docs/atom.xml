@@ -8,7 +8,37 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-08-25T00:00:00Z</updated>
+  <updated>2022-08-27T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;自己紹介&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/08/27
+2022/08/28&lt;/p&gt;
+&lt;p&gt;いや、うそ｡｡｡&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="about.html"&gt;もう知ってるはずだ。&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="../kB45oC/re-brain_fart.gmi"&gt;日本語を何も読んでも喋ってもないと最近書いた。&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;今日起きたら「日本語で何かを書く！」と決めたんだ。それでは。&lt;/p&gt;
+&lt;p&gt;2016から2019まで、三年間ぐらい日本語を授業で勉強してた。大体「みんなの日本語」だけ使ってた。その間自分でTae KimのA Guide to Japanese Grammarも時々読んでた。&lt;/p&gt;
+&lt;p&gt;JPLTはまだしてない（先生はN3が出来るって言うが、俺はそんなに自信がないな）。が、オフィシャル的にCEFのB1レベルになってきた！本当にB1レベルだか知らないけど、別に上手じゃないのに、下手もないと思う。&lt;/p&gt;
+&lt;p&gt;知ってるのは語彙力（ただ今辞書に調べてきた）全然足りない！マンガを読むといい気分になる。小説を読むと悲しみ。今までもうマンガの何冊も読んだのに、小説まだ一冊しか読んでない。いつも語彙力が足りないんだから｡｡｡何回かAnkiも手で書くのもやってみたも｡｡｡ちなみに、読めた小説は奥田英朗の「サウスバウンド」。&lt;/p&gt;
+&lt;p&gt;今更このまま。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://guidetojapanese.org/learn"&gt;&amp;quot;A Guide to Japanese Grammar&amp;quot;, Tae Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Common%20European%20Framework%20of%20Reference%20for%20Languages"&gt;(Gemini Portal) CEF (Gemipedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages"&gt;CEF (Wikipedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view/ja?サウスバウンド"&gt;(Gemini Portal) サウスバウンド (Gemipedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89"&gt;サウスバウンド (Wikipedia)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/nihongo/jikoshoukai.gmi</id>
+    <published>2022-08-28T00:00:00Z</published>
+    <title type="text">自己紹介</title>
+    <updated>2022-08-27T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/nihongo/jikoshoukai.html" rel="alternate" type="text/html" title="自己紹介" />
+    <link href="gemini://siiky.srht.site/nihongo/jikoshoukai.gmi" rel="alternate" type="text/gemtext" title="自己紹介" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;RE: Open content that you can contribute to&lt;/h1&gt;
