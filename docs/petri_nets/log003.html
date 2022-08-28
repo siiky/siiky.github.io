@@ -37,7 +37,7 @@
 <p><img src="somenet.png" alt="Some net" /></p>
 <p>With two different macro implementations of define-transition and define-petri-net it's easy to have the same source file expand to compilable code and to some graphical representation (such as GVS, which can be converted to GraphViz, which can be converted to PNG, SVG, &amp;c, with a couple of commands).</p>
 <ul>
-<li><a href="../scheme/gv-dsl.gmi">GVS</a></li></ul>
+<li><a href="../scheme/gv-dsl.html">GVS</a></li></ul>
 <p>The detail I was most indecisive about was how to &quot;present&quot; input values to the transition procedure. Some of the alternatives I thought of were naming a single argument list to contain all of the values from all of the places; and, naming the input places and their multiplicities. Examples:</p>
 <pre><code>(define-transition
   (t1 args (p1 2) (p2 3) ...)
@@ -73,4 +73,4 @@
 <p><img src="folder2.png" alt="Folder w/ default acc" /></p>
 <p>In this net acc may start empty, but bound must have a single token. When a token is produced to input, either kons or default-acc is enabled. If there's no token in acc, then there must be a token in bound, and in that case default-acc is enabled; if there's a token in ac, then there's no token in bound, and in that case kons is enabled. kons behaves as before. On the other hand, peek may consume the token from acc at any time, but does not put it back, and instead puts a dummy token in bound. This place bound is only used to &quot;signal&quot; that acc has no tokens, so that default-acc may move one there. default-acc simply moves an input token to acc to initialize the accumulator.</p>
 <ul>
-<li><a href="logs.gmi">Logs index</a></li></ul>
+<li><a href="logs.html">Logs index</a></li></ul>
