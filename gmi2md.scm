@@ -3,6 +3,7 @@
   (chicken file)
   (chicken io)
   (chicken pathname)
+  (chicken port)
   (chicken process-context)
   (srfi 13)
   (srfi 197)
@@ -29,11 +30,11 @@
              (gmi:link:text l))))
 
 
-(define ((convert? gemini-root) l)
+(define ((convert? directory) l)
   (and (gmi:link? l)
        (let ((uri (gmi:link:uri l)))
          (and (member (pathname-extension uri) source-extensions)
-              (file-exists? (make-absolute-pathname gemini-root uri))))))
+              (file-exists? (make-absolute-pathname directory uri))))))
 
 
 (define (extension/gmi->html link)
@@ -114,20 +115,23 @@
     ))
 
 
-(define (rewrite-links gemini-root)
-  (o (phi gemini-link? gemini->portal)
-     (phi (convert? gemini-root) extension/gmi->html)))
+(define (rewrite-links directory)
+  ; Composition works correctly because the composition of the two operations is commutative
+  (o (phi gemini-link? gemini->portal) ; Treats only full gemini://... URLs
+     (phi (convert? directory) extension/gmi->html))) ; Treats only "local"/"internal" URLs
 
 
+; ./gmi2md.scm docs/directory/file.gmi < docs/directory/file.gmi
 (define (main args)
-  (let ((gemini-root (make-absolute-pathname (current-directory) (car args))))
-    (chain (gmi:read)
-           (map (rewrite-links gemini-root) _)
-           (group-links _)
-           (map grouped-gmi-element->md-element _)
-           (concatenate _)
-           (for-each write-line _)
-           )))
+  (let ((this-file (make-absolute-pathname (current-directory) (car args))))
+    (receive (directory _filename _extension) (decompose-pathname this-file)
+      (chain (gmi:read)
+             (map (rewrite-links directory) _)
+             (group-links _)
+             (map grouped-gmi-element->md-element _)
+             (concatenate _)
+             (for-each write-line _)
+             ))))
 
 
 (main (command-line-arguments))
