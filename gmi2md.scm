@@ -5,13 +5,23 @@
   (chicken pathname)
   (chicken port)
   (chicken process-context)
+  (srfi 1)
   (srfi 13)
   (srfi 197)
   gmi)
 
+(define-syntax eprint
+  (syntax-rules ()
+    ((eprint expr ...)
+     (with-output-to-port (current-error-port) (cute print expr ...)))))
+
 (define-constant source-extensions '("gmi" "md" "org"))
 (define-constant image-extensions '("svg" "png" "jpg" "jpeg" "webp"))
 (define-constant gemini:// "gemini://")
+(define-constant http:// "http://")
+(define-constant https:// "https://")
+(define-constant ipfs:// "ipfs://")
+(define-constant magnet "magnet:")
 
 (define ((? p? f g) x) ((if (p? x) f g) x))
 (define phi (cute ? <> <> identity))
@@ -30,11 +40,15 @@
              (gmi:link:text l))))
 
 
+(define (local-file-exists? base file)
+  (file-exists? (make-absolute-pathname base file)))
+
+
 (define ((convert? directory) l)
   (and (gmi:link? l)
        (let ((uri (gmi:link:uri l)))
          (and (member (pathname-extension uri) source-extensions)
-              (file-exists? (make-absolute-pathname directory uri))))))
+              (local-file-exists? directory uri)))))
 
 
 (define (extension/gmi->html link)
@@ -115,10 +129,24 @@
     ))
 
 
-(define (rewrite-links directory)
-  ; Composition works correctly because the composition of the two operations is commutative
-  (o (phi gemini-link? gemini->portal) ; Treats only full gemini://... URLs
-     (phi (convert? directory) extension/gmi->html))) ; Treats only "local"/"internal" URLs
+(define (external-link? l)
+  (any (cute string-prefix? <> (gmi:link:uri l))
+       `(,http:// ,https:// ,magnet ,ipfs://)))
+
+
+(define ((rewrite-links directory) l)
+  (cond
+    ; External full gemini://... URL
+    ((gemini-link? l) (gemini->portal l))
+    ; "Local" URL
+    (((convert? directory) l) (extension/gmi->html l))
+    ; "Local" URL but no file?
+    ((and (gmi:link? l)
+          (not (external-link? l))
+          (not (local-file-exists? directory (gmi:link:uri l))))
+     (eprint "WARNING: Link seems to be local but there's no such file: " (gmi:link:uri l))
+     l)
+    (else l)))
 
 
 ; ./gmi2md.scm docs/directory/file.gmi < docs/directory/file.gmi
