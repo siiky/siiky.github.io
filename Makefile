@@ -84,9 +84,13 @@ $(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
 
 # TODO: Split IPFS add from publish
 
-publish: $(ROOT)/ipfs.html gemini.tgz http.tgz
-	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
+publish: $(ROOT)/ipfs.html publish-gemini publish-http
+
+publish-gemini: gemini.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
+
+publish-http: http.tgz
+	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
 
 gemini.tgz: $(ROOT)/ipfs.html
 	cd $(ROOT) && tar --exclude='*.html' -cz * > $(REPO_ROOT)/gemini.tgz
@@ -105,7 +109,7 @@ ipfs-publish: $(ROOT)/ipfs.html
 antenna-publish: ipfs-publish
 	xdg-open gemini://warmedal.se/~antenna/submit?gemini://siiky.srht.site
 
-.PHONY: ipfs-publish publish
+.PHONY: ipfs-publish publish publish-gemini publish-http
 
 serve:
 	$(GEMINID) $(ROOT)

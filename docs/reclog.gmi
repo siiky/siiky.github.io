@@ -1,13 +1,18 @@
-# Reclog
+# nothing interesting here
 @siiky
 2022/08/15
-2022/08/26
+2022/08/28
+
+## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
 
-## Posts
+
+=> gemini://tilde.team/~aprilnightk/gemlog/2022/08/27-could-have-been.gmi 2022-08-28 Could have been
+=> gemini://gem.saayaa.space/gemlog/2022-08-27-cell-everywhere.gmi 2022-08-28 Cells Everywhere
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-27.google.gmi 2022-08-28 HN: tool beeps when data is sent to Google.  Spoiler: constant beeping.
 
 => gemini://alexschroeder.ch/page/2022-08-23%20Summer%20holidays 2022-08-26 Summer holidays
 => gemini://compudanzas.net/biosejo_120220825.gmi 2022-08-26 Movement: A personal reframing
