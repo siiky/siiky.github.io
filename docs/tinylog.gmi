@@ -5,6 +5,17 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-08-30 14:23 +0100
+Read this piece by freezr today. Though I'm not up to date with whatever MS&GH are doing with Copilot, everything in freezr's (partly) fictional story sounds very plausible to me.
+=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi "Do not let MinuzSopht making free-software illegal", freezr
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?GitHub%20Copilot GitHub Copilot (Gemipedia)
+=> https://en.wikipedia.org/wiki/GitHub_Copilot GitHub Copilot (Wikipedia)
+> Disgracefully MinuzSopht was already so influential that was capable to track down many of these peaceful protesters and to obtain to kicking them out from their jobs, treated as terrorist and marginalized from the society and their family. Despite the retaliation, many more people got scared and started to get disconnected and away from anything electronic as much as possible.
+Some excerpts, such as the 47th above, reminded me of another post:
+> There are of course the continual struggles with the county in the background, as they are quite frustrated that we live so simply, and entirely off grid. (...) Currently, unless we show regular "progress" toward a conventional house with all of the environmental damage which comes with that, they threaten to chase us off our own land.
+=> gemini://atyh.net/post-2022-07-21-summertime.gmi "SUMMER TIME", ATYH
+It's crazy that this is even legal, let alone "normal"!
+
 ## 2022-08-13 12:45 +0100
 => gemini://spool-five.com/gemlog/2022-08-07-offline_week.gmi Offline Week July 2022
 > [Thinking] seems to come on most strongly when we are bored, i.e., when our mind has no activity to latch on to. For example, while waiting for a train or walking.

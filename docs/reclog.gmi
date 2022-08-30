@@ -9,6 +9,7 @@
 
 I update this page manually.
 
+=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi 2022-08-30 Do not let MinuzSopht making free-software illegal
 
 => gemini://tilde.team/~aprilnightk/gemlog/2022/08/27-could-have-been.gmi 2022-08-28 Could have been
 => gemini://gem.saayaa.space/gemlog/2022-08-27-cell-everywhere.gmi 2022-08-28 Cells Everywhere
