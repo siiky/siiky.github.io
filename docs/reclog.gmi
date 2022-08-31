@@ -1,7 +1,7 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/08/31
+2022/09/01
 
 ## Reclog
 
@@ -10,6 +10,8 @@
 I update this page manually.
 
 => gemini://tilde.team/~smokey/logs/2022-08-29-woke.gmi 2022-08-31 Thoughts on sandman and my feelings on 'wokeness'
+=> gemini://xiu.smol.pub/1661758477 2022-08-31 The disease called "Perfection"
+=> gemini://perso.pw/blog/articles/btrfs-cheatsheet.gmi 2022-08-31 My BTRFS cheatsheet
 
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi 2022-08-30 Do not let MinuzSopht making free-software illegal
 
@@ -63,5 +65,9 @@ I update this page manually.
 
 => gemini://atyh.net/post-2022-07-21-summertime.gmi 2022-08-10 SUMMER TIME
 => gemini://rochelimit.uk/articles/20220810_biologists_shouldnt_teach_physics.gmi 2022-08-10 Biologists Shouldn't Teach Physics
+
+=> gemini://compudanzas.net/coloring_computers.gmi 2022-08-09 coloring computers
+=> gemini://friends.riverside.camp/~clarity/journal/branding.gmi 2022-08-09 Software and Branding
+=> gemini://midnight.pub/posts/1091 2022-08-09 2nd Decan of Leo
 
 => gemini://degrowther.smol.pub/20220808_libraries_internet 2022-08-08 Libraries, the Internet we were promised, and the Internet we got
