@@ -1,13 +1,15 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/08/28
+2022/08/31
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://tilde.team/~smokey/logs/2022-08-29-woke.gmi 2022-08-31 Thoughts on sandman and my feelings on 'wokeness'
 
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi 2022-08-30 Do not let MinuzSopht making free-software illegal
 
@@ -59,6 +61,7 @@ I update this page manually.
 
 => gemini://degrowther.smol.pub/20220812_geocentricism 2022-08-12 In defense of geocentricism
 
+=> gemini://atyh.net/post-2022-07-21-summertime.gmi 2022-08-10 SUMMER TIME
 => gemini://rochelimit.uk/articles/20220810_biologists_shouldnt_teach_physics.gmi 2022-08-10 Biologists Shouldn't Teach Physics
 
 => gemini://degrowther.smol.pub/20220808_libraries_internet 2022-08-08 Libraries, the Internet we were promised, and the Internet we got
