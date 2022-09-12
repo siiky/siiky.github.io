@@ -1,0 +1,50 @@
+# Moving tons
+@siiky
+2022/09/12
+2022/09/12
+
+How stupid is it to move around by (mainstream) motorized vehicles? Can we make up a scale?
+
+Sorry in advance to physicists: I used weight and mass interchangeably. If it helps make up for it, I do know the difference!
+
+I found online some numbers that I'll present next. I didn't include any trains because the weights I found varied too much to be reliable to me since I don't understand much about them (e.g. one page said between 4t and 20t). For the coach bus, since they didn't vary that much (relatively), I even picked the lightest. Some pages showed weights in pounds, which I assumed to be avoirdupois pounds and converted to kg with the unitconv CHICKEN egg:
+
+```scm
+(exact->inexact (unit-convert lb kg 2935))
+; 1331.29360595
+```
+
+=> https://en.wikipedia.org/wiki/Pound_(mass)
+=> https://wiki.call-cc.org/eggref/5/unitconv
+
+Now some of the weights I've found:
+
+```
++----------------+-----------------+---------------+
+| Vehicle        | Weight (pounds) | Weight (tons) |
++----------------+-----------------+---------------+
+| Smart Fortwo   | 1808lb          | 0.82t         |
+| Ford Fiesta    | 2600lb          | 1.18t         |
+| Ford Focus     | 2935lb          | 1.33t         |
+| Jeep Wrangler  | 3941lb          | 1.79t         |
+| Some coach bus | 49400lb         | 22.41t        |
++----------------+-----------------+---------------+
+```
+
+=> https://gogocharters.com/charter-bus-comparison-chart Coach bus weights & number of seats
+=> https://cars.lovetoknow.com/List_of_Car_Weights Some car weights by make&model
+=> https://www.bankrate.com/insurance/car/average-car-weight More car weights (guestimates)
+
+Let's assume that the average person weighs around 80kg (which apparently is really the average in the USA?).
+
+=> https://en.wikipedia.org/wiki/Human_body_weight
+
+For an average person driving a Smart Fortwo (being generous here) to work/shopping/w.e., a total mass of 900kg has to be moved to move the 80kg meatbag that actually has/wants to be moved. That's only 8.89% of the moved weight! Even if two people share that car, it's only marginally improved to 16.32%! And you can't get any better unless you put more people in the trunk or something... Does it even have a trunk? That thing is tiny...
+
+For a smallish 5 seat car, like the Fiesta, 6.35% for a single person, 11.95% for two, and 25.33% for the full five.
+
+For a wrangler, also 5 seat, it's 4.28%, 8.22% and 18.28%, for one, two and five people, respectively.
+
+Now for a coach bus, assuming 57 seats (driver + passengers). At half capacity (28 passengers) it's 9.38%, and at full capacity (56 passengers) it's 16.91%. To be honest, this was way less than I expected... If you add up some luggage (let's be generous and say everyone carries 10kg), that's 10.43% at half-capacity and 18.63% at full capacity.
+
+Just WOW! I never realized how grossly inefficient it is in numbers. Think about that: on the most efficient of these 4 examples (in terms of the "want to move" over "have to move" mass ratio) ONLY A QUARTER of the moved mass is what effectively has to be moved!
