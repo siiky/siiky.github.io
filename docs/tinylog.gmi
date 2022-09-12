@@ -5,6 +5,9 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-09-12 10:01 +0100
+I just now realized that I rarely ever open Steam nowadays, and that it's been months since the last time I opened it. But I can't tell if it's good or bad.
+
 ## 2022-08-30 14:23 +0100
 Read this piece by freezr today. Though I'm not up to date with whatever MS&GH are doing with Copilot, everything in freezr's (partly) fictional story sounds very plausible to me.
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi "Do not let MinuzSopht making free-software illegal", freezr
