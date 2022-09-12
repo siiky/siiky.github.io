@@ -1,7 +1,7 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/01
+2022/09/12
 
 ## Reclog
 
@@ -9,9 +9,25 @@
 
 I update this page manually.
 
-=> gemini://tilde.team/~smokey/logs/2022-08-29-woke.gmi 2022-08-31 Thoughts on sandman and my feelings on 'wokeness'
-=> gemini://xiu.smol.pub/1661758477 2022-08-31 The disease called "Perfection"
+=> gemini://gem.saayaa.space/gemlog/2022-09-01-being-offline.gmi 2022-09-12 Being Offline
+=> gemini://gemini.circumlunar.space/~shufei/phlog/20220901-Life-ROOPHLOCH-Meds&Minds.gmi 2022-09-12 Life - ROOPHLOCH - Of Minds & Meds
+=> gemini://josias.dev/gemlog/words.gmi 2022-09-12 How many words do you write in a day?
+=> gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-09-04.gmi 2022-09-12 Leftist history repeating itself: on the notion that adhd is caused by capitalism
+
+=> gemini://g.mikf.pl/gemlog/2022-09-03-git-homedir-aliasing.gmi 2022-09-06 How i alias git to manage my home directory (for dotfiles)
+=> gemini://nnix.com/food/desserts_snacks/nut_granola_bars.gmi 2022-09-06 Nut Granola Bars
+=> gemini://warmedal.se/~bjorn/posts/2022-09-03-sneakernet-in-a-free-developed-society.gmi 2022-09-06 Sneakernet in a Free, Developed Society
+
+=> gemini://idiomdrottning.org/lenia-evolution 2022-09-04 How the Lenia evolver works
+=> gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-08-30.gmi 2022-09-04 Creating minimal EPUBs with epub-create
+
+=> gemini://midnight.pub/posts/1114 2022-09-01 Redesigning the World
+=> gemini://perso.pw/blog/articles/local-front-ends.gmi 2022-09-01 How to host a local front-end for Reddit / YouTube / Twitter on NixOS
+
 => gemini://perso.pw/blog/articles/btrfs-cheatsheet.gmi 2022-08-31 My BTRFS cheatsheet
+=> gemini://tilde.team/~smokey/logs/2022-08-29-woke.gmi 2022-08-31 Thoughts on sandman and my feelings on 'wokeness'
+=> gemini://tilde.team/~smokey/logs/2022-08-31-doom.gmi 2022-08-31 A Guide To Playing Freedoom & Community Made Doom content in 2022
+=> gemini://xiu.smol.pub/1661758477 2022-08-31 The disease called "Perfection"
 
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi 2022-08-30 Do not let MinuzSopht making free-software illegal
 
