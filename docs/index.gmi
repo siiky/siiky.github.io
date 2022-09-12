@@ -12,6 +12,7 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => kB45oC/moving-tons.gmi 2022-09-12 Moving tons
+=> books/list.gmi 2022-09-12 Books list
 => nihongo/jikoshoukai.gmi 2022-08-28 自己紹介
 => kB45oC/re-open-content.gmi 2022-08-25 RE: Open content that you can contribute to
 => scheme/alist-let.gmi 2022-08-23 RFC: alist-let
@@ -21,7 +22,6 @@ This is where you'll find nothing interesting, welcome.
 => meta/reclog.gmi 2022-08-17 Reclog
 => petri_nets/log005.gmi 2022-08-15 Petri Nets Log #005
 => kB45oC/zettelkasten_utility.gmi 2022-08-11 RE: Zettelkasten Utility
-=> books/list.gmi 2022-08-09 Books list
 => projects/gemini-ipfs-gateway.gmi 2022-08-08 Gemini IPFS gateway
 => psychology/naturally-ungood.gmi 2022-08-07 Naturally Ungood
 => kB45oC/gemini-handlers.gmi 2022-08-06 Custom Gemini Handlers
