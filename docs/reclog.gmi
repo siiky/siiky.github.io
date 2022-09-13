@@ -1,7 +1,7 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/12
+2022/09/13
 
 ## Reclog
 
@@ -9,6 +9,11 @@
 
 I update this page manually.
 
+=> gemini://gemini.ctrl-c.club/~lettuce/magick.gmi 2022-09-13 Basic photo editing recipes for the command line
+=> gemini://midnight.pub/posts/1121 2022-09-13 Confusion on Interacting
+
+=> gemini://alexschroeder.ch/page/2022-09-05%20Summer%20Retrospective 2022-09-12 Summer Retrospective
+=> gemini://degrowther.smol.pub/20220905_sneakernets 2022-09-12 Sneakernets and other networks
 => gemini://gem.saayaa.space/gemlog/2022-09-01-being-offline.gmi 2022-09-12 Being Offline
 => gemini://gemini.circumlunar.space/~shufei/phlog/20220901-Life-ROOPHLOCH-Meds&Minds.gmi 2022-09-12 Life - ROOPHLOCH - Of Minds & Meds
 => gemini://josias.dev/gemlog/words.gmi 2022-09-12 How many words do you write in a day?
