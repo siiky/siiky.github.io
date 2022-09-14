@@ -1,7 +1,7 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/13
+2022/09/14
 
 ## Reclog
 
@@ -9,8 +9,15 @@
 
 I update this page manually.
 
+=> gemini://perso.pw/blog/articles/nixos-deployments-tools.gmi 2022-09-14 Video - talk about NixOS deployments tools
+=> gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-09-08.gmi 2022-09-14 Autism, the mental health professions, gaslighting, and trauma
+=> gemini://snonux.land/gemfeed/2022-09-10-if-you-spend-too-much-time-thinking.gmi 2022-09-14 If you spend too much time thinking
+=> gemini://tilde.pink/~kaction/log/2022-09-09.1.gmi 2022-09-14 Zig programming language
+
 => gemini://gemini.ctrl-c.club/~lettuce/magick.gmi 2022-09-13 Basic photo editing recipes for the command line
 => gemini://midnight.pub/posts/1121 2022-09-13 Confusion on Interacting
+=> gemini://midnight.pub/posts/1123 2022-09-13 Other Spaces
+=> gemini://midnight.pub/posts/1124 2022-09-13 maybe hope?
 
 => gemini://alexschroeder.ch/page/2022-09-05%20Summer%20Retrospective 2022-09-12 Summer Retrospective
 => gemini://degrowther.smol.pub/20220905_sneakernets 2022-09-12 Sneakernets and other networks
