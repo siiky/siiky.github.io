@@ -8,7 +8,27 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-09-12T00:00:00Z</updated>
+  <updated>2022-09-15T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;No bookbinding for you&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/09/15
+2022/09/15&lt;/p&gt;
+&lt;p&gt;I went to a bookbinding shop today asking if they would teach me some of their craft but the owner, an old guy, was so harsh... Almost rude.&lt;/p&gt;
+&lt;p&gt;After a flat out &amp;quot;No&amp;quot;, he said something along the lines of:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is not a school, it's a bookbinding shop, I can't teach you. If I spend my time teaching just about anybody who comes around with interest I won't have the time to do what my customers ask me, and then where does the money come from?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I mean, sure, but, I didn't expect anyone to be teaching me anything full-time, I have shit to do too!&lt;/p&gt;
+&lt;p&gt;At the end he asked me why I wanted to learn about it, what kinds of books I read and am interested in, what I do &amp;quot;for a living&amp;quot;, how I found them, ... Very weird, almost as if testing me or something. And would you ever believe me if I told you he started pulling out his massive book knowledge phallus? At least I got some new contacts and places to check out.&lt;/p&gt;
+&lt;p&gt;It was very disheartening TBH...&lt;/p&gt;</content>
+    <id>gemini://siiky.srht.site/kB45oC/no-bookbinding.gmi</id>
+    <published>2022-09-15T00:00:00Z</published>
+    <title type="text">No bookbinding for you</title>
+    <updated>2022-09-15T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/no-bookbinding.html" rel="alternate" type="text/html" title="No bookbinding for you" />
+    <link href="gemini://siiky.srht.site/kB45oC/no-bookbinding.gmi" rel="alternate" type="text/gemtext" title="No bookbinding for you" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;Moving tons&lt;/h1&gt;

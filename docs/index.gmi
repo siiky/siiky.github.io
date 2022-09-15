@@ -11,6 +11,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/no-bookbinding.gmi 2022-09-15 No bookbinding for you
 => kB45oC/moving-tons.gmi 2022-09-12 Moving tons
 => books/list.gmi 2022-09-12 Books list
 => nihongo/jikoshoukai.gmi 2022-08-28 自己紹介

@@ -1,13 +1,15 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/14
+2022/09/15
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://xiu.smol.pub/1661838260 2022-09-15 Weaning off social media and the over-capitalised Big Internet life
 
 => gemini://perso.pw/blog/articles/nixos-deployments-tools.gmi 2022-09-14 Video - talk about NixOS deployments tools
 => gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-09-08.gmi 2022-09-14 Autism, the mental health professions, gaslighting, and trauma
