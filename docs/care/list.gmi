@@ -3,9 +3,7 @@
 2022/01/09
 2022/07/04
 
-If you don't know what IPFS is or don't know how to use it, see this quickstart:
-
-=> ipfs.gmi
+=> ipfs.gmi If you don't know what IPFS is or how to use it, read this quickstart.
 
 IPFS root directory of this list:
 
@@ -22,7 +20,7 @@ You'll find at least three spider cares.
 
 The URI of the root of the list will be always at the top of the page (the "IPFS root directory ..."). From it you can get to all other cares (if I don't screw up). Over the rest of the page I'll post some notable cares and/or (maybe) more details -- maybe even sources!
 
-The cares are added to IPFS using `ipfs add` with the options `--recursive --raw-leaves --cid-version=1`. Videos also get a `--trickle `. The full command is something like this:
+The cares are added to IPFS using `ipfs add` with the options `--recursive --raw-leaves --cid-version=1`. Videos also get a `--trickle`. The full command is something like this:
 
 ```
 ipfs files cp /ipfs/`ipfs add -p -Q -r -t --pin=false --cid-version=1 --raw-leaves '/path/to/file_or_directory'` '/care-list/videos/file_or_directory'
@@ -52,9 +50,8 @@ Published in 2022/01 by Pluto Press, with ISBN 9780745340180.
 
 Written by José Nuno Oliveira, professor of the Informatics Department of the University of Minho.
 
-Not necessarily the latest version! The original is usually available here.
-
-=> http://www4.di.uminho.pt/~jno/ps/pdbc.pdf
+Not necessarily the latest version! The original is usually available here:
+=> https://www4.di.uminho.pt/~jno/ps/pdbc.pdf
 
 # Videos
 

@@ -3490,9 +3490,8 @@ fact n = prod [1..n]
 &lt;p&gt;@siiky
 2022/01/09
 2022/07/04&lt;/p&gt;
-&lt;p&gt;If you don't know what IPFS is or don't know how to use it, see this quickstart:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;ipfs.html&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="ipfs.html"&gt;If you don't know what IPFS is or how to use it, read this quickstart.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;IPFS root directory of this list:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzzerrgsx7fxmy4kxwthpkbi"&gt;ipfs://bafybeicsuo27ufnhjw2k5ophno5hgxhuvfbzzerrgsx7fxmy4kxwthpkbi&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
@@ -3519,9 +3518,9 @@ fact n = prod [1..n]
 &lt;pre&gt;&lt;code&gt;/books/pdbc.pdf
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Written by José Nuno Oliveira, professor of the Informatics Department of the University of Minho.&lt;/p&gt;
-&lt;p&gt;Not necessarily the latest version! The original is usually available here.&lt;/p&gt;
+&lt;p&gt;Not necessarily the latest version! The original is usually available here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www4.di.uminho.pt/~jno/ps/pdbc.pdf"&gt;http://www4.di.uminho.pt/~jno/ps/pdbc.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://www4.di.uminho.pt/~jno/ps/pdbc.pdf"&gt;https://www4.di.uminho.pt/~jno/ps/pdbc.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;h1&gt;Videos&lt;/h1&gt;
 &lt;h2&gt;OPLSS (Oregon Programming Language Summer School)&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;/videos/oplss/
