@@ -9,6 +9,9 @@
 
 I update this page manually.
 
+=> gemini://jsreed5.org/log/2022/202209/20220904-the-viability-of-sneakernets.gmi 2022-09-15 The Viability of Sneakernets
+=> gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-09-13.gmi 2022-09-15 The metaphysics of ontopoetics and panpsychism
+=> gemini://warmedal.se/~bjorn/posts/2022-09-13-re-sneakernets.gmi 2022-09-15 Re: Sneakernets
 => gemini://xiu.smol.pub/1661838260 2022-09-15 Weaning off social media and the over-capitalised Big Internet life
 
 => gemini://perso.pw/blog/articles/nixos-deployments-tools.gmi 2022-09-14 Video - talk about NixOS deployments tools
