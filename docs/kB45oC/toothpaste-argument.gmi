@@ -1,0 +1,99 @@
+# The Toothpaste Argument
+@siiky
+2022/09/15
+2022/09/16
+
+=> https://www.scottsantens.com/the-toothpaste-argument-for-universal-basic-income-ubi-gotz-werner The Toothpaste Argument for Universal Basic Income
+
+I read this post that was mentioned on some other post I read on Gemini, but I don't remember which and can't find it anymore.
+=> ../contact.gmi Send me a message if you know!
+
+The author seems to be too much into it to be thinking/expressing ideas clearly. There's too much fluff and rainbows and "if only UBI was here". I'm not into the subject and I barely know left from right, so ignore the sarcasm and bits of pedantry if you will, and enlighten me if you'll please!
+
+## Toothpaste
+
+> If you go shopping, and take a tube of toothpaste from a shelf then you all think, when you go to the checkout, that you are paying for this toothpaste. That is an error. Because the tube of toothpaste that you are taking from the shelf is already paid for, is already paid, else it couldn't be on the shelf. What you are paying at the checkout, is that you are enabling the creation of another tube of toothpaste. That's how you have to see it. Payment is never backwards-oriented. Payment is always forward-oriented. Payment doesn't balance out, but when you are buying something, you are ordering its continued production and sale.
+
+This is a chicken & egg problem: no money means no toothpaste; no toothpaste means no money. It's easy to think that someone must have paid for the first toothpaste ever produced ("payment is always forward-oriented"), but there are two problems:
+
+* Some people make things (for free before any sort of payment) hoping they'll be able to sell them for money in the future (e.g. Leatherman's multitool).
+* Where did the first money come from?
+
+=> https://yewtu.be/watch?v=QJwyIF4VBTk The Tim Leatherman Multitool Story
+
+## Developing
+
+> if one wants to live in this world, one needs an income. Or else you can't live... Human beings want to develop. For developing, I need work. For existing I need income.
+
+A few falacies here too:
+
+* "This world" seemingly meaning "today's society".
+* "Humans want to develop" -- what does it mean "to develop"? Do all humans want to "develop", really?
+* Depending on what it means "to develop", does one really need work?
+
+## Work
+
+> And then I realized, after doing hundreds of job interviews, inevitably, that income isn't the payment for the work, but the prerequisite. That is our mistake in thinking. Our error in reasoning is, that we think, through the work, the income is generated. The reverse is true. Because we have the income, we can work.
+> (...)
+> income is not the fruit born from the seed of work, but instead work is the fruit born of the seed of income
+
+Using "work" in the context of today's society, i.e., a "job" or "employment", this just isn't true. I don't want to work for someone else -- in truth, I don't want to "work" at all! -- especially not for a company that doesn't value my values. If your only motivation to work is to get money and you already have the money, then why would you work? Therefore, we don't work because we have to money to be able to work, it's the other way around!
+
+That doesn't mean I wouldn't contribute back. Indeed, I already try to contribute here and there (OSM, FLOSS projects, iNaturalist, Wikipedia, ...), but I wouldn't ever call that work.
+
+## Unpaid work
+
+> But when you recognize that income is the fuel that makes work possible, it’s easier to see that basic income will enable far more work for multiple reasons. For one, having basic income means that people can choose unpaid or paid work.
+
+Amen to that (still wouldn't call it "work")! And it seems you don't need to recognize that "because we have the income, we can work" to believe volunteering would in fact increase.
+
+## Local voting
+
+> Second, basic income also means that there are a greater number of people with a greater amount of money that they are able to spend at the businesses in their local communities. That money is essentially a form of voting on what work the community wants local businesses to continue doing.
+> (...)
+> Werner’s realization was that people with basic income could choose to shop at his stores and vote on which products they wanted his chain of stores to keep buying and selling to customers, (...)
+
+This seems reasonable to me, and a good thing too! Nowadays basically only the big supermarket chains make it. The small greengrocers around the corner hardly make enough to stay open, because everyone goes to the big guys. I would like to see more of this.
+
+It goes well in hand with my interest in decentralized/distributed networks. Let's not concentrate power in the hands of a select few, please, and instead distribute it over the network participants.
+
+## Today's resources
+
+> Realizing that income is forward-oriented instead of backward-oriented also enabled Werner to realize that of course we can afford basic income, because all of the basic needs it would secure already exist. They are already produced.
+
+It may very well be that the resources to meet today's needs already exist today. But given the above, if nobody is willing to work given UBI, how will the resources to meet tomorrow's needs be created? They won't fall from the sky.
+
+## No resources shortage
+
+> There isn't a shortage of food. There's just a shortage of ability to buy food. So just create the money people need to buy food, and provide it to them so they can tell businesses to keep making the food they prefer to eat.
+
+Yeah, tell that to anyone who can't actually get the food, I'm sure it'll be an easy sell.
+
+> Dear Sir/Ma'm,
+>
+> The reason you do not have any food is not that there is no food to be had, but that you do not have the money to acquire it. Therefore, if you wish to acquire some food you must first acquire some money.
+>
+> In order to acquire some money you may proceed to your closest money-making facilities and/or engage in any of several money-making activities.
+>
+> We're so very sorry for the inconvenience and thank you for your understanding.
+>
+> Sincerely,
+> Your most sympathetic government
+
+Again, specifically for food, if there's nobody to work at food-making-businesses, then there are no food-making-businesses to make food, and therefore there's no food. And how could there still be food-making-businesses? A tiny fraction of people, from the goodness of their heart, with no obligation whatsoever, and with barely any reward (money they don't need), would work in these food-making-businesses to produce food for the rest of the world? Doesn't make any sense to me.
+
+I don't actually believe we'd be out of food if UBI came into existence. Just, let's not pretend everything would still be all the same except better. Even if there were no food-making-businesses (among other kinds of businesses), since individuals need food they would have to make food themselves, or organize amongst themselves in small groups to distribute tasks -- e.g., if I'm good at planting and keeping fruit trees, then I can give the fruits of my trees to my neighbours, if they share in return some of their labor; if I'm good at making some sweet cocktails, I can make cocktails for my neighbours if they provide me with some fruits and spirits; &c.
+
+> (...) ask, where are the goods, then you will see that we have never been as rich as today. We have never been as rich as today. We have enough goods and services for each person in our society to live a humble but dignified life. (...) So, when we have these goods and services, we have to ask ourselves, then why are we affording ourselves poverty?
+
+In a way, I have to agree. So much shit goes to waste just because it was made and nobody consumed it... In a way, it really is like we have a shortage of money and not of resources.
+
+But in actuality, it's probably more like we have resource shortages AND, on top of that, a shit resource management system. Such that, not only do we make more than we consume, leading to waste, but at the same time, some people cannot get access to resources they need.
+
+It reminds me of an interview of James Suzman (I'll maybe try to find it someday...)
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?James%20Suzman James Suzman
+
+## Conclusion?
+
+There's nothing resembling one, really. This post is kind of a mess and if anything it just shows how little I know about this shit...
