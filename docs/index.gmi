@@ -11,10 +11,11 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/knives.gmi 2022-09-18 On knives and their uses
+=> books/list.gmi 2022-09-17 Books list
 => kB45oC/toothpaste-argument.gmi 2022-09-16 The Toothpaste Argument
 => kB45oC/no-bookbinding.gmi 2022-09-15 No bookbinding for you
 => kB45oC/moving-tons.gmi 2022-09-12 Moving tons
-=> books/list.gmi 2022-09-12 Books list
 => nihongo/jikoshoukai.gmi 2022-08-28 自己紹介
 => kB45oC/re-open-content.gmi 2022-08-25 RE: Open content that you can contribute to
 => scheme/alist-let.gmi 2022-08-23 RFC: alist-let

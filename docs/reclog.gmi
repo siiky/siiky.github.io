@@ -1,7 +1,7 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/17
+2022/09/18
 
 ## Reclog
 
@@ -9,6 +9,10 @@
 
 I update this page manually.
 
+=> gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg 2022-09-18 Late night thoughts about CDG
+=> gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi 2022-09-18 Considering using IPFS for content hosting
+
+=> gemini://hyperreal.coffee/self/2022-09-17-self-observation-log-002.gmi 2022-09-17 Self-observation log 002
 => gemini://tozip.chickenkiller.com/2022-09-17-starbucks.gmi 2022-09-17 Starbucks data breach
 
 => gemini://jsreed5.org/log/2022/202209/20220904-the-viability-of-sneakernets.gmi 2022-09-15 The Viability of Sneakernets

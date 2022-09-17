@@ -1,0 +1,23 @@
+# On knives and their uses
+@siiky
+2022-09-18
+2022-09-18
+
+Anyone here against knives because they are/can be used to harm other beings raise your hands!
+
+I can't believe many will be raised, even knowing that it is true that knives can be used to kill other beings, human or otherwise, because they are very useful tools. They can be used for cooking, eating, cutting paper, or pealing fruit. They can also be used for stabbing, cutting up, killing, and skinning people and animals. That doesn't make them undesirable or less appealing in any way. It's not why/how most would use them, and I wonder how we'd go about our lives without knives!
+
+A similar point could be made about other tools -- screwdrivers, hammers, crowbars, rope, syringes, ... I'm not of a very creative mind but I could probably go on.
+
+
+This post was triggered by a post by @hyperreal, who doesn't want to be associated with Web3/NFT/crypto crap. I can totally understand it as I try to steer away from such connections myself -- and sometimes I'm repulsed away, e.g. when I find a possibly cool project but learn that it's written in fucking JS/TS/BullshitScript-of-the-day, or that it's "AI/ML/blockchain-powered"... give me a fucking break please!
+
+> I'm just not sure about its adjacency to the NFT/Web3 scene.
+> (...)
+> Still, though, I don't like the idea of being complicit in the NFT/Web3 hype. Aside from the environmental hazards involved in minting NFTs and mining cryptocurrency, it's a Ponzi scheme that deceives people into investing monetary value into something that is inherently valueless and thrives off the delusion that they own the thing.
+
+By simply using IPFS you wouldn't be as complicit in anything to do with the NFT/Web3 bullshittery any more than you'd be complicit in someone using a crowbar to bash another person's head in, or someone using a rope to hang themselves -- if you don't take part in any of the bullshittery then you're not complicit in said bullshittery!
+
+My intention was not to pick or call out on you in the least so please don't take it personally!
+
+=> gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi Considering using IPFS for content hosting
