@@ -1,13 +1,15 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/15
+2022/09/17
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://tozip.chickenkiller.com/2022-09-17-starbucks.gmi 2022-09-17 Starbucks data breach
 
 => gemini://jsreed5.org/log/2022/202209/20220904-the-viability-of-sneakernets.gmi 2022-09-15 The Viability of Sneakernets
 => gemini://republic.circumlunar.space/users/flexibeast/gemlog/2022-09-13.gmi 2022-09-15 The metaphysics of ontopoetics and panpsychism
@@ -104,3 +106,5 @@ I update this page manually.
 => gemini://midnight.pub/posts/1091 2022-08-09 2nd Decan of Leo
 
 => gemini://degrowther.smol.pub/20220808_libraries_internet 2022-08-08 Libraries, the Internet we were promised, and the Internet we got
+
+=> gemini://idiomdrottning.org/ubi 2022-07-16 Unconditional Basic Income
