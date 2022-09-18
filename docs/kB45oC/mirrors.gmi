@@ -66,6 +66,13 @@ I won't go into details here, but there's a "namespace" of content-identifiers (
 
 Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribuition networks, unpopular content is hard to get (especially slow to find). Finally, the "reference" IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷
 
+## Postscript
+
+I learned from one of @degrowther's posts that Debian has tried some decentralization in the past using BitTorrent.
+
+=> gemini://degrowther.smol.pub/20220808_libraries_internet Libraries, the Internet we were promised, and the Internet we got
+=> https://wiki.debian.org/DebTorrent DebTorrent
+
 ## Footnotes
 
 ¹ I hadn't come across the ToU before while browsing the site (refreshing!) and even had some trouble finding them after the email.
