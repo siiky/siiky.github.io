@@ -43,7 +43,7 @@
 ("philosophy/flexibility-relations.gmi" "books/list.gmi" "https://en.wikipedia.org/wiki/Churro" "https://en.wikipedia.org/wiki/Consistent" "https://en.wikipedia.org/wiki/Contradiction" "https://en.wikipedia.org/wiki/Descartes" "https://en.wikipedia.org/wiki/Fartura_(food)" "https://en.wikipedia.org/wiki/Proposition" "philosophy/flexibility-life.gmi")
 ("philosophy/hard_determinism.gmi" "books/list.gmi" "https://en.wikipedia.org/wiki/Free_will" "https://en.wikipedia.org/wiki/Hard_determinism" "https://plato.stanford.edu/entries/freewill")
 ("philosophy/identity.gmi" "https://en.wikipedia.org/wiki/Iron" "https://en.wikipedia.org/wiki/Marble_(toy)")
-("philosophy/knives.gmi" "gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi")
+("philosophy/knives.gmi" "alt.gmi" "care/list.gmi" "gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi" "kB45oC/mirrors.gmi" "projects/gemini-ipfs-gateway.gmi" "projects/ipfs.gmi")
 ("philosophy/links.gmi" "https://en.wikipedia.org/wiki/Philosophy" "https://en.wikiversity.org/wiki/Philosophy/Resources" "https://en.wikiversity.org/wiki/School:Philosophy" "https://iep.utm.edu" "https://plato.stanford.edu/contents.html" "https://plato.stanford.edu/rss/sep.xml")
 ("programming/ocr.gmi" "contact.gmi" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh?r=bbf21555" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/which_scm.sh" "programming/webrev.patch")
 ("programming/shell.gmi" "gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-01.bash.gmi" "https://en.wikipedia.org/wiki/Scsh" "https://scsh.net")

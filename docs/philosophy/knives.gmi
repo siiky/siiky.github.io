@@ -21,3 +21,12 @@ By simply using IPFS you wouldn't be as complicit in anything to do with the NFT
 My intention was not to pick or call out on you in the least so please don't take it personally!
 
 => gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi Considering using IPFS for content hosting
+
+
+DISCLAIMER: I like IPFS!
+
+=> ../alt.gmi Alternative ways to access this capsule
+=> ../projects/ipfs.gmi ipfs.scm
+=> ../projects/gemini-ipfs-gateway.gmi Gemini IPFS gateway
+=> ../care/list.gmi Care list
+=> ../kB45oC/mirrors.gmi Content-based Mirrors

@@ -1,9 +1,9 @@
 #!/usr/bin/env -S csi -s
 (import
-  chicken.pathname
-  chicken.process-context
+  (chicken pathname)
+  (chicken process-context)
   openssl
-  geminid)
+  (gemini server))
 
 (define root (car (command-line-arguments)))
 
