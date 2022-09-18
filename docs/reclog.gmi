@@ -9,6 +9,7 @@
 
 I update this page manually.
 
+=> gemini://gemini.thegonz.net/certRecs.gmi 2022-09-18 Recommendations for changing your gemini server's TOFU certificate
 => gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg 2022-09-18 Late night thoughts about CDG
 => gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi 2022-09-18 Considering using IPFS for content hosting
 
