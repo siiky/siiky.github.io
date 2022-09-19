@@ -1,13 +1,16 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/18
+2022/09/19
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemini.circumlunar.space/users/solderpunk/gemlog/franken-peugeot-updates.gmi 2022-09-19 Franken-Peugeot updates
+=> gemini://the-brannons.com/tech-and-conscience 2022-09-19 Technology and Conscience
 
 => gemini://gemini.thegonz.net/certRecs.gmi 2022-09-18 Recommendations for changing your gemini server's TOFU certificate
 => gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg 2022-09-18 Late night thoughts about CDG

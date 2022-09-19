@@ -5,6 +5,14 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-09-19 11:23 +0100
+Have to get myself busy one of these days because SourceHut has an IRC bouncer for paying users!
+Currently I run irssi in an abduco session of my 24/7 Raspberry Pi 2. However, since I only have access to the Pi on my LAN, I can't use IRC outside. Even worse now, because of my recent-ish move, I only have access to the Pi on one of my homes.
+=> https://chat.sr.ht SourceHut Chat
+=> https://man.sr.ht/chat.sr.ht/quickstart.md SourceHut Chat Docs
+=> https://git.sr.ht/~siiky/abduco abduco (mirror)
+=> https://github.com/martanne/abduco abduco (original repo @ GH)
+
 ## 2022-09-18 00:49 +0100
 @bacardi55 mentioned an aggregator I didn't know about: Cosmos. It's pretty cool. It aggregates pages from other aggregators, and tries to organize them in a thread-like fashion based on links to other posts.
 As a bonus: vising @bacardi55's capsule I learned of their tinylog aggregator -- neat!
