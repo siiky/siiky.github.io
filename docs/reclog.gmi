@@ -10,7 +10,9 @@
 I update this page manually.
 
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/franken-peugeot-updates.gmi 2022-09-19 Franken-Peugeot updates
+=> gemini://isoraqathedh.pollux.casa/names.gmi 2022-09-19 A story about information and memory
 => gemini://the-brannons.com/tech-and-conscience 2022-09-19 Technology and Conscience
+=> gemini://ur.gs/blog/allotment 2022-09-19 Allotment
 
 => gemini://gemini.thegonz.net/certRecs.gmi 2022-09-18 Recommendations for changing your gemini server's TOFU certificate
 => gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg 2022-09-18 Late night thoughts about CDG
