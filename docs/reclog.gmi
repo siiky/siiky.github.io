@@ -9,9 +9,13 @@
 
 I update this page manually.
 
+=> gemini://blog.snowfrost.garden/2/index.gmi 2022-09-19 What is it the Free Software Foundation *does*, exactly?
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/franken-peugeot-updates.gmi 2022-09-19 Franken-Peugeot updates
+=> gemini://gemini.spam.works/~emery/roofmount_netaidkit.gmi 2022-09-19 Roofmounting a NetAidKit
+=> gemini://gemini.susa.net/gemini_over_lora.gmi 2022-09-19 Gemini over LoRa
 => gemini://isoraqathedh.pollux.casa/names.gmi 2022-09-19 A story about information and memory
 => gemini://the-brannons.com/tech-and-conscience 2022-09-19 Technology and Conscience
+=> gemini://tozip.chickenkiller.com/2022-09-19-search.gmi 2022-09-19 Gemini search
 => gemini://ur.gs/blog/allotment 2022-09-19 Allotment
 
 => gemini://gemini.thegonz.net/certRecs.gmi 2022-09-18 Recommendations for changing your gemini server's TOFU certificate
