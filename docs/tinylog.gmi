@@ -5,6 +5,10 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky
 license: CC BY-SA 4.0
 
+## 2022-09-19 14:51 +0100
+I'm getting dangerously near my 3rd decade of existence and yet I have nothing to show... hurgh
+=> https://www.savagechickens.com/wp-content/uploads/chickenadulting.jpg
+
 ## 2022-09-19 11:23 +0100
 Have to get myself busy one of these days because SourceHut has an IRC bouncer for paying users!
 Currently I run irssi in an abduco session of my 24/7 Raspberry Pi 2. However, since I only have access to the Pi on my LAN, I can't use IRC outside. Even worse now, because of my recent-ish move, I only have access to the Pi on one of my homes.
