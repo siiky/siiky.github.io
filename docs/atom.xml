@@ -8,7 +8,30 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-09-18T00:00:00Z</updated>
+  <updated>2022-09-19T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;RE: Technology and Conscience&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022-09-19
+2022-09-19&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/the-brannons.com/tech-and-conscience"&gt;(Gemini Portal) Technology and Conscience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I suppose the counterpoint would be made with nuclear weapons, which as of now have no use other than causing massive loss of life. (...)  I don't believe that technology and tools are always value-neutral, though this is frequently the case.  Mustard gas and atomic bombs are my counter-propositions.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Technology does seem to me to be neutral -- it doesn't know right or wrong and doesn't care whether it's nailing a nail or hammering a fly. On the other hand, users aren't neutral, because they can choose what to do with the tools at hand. And even such technologies as nuclear weapons may have their good uses (maybe nuclear weapons specifically is debatable, but hold on).&lt;/p&gt;
+&lt;p&gt;Porcupines and hedgehogs have spines on their backs that could very well be used for bad rather than good, but they use the spines only for protection.&lt;/p&gt;
+&lt;p&gt;Or, if I'm walking down the street next to my rottweiler, pit bull, or german shepherd, I'm VERY unlikely to get attacked/robbed/w.e. and that's a good thing (for me, at least)! Having my dogs with me doesn't imply me telling them to attack randos on the street either. (Pretending for a second that dogs are vicious biting machines... It's a damn shame these dogs are conditioned and trained to be very aggressive -- a topic for another day)&lt;/p&gt;
+&lt;p&gt;Related:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="knives.html"&gt;On knives and their uses&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/philosophy/re-tech-and-conscience.gmi</id>
+    <published>2022-09-19T00:00:00Z</published>
+    <title type="text">RE: Technology and Conscience</title>
+    <updated>2022-09-19T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/philosophy/re-tech-and-conscience.html" rel="alternate" type="text/html" title="RE: Technology and Conscience" />
+    <link href="gemini://siiky.srht.site/philosophy/re-tech-and-conscience.gmi" rel="alternate" type="text/gemtext" title="RE: Technology and Conscience" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;On knives and their uses&lt;/h1&gt;
@@ -19,21 +42,24 @@
 &lt;p&gt;I can't believe many will be raised, even knowing that it is true that knives can be used to kill other beings, human or otherwise, because they are very useful tools. They can be used for cooking, eating, cutting paper, or pealing fruit. They can also be used for stabbing, cutting up, killing, and skinning people and animals. That doesn't make them undesirable or less appealing in any way. It's not why/how most would use them, and I wonder how we'd go about our lives without knives!&lt;/p&gt;
 &lt;p&gt;A similar point could be made about other tools -- screwdrivers, hammers, crowbars, rope, syringes, ... I'm not of a very creative mind but I could probably go on.&lt;/p&gt;
 &lt;p&gt;This post was triggered by a post by @hyperreal, who doesn't want to be associated with Web3/NFT/crypto crap. I can totally understand it as I try to steer away from such connections myself -- and sometimes I'm repulsed away, e.g. when I find a possibly cool project but learn that it's written in fucking JS/TS/BullshitScript-of-the-day, or that it's &amp;quot;AI/ML/blockchain-powered&amp;quot;... give me a fucking break please!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi"&gt;(Gemini Portal) Considering using IPFS for content hosting&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I'm just not sure about its adjacency to the NFT/Web3 scene.
 (...)
 Still, though, I don't like the idea of being complicit in the NFT/Web3 hype. Aside from the environmental hazards involved in minting NFTs and mining cryptocurrency, it's a Ponzi scheme that deceives people into investing monetary value into something that is inherently valueless and thrives off the delusion that they own the thing.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;By simply using IPFS you wouldn't be as complicit in anything to do with the NFT/Web3 bullshittery any more than you'd be complicit in someone using a crowbar to bash another person's head in, or someone using a rope to hang themselves -- if you don't take part in any of the bullshittery then you're not complicit in said bullshittery!&lt;/p&gt;
 &lt;p&gt;My intention was not to pick or call out on you in the least so please don't take it personally!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi"&gt;(Gemini Portal) Considering using IPFS for content hosting&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;DISCLAIMER: I like IPFS!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../alt.html"&gt;Alternative ways to access this capsule&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../projects/ipfs.html"&gt;ipfs.scm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../projects/gemini-ipfs-gateway.html"&gt;Gemini IPFS gateway&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../care/list.html"&gt;Care list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../kB45oC/mirrors.html"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../kB45oC/mirrors.html"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Related:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="re-tech-and-conscience.html"&gt;RE: Technology and Conscience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <id>gemini://siiky.srht.site/philosophy/knives.gmi</id>
     <published>2022-09-18T00:00:00Z</published>
     <title type="text">On knives and their uses</title>
