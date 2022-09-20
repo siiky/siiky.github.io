@@ -11,6 +11,8 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/far-vs-around-games.gmi 2022-09-20 Far vs Around Games
+=> nihongo/nhk-easy-news.gmi 2022-09-20 NHK Easy News
 => philosophy/re-tech-and-conscience.gmi 2022-09-19 RE: Technology and Conscience
 => philosophy/knives.gmi 2022-09-18 On knives and their uses
 => books/list.gmi 2022-09-17 Books list

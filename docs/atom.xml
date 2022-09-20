@@ -8,7 +8,51 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-09-19T00:00:00Z</updated>
+  <updated>2022-09-20T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;Far vs Around Games&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022-09-20
+2022-09-20&lt;/p&gt;
+&lt;p&gt;It occured to me the other day that while multiplayer games in the past were made to play/interact with people close to and around you, more and more games nowadays assume internet connectivity at all times and encourage you to play with strangers around the globe. This by itself isn't bad, but you already know what follows... I myself met many cool people playing games online, from all over Europe, the US, and even as far as Japan! These connections were in many ways the types of connections we build over Gemini and other similar networks.&lt;/p&gt;
+&lt;p&gt;Being able to play with someone next to you (e.g. on the same phone, through bluetooth, ...) is something so much into the remote past by now that it would probably be revolutionary again today. I wonder if anyone would notice that it wasn't anything actually new, that this was the way to play games with others before the internet became ubiquitous.&lt;/p&gt;
+&lt;p&gt;In my (not that distant) past, I remember playing Worms World Party on my N-Gage with my cousins. We'd drain the battery in a couple of hours, charge the battery, rinse and repeat. Worms is one of my favorite games because of these times.&lt;/p&gt;
+&lt;p&gt;For last year's xmas I bought a controller and Worms WMD on Steam. It was the first time re-playing Worms in many years! I liked it a lot. Everything is still funky, everything was pretty much as I remembered it from my N-Gage, just as fun! Maybe except for the vehicles and stationary weapons -- kinda cool, but not as fun as a good old bat to the face or a Holy Grenade. We also bought Carcassonne (our first real boardgame (except for Monopoly, but please...)) and it was awesome.&lt;/p&gt;
+&lt;p&gt;Nowadays, the only games I have on my phone are lichess -- that I use mostly offline to play with others -- and Soko++ -- still haven't beaten all Microban levels!&lt;/p&gt;</content>
+    <id>gemini://siiky.srht.site/kB45oC/far-vs-around-games.gmi</id>
+    <published>2022-09-20T00:00:00Z</published>
+    <title type="text">Far vs Around Games</title>
+    <updated>2022-09-20T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/far-vs-around-games.html" rel="alternate" type="text/html" title="Far vs Around Games" />
+    <link href="gemini://siiky.srht.site/kB45oC/far-vs-around-games.gmi" rel="alternate" type="text/gemtext" title="Far vs Around Games" />
+  </entry>
+  <entry>
+    <content type="html">
+&lt;h1&gt;NHK Easy News&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022/09/19
+2022/09/20&lt;/p&gt;
+&lt;p&gt;今度のポストを書いてからまた毎日NHK Easy Newsの記事を読み始めた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="jikoshoukai.html"&gt;自己紹介&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;で、例えば、イギリスのエリザベス女王が死んだことはNHKで初耳。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013810241000/k10013810241000.html"&gt;イギリス　エリザベス女王が96歳で亡くなる&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013826991000/k10013826991000.html"&gt;イギリスでエリザベス女王のお葬式　天皇陛下も出席&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;リモコンでゴキブリを動かせることもNHKで分かった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013804421000/k10013804421000.html"&gt;「サイボーグ昆虫」　離れた所から昆虫を動かす研究&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;面白い記事もあった:一番安い寿司ざらの値段は110円から115円にするって。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013807081000/k10013807081000.html"&gt;「くら寿司」　1皿110円から115円に値段を上げる&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/nihongo/nhk-easy-news.gmi</id>
+    <published>2022-09-20T00:00:00Z</published>
+    <title type="text">NHK Easy News</title>
+    <updated>2022-09-19T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/nihongo/nhk-easy-news.html" rel="alternate" type="text/html" title="NHK Easy News" />
+    <link href="gemini://siiky.srht.site/nihongo/nhk-easy-news.gmi" rel="alternate" type="text/gemtext" title="NHK Easy News" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;RE: Technology and Conscience&lt;/h1&gt;
