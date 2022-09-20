@@ -1,13 +1,16 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/19
+2022/09/20
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemini.susa.net/gemserv_proot.gmi 2022-09-19 Running gemserv under proot
+=> gemini://rawtext.club/~ploum/2022-09-20-magma.gmi 2022-09-19 MAGMA Monopolies
 
 => gemini://blog.snowfrost.garden/2/index.gmi 2022-09-19 What is it the Free Software Foundation *does*, exactly?
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/franken-peugeot-updates.gmi 2022-09-19 Franken-Peugeot updates
