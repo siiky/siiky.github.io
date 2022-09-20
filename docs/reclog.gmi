@@ -11,6 +11,7 @@ I update this page manually.
 
 => gemini://gemini.susa.net/gemserv_proot.gmi 2022-09-19 Running gemserv under proot
 => gemini://rawtext.club/~ploum/2022-09-20-magma.gmi 2022-09-19 MAGMA Monopolies
+=> gemini://sotiris.papatheodorou.xyz/gemlog/20220920_swearing_at_computers.gmi 2022-09-19 Swearing at computers
 
 => gemini://blog.snowfrost.garden/2/index.gmi 2022-09-19 What is it the Free Software Foundation *does*, exactly?
 => gemini://gemini.circumlunar.space/users/solderpunk/gemlog/franken-peugeot-updates.gmi 2022-09-19 Franken-Peugeot updates
