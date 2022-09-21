@@ -9,11 +9,17 @@
 
 I update this page manually.
 
+=> gemini://cyi1341.smol.pub/random19 2022-09-21 introversion
+=> gemini://dk.smol.pub/1663688084 2022-09-21 Mathematics
 => gemini://gem.saayaa.space/gemlog/2022-09-20-missing-vim.gmi 2022-09-21 Vim Has Spoiled Me
 => gemini://gemini.panda-roux.dev/log/entry/65 2022-09-21 A Gemtext Mirror of The Anarchist Library
 => gemini://idiomdrottning.org/reference 2022-09-21 Re: The Amazing Hypothetical Moon of Saturn
 => gemini://idiomdrottning.org/the-answer 2022-09-21 The answer
 => gemini://idiomdrottning.org/yec 2022-09-21 Earth is really old, you guys
+=> gemini://malinfreeborn.com/gen/one.gmi 2022-09-21 Bring One Back
+=> gemini://midnight.pub/posts/1135 2022-09-21 Thinking, speaking, writing
+=> gemini://officialdonut.smol.pub/1663613423 2022-09-21 A brief lull
+=> gemini://themby.smol.pub/2022-09-20 2022-09-21 Fed Up
 => gemini://tilde.team/~smokey/logs/2022-09-20-copy.gmi 2022-09-21 Copyrighting Textfiles, The Legality Of Archives, and should I care?
 => gemini://tozip.chickenkiller.com/2022-09-21-putin.gmi 2022-09-21 Putin vs Progessives
 
