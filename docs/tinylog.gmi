@@ -5,6 +5,11 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky@siiky.srht.site
 license: CC BY-SA 4.0
 
+## 2022-09-21 09:53 +0100
+=> gemini://gem.saayaa.space/gemlog/2022-09-20-missing-vim.gmi Vim Has Spoiled Me
+> Over the last few days I've had to spend a lot more time in LibreOffice Writer and it felt so clunky compared to vim.
+Such is my life...
+
 ## 2022-09-19 14:51 +0100
 I'm getting dangerously near my 3rd decade of existence and yet I have nothing to show... hurgh
 => https://www.savagechickens.com/wp-content/uploads/chickenadulting.jpg
@@ -23,7 +28,6 @@ As a bonus: vising @bacardi55's capsule I learned of their tinylog aggregator --
 => gemini://skyjake.fi/~Cosmos Cosmos
 => gemini://tinylogs.gmi.bacardi55.io gtl tinylog timeline
 => gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg Late night thoughts about CDG
-=> reclog.gmi Reclog
 
 ## 2022-09-14 14:57 +0100
 Today I bought my own umbrella for the first time in my (20+yrs) life!
@@ -43,7 +47,6 @@ Some excerpts, such as the 47th above, reminded me of another post:
 > There are of course the continual struggles with the county in the background, as they are quite frustrated that we live so simply, and entirely off grid. (...) Currently, unless we show regular "progress" toward a conventional house with all of the environmental damage which comes with that, they threaten to chase us off our own land.
 => gemini://atyh.net/post-2022-07-21-summertime.gmi "SUMMER TIME", ATYH
 It's crazy that this is even legal, let alone "normal"!
-=> reclog.gmi Reclog
 
 ## 2022-08-13 12:45 +0100
 => gemini://spool-five.com/gemlog/2022-08-07-offline_week.gmi Offline Week July 2022
