@@ -15,6 +15,7 @@ I update this page manually.
 => gemini://idiomdrottning.org/the-answer 2022-09-21 The answer
 => gemini://idiomdrottning.org/yec 2022-09-21 Earth is really old, you guys
 => gemini://tilde.team/~smokey/logs/2022-09-20-copy.gmi 2022-09-21 Copyrighting Textfiles, The Legality Of Archives, and should I care?
+=> gemini://tozip.chickenkiller.com/2022-09-21-putin.gmi 2022-09-21 Putin vs Progessives
 
 => gemini://gemini.susa.net/gemserv_proot.gmi 2022-09-20 Running gemserv under proot
 => gemini://rawtext.club/~ploum/2022-09-20-magma.gmi 2022-09-20 MAGMA Monopolies
