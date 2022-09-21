@@ -11,6 +11,10 @@ I update this page manually.
 
 => gemini://gem.saayaa.space/gemlog/2022-09-20-missing-vim.gmi 2022-09-21 Vim Has Spoiled Me
 => gemini://gemini.panda-roux.dev/log/entry/65 2022-09-21 A Gemtext Mirror of The Anarchist Library
+=> gemini://idiomdrottning.org/reference 2022-09-21 Re: The Amazing Hypothetical Moon of Saturn
+=> gemini://idiomdrottning.org/the-answer 2022-09-21 The answer
+=> gemini://idiomdrottning.org/yec 2022-09-21 Earth is really old, you guys
+=> gemini://tilde.team/~smokey/logs/2022-09-20-copy.gmi 2022-09-21 Copyrighting Textfiles, The Legality Of Archives, and should I care?
 
 => gemini://gemini.susa.net/gemserv_proot.gmi 2022-09-20 Running gemserv under proot
 => gemini://rawtext.club/~ploum/2022-09-20-magma.gmi 2022-09-20 MAGMA Monopolies
