@@ -9,6 +9,9 @@
 
 I update this page manually.
 
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-07-31.schadenreude.gmi 2022-09-22 You think your life is bad? [Schadenfreude]
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-30.electric.gmi 2022-09-22 Electric Batteries = Death
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-09-04.unknown.gmi 2022-09-22 The joy of not knowing
 => gemini://gemini.susa.net/shocking_dns_nothingness.gmi 2022-09-22 The Shocking Nothingness of DNS
 => gemini://idiomdrottning.org/integration 2022-09-22 Integration
 => gemini://november.smol.pub/arrogance 2022-09-22 On scientific “arrogance”
