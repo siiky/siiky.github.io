@@ -18,13 +18,14 @@ Please let me know if you find any of the links not working.
 
 # Reading
 
+=> ../care/list.gmi Mark Graham & Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22
+=> https://en.wikipedia.org/wiki/The_Astonishing_Hypothesis Francis Crick, The Astonishing Hypothesis: 2021/07/30
 => https://gameprogrammingpatterns.com Bob Nystrom, Game Programming Patterns: 2021
 => https://mitpress.mit.edu/books/little-typer Daniel P. Friedman & David Thrane Christiansen, The Little Typer: 2021/02/06
-=> https://en.wikipedia.org/wiki/The_Astonishing_Hypothesis Francis Crick, The Astonishing Hypothesis: 2021/07/30
 => https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp James Edward Gray & Bruce A. Tate, Designing Elixir Systems With OTP: 2021/05/20
+=> https://theanarchistlibrary.org/library/anonymous-desert Anonymous, Desert: 2022/07/15
+=> https://tokipona.org Sonja Lang, Toki Pona: The Language of Good: 2022/09/22
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
-=> ../care/list.gmi Mark Graham & Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22
-=> https://theanarchistlibrary.org/library/anonymous-desert Desert, Anonymous: 2022/07/15
 
 # Read
 
@@ -112,7 +113,7 @@ Please let me know if you find any of the links not working.
 => https://en.wikipedia.org/wiki/Principles_of_Philosophy René Descartes, Selections from the Principles of Philosophy: 2020
 => https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde: 2020
 => https://en.wikipedia.org/wiki/The_Shining_(novel) Stephen King, The Shining: 2019~2020
-=> http://www.stevetoutonghi.com/join/ Steve Toutonghi, Join: 2021/08/31~2021/11/10
+=> http://www.stevetoutonghi.com/join Steve Toutonghi, Join: 2021/08/31~2021/11/10
 => https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles Sun Tzu, The Art of War
 => https://susankayequinn.com/books/the-legacy-human Susan Kaye Quinn, The Legacy Human: 2020
 => https://www.smashwords.com/books/view/234617 Travis Bughi, Beyond the Plains: 2020
