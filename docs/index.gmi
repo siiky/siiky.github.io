@@ -11,11 +11,11 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> books/list.gmi 2022-09-22 Books list
 => kB45oC/far-vs-around-games.gmi 2022-09-20 Far vs Around Games
 => nihongo/nhk-easy-news.gmi 2022-09-20 NHK Easy News
 => philosophy/re-tech-and-conscience.gmi 2022-09-19 RE: Technology and Conscience
 => philosophy/knives.gmi 2022-09-18 On knives and their uses
-=> books/list.gmi 2022-09-17 Books list
 => kB45oC/toothpaste-argument.gmi 2022-09-16 The Toothpaste Argument
 => kB45oC/no-bookbinding.gmi 2022-09-15 No bookbinding for you
 => kB45oC/moving-tons.gmi 2022-09-12 Moving tons

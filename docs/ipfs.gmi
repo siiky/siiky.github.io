@@ -1,3 +1,3 @@
-=> ipfs://bafybeic2vq3f3onfioz5rvnplukto66oonaiqdj3aaaf5w5vvqzmuhq73u
-=> https://bafybeic2vq3f3onfioz5rvnplukto66oonaiqdj3aaaf5w5vvqzmuhq73u.ipfs.dweb.link
+=> ipfs://bafybeihmedtt5wmwaf27gka745eckumm34r7hjamc2deu3oh6scqfyzu7y
+=> https://bafybeihmedtt5wmwaf27gka745eckumm34r7hjamc2deu3oh6scqfyzu7y.ipfs.dweb.link
 => ipfs.txt

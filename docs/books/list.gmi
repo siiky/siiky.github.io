@@ -1,7 +1,7 @@
 # Books list
 @siiky
 2020/12/21
-2022/09/17
+2022/09/22
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
 
@@ -82,10 +82,12 @@ Please let me know if you find any of the links not working.
 => https://www.rifters.com/real/STARFISH.htm Peter Watts, Starfish
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Beyond Lies the Wub: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Beyond the Door: 2020
+=> https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Mr. Spaceship: 2022/09/20~2022/09/21
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Piper in the Woods: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Second Variety: 2021/07/06~2021/07/09
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Crystal Crypt: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Defenders: 2020
+=> https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Eyes Have It: 2022/09/19
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Gun: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Skull: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Variable Man: 2020
