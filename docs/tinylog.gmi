@@ -5,6 +5,11 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky@siiky.srht.site
 license: CC BY-SA 4.0
 
+## 2022-09-22 09:44 +0100
+=> gemini://gemini.thegonz.net/glog/220525-geminiInputClientSupport.gmi Gemini input, and improving client support
+> As long as TLS session resumption is being used (which is increasingly the norm), the overheads of a second request aren't so huge.
+Isn't it part of the Gemini standard not to reuse connections?
+
 ## 2022-09-21 09:53 +0100
 => gemini://gem.saayaa.space/gemlog/2022-09-20-missing-vim.gmi Vim Has Spoiled Me
 > Over the last few days I've had to spend a lot more time in LibreOffice Writer and it felt so clunky compared to vim.
