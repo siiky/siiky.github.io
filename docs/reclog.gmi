@@ -9,6 +9,9 @@
 
 I update this page manually.
 
+=> gemini://gemini.conman.org/boston/2022/09/22.1 2022-09-23 So when did POP and IMAP become a “legacy protocol?”
+=> gemini://warp.geminispace.club/~freezr/gemlog/2022-09-22-il-solito-brutto-vizio.gmi 2022-09-23 Il solito brutto Vizio…
+
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-07-31.schadenreude.gmi 2022-09-22 You think your life is bad? [Schadenfreude]
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-08-30.electric.gmi 2022-09-22 Electric Batteries = Death
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-09-04.unknown.gmi 2022-09-22 The joy of not knowing
