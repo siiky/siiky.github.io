@@ -5,6 +5,12 @@ Random tiny thoughts that don't merit their own full-sized posts.
 author: @siiky@siiky.srht.site
 license: CC BY-SA 4.0
 
+## 2022-09-24 12:23 +0100
+The other day I was reminded of toki pona when I found by chance @sloum's toki pona/English dictionary.
+Yesterday I decided to finally jump in and read the first 4 lessons of the toki pona book. It does seem easy to learn. I'm intrigued!
+=> gemini://rawtext.club/~sloum/cgi/ilo @sloum's toki pona/English dictionary
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Toki+Pona toki pona (Gemipedia)
+
 ## 2022-09-22 09:44 +0100
 => gemini://gemini.thegonz.net/glog/220525-geminiInputClientSupport.gmi Gemini input, and improving client support
 > As long as TLS session resumption is being used (which is increasingly the norm), the overheads of a second request aren't so huge.
