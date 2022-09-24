@@ -1,13 +1,24 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/22
+2022/09/24
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://ew.srht.site/en/2022/20220129-re-corp-growth.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-01-25.growth.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2022-01-28.design.gmi 2022-09-24 Re: Design vs Evolution
+=> gemini://josias.dev/gemlog/re-corporate-growth.gmi 2022-09-24 Re: Why Do Corporations Have To Grow?
+=> gemini://moddedbear.xyz/logs/2022-01-14-design-vs-evolution.gmi 2022-09-24 Design vs Evolution
+=> gemini://rawtext.club/~ploum/2022-01-18-design-evolution.gmi 2022-09-24 RE: Design vs Evolution
+=> gemini://text.eapl.mx/re-why-do-corporations-have-to-grow 2022-09-24 Re: Why Do Corporations Have to Grow?
+=> gemini://tilde.team/~smokey/logs/2022-01-26-companies.gmi 2022-09-24 RE: Why do corperations have to grow?
+=> gemini://warmedal.se/~bjorn/posts/2022-01-25-why-do-corporations-have-to-grow.gmi 2022-09-24 Why Do Corporations Have to Grow?
+=> gemini://warmedal.se/~bjorn/posts/2022-01-26-re-why-do-corporations-have-to-grow.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
 
 => gemini://gemini.conman.org/boston/2022/09/22.1 2022-09-23 So when did POP and IMAP become a “legacy protocol?”
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-09-22-il-solito-brutto-vizio.gmi 2022-09-23 Il solito brutto Vizio…
