@@ -1,13 +1,15 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/24
+2022/09/25
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://text.eapl.mx/quick-ideas-about-isms-and-ownership 2022-09-25 Quick ideas about 'isms' and ownership
 
 => gemini://ew.srht.site/en/2022/20220129-re-corp-growth.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-01-25.growth.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
