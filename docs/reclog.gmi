@@ -164,3 +164,6 @@ I update this page manually.
 => gemini://degrowther.smol.pub/20220808_libraries_internet 2022-08-08 Libraries, the Internet we were promised, and the Internet we got
 
 => gemini://idiomdrottning.org/ubi 2022-07-16 Unconditional Basic Income
+
+=> gemini://alexschroeder.ch/page/2018-06-29_No_Take_Back 2022-06-29 No take back
+=> gemini://gemini.circumlunar.space/users/solderpunk/gemlog/low-budget-p2p-content-distribution-with-git.gmi 2022-06-29 Low budget P2P content distribution with git

@@ -10,7 +10,7 @@ My mom was gonna get robbed at the store she works at yesterday. Some guy appare
 She was alone, doing store stuff when the guy came in. Pretended he was looking at this and that, picked a couple of things and went to the counter. He showed the wooden cable of something out of his backpack (she's not sure what, maybe a hammer) and asked her for all of the cash from the counter. She confronted him saying she wouldn't give him any money, and that he wouldn't do anything to her or himself.
 After asking why he was doing it, he said that he'd never done anything like that before (i.e. robbing). He was almost shaking at this point, so nervous he was.
 In the end, it worked out fine. He apologized a ton, said he was gonna drop whatever he had in the backpack at home, and that he wouldn't hurt anyone. He also left a note with his phone number thanking for the encouragement to get clean and asked her to check on him from time to time.
-Although it went fine, I'm not sure confronting him was the right choice to make. (Obviously in retrospect it was...)
+Although it went fine, I'm not sure confronting him was the right choice to make. Obviously in retrospect it was, but I don't know if it was brave or just plain stupid.
 
 ## 2022-09-24 12:23 +0100
 The other day I was reminded of toki pona when I found by chance @sloum's toki pona/English dictionary.
@@ -42,7 +42,7 @@ Currently I run irssi in an abduco session of my 24/7 Raspberry Pi 2. However, s
 
 ## 2022-09-18 00:49 +0100
 @bacardi55 mentioned an aggregator I didn't know about: Cosmos. It's pretty cool. It aggregates pages from other aggregators, and tries to organize them in a thread-like fashion based on links to other posts.
-As a bonus: vising @bacardi55's capsule I learned of their tinylog aggregator -- neat!
+As a bonus: visiting @bacardi55's capsule I learned of their tinylog aggregator -- neat!
 => gemini://skyjake.fi/~Cosmos Cosmos
 => gemini://tinylogs.gmi.bacardi55.io gtl tinylog timeline
 => gemini://gmi.bacardi55.io/gemlog/2022/09/18/late-night-thoughts-about-cdg Late night thoughts about CDG
@@ -140,7 +140,7 @@ If you share digital content with someone (a photo, some text, w.e.), they can t
 => gemini://alexschroeder.ch/page/2018-06-29_No_Take_Back Alex Schröder, No take back
 
 ## 2022-06-29 10:50 +0100
-The other day I heard some pop song on the radio (note-se: because I was forced to). It was almost like any other shitty pop song that goes on the radio, but it had a flair to it you don't usually hear in pop; it had a weird sequence of notes, almost dissonant. Now, I would never in general be in favor of shit music. But if this one is popular enough to result in people listening to more weird (and better) music, that's a good thing! So this song is good (though still not a good song). I don't know the song's name, but I'm almost 100% sure it was by Carolina Deslandes.
+The other day I heard some pop song on the radio (note-se: because I was forced to). It was almost like any other shitty pop song that goes on the radio, but it had a flair to it you don't usually hear in pop; it had a weird sequence of notes, almost dissonant. Now, I would never in general be in favor of shit music. But if this one is popular enough to result in people listening to more weird (and thus better) music, that's a good thing! So this song is good (though still not a good song). I don't know the song's name, but I'm almost 100% sure it was by Carolina Deslandes.
 
 ## 2022-06-23 13:47 +0100
 I use card-like pieces (train/subway tickets) as markers for places I want to transcribe or take notes from physical books, but I never write right away what the marker is for, so I forget often when it's time to type into Org Roam.
