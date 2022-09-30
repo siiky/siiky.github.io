@@ -45,6 +45,7 @@
 ("philosophy/flexibility-relations.gmi" "books/list.gmi" "https://en.wikipedia.org/wiki/Churro" "https://en.wikipedia.org/wiki/Consistent" "https://en.wikipedia.org/wiki/Contradiction" "https://en.wikipedia.org/wiki/Descartes" "https://en.wikipedia.org/wiki/Fartura_(food)" "https://en.wikipedia.org/wiki/Proposition" "philosophy/flexibility-life.gmi")
 ("philosophy/hard_determinism.gmi" "books/list.gmi" "https://en.wikipedia.org/wiki/Free_will" "https://en.wikipedia.org/wiki/Hard_determinism" "https://plato.stanford.edu/entries/freewill")
 ("philosophy/identity.gmi" "https://en.wikipedia.org/wiki/Iron" "https://en.wikipedia.org/wiki/Marble_(toy)")
+("philosophy/intention-trust.gmi")
 ("philosophy/knives.gmi" "alt.gmi" "care/list.gmi" "gemini://hyperreal.coffee/gemlog/2022-09-17-considering-using-ipfs-for-content-hosting.gmi" "kB45oC/mirrors.gmi" "philosophy/re-tech-and-conscience.gmi" "projects/gemini-ipfs-gateway.gmi" "projects/ipfs.gmi")
 ("philosophy/links.gmi" "https://en.wikipedia.org/wiki/Philosophy" "https://en.wikiversity.org/wiki/Philosophy/Resources" "https://en.wikiversity.org/wiki/School:Philosophy" "https://iep.utm.edu" "https://plato.stanford.edu/contents.html" "https://plato.stanford.edu/rss/sep.xml")
 ("philosophy/re-tech-and-conscience.gmi" "gemini://the-brannons.com/tech-and-conscience" "philosophy/knives.gmi")

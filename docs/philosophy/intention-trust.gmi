@@ -1,0 +1,12 @@
+# WIP Intention, Trust, and Trustless
+@siiky
+2022/09/30
+2022/09/30
+
+@teiresias said that, without trust, humans would be nothing. Trust is a very important thing. But I don't agree with them. The lack of trust between two people may be enough to stop a fruitful cooperation, sometimes unnecessarily.
+
+Recently I met someone new. They have a pretty big shelf of books on a subject I'd like to read about. But I don't feel close enough to them to be at ease and ask to borrow some books. Not that I see them denying (I actually think they'd be completely OK); more like it's "unacceptable" socially to ask something out of someone you barely know. I have all the intention of returning the books, of course, but they don't know that. For all they know, I could be trying to score a few books for free.
+
+Wouldn't it be cool if I could somehow prove to them that I will return the books?
+
+This is what smart contracts are for digital assets (read: files). If the books
