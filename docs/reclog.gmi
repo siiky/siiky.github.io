@@ -1,13 +1,18 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/09/25
+2022/10/03
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://apintandaparma.club/~ajc/log/2022-09-23.gmi 2022-10-03 the in-between days
+=> gemini://pennywhether.xyz/articles/siddhartha.gmi 2022-10-03 Siddhartha by Herman Hesse
+=> gemini://rawtext.club/~mieum/music/2022-09-24-jazzmaster_rewire.gmi 2022-10-03 Jazzmaster - Rewiring
+=> gemini://tilde.team/~tomasino/journal/20220923-roophloch.gmi 2022-10-03 ROOPHLOCH
 
 => gemini://text.eapl.mx/quick-ideas-about-isms-and-ownership 2022-09-25 Quick ideas about 'isms' and ownership
 
