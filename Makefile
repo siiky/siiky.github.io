@@ -61,7 +61,7 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
-all: index html svg png atom graph.svg
+all: index html svg png atom graph.svg cv
 
 index: $(ROOT)/index.html
 
@@ -121,7 +121,12 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
-	ls -1 index.gmi $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
+	ls -1 cv-en.md index.gmi $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
+
+cv: cv-en.pdf
+	
+cv-en.pdf: cv-en.md
+	pandoc -f markdown -t latex --pdf-engine=xelatex cv-en.md -o cv-en.pdf
 
 # Text files rules
 

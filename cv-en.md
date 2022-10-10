@@ -6,9 +6,10 @@
 | :-----------: | :--------------------------------------- |
 | Phone number  | +351969089204                            |
 | Email address | <silky.sa@gmail.com>                     |
+| SourceHut     | <https://git.sr.ht/~siiky>               |
 | GitHub        | <https://github.com/siiky>               |
 | LinkedIn      | <https://www.linkedin.com/in/andre-m-sa> |
-| Website       | <https://siiky.github.io>                |
+| Website       | <https://siiky.srht.site/>               |
 
 |            |                                  |
 | :--------: | :------------------------------- |
@@ -46,10 +47,10 @@ Responsible for maintaining and refactoring existing code and developing new
 features, using almost exclusively JavaScript on Node.js and React projects.
 Getting to learn a lot about blockchain research and especially cryptocurrency,
 but also the mess that is JavaScript... Work involves usual web development,
-both back- and front-end, but also development of internal-use libraries to
+both back and front-end, but also development of internal-use libraries to
 interface with cryptocurrency nodes and servers. Biggest feature yet was
-replacing an old, and pretty _ad-hoc_, `REST`-like machine-server interface with
-a very strict GraphQL one.
+replacing an old _ad-hoc_ `REST`-like machine-server interface
+with a very strict GraphQL one.
 
 # Additional Information
 
@@ -78,7 +79,7 @@ may be of use to other sentient beings as limitted as myself.
 Of the open source projects I work on and contribute to, such as IPFS and the
 CHICKEN Scheme ecosystem, these may be my most notable contributions:
 
-<https://github.com/siiky/ipfs.scm> & <https://github.com/siiky/ipfs.lua>
+<https://git.sr.ht/~siiky/ipfs.scm> & <https://git.sr.ht/~siiky/ipfs.lua>
  ~ Author & maintainer of IPFS HTTP RPC clients in CHICKEN Scheme and Lua.
 
 <https://www.phpmyadmin.net>
@@ -90,7 +91,7 @@ CHICKEN Scheme ecosystem, these may be my most notable contributions:
 <https://github.com/siiky/invidious.scm>
  ~ Author & maintainer of an Invidious REST API client in CHICKEN Scheme.
 
-<https://github.com/siiky/transmission.scm>
+<https://git.sr.ht/~siiky/transmission.scm>
  ~ Author & maintainer of a Transmission RPC client in CHICKEN Scheme.
 
 <https://github.com/iraikov/chicken-unitconv>
