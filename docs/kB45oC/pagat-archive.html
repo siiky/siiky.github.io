@@ -1,0 +1,30 @@
+
+<h1>Pagat Archive</h1>
+<p>@siiky
+2022-11-09
+2022-11-09</p>
+<p>Sent an email asking for permission to make a mirror/archive. This time it was for Pagat, a site with tons and tons of card games. And like last time, permission was given provided that I don't make any archives/mirrors public. Fair enough!</p>
+<ul>
+<li><a href="https://www.pagat.com">Pagat</a></li>
+<li><a href="kB45oC/mirrors.gmi">Content-based Mirrors</a></li></ul>
+<p>My Raspberry Pi has been busy downloading the whole thing:</p>
+<pre><code>wget -o download.log -w 30 --random-wait --mirror -k -K -p -i links.txt
+</code></pre>
+<p>The links.txt file was generated from the sitemap.xml with this CHICKEN script:</p>
+<pre><code>(import srfi-1 ssax)
+(let* ((sitemap (ssax:xml-&gt;sxml (current-input-port) '()))
+       (entries (cdaddr sitemap))
+       (urls (map (o car (cute alist-ref 'http://www.sitemaps.org/schemas/sitemap/0.9:loc &lt;&gt;) cdr) entries)))
+  (for-each print urls))
+</code></pre>
+<ul>
+<li><a href="https://www.pagat.com/sitemap.xml">https://www.pagat.com/sitemap.xml</a></li></ul>
+<p>Some details so far:</p>
+<pre><code>$ find www.pagat.com/ -type f | wc -l
+2941
+$ find www.pagat.com/ -type f -iname '*.html' | wc -l
+1812
+$ du -bchs www.pagat.com/
+66M www.pagat.com/
+66M total
+</code></pre>

@@ -8,7 +8,45 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2020-12-21T00:00:00Z</updated>
+  <updated>2022-11-09T00:00:00Z</updated>
+  <entry>
+    <content type="html">
+&lt;h1&gt;Pagat Archive&lt;/h1&gt;
+&lt;p&gt;@siiky
+2022-11-09
+2022-11-09&lt;/p&gt;
+&lt;p&gt;Sent an email asking for permission to make a mirror/archive. This time it was for Pagat, a site with tons and tons of card games. And like last time, permission was given provided that I don't make any archives/mirrors public. Fair enough!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.pagat.com"&gt;Pagat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="kB45oC/mirrors.gmi"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;My Raspberry Pi has been busy downloading the whole thing:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget -o download.log -w 30 --random-wait --mirror -k -K -p -i links.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The links.txt file was generated from the sitemap.xml with this CHICKEN script:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(import srfi-1 ssax)
+(let* ((sitemap (ssax:xml-&amp;gt;sxml (current-input-port) '()))
+       (entries (cdaddr sitemap))
+       (urls (map (o car (cute alist-ref 'http://www.sitemaps.org/schemas/sitemap/0.9:loc &amp;lt;&amp;gt;) cdr) entries)))
+  (for-each print urls))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.pagat.com/sitemap.xml"&gt;https://www.pagat.com/sitemap.xml&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Some details so far:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ find www.pagat.com/ -type f | wc -l
+2941
+$ find www.pagat.com/ -type f -iname '*.html' | wc -l
+1812
+$ du -bchs www.pagat.com/
+66M www.pagat.com/
+66M total
+&lt;/code&gt;&lt;/pre&gt;</content>
+    <id>gemini://siiky.srht.site/kB45oC/pagat-archive.gmi</id>
+    <published>2022-11-09T00:00:00Z</published>
+    <title type="text">Pagat Archive</title>
+    <updated>2022-11-09T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/pagat-archive.html" rel="alternate" type="text/html" title="Pagat Archive" />
+    <link href="gemini://siiky.srht.site/kB45oC/pagat-archive.gmi" rel="alternate" type="text/gemtext" title="Pagat Archive" />
+  </entry>
   <entry>
     <content type="html">
 &lt;h1&gt;Books list&lt;/h1&gt;

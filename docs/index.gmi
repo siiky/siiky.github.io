@@ -11,6 +11,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/pagat-archive.gmi 2022-11-09 Pagat Archive
 => books/list.gmi 2022-09-22 Books list
 => kB45oC/far-vs-around-games.gmi 2022-09-20 Far vs Around Games
 => nihongo/nhk-easy-news.gmi 2022-09-20 NHK Easy News
