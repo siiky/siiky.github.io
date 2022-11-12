@@ -12,6 +12,7 @@ This is where you'll find nothing interesting, welcome.
 ## Posts
 
 => kB45oC/pagat-archive.gmi 2022-11-09 Pagat Archive
+=> scheme/exceptions.gmi 2022-10-15 Exceptions (aka Conditions) in Scheme
 => books/list.gmi 2022-09-22 Books list
 => kB45oC/far-vs-around-games.gmi 2022-09-20 Far vs Around Games
 => nihongo/nhk-easy-news.gmi 2022-09-20 NHK Easy News
@@ -69,7 +70,6 @@ This is where you'll find nothing interesting, welcome.
 => words/quotes.gmi 2022-07-07 just quotes
 => work/credit.gmi 2022-07-07 Credit
 => scheme/kless.gmi 2022-07-07 kless
-=> scheme/exceptions.gmi 2022-07-07 Exceptions (aka Conditions) in Scheme
 => projects/gemtext.gmi 2022-07-05 Scheme Gemtext Reader
 => care/list.gmi 2022-07-04 Care list
 => petri_nets/logs.gmi 2022-05-16 Petri Nets Logs

@@ -1,7 +1,7 @@
 # Exceptions (aka Conditions) in Scheme
 @siiky
 2019/08/13
-2022/07/07
+2022/10/15
 
 DISCLAIMER: I'm not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.
 
@@ -63,6 +63,12 @@ The condition cases should be ordered from more specific to less specific, becau
 ### Throwing
 
 If you want to throw something, use signal. There are also abort and raise, but I don't know why/when one should use them. In CHICKEN, SRFI-18's raise is just signal, but this may change in the future and might not even be the case in other implementations.
+
+UPDATE:
+
+> The only thing I would change is that raise is more portable/standard than signal.
+
+-- jcowan on #chicken@libera.chat, 2022/10/15
 
 => https://api.call-cc.org/5/doc/chicken/condition/signal signal
 => https://api.call-cc.org/5/doc/chicken/condition/abort abort

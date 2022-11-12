@@ -49,6 +49,78 @@ $ du -bchs www.pagat.com/
   </entry>
   <entry>
     <content type="html">
+&lt;h1&gt;Exceptions (aka Conditions) in Scheme&lt;/h1&gt;
+&lt;p&gt;@siiky
+2019/08/13
+2022/10/15&lt;/p&gt;
+&lt;p&gt;DISCLAIMER: I'm not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.&lt;/p&gt;
+&lt;p&gt;Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., &amp;quot;works? great!&amp;quot;).&lt;/p&gt;
+&lt;h2&gt;Conditions&lt;/h2&gt;
+&lt;p&gt;Conditions are objects that represent an exception (like instances of a subclass of Exception in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It's also possible to throw non-condition objects (maybe for non-local or early return?).&lt;/p&gt;
+&lt;h2&gt;Exception Handling&lt;/h2&gt;
+&lt;h3&gt;Catching&lt;/h3&gt;
+&lt;p&gt;A neat way to catch exceptions is with condition-case.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"&gt;condition-case&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;You give it an expression that may throw, give it the kinds of exceptions you are expecting and how to deal with each of them, and voila:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;; General usage
+(condition-case expression
+  ((kind1 kind2) (print &amp;quot;kind1 kind2&amp;quot;) ...)
+  ((kind) (print &amp;quot;kind&amp;quot;) ...)
+  ; con needn't be a condition
+  (con () (print &amp;quot;some other kind: &amp;quot; con) ...))
+
+; Concrete example
+(condition-case
+  (begin
+    (print &amp;quot;This is part of the expression&amp;quot;)
+    (car (/ 42 0)))
+  ((exn type)
+    (print &amp;quot;Wrong type&amp;quot;)
+    #f)
+  ((exn arithmetic)
+    (print &amp;quot;Some arithmetic error&amp;quot;)
+    0)
+  (con ()
+    (print con &amp;quot; ¯\\_(ツ)_/¯&amp;quot;)
+    con))
+
+;; prints:
+;; This is part of the expression
+;; Some arithmetic error
+;; =&amp;gt; 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If no exception is thrown when evaluating the expression, the value of the condition-case block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).&lt;/p&gt;
+&lt;p&gt;The condition cases should be ordered from more specific to less specific, because the first one to match is picked. For example, a condition of kind (exn type) is also of kind (exn), so the former should be above the latter.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(condition-case (car 'some-val)
+  ((exn)      (print &amp;quot;Wrong type&amp;quot;))
+  ((exn type) (print &amp;quot;This will never happen&amp;quot;)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Throwing&lt;/h3&gt;
+&lt;p&gt;If you want to throw something, use signal. There are also abort and raise, but I don't know why/when one should use them. In CHICKEN, SRFI-18's raise is just signal, but this may change in the future and might not even be the case in other implementations.&lt;/p&gt;
+&lt;p&gt;UPDATE:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The only thing I would change is that raise is more portable/standard than signal.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;-- jcowan on #chicken@libera.chat, 2022/10/15&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/signal"&gt;signal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/abort"&gt;abort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/srfi-18/raise"&gt;raise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://srfi.schemers.org/srfi-18/srfi-18.html"&gt;SRFI-18&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Related Topics of Interest&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Continuable and non-continuable exceptions;&lt;/li&gt;
+&lt;li&gt;How is all this implemented?&lt;/li&gt;
+&lt;li&gt;How to make a condition and how to get things out of a condition object.&lt;/li&gt;&lt;/ul&gt;</content>
+    <id>gemini://siiky.srht.site/scheme/exceptions.gmi</id>
+    <published>2022-10-15T00:00:00Z</published>
+    <title type="text">Exceptions (aka Conditions) in Scheme</title>
+    <updated>2019-08-13T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/scheme/exceptions.html" rel="alternate" type="text/html" title="Exceptions (aka Conditions) in Scheme" />
+    <link href="gemini://siiky.srht.site/scheme/exceptions.gmi" rel="alternate" type="text/gemtext" title="Exceptions (aka Conditions) in Scheme" />
+  </entry>
+  <entry>
+    <content type="html">
 &lt;h1&gt;Books list&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/12/21
@@ -3515,74 +3587,6 @@ but it's a good paragraph from a good book.&lt;/p&gt;
     <updated>2019-10-13T00:00:00Z</updated>
     <link href="https://siiky.srht.site/scheme/kless.html" rel="alternate" type="text/html" title="kless" />
     <link href="gemini://siiky.srht.site/scheme/kless.gmi" rel="alternate" type="text/gemtext" title="kless" />
-  </entry>
-  <entry>
-    <content type="html">
-&lt;h1&gt;Exceptions (aka Conditions) in Scheme&lt;/h1&gt;
-&lt;p&gt;@siiky
-2019/08/13
-2022/07/07&lt;/p&gt;
-&lt;p&gt;DISCLAIMER: I'm not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.&lt;/p&gt;
-&lt;p&gt;Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., &amp;quot;works? great!&amp;quot;).&lt;/p&gt;
-&lt;h2&gt;Conditions&lt;/h2&gt;
-&lt;p&gt;Conditions are objects that represent an exception (like instances of a subclass of Exception in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It's also possible to throw non-condition objects (maybe for non-local or early return?).&lt;/p&gt;
-&lt;h2&gt;Exception Handling&lt;/h2&gt;
-&lt;h3&gt;Catching&lt;/h3&gt;
-&lt;p&gt;A neat way to catch exceptions is with condition-case.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case"&gt;condition-case&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;You give it an expression that may throw, give it the kinds of exceptions you are expecting and how to deal with each of them, and voila:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;; General usage
-(condition-case expression
-  ((kind1 kind2) (print &amp;quot;kind1 kind2&amp;quot;) ...)
-  ((kind) (print &amp;quot;kind&amp;quot;) ...)
-  ; con needn't be a condition
-  (con () (print &amp;quot;some other kind: &amp;quot; con) ...))
-
-; Concrete example
-(condition-case
-  (begin
-    (print &amp;quot;This is part of the expression&amp;quot;)
-    (car (/ 42 0)))
-  ((exn type)
-    (print &amp;quot;Wrong type&amp;quot;)
-    #f)
-  ((exn arithmetic)
-    (print &amp;quot;Some arithmetic error&amp;quot;)
-    0)
-  (con ()
-    (print con &amp;quot; ¯\\_(ツ)_/¯&amp;quot;)
-    con))
-
-;; prints:
-;; This is part of the expression
-;; Some arithmetic error
-;; =&amp;gt; 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If no exception is thrown when evaluating the expression, the value of the condition-case block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).&lt;/p&gt;
-&lt;p&gt;The condition cases should be ordered from more specific to less specific, because the first one to match is picked. For example, a condition of kind (exn type) is also of kind (exn), so the former should be above the latter.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;(condition-case (car 'some-val)
-  ((exn)      (print &amp;quot;Wrong type&amp;quot;))
-  ((exn type) (print &amp;quot;This will never happen&amp;quot;)))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;Throwing&lt;/h3&gt;
-&lt;p&gt;If you want to throw something, use signal. There are also abort and raise, but I don't know why/when one should use them. In CHICKEN, SRFI-18's raise is just signal, but this may change in the future and might not even be the case in other implementations.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/signal"&gt;signal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/condition/abort"&gt;abort&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/srfi-18/raise"&gt;raise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://srfi.schemers.org/srfi-18/srfi-18.html"&gt;SRFI-18&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h2&gt;Related Topics of Interest&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Continuable and non-continuable exceptions;&lt;/li&gt;
-&lt;li&gt;How is all this implemented?&lt;/li&gt;
-&lt;li&gt;How to make a condition and how to get things out of a condition object.&lt;/li&gt;&lt;/ul&gt;</content>
-    <id>gemini://siiky.srht.site/scheme/exceptions.gmi</id>
-    <published>2022-07-07T00:00:00Z</published>
-    <title type="text">Exceptions (aka Conditions) in Scheme</title>
-    <updated>2019-08-13T00:00:00Z</updated>
-    <link href="https://siiky.srht.site/scheme/exceptions.html" rel="alternate" type="text/html" title="Exceptions (aka Conditions) in Scheme" />
-    <link href="gemini://siiky.srht.site/scheme/exceptions.gmi" rel="alternate" type="text/gemtext" title="Exceptions (aka Conditions) in Scheme" />
   </entry>
   <entry>
     <content type="html">
