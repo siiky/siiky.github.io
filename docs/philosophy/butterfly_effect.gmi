@@ -18,5 +18,5 @@ These are some of my goals in line with this idea:
 * [X] Stop using TIDAL
 * [X] Stop using Google Maps -- help get OSM good enough for everyday use
 * [x] Stop using FB messager (and WhatsApp) once and for all -- already using Signal (other than IRC & email) almost exclusively
-* [x] Move away from YT -- probably PeerTube or similar, or Invidious as last resort
-* [-] Move to Sourcehut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything
+* [X] Move away from YT -- probably PeerTube or similar, or Invidious as last resort
+* [X] Move to Sourcehut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything
