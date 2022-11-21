@@ -1,13 +1,16 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/10/07
+2022/11/21
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://hoseki.iensu.me/posts/moby-dick.gmi 2022-11-21 Moby Dick
+=> gemini://rawtext.club/~deerbard/glog/2022-11-21-uwaga-to-milosc.gmi 2022-11-21 miłość w uwadze / love in attention
 
 => gemini://gemini.sh0.xyz/log/2022-09-25.gmi 2022-10-07 What if The Sims were sentient?
 => gemini://midnight.pub/posts/1138 2022-10-07 Identity
