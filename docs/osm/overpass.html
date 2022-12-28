@@ -2,7 +2,7 @@
 <h1>Overpass</h1>
 <p>@siiky
 2022/03/26
-2022/07/12</p>
+2022/12/28</p>
 <p>Overpass is an interface used to query OSM data. Overpass Turbo is an Overpass web client you can use to query OSM data, export it, &amp;c.</p>
 <ul>
 <li><a href="https://overpass-turbo.eu">Overpass Turbo</a></li>
@@ -52,3 +52,77 @@ out skel qt;
 <p>I found Portugal's relation object, which is the relation 295480, and 3600000000+295480=3600295480.</p>
 <ul>
 <li><a href="https://www.openstreetmap.org/relation/295480">https://www.openstreetmap.org/relation/295480</a></li></ul>
+<h3>Color-coding OSM data by age</h3>
+<p>Based on this diary entry by SK53:</p>
+<ul>
+<li>
+<p><a href="https://www.openstreetmap.org/user/SK53/diary/400570">Colour-coding OSM data by age in OverpassTurbo</a></p>
+<p>[out:json][timeout:2500];
+(
+  nwr<a href="{{bbox}}">&quot;highway&quot;</a>;
+  nwr<a href="{{bbox}}">&quot;building&quot;</a>;
+);
+(._;&gt;;);
+out meta;</p>
+<p>{{style:</p>
+<p>node {
+  color: #00000000;
+  fill-color: #00000000;
+}</p>
+<p>way[@timestamp=~/2022.*/] {
+  color: #313695;
+  fill-color: #313695;
+}
+way[@timestamp=~/2021.*/] {
+  color: #4575B4;
+  fill-color: #4575B4;
+}
+way[@timestamp=~/2020.*/] {
+  color: #74ADD1;
+  fill-color: #74ADD1;
+}
+way[@timestamp=~/2019.*/] {
+  color: #ABD9E9;
+  fill-color: #ABD9E9;
+}
+way[@timestamp=~/2018.*/] {
+  color: #E0F3F8;
+  fill-color #E0F3F8;
+}
+way[@timestamp=~/2017.*/] {
+  color: #FFFFBF;
+  fill-color: #FFFFBF;
+}
+way[@timestamp=~/2016.*/] {
+  color: #FEE090;
+  fill-color: #FEE090;
+}
+way[@timestamp=~/2015.*/] {
+  color: #FDAE61;
+  fill-color: #FDAE61;
+}
+way[@timestamp=~/2014.*/] {
+  color: #F46D43;
+  fill-color: #F46D43;
+}
+way[@timestamp=~/2013.*/] {
+  color: #D73027;
+  fill-color: #D73027;
+}
+way[@timestamp=~/2012.*/] {
+  color: #A50026;
+  fill-color: #A50026;
+}
+way[@timestamp=~/2011.*/] {
+  color: #A50026;
+  fill-color: #A50026;
+}
+way[@timestamp=~/2010.*/] {
+  color: #A50026;
+  fill-color: #A50026;
+}
+way[@timestamp=~/200.*/] {
+  color: #A50026;
+  fill-color: #A50026;
+}
+}}</p></li></ul>
