@@ -134,7 +134,7 @@ cv-en.pdf: cv-en.md
 	$(GMI2MD) $< | $(MD2HTML) $@
 
 %.html: %.md
-	$(MD2HTML) < $< > $@
+	$(MD2HTML) $@ < $<
 
 %.html: %.org
 	pandoc -f org -t html $< -o $@
