@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head><meta charset="utf-8"/></head>
+<body>
 
 <h1>Gemini IPFS gateway</h1>
 <p>@siiky
@@ -65,3 +69,5 @@ chicken-install
 <h2>Architecture</h2>
 <p>Not much to say about it. The gateway accepts Gemini requests, interacts with the Kubo node through its RPC API (resolve IPNS CIDs/names if necessary, ask the type of a UnixFS object, and read the actual content), and sends back results.</p>
 <p>The post so far described how the gateway works with the ipfs-request-handler, which dynamically accepts an IPFS/IPNS CID/Name and serves content the user asks for. There's also constant-scheme/root-cid which, when given the scheme (ipfs/ipns) and CID/Name, works like any other Gemini server, serving content from that CID/Name tree only! This latter would be a pretty cool way to publish content. Similar to SourceHut pages but instead of sending a tarball with the content you send the CID/Name of the content.</p>
+</body>
+</html>
