@@ -1,13 +1,15 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2022/11/21
+2023-01-06
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://dece.space/notes/20221202-pasta.gmi 2023-01-06 You don't need to keep the fire on to cook pasta
 
 => gemini://hoseki.iensu.me/posts/moby-dick.gmi 2022-11-21 Moby Dick
 => gemini://rawtext.club/~deerbard/glog/2022-11-21-uwaga-to-milosc.gmi 2022-11-21 miłość w uwadze / love in attention
