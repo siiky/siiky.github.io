@@ -1,5 +1,6 @@
 #!/usr/bin/env -S csi -s
 (import
+  chicken.base
   chicken.file
   chicken.io
   chicken.pathname
@@ -69,7 +70,7 @@
       writer: _)
     ((spy "IPFS add result: ") _)
 
-    (find (-> (alist-ref 'Name _ eq? "/")
+    (find (-> (alist-ref 'Name _ eq? (symbol->string (gensym)))
               (string=? _ root))
           _)
     ((spy "Root entry: ") _)

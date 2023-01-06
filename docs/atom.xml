@@ -8,9 +8,190 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2022-03-26T00:00:00Z</updated>
+  <updated>2023-01-06T00:00:00Z</updated>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;村上 春樹、「夜中の汽笛について、あるいは物語の効用について」&lt;/h1&gt;
+&lt;p&gt;siiky
+2023/01/06
+2023/01/06&lt;/p&gt;
+&lt;p&gt;何月か前に「New Penguin Parallel Text: Short Stories in Japanese」という本を買った。昨日やっと最初の話を読んだ。
+意味はわかったと思う。英語の翻訳の一つ二つの細かい点にすれ違うが、大体いい。日本語の書写は全部で次に書いてある。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;女の子が男の子に質問する。「あなたはどれくらい私のことを好き？」&lt;/p&gt;
+&lt;p&gt;少年はしばらく考えてから、静かな声で、「夜中の汽笛くらい」と答える。&lt;/p&gt;
+&lt;p&gt;少女は黙って話の続きを待つ。そこにはきっと何かお話があるに違いない。&lt;/p&gt;
+&lt;p&gt;「あるとき、夜中にふと目が覚める」と彼は話し始める。「正確な時刻はわからない。だぶん二時か三時か、そんなものだと思う。でも何時かというのはそれほど重要なことじゃない。とにかくそれは真夜中で、僕はまったくのひとりぼっちで、まわりには誰もいない。いいかい、想像してみてほしい。あたりは真っ暗で、なにも見えないな。そして僕は突然、自分が知っている誰からも、自分が知っているどこの場所からも、信じられないくらい遠く隔てられ、引き離されているんだと感じる。自分がこの広い世界の中で誰からも愛されず、誰からも声をかけられず、誰にも思い出してももらえない存在になってしまっていることがわかる。たとえ僕がそのまま消えてしまったとしても誰も気付かないだろう。それはまるで厚い鉄の箱に詰められて、深い海の底に沈められたような気持ちなんだよ。気圧のせいで心臓が痛くて、そのままふたつにびりびりと張り裂けてしまいそうなーーそういう気持ちってわかるかな？」&lt;/p&gt;
+&lt;p&gt;少女はうなずく。たぶんわかると思う。&lt;/p&gt;
+&lt;p&gt;少年は続ける。「それはおそらく人間が生きている中で経験するいちばん辛いことのひとつなんだ。ほんとうにそのまま死んでしまいたいくらい悲しくて辛い気持ちだ。いや、そうじゃない、『死んでしまいたい』というようなことじゃなくて、そのまま放っておけば、箱の中の空気薄くなって『実際に』死んでしまうはずだ。それは『たとえ』なんかじゃない。ほんとうのことなんだよ。それが真夜中にひとりぼっちで、目が覚ますことの意味なんだ。それもわかる？」&lt;/p&gt;
+&lt;p&gt;少女はまた黙ってうなずく。少年は少し間を置く。&lt;/p&gt;
+&lt;p&gt;「でもそのときすっと遠くで汽笛の音が聞こえる。それはほんとうにほんとうに遠い汽笛なんだ。いったいどこに鉄道の線路なんかがあるのか、僕にもわからない。それくらい遠くなんだ。聞こえたか聞こえないかというくらいの音だ。でもそれが汽車の汽笛であることは僕にはわかる。間違いない。僕は暗闇の中でじっと耳を澄ます。そしてもう一度、その汽笛を耳にする。それから僕の心臓は痛むことことをやめる。時計の針は動き始める。鉄の箱は海面へ向けてゆっくり浮かび上がっていく。それはみんなその小さな汽笛のせいなんだね。聞こえるか聞こえないか、それくらい微かな汽笛のせいなんだ。そして僕はその汽笛と同じくらい君のことを愛している」&lt;/p&gt;
+&lt;p&gt;そこで少年の短い物語は終わる。今度は少女が自分の物語を語り始める。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    <id>gemini://siiky.srht.site/nihongo/yonaka-no-kiteki.gmi</id>
+    <published>2023-01-06T00:00:00Z</published>
+    <title type="text">村上 春樹、「夜中の汽笛について、あるいは物語の効用について」</title>
+    <updated>2023-01-06T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/nihongo/yonaka-no-kiteki.html" rel="alternate" type="text/html" title="村上 春樹、「夜中の汽笛について、あるいは物語の効用について」" />
+    <link href="gemini://siiky.srht.site/nihongo/yonaka-no-kiteki.gmi" rel="alternate" type="text/gemtext" title="村上 春樹、「夜中の汽笛について、あるいは物語の効用について」" />
+  </entry>
+  <entry>
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Books list&lt;/h1&gt;
+&lt;p&gt;@siiky
+2020/12/21
+2023/01/06&lt;/p&gt;
+&lt;p&gt;These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org"&gt;Gutenberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gutenberg.net.au"&gt;Gutenberg Australia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org"&gt;Standard Ebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../care/list.html"&gt;Care list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;For some of them I don't have a good link so I may use a not so great one, like to Goodreads. Sorry in advance. I'll mark them &amp;quot;DUB&amp;quot;ious as a warning.&lt;/p&gt;
+&lt;p&gt;Please let me know if you find any of the links not working.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h1&gt;Reading&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../care/list.html"&gt;Mark Graham &amp;amp; Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Astonishing_Hypothesis"&gt;Francis Crick, The Astonishing Hypothesis: 2021/07/30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gameprogrammingpatterns.com"&gt;Bob Nystrom, Game Programming Patterns: 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mitpress.mit.edu/books/little-typer"&gt;Daniel P. Friedman &amp;amp; David Thrane Christiansen, The Little Typer: 2021/02/06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp"&gt;James Edward Gray &amp;amp; Bruce A. Tate, Designing Elixir Systems With OTP: 2021/05/20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://theanarchistlibrary.org/library/anonymous-desert"&gt;Anonymous, Desert: 2022/07/15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tokipona.org"&gt;Sonja Lang, Toki Pona: The Language of Good: 2022/09/22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade"&gt;Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1915"&gt;Jerome K. Jerome, The Second Thoughts of an Idle Fellow: 2022/11/17&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h1&gt;Read&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Freshwater_(novel)"&gt;Akwaeke Emezi, Freshwater: 2021/07/30~2021/08/23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/A_Happy_Death"&gt;Albert Camus, A Happy Death: 2021/07/21~2021/07/28&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://libcom.org/article/bread-and-freedom-albert-camus"&gt;(DUB) Albert Camus, Bread and Freedom: 2020/12/23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Albert_Camus"&gt;Albert Camus, Create Dangerously: 2020/12/21~2020/12/22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Albert_Camus"&gt;Albert Camus, Defence of Intelligence: 2020/12/22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Plague_(novel)"&gt;Albert Camus, The Plague: 2022/04/15~2022/06/15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)"&gt;Albert Camus, The Stranger: 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Brave_New_World"&gt;Aldous Huxley, Brave New World: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Personal-Finance-101/Alfred-Mill/Adams-101/9781507214350"&gt;Alfred Mill, Personal Finance 101: 2021/07/09~2021/07/18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.goodreads.com/book/show/44003026-manipulation"&gt;(DUB) Arthur Horn, Manipulation: Dark Psychology to Manipulate and Control People: 2021/05/29~2021/06/01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="bill_gates.how_to_avoid_a_climate_disaster.html"&gt;Bill Gates, How to Avoid a Climate Disaster: 2022/01/07~2022/04/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Sex_at_Dawn"&gt;Christopher Ryan &amp;amp; Cacilda Jethá, Sex at Dawn: 2021/06/08~2021/07/29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)"&gt;Douglas Adams, The Hitchhiker's Guide to the Galaxy: 2021/06/13~2021/07/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Restaurant_at_the_End_of_the_Universe"&gt;Douglas Adams, The Restaurant at the End of the Universe: 2021/11/14~2022/01/06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Black Cat: 2022/05/30~2022/05/30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Murders in the Rue Morgue: 2022/05/17~2022/05/17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Mystery of Marie Rogêt: 2022/05/29~2022/05/30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Gold-Bug: 2022/09/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, Ligeia: 2022/09/17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter"&gt;Epictetus, The Enchiridion: 2021/04/14~2021/04/16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gutenberg.net.au/plusfifty-n-z.html#orwell"&gt;George Orwell, 1984: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gutenberg.net.au/plusfifty-n-z.html#orwell"&gt;George Orwell, Animal Farm: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/A_Little_Life"&gt;Hanya Yanagihara, A Little Life: 2020~2021/03/07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Henry David Thoreau, Walden: 2021/06/07~2021/07/29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/The-Courage-to-Be-Disliked/Ichiro-Kishimi/9781501197277"&gt;Ichiro Kishimi &amp;amp; Fumitake Koga, The Courage to Be Disliked: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"&gt;J. D. Salinger, The Catcher in the Rye: 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/849"&gt;Jerome K. Jerome, Idle Thoughts of an Idle Fellow: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.independent.co.uk/arts-entertainment/short-story-blue-tigers-1194505.html"&gt;Jorge Luis Borges, Blue Tigers: 2022/05/30~2022/05/30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore"&gt;Karl Marx &amp;amp; Friedrich Engels, The Communist Manifesto: 2021/04/28~2021/05/03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Never_Let_Me_Go_(novel)"&gt;Kazuo Ishiguro, Never Let Me Go: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Remains_of_the_Day"&gt;Kazuo Ishiguro, The Remains of the Day: 2020/12/14~2020/12/29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge"&gt;Laozi, Tao Te Ching: 2021/04/10~2021/04/14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude"&gt;Leo Tolstoy, A Confession: 2021/04/20~2021/04/27&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden"&gt;Ludwig Wittgenstein, Tractatus Logico-Philosophicus: 2021/05/06~2021/06/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.feedbooks.com/userbook/3501/tokyo-zero"&gt;Marc Horne, Tokyo Zero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.goodreads.com/en/book/show/29588907"&gt;(DUB) Michael T. Stevens, The Art of Psychological Warfare: 2022/05/09~2022/05/16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Budgeting-101/Michele-Cagan/Adams-101/9781507209073"&gt;Michele Cagan, Budgeting 101: 2021/08/24~2021/09/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Fooled_by_Randomness"&gt;Nassim Nicholas Taleb, Fooled by Randomness: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott"&gt;Niccolò Machiavelli, The Prince: 2021/07/30~2021/08/23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, A May Night: 2021/03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, Old-Fashioned Farmers: 2021/06/11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, St. John's Eve: 2021/03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, Taras Bulba: 2021/06/12~2021/06/24&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, The Night of Christmas Eve: 2021/05/31~2021/06/07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, The Viy: 2021/08/24~2021/08/28&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Philosophy-101/Paul-Kleinman/Adams-101/9781440567674"&gt;Paul Kleinman, Philosophy 101: 2020/12/20~2021/04/08&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Psych-101/Paul-Kleinman/Adams-101/9781440543906"&gt;Paul Kleinman, Psych 101: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Religion-101/Peter-Archer/Adams-101/9781440572630"&gt;Peter Archer, Religion 101: 2021/03/29~2021/05/28&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.rifters.com/real/Behemoth.htm"&gt;Peter Watts, Behemoth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.rifters.com/real/Blindsight.htm"&gt;Peter Watts, Blindsight: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rifters.com/real/MAELSTROM.htm"&gt;Peter Watts, Maelstrom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.rifters.com/real/STARFISH.htm"&gt;Peter Watts, Starfish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Beyond Lies the Wub: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Beyond the Door: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Mr. Spaceship: 2022/09/20~2022/09/21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Piper in the Woods: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Second Variety: 2021/07/06~2021/07/09&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Crystal Crypt: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Defenders: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Eyes Have It: 2022/09/19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Gun: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Skull: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Variable Man: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Tony and the Beetles: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Adjustment_Team"&gt;Philip K. Dick, Adjustment Team: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Philip_K._Dick"&gt;Philip K. Dick, Of Withered Apples: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Golden_Man"&gt;Philip K. Dick, The Golden Man: 2021/05/30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1677"&gt;Plato, Alcibiades II: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1676"&gt;Plato, Alcibiades I: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1656"&gt;Plato, Apology: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1580"&gt;Plato, Charmides: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1616"&gt;Plato, Cratylus: 2022/02/22~2022/03/09&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1571"&gt;Plato, Critias: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1657"&gt;Plato, Crito: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1681"&gt;Plato, Eryxias: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1642"&gt;Plato, Euthyphro: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1672"&gt;Plato, Gorgias: 2021~2021/03/13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1635"&gt;Plato, Ion: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1673"&gt;Plato, Lesser Hippias: 2021/12/29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1572"&gt;Plato, Timaeus: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Discourse_on_the_Method"&gt;René Descartes, Discourse on the Method: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Principles_of_Philosophy"&gt;René Descartes, Selections from the Principles of Philosophy: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde"&gt;Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Shining_(novel)"&gt;Stephen King, The Shining: 2019~2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stevetoutonghi.com/join"&gt;Steve Toutonghi, Join: 2021/08/31~2021/11/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles"&gt;Sun Tzu, The Art of War&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://susankayequinn.com/books/the-legacy-human"&gt;Susan Kaye Quinn, The Legacy Human: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.smashwords.com/books/view/234617"&gt;Travis Bughi, Beyond the Plains: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;Victor Hugo, Les Misérables: 2020/01/01~2021/06/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/voltaire/candide/the-modern-library"&gt;Voltaire, Candide: 2021/09/06~2021/10/04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/2445"&gt;Voltaire, Letters on England: 2020~2021/01/21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/30123"&gt;Voltaire, Micromegas: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/4683"&gt;Voltaire, Socrates: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000311/card3693.html"&gt;宮本 百合子, 私の見た米国の少年: 2021/06/07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000081/card43736.html"&gt;宮沢 賢治, 『注文の多い料理店』序: 2021/06/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../nihongo/yonaka-no-kiteki.html"&gt;村上 春樹, 夜中の汽笛について、あるいは物語の効用について: 2023/01/05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/001584/card53182.html"&gt;秋田 雨雀, 三人の百姓: 2021/06/01~2021/06/02&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000800/card53186.html"&gt;水上 滝太郎, 大人の眼と子供の眼: 2021&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h1&gt;Dropped&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.smashwords.com/books/view/273775"&gt;Travis Bughi, The Forest of Angor: 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Guillaume_Pitron"&gt;Guillaume Pitron, The Rare Metals War: 2020&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    <id>gemini://siiky.srht.site/books/list.gmi</id>
+    <published>2023-01-06T00:00:00Z</published>
+    <title type="text">Books list</title>
+    <updated>2020-12-21T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/books/list.html" rel="alternate" type="text/html" title="Books list" />
+    <link href="gemini://siiky.srht.site/books/list.gmi" rel="alternate" type="text/gemtext" title="Books list" />
+  </entry>
+  <entry>
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Overpass&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/03/26
@@ -137,7 +318,10 @@ way[@timestamp=~/200.*/] {
   color: #A50026;
   fill-color: #A50026;
 }
-}}&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+}}&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/osm/overpass.gmi</id>
     <published>2022-12-28T00:00:00Z</published>
     <title type="text">Overpass</title>
@@ -146,7 +330,11 @@ way[@timestamp=~/200.*/] {
     <link href="gemini://siiky.srht.site/osm/overpass.gmi" rel="alternate" type="text/gemtext" title="Overpass" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Trolley problem&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/11/20
@@ -189,7 +377,10 @@ way[@timestamp=~/200.*/] {
 &lt;p&gt;All of them without exception were very clearly and visibly perturbed by the experience.&lt;/p&gt;
 &lt;p&gt;And these were the results: two switched and five didn't. The two that did switch were even more perturbed while and right after switching. The first had their hands shaking. And the second started crying while reflecting on it, after they'd already been told it was only an experiment!&lt;/p&gt;
 &lt;p&gt;The most affected of all was the second to switch, the one who started crying. They said they thought of the families of both groups of people and all. Must have been their trigger.&lt;/p&gt;
-&lt;p&gt;The ones that didn't switch gave reasons such as that they expected the workers to eventually notice the train; they expected the train to have sensors and that the train would eventually stop before hitting anyone; they were really terrified and couldn't act.&lt;/p&gt;</content>
+&lt;p&gt;The ones that didn't switch gave reasons such as that they expected the workers to eventually notice the train; they expected the train to have sensors and that the train would eventually stop before hitting anyone; they were really terrified and couldn't act.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/trolley-problem.gmi</id>
     <published>2022-11-20T00:00:00Z</published>
     <title type="text">Trolley problem</title>
@@ -198,144 +389,11 @@ way[@timestamp=~/200.*/] {
     <link href="gemini://siiky.srht.site/philosophy/trolley-problem.gmi" rel="alternate" type="text/gemtext" title="Trolley problem" />
   </entry>
   <entry>
-    <content type="html">
-&lt;h1&gt;Books list&lt;/h1&gt;
-&lt;p&gt;@siiky
-2020/12/21
-2022/11/20&lt;/p&gt;
-&lt;p&gt;These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org"&gt;Gutenberg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gutenberg.net.au"&gt;Gutenberg Australia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org"&gt;Standard Ebooks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../care/list.html"&gt;Care list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;For some of them I don't have a good link so I may use a not so great one, like to Goodreads. Sorry in advance. I'll mark them &amp;quot;DUB&amp;quot;ious as a warning.&lt;/p&gt;
-&lt;p&gt;Please let me know if you find any of the links not working.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h1&gt;Reading&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="../care/list.html"&gt;Mark Graham &amp;amp; Martin Dittus, Geographies of Digital Exclusion: Data and Inequality: 2022/01/22&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Astonishing_Hypothesis"&gt;Francis Crick, The Astonishing Hypothesis: 2021/07/30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gameprogrammingpatterns.com"&gt;Bob Nystrom, Game Programming Patterns: 2021&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://mitpress.mit.edu/books/little-typer"&gt;Daniel P. Friedman &amp;amp; David Thrane Christiansen, The Little Typer: 2021/02/06&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp"&gt;James Edward Gray &amp;amp; Bruce A. Tate, Designing Elixir Systems With OTP: 2021/05/20&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://theanarchistlibrary.org/library/anonymous-desert"&gt;Anonymous, Desert: 2022/07/15&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://tokipona.org"&gt;Sonja Lang, Toki Pona: The Language of Good: 2022/09/22&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade"&gt;Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1915"&gt;Jerome K. Jerome, The Second Thoughts of an Idle Fellow: 2022/11/17&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h1&gt;Read&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Freshwater_(novel)"&gt;Akwaeke Emezi, Freshwater: 2021/07/30~2021/08/23&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/A_Happy_Death"&gt;Albert Camus, A Happy Death: 2021/07/21~2021/07/28&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://libcom.org/article/bread-and-freedom-albert-camus"&gt;(DUB) Albert Camus, Bread and Freedom: 2020/12/23&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Albert_Camus"&gt;Albert Camus, Create Dangerously: 2020/12/21~2020/12/22&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Albert_Camus"&gt;Albert Camus, Defence of Intelligence: 2020/12/22&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Plague_(novel)"&gt;Albert Camus, The Plague: 2022/04/15~2022/06/15&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)"&gt;Albert Camus, The Stranger: 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Brave_New_World"&gt;Aldous Huxley, Brave New World: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Personal-Finance-101/Alfred-Mill/Adams-101/9781507214350"&gt;Alfred Mill, Personal Finance 101: 2021/07/09~2021/07/18&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.goodreads.com/book/show/44003026-manipulation"&gt;(DUB) Arthur Horn, Manipulation: Dark Psychology to Manipulate and Control People: 2021/05/29~2021/06/01&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="bill_gates.how_to_avoid_a_climate_disaster.html"&gt;Bill Gates, How to Avoid a Climate Disaster: 2022/01/07~2022/04/05&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Sex_at_Dawn"&gt;Christopher Ryan &amp;amp; Cacilda Jethá, Sex at Dawn: 2021/06/08~2021/07/29&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)"&gt;Douglas Adams, The Hitchhiker's Guide to the Galaxy: 2021/06/13~2021/07/05&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Restaurant_at_the_End_of_the_Universe"&gt;Douglas Adams, The Restaurant at the End of the Universe: 2021/11/14~2022/01/06&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Black Cat: 2022/05/30~2022/05/30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Murders in the Rue Morgue: 2022/05/17~2022/05/17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Mystery of Marie Rogêt: 2022/05/29~2022/05/30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, The Gold-Bug: 2022/09/10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction"&gt;Edgar Allan Poe, Ligeia: 2022/09/17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter"&gt;Epictetus, The Enchiridion: 2021/04/14~2021/04/16&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gutenberg.net.au/plusfifty-n-z.html#orwell"&gt;George Orwell, 1984: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gutenberg.net.au/plusfifty-n-z.html#orwell"&gt;George Orwell, Animal Farm: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/A_Little_Life"&gt;Hanya Yanagihara, A Little Life: 2020~2021/03/07&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Henry David Thoreau, Walden: 2021/06/07~2021/07/29&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/The-Courage-to-Be-Disliked/Ichiro-Kishimi/9781501197277"&gt;Ichiro Kishimi &amp;amp; Fumitake Koga, The Courage to Be Disliked: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"&gt;J. D. Salinger, The Catcher in the Rye: 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/849"&gt;Jerome K. Jerome, Idle Thoughts of an Idle Fellow: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.independent.co.uk/arts-entertainment/short-story-blue-tigers-1194505.html"&gt;Jorge Luis Borges, Blue Tigers: 2022/05/30~2022/05/30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore"&gt;Karl Marx &amp;amp; Friedrich Engels, The Communist Manifesto: 2021/04/28~2021/05/03&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Never_Let_Me_Go_(novel)"&gt;Kazuo Ishiguro, Never Let Me Go: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Remains_of_the_Day"&gt;Kazuo Ishiguro, The Remains of the Day: 2020/12/14~2020/12/29&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge"&gt;Laozi, Tao Te Ching: 2021/04/10~2021/04/14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude"&gt;Leo Tolstoy, A Confession: 2021/04/20~2021/04/27&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden"&gt;Ludwig Wittgenstein, Tractatus Logico-Philosophicus: 2021/05/06~2021/06/05&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.feedbooks.com/userbook/3501/tokyo-zero"&gt;Marc Horne, Tokyo Zero&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.goodreads.com/en/book/show/29588907"&gt;(DUB) Michael T. Stevens, The Art of Psychological Warfare: 2022/05/09~2022/05/16&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Budgeting-101/Michele-Cagan/Adams-101/9781507209073"&gt;Michele Cagan, Budgeting 101: 2021/08/24~2021/09/05&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Fooled_by_Randomness"&gt;Nassim Nicholas Taleb, Fooled by Randomness: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott"&gt;Niccolò Machiavelli, The Prince: 2021/07/30~2021/08/23&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, A May Night: 2021/03&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, Old-Fashioned Farmers: 2021/06/11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, St. John's Eve: 2021/03&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, Taras Bulba: 2021/06/12~2021/06/24&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, The Night of Christmas Eve: 2021/05/31~2021/06/07&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy"&gt;Nikolai Gogol, The Viy: 2021/08/24~2021/08/28&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Philosophy-101/Paul-Kleinman/Adams-101/9781440567674"&gt;Paul Kleinman, Philosophy 101: 2020/12/20~2021/04/08&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Psych-101/Paul-Kleinman/Adams-101/9781440543906"&gt;Paul Kleinman, Psych 101: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.simonandschuster.com/books/Religion-101/Peter-Archer/Adams-101/9781440572630"&gt;Peter Archer, Religion 101: 2021/03/29~2021/05/28&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.rifters.com/real/Behemoth.htm"&gt;Peter Watts, Behemoth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.rifters.com/real/Blindsight.htm"&gt;Peter Watts, Blindsight: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://rifters.com/real/MAELSTROM.htm"&gt;Peter Watts, Maelstrom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.rifters.com/real/STARFISH.htm"&gt;Peter Watts, Starfish&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Beyond Lies the Wub: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Beyond the Door: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Mr. Spaceship: 2022/09/20~2022/09/21&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Piper in the Woods: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Second Variety: 2021/07/06~2021/07/09&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Crystal Crypt: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Defenders: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Eyes Have It: 2022/09/19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Gun: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Skull: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, The Variable Man: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/philip-k-dick/short-fiction"&gt;Philip K. Dick, Tony and the Beetles: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Adjustment_Team"&gt;Philip K. Dick, Adjustment Team: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Philip_K._Dick"&gt;Philip K. Dick, Of Withered Apples: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Golden_Man"&gt;Philip K. Dick, The Golden Man: 2021/05/30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1677"&gt;Plato, Alcibiades II: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1676"&gt;Plato, Alcibiades I: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1656"&gt;Plato, Apology: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1580"&gt;Plato, Charmides: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1616"&gt;Plato, Cratylus: 2022/02/22~2022/03/09&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1571"&gt;Plato, Critias: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1657"&gt;Plato, Crito: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1681"&gt;Plato, Eryxias: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1642"&gt;Plato, Euthyphro: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1672"&gt;Plato, Gorgias: 2021~2021/03/13&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1635"&gt;Plato, Ion: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1673"&gt;Plato, Lesser Hippias: 2021/12/29&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1572"&gt;Plato, Timaeus: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Discourse_on_the_Method"&gt;René Descartes, Discourse on the Method: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Principles_of_Philosophy"&gt;René Descartes, Selections from the Principles of Philosophy: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde"&gt;Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Shining_(novel)"&gt;Stephen King, The Shining: 2019~2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.stevetoutonghi.com/join"&gt;Steve Toutonghi, Join: 2021/08/31~2021/11/10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles"&gt;Sun Tzu, The Art of War&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://susankayequinn.com/books/the-legacy-human"&gt;Susan Kaye Quinn, The Legacy Human: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.smashwords.com/books/view/234617"&gt;Travis Bughi, Beyond the Plains: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;Victor Hugo, Les Misérables: 2020/01/01~2021/06/10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/voltaire/candide/the-modern-library"&gt;Voltaire, Candide: 2021/09/06~2021/10/04&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/2445"&gt;Voltaire, Letters on England: 2020~2021/01/21&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/30123"&gt;Voltaire, Micromegas: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/4683"&gt;Voltaire, Socrates: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000311/card3693.html"&gt;宮本 百合子, 私の見た米国の少年: 2021/06/07&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000081/card43736.html"&gt;宮沢 賢治, 『注文の多い料理店』序: 2021/06/05&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/000800/card53186.html"&gt;水上 滝太郎, 大人の眼と子供の眼: 2021&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aozora.gr.jp/cards/001584/card53182.html"&gt;秋田 雨雀, 三人の百姓: 2021/06/01~2021/06/02&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h1&gt;Dropped&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.smashwords.com/books/view/273775"&gt;Travis Bughi, The Forest of Angor: 2020&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Guillaume_Pitron"&gt;Guillaume Pitron, The Rare Metals War: 2020&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
-    <id>gemini://siiky.srht.site/books/list.gmi</id>
-    <published>2022-11-20T00:00:00Z</published>
-    <title type="text">Books list</title>
-    <updated>2020-12-21T00:00:00Z</updated>
-    <link href="https://siiky.srht.site/books/list.html" rel="alternate" type="text/html" title="Books list" />
-    <link href="gemini://siiky.srht.site/books/list.gmi" rel="alternate" type="text/gemtext" title="Books list" />
-  </entry>
-  <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Pagat Archive&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022-11-09
@@ -343,7 +401,7 @@ way[@timestamp=~/200.*/] {
 &lt;p&gt;Sent an email asking for permission to make a mirror/archive. This time it was for Pagat, a site with tons and tons of card games. And like last time, permission was given provided that I don't make any archives/mirrors public. Fair enough!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.pagat.com"&gt;Pagat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="kB45oC/mirrors.gmi"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="mirrors.html"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;My Raspberry Pi has been busy downloading the whole thing:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;wget -o download.log -w 30 --random-wait --mirror -k -K -p -i links.txt
 &lt;/code&gt;&lt;/pre&gt;
@@ -364,7 +422,10 @@ $ find www.pagat.com/ -type f -iname '*.html' | wc -l
 $ du -bchs www.pagat.com/
 66M www.pagat.com/
 66M total
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/pagat-archive.gmi</id>
     <published>2022-11-09T00:00:00Z</published>
     <title type="text">Pagat Archive</title>
@@ -373,7 +434,11 @@ $ du -bchs www.pagat.com/
     <link href="gemini://siiky.srht.site/kB45oC/pagat-archive.gmi" rel="alternate" type="text/gemtext" title="Pagat Archive" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Exceptions (aka Conditions) in Scheme&lt;/h1&gt;
 &lt;p&gt;@siiky
 2019/08/13
@@ -436,7 +501,10 @@ $ du -bchs www.pagat.com/
 &lt;ul&gt;
 &lt;li&gt;Continuable and non-continuable exceptions;&lt;/li&gt;
 &lt;li&gt;How is all this implemented?&lt;/li&gt;
-&lt;li&gt;How to make a condition and how to get things out of a condition object.&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;How to make a condition and how to get things out of a condition object.&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/exceptions.gmi</id>
     <published>2022-10-15T00:00:00Z</published>
     <title type="text">Exceptions (aka Conditions) in Scheme</title>
@@ -445,7 +513,11 @@ $ du -bchs www.pagat.com/
     <link href="gemini://siiky.srht.site/scheme/exceptions.gmi" rel="alternate" type="text/gemtext" title="Exceptions (aka Conditions) in Scheme" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Far vs Around Games&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022-09-20
@@ -454,7 +526,10 @@ $ du -bchs www.pagat.com/
 &lt;p&gt;Being able to play with someone next to you (e.g. on the same phone, through bluetooth, ...) is something so much into the remote past by now that it would probably be revolutionary again today. I wonder if anyone would notice that it wasn't anything actually new, that this was the way to play games with others before the internet became ubiquitous.&lt;/p&gt;
 &lt;p&gt;In my (not that distant) past, I remember playing Worms World Party on my N-Gage with my cousins. We'd drain the battery in a couple of hours, charge the battery, rinse and repeat. Worms is one of my favorite games because of these times.&lt;/p&gt;
 &lt;p&gt;For last year's xmas I bought a controller and Worms WMD on Steam. It was the first time re-playing Worms in many years! I liked it a lot. Everything is still funky, everything was pretty much as I remembered it from my N-Gage, just as fun! Maybe except for the vehicles and stationary weapons -- kinda cool, but not as fun as a good old bat to the face or a Holy Grenade. We also bought Carcassonne (our first real boardgame (except for Monopoly, but please...)) and it was awesome.&lt;/p&gt;
-&lt;p&gt;Nowadays, the only games I have on my phone are lichess -- that I use mostly offline to play with others -- and Soko++ -- still haven't beaten all Microban levels!&lt;/p&gt;</content>
+&lt;p&gt;Nowadays, the only games I have on my phone are lichess -- that I use mostly offline to play with others -- and Soko++ -- still haven't beaten all Microban levels!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/far-vs-around-games.gmi</id>
     <published>2022-09-20T00:00:00Z</published>
     <title type="text">Far vs Around Games</title>
@@ -463,7 +538,11 @@ $ du -bchs www.pagat.com/
     <link href="gemini://siiky.srht.site/kB45oC/far-vs-around-games.gmi" rel="alternate" type="text/gemtext" title="Far vs Around Games" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;NHK Easy News&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/09/19
@@ -480,7 +559,10 @@ $ du -bchs www.pagat.com/
 &lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013804421000/k10013804421000.html"&gt;「サイボーグ昆虫」　離れた所から昆虫を動かす研究&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;面白い記事もあった:一番安い寿司ざらの値段は110円から115円にするって。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013807081000/k10013807081000.html"&gt;「くら寿司」　1皿110円から115円に値段を上げる&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://www3.nhk.or.jp/news/easy/k10013807081000/k10013807081000.html"&gt;「くら寿司」　1皿110円から115円に値段を上げる&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/nihongo/nhk-easy-news.gmi</id>
     <published>2022-09-20T00:00:00Z</published>
     <title type="text">NHK Easy News</title>
@@ -489,7 +571,11 @@ $ du -bchs www.pagat.com/
     <link href="gemini://siiky.srht.site/nihongo/nhk-easy-news.gmi" rel="alternate" type="text/gemtext" title="NHK Easy News" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RE: Technology and Conscience&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022-09-19
@@ -503,7 +589,10 @@ $ du -bchs www.pagat.com/
 &lt;p&gt;Or, if I'm walking down the street next to my rottweiler, pit bull, or german shepherd, I'm VERY unlikely to get attacked/robbed/w.e. and that's a good thing (for me, at least)! Having my dogs with me doesn't imply me telling them to attack randos on the street either. (Pretending for a second that dogs are vicious biting machines... It's a damn shame these dogs are conditioned and trained to be very aggressive -- a topic for another day)&lt;/p&gt;
 &lt;p&gt;Related:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="knives.html"&gt;On knives and their uses&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="knives.html"&gt;On knives and their uses&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/re-tech-and-conscience.gmi</id>
     <published>2022-09-19T00:00:00Z</published>
     <title type="text">RE: Technology and Conscience</title>
@@ -512,7 +601,11 @@ $ du -bchs www.pagat.com/
     <link href="gemini://siiky.srht.site/philosophy/re-tech-and-conscience.gmi" rel="alternate" type="text/gemtext" title="RE: Technology and Conscience" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;On knives and their uses&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022-09-18
@@ -538,7 +631,10 @@ Still, though, I don't like the idea of being complicit in the NFT/Web3 hype. As
 &lt;li&gt;&lt;a href="../kB45oC/mirrors.html"&gt;Content-based Mirrors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;Related:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="re-tech-and-conscience.html"&gt;RE: Technology and Conscience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="re-tech-and-conscience.html"&gt;RE: Technology and Conscience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/knives.gmi</id>
     <published>2022-09-18T00:00:00Z</published>
     <title type="text">On knives and their uses</title>
@@ -547,7 +643,11 @@ Still, though, I don't like the idea of being complicit in the NFT/Web3 hype. As
     <link href="gemini://siiky.srht.site/philosophy/knives.gmi" rel="alternate" type="text/gemtext" title="On knives and their uses" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;The Toothpaste Argument&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/09/15
@@ -622,7 +722,10 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2&gt;Conclusion?&lt;/h2&gt;
 &lt;p&gt;There's nothing resembling one, really. This post is kind of a mess and if anything it just shows how little I know about this shit... For the opinions of someone who understands this better than me read for example some of snan's posts.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/idiomdrottning.org/ubi"&gt;(Gemini Portal) Unconditional Basic Income&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/idiomdrottning.org/ubi"&gt;(Gemini Portal) Unconditional Basic Income&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/toothpaste-argument.gmi</id>
     <published>2022-09-16T00:00:00Z</published>
     <title type="text">The Toothpaste Argument</title>
@@ -631,7 +734,11 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
     <link href="gemini://siiky.srht.site/kB45oC/toothpaste-argument.gmi" rel="alternate" type="text/gemtext" title="The Toothpaste Argument" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;No bookbinding for you&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/09/15
@@ -642,7 +749,10 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;This is not a school, it's a bookbinding shop, I can't teach you. If I spend my time teaching just about anybody who comes around with interest I won't have the time to do what my customers ask me, and then where does the money come from?&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I mean, sure, but, I didn't expect anyone to be teaching me anything full-time, I have shit to do too!&lt;/p&gt;
 &lt;p&gt;At the end he asked me why I wanted to learn about it, what kinds of books I read and am interested in, what I do &amp;quot;for a living&amp;quot;, how I found them, ... Very weird, almost as if testing me or something. And would you ever believe me if I told you he started pulling out his massive book knowledge phallus? At least I got some new contacts and places to check out.&lt;/p&gt;
-&lt;p&gt;It was very disheartening TBH...&lt;/p&gt;</content>
+&lt;p&gt;It was very disheartening TBH...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/no-bookbinding.gmi</id>
     <published>2022-09-15T00:00:00Z</published>
     <title type="text">No bookbinding for you</title>
@@ -651,7 +761,11 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
     <link href="gemini://siiky.srht.site/kB45oC/no-bookbinding.gmi" rel="alternate" type="text/gemtext" title="No bookbinding for you" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Moving tons&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/09/12
@@ -687,7 +801,10 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;For a smallish 5 seat car, like the Fiesta, 6.35% for a single person, 11.95% for two, and 25.33% for the full five.&lt;/p&gt;
 &lt;p&gt;For a wrangler, also 5 seat, it's 4.28%, 8.22% and 18.28%, for one, two and five people, respectively.&lt;/p&gt;
 &lt;p&gt;Now for a coach bus, assuming 57 seats (driver + passengers). At half capacity (28 passengers) it's 9.38%, and at full capacity (56 passengers) it's 16.91%. To be honest, this was way less than I expected... If you add up some luggage (let's be generous and say everyone carries 10kg), that's 10.43% at half-capacity and 18.63% at full capacity.&lt;/p&gt;
-&lt;p&gt;Just WOW! I never realized how grossly inefficient it is in numbers. Think about that: on the most efficient of these 4 examples (in terms of the &amp;quot;want to move&amp;quot; over &amp;quot;have to move&amp;quot; mass ratio) ONLY A QUARTER of the moved mass is what effectively has to be moved!&lt;/p&gt;</content>
+&lt;p&gt;Just WOW! I never realized how grossly inefficient it is in numbers. Think about that: on the most efficient of these 4 examples (in terms of the &amp;quot;want to move&amp;quot; over &amp;quot;have to move&amp;quot; mass ratio) ONLY A QUARTER of the moved mass is what effectively has to be moved!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/moving-tons.gmi</id>
     <published>2022-09-12T00:00:00Z</published>
     <title type="text">Moving tons</title>
@@ -696,7 +813,11 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
     <link href="gemini://siiky.srht.site/kB45oC/moving-tons.gmi" rel="alternate" type="text/gemtext" title="Moving tons" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;自己紹介&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/27
@@ -717,7 +838,10 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Common%20European%20Framework%20of%20Reference%20for%20Languages"&gt;(Gemini Portal) CEF (Gemipedia)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages"&gt;CEF (Wikipedia)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view/ja?サウスバウンド"&gt;(Gemini Portal) サウスバウンド (Gemipedia)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89"&gt;サウスバウンド (Wikipedia)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89"&gt;サウスバウンド (Wikipedia)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/nihongo/jikoshoukai.gmi</id>
     <published>2022-08-28T00:00:00Z</published>
     <title type="text">自己紹介</title>
@@ -726,7 +850,11 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
     <link href="gemini://siiky.srht.site/nihongo/jikoshoukai.gmi" rel="alternate" type="text/gemtext" title="自己紹介" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RE: Open content that you can contribute to&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/25
@@ -751,7 +879,10 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg"&gt;https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="../reclog.html"&gt;Added to the reclog.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;p&gt;&lt;a href="../reclog.html"&gt;Added to the reclog.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/re-open-content.gmi</id>
     <published>2022-08-25T00:00:00Z</published>
     <title type="text">RE: Open content that you can contribute to</title>
@@ -760,7 +891,11 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
     <link href="gemini://siiky.srht.site/kB45oC/re-open-content.gmi" rel="alternate" type="text/gemtext" title="RE: Open content that you can contribute to" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RFC: alist-let&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/22
@@ -845,7 +980,10 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://api.call-cc.org/5/doc/chicken/base/alist-ref"&gt;alist-ref&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;Hope this helps.&lt;/p&gt;
-&lt;p&gt;BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?&lt;/p&gt;</content>
+&lt;p&gt;BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/alist-let.gmi</id>
     <published>2022-08-23T00:00:00Z</published>
     <title type="text">RFC: alist-let</title>
@@ -854,7 +992,11 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
     <link href="gemini://siiky.srht.site/scheme/alist-let.gmi" rel="alternate" type="text/gemtext" title="RFC: alist-let" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RE: Brain Fart&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022-08-21
@@ -893,7 +1035,10 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
 &lt;p&gt;The list could go on and on for a really long time. I have literally hundreds of tabs open on Firefox of things that I at some point wanted to read but didn't have the time at the time. To put it in scale: I use one of those sidetabs plugins; the scrollbar is about the size of a tab; one screenful of tabs is 29 tabs; so I have roughly 29²=841 open tabs.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="zettelkasten_utility.html"&gt;As I've said before, I may be a hoarder...&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;(BTW ew0k, in case you read this, some of the links in those pages seem to be broken)&lt;/p&gt;</content>
+&lt;p&gt;(BTW ew0k, in case you read this, some of the links in those pages seem to be broken)&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/re-brain_fart.gmi</id>
     <published>2022-08-21T00:00:00Z</published>
     <title type="text">RE: Brain Fart</title>
@@ -902,7 +1047,11 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
     <link href="gemini://siiky.srht.site/kB45oC/re-brain_fart.gmi" rel="alternate" type="text/gemtext" title="RE: Brain Fart" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;gemini:// to Gemini Portal&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/21
@@ -963,7 +1112,10 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us"&gt;Gemini Portal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../projects/gemini-ipfs-gateway.html"&gt;Gemini IPFS gateway&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../projects/gemtext.html"&gt;Scheme Gemtext Reader&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../projects/gemtext.html"&gt;Scheme Gemtext Reader&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/meta/portal.gmi</id>
     <published>2022-08-21T00:00:00Z</published>
     <title type="text">gemini:// to Gemini Portal</title>
@@ -972,7 +1124,11 @@ console.log(&amp;quot;a=&amp;quot;, a, &amp;quot; b=&amp;quot;, b)
     <link href="gemini://siiky.srht.site/meta/portal.gmi" rel="alternate" type="text/gemtext" title="gemini:// to Gemini Portal" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #006&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/19
@@ -1022,7 +1178,10 @@ handleError'  = [N,                        J . Left . handleError]
 &lt;p&gt;And thus I will end this log. Let's see what Statebox replies.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="log004.html"&gt;#004&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log006.gmi</id>
     <published>2022-08-19T00:00:00Z</published>
     <title type="text">Petri Nets Log #006</title>
@@ -1031,7 +1190,11 @@ handleError'  = [N,                        J . Left . handleError]
     <link href="gemini://siiky.srht.site/petri_nets/log006.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #006" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Reclog&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/17
@@ -1039,7 +1202,10 @@ handleError'  = [N,                        J . Left . handleError]
 &lt;p&gt;Sometimes I read posts that I find interesting and that I would like to share with others but that I don't have anything particularly good to say about. Following a recent post introducing Re:logs, I just had the idea of starting a &amp;quot;recommendations log&amp;quot;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi"&gt;(Gemini Portal) Introducing the Re:log concept&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../reclog.html"&gt;Reclog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../reclog.html"&gt;Reclog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/meta/reclog.gmi</id>
     <published>2022-08-17T00:00:00Z</published>
     <title type="text">Reclog</title>
@@ -1048,7 +1214,11 @@ handleError'  = [N,                        J . Left . handleError]
     <link href="gemini://siiky.srht.site/meta/reclog.gmi" rel="alternate" type="text/gemtext" title="Reclog" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #005&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/15
@@ -1058,7 +1228,10 @@ handleError'  = [N,                        J . Left . handleError]
 &lt;li&gt;&lt;a href="https://statebox.tv/act2022/tutorial"&gt;To get an idea check out Statebox TV&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;If I understood correctly they still don't have an actual programming language for people to use. But several people can work on the same document simultaneously like in Overleaf, CoCalc, Google Colab, Google Docs, &amp;amp;c.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log005.gmi</id>
     <published>2022-08-15T00:00:00Z</published>
     <title type="text">Petri Nets Log #005</title>
@@ -1067,7 +1240,11 @@ handleError'  = [N,                        J . Left . handleError]
     <link href="gemini://siiky.srht.site/petri_nets/log005.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #005" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RE: Zettelkasten Utility&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/10
@@ -1097,7 +1274,10 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
 &lt;p&gt;This is an interesting thought. Yeah, it may be that I don't trust the zettelkasten system and that leads me to try and organize monolithic notes from the start. But if that's the case (me not trusting it) I think it's more likely because I haven't used it correctly, rather than because I don't believe it works. I've thought about this in the past, even before and after settling on Org Roam: maybe I'm losing something for trying to use the zettelkasten system in a computer. It's so easy to put anything in (SPC n r f); I'm not forced to think about what I'm putting in; and I can always edit it later!&lt;/p&gt;
 &lt;p&gt;I wonder if I should start one with pen&amp;amp;paper.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="../petri_nets/logs.html"&gt;Petri Nets Logs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../petri_nets/logs.html"&gt;Petri Nets Logs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/zettelkasten_utility.gmi</id>
     <published>2022-08-11T00:00:00Z</published>
     <title type="text">RE: Zettelkasten Utility</title>
@@ -1106,7 +1286,11 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
     <link href="gemini://siiky.srht.site/kB45oC/zettelkasten_utility.gmi" rel="alternate" type="text/gemtext" title="RE: Zettelkasten Utility" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Gemini IPFS gateway&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/07
@@ -1172,7 +1356,10 @@ chicken-install
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Architecture&lt;/h2&gt;
 &lt;p&gt;Not much to say about it. The gateway accepts Gemini requests, interacts with the Kubo node through its RPC API (resolve IPNS CIDs/names if necessary, ask the type of a UnixFS object, and read the actual content), and sends back results.&lt;/p&gt;
-&lt;p&gt;The post so far described how the gateway works with the ipfs-request-handler, which dynamically accepts an IPFS/IPNS CID/Name and serves content the user asks for. There's also constant-scheme/root-cid which, when given the scheme (ipfs/ipns) and CID/Name, works like any other Gemini server, serving content from that CID/Name tree only! This latter would be a pretty cool way to publish content. Similar to SourceHut pages but instead of sending a tarball with the content you send the CID/Name of the content.&lt;/p&gt;</content>
+&lt;p&gt;The post so far described how the gateway works with the ipfs-request-handler, which dynamically accepts an IPFS/IPNS CID/Name and serves content the user asks for. There's also constant-scheme/root-cid which, when given the scheme (ipfs/ipns) and CID/Name, works like any other Gemini server, serving content from that CID/Name tree only! This latter would be a pretty cool way to publish content. Similar to SourceHut pages but instead of sending a tarball with the content you send the CID/Name of the content.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi</id>
     <published>2022-08-08T00:00:00Z</published>
     <title type="text">Gemini IPFS gateway</title>
@@ -1181,7 +1368,11 @@ chicken-install
     <link href="gemini://siiky.srht.site/projects/gemini-ipfs-gateway.gmi" rel="alternate" type="text/gemtext" title="Gemini IPFS gateway" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Naturally Ungood&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/07
@@ -1194,7 +1385,10 @@ chicken-install
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/degrowther.smol.pub/20220804_human_nature"&gt;(Gemini Portal) &amp;quot;Re: Human Un-nature&amp;quot;, degrowther&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://invidious.snopyta.org/watch?v=JUt5gjqNI1w"&gt;&amp;quot;We Can Change The World&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Moral_Mazes"&gt;(Gemini Portal) &amp;quot;Moral Mazes&amp;quot;, Robert Jackall&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Aaron_Swartz"&gt;(Gemini Portal) Aaron Swartz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/gemi.dev/cgi-bin/wp.cgi/view?Aaron_Swartz"&gt;(Gemini Portal) Aaron Swartz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/psychology/naturally-ungood.gmi</id>
     <published>2022-08-07T00:00:00Z</published>
     <title type="text">Naturally Ungood</title>
@@ -1203,7 +1397,11 @@ chicken-install
     <link href="gemini://siiky.srht.site/psychology/naturally-ungood.gmi" rel="alternate" type="text/gemtext" title="Naturally Ungood" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Custom Gemini Handlers&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/06
@@ -1223,7 +1421,10 @@ MimeType=x-scheme-handler/gemini;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox"&gt;https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above"&gt;https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler"&gt;https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler"&gt;https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/gemini-handlers.gmi</id>
     <published>2022-08-06T00:00:00Z</published>
     <title type="text">Custom Gemini Handlers</title>
@@ -1232,7 +1433,11 @@ MimeType=x-scheme-handler/gemini;
     <link href="gemini://siiky.srht.site/kB45oC/gemini-handlers.gmi" rel="alternate" type="text/gemtext" title="Custom Gemini Handlers" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #004&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/04
@@ -1267,7 +1472,10 @@ MimeType=x-scheme-handler/gemini;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log004.gmi</id>
     <published>2022-08-04T00:00:00Z</published>
     <title type="text">Petri Nets Log #004</title>
@@ -1276,7 +1484,11 @@ MimeType=x-scheme-handler/gemini;
     <link href="gemini://siiky.srht.site/petri_nets/log004.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #004" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Post dates&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/06/23
@@ -1284,7 +1496,10 @@ MimeType=x-scheme-handler/gemini;
 &lt;p&gt;Until now, I'd never &amp;quot;standardized&amp;quot; what the dates on my site mean, even though I've been consistent with them everywhere (not much to screw up anyway): both on the index and the posts themselves, the dates are always when I started writing the post (or created the file, at least). So there are unfinished (unstarted, even) posts that, were I to finish and publish, would get the date I first created them on the index. This isn't great. And something similarly ungreat happens with posts that I take a long time to write (actually actively writing), sometimes across a few days of a week -- the post has a certain date, but in reality it's published only some days later -- usually leading to interleaving of posts: start post A, start post B, publish post B, publish post A.&lt;/p&gt;
 &lt;p&gt;I started thinking about this because I've been lurking Geminispace for a bit now, and liking it a lot! So I'm planning on writing in Gemtext from now on, instead of Markdown or Org, and convert my site to a Gemini capsule (still making HTML available through HTTPS for anyone not with it &amp;lt;insert Dr. Evil reference here&amp;gt;). Turning the index, which is one of the most complex parts of my site, into a simple Gemtext page, is just... hmhmhm! And, other than the index being the front-page, serving at the same time as the &amp;quot;feed&amp;quot; that people can subscribe to is also just... hmhmhm!&lt;/p&gt;
 &lt;p&gt;But with that comes a problem, because I update posts, some more than others, some days more than others, but, posts don't necessarily remain as they were first published. Because of it, and of the interleaving I mentioned above, I'll start using a new convention -- slightly harder to maintain, but if I don't screw up should be worth it:&lt;/p&gt;
-&lt;p&gt;Posts themselves will have the date of when I first started writing or first created the file, while the index (feed) will have the date of the last update instead. This way should give no jumps to the past when I publish new posts, and at the same time works as an updates notifier (though I still have to test how clients behave).&lt;/p&gt;</content>
+&lt;p&gt;Posts themselves will have the date of when I first started writing or first created the file, while the index (feed) will have the date of the last update instead. This way should give no jumps to the past when I publish new posts, and at the same time works as an updates notifier (though I still have to test how clients behave).&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/meta/dates.gmi</id>
     <published>2022-08-03T00:00:00Z</published>
     <title type="text">Post dates</title>
@@ -1293,7 +1508,11 @@ MimeType=x-scheme-handler/gemini;
     <link href="gemini://siiky.srht.site/meta/dates.gmi" rel="alternate" type="text/gemtext" title="Post dates" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;RE: Misadventures with bash shell&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/08/01
@@ -1353,7 +1572,10 @@ echo &amp;quot;a string with a double quote (&amp;quot;'&amp;quot;'&amp;quot;)&a
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I've tried escaping in the past and failed too many times. This has never failed me once.&lt;/p&gt;
 &lt;p&gt;As a sort of conclusion: for some reason bash is one of the most, if not the most, popular interactive shell. Probably because it's the default in many Linux distros, especially the biggest ones. The default effect certainly worked with me because I'm still &amp;quot;stuck&amp;quot; with it. But bash isn't the only one out there, so if you don't like it, do yourself a favor and try a different one! Some shells I can think of: fish, zsh, ksh, ion (of RedoxOS), csh.&lt;/p&gt;
-&lt;p&gt;As for me, I've read my share of shit-throwing at bash, but it's been working OK. I don't need the fancy features offered by fish or zsh. If I tried any new interactive shell, it'd probably by zsh or ion.&lt;/p&gt;</content>
+&lt;p&gt;As for me, I've read my share of shit-throwing at bash, but it's been working OK. I don't need the fancy features offered by fish or zsh. If I tried any new interactive shell, it'd probably by zsh or ion.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/programming/shell.gmi</id>
     <published>2022-08-02T00:00:00Z</published>
     <title type="text">RE: Misadventures with bash shell</title>
@@ -1362,7 +1584,11 @@ echo &amp;quot;a string with a double quote (&amp;quot;'&amp;quot;'&amp;quot;)&a
     <link href="gemini://siiky.srht.site/programming/shell.gmi" rel="alternate" type="text/gemtext" title="RE: Misadventures with bash shell" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Offline Code Reviews&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/07/30
@@ -1401,7 +1627,10 @@ nix-shell -p ksh --run 'webrev -p target-branch'
 &lt;p&gt;I can't imagine I'm the only one wanting to do code reviews offline. And I can't imagine nobody before has wanted this either. After searching online almost all suggestions/ideas are complete overkill, like Gerrit, WTH! I just want to compare a bunch of files that I already have on my PC dammit! I shouln't've to set up some full-blown server for this...&lt;/p&gt;
 &lt;p&gt;Hopefully I've missed something so obvious that everyone knows of. If you think that's the case, dear reader, please! Send me an email!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/programming/ocr.gmi</id>
     <published>2022-07-31T00:00:00Z</published>
     <title type="text">Offline Code Reviews</title>
@@ -1410,7 +1639,11 @@ nix-shell -p ksh --run 'webrev -p target-branch'
     <link href="gemini://siiky.srht.site/programming/ocr.gmi" rel="alternate" type="text/gemtext" title="Offline Code Reviews" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Flexibility &amp;amp; Relations&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/06/07
@@ -1439,7 +1672,10 @@ nix-shell -p ksh --run 'webrev -p target-branch'
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Consistent"&gt;Consistent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Contradiction"&gt;Contradiction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Proposition"&gt;Proposition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../books/list.html"&gt;Books list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../books/list.html"&gt;Books list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/flexibility-relations.gmi</id>
     <published>2022-07-28T00:00:00Z</published>
     <title type="text">Flexibility &amp; Relations</title>
@@ -1448,7 +1684,11 @@ nix-shell -p ksh --run 'webrev -p target-branch'
     <link href="gemini://siiky.srht.site/philosophy/flexibility-relations.gmi" rel="alternate" type="text/gemtext" title="Flexibility &amp; Relations" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Flexibility &amp;amp; Life&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/06/01
@@ -1499,7 +1739,10 @@ nix-shell -p ksh --run 'webrev -p target-branch'
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Hard_determinism"&gt;Hard Determinism&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Tai_chi"&gt;Tai Chi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.theguardian.com/lifeandstyle/2016/nov/28/breakfast-health-america-kellog-food-lifestyle"&gt;Breakfast (Kellogg's and some bacon company)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../books/list.html"&gt;Books list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../books/list.html"&gt;Books list&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/flexibility-life.gmi</id>
     <published>2022-07-28T00:00:00Z</published>
     <title type="text">Flexibility &amp; Life</title>
@@ -1508,7 +1751,11 @@ nix-shell -p ksh --run 'webrev -p target-branch'
     <link href="gemini://siiky.srht.site/philosophy/flexibility-life.gmi" rel="alternate" type="text/gemtext" title="Flexibility &amp; Life" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Fagots&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/05/05
@@ -1546,7 +1793,10 @@ nix-shell -p ksh --run 'webrev -p target-branch'
 &lt;h2&gt;How Better Fagots Become&lt;/h2&gt;
 &lt;p&gt;How fagots get weakened it's already been discussed. But how do we get to withstand higher levels of strain with time? Dunno...&lt;/p&gt;
 &lt;p&gt;Do we really become stronger and capable of taking more stress, or do we become &amp;quot;numb&amp;quot; and stop feeling that we're under stress?&lt;/p&gt;
-&lt;p&gt;If the latter, is it really that we can take more stress? Maybe it's like sleep and caffeine? In that we think we're fine until we start to really feel the effects of the lack of sleep.&lt;/p&gt;</content>
+&lt;p&gt;If the latter, is it really that we can take more stress? Maybe it's like sleep and caffeine? In that we think we're fine until we start to really feel the effects of the lack of sleep.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/psychology/fagots.gmi</id>
     <published>2022-07-28T00:00:00Z</published>
     <title type="text">Fagots</title>
@@ -1555,7 +1805,11 @@ nix-shell -p ksh --run 'webrev -p target-branch'
     <link href="gemini://siiky.srht.site/psychology/fagots.gmi" rel="alternate" type="text/gemtext" title="Fagots" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Bill Gates, &amp;quot;How to Avoid a Climate Disaster&amp;quot;&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/04/09
@@ -1836,7 +2090,10 @@ If, for example, you eliminate a soybean farm and replace it with a fores, you'v
 &lt;p&gt;Whether it's worth reading for you depends on you, however. If you're well into the topic, you probably learned nothing from this post, and in that case maybe you won't learn nothing from the book that's significantly worth it either. On the other hand, if you're leaving this post more informed than you were before, you may want to give the book a try.&lt;/p&gt;
 &lt;p&gt;If you have a different view on points I've raised, contact me, I'm interested in what other people have to say about the topic. If you know your stuff and have reading suggestions, do contact me!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="../contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/books/bill_gates.how_to_avoid_a_climate_disaster.gmi</id>
     <published>2022-07-28T00:00:00Z</published>
     <title type="text">Bill Gates, "How to Avoid a Climate Disaster"</title>
@@ -1845,7 +2102,11 @@ If, for example, you eliminate a soybean farm and replace it with a fores, you'v
     <link href="gemini://siiky.srht.site/books/bill_gates.how_to_avoid_a_climate_disaster.gmi" rel="alternate" type="text/gemtext" title="Bill Gates, &quot;How to Avoid a Climate Disaster&quot;" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;OpenStreetMap Cheat Sheet&lt;/h1&gt;
 &lt;p&gt;@siiky
 2021/07/12
@@ -2091,7 +2352,10 @@ out skel qt;
 the &amp;quot;to&amp;quot; way. Then, &amp;quot;Presets&amp;quot;&gt;&amp;quot;Relations&amp;quot;&gt;&amp;quot;Turn restriction&amp;quot;. Select the
 correct restriction (e.g. &lt;code&gt;no_u_turn&lt;/code&gt;) and hit &amp;quot;New relation&amp;quot;. On the lower
 left list of objects, select the &amp;quot;from&amp;quot; way and change its role to &amp;quot;from&amp;quot; (and
-similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way). Hit &amp;quot;Ok&amp;quot; and you're done.&lt;/p&gt;</content>
+similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way). Hit &amp;quot;Ok&amp;quot; and you're done.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/osm/cheatsheet.md</id>
     <published>2022-07-28T00:00:00Z</published>
     <title type="text">OpenStreetMap Cheat Sheet</title>
@@ -2100,7 +2364,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/osm/cheatsheet.md" rel="alternate" type="text/gemtext" title="OpenStreetMap Cheat Sheet" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Hard Determinism&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/12/30
@@ -2120,7 +2388,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Hard_determinism"&gt;Hard determinism (Wikipedia)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Free_will"&gt;Free will (Wikipedia)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://plato.stanford.edu/entries/freewill"&gt;Free will (SEP)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;(haven't read this SEP entry yet)&lt;/p&gt;</content>
+&lt;p&gt;(haven't read this SEP entry yet)&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/hard_determinism.gmi</id>
     <published>2022-07-27T00:00:00Z</published>
     <title type="text">Hard Determinism</title>
@@ -2129,7 +2400,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/philosophy/hard_determinism.gmi" rel="alternate" type="text/gemtext" title="Hard Determinism" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #003&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/07/23
@@ -2204,7 +2479,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;p&gt;&lt;img src="folder2.png" alt="Folder w/ default acc" /&gt;&lt;/p&gt;
 &lt;p&gt;In this net acc may start empty, but bound must have a single token. When a token is produced to input, either kons or default-acc is enabled. If there's no token in acc, then there must be a token in bound, and in that case default-acc is enabled; if there's a token in ac, then there's no token in bound, and in that case kons is enabled. kons behaves as before. On the other hand, peek may consume the token from acc at any time, but does not put it back, and instead puts a dummy token in bound. This place bound is only used to &amp;quot;signal&amp;quot; that acc has no tokens, so that default-acc may move one there. default-acc simply moves an input token to acc to initialize the accumulator.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log003.gmi</id>
     <published>2022-07-24T00:00:00Z</published>
     <title type="text">Petri Nets Log #003</title>
@@ -2213,7 +2491,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/petri_nets/log003.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #003" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;ipfs.scm&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/07/23
@@ -2232,7 +2514,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../petri_nets/log003.html"&gt;Petri Nets Log #003&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/ipfs.lua"&gt;ipfs.lua&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;Have to think what to do about the recent rename someday...&lt;/p&gt;</content>
+&lt;p&gt;Have to think what to do about the recent rename someday...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/projects/ipfs.gmi</id>
     <published>2022-07-24T00:00:00Z</published>
     <title type="text">ipfs.scm</title>
@@ -2241,7 +2526,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/projects/ipfs.gmi" rel="alternate" type="text/gemtext" title="ipfs.scm" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;IPFS Quickstart&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/04/05
@@ -2257,7 +2546,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;p&gt;Otherwise, this is how you do it manually: from ipfs://XYZ you copy the XYZ and go to https://XYZ.ipfs.dweb.link. If the URI has a ?filename=smth.txt query string, you should append it to the URI too: https://XYZ.ipfs.dweb.link?filename=smth.txt.&lt;/p&gt;
 &lt;p&gt;Last note: dweb.link is only one of the several public HTTP gateways available (and I believe it's operated by Protocol Labs, the company behind IPFS). For others check this list:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ipfs.github.io/public-gateway-checker"&gt;https://ipfs.github.io/public-gateway-checker&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://ipfs.github.io/public-gateway-checker"&gt;https://ipfs.github.io/public-gateway-checker&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/care/ipfs.gmi</id>
     <published>2022-07-24T00:00:00Z</published>
     <title type="text">IPFS Quickstart</title>
@@ -2266,7 +2558,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/care/ipfs.gmi" rel="alternate" type="text/gemtext" title="IPFS Quickstart" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #002&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/06/23
@@ -2308,7 +2604,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://xkcd.com/297"&gt;but you can be sure there'll be parens...&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log002.gmi</id>
     <published>2022-07-23T00:00:00Z</published>
     <title type="text">Petri Nets Log #002</title>
@@ -2317,7 +2616,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/petri_nets/log002.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #002" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Log #001&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/05/16
@@ -2336,7 +2639,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://petrinet.org"&gt;https://petrinet.org&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;p&gt;&lt;a href="logs.html"&gt;Logs index&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/log001.gmi</id>
     <published>2022-07-23T00:00:00Z</published>
     <title type="text">Petri Nets Log #001</title>
@@ -2345,7 +2651,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/petri_nets/log001.gmi" rel="alternate" type="text/gemtext" title="Petri Nets Log #001" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Psychology Links&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/02/20
@@ -2358,7 +2668,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;h2&gt;Wikipedia&lt;/h2&gt;
 &lt;p&gt;Wikipedia, of course!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Psychology"&gt;https://en.wikipedia.org/wiki/Psychology&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Psychology"&gt;https://en.wikipedia.org/wiki/Psychology&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/psychology/links.gmi</id>
     <published>2022-07-15T00:00:00Z</published>
     <title type="text">Psychology Links</title>
@@ -2367,7 +2680,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/psychology/links.gmi" rel="alternate" type="text/gemtext" title="Psychology Links" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Philosophy Links&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/02/20
@@ -2389,7 +2706,10 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
 &lt;p&gt;Wikiversity pages on philosophy. The main page has a sizeable list of books. The resources page has links to some big philosophy sites, such as SEP, IEP, &amp;amp;c, and to some freely available works.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikiversity.org/wiki/School:Philosophy"&gt;https://en.wikiversity.org/wiki/School:Philosophy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikiversity.org/wiki/Philosophy/Resources"&gt;https://en.wikiversity.org/wiki/Philosophy/Resources&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://en.wikiversity.org/wiki/Philosophy/Resources"&gt;https://en.wikiversity.org/wiki/Philosophy/Resources&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/links.gmi</id>
     <published>2022-07-15T00:00:00Z</published>
     <title type="text">Philosophy Links</title>
@@ -2398,7 +2718,11 @@ similarly to the &amp;quot;via&amp;quot; node and the &amp;quot;to&amp;quot; way
     <link href="gemini://siiky.srht.site/philosophy/links.gmi" rel="alternate" type="text/gemtext" title="Philosophy Links" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Groups&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/02/20
@@ -2592,7 +2916,10 @@ Z&lt;/p&gt;
 &lt;p&gt;Let k be such a number. Then ∃ a ∈ Zₙ: o(a) = k.&lt;/p&gt;
 &lt;p&gt;Let a be such an element. o(a) = k ⇒ #〈a〉 = k. We know that 〈a〉 ≤ Zₙ and that k &amp;lt; n, so 〈a〉 &amp;lt; Zₙ.&lt;/p&gt;
 &lt;h1&gt;TODO&lt;/h1&gt;
-&lt;p&gt;Groups that are isomorphic to some proper subgroup.&lt;/p&gt;</content>
+&lt;p&gt;Groups that are isomorphic to some proper subgroup.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/algebra/groups.gmi</id>
     <published>2022-07-15T00:00:00Z</published>
     <title type="text">Groups</title>
@@ -2601,7 +2928,11 @@ Z&lt;/p&gt;
     <link href="gemini://siiky.srht.site/algebra/groups.gmi" rel="alternate" type="text/gemtext" title="Groups" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Gnuplot Quickstart&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/01/12
@@ -2802,7 +3133,10 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
 &lt;p&gt;And so are backticks like in shell languages! The first line of the following Gnuplot code runs the echo command, but the second one doesn't:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;quot;`echo hello from Gnuplot`&amp;quot;
 '`echo hello from Gnuplot`'
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/gnuplot.gmi</id>
     <published>2022-07-14T00:00:00Z</published>
     <title type="text">Gnuplot Quickstart</title>
@@ -2811,7 +3145,11 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
     <link href="gemini://siiky.srht.site/kB45oC/gnuplot.gmi" rel="alternate" type="text/gemtext" title="Gnuplot Quickstart" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Faucets&lt;/h1&gt;
 &lt;p&gt;@siiky
 2021/07/23
@@ -2889,7 +3227,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;For us, physical beings using faucets through mechanical interaction, it follows that faucets A are superior.&lt;/p&gt;
 &lt;p&gt;I can think of more reasons to justify the superiority of faucets A, but I'll leave them for another post, maybe.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/KISS_principle"&gt;KISS&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/KISS_principle"&gt;KISS&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/algebra/faucets.gmi</id>
     <published>2022-07-14T00:00:00Z</published>
     <title type="text">Faucets</title>
@@ -2898,7 +3239,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/algebra/faucets.gmi" rel="alternate" type="text/gemtext" title="Faucets" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Category Theory and Performance&lt;/h1&gt;
 &lt;p&gt;@siiky
 2019/10/15
@@ -2928,7 +3273,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;Omitted labels because they clutter too much. {X, Y, Z, W} form a complete graph. Now finding the most performant way to write our program is finding the shortest weighted path between I and O, with the performance as the weight. The hardest part is coming up with different implementations and analyzing their performance, really, because even a computer can find the best way to optimize the program!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Category_theory"&gt;Category Theory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Category_(mathematics)"&gt;Category&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Category_(mathematics)"&gt;Category&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/algebra/cat_theory_perf.gmi</id>
     <published>2022-07-14T00:00:00Z</published>
     <title type="text">Category Theory and Performance</title>
@@ -2937,7 +3285,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/algebra/cat_theory_perf.gmi" rel="alternate" type="text/gemtext" title="Category Theory and Performance" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;GraphViz Scheme DSL&lt;/h1&gt;
 &lt;p&gt;@siiky
 2019/10/01
@@ -2948,7 +3300,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;li&gt;&lt;a href="../algebra/cat_theory_perf.html"&gt;Category Theory and Performance&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;The code can be found online, but try not to read it, it's much too ugly. :/&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/siiky/gvs"&gt;siiky/gvs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://github.com/siiky/gvs"&gt;siiky/gvs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/gv-dsl.gmi</id>
     <published>2022-07-14T00:00:00Z</published>
     <title type="text">GraphViz Scheme DSL</title>
@@ -2957,7 +3312,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/scheme/gv-dsl.gmi" rel="alternate" type="text/gemtext" title="GraphViz Scheme DSL" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Donating&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/02/01
@@ -2970,7 +3329,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;But this isn't supposed to be some very deep philosophical thinking. It's just a bit of rhetoric to try and convince people to donate to things they enjoy and would like to keep afloat.&lt;/p&gt;
 &lt;p&gt;Using rhetoric to improve people... I bet Plato didn't see that coming!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1672"&gt;Gorgias&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://www.gutenberg.org/ebooks/1672"&gt;Gorgias&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/donating.gmi</id>
     <published>2022-07-08T00:00:00Z</published>
     <title type="text">Donating</title>
@@ -2979,7 +3341,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/philosophy/donating.gmi" rel="alternate" type="text/gemtext" title="Donating" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;prettymaps&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/01/22
@@ -2995,7 +3361,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;And created this pretty thing from an area in Seia.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.openstreetmap.org/#map=16/40.4144/-7.7073"&gt;Seia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="seia.png" alt /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src="seia.png" alt /&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/osm/prettymaps.gmi</id>
     <published>2022-07-08T00:00:00Z</published>
     <title type="text">prettymaps</title>
@@ -3004,7 +3373,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/osm/prettymaps.gmi" rel="alternate" type="text/gemtext" title="prettymaps" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Content-based Mirrors&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/06/09
@@ -3067,7 +3440,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;⁷ While you may be able to run a BT client on a phone, for example, a full IPFS node would likely be inefficient/slow -- a Raspberry Pi 2 can still manage it for light use. Version v0.13.0 introduced some changes that make &amp;quot;light nodes&amp;quot; closer to a possibility, but no such (working) node exists as of now, AFAIK. Also new in this version is resource management configuration, making it possible to limit certain resources based on configuration. Previously you could only have some heuristics to &amp;quot;garbage collect&amp;quot; connected peers; now you can limit the number of connections, open FDs, maximum memory, &amp;amp;c! My Raspberry Pi 2 is no longer beaten dead by IPFS. :3&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ipfs/go-ipfs/releases/tag/v0.13.0#support-for-block-and-car-response-formats"&gt;IPFS v0.13.0 Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ipfs/kubo/blob/master/docs/config.md#swarmresourcemgr"&gt;IPFS resource management&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://github.com/ipfs/kubo/blob/master/docs/config.md#swarmresourcemgr"&gt;IPFS resource management&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/mirrors.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Content-based Mirrors</title>
@@ -3076,7 +3452,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/kB45oC/mirrors.gmi" rel="alternate" type="text/gemtext" title="Content-based Mirrors" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;The COVID Experience&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/05/31
@@ -3088,7 +3468,10 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;Thursday morning woke up at like 7h again... and still feeling like shit... Went through the bureaucracy of registering myself as a possible positive in the national health system and scheduling a confirmation lab test. Turns out, you don't actually schedule the test, you just wait for some code from the health system, and then you can go to any lab at any time and use the code for a free test. Went for mine at 14h, close to 15h. Damn nurses or whatever they are, sticking the damn cotton swab into you till it touches the back of your neck, and laughing all the while. For lunch I tried some chicken nuggets (of those you can just stick into the microwave), and guess what, it tasted so salty I couldn't taste anything else, at all, only salt. Had some bread afterwards -- at least that just didn't taste like anything. At dinner I had some soup again, but I could eat even less of it than the previous day. It tasted so bad I started feeling ill, nauseated. It's not that it didn't taste like anything, because of lack of smell and/or taste, but that it really tasted bad. I even tested it: smelled a some chocolate cookies, and they smelled fucking great! But tasted like shit...&lt;/p&gt;
 &lt;p&gt;On friday I woke up already feeling hungry, probably because I hadn't eaten that much since it all started. But I was so tired I went back to sleep. When I woke up again, close to lunch time, I was feeling even more tired and hungry. Since soup tasted like shit, but bread didn't, I decided to try something somewhat similar-ish, that I like a lot: tuna pasta! Except I made it plainer than radio music: water, pasta, tuna, and the smallest pinch of salt you could possibly pinch with your pinchy fingers. I was feeling so weak while cooking that I mouthed a coffee-spoonful of sugar for fear of passing out. I made it, managed to cook some without falling on my side, and still to get back to my room with food to eat! And I was so glad the pasta didn't taste like shit! I even went back for seconds! はい、お代わり！ It was enough for lunch, dinner, and lunch the next day (not that I made that much, I just didn't eat that much).&lt;/p&gt;
 &lt;p&gt;This food-tasting-like-shit-and-feeling-indisposed-afterwards continued throughout the following week, after I was supposed to be COVID-free already. But I'm alright now, I think, and making plans for eating out one of these days.&lt;/p&gt;
-&lt;p&gt;Reading it back, I don't think I managed to convey well enough how bad this part of the experience was... I'm not even sure that was the intent of the post, but wanted to make it clear now that it really was the worst part! If you can help avoid it, do! You really don't want food to taste like shit, it sucks ass. And if you do end up catching it, sleep as much as you can, it really helps.&lt;/p&gt;</content>
+&lt;p&gt;Reading it back, I don't think I managed to convey well enough how bad this part of the experience was... I'm not even sure that was the intent of the post, but wanted to make it clear now that it really was the worst part! If you can help avoid it, do! You really don't want food to taste like shit, it sucks ass. And if you do end up catching it, sleep as much as you can, it really helps.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/words/covid.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">The COVID Experience</title>
@@ -3097,13 +3480,20 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/words/covid.gmi" rel="alternate" type="text/gemtext" title="The COVID Experience" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Water Stations&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/05/11
 2022/07/07&lt;/p&gt;
 &lt;p&gt;Crazy idea: what if instead of selling plastic bottles, stores sold water by the litre, similarly to how diesel/gasoline is sold by the litre? People would BYOB, be it plastic, metal, or glass, and fill it up.&lt;/p&gt;
-&lt;p&gt;I know some places already do this, or have something similar, but it's not that widespread.&lt;/p&gt;</content>
+&lt;p&gt;I know some places already do this, or have something similar, but it's not that widespread.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/kB45oC/water_stations.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Water Stations</title>
@@ -3112,7 +3502,11 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
     <link href="gemini://siiky.srht.site/kB45oC/water_stations.gmi" rel="alternate" type="text/gemtext" title="Water Stations" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Reader Syntax&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/03/15
@@ -3198,7 +3592,10 @@ SELECT rowid, col FROM sometbl;
              (query fetch-all data)
              (query fetch-all select)))))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And notice how schema, data, and select are constants (defined with define-constant, kinda similar to the static keyword in C).&lt;/p&gt;</content>
+&lt;p&gt;And notice how schema, data, and select are constants (defined with define-constant, kinda similar to the static keyword in C).&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/reader-syntax.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Reader Syntax</title>
@@ -3207,7 +3604,11 @@ SELECT rowid, col FROM sometbl;
     <link href="gemini://siiky.srht.site/scheme/reader-syntax.gmi" rel="alternate" type="text/gemtext" title="Reader Syntax" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Butterfly Effect&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/02/17
@@ -3223,7 +3624,10 @@ SELECT rowid, col FROM sometbl;
 &lt;li&gt;[X] Stop using Google Maps -- help get OSM good enough for everyday use&lt;/li&gt;
 &lt;li&gt;[x] Stop using FB messager (and WhatsApp) once and for all -- already using Signal (other than IRC &amp;amp; email) almost exclusively&lt;/li&gt;
 &lt;li&gt;[X] Move away from YT -- probably PeerTube or similar, or Invidious as last resort&lt;/li&gt;
-&lt;li&gt;[X] Move to Sourcehut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;[X] Move to Sourcehut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/philosophy/butterfly_effect.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Butterfly Effect</title>
@@ -3232,7 +3636,11 @@ SELECT rowid, col FROM sometbl;
     <link href="gemini://siiky.srht.site/philosophy/butterfly_effect.gmi" rel="alternate" type="text/gemtext" title="Butterfly Effect" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Double Transposition Cipher&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/02/13
@@ -3300,7 +3708,10 @@ ALMOND      ALMOND      ALMOND
 ******      T*****      T****T
 *#####      H#####      H#####
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And so on...&lt;/p&gt;</content>
+&lt;p&gt;And so on...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/crypto/double_transposition.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Double Transposition Cipher</title>
@@ -3309,7 +3720,11 @@ ALMOND      ALMOND      ALMOND
     <link href="gemini://siiky.srht.site/crypto/double_transposition.gmi" rel="alternate" type="text/gemtext" title="Double Transposition Cipher" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Pipes&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/01/09
@@ -3409,7 +3824,10 @@ ALMOND      ALMOND      ALMOND
 but to me not having to write &lt;code&gt;cute&lt;/code&gt; for non-unary functions is a plus, even if
 I'm now forced to write parenthesis and an underscore on every unary function.&lt;/p&gt;
 &lt;p&gt;I guess the only situation(s) I don't see myself using it is if I want to avoid
-dependencies.&lt;/p&gt;</content>
+dependencies.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/pipes.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Pipes</title>
@@ -3418,7 +3836,11 @@ dependencies.&lt;/p&gt;</content>
     <link href="gemini://siiky.srht.site/scheme/pipes.gmi" rel="alternate" type="text/gemtext" title="Pipes" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Naming Operations rather than Variables&lt;/h1&gt;
 &lt;p&gt;@siiky
 2021/12/15
@@ -3454,7 +3876,10 @@ x = zaz(x)
 &lt;li&gt;Imagine you want to change the order of operations in the chain;&lt;/li&gt;
 &lt;li&gt;Imagine you want to add an operation to the chain;&lt;/li&gt;
 &lt;li&gt;Imagine you want to remove an operation from the chain.&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;And a final bonus: the &amp;quot;better&amp;quot; approach is easier to read than the &amp;quot;bad&amp;quot; approach, and requires less typing, thank you very much.&lt;/p&gt;</content>
+&lt;p&gt;And a final bonus: the &amp;quot;better&amp;quot; approach is easier to read than the &amp;quot;bad&amp;quot; approach, and requires less typing, thank you very much.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/functional_programming/naming.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Naming Operations rather than Variables</title>
@@ -3463,7 +3888,11 @@ x = zaz(x)
     <link href="gemini://siiky.srht.site/functional_programming/naming.gmi" rel="alternate" type="text/gemtext" title="Naming Operations rather than Variables" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;CVE-2020-26935&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/11/06
@@ -3474,7 +3903,10 @@ x = zaz(x)
 &lt;li&gt;&lt;a href="https://www.phpmyadmin.net"&gt;phpMyAdmin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.phpmyadmin.net/security/PMASA-2020-6"&gt;Official advisory (PMASA-2020-6)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26935"&gt;CVE-2020-26935 on MITRE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2020-26935"&gt;CVE-2020-26935 on NVD&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2020-26935"&gt;CVE-2020-26935 on NVD&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/work/CVE-2020-26935.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">CVE-2020-26935</title>
@@ -3483,7 +3915,11 @@ x = zaz(x)
     <link href="gemini://siiky.srht.site/work/CVE-2020-26935.gmi" rel="alternate" type="text/gemtext" title="CVE-2020-26935" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;just quotes&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/05/26
@@ -3557,7 +3993,10 @@ but it's a good paragraph from a good book.&lt;/p&gt;
 &lt;p&gt;Jean Valjean to Marius Pontmercy, from Les Misérables, by Victor Hugo&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;Standard Ebooks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;Standard Ebooks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/words/quotes.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">just quotes</title>
@@ -3566,7 +4005,11 @@ but it's a good paragraph from a good book.&lt;/p&gt;
     <link href="gemini://siiky.srht.site/words/quotes.gmi" rel="alternate" type="text/gemtext" title="just quotes" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Credit&lt;/h1&gt;
 &lt;p&gt;@siiky
 2020/04/30
@@ -3580,7 +4023,10 @@ but it's a good paragraph from a good book.&lt;/p&gt;
 &lt;p&gt;One day, at lunch, the topic came up because of something the head of that small group replied in an interview, when asked &amp;quot;What are your comments about $COMPANY having done $BIGTHING?&amp;quot;: &amp;quot;Has it?&amp;quot;. This coming up, almost at once, everyone got (figuratively) up, as if someone had insulted $PERSONALDEITY inside $DESIGNATEDPLACEOFWORSHIPOFSAIDDEITY. And I just really don't get it. Why would anyone think it's right to credit the company instead of the people who've actually done the thing? How can a company, not being a being, not in the possession of reason, not being able to take an action, not being able to affect the real physical world, possibly accomplish any a thing?&lt;/p&gt;
 &lt;p&gt;Maybe I'm being a bit harsh on companies, but I believe crediting something/someone for something it/they haven't done is not right. I would say, if anything, the only credit companies deserve is for doing The Right Thing™ in investing on someone competent and deserving of the remuneration.&lt;/p&gt;
 &lt;p&gt;/rant&lt;/p&gt;
-&lt;p&gt;All companies not mentioned in this post are fictious, not real, and any resemblance to any other also not real companies is purely coincidental.&lt;/p&gt;</content>
+&lt;p&gt;All companies not mentioned in this post are fictious, not real, and any resemblance to any other also not real companies is purely coincidental.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/work/credit.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">Credit</title>
@@ -3589,7 +4035,11 @@ but it's a good paragraph from a good book.&lt;/p&gt;
     <link href="gemini://siiky.srht.site/work/credit.gmi" rel="alternate" type="text/gemtext" title="Credit" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;kless&lt;/h1&gt;
 &lt;p&gt;@siiky
 2019/10/13
@@ -3707,7 +4157,10 @@ but it's a good paragraph from a good book.&lt;/p&gt;
       meth-body ...))       ; method body
   ver-name ...)             ; get the method procedure, with instance variables in scope
  meth-args ...)             ; call the methodd
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/scheme/kless.gmi</id>
     <published>2022-07-07T00:00:00Z</published>
     <title type="text">kless</title>
@@ -3716,7 +4169,11 @@ but it's a good paragraph from a good book.&lt;/p&gt;
     <link href="gemini://siiky.srht.site/scheme/kless.gmi" rel="alternate" type="text/gemtext" title="kless" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Scheme Gemtext Reader&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/07/05
@@ -3840,7 +4297,10 @@ fact n = prod [1..n]
 (link uri alt-text)
 (code alt-text . lines)
 (list . items)
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/projects/gemtext.gmi</id>
     <published>2022-07-05T00:00:00Z</published>
     <title type="text">Scheme Gemtext Reader</title>
@@ -3849,7 +4309,11 @@ fact n = prod [1..n]
     <link href="gemini://siiky.srht.site/projects/gemtext.gmi" rel="alternate" type="text/gemtext" title="Scheme Gemtext Reader" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Care list&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/01/09
@@ -3923,7 +4387,10 @@ fact n = prod [1..n]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is the documentary The Dark Side of Green Energies, but in PT from RTP (narration &amp;amp; subtitles).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.imdb.com/title/tt13524468"&gt;The Dark Side of Green Energies&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="https://www.imdb.com/title/tt13524468"&gt;The Dark Side of Green Energies&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/care/list.gmi</id>
     <published>2022-07-04T00:00:00Z</published>
     <title type="text">Care list</title>
@@ -3932,7 +4399,11 @@ fact n = prod [1..n]
     <link href="gemini://siiky.srht.site/care/list.gmi" rel="alternate" type="text/gemtext" title="Care list" />
   </entry>
   <entry>
-    <content type="html">
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
 &lt;h1&gt;Petri Nets Logs&lt;/h1&gt;
 &lt;p&gt;@siiky
 2022/05/16
@@ -3944,7 +4415,10 @@ fact n = prod [1..n]
 &lt;li&gt;&lt;a href="log003.html"&gt;#003&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="log004.html"&gt;#004&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="log005.html"&gt;#005&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="log006.html"&gt;#006&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="log006.html"&gt;#006&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
     <id>gemini://siiky.srht.site/petri_nets/logs.gmi</id>
     <published>2022-05-16T00:00:00Z</published>
     <title type="text">Petri Nets Logs</title>
