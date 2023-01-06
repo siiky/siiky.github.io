@@ -131,7 +131,7 @@ cv-en.pdf: cv-en.md
 # Text files rules
 
 %.html: %.gmi $(GMI2MD) $(MD2HTML)
-	$(GMI2MD) $< < $< | $(MD2HTML) > $@
+	$(GMI2MD) $< | $(MD2HTML) $@
 
 %.html: %.md
 	$(MD2HTML) < $< > $@

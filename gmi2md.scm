@@ -148,10 +148,8 @@
      l)
     (else l)))
 
-
-; ./gmi2md.scm docs/directory/file.gmi < docs/directory/file.gmi
-(define (main args)
-  (let ((this-file (make-absolute-pathname (current-directory) (car args))))
+(define (gmi2md input-filename)
+  (let ((this-file (make-absolute-pathname (current-directory) input-filename)))
     (receive (directory _filename _extension) (decompose-pathname this-file)
       (chain (gmi:read)
              (map (rewrite-links directory) _)
@@ -161,5 +159,9 @@
              (for-each write-line _)
              ))))
 
+; ./gmi2md.scm docs/directory/file.gmi
+(define (main args)
+  (let ((input-filename (car args)))
+    (with-input-from-file (car args) (cute gmi2md input-filename))))
 
 (main (command-line-arguments))
