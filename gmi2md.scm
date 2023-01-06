@@ -134,7 +134,7 @@
        `(,http:// ,https:// ,magnet ,ipfs://)))
 
 
-(define ((rewrite-links directory) l)
+(define ((rewrite-links directory input-filename) l)
   (cond
     ; External full gemini://... URL
     ((gemini-link? l) (gemini->portal l))
@@ -144,7 +144,7 @@
     ((and (gmi:link? l)
           (not (external-link? l))
           (not (local-file-exists? directory (gmi:link:uri l))))
-     (eprint "WARNING: Link seems to be local but there's no such file: " (gmi:link:uri l))
+     (eprint "ERROR: " input-filename ": Link seems to be local but there's no such file: " (gmi:link:uri l))
      l)
     (else l)))
 
@@ -152,7 +152,7 @@
   (let ((this-file (make-absolute-pathname (current-directory) input-filename)))
     (receive (directory _filename _extension) (decompose-pathname this-file)
       (chain (gmi:read)
-             (map (rewrite-links directory) _)
+             (map (rewrite-links directory input-filename) _)
              (group-links _)
              (map grouped-gmi-element->md-element _)
              (concatenate _)
