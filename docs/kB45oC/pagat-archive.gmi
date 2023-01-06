@@ -6,7 +6,7 @@
 Sent an email asking for permission to make a mirror/archive. This time it was for Pagat, a site with tons and tons of card games. And like last time, permission was given provided that I don't make any archives/mirrors public. Fair enough!
 
 => https://www.pagat.com Pagat
-=> kB45oC/mirrors.gmi Content-based Mirrors
+=> mirrors.gmi Content-based Mirrors
 
 My Raspberry Pi has been busy downloading the whole thing:
 
