@@ -125,7 +125,7 @@ Please let me know if you find any of the links not working.
 => https://www.gutenberg.org/ebooks/4683 Voltaire, Socrates: 2020
 => https://www.aozora.gr.jp/cards/000311/card3693.html 宮本 百合子, 私の見た米国の少年: 2021/06/07
 => https://www.aozora.gr.jp/cards/000081/card43736.html 宮沢 賢治, 『注文の多い料理店』序: 2021/06/05
-=> ../nihongo/yonaka-no-kiteki.gmi 村上 春樹, 夜中の汽笛について、あるいは物語の効用について: 2023/01/05
+=> ../nihongo/murakami_hiroki.yonaka-no-kiteki.gmi 村上 春樹, 夜中の汽笛について、あるいは物語の効用について: 2023/01/05
 => https://www.aozora.gr.jp/cards/001584/card53182.html 秋田 雨雀, 三人の百姓: 2021/06/01~2021/06/02
 => https://www.aozora.gr.jp/cards/000800/card53186.html 水上 滝太郎, 大人の眼と子供の眼: 2021
 
