@@ -8,7 +8,33 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2023-01-06T00:00:00Z</updated>
+  <updated>2023-01-09T00:00:00Z</updated>
+  <entry>
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;So you do like beer after all&lt;/h1&gt;
+&lt;p&gt;siiky
+2023/01/09
+2023/01/09&lt;/p&gt;
+&lt;p&gt;I had a dream that continued the timeline of another dream I had some days ago, like consecutive episodes of a series. This is the first time it happened to me I think.&lt;/p&gt;
+&lt;p&gt;I was in an open space, at night, palm trees around and many lights, some kind of event, many people were around, almost like a festival or something of the sort. The place was somewhere in Asia (not because there were specific features I can point out to, but because it was a dream, I just know alright?). A guy crossed paths with me and asked if I didn't like beer, or why I wasn't drinking beer, or something like that. I replied that I don't much appreciate beer. I gave me a dark, almost black, beer bottle, the label was black, and it was in Thai or similar (so I assume I was in Thailand). I gave it a sip and indeed not that bad, nothing like the crap I tasted in real life...&lt;/p&gt;
+&lt;p&gt;That was the other day. Today I was again at that same place, again at night, decoration was much the same -- palm trees and lights, very tropical-like -- and a multitude of people too. And I happened to cross that guy again. But this time I had one of those beer bottles in hand and he just rhetorically asked &amp;quot;so you do like beer after all?&amp;quot;&lt;/p&gt;
+&lt;p&gt;And then the dream quickly de-railed into weird shit: pepper shakers have wholes not only at the top but also on the sides of the metal head so that mosquitoes can get inside, while salt shakers don't so mosquitoes don't get inside those. Why that would be relevant or interesting I couldn't possibly know.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Salt_and_pepper_shakers"&gt;Salt and pepper shakers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    <id>gemini://siiky.srht.site/kB45oC/so_you_like_beer.gmi</id>
+    <published>2023-01-09T00:00:00Z</published>
+    <title type="text">So you do like beer after all</title>
+    <updated>2023-01-09T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/so_you_like_beer.html" rel="alternate" type="text/html" title="So you do like beer after all" />
+    <link href="gemini://siiky.srht.site/kB45oC/so_you_like_beer.gmi" rel="alternate" type="text/gemtext" title="So you do like beer after all" />
+  </entry>
   <entry>
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
