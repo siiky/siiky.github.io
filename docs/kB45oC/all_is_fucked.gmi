@@ -1,0 +1,22 @@
+# All is fucked
+siiky
+2023/01/09
+2023/01/09
+
+All is fucked.
+
+I should be studying for this shit exam of this shit class I have tomorrow. "Requirements and Software Architecture" is the class, if you must know. Can you think of anything that's more boring than this? I'm going through past exams to prepare (because we rarely did any such exercises during classes; grading is mostly based on a PA) and I'm wondering if it makes any difference. The (theory) lectures were so damn boring and uninteresting I couldn't bear to be there, I couldn't concentrate on what the professor said, I couldn't not think to myself "what a bunch of bull!" So instead I stopped attending, naturally.
+
+The exam I'm going through is mostly T/F. Example questions:
+
+* The Observer pattern statically specifies the observer objects.
+* An architectural pattern improves the coherency of the modules of a system.
+* In a risk oriented approach, risk is defined as the probability of failure divided by the impact of that failure.
+
+Just lol... I tried reading the slides the prof used in the lectures before this but jesus, could they have been less interesting? If I did the exam, studied, and re-did the exam, I wonder if my grade would at all improve.
+
+So here I am being more productive instead.
+
+University is sucking ass because, even though I'm now on my master's, I'm stuck with shit courses I couldn't care less about -- another one is "Applications and Computation Services in the Cloud"... what the fuck is this? Getting Employed at Scale? Corporate Programming 101? StackOverflow for Dummies? I can't wait for the second semester to finally have the classes I'm interested in again, those that I picked, why I applied to the damn degree...
+
+And I started thinking about the tuition money. Not a trivial amount. Still, almost only half of what I used to pay while on my bachelor's, that's good! But then... wait a second. I pay monthly (we pay, it's a shared expense) 82.496% of the YEARLY University tuition in rent! I'm fucked! We're fucked! All's fucked!
