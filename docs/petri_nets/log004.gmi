@@ -43,7 +43,7 @@ Additionally two different kinds of conditional routing are presented in the WF-
 
 
 => https://doi.org/10.1142/S0218126698000043
-=> https://blog.statebox.org/behavioral-programming-with-petri-nets-%C3%A0-la-functional-way-smart-contracts-96d801cef8cc "Behavioral Programming with Petri Nets à la Functional Way — Smart Contracts", Fabrizio Romano Genovese
+=> https://blog.statebox.org/behavioral-programming-with-petri-nets-%C3%A0-la-functional-way-smart-contracts-96d801cef8cc "Behavioral Programming with Petri Nets à la Functional Way -- Smart Contracts", Fabrizio Romano Genovese
 => log001.gmi Log #001
 => ../contact.gmi Contact
 

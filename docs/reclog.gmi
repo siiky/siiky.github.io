@@ -37,7 +37,7 @@ I update this page manually.
 => gemini://warmedal.se/~bjorn/posts/2022-01-25-why-do-corporations-have-to-grow.gmi 2022-09-24 Why Do Corporations Have to Grow?
 => gemini://warmedal.se/~bjorn/posts/2022-01-26-re-why-do-corporations-have-to-grow.gmi 2022-09-24 Re: Why Do Corporations Have to Grow?
 
-=> gemini://gemini.conman.org/boston/2022/09/22.1 2022-09-23 So when did POP and IMAP become a “legacy protocol?”
+=> gemini://gemini.conman.org/boston/2022/09/22.1 2022-09-23 So when did POP and IMAP become a "legacy protocol?"
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-09-22-il-solito-brutto-vizio.gmi 2022-09-23 Il solito brutto Vizio…
 
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-07-31.schadenreude.gmi 2022-09-22 You think your life is bad? [Schadenfreude]
@@ -45,7 +45,7 @@ I update this page manually.
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2022-09-04.unknown.gmi 2022-09-22 The joy of not knowing
 => gemini://gemini.susa.net/shocking_dns_nothingness.gmi 2022-09-22 The Shocking Nothingness of DNS
 => gemini://idiomdrottning.org/integration 2022-09-22 Integration
-=> gemini://november.smol.pub/arrogance 2022-09-22 On scientific “arrogance”
+=> gemini://november.smol.pub/arrogance 2022-09-22 On scientific "arrogance"
 => gemini://perso.pw/blog/articles/btrfs-compression.gmi 2022-09-22 Sharing some statistics about BTRFS compression
 
 => gemini://cyi1341.smol.pub/random19 2022-09-21 introversion
