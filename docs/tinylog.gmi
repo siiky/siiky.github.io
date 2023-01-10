@@ -87,7 +87,7 @@ Of course, I didn't know what the fuck I'm talking about then, and I don't know 
 
 ## 2022-08-03 12:58 +0100
 Today I changed the script I use to generate the index/gemfeed to read the last update date from the file itself instead of from the Git log (unlike I mentioned before in the tinylog). Now it doesn't look like I'm reposting the same post every other day, because I change the update date manually to the last significant update.
-=> meta/dates.gmi
+=> meta/dates.gmi Posts' dates "policy" of this capsule
 Here's the latest version:
 ```make-gemfeed.sh
 root=$1
