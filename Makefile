@@ -123,6 +123,11 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 watch:
 	ls -1 cv-en.md index.gmi $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
 
+%.spell: %.gmi
+	aspell check $<
+
+spellcheck: $(SRC:.gmi=.spell)
+
 cv: cv-en.pdf
 	
 cv-en.pdf: cv-en.md

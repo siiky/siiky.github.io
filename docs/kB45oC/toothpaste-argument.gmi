@@ -25,7 +25,7 @@ This is a chicken & egg problem: no money means no toothpaste; no toothpaste mea
 
 > if one wants to live in this world, one needs an income. Or else you can't live... Human beings want to develop. For developing, I need work. For existing I need income.
 
-A few falacies here too:
+A few fallacies here too:
 
 * "This world" seemingly meaning "today's society".
 * "Humans want to develop" -- what does it mean "to develop"? Do all humans want to "develop", really?
@@ -82,7 +82,7 @@ Yeah, tell that to anyone who can't actually get the food, I'm sure it'll be an 
 
 Again, specifically for food, if there's nobody to work at food-making-businesses, then there are no food-making-businesses to make food, and therefore there's no food. And how could there still be food-making-businesses? A tiny fraction of people, from the goodness of their heart, with no obligation whatsoever, and with barely any reward (money they don't need), would work in these food-making-businesses to produce food for the rest of the world? Doesn't make any sense to me.
 
-I don't actually believe we'd be out of food if UBI came into existence. Just, let's not pretend everything would still be all the same except better. Even if there were no food-making-businesses (among other kinds of businesses), since individuals need food they would have to make food themselves, or organize amongst themselves in small groups to distribute tasks -- e.g., if I'm good at planting and keeping fruit trees, then I can give the fruits of my trees to my neighbours, if they share in return some of their labor; if I'm good at making some sweet cocktails, I can make cocktails for my neighbours if they provide me with some fruits and spirits; &c.
+I don't actually believe we'd be out of food if UBI came into existence. Just, let's not pretend everything would still be all the same except better. Even if there were no food-making-businesses (among other kinds of businesses), since individuals need food they would have to make food themselves, or organize amongst themselves in small groups to distribute tasks -- e.g., if I'm good at planting and keeping fruit trees, then I can give the fruits of my trees to my neighbors, if they share in return some of their labor; if I'm good at making some sweet cocktails, I can make cocktails for my neighbors if they provide me with some fruits and spirits; &c.
 
 > (...) ask, where are the goods, then you will see that we have never been as rich as today. We have never been as rich as today. We have enough goods and services for each person in our society to live a humble but dignified life. (...) So, when we have these goods and services, we have to ask ourselves, then why are we affording ourselves poverty?
 

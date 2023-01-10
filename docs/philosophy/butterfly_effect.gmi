@@ -7,7 +7,7 @@ Everyone or almost everyone has heard that butterfly wings and hurricanes have s
 
 Whether they perceptibly have or not, small changes/actions have big impacts, even if only for the simple adding-up of all of them.
 
-So next time you have alternatives, one of them better than the other, even if "it wouldn't make adifference any way", choose the better option.
+So next time you have alternatives, one of them better than the other, even if "it wouldn't make a difference any way", choose the better option.
 
 By "alternative" let it be understood something that is within your reach. Flying over a cliff (rather than falling off it) when you obviously can't fly is not an alternative. But paying some extra at your local grocer rather than at the biggest supermarket chain probably is.
 
@@ -17,6 +17,6 @@ These are some of my goals in line with this idea:
 
 * [X] Stop using TIDAL
 * [X] Stop using Google Maps -- help get OSM good enough for everyday use
-* [x] Stop using FB messager (and WhatsApp) once and for all -- already using Signal (other than IRC & email) almost exclusively
+* [x] Stop using FB messenger (and WhatsApp) once and for all -- already using Signal (other than IRC & email) almost exclusively
 * [X] Move away from YT -- probably PeerTube or similar, or Invidious as last resort
-* [X] Move to Sourcehut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything
+* [X] Move to SourceHut from GitHub -- just missing the time; hopefully this summer I'll have the time to move everything

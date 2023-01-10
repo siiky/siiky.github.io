@@ -10,7 +10,7 @@
 <h2>Language</h2>
 <p>Following up with the idea of a Petri nets programming language, I now have some goals I want it to meet:</p>
 <ul>
-<li>It has to be a real programming language, not a modelling one!</li>
+<li>It has to be a real programming language, not a modeling one!</li>
 <li>Must be textual, human-friendly, and text-editor-friendly -- I don't want to have to muck with a shitty, slow, and subpar GUI editor (as a bonus: this should be enough to make it VCS-friendly too)</li>
 <li>In line with the first point: transitions are written in the &quot;host&quot; programming language, and the user must be able to reuse existing code of that language</li>
 <li>Also in line with the first point: a program in this language must be runnable (even better if compiled) like any other program</li>
@@ -70,7 +70,7 @@
 <p>There was also the question of representing the tokens produced. For that I quickly convinced myself that using Scheme's values is a good choice: producing several tokens needs values, producing a single token needs no extra bureaucracy. Using the language's native features is surely the way to go.</p>
 <h2>Fold Recursive Model</h2>
 <p>(Not the fold concept described in the last chapter of the Statebox monograph)</p>
-<p>Tried modelling a fold (such as a sum), which is a recursive process, as a Petri net, basically the first on my own. Here's a rough graphic (haven't played with GraphViz settings yet):</p>
+<p>Tried modeling a fold (such as a sum), which is a recursive process, as a Petri net, basically the first on my own. Here's a rough graphic (haven't played with GraphViz settings yet):</p>
 <p><img src="folder1.png" alt="Folder w/ inspection" /></p>
 <p>Think of kons as add. The net must start execution with the initial value already in acc. The kons transition consumes the value from input and the value from acc, does its thing and produces the result into acc again. And peek consumes the value from acc and duplicates it into output and acc again. This transition could be a user-fired one, for example, to see the current state of the accumulator.</p>
 <p>Alternatively it could consume the value from acc and not put it back. But that would need having a transition to produce a default value for acc. Example:</p>

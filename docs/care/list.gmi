@@ -26,7 +26,7 @@ The cares are added to IPFS using `ipfs add` with the options `--recursive --raw
 ipfs files cp /ipfs/`ipfs add -p -Q -r -t --pin=false --cid-version=1 --raw-leaves '/path/to/file_or_directory'` '/care-list/videos/file_or_directory'
 ```
 
-If you feel the urge to support someone after finding or benefitting from this list, support the creators of the cares themselves.
+If you feel the urge to support someone after finding or benefiting from this list, support the creators of the cares themselves.
 
 # Books
 

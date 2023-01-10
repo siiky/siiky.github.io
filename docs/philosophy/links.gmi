@@ -24,7 +24,7 @@ Wikipedia, of course!
 
 ## Wikiversity School of Philosophy
 
-Wikiversity pages on philosophy. The main page has a sizeable list of books. The resources page has links to some big philosophy sites, such as SEP, IEP, &c, and to some freely available works.
+Wikiversity pages on philosophy. The main page has a sizable list of books. The resources page has links to some big philosophy sites, such as SEP, IEP, &c, and to some freely available works.
 
 => https://en.wikiversity.org/wiki/School:Philosophy
 => https://en.wikiversity.org/wiki/Philosophy/Resources

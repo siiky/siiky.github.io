@@ -3,7 +3,7 @@
 2022/08/04
 2022/08/04
 
-Started reading "The Application of Petri Nets to Workflow Management", by W.M.P. van der Aalst last friday and finished today. You need paid access to download the PDF but I can send it to you in case you're interested, just contact me.
+Started reading "The Application of Petri Nets to Workflow Management", by W.M.P. van der Aalst last Friday and finished today. You need paid access to download the PDF but I can send it to you in case you're interested, just contact me.
 
 As the title suggests the paper is not about programming but workflow management. Specifically, it's about how the processes executed in a company's context can be modeled by Petri nets, and reasons why that is a good thing. A recurrent example was that of an insurance/complaints company, where customers may submit complaints and the company processes them to decide whether the customer is right or not.
 

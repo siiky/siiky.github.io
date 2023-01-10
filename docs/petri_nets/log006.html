@@ -28,7 +28,7 @@ C :: Either Error Result -&gt; Maybe (Either Error' Result')
 <p>Generally, the pattern goes like this:</p>
 <p><img src="general_or.svg" alt="Generalized pattern (SVG)" /></p>
 <p><img src="general_or.png" alt="Generalized pattern (PNG)" /></p>
-<p>Algebraically, in pseudo-Haskell (note on notaion afterwards):</p>
+<p>Algebraically, in pseudo-Haskell (note on notation afterwards):</p>
 <pre><code>R : () -&gt; (A1 + A2 + ... + An)^n
 ak : (A1 + A2 + ... + An)
 T'k : (A1 + A2 + ... + An) -&gt; Maybe (A'1 + A'2 + ... + A'n)

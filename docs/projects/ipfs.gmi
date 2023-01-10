@@ -17,7 +17,7 @@ A new version of Kubo was released some day of this past week, and today I spent
 => gemini://the-brannons.com teiresias
 
 
-What prompted me to write this was Petri nets log #003, where I write about languages convertable to other target languages. The idea didn't come to me while writing that log but because of this egg. After writing it and getting something already usable I thought of using IPFS where CHICKEN didn't fit: some mpv hacks with its Lua interface. "Why not write an ipfs.lua?", thought I. And so I did, the following couple of hours. I progressed along well, until I reached the point where only the endpoints were missing. Of course, I didn't want to write them by hand yet again, screw that! Instead, I wrote a different version of export-rpc-call and voila: a Lua file with all the endpoints defined, ready to be used!
+What prompted me to write this was Petri nets log #003, where I write about languages convertible to other target languages. The idea didn't come to me while writing that log but because of this egg. After writing it and getting something already usable I thought of using IPFS where CHICKEN didn't fit: some mpv hacks with its Lua interface. "Why not write an ipfs.lua?", thought I. And so I did, the following couple of hours. I progressed along well, until I reached the point where only the endpoints were missing. Of course, I didn't want to write them by hand yet again, screw that! Instead, I wrote a different version of export-rpc-call and voila: a Lua file with all the endpoints defined, ready to be used!
 
 => ../petri_nets/log003.gmi Petri Nets Log #003
 => https://git.sr.ht/~siiky/ipfs.lua ipfs.lua

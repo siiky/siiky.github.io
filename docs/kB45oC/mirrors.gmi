@@ -7,7 +7,7 @@ Contacted SEP yesterday asking if there was a way to make personal archives/mirr
 
 => https://plato.stanford.edu Stanford Encyclopedia of Philosophy
 
-They kindly replied (aweome, and thanks!) quoting the Terms of Use¹, saying that I have permission to freely crawl/download entries for personal use, within reasonable network use (1. User Rights) -- I just can't make them public (non-personal) (2b. & 2d. Limited Electronic Distribution Rights).
+They kindly replied (awesome, and thanks!) quoting the Terms of Use¹, saying that I have permission to freely crawl/download entries for personal use, within reasonable network use (1. User Rights) -- I just can't make them public (non-personal) (2b. & 2d. Limited Electronic Distribution Rights).
 
 => https://plato.stanford.edu/info.html#terms Terms of Use
 
@@ -64,7 +64,7 @@ Now, I didn't come up with any of these ideas myself. I tried to make the post a
 
 I won't go into details here, but there's a "namespace" of content-identifiers (CIDs), and two network schemes: one for content-based addressing (IPFS, ipfs://) and another for location-based addressing (IPNS, ipns://).⁶
 
-Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribuition networks, unpopular content is hard to get (especially slow to find). Finally, the "reference" IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷
+Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribution networks, unpopular content is hard to get (especially slow to find). Finally, the "reference" IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷
 
 ## Postscript
 
@@ -88,7 +88,7 @@ I learned from one of @degrowther's posts that Debian has tried some decentraliz
 
 ⁴ In the particular case of package repos, a list of checksums, for example, could be downloaded from the official repos, and used to confirm individual files haven't been altered (apt uses a simple "clock" version to detect outdated mirrors but nothing else). Authenticity of files could be checked using, for example, pubkey cryptography (apt does this), but still there are caveats -- you know a file came from who you expect, but not that it *is* the file you want.
 
-⁵ This is a technical implementation detail, but if it makes it easier to understand you can think of it as a cryptographic hash of the content. It's only important that the something be determinisc and based on the content itself.
+⁵ This is a technical implementation detail, but if it makes it easier to understand you can think of it as a cryptographic hash of the content. It's only important that the something be deterministic and based on the content itself.
 
 ⁶ The CID "namespace" is shared, so the same CID may identify different content depending on the scheme (ipfs:// or ipns://), as should be expected.
 

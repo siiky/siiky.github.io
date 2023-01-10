@@ -10,7 +10,7 @@
 <p>Contacted SEP yesterday asking if there was a way to make personal archives/mirrors of either the whole site or several entries.</p>
 <ul>
 <li><a href="https://plato.stanford.edu">Stanford Encyclopedia of Philosophy</a></li></ul>
-<p>They kindly replied (aweome, and thanks!) quoting the Terms of Use¹, saying that I have permission to freely crawl/download entries for personal use, within reasonable network use (1. User Rights) -- I just can't make them public (non-personal) (2b. &amp; 2d. Limited Electronic Distribution Rights).</p>
+<p>They kindly replied (awesome, and thanks!) quoting the Terms of Use¹, saying that I have permission to freely crawl/download entries for personal use, within reasonable network use (1. User Rights) -- I just can't make them public (non-personal) (2b. &amp; 2d. Limited Electronic Distribution Rights).</p>
 <ul>
 <li><a href="https://plato.stanford.edu/info.html#terms">Terms of Use</a></li></ul>
 <p>While I don't mean to convince them of anything, it gave me the idea for this post: big sites that publish content publicly for free use are a great fit for experimenting with novel means of distribution and archival other than the good (bad) old HTTP we have today.</p>
@@ -44,7 +44,7 @@
 <h2>IPFS</h2>
 <p>Now, I didn't come up with any of these ideas myself. I tried to make the post a bit generic, but always thinking of a particular network in the background. And it should be unsurprising that this network should be IPFS. It's the best content-based addressable P2P content distribution network that I know of to date.</p>
 <p>I won't go into details here, but there's a &quot;namespace&quot; of content-identifiers (CIDs), and two network schemes: one for content-based addressing (IPFS, ipfs://) and another for location-based addressing (IPNS, ipns://).⁶</p>
-<p>Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribuition networks, unpopular content is hard to get (especially slow to find). Finally, the &quot;reference&quot; IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷</p>
+<p>Unfortunately, IPNS is yet to become generally practical. And, as is common of P2P content distribution networks, unpopular content is hard to get (especially slow to find). Finally, the &quot;reference&quot; IPFS node implementation, Kubo (previously known as go-ipfs), is a bit more resource hungry than BitTorrent clients.⁷</p>
 <h2>Postscript</h2>
 <p>I learned from one of @degrowther's posts that Debian has tried some decentralization in the past using BitTorrent.</p>
 <ul>
@@ -60,7 +60,7 @@
 <ul>
 <li><a href="https://www.debian.org/mirror/ftpmirror">Setting up a Debian archive mirror</a></li></ul>
 <p>⁴ In the particular case of package repos, a list of checksums, for example, could be downloaded from the official repos, and used to confirm individual files haven't been altered (apt uses a simple &quot;clock&quot; version to detect outdated mirrors but nothing else). Authenticity of files could be checked using, for example, pubkey cryptography (apt does this), but still there are caveats -- you know a file came from who you expect, but not that it <em>is</em> the file you want.</p>
-<p>⁵ This is a technical implementation detail, but if it makes it easier to understand you can think of it as a cryptographic hash of the content. It's only important that the something be determinisc and based on the content itself.</p>
+<p>⁵ This is a technical implementation detail, but if it makes it easier to understand you can think of it as a cryptographic hash of the content. It's only important that the something be deterministic and based on the content itself.</p>
 <p>⁶ The CID &quot;namespace&quot; is shared, so the same CID may identify different content depending on the scheme (ipfs:// or ipns://), as should be expected.</p>
 <p>⁷ While you may be able to run a BT client on a phone, for example, a full IPFS node would likely be inefficient/slow -- a Raspberry Pi 2 can still manage it for light use. Version v0.13.0 introduced some changes that make &quot;light nodes&quot; closer to a possibility, but no such (working) node exists as of now, AFAIK. Also new in this version is resource management configuration, making it possible to limit certain resources based on configuration. Previously you could only have some heuristics to &quot;garbage collect&quot; connected peers; now you can limit the number of connections, open FDs, maximum memory, &amp;c! My Raspberry Pi 2 is no longer beaten dead by IPFS. :3</p>
 <ul>

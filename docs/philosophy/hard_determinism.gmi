@@ -7,9 +7,9 @@ Thoughts on Hard Determinism, as described in Philosophy 101, by Paul Kleinman.
 
 => ../books/list.gmi Books list
 
-Hard determinism, as described in the book, states that everything is determined by past events. It is not clear from the book if it's meant to be applied only to the physical world, beings' behaviour, or both, but it treats only human behaviour.
+Hard determinism, as described in the book, states that everything is determined by past events. It is not clear from the book if it's meant to be applied only to the physical world, beings' behavior, or both, but it treats only human behavior.
 
-Applied to human behaviour, the idea holds that we have no effect in future events, because we cannot do anything other than what we're predetermined to do, essentially meaning that we have no free will.
+Applied to human behavior, the idea holds that we have no effect in future events, because we cannot do anything other than what we're predetermined to do, essentially meaning that we have no free will.
 
 This doesn't sit right with me. How can we believe to have free will, believe to be able to make a choice, but not actually be able to make a choice? How can it be that when I choose to eat this instead of that, or listen to this song instead of that one, I'm not actually choosing, but it had been predetermined beforehand, since the beginning of time, that I would "choose" so?
 

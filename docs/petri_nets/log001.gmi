@@ -14,7 +14,7 @@ At first I didn't understand the point of having places (seemingly analogous to 
 
 Once I saw Fig. 2.8 and 2.9, however, it clicked: a transition is enabled (can fire, "execute") if its input tokens can be satisfied by all its input places. So what's currently a valid "step" in the system is determined by the number of tokens in each place, just like the "current state" of other automata determines the valid next transitions. And, several transitions may execute simultaneously (as long as their executions don't prevent each other)!
 
-Yesterday and today were good days in this regard. I now understand how Petri nets can represent concurrent/parallel behaviour, because transitions are like independent "processes" (a la Erlang); and that places are more like variables, or resources, possibly shared between many transitions (processes).
+Yesterday and today were good days in this regard. I now understand how Petri nets can represent concurrent/parallel behavior, because transitions are like independent "processes" (a la Erlang); and that places are more like variables, or resources, possibly shared between many transitions (processes).
 
 There's a site referenced right at the end of Ch. 2 where you can read the basics of the basics and play with some simple nets. Unfortunately you can only play with already defined ones, you can't define new ones or change those of the website.
 

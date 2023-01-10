@@ -10,7 +10,7 @@ Finished reading this book recently (ISBN 978-0-241-44830-4) and in this post I 
 
 I'll put down page numbers in this post. If you have the same edition, cool, if not: the "Introduction" starts on p3, and "Climate Change and COVID-19" ends on p230. Hopefully that will help getting around. For figures and tables you can try the "Notes" where you can find the sources and corresponding page.
 
-Because Gemtext is so limitted, here are some notes to disambiguate formating: titles of things will be surrounded by quotes "Like This". ALL CAPS mean either italics or bold. Page numbers will be shown as p123, figures and tables as "fig p123" and "tbl p123" respectively, and sources as "src". Tables will be formatted in code blocks, and will additionally have their page and souce in the block's alt text. The page numbers of other things (quotes, figures, &c) will always come afterwards, never before. Likewise, comments about quotes/figures/tables/&c should in general come afterwards, not before.
+Because Gemtext is so limited, here are some notes to disambiguate formatting: titles of things will be surrounded by quotes "Like This". ALL CAPS mean either italics or bold. Page numbers will be shown as p123, figures and tables as "fig p123" and "tbl p123" respectively, and sources as "src". Tables will be formatted in code blocks, and will additionally have their page and source in the block's alt text. The page numbers of other things (quotes, figures, &c) will always come afterwards, never before. Likewise, comments about quotes/figures/tables/&c should in general come afterwards, not before.
 
 # Overview
 
@@ -20,11 +20,11 @@ Here are some of my thoughts on the book in general, or the things I got out of 
 
 First off, this is kinda personal preference, what makes me tick or makes me cringe, but I didn't like the overall tone and his unquestionably stating that "progress" is good.
 
-My impression, from reading this book alone, is that he REALLY believes that the incresing consumerism of resources -- be they electricity, water, minerals/metals, &c -- is a good thing, especially by "the poor", as he puts it.
+My impression, from reading this book alone, is that he REALLY believes that the increasing consumerism of resources -- be they electricity, water, minerals/metals, &c -- is a good thing, especially by "the poor", as he puts it.
 
 The exact thing that got us into this, he thinks should be liberally given to and used by "the poor". So that they can wreck their own countries/land/habitat? Is this rational?
 
-The acknowledgements chapter even has a huge list of people that supposedly contributed to the inception of the book in some way or another, including several researchers, professors, and renowned authors in the matter. Is it just me thinking about this? Or am I missing something that everyone else knows about?
+The acknowledgments chapter even has a huge list of people that supposedly contributed to the inception of the book in some way or another, including several researchers, professors, and renowned authors in the matter. Is it just me thinking about this? Or am I missing something that everyone else knows about?
 
 It's almost funny after he mentioned David Foster Wallace's "This Is Water" (more later).
 
@@ -34,7 +34,7 @@ This is related to some of the themes discussed in "Sex at Dawn" from my point o
 
 ## Pollution of "greener" alternatives
 
-Throughout the whole book he continuously advocates for green energies (like solar and wind) and alternatives (like electric vehicles) but fails to mention even once the polution involved in their production, and the fact that the current products/methods are not recyclable (see "The Dark Side of Green Energies"). Other actually greener production methods may exists, even if not as efficient as the currently in use -- as an example, see "How to Build a Low-tech Solar Panel?". But for some reason there's no interest in these other methods.
+Throughout the whole book he continuously advocates for green energies (like solar and wind) and alternatives (like electric vehicles) but fails to mention even once the pollution involved in their production, and the fact that the current products/methods are not recyclable (see "The Dark Side of Green Energies"). Other actually greener production methods may exists, even if not as efficient as the currently in use -- as an example, see "How to Build a Low-tech Solar Panel?". But for some reason there's no interest in these other methods.
 
 => https://en.wikipedia.org/wiki/Guillaume_Pitron "The Dark Side of Green Energies"
 => https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (solar powered site)
@@ -132,7 +132,7 @@ This (tbl p55) was possibly the most unexpected thing I learned from the book. I
 | US                     | 1k gigawatts |
 | mid-size city          | 1 gigawatt   |
 | small town             | 1 megawatt   |
-| average american house | 1 kilowatt   |
+| average American house | 1 kilowatt   |
 |------------------------+--------------|
 ```
 
@@ -210,7 +210,7 @@ Direct Air Capture: taking CO2 right off the air. (p95) The alternative, which s
 => https://en.wikipedia.org/wiki/Direct_air_capture Direct Air Capture (DAC)
 => https://en.wikipedia.org/wiki/Carbon_capture_and_storage Point Carbon Capture
 
-> I used to scoff at the idea that using power more efficiently would make a dent in climate change. My rationale: If you have limited resources to reduce emitions (and we do), then you'd get the biggest impact by moving to zero emissions rather than by spending a lot trying to reduce the demand for energy.
+> I used to scoff at the idea that using power more efficiently would make a dent in climate change. My rationale: If you have limited resources to reduce emissions (and we do), then you'd get the biggest impact by moving to zero emissions rather than by spending a lot trying to reduce the demand for energy.
 
 A comment about using less energy. (p95) Is it dumb or what? The following paragraph:
 
@@ -276,9 +276,9 @@ And what the hell are "No poverty" (1), "Responsible consumption and production"
 
 => https://www.flashforwardpod.com/2016/08/10/episode-19-wheres-the-beef FlashForward, "Where’s the Beef?"
 
-5th WTF: "pleasure of taste"? Hmmm... Let's see. How do you season your meat or fish? Salt (lit. some rock out of sea water)? Spices (plants, seeds, roots, ...)? Butter (or, more likely, margerine -- plant)? Some garlic (plant) and/or onion (plant)? Maybe some alcoholic beverage (wine -- grapes; beer -- cereals; vodka -- cereals/potatoes; rum -- sugarcanes)? Why use so many non-animal products if the said "pleasure of taste" comes from the meat? Admittedly, nowhere does it say that the "pleasure of taste" does come from the meat, but why would it be mentioned otherwise?
+5th WTF: "pleasure of taste"? Hmmm... Let's see. How do you season your meat or fish? Salt (lit. some rock out of sea water)? Spices (plants, seeds, roots, ...)? Butter (or, more likely, margarine -- plant)? Some garlic (plant) and/or onion (plant)? Maybe some alcoholic beverage (wine -- grapes; beer -- cereals; vodka -- cereals/potatoes; rum -- sugarcanes)? Why use so many non-animal products if the said "pleasure of taste" comes from the meat? Admittedly, nowhere does it say that the "pleasure of taste" does come from the meat, but why would it be mentioned otherwise?
 
-6th WTF: "balance between human beings and the products of nature"? Must have been a typo for sure: "inbalance". And yes, good thing we, the good, well intentioned humans, are here to consume all the products of nature, otherwise, what a waste! And y'all know that waste is a sin!
+6th WTF: "balance between human beings and the products of nature"? Must have been a typo for sure: "imbalance". And yes, good thing we, the good, well intentioned humans, are here to consume all the products of nature, otherwise, what a waste! And y'all know that waste is a sin!
 
 This must be the most stupidestest paragraph of the entire book... He does say he enjoys a good burger, but it would be only an assumption, of course, to think that this is his opinion or that he's just sharing something he's heard. Plus, he says he has invested in two companies working on "plant-based meat": Beyond Meat and Impossible Foods. (I think calling it "plant-based meat" is stupid -- if it's plant-based then it's not meat -- but whatever, after that paragraph...)
 
@@ -286,7 +286,7 @@ This must be the most stupidestest paragraph of the entire book... He does say h
 => https://en.wikipedia.org/wiki/Beyond_meat Beyond Meat
 => https://en.wikipedia.org/wiki/Impossible_Foods Impossible Foods
 
-And yes, some of my comments above may be a bit exaggedated, but... WHAT THE FUCK?
+And yes, some of my comments above may be a bit exaggerated, but... WHAT THE FUCK?
 
 
 ### Planting trees
@@ -344,7 +344,7 @@ Books mentioned throughout the book -- may have missed some.
 * p43, Vaclav Smil, "Energy Myths and Realities"
 * "Earth's Changing Climate" -- can't find much info on this one, but I believe the ISBN is 978-0-7166-2765-4
 * "Weather for Dummies"
-* Acknowledgements, David MacKay, "Sustainable Energy -- Without the Hot Air"
+* Acknowledgments, David MacKay, "Sustainable Energy -- Without the Hot Air"
 * p113-114, Paul Ehrlich, "The Population Bomb" -- a best selling flop; predicted tons of people dying from hunger in the 1970s and 1980s, which didn't happen
 
 => https://en.wikipedia.org/wiki/Vaclav_Smil Vaclav Smil

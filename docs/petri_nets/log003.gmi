@@ -7,7 +7,7 @@
 
 Following up with the idea of a Petri nets programming language, I now have some goals I want it to meet:
 
-* It has to be a real programming language, not a modelling one!
+* It has to be a real programming language, not a modeling one!
 * Must be textual, human-friendly, and text-editor-friendly -- I don't want to have to muck with a shitty, slow, and subpar GUI editor (as a bonus: this should be enough to make it VCS-friendly too)
 * In line with the first point: transitions are written in the "host" programming language, and the user must be able to reuse existing code of that language
 * Also in line with the first point: a program in this language must be runnable (even better if compiled) like any other program
@@ -87,7 +87,7 @@ There was also the question of representing the tokens produced. For that I quic
 
 (Not the fold concept described in the last chapter of the Statebox monograph)
 
-Tried modelling a fold (such as a sum), which is a recursive process, as a Petri net, basically the first on my own. Here's a rough graphic (haven't played with GraphViz settings yet):
+Tried modeling a fold (such as a sum), which is a recursive process, as a Petri net, basically the first on my own. Here's a rough graphic (haven't played with GraphViz settings yet):
 
 => folder1.png Folder w/ inspection
 

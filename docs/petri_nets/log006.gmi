@@ -41,7 +41,7 @@ Generally, the pattern goes like this:
 => general_or.svg Generalized pattern (SVG)
 => general_or.png Generalized pattern (PNG)
 
-Algebraically, in pseudo-Haskell (note on notaion afterwards):
+Algebraically, in pseudo-Haskell (note on notation afterwards):
 
 ```hs
 R : () -> (A1 + A2 + ... + An)^n

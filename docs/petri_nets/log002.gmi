@@ -55,7 +55,7 @@ And even cooler cooler is that, while you can now tell tokens apart, nobody tell
 
 ## Implementation
 
-About this time I started wondering... Are there Petri net implementations? What are they used for, modelling or programming? Strictly graphical or textual? Easy to work with? VCS-friendly?
+About this time I started wondering... Are there Petri net implementations? What are they used for, modeling or programming? Strictly graphical or textual? Easy to work with? VCS-friendly?
 
 Statebox supposedly had a prototype implementation that is no more. At least I can't find it anymore and the people that I know knew about it don't know about it no more either. I think they're working on something new, but not publicly.
 

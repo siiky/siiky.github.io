@@ -26,7 +26,7 @@ Some properties right away:
 
 * Two equal morphisms do not necessarily have equal performance: ¬(f = g ⇒ P(f) = P(g)).
 * Two morphisms with the same performance aren't necessarily equal: ¬(P(f) = P(g) ⇒ f = g)
-* Two morphisms with different performance aren't necessarity different: ¬(P(f) ≠ P(g) ⇒ f ≠ g)
+* Two morphisms with different performance aren't necessarily different: ¬(P(f) ≠ P(g) ⇒ f ≠ g)
 
 The latter two don't add much to our toolbox.
 

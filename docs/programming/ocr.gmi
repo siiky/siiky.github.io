@@ -46,9 +46,9 @@ It's neat that it creates a self contained set of files to review a specific PR,
 
 ## The solution?
 
-I'm thinking if writing some helper scripts to make this flow easier would be doable or twm.
+I'm thinking if writing some helper scripts to make this flow easier would be doable or tmw.
 
-I have to learn how webrev gets the list of commits introduced in a certain branch because it's the most useful starting point. Then, having the state in a file or w.e. is probably the best way to go (with the feature/target braches & (un)reviewed files). Marking files as reviewed, and viewing the diff of a certain file (either with vimdiff or a git-diff in vim) should be easy enough.
+I have to learn how webrev gets the list of commits introduced in a certain branch because it's the most useful starting point. Then, having the state in a file or w.e. is probably the best way to go (with the feature/target branches & (un)reviewed files). Marking files as reviewed, and viewing the diff of a certain file (either with vimdiff or a git-diff in vim) should be easy enough.
 
 Two harder problems to solve: review comments and branch (PR) updates.
 
