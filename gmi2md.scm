@@ -62,9 +62,21 @@
 (define string-null? (chain-lambda (string-length _) (zero? _)))
 
 (define (links? l) (and (list? l) (eq? (car l) 'links)))
+(define (quotes? l) (and (list? l) (eq? (car l) 'quotes)))
 
 
-(define (group-links gmi)
+(define (group-inner-loop outer-loop gmi:*? head-sym ret gmi)
+  (let iloop ((ret ret)
+              (gmi (cdr gmi))
+              (group `(,(car gmi) ,head-sym)))
+    (cond
+      ((null? gmi)
+       (reverse (cons (reverse group) ret)))
+      ((gmi:*? (car gmi))
+       (iloop ret (cdr gmi) (cons (car gmi) group)))
+      (else (outer-loop (cons (reverse group) ret) gmi)))))
+
+(define (group-elements gmi)
   (let oloop ((ret '())
               (gmi gmi))
     (cond
@@ -72,15 +84,10 @@
        (reverse ret))
 
       ((gmi:link? (car gmi))
-       (let iloop ((ret ret)
-                   (gmi (cdr gmi))
-                   (links `(,(car gmi) links)))
-         (cond
-           ((null? gmi)
-            (reverse (cons (reverse links) ret)))
-           ((gmi:link? (car gmi))
-            (iloop ret (cdr gmi) (cons (car gmi) links)))
-           (else (oloop (cons (reverse links) ret) gmi)))))
+       (group-inner-loop oloop gmi:link? 'links ret gmi))
+
+      ((gmi:blockquote? (car gmi))
+       (group-inner-loop oloop gmi:blockquote? 'quotes ret gmi))
 
       (else (oloop (cons (car gmi) ret) (cdr gmi))))))
 
@@ -108,6 +115,12 @@
     ; Grouped list of links
     ((links? elem)
      `("" ,@(concatenate (map gmi:link->md:link (cdr elem))) ""))
+
+    ((quotes? elem)
+     `("\n"
+       ,@(map (lambda (qt)
+                (string-append "> " (gmi:blockquote:text qt)))
+              (cdr elem))))
 
     ((gmi:link? elem)
      (gmi:link->md:link elem))
@@ -153,7 +166,7 @@
     (receive (directory _filename _extension) (decompose-pathname this-file)
       (chain (gmi:read)
              (map (rewrite-links directory input-filename) _)
-             (group-links _)
+             (group-elements _)
              (map grouped-gmi-element->md-element _)
              (concatenate _)
              (for-each write-line _)
