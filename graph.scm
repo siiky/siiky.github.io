@@ -54,6 +54,7 @@
 ("philosophy/links.gmi" "https://en.wikipedia.org/wiki/Philosophy" "https://en.wikiversity.org/wiki/Philosophy/Resources" "https://en.wikiversity.org/wiki/School:Philosophy" "https://iep.utm.edu" "https://plato.stanford.edu/contents.html" "https://plato.stanford.edu/rss/sep.xml")
 ("philosophy/re-tech-and-conscience.gmi" "gemini://the-brannons.com/tech-and-conscience" "philosophy/knives.gmi")
 ("philosophy/slomo-vacations.gmi" "books/list.gmi")
+("philosophy/society_disgust.gmi")
 ("philosophy/trolley-problem.gmi" "https://en.wikipedia.org/w/index.php?title=Trolley_problem&oldid=1120792086#Criticism" "https://en.wikipedia.org/wiki/Mind_Field" "https://en.wikipedia.org/wiki/Trolley_problem" "https://pigeonrat.psych.ucla.edu" "https://www.drgregcason.com" "https://www.psych.ucla.edu/faculty-page/aaron-blaisdell")
 ("programming/github-copilot.gmi")
 ("programming/ocr.gmi" "contact.gmi" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/webrev.sh?r=bbf21555" "https://src.illumos.org/source/xref/illumos-gate/usr/src/tools/scripts/which_scm.sh" "programming/webrev.patch")
