@@ -19,9 +19,9 @@ The subtitle's translation:
 
 Kageyama, to Kaji, from The Human Condition: No Greater Love
 
-=> https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%96%93%E3%81%AE%E6%A2%9D%E4%BB%B6_%28%E6%98%A0%E7%94%BB%29 Wikipedia (JP)
-=> https://en.wikipedia.org/wiki/The_Human_Condition_%28film_series%29 Wikipedia (EN)
-=> https://www.imdb.com/title/tt0053114/ IMDB
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?%E4%BA%BA%E9%96%93%E3%81%AE%E6%A2%9D%E4%BB%B6_%28%E6%98%A0%E7%94%BB%29 Wikipedia (JP)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Human_Condition_%28film_series%29 Wikipedia (EN)
+=> https://www.imdb.com/title/tt0053114 IMDB
 
 ====================
 
@@ -41,7 +41,7 @@ Thomas Jefferson
 
 Lenina, from Brave New World, by Aldous Huxley
 
-=> https://en.wikipedia.org/wiki/Brave_new_world Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Brave_New_World Wikipedia
 
 ====================
 
@@ -49,7 +49,7 @@ Lenina, from Brave New World, by Aldous Huxley
 
 Socrates, from Socrates, by Voltaire
 
-=> https://en.wikipedia.org/wiki/Voltaire%27s_Socrates_%28play%29 Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Voltaire%27s_Socrates_%28play%29 Wikipedia
 => https://www.gutenberg.org/ebooks/4683 Project Gutenberg
 
 ====================
@@ -61,7 +61,7 @@ but it's a good paragraph from a good book.
 
 From Brave New World, by Aldous Huxley
 
-=> https://en.wikipedia.org/wiki/Brave_new_world Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Brave_New_World Wikipedia
 
 ====================
 
@@ -69,7 +69,7 @@ From Brave New World, by Aldous Huxley
 
 From Animal Farm, by George Orwell
 
-=> https://en.wikipedia.org/wiki/Animal_Farm Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Animal_Farm Wikipedia
 => https://gutenberg.net.au/plusfifty-n-z.html#orwell Project Gutenberg Australia
 
 ====================
@@ -78,7 +78,7 @@ From Animal Farm, by George Orwell
 
 From Dialogues Concerning Natural Religion, by David Hume
 
-=> https://en.wikipedia.org/wiki/Problem_of_evil#Atheistic_viewpoint Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Problem_of_evil#Atheistic_viewpoint Wikipedia
 
 ====================
 
@@ -86,7 +86,7 @@ From Dialogues Concerning Natural Religion, by David Hume
 
 From Tractatus Logico-Philosophicus, by Ludwig Wittgenstein
 
-=> https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tractatus_Logico-Philosophicus Wikipedia
 => https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden Standard Ebooks
 
 ====================
@@ -95,5 +95,5 @@ From Tractatus Logico-Philosophicus, by Ludwig Wittgenstein
 
 Jean Valjean to Marius Pontmercy, from Les Misérables, by Victor Hugo
 
-=> https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Les_Misérables Wikipedia
 => https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood Standard Ebooks

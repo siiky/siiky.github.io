@@ -24,7 +24,7 @@ Although it went fine, I'm not sure confronting him was the right choice to make
 The other day I was reminded of toki pona when I found by chance @sloum's toki pona/English dictionary.
 Yesterday I decided to finally jump in and read the first 4 lessons of the toki pona book. It does seem easy to learn. I'm intrigued!
 => gemini://rawtext.club/~sloum/cgi/ilo @sloum's toki pona/English dictionary
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Toki+Pona toki pona (Gemipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Toki_Pona toki pona
 
 ## 2022-09-22 09:44 +0100
 => gemini://gemini.thegonz.net/glog/220525-geminiInputClientSupport.gmi Gemini input, and improving client support
@@ -65,13 +65,12 @@ I just now realized that I rarely ever open Steam nowadays, and that it's been m
 
 ## 2022-08-30 14:23 +0100
 Read this piece by freezr today. Though I'm not up to date with whatever MS&GH are doing with Copilot, everything in freezr's (partly) fictional story sounds very plausible to me.
-=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi "Do not let MinuzSopht making free-software illegal", freezr
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view?GitHub%20Copilot GitHub Copilot (Gemipedia)
-=> https://en.wikipedia.org/wiki/GitHub_Copilot GitHub Copilot (Wikipedia)
+=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-29-factotum-chronicles.gmi freezr, "Do not let MinuzSopht making free-software illegal"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?GitHub_Copilot GitHub Copilot
 > Disgracefully MinuzSopht was already so influential that was capable to track down many of these peaceful protesters and to obtain to kicking them out from their jobs, treated as terrorist and marginalized from the society and their family. Despite the retaliation, many more people got scared and started to get disconnected and away from anything electronic as much as possible.
 Some excerpts, such as the 47th above, reminded me of another post:
 > There are of course the continual struggles with the county in the background, as they are quite frustrated that we live so simply, and entirely off grid. (...) Currently, unless we show regular "progress" toward a conventional house with all of the environmental damage which comes with that, they threaten to chase us off our own land.
-=> gemini://atyh.net/post-2022-07-21-summertime.gmi "SUMMER TIME", ATYH
+=> gemini://atyh.net/post-2022-07-21-summertime.gmi ATYH, "SUMMER TIME"
 It's crazy that this is even legal, let alone "normal"!
 
 ## 2022-08-13 12:45 +0100
@@ -128,7 +127,7 @@ Got my first comment on something I wrote! Exciting times we live in! Left me wo
 
 ## 2022-07-06 01:23 +0100
 Found the other day's song, and it wasn't Carolina Deslandes:
-=> https://invidious.snopyta.org/watch?v=PSmbg9y4BgE "Mais ou Menos Isto", by Rita Rocha
+=> https://invidious.snopyta.org/watch?v=PSmbg9y4BgE Rita Rocha, "Mais ou Menos Isto"
 Apparently she won The Voice Kids Portugal...? Faugh!
 
 ## 2022-07-04 01:02 +0100
@@ -144,8 +143,8 @@ Coincidentally, I learned of GiveUpGitHub after getting the subscription...
 ## 2022-06-29 23:21 +0100
 I'm completely against current DRM systems, but some time ago I thought of a valid (IMO) use case for a proper implementation (before that I held "DRM-free good, DRM bad" in my mind as a truism).
 If you share digital content with someone (a photo, some text, w.e.), they can technically do whatever they want with it. Maybe you're OK with that, but if you eventually become unOK, there's nothing you can technically do to deny them future access. With a proper DRM system this should be possible. I was reminded of this by a couple of posts I read recently:
-=> gemini://gemini.circumlunar.space/users/solderpunk/gemlog/low-budget-p2p-content-distribution-with-git.gmi Solderpunk, Low budget P2P content distribution with git
-=> gemini://alexschroeder.ch/page/2018-06-29_No_Take_Back Alex Schröder, No take back
+=> gemini://gemini.circumlunar.space/users/solderpunk/gemlog/low-budget-p2p-content-distribution-with-git.gmi Solderpunk, "Low budget P2P content distribution with git"
+=> gemini://alexschroeder.ch/page/2018-06-29_No_Take_Back Alex Schröder, "No take back"
 
 ## 2022-06-29 10:50 +0100
 The other day I heard some pop song on the radio (note-se: because I was forced to). It was almost like any other shitty pop song that goes on the radio, but it had a flair to it you don't usually hear in pop; it had a weird sequence of notes, almost dissonant. Now, I would never in general be in favor of shit music. But if this one is popular enough to result in people listening to more weird (and thus better) music, that's a good thing! So this song is good (though still not a good song). I don't know the song's name, but I'm almost 100% sure it was by Carolina Deslandes.

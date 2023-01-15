@@ -15,7 +15,7 @@ While I don't mean to convince them of anything, it gave me the idea for this po
 
 More specifically, I'll try to convince you that content-based content addressing is a better alternative to location-based content addressing (the current web), and try to explain how and why.
 
-=> https://en.wikipedia.org/wiki/Content-addressable_network Content-addressable network (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Content-addressable_network Content-addressable network
 => https://docs.ipfs.io/concepts/glossary/#content-addressing Content addressing (IPFS glossary)
 
 To make writing easier, I'll pick the Debian package repos as a sort of "case study", but other package repositories would work equally well (Arch, Nix, F-Droid, Flathub, ...). A good alternative would be any Wikimedia site, such as Wikipedia.² I'll write about mirrors but much of it applies to archives equally well. Although some of the points I'll raise may have nuances that make more sense to sites or to package repos, to archives or to mirrors, the spirit is there!
@@ -50,11 +50,11 @@ Since anyone can safely share the content with anyone else more easily, more peo
 
 Bonus benefit: Debian's traffic would decrease, and file transfer would be more local, that is, you'd generally get the files from your closest neighbors (that have them, of course), making the whole packaging system more robust (resilient) -- even if Debian's servers go down, I can install things as long as I can connect to anyone that has them.
 
-=> https://en.wikipedia.org/wiki/Resilience_%28network%29 Network resiliency (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Resilience_%28network%29 Network resiliency
 
 Unfortunately, however, this is only the ideal. For some reason unbeknownst to me, people prefer to stick with the archaic C-S architecture and the so very great HTTP centralized web.
 
-=> https://en.wikipedia.org/wiki/Client%E2%80%93server_model C-S architecture (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Client%E2%80%93server_model C-S architecture
 
 The only problem I haven't mentioned yet is that we don't want content to be immutable (one of the implications of content-based addressing). There must be a way to "update" content. Put another way, we still need some form of location-based addressing, of which there are some. One is for the content owner to provide the latest "root" address through some current means, e.g., https://debian.org/root-content, so that I can ask Debian for the latest content, but fetch it from other peers. Another is to bake a similar mechanism into the system itself -- entities may publish the latest "root" address to the network on a known address (location-based but not necessarily human-readable/human-friendly).
 
@@ -79,8 +79,8 @@ I learned from one of @degrowther's posts that Debian has tried some decentraliz
 
 ² Except there are no "official" Wikipedia mirrors, and no restrictions or bureaucracies to become one.
 
-=> https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks Mirrors and forks (Wikipedia)
-=> https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking Forking FAQ (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Wikipedia:Mirrors_and_forks Mirrors and forks
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Wikipedia:FAQ/Forking Forking FAQ
 
 ³ Admittedly, much less than I would ever have expected: a manual request! But even this little is already too much...
 

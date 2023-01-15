@@ -12,7 +12,7 @@ As StackSmith prompted:
 I don't love it, I even agree with some of the points raised, but after learning it one has to admit: most tasks are damn terse. And I can't imagine any Lisp-like syntax that could come even close -- BTW it's been tried at least once, that I know of:
 
 => https://scsh.net Scsh
-=> https://en.wikipedia.org/wiki/Scsh Scsh (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Scsh Scsh (Wikipedia)
 
 
 Maybe interesting, maybe not, but here are some of the features I use most often. I never know what's the right if/then syntax either, so when I want this:

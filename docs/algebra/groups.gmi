@@ -5,7 +5,7 @@
 
 This post is about groups (whouldathunkit).
 
-=> https://en.wikipedia.org/wiki/Group_(mathematics)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Group_(mathematics)
 
 # Conventions/Notation
 

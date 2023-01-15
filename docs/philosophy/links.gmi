@@ -20,7 +20,7 @@ Another site full of in-depth articles, similar to SEP.
 
 Wikipedia, of course!
 
-=> https://en.wikipedia.org/wiki/Philosophy
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Philosophy
 
 ## Wikiversity School of Philosophy
 

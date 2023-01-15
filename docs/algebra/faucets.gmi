@@ -120,4 +120,4 @@ For us, physical beings using faucets through mechanical interaction, it follows
 
 I can think of more reasons to justify the superiority of faucets A, but I'll leave them for another post, maybe.
 
-=> https://en.wikipedia.org/wiki/KISS_principle KISS
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?KISS_principle KISS

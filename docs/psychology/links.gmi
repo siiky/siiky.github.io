@@ -14,4 +14,4 @@ Interviews to Portuguese psychologists on various subjects.
 
 Wikipedia, of course!
 
-=> https://en.wikipedia.org/wiki/Psychology
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Psychology

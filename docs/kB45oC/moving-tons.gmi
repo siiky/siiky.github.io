@@ -14,7 +14,7 @@ I found online some numbers that I'll present next. I didn't include any trains 
 ; 1331.29360595
 ```
 
-=> https://en.wikipedia.org/wiki/Pound_(mass)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Pound_(mass)
 => https://wiki.call-cc.org/eggref/5/unitconv
 
 Now some of the weights I've found:
@@ -37,7 +37,7 @@ Now some of the weights I've found:
 
 Let's assume that the average person weighs around 80kg (which apparently is really the average in the USA?).
 
-=> https://en.wikipedia.org/wiki/Human_body_weight
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Human_body_weight
 
 For an average person driving a Smart Fortwo (being generous here) to work/shopping/w.e., a total mass of 900kg has to be moved to move the 80kg meatbag that actually has/wants to be moved. That's only 8.89% of the moved weight! Even if two people share that car, it's only marginally improved to 16.32%! And you can't get any better unless you put more people in the trunk or something... Does it even have a trunk? That thing is tiny...
 

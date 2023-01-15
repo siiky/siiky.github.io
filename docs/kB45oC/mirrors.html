@@ -16,7 +16,7 @@
 <p>While I don't mean to convince them of anything, it gave me the idea for this post: big sites that publish content publicly for free use are a great fit for experimenting with novel means of distribution and archival other than the good (bad) old HTTP we have today.</p>
 <p>More specifically, I'll try to convince you that content-based content addressing is a better alternative to location-based content addressing (the current web), and try to explain how and why.</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Content-addressable_network">Content-addressable network (Wikipedia)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Content-addressable_network">Content-addressable network</a></li>
 <li><a href="https://docs.ipfs.io/concepts/glossary/#content-addressing">Content addressing (IPFS glossary)</a></li></ul>
 <p>To make writing easier, I'll pick the Debian package repos as a sort of &quot;case study&quot;, but other package repositories would work equally well (Arch, Nix, F-Droid, Flathub, ...). A good alternative would be any Wikimedia site, such as Wikipedia.² I'll write about mirrors but much of it applies to archives equally well. Although some of the points I'll raise may have nuances that make more sense to sites or to package repos, to archives or to mirrors, the spirit is there!</p>
 <h2>Location-based Addressing</h2>
@@ -36,10 +36,10 @@
 <p>Since anyone can safely share the content with anyone else more easily, more people can join in and help share that content. I could share the packages I have installed on my own PCs, for example, helping others download them too.</p>
 <p>Bonus benefit: Debian's traffic would decrease, and file transfer would be more local, that is, you'd generally get the files from your closest neighbors (that have them, of course), making the whole packaging system more robust (resilient) -- even if Debian's servers go down, I can install things as long as I can connect to anyone that has them.</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Resilience_%28network%29">Network resiliency (Wikipedia)</a></li></ul>
+<li><a href="https://en.wikipedia.org/wiki/Resilience_%28network%29">Network resiliency</a></li></ul>
 <p>Unfortunately, however, this is only the ideal. For some reason unbeknownst to me, people prefer to stick with the archaic C-S architecture and the so very great HTTP centralized web.</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">C-S architecture (Wikipedia)</a></li></ul>
+<li><a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">C-S architecture</a></li></ul>
 <p>The only problem I haven't mentioned yet is that we don't want content to be immutable (one of the implications of content-based addressing). There must be a way to &quot;update&quot; content. Put another way, we still need some form of location-based addressing, of which there are some. One is for the content owner to provide the latest &quot;root&quot; address through some current means, e.g., https://debian.org/root-content, so that I can ask Debian for the latest content, but fetch it from other peers. Another is to bake a similar mechanism into the system itself -- entities may publish the latest &quot;root&quot; address to the network on a known address (location-based but not necessarily human-readable/human-friendly).</p>
 <h2>IPFS</h2>
 <p>Now, I didn't come up with any of these ideas myself. I tried to make the post a bit generic, but always thinking of a particular network in the background. And it should be unsurprising that this network should be IPFS. It's the best content-based addressable P2P content distribution network that I know of to date.</p>
@@ -54,8 +54,8 @@
 <p>¹ I hadn't come across the ToU before while browsing the site (refreshing!) and even had some trouble finding them after the email.</p>
 <p>² Except there are no &quot;official&quot; Wikipedia mirrors, and no restrictions or bureaucracies to become one.</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks">Mirrors and forks (Wikipedia)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking">Forking FAQ (Wikipedia)</a></li></ul>
+<li><a href="https://en.wikipedia.org/wiki/Wikipedia:Mirrors_and_forks">Mirrors and forks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wikipedia:FAQ/Forking">Forking FAQ</a></li></ul>
 <p>³ Admittedly, much less than I would ever have expected: a manual request! But even this little is already too much...</p>
 <ul>
 <li><a href="https://www.debian.org/mirror/ftpmirror">Setting up a Debian archive mirror</a></li></ul>

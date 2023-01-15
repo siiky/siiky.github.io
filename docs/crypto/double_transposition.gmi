@@ -5,7 +5,7 @@
 
 Got into "hand ciphers" recently, and this was the first (seemingly) decent one that is easy-ish and quick-ish to use.
 
-=> https://en.wikipedia.org/wiki/Double_transposition Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Double_transposition Wikipedia
 => https://www.pbs.org/wgbh/nova/decoding/doubtrans.html Where I first learned of it
 
 The basic idea is that you create a matrix of N columns (number of letters of the key), where you will write down row-wise the message you want to encipher, and then reorder the result column-wise according to the chosen key.

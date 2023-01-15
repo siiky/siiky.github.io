@@ -38,10 +38,10 @@ Just another tool in the toolbox... Maybe. Or not. ¯\__(ツ)_/¯
 
 ² Not that they somehow went against the state of affairs of the time. He believed in God, (one of them is supposed to be a proof it exists) and was religious (even supported the church IIRC).
 
-=> https://en.wikipedia.org/wiki/Descartes Descartes
-=> https://en.wikipedia.org/wiki/Churro Churro
-=> https://en.wikipedia.org/wiki/Fartura_(food) Fartura
-=> https://en.wikipedia.org/wiki/Consistent Consistent
-=> https://en.wikipedia.org/wiki/Contradiction Contradiction
-=> https://en.wikipedia.org/wiki/Proposition Proposition
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Descartes Descartes
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Churro Churro
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Fartura_(food) Fartura
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Consistent Consistent
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Contradiction Contradiction
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Proposition Proposition
 => ../books/list.gmi Books list

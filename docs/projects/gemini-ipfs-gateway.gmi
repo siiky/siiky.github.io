@@ -11,8 +11,8 @@ There were lots of tiny details here and there that made things go wrong, but I 
 
 It supports both IPFS and IPNS, but no CIDv0s (because it uses only the "subdomain trick"; see Usage). It's based on Kooda's geminid (with small changes from me), ipfs.scm, and ttltbl.scm (something I hacked together tonight).
 
-=> gemini://rawtext.club/~sloum/geminilist/005449.gmi "[ANN] Gemini-IPFS gateway", hsanjuan
-=> https://www.upyum.com/cgit.cgi/geminid geminid (by Kooda)
+=> gemini://rawtext.club/~sloum/geminilist/005449.gmi hsanjuan, "[ANN] Gemini-IPFS gateway"
+=> https://www.upyum.com/cgit.cgi/geminid Kooda, geminid
 => ipfs.gmi ipfs.scm
 => https://git.sr.ht/~siiky/geminid/tree/experiments geminid (IPFS branch)
 => https://git.sr.ht/~siiky/ttltbl.scm ttltbl.scm

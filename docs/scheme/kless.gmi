@@ -5,7 +5,7 @@
 
 I read recently a blog post called The Lisp Curse (not yet HTTPS enabled, but hoping it will be in the future). In this post, the author, Rudolf Winestock, says that "Making Scheme object-oriented is a sophomore homework assignment"; and so, for fun, I tried hacking an abstraction for defining classes in Scheme, with the little knowledge of macros that I have.
 
-=> https://www.winestockwebdesign.com/Essays/Lisp_Curse.html The Lisp Curse
+=> https://web.archive.org/web/20221129004605/www.winestockwebdesign.com/Essays/Lisp_Curse.html Rudolf Winestock, "The Lisp Curse"
 
 # Implementation
 

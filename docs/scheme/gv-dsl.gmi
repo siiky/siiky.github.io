@@ -11,4 +11,4 @@ I use it on this site, for example:
 
 The code can be found online, but try not to read it, it's much too ugly. :/
 
-=> https://github.com/siiky/gvs siiky/gvs
+=> https://github.com/siiky/gvs

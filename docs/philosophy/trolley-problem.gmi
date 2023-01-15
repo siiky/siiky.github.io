@@ -7,8 +7,8 @@ Today I watched S02E01 of Mind Field, "The Greater Good". It's about people's ab
 
 This post is in part about the thought experiment itself, and in part about the Mind Field episode.
 
-=> https://en.wikipedia.org/wiki/Mind_Field Mind Field
-=> https://en.wikipedia.org/wiki/Trolley_problem Trolley problem
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Mind_Field Mind Field
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Trolley_problem Trolley problem
 
 It seems there's been no previous empirical research on it, and Michael (the host aka Vsauce) intends on making it happen. As preparation, he interviewed Dr. Aaron Blaisdell (~4:10), a psychology professor of the UCLA Psychology Department, according to whom research shows that "most people say they would pull the switch". However, Dr. Aaron believed most people would freeze instead of pulling the switch in a real situation.
 

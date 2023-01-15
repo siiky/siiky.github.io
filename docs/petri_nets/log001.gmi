@@ -5,7 +5,7 @@
 
 I started studying Petri nets a few weeks ago, reading the Statebox monograph, and just finished today reading Ch. 2, the formalization of Petri nets and useful definitions.
 
-=> https://en.wikipedia.org/wiki/Petri_net Petri nets
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Petri_net Petri nets
 => https://statebox.org Statebox site
 => https://statebox.org/research/publications/monograph Statebox monograph
 => https://arxiv.org/abs/1906.07629 Statebox monograph (ArXiv)

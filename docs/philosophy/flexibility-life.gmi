@@ -78,12 +78,12 @@ Little side-note: in my view, this is one of the ideas that lead me to believe t
 And that's that. I spent a good workday of time on this, totally worth it! Feels like I beat a dead horse a bit, though... :/
 
 
-=> https://en.wikipedia.org/wiki/Chinese_philosophy Chinese Philosophy
-=> https://en.wikipedia.org/wiki/Chinese_martial_arts Chinese Martial Arts
-=> https://en.wikipedia.org/wiki/Tao_Te_Ching Tao Te Ching
-=> https://en.wikipedia.org/wiki/Tao Tao
-=> https://en.wikipedia.org/wiki/Fate Fate
-=> https://en.wikipedia.org/wiki/Hard_determinism Hard Determinism
-=> https://en.wikipedia.org/wiki/Tai_chi Tai Chi
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Chinese_philosophy Chinese Philosophy
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Chinese_martial_arts Chinese Martial Arts
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tao_Te_Ching Tao Te Ching
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tao Tao
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Fate Fate
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Hard_determinism Hard Determinism
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tai_chi Tai Chi
 => https://www.theguardian.com/lifeandstyle/2016/nov/28/breakfast-health-america-kellog-food-lifestyle Breakfast (Kellogg's and some bacon company)
 => ../books/list.gmi Books list

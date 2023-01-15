@@ -10,11 +10,11 @@ Imagine there's an object you treasure, that's special to you in some way, -- ma
 
 For simplicity, let's imagine something really simple for our object, -- something with no moving parts, not too big, not too small, a single color, no smell, simple form, smooth surface, and any other properties I may be neglecting -- for example, a marble.
 
-=> https://en.wikipedia.org/wiki/Marble_(toy) Marble
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Marble_(toy) Marble
 
 Let's imagine our marble is of the most common size, 1.3cm in diameter (according to Wikipedia), which makes it around 1.150cm$^3$ in volume; it's mostly unused, so it's as good as new, and the surface is really smooth; it's yellow in color (pretending iron is yellow), and it's opaque; it's completely made out of pure iron, so its mass is approximately 9.059g (iron's density is 7.874g/cm$^3$, according to Wikipedia).
 
-=> https://en.wikipedia.org/wiki/Iron Iron
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Iron Iron
 
 And now, let's imagine we're given another marble exactly like the one we already have -- all properties are the same, as far as we can discern them. We put them in separate places to distinguish them -- the "original" on the right, and the other one on the left.
 

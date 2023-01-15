@@ -11,6 +11,6 @@ That was the other day. Today I was again at that same place, again at night, de
 
 And then the dream quickly de-railed into weird shit: pepper shakers have wholes not only at the top but also on the sides of the metal head so that mosquitoes can get inside, while salt shakers don't so mosquitoes don't get inside those. Why that would be relevant or interesting I couldn't possibly know.
 
-=> https://en.wikipedia.org/wiki/Salt_and_pepper_shakers Salt and pepper shakers
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Salt_and_pepper_shakers Salt and pepper shakers
 
 Curious question: while reading the above, what ethnicity did you mentally assign to The Guy?

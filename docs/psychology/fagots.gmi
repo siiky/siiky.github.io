@@ -5,7 +5,8 @@
 
 After some recent events in my personal life 乱 (Ran) came to mind: what if our "mental strength", or ability to withstand stress, is like a fagot of arrows?
 
-=> https://en.wikipedia.org/wiki/Ran_(film) 乱 (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ran_(film) Akira Kurosawa, "Ran"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?%E4%B9%B1_(%E6%98%A0%E7%94%BB) 黒澤 明、「乱」
 => https://www.merriam-webster.com/dictionary/fagot Fagot (Merriam-Webster)
 
 I think the analogy works well enough.

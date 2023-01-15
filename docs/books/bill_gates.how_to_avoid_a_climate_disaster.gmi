@@ -6,7 +6,7 @@
 Finished reading this book recently (ISBN 978-0-241-44830-4) and in this post I want to share my opinions/critique, and try to compile all the notes I took while and after reading.
 
 => list.gmi Books list
-=> https://en.wikipedia.org/wiki/How_to_Avoid_a_Climate_Disaster Wikipedia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?How_to_Avoid_a_Climate_Disaster Wikipedia
 
 I'll put down page numbers in this post. If you have the same edition, cool, if not: the "Introduction" starts on p3, and "Climate Change and COVID-19" ends on p230. Hopefully that will help getting around. For figures and tables you can try the "Notes" where you can find the sources and corresponding page.
 
@@ -30,13 +30,13 @@ It's almost funny after he mentioned David Foster Wallace's "This Is Water" (mor
 
 This is related to some of the themes discussed in "Sex at Dawn" from my point of view.
 
-=> https://en.wikipedia.org/wiki/Sex_at_Dawn Christopher Ryan, Cacilda Jethá, "Sex at Dawn"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Sex_at_Dawn Christopher Ryan, Cacilda Jethá, "Sex at Dawn"
 
 ## Pollution of "greener" alternatives
 
 Throughout the whole book he continuously advocates for green energies (like solar and wind) and alternatives (like electric vehicles) but fails to mention even once the pollution involved in their production, and the fact that the current products/methods are not recyclable (see "The Dark Side of Green Energies"). Other actually greener production methods may exists, even if not as efficient as the currently in use -- as an example, see "How to Build a Low-tech Solar Panel?". But for some reason there's no interest in these other methods.
 
-=> https://en.wikipedia.org/wiki/Guillaume_Pitron "The Dark Side of Green Energies"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Guillaume_Pitron Guillaume Pitron, "The Dark Side of Green Energies"
 => https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (solar powered site)
 => https://www.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel.html Low-Tech Magazine, "How to Build a Low-tech Solar Panel?" (conventional always-on site)
 
@@ -97,8 +97,8 @@ David's explanation (p38):
 
 > The immediate point of the fish story is that the most obvious, ubiquitous, important realities are often the ones that are the hardest to see and talk about.
 
-=> https://en.wikipedia.org/wiki/This_Is_Water "This Is Water"
-=> https://en.wikipedia.org/wiki/David_Foster_Wallace David Foster Wallace
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?This_Is_Water David Foster Wallace, "This Is Water"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?David_Foster_Wallace David Foster Wallace
 
 > Many farmers still have to use ancient techniques, which is one of the reasons they're trapped in poverty. They deserve modern equipment and approaches, but right now using those tools means producing more greenhouse gases.
 
@@ -201,14 +201,14 @@ It goes both ways too. We stopped using nuclear because of the accidents, but ev
 
 Mentions TerraPower (p86). Some marketing words (mainly for me to read about later): traveling wave reactor, capable of running off of the waste of other reactors (that is, used up Uranium, Plutonium, &c). (p87)
 
-=> https://en.wikipedia.org/wiki/TerraPower TerraPower
-=> https://en.wikipedia.org/wiki/Traveling_wave_reactor Traveling wave reactor
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?TerraPower TerraPower
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Traveling_wave_reactor Traveling wave reactor
 
 
 Direct Air Capture: taking CO2 right off the air. (p95) The alternative, which seems to be more practicable nowadays, is point carbon capture.
 
-=> https://en.wikipedia.org/wiki/Direct_air_capture Direct Air Capture (DAC)
-=> https://en.wikipedia.org/wiki/Carbon_capture_and_storage Point Carbon Capture
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Direct_air_capture Direct Air Capture (DAC)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Carbon_capture_and_storage Point Carbon Capture
 
 > I used to scoff at the idea that using power more efficiently would make a dent in climate change. My rationale: If you have limited resources to reduce emissions (and we do), then you'd get the biggest impact by moving to zero emissions rather than by spending a lot trying to reduce the demand for energy.
 
@@ -230,7 +230,7 @@ This relates to a habit that I have to break... I tend to stay up late and wake 
 
 ## 6. How We Grow Things
 
-=> https://en.wikipedia.org/wiki/Norman_Borlaug Normam Borlaug
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Norman_Borlaug Normam Borlaug
 
 Discoverer/inventor of "super crops". (p115)
 
@@ -239,10 +239,7 @@ A grown chicken gives 1 calorie for every 2 calories that it consumes; a pig 1 f
 Graph of the trend of meat consumption on some countries over the years, from 2000 to 2020, with predictions until 2028. (fig p116; src: OECD-FAO Agricultural Outlook 2020) In 2020, million tons of meat consumed (approximate numbers, measured with a ruler): Mexico, 9.6; Brazil, 19.2; EU, 40; USA, 42; China, 80.
 
 
-After exposing how "growing" animals significantly contributes to global
-warming and how greenhouse gases come to be from this practice, and of ways to
-work around that or improve the situation (such as bioengineering animals to not
-produce greenhouse gases), this comes along:
+After exposing how "growing" animals significantly contributes to global warming and how greenhouse gases come to be from this practice, and of ways to work around that or improve the situation (such as bioengineering animals to not produce greenhouse gases), this comes along:
 
 > A hard-core vegan might propose another solution: /Instead of trying all these ways of reducing emissions, we should just stop raising livestock./ I can see the appeal of that argument, but I don't think it's realistic. For one thing, meat plays too important a role in human culture. In many parts of the world, even where it's scarce, eating meat is a crucial part of festivals and celebrations. In France, the gastronomic meal -- including started, meat or fish, cheese, and dessert -- is officially listed as part of the country's Intangible Cultural Heritage of Humanity. According to the listing on the UNESCO website, "The gastronomic meal emphasizes togetherness, the pleasure of taste, and the balance between human beings and the products of nature"
 
@@ -254,8 +251,8 @@ WHAT THE FUCK?
 
 2nd WTF: "Cultural Heritage"? My brain goes "computer says no" with this... The culture we're leaving behind -- possibly literally -- is to destroy what made it possible to exist in the first place?
 
-=> https://en.wikipedia.org/wiki/Cultural_heritage Cultural Heritage
-=> https://en.wikipedia.org/wiki/Computer_says_no Computer says no
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Cultural_heritage Cultural Heritage
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Computer_says_no Computer says no
 
 3rd WTF: UNESCO? Aren't these the guys behind the SDGs ("Sustainable Development Goals", quotes super apropes)?
 
@@ -267,9 +264,9 @@ And what the hell are "No poverty" (1), "Responsible consumption and production"
 
 (To be fair, I haven't read each of the goals' descriptions yet)
 
-=> https://en.wikipedia.org/wiki/Unesco UNESCO
-=> https://en.wikipedia.org/wiki/Sustainable_Development_Goals SDGs
-=> https://en.wikipedia.org/wiki/List_of_Sustainable_Development_Goal_targets_and_indicators SDGs descriptions
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Unesco UNESCO
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Sustainable_Development_Goals SDGs
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?List_of_Sustainable_Development_Goal_targets_and_indicators SDGs descriptions
 => https://upload.wikimedia.org/wikipedia/commons/a/a7/Sustainable_Development_Goals.svg SDGs diagram
 
 4th WTF: "togetherness"? You have to eat an animal (or animal product) to feel close to other people, like your friends and family? Reminds me of an episode of FlashForward where a listener/commenter(?) said "a Sunday isn't a Sunday without my chicken wings" or something of the sort. Ok, then... Maybe I'm really so very abnormally undemanding, but I'm good with a (literal) walk in the park.
@@ -282,9 +279,9 @@ And what the hell are "No poverty" (1), "Responsible consumption and production"
 
 This must be the most stupidestest paragraph of the entire book... He does say he enjoys a good burger, but it would be only an assumption, of course, to think that this is his opinion or that he's just sharing something he's heard. Plus, he says he has invested in two companies working on "plant-based meat": Beyond Meat and Impossible Foods. (I think calling it "plant-based meat" is stupid -- if it's plant-based then it's not meat -- but whatever, after that paragraph...)
 
-=> https://en.wikipedia.org/wiki/Meat_substitutes Plant-based meat
-=> https://en.wikipedia.org/wiki/Beyond_meat Beyond Meat
-=> https://en.wikipedia.org/wiki/Impossible_Foods Impossible Foods
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Meat_substitutes Plant-based meat
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Beyond_meat Beyond Meat
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Impossible_Foods Impossible Foods
 
 And yes, some of my comments above may be a bit exaggerated, but... WHAT THE FUCK?
 
@@ -323,10 +320,10 @@ Mentions ACs a few times and how they're oh so cool, but darn it they pollute...
 
 Would have been a better use of paper talking about some alternatives not based on electricity. For heating, a rocket mass heater sounds like a very good idea (some people also call it a rocket stove, even though they seem to be different things). The Wikipedia page about ACs also presents some alternatives.
 
-=> https://en.wikipedia.org/wiki/Bullitt_Center Bullit Center
-=> https://en.wikipedia.org/wiki/Air_conditioning ACs
-=> https://en.wikipedia.org/wiki/Rocket_mass_heater Rocket mass heater
-=> https://en.wikipedia.org/wiki/Rocket_stove Rocket stove
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Bullitt_Center Bullit Center
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Air_conditioning ACs
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Rocket_mass_heater Rocket mass heater
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Rocket_stove Rocket stove
 
 ## 9. Adapting to a Warmer World
 
@@ -334,7 +331,7 @@ Would have been a better use of paper talking about some alternatives not based 
 
 Pros of planting mangrove trees. (p172-173; src: none)
 
-=> https://en.wikipedia.org/wiki/Mangrove Mangrove trees
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Mangrove Mangrove trees
 
 # Mentioned books
 
@@ -347,10 +344,10 @@ Books mentioned throughout the book -- may have missed some.
 * Acknowledgments, David MacKay, "Sustainable Energy -- Without the Hot Air"
 * p113-114, Paul Ehrlich, "The Population Bomb" -- a best selling flop; predicted tons of people dying from hunger in the 1970s and 1980s, which didn't happen
 
-=> https://en.wikipedia.org/wiki/Vaclav_Smil Vaclav Smil
-=> https://en.wikipedia.org/wiki/David_J._C._MacKay David MacKay
-=> https://en.wikipedia.org/wiki/Paul_R._Ehrlich Paul Ehrlich
-=> https://en.wikipedia.org/wiki/The_Population_Bomb "The Population Bomb"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Vaclav_Smil Vaclav Smil
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?David_J._C._MacKay David MacKay
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Paul_R._Ehrlich Paul Ehrlich
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Population_Bomb Paul Ehrlich, "The Population Bomb"
 
 Didn't take note of the page of some of the books and I can't find them now... If you'd like to help complete this list, contact me (see the bottom of the page).
 

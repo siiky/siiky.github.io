@@ -92,7 +92,7 @@ But in actuality, it's probably more like we have resource shortages AND, on top
 
 It reminds me of an interview of James Suzman (I'll maybe try to find it someday...)
 
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view?James%20Suzman James Suzman
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?James_Suzman James Suzman
 
 ## Conclusion?
 

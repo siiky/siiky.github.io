@@ -25,8 +25,8 @@ However, the real problem is, I think, that we don't know if this assumption is 
 
 On a positive note, this idea implies that, theoretically, one could predict the future after having witnessed the present. This is true, to a certain extent, in the physical world. But what would it mean to be able to know what our "choices" would be in the future? What would happen? On a less positive note, again, it would certainly not be a pleasant experience in certain scenarios, similar to being diagnosed with a terminal disease.
 
-=> https://en.wikipedia.org/wiki/Hard_determinism Hard determinism (Wikipedia)
-=> https://en.wikipedia.org/wiki/Free_will Free will (Wikipedia)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Hard_determinism Hard determinism
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Free_will Free will
 => https://plato.stanford.edu/entries/freewill Free will (SEP)
 
 (haven't read this SEP entry yet)

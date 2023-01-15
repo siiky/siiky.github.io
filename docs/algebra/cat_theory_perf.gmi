@@ -42,5 +42,5 @@ Because f = h, improving the performance of our program, without changing its re
 
 Omitted labels because they clutter too much. {X, Y, Z, W} form a complete graph. Now finding the most performant way to write our program is finding the shortest weighted path between I and O, with the performance as the weight. The hardest part is coming up with different implementations and analyzing their performance, really, because even a computer can find the best way to optimize the program!
 
-=> https://en.wikipedia.org/wiki/Category_theory Category Theory
-=> https://en.wikipedia.org/wiki/Category_(mathematics) Category
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Category_theory Category Theory
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Category_(mathematics) Category
