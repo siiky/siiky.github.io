@@ -2,6 +2,7 @@
 (import
   (chicken file)
   (chicken io)
+  (chicken irregex)
   (chicken pathname)
   (chicken port)
   (chicken process-context)
@@ -30,6 +31,15 @@
   (and (gmi:link? l)
        (string-prefix? gemini:// (gmi:link:uri l))))
 
+(define gemipedia-link?
+  (let ((re (irregex "gemini://gemi\\.dev/cgi-bin/wp\\.cgi/view/([a-z]{2})\\?(.*)" 'utf8)))
+    (lambda (l)
+      (and (gmi:link? l)
+           (irregex-match re (gmi:link:uri l))))))
+
+(define (wikipedia-url lang article)
+  (string-append https:// lang ".wikipedia.org/wiki/" article))
+
 
 (define (gemini->portal l)
   (gmi:link (chain (gmi:link:uri l)
@@ -44,7 +54,7 @@
   (file-exists? (make-absolute-pathname base file)))
 
 
-(define ((convert? directory) l)
+(define (convert? directory l)
   (and (gmi:link? l)
        (let ((uri (gmi:link:uri l)))
          (and (member (pathname-extension uri) source-extensions)
@@ -149,16 +159,29 @@
 
 (define ((rewrite-links directory input-filename) l)
   (cond
-    ; External full gemini://... URL
+    ; If it's not a link, do nothing to it
+    ((not (gmi:link? l)) l)
+
+    ((gemipedia-link? l)
+     => (lambda (match)
+          (let ((lang (irregex-match-substring match 1))
+                (article (irregex-match-substring match 2)))
+            (gmi:link (wikipedia-url lang article) (gmi:link:text l)))))
+
+    ; External full gemini://... link?
     ((gemini-link? l) (gemini->portal l))
-    ; "Local" URL
-    (((convert? directory) l) (extension/gmi->html l))
-    ; "Local" URL but no file?
+
+    ; "Local" link with local file?
+    ((convert? directory l) (extension/gmi->html l))
+
+    ; "Local" link but no file?
     ((and (gmi:link? l)
           (not (external-link? l))
           (not (local-file-exists? directory (gmi:link:uri l))))
      (eprint "ERROR: " input-filename ": Link seems to be local but there's no such file: " (gmi:link:uri l))
      l)
+
+    ; Any other link
     (else l)))
 
 (define (gmi2md input-filename)
