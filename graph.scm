@@ -32,7 +32,7 @@
 ("meta/portal.gmi" "https://portal.mozz.us" "projects/gemini-ipfs-gateway.gmi" "projects/gemtext.gmi")
 ("meta/reclog.gmi" "gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi" "reclog.gmi")
 ("nihongo/jikoshoukai.gmi" "about.gmi" "gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Common_European_Framework_of_Reference_for_Languages" "gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89" "https://guidetojapanese.org/learn" "kB45oC/re-brain_fart.gmi")
-("nihongo/murakami_hiroki.yonaka_no_kiteki.gmi")
+("nihongo/murakami_hiroki.yonaka_no_kiteki.gmi" "gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?村上春樹" "https://www.penguin.co.uk/books/183166/short-stories-in-japanese-by-micahel-emmerich/9780143118336" "https://www.tofugu.com/reviews/short-stories-in-japanese")
 ("nihongo/nhk-easy-news.gmi" "https://www3.nhk.or.jp/news/easy/k10013804421000/k10013804421000.html" "https://www3.nhk.or.jp/news/easy/k10013807081000/k10013807081000.html" "https://www3.nhk.or.jp/news/easy/k10013810241000/k10013810241000.html" "https://www3.nhk.or.jp/news/easy/k10013826991000/k10013826991000.html" "nihongo/jikoshoukai.gmi")
 ("osm/overpass.gmi" "https://overpass-turbo.eu" "https://stackoverflow.com/a/65982945" "https://wiki.openstreetmap.org/wiki/Overpass_API" "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL" "https://wiki.openstreetmap.org/wiki/Overpass_turbo" "https://www.openstreetmap.org/relation/295480" "https://www.openstreetmap.org/user/SK53/diary/400570")
 ("osm/prettymaps.gmi" "https://github.com/marceloprates/prettymaps" "https://prettymaps-online-nzcbpymxfq-uc.a.run.app" "https://weeklyosm.eu/archives/14825" "https://www.openstreetmap.org/#map=16/40.4144/-7.7073" "osm/seia.png")
