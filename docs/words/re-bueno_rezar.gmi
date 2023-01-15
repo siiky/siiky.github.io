@@ -1,0 +1,64 @@
+# Faz bem rezar (RE: Es bueno rezar)
+siiky
+2023/01/15
+2023/01/15
+
+(Para os não falantes de Português: os tradutores (tanto o G quanto o DeepL) traduzem surpreendentemente bem este texto, mesmo não sendo em Português bem escrito.)
+
+Este é o meu primeiro post em Português (de Portugal!) desde que comecei a escrever aqui há cerca d'um quarto de dúzia d'anos. Em geral escrevo em Inglês porque m'é mais natural (dado's tópicos que m'interessam e o que costumo ler). Até já escrevi em Japonês antes de escrever na minha língua materna! Porquê este post em Português? Primeiro, p'ra mostrar que não há só Inglês e outras línguas germânicas aqui no Gemini. Segundo, acho que faz sentido e vai ficar bem ao lado do Espanhol (Castelhano?). E terceiro, p'r'experimentar esta escrita falada!
+
+(Já'gora, não sei Espanhol e não usei nenhum tradutor, é bem possível que tenha entendido mal algum(ns) detalhe(s) lol)
+
+---
+
+Ao começar a ler este post, quem me conhece dev'achar que só vou dizer merda da religião, &c. Tenho ideias/opiniões/pontos de vista que se podem dizer um tanto extremistas no que toca à religião. Mas este não é esse post, surpreendam-se!
+
+=> gemini://yretek.com/articulos/2023-01-15_bueno_rezar.gmi Yretek, "Es bueno rezar"
+
+O Yretek escreveu:
+> Da aprensión volver por al camino que todos han abandonado. Exagero, pero la convención social parece reducir la religión a la ceremonia y cuentos del pasado. Hablo desde España; quizás en otros lugares tendréis otra experiencia.  
+
+Iss'é exactamente o que noto em Portugal também. Falando por mim, que não sou religioso nem apoio a instituição religiosa do país, acho q'é uma boa tendência mas ao mesmo tempo uma faca de dois gumes: por um lado, é bom que tenhamos deixado as superstições e crenças injustificadas associadas à religião; por outro, a população geral na verdade só trocou de conjunto de superstições e crenças injustificadas.[^0] :/
+
+O que parece que vejo é q'as pessoas em geral usam a religião p'ra parecer que são religiosas e portanto boas pessoas[^1] -- fazem tatuagens de cruzes, de terços, do rosto de Jesus co'a coroa de espinhos, de Jesus na cruz, ... -- mas n'hora d'agir e mostrar que são boas pessoas, nem vê-los![^2] Se tiverem de berrar e insultar alguém só porque lhes passaram à frente na fila berram e insultam; ou s'um mendigo lhes pedir dinheiro p'ra comer ignoram-no[^3] (sorte a dele) ou até o insultam ("vai trabalhar que te faz bem"); &c, &c... E deixemos a pedofilia p'r'outro dia também...
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ros%C3%A1rio_(catolicismo) Terço
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Abuso_sexual_de_menores_por_membros_da_Igreja_Cat%C3%B3lica#Portugal Abuso sexual de menores por membros da Igreja Católica
+
+A primeira parte (tentar mostrar que são religiosos) acredito que tenh'a ver co'a cultura popular e desportista de cá: p'ra melhor ou pior, futebol é de facto O DESPORTO do país. E o que se vê mais num jogo de futebol são os jogadores a dar graças a Deus ou quê... Sim, deveras, se marcast'um golo foi porque Deus te deu'ma mão... Ah não, não se podem usar as mãos no futebol! Um pé, deu-t'um pé! 
+
+A segunda parte (não mostrarem co'acções que são boas pessoas) talvez porque ninguém quer saber de nada? Tud'é normal e trivializado. Mas não posso falar muito sobre isto...
+
+Resumindo, deitámos fora's partes estúpidas mas também as partes menos más.
+
+
+O Yretek escreveu:
+> Las preces son el momento donde predomina la oración de petición, son parecidas a las de la Misa, y acaban con el «Escucha Señor, nuestra oración» --o algo de ese estilo. En los demás momentos predomina la meditación y la alabanza. Se quiere estar con Dios y escucharle. Solo eso.
+
+S'é p'ra fazer que se faça bem![^4] Especialmente a meditação e tentar "estar com Deus". Não basta ir à missa ouvir o padre, há que ter empenho e levar os rituais a sério. Pensar sobr'a vida, sobr'o que fizemos e fazemos no dia-a-dia, como nos podemos melhorar, ...
+
+
+O Yretek escreveu:
+> Se tarda un tiempo, pero mucho menos del que se malgasta en otras cosas peores.
+
+Acredito e bem. Mesmo não sendo religioso e não acreditando num'entidade superior, acredito q'esta prática empenhada traga bem-estar a longo prazo. E isso acreditando ou não em Deus, tendo ou não fé. E o tempo q'uma pessoa desperdiça no telemóvel ou a ver "notícias" que não interessam nem ao menino Jesus[^5]... Não há desculpa.
+
+O Tolstoy (em "A Confession") tentou recorrer à religião (Ortodoxa Cristã, se não m'engano) mas não foi a "solução" p'r'ele. Talvez não se tenha empenhado a sério, ou então só não tinha a fé necessária, dado q'era um realista. De facto, no fim o que lhe "faltou" foi conseguir justificar a existência de Deus. (Pessoalmente, a justificação do Descartes não me convence...)
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Liev_Tolst%C3%B3i Leo Tolstoy
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Igreja_Ortodoxa_Russa Igreja Ortodoxa Russa
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Medita%C3%A7%C3%B5es_sobre_Filosofia_Primeira Descartes, "Meditações sobre Filosofia Primeira"
+=> ../books/list.gmi Lista de livros
+
+
+[^0] Em vez d'acreditar em Deus e no Diabo, no Céu e no Inferno, que São Pedro é que controla a chuva e os portões do Céu, &c, acreditam noutras merdas estúpidas que vêem online. O juízo que deviam ter cultivado mal deitaram fora's crenças estúpidas da religião foi logo deitado fora junto co'as crenças.
+
+[^1] Vamos aproveitar este (não tão breve) momento p'r'uma boa gargalhada hahaha... Ok agora que já recuperámos o fôlego podemos continuar.
+
+[^2] Para não falantes de Português, "nem vê-los" é uma expressão que significa que "não existem", semelhante a "nowhere to be found".
+
+[^3] Claro, "quem nunca pecou que atire a primeira pedra", mas não é p'ra me justificar aqui q'isto por si só dava um post.
+
+[^4] Esta enganou bem o tradutor! A ideia é de "If you're gonna do something, do it well".
+
+[^5] Tenho q'aproveitar p'ra mandar todas as piadas religiosas de que me lembro enquanto posso, não é todos os dias q'escrevo sobre religião, e muito menos em Português!
