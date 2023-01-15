@@ -1,10 +1,13 @@
 # 村上 春樹、「夜中の汽笛について、あるいは物語の効用について」
 siiky
 2023/01/06
-2023/01/06
+2023/01/15
 
 何月か前に「New Penguin Parallel Text: Short Stories in Japanese」という本を買った。昨日やっと最初の話を読んだ。
-意味はわかったと思う。英語の翻訳の一つ二つの細かい点にすれ違うが、大体いい。日本語の書写は全部で次に書いてある。
+
+意味はわかったと思う。英語の翻訳の一つ二つの細かい点にすれ違うが、大体いい。日本語の書写は全部で次に書いてある。その次は英語。
+
+## 日本語
 
 > 女の子が男の子に質問する。「あなたはどれくらい私のことを好き？」
 >
@@ -24,6 +27,37 @@ siiky
 >
 > そこで少年の短い物語は終わる。今度は少女が自分の物語を語り始める。
 
+## 英語
+
+翻訳者はMichael Emmerichで、タイトルは「Concerning the Sound of a Train Whistle in the Night, or On the Efficacy of Fiction」。
+
+> The girl has a question for the boy: "How much do you love me?"
+>
+> He thinks for a moment, then quietly replies, "As much as a train whistle in the night."
+>
+> She waits in silence for him to go on. Obviously there has to be a story there.
+>
+> "Sometimes, just like that, in the dead of night, I wake up," he begins. "I don't know what time it is, exactly. Maybe two or three, around then, I'd say. The time doesn't actually matter. The point is that it's the dead of night, and I'm totally alone, not a sould around. I want you to imagine that for me, okay? It's completely dark, you can't see anything. And there's not a sound to be heard. You don't even hear the hands of the clock, ticking out the time -- for all I know, the clock could well have stopped. And then all of a sudden, it hits me that I've become isolated, that I'm separated some unbelievable distance from everyone I know, from every familiar place. I realize that no one in this whole wide world loves me anymore, no one will talk to me, that I've become the kind of person no one even wants to remember. I could just disappear and no one would even notice. I feel like I've been pushed into a box with thick iron sides and sunk way down to the very bottom of the ocean. The pressure is so intense it makes my heart ache, I feel like I'm going to explode, to be torn in two -- you know that feeling?"
+>
+> The girl nodes. She thinks she knows what he means.
+>
+> The boy continues. "I think that's one of the most painful expereiences a person can have in life. I feel so sad and it hurts so much that I wish I could just go ahead and die, seriously. Actually I take that back, it's not that /I wish I could die/: I can tell that if things go on in this way, the air in the box is going to get so thin that I really /will/ die. It's not just a /metaphor/. It's reality. That's what it means to wake up all alone in the dead of night. You still following me?"
+>
+> The girl nods again, saying nothing. The boy lets a moment go by.
+>
+> "And then, way off in the distance, I hear a train whistle. It's really incredibly far off, this whistle. I don't even know where the train tracks could be. That's how far away the sound is. And it's so faint that it's right on the edge of being inaudible. Only I'm certain it's a train whistle. There's no doubt about that. So I lie perfectly still, in the darkness, listening as hard as I can. And then I heart it again. And my heart stops aching. The hands on the clock start moving. The iron box begins to rise up, nice and slow, toward the surface of the sea. And it's all thanks to that little whistle, you see. A whistle so faint I could barely hear it. And the point is, I love you as deeply as that whistle."
+>
+> With that, the boy's brief story is over. And the girl begins telling her own.
+
+もう言ったけどまた言う。大体いい翻訳だと思う。
+
+だが！「少女」と「少年」の「好き」って、本当に「love」と言う言葉なのか？少年は「愛している」と最後に言うが、それなのに「好き」はそんなきつい気持ちではないと思う。だから「love」より「like」にすればよかったんだろう。
+
+それより、ちょっとダサい気分するな｡｡｡原作はこんな気楽な恋物語じゃないだろう？
+
+なのに、鉄の箱の部分は最初はよくわからなかった。でも英語で読んだら「あ、そっか」と。
+
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?村上春樹 村上 春樹
 => https://www.penguin.co.uk/books/183166/short-stories-in-japanese-by-micahel-emmerich/9780143118336 Penguinのウェブサイト
 => https://www.tofugu.com/reviews/short-stories-in-japanese Tofuguのブックレビュー
+=> ../books/list.gmi 読んだ本
