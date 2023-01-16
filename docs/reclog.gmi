@@ -1,13 +1,18 @@
 # nothing interesting here
 @siiky
 2022/08/15
-2023/01/10
+2023/01/15
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://aperalesf.flounder.online/gemlog/2022-11-27-educacionmachista.gmi 2023/01/15 Educación machista y hombres
+=> gemini://yretek.com/articulos/2023-01-13_aperales_cierra.gmi 2023/01/15 Aperalesf cierra.
+=> gemini://yretek.com/articulos/2023-01-13_vim_ab_caracteres.gmi 2023/01/15 Vim y caracteres especiales
+=> gemini://yretek.com/articulos/2023-01-15_bueno_rezar.gmi 2023/01/15 Es bueno rezar
 
 => gemini://gemini.conman.org/boston/2023/01/09.1 2023-01-10 An epiphany about bloated web pages might be the result of a dumb network
 => gemini://the-brannons.com/plot/ 2023-01-10 The Plot Against America
