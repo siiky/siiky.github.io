@@ -38,6 +38,10 @@ Szczeżuja wrote:
 
 A good argument against relying too much (or exclusively, one could say) on aggregators, but this RFC doesn't seem to me to be the best approach around them -- indeed, it doesn't seem to be "around them" at all -- let alone the simplest. Something simpler has floated around in the past I believe: we use word-of-mouth, we each of us keep our own lists of feeds and interesting capsules, we share our lists with each other publicly, we encourage browsing the Geminispace and chance encounters. With these lists I doubt it would be hard to keep a personal aggregator with better "coverage" than the centralized aggregators we have. Having said that, of course I won't stop using Antenna, Cosmos, Callum's gmisub, etc, I sometimes find new capsules through these aggretors. But I don't rely on them, I keep my own list of feeds (that I don't currently share publicly, shame on me).
 
+Another thing I think would be cool is if more people kept a reclog ("recommendations log"). That way, not only can we "follow" what others are reading, we can find interesting capsules we didn't know about before and read interesting posts. And it's really simple to keep, too.
+
+=> ../reclog.gmi This is mine
+
 Conman wrote:
 > If others find it useful, so be it.
 
