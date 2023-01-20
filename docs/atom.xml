@@ -8,7 +8,45 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2023-01-15T00:00:00Z</updated>
+  <updated>2023-01-20T00:00:00Z</updated>
+  <entry>
+    <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;
+&lt;head&gt;&lt;meta charset="utf-8"/&gt;&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;No problem there&lt;/h1&gt;
+&lt;p&gt;siiky
+2023/01/20
+2023/01/20&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nitter.net/ErikVoorhees/status/1616160532150775808"&gt;Someone just sent me this:&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Behind the scenes, ShapeShift DAO has been building something called Arkeo.&lt;/p&gt;
+&lt;p&gt;It's a decentralized backend for nodes.&lt;/p&gt;
+&lt;p&gt;If you've ever thought, &amp;quot;sucks that everyone uses centralized node infrastructure like Infura...&amp;quot; then you'll understand what Arkeo is solving.&lt;/p&gt;
+&lt;p&gt;ShapeShift decided to build this because it ran into this very problem: how can we be a &lt;em&gt;truly&lt;/em&gt; decentralized app when we're calling blockchain data from centralized node companies?&lt;/p&gt;
+&lt;p&gt;If your node provider can shut off your access, it ain't permissionless. Arkeo is.&lt;/p&gt;
+&lt;p&gt;Arkeo works by incentivizing independent node operators to run arbitrary nodes on whatever chains they wish. Someone could run a Bitcoin node only, or a suite of nodes across multiple chains.&lt;/p&gt;
+&lt;p&gt;Services that consume node data pay for that data (@infura_io is great... but they can censor you: they're centralized).&lt;/p&gt;
+&lt;p&gt;With Arkeo, all such services now have a permissionless alternative.&lt;/p&gt;
+&lt;p&gt;The entire project has been DAO organized and funded.&lt;/p&gt;
+&lt;p&gt;No VCs own it
+No corporate entities control it
+It ain't &amp;quot;based&amp;quot; anywhere&lt;/p&gt;
+&lt;p&gt;The revolution will not be centralized. Enjoy!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Mus%C3%A9e_Rodin_1.jpg" alt="The Thinker" /&gt;&lt;/p&gt;
+&lt;p&gt;Gee, wouldn't it be fuckin' A if we didn't need to trust any one single entity to interact with a distributed network?!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    <id>gemini://siiky.srht.site/kB45oC/no-problem.gmi</id>
+    <published>2023-01-20T00:00:00Z</published>
+    <title type="text">No problem there</title>
+    <updated>2023-01-20T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/kB45oC/no-problem.html" rel="alternate" type="text/html" title="No problem there" />
+    <link href="gemini://siiky.srht.site/kB45oC/no-problem.gmi" rel="alternate" type="text/gemtext" title="No problem there" />
+  </entry>
   <entry>
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;

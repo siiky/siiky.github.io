@@ -1,0 +1,34 @@
+# No problem there
+siiky
+2023/01/20
+2023/01/20
+
+=> https://nitter.net/ErikVoorhees/status/1616160532150775808 Someone just sent me this:
+
+> Behind the scenes, ShapeShift DAO has been building something called Arkeo.
+>
+> It's a decentralized backend for nodes.
+>
+> If you've ever thought, "sucks that everyone uses centralized node infrastructure like Infura..." then you'll understand what Arkeo is solving.
+
+> ShapeShift decided to build this because it ran into this very problem: how can we be a *truly* decentralized app when we're calling blockchain data from centralized node companies? 
+>
+> If your node provider can shut off your access, it ain't permissionless. Arkeo is.
+
+> Arkeo works by incentivizing independent node operators to run arbitrary nodes on whatever chains they wish. Someone could run a Bitcoin node only, or a suite of nodes across multiple chains.
+
+> Services that consume node data pay for that data (@infura_io is great... but they can censor you: they're centralized).
+>
+> With Arkeo, all such services now have a permissionless alternative.
+
+> The entire project has been DAO organized and funded. 
+>
+> No VCs own it
+> No corporate entities control it
+> It ain't "based" anywhere
+>
+> The revolution will not be centralized. Enjoy!
+
+=> https://upload.wikimedia.org/wikipedia/commons/a/a5/Mus%C3%A9e_Rodin_1.jpg The Thinker
+
+Gee, wouldn't it be fuckin' A if we didn't need to trust any one single entity to interact with a distributed network?!
