@@ -1,8 +1,14 @@
 #!/usr/bin/env -S csi -s
+
 (import
   (chicken process-context)
   lowdown
   )
+
+(define argv (command-line-arguments))
+(define standalone?
+  (and (not (null? argv))
+       (string=? (car argv) "standalone")))
 
 (define-constant before
 #<<EOF
@@ -21,9 +27,6 @@ EOF
 EOF
 )
 
-(with-output-to-file
-  (car (command-line-arguments))
-  (lambda ()
-    (print before)
-    (markdown->html)
-    (print after)))
+(when standalone? (print before))
+(markdown->html)
+(when standalone? (print after))

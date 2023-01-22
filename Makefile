@@ -136,13 +136,13 @@ cv-en.pdf: cv-en.md
 # Text files rules
 
 %.html: %.gmi $(GMI2MD) $(MD2HTML)
-	$(GMI2MD) $< | $(MD2HTML) $@
+	$(GMI2MD) $< | $(MD2HTML) standalone > $@
 
 %.html: %.md
-	$(MD2HTML) $@ < $<
+	$(MD2HTML) standalone < $< > $@
 
 %.html: %.org
-	pandoc -f org -t html $< -o $@
+	pandoc -f org -t html -s $< -o $@
 
 # Assets rules
 
