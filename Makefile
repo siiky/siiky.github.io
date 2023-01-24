@@ -37,9 +37,10 @@ NON_POSTS := \
  $(ROOT)/about \
  $(ROOT)/alt \
  $(ROOT)/contact \
- $(ROOT)/tinylog \
  $(ROOT)/follow \
  $(ROOT)/reclog \
+ $(ROOT)/tinylog \
+ $(ROOT)/tinylog-2022 \
 
 GMI := $(shell find $(ROOT)/*/ -type f -iname '*.gmi')
 GMI_HTML := $(GMI:.gmi=.html) $(NON_POSTS:=.html)
