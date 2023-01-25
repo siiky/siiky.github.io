@@ -2,52 +2,48 @@
 % André Sá
 % \today
 
+|                     |                                                 |
+| :-----------------: | :---------------------------------------------- |
+| Número de telemóvel | +351969089204                                   |
+| Endereço de email   | [silky.sa@gmail.com](mailto:silky.sa@gmail.com) |
+| SourceHut           | <https://git.sr.ht/~siiky>                      |
+| GitHub              | <https://github.com/siiky>                      |
+| LinkedIn            | <https://www.linkedin.com/in/andre-m-sa>        |
+| Website             | <https://siiky.srht.site/>                      |
+
+|           |                                    |
+| :-------: | :--------------------------------- |
+| Português | Língua mãe                         |
+| Inglês    | C1 (auto-avaliação)                |
+| Japonês   | B1 (Instituto de Línguas BabeliUM) |
+
 # Carta de motivação
 
 Como apoiante de transportes públicos colectivos, e natural e residente de Braga, é natural que use os autocarros da TUB para me deslocar na cidade.
 
-No entanto, esta opção nem sempre é a melhor ou mais fácil. Cartazes com mapas e horários das linhas são muito bem-vindos, mas apenas se forem actuais, o que, infelizmente, não é o caso em muitas paragens.
+No entanto, esta opção nem sempre é a melhor ou mais fácil, porque os mapas e horários das linhas disponibilizados online ou expostos em paragens estão muitas vezes errados ou desactualizados.
 
-O mesmo se pode dizer sobre os mapas e horários disponíveis para download no site da TUB. Alguns PDFs de horários não são actualizados há vários anos. Inclusive, recentemente vi o mapa da linha 66 que ainda mostra o autocarro a passar pela Rua Nova de Santa Cruz no sentido da UM e a Av. Padre Júlio Fragata. Como qualquer pessoa regular dessa zona pode comprovar, a Rua Nova de Santa Cruz jé não permite passagem nesse sentido há muitos anos. Também o ficheiro GTFS, cujo papel é descrever completamente e correctamente toda a rede, com horários e tudo, e que é usado pelo Google Maps tal como disponibilizado, está errado e desactualizado.
+Alguns PDFs de horários não são actualizados há vários anos. Inclusive, recentemente vi o mapa da linha 66 que ainda mostra o autocarro a passar pela Rua Nova de Santa Cruz no sentido da Universidade para a Av. Padre Júlio Fragata. Nesta rua já não é permitida a passagem nesse sentido há muitos anos. Também o ficheiro GTFS, cujo papel é descrever completamente e correctamente toda a rede, e que é usado pelo Google Maps tal como disponibilizado, está errado e desactualizado, o que implica os resultados sugeridos pelo Google Maps estarem por vezes incorretos.
 
-Mas deixemo-nos de lamentar o estado das coisas, não é esse o meu objectivo aqui. O meu objectivo é apenas dar exemplos de detalhes importantes que podem ser melhorados com alguma dedicação.
+Mas deixemo-nos de lamentar o presente, não é esse o meu objectivo aqui. O meu objectivo é apenas dar exemplos de detalhes importantes que podem ser melhorados com alguma dedicação. Como programador e cientista da computação, além de contribuidor do OpenStreetMap, acredito que sou capaz de melhorar este estado se me for dada a oportunidade.
 
-Como programador e cientista da computação, além de contribuidor do OpenStreetMap, acredito que sou capaz de melhorar o estado destes problemas se me for dada a oportunidade.
+Se estes pequenos pontos forem melhorados, o serviço da TUB vai melhorar muito como um todo. Com o ficheiro GTFS actualizado, nem utilizadores regulares nem turistas precisam de recear se realmente a rota sugerida pelo Google Maps está certa e os vai levar ao seu destino. Não só, mas outros serviços podem tomar proveito desta informação se disponibilizada abertamente -- pois é um erro achar que o Google Maps é um serviço público com o fim de ser útil para os seus utilizadores.
 
-Se estes pequenos pontos forem melhorados, o serviço da TUB vai melhorar muito como um todo. Com o ficheiro GTFS actualizado, nem utilizadores regulares nem turistas precisam de recear se realmente a rota sugerida pelo Google Maps está certa e os vai levar ao seu destino.
+Com a informação da rede TUB actualizada e disponível online livremente, utentes da TUB podem tomar proveito sem sequer recorrer à internet: Braga é, afinal, uma cidade pequena, com uma mapa da rede será certamente fácil alguém se deslocar pela cidade.
 
 # Currículo
 
-|               |                                                 |
-| :-----------: | :---------------------------------------------- |
-| Phone number  | +351969089204                                   |
-| Email address | [silky.sa@gmail.com](mailto:silky.sa@gmail.com) |
-| SourceHut     | <https://git.sr.ht/~siiky>                      |
-| GitHub        | <https://github.com/siiky>                      |
-| LinkedIn      | <https://www.linkedin.com/in/andre-m-sa>        |
-| Website       | <https://siiky.srht.site/>                      |
+## Estudos
 
-|            |                                  |
-| :--------: | :------------------------------- |
-| Portuguese | Native                           |
-| English    | C1 (self-assessment)             |
-| Japanese   | B1 (BabeliUM Language Institute) |
+Tirei a Licenciatura em Ciências da Computação na Universidade do Minho, e estou actualmente a estudar para o mestrado em Engenharia Informática, também na Universidade do Minho, especializado em _Métodos Formais_ e em _Sistemas Distribuídos_.
 
-## Education
+## Experiência Profissional
 
-Studied Computer Science at the University of Minho for my Bachelor's, and
-currently enrolled for my Master's in Informatics Engineering, also at the
-University of Minho, specializing in _Formal Methods_ and _Distributed Systems_.
+### Estágio profissional na Accenture (Julho 2019)
 
-## Professional Experience
+Desenvolver um produto de _Augmented Reality_ em iOS. Detalhes do projecto são necessariamente escassos devido a NDA.
 
-### Internship at Accenture (July 2019)
-
-The assigned job was developing unfinished, as well as new, features for a
-consumer facing product. These entailed working with _Augmented Reality_ in iOS.
-In the process, I've also learned about the Scrum development framework.
-
-### _Application Security Analyst_ at Checkmarx (September 2019 ~ September 2021)
+### _Application Security Analyst_ na Checkmarx (Setembro 2019 ~ Setembro 2021)
 
 The job as an analyst consists in analysing existing security vulnerabilities,
 with or without a CVE number, the end goal being to learn which versions of the
@@ -57,7 +53,7 @@ tools of everyday use, as vulnerabilities are found in a wide range of projects,
 I come in contact with many languages, with the most common being C, Clojure,
 Java, JavaScript, PHP and Python.
 
-### _Software Engineer_ at Lamassu (September 2021 ~ present)
+### _Software Engineer_ na Lamassu (Setembro 2021 ~ presente)
 
 Responsible for maintaining and refactoring existing code and developing new
 features, using almost exclusively JavaScript on Node.js and React projects.
