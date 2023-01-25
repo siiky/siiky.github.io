@@ -1,7 +1,7 @@
 # Books list
 @siiky
 2020/12/21
-2023/01/06
+2023/01/25
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
 
@@ -82,6 +82,7 @@ Please let me know if you find any of the links not working.
 => https://www.rifters.com/real/Blindsight.htm Peter Watts, Blindsight: 2020
 => https://rifters.com/real/MAELSTROM.htm Peter Watts, Maelstrom
 => https://www.rifters.com/real/STARFISH.htm Peter Watts, Starfish
+=> https://clarkesworldmagazine.com/watts_01_10/ Peter Watts, The Things: 2023/01/22~2023/01/25
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Beyond Lies the Wub: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Beyond the Door: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Mr. Spaceship: 2022/09/20~2022/09/21
