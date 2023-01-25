@@ -4,6 +4,20 @@
 
 # Carta de motivação
 
+Como apoiante de transportes públicos colectivos, e natural e residente de Braga, é natural que use os autocarros da TUB para me deslocar na cidade.
+
+No entanto, esta opção nem sempre é a melhor ou mais fácil. Cartazes com mapas e horários das linhas são muito bem-vindos, mas apenas se forem actuais, o que, infelizmente, não é o caso em muitas paragens.
+
+O mesmo se pode dizer sobre os mapas e horários disponíveis para download no site da TUB. Alguns PDFs de horários não são actualizados há vários anos. Inclusive, recentemente vi o mapa da linha 66 que ainda mostra o autocarro a passar pela Rua Nova de Santa Cruz no sentido da UM e a Av. Padre Júlio Fragata. Como qualquer pessoa regular dessa zona pode comprovar, a Rua Nova de Santa Cruz jé não permite passagem nesse sentido há muitos anos. Também o ficheiro GTFS, cujo papel é descrever completamente e correctamente toda a rede, com horários e tudo, e que é usado pelo Google Maps tal como disponibilizado, está errado e desactualizado.
+
+Mas deixemo-nos de lamentar o estado das coisas, não é esse o meu objectivo aqui. O meu objectivo é apenas dar exemplos de detalhes importantes que podem ser melhorados com alguma dedicação.
+
+Como programador e cientista da computação, além de contribuidor do OpenStreetMap, acredito que sou capaz de melhorar o estado destes problemas se me for dada a oportunidade.
+
+Se estes pequenos pontos forem melhorados, o serviço da TUB vai melhorar muito como um todo. Com o ficheiro GTFS actualizado, nem utilizadores regulares nem turistas precisam de recear se realmente a rota sugerida pelo Google Maps está certa e os vai levar ao seu destino.
+
+# Currículo
+
 |               |                                                 |
 | :-----------: | :---------------------------------------------- |
 | Phone number  | +351969089204                                   |
@@ -19,21 +33,21 @@
 | English    | C1 (self-assessment)             |
 | Japanese   | B1 (BabeliUM Language Institute) |
 
-# Education
+## Education
 
 Studied Computer Science at the University of Minho for my Bachelor's, and
 currently enrolled for my Master's in Informatics Engineering, also at the
 University of Minho, specializing in _Formal Methods_ and _Distributed Systems_.
 
-# Professional Experience
+## Professional Experience
 
-## Internship at Accenture (July 2019)
+### Internship at Accenture (July 2019)
 
 The assigned job was developing unfinished, as well as new, features for a
 consumer facing product. These entailed working with _Augmented Reality_ in iOS.
 In the process, I've also learned about the Scrum development framework.
 
-## _Application Security Analyst_ at Checkmarx (September 2019 ~ September 2021)
+### _Application Security Analyst_ at Checkmarx (September 2019 ~ September 2021)
 
 The job as an analyst consists in analysing existing security vulnerabilities,
 with or without a CVE number, the end goal being to learn which versions of the
@@ -43,7 +57,7 @@ tools of everyday use, as vulnerabilities are found in a wide range of projects,
 I come in contact with many languages, with the most common being C, Clojure,
 Java, JavaScript, PHP and Python.
 
-## _Software Engineer_ at Lamassu (September 2021 ~ present)
+### _Software Engineer_ at Lamassu (September 2021 ~ present)
 
 Responsible for maintaining and refactoring existing code and developing new
 features, using almost exclusively JavaScript on Node.js and React projects.
@@ -54,9 +68,9 @@ interface with cryptocurrency nodes and servers. Biggest feature yet was
 replacing an old _ad-hoc_ `REST`-like machine-server interface with a very
 strict GraphQL one.
 
-# Additional Information
+## Additional Information
 
-## Areas of Interest
+### Areas of Interest
 
 I'm a big proponent of the FLOSS movement and sharing of knowledge in general.
 On my spare time I work on/contribute to open source projects, personal and
@@ -78,7 +92,7 @@ Additionally, I write from time to time about these subjects on my personal
 website, to better organize myself and my thought, and in hope that my writings
 may be of use to other sentient beings as limitted as myself.
 
-## Open Source Work
+### Open Source Work
 
 Of the open source projects I work on and contribute to, such as [IPFS] and the
 [CHICKEN] [Scheme] ecosystem, these may be my most notable contributions:
@@ -102,7 +116,7 @@ Of the open source projects I work on and contribute to, such as [IPFS] and the
  ~ Changed all floating-point constants to exact numbers, in order to improve
    arithmetic precision by default.
 
-## Programming Languages
+### Programming Languages
 
 From University and personal projects, the languages that I have experience
 with, enjoyed working with, and would like to work with again:
@@ -122,7 +136,7 @@ From reading books, papers and blogs, the languages that I would like to learn:
  * [Common Lisp] -- for advanced metaprogramming and arbritary compile-time
    computation.
 
-## Events
+### Events
 
 I have participated in programming contests, such as [Google Hash Code],
 [Google Code Jam], [Google Kickstart], MIUP and Battle of Universities; and
