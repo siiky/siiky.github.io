@@ -9,7 +9,7 @@
 
 I update this page manually.
 
-=> gemini//idiomdrottning.org/everyone-code 2023-01-28 Everyone, learn how to code
+=> gemini://idiomdrottning.org/everyone-code 2023-01-28 Everyone, learn how to code
 => gemini://raek.se/gemlog/2023-01-26-family-toki-pona-playdate-bitsy-and-the-clarinet.gmi 2023-01-28 Family, toki pona, Playdate, Bitsy, and the Clarinet
 
 => gemini://aperalesf.flounder.online/gemlog/2022-11-27-educacionmachista.gmi 2023-01-15 Educación machista y hombres
