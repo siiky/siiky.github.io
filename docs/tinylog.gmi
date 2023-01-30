@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-01-30 13:55 +0000
+Today I'm sick. Probably (hopefully) just a cold, though a bit aggressive.
+Yesterday went to my grandmother's house and brought out an old slot car & track set. The cars didn't work because of the track contacts. My cousin and me decided to try and bring them back to life. Unearthed some copperwire, hacked together new contacts (surprisingly more difficult than it seemed at first), and got the motors running again, just like that! Sadly, after a few laps the cars intermittently worked and didn't, because the teeth of the motor gears weren't in great shape (and our contact work wasn't the best either tbh).
+In all, we spent much more time trying to get the things working than racing, but it was good fun.
+
 ## 2023-01-29 01:41 +0000
 A friend the other day sent me this video about Roman concrete. I hadn't ever thought about the subject but, in fact, it's remarkable that Roman structures are still standing to this day (being human-made and all).
 => https://invidious.snopyta.org/watch?v=HYyyx2dNvPw We FINALLY Figured Out The Secret of Roman Concrete
