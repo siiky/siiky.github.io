@@ -9,6 +9,11 @@ siiky
 >   This is your fault, Ragnar.
 >   Torstein has died fighting for a hill he did not want to own. For something which meant nothing to him. He has died a pointless death.
 >   How many more of us must die for your Christians? Or have you, in your heart, already renounced our gods and turned to the Christ God? Is that what your friend Athelstan has persuaded you to do?
+
+> Ragnar:
+>   [funny face: wtf are you talking about?]
+>
+> Floki:
 >   But look. Here we are. Under an English sky. Burying our dead. Those we have sacrificed for Jesus Christ.
 >
 > Ragnar:
@@ -19,7 +24,7 @@ siiky
 
 Floki and Ragnar, from Vikings S03E03.
 
-Right before Floki says "But look.", after asking "Is that what (...) Athelstan has persuaded you to do?", Ragnar made him a funny face, like "wtf are you talking about?" After Ragnar was finished talking Floki looked convinced and trust restored.
+After Ragnar was finished talking Floki looked convinced and trust restored.
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Vikings_%28TV_series%29 Wikipedia
 => https://www.imdb.com/title/tt2306299 IMDb
