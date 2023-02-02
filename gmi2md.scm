@@ -127,10 +127,11 @@
      `("" ,@(concatenate (map gmi:link->md:link (cdr elem))) ""))
 
     ((quotes? elem)
-     `("\n"
+     `(""
        ,@(map (lambda (qt)
                 (string-append "> " (gmi:blockquote:text qt)))
-              (cdr elem))))
+              (cdr elem))
+       ""))
 
     ((gmi:link? elem)
      (gmi:link->md:link elem))
