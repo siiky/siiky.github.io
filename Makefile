@@ -35,8 +35,8 @@ REPO_ROOT := $(PWD)
 ROOT := docs
 WIKI_ROOT := $(ROOT)/wiki
 
-SITE_META := $(REPO_ROOT)/site-meta.tsv
-WIKI_META := $(REPO_ROOT)/wiki-meta.tsv
+SITE_META := site-meta.tsv
+WIKI_META := wiki-meta.tsv
 
 # Source text files and targets
 NON_POSTS := \
@@ -82,7 +82,7 @@ PNG := $(GVS:.gvs=.png)
 
 all: site wiki assets cv
 
-wiki: wiki-html
+wiki: wiki-html $(WIKI_META)
 
 site: index site-html
 
@@ -102,6 +102,9 @@ atom: $(ROOT)/atom.xml
 
 $(SITE_META): $(MAKE_SITE_META) $(SITE_POSTS_SRC)
 	ls -1 $(SITE_POSTS_SRC) | $(MAKE_SITE_META) $(ROOT) > $@
+
+$(WIKI_META): $(MAKE_WIKI_META) $(WIKI_SRC)
+	ls -1 $(WIKI_SRC) | $(MAKE_WIKI_META) $(ROOT) > $@
 
 $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi $(SITE_META) > $@
