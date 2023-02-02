@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-02 22:03 +0000
+I'm right now thinking about making a read-only "wiki"-like thing where I dump all the info (such as notes, &c) that may be made public.
+Started adapting the build system support it, most likely under /wiki/
+=> wiki/index.gmi "wiki" test page
+
 ## 2023-02-02 11:43 +0000
 I'm watching the Vikings series. Yesterday I watched S03E03 and there was this bit:
 > Ragnar:
