@@ -42,13 +42,13 @@ NON_POSTS := \
  $(ROOT)/tinylog \
  $(ROOT)/tinylog-2022 \
 
-GMI := $(shell find $(ROOT)/*/ -type f -iname '*.gmi')
+GMI := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.gmi')
 GMI_HTML := $(GMI:.gmi=.html) $(NON_POSTS:=.html)
 
-MD := $(shell find $(ROOT)/*/ -type f -iname '*.md')
+MD := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.md')
 MD_HTML := $(MD:.md=.html)
 
-ORG := $(shell find $(ROOT)/*/ -type f -iname '*.org')
+ORG := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.org')
 ORG_HTML := $(ORG:.org=.html)
 
 SRC := $(GMI) $(MD) $(ORG) $(NON_POSTS:=.gmi)
