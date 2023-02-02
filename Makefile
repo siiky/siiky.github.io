@@ -9,7 +9,8 @@ MAKE_ATOM := ./make-atom.scm
 MAKE_GEMFEED := ./make-gemfeed.sh
 MAKE_GRAPH := ./make-graph.scm
 MAKE_IPFS_PAGE := ./make-ipfs-page.sh
-MAKE_META := ./make-meta.sh
+MAKE_SITE_META := ./make-site-meta.sh
+MAKE_WIKI_META := ./make-wiki-meta.sh
 MD2HTML := ./md2html.scm
 
 SCRIPTS := \
@@ -21,7 +22,8 @@ SCRIPTS := \
  $(MAKE_GEMFEED) \
  $(MAKE_GRAPH) \
  $(MAKE_IPFS_PAGE) \
- $(MAKE_META) \
+ $(MAKE_SITE_META) \
+ $(MAKE_WIKI_META) \
  $(MD2HTML) \
 
 GVS2GV := gvs2gv
@@ -32,6 +34,9 @@ DOT := dot
 REPO_ROOT := $(PWD)
 ROOT := docs
 WIKI_ROOT := $(ROOT)/wiki
+
+SITE_META := $(REPO_ROOT)/site-meta.tsv
+WIKI_META := $(REPO_ROOT)/wiki-meta.tsv
 
 # Source text files and targets
 NON_POSTS := \
@@ -95,14 +100,14 @@ png: $(PNG)
 
 atom: $(ROOT)/atom.xml
 
-meta.tsv: $(MAKE_META) $(SITE_POSTS_SRC)
-	ls -1 $(SITE_POSTS_SRC) | $(MAKE_META) $(ROOT) > $@
+$(SITE_META): $(MAKE_SITE_META) $(SITE_POSTS_SRC)
+	ls -1 $(SITE_POSTS_SRC) | $(MAKE_SITE_META) $(ROOT) > $@
 
-$(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
-	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
+$(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
+	$(MAKE_GEMFEED) index.gmi $(SITE_META) > $@
 
-$(ROOT)/atom.xml: $(MAKE_ATOM) meta.tsv
-	$(MAKE_ATOM) $(ROOT) < meta.tsv > $@
+$(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
+	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
 
 # TODO: Split IPFS add from publish
 
