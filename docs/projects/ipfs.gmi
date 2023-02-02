@@ -1,5 +1,5 @@
 # ipfs.scm
-@siiky
+siiky
 2022/07/23
 2022/07/24
 

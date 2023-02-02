@@ -1,5 +1,5 @@
 # Naming Operations rather than Variables
-@siiky
+siiky
 2021/12/15
 2022/07/07
 

@@ -1,5 +1,5 @@
 # Trolley problem
-@siiky
+siiky
 2022/11/20
 2022/11/20
 

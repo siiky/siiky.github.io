@@ -1,5 +1,5 @@
 # OpenStreetMap Cheat Sheet
-@siiky
+siiky
 2021/07/12
 2022/07/28
 

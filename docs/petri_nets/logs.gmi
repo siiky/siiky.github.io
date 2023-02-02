@@ -1,5 +1,5 @@
 # Petri Nets Logs
-@siiky
+siiky
 2022/05/16
 2022/05/16
 

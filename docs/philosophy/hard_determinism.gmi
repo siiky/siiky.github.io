@@ -1,5 +1,5 @@
 # Hard Determinism
-@siiky
+siiky
 2020/12/30
 2022/07/27
 

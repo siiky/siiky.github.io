@@ -1,5 +1,5 @@
 # RE: Misadventures with bash shell
-@siiky
+siiky
 2022/08/01
 2022/08/02
 
