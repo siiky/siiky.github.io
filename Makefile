@@ -62,7 +62,13 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
-all: index html svg png atom graph.svg cv
+all: site cv
+
+site: site-text assets
+
+site-text: index html
+
+assets: svg png atom graph.svg
 
 index: $(ROOT)/index.html
 
@@ -159,4 +165,4 @@ cv-en.pdf: cv-en.md
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
-.PHONY: all html index png serve svg watch
+.PHONY: all assets html index png serve site site-text svg watch
