@@ -31,6 +31,7 @@ DOT := dot
 # The root directory of the site/capsule -- may be published to IPFS as-is
 REPO_ROOT := $(PWD)
 ROOT := docs
+WIKI_ROOT := $(ROOT)/wiki
 
 # Source text files and targets
 NON_POSTS := \
@@ -42,19 +43,31 @@ NON_POSTS := \
  $(ROOT)/tinylog \
  $(ROOT)/tinylog-2022 \
 
-GMI := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.gmi')
-GMI_HTML := $(GMI:.gmi=.html) $(NON_POSTS:=.html)
+# Main site sources -- do NOT include the wiki
 
-MD := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.md')
-MD_HTML := $(MD:.md=.html)
+SITE_GMI := $(shell find $(ROOT)/*/ -not \( -path $(WIKI_ROOT)/ -prune \) -type f -iname '*.gmi')
+SITE_GMI_HTML := $(SITE_GMI:.gmi=.html) $(NON_POSTS:=.html)
 
-ORG := $(shell find $(ROOT)/*/ -not \( -path $(ROOT)/wiki/ -prune \) -type f -iname '*.org')
-ORG_HTML := $(ORG:.org=.html)
+SITE_MD := $(shell find $(ROOT)/*/ -not \( -path $(WIKI_ROOT)/ -prune \) -type f -iname '*.md')
+SITE_MD_HTML := $(SITE_MD:.md=.html)
 
-SRC := $(GMI) $(MD) $(ORG) $(NON_POSTS:=.gmi)
-HTML := $(GMI_HTML) $(MD_HTML) $(ORG_HTML)
+SITE_ORG := $(shell find $(ROOT)/*/ -not \( -path $(WIKI_ROOT)/ -prune \) -type f -iname '*.org')
+SITE_ORG_HTML := $(SITE_ORG:.org=.html)
 
-# Source assets
+SITE_POSTS_SRC := $(SITE_GMI) $(SITE_MD) $(SITE_ORG)
+SITE_POSTS_HTML := $(SITE_GMI_HTML) $(SITE_MD_HTML) $(SITE_ORG_HTML)
+
+SITE_SRC := $(SITE_POSTS_SRC) $(NON_POSTS:=.gmi)
+SITE_HTML := $(SITE_POSTS_HTML)
+
+# Wiki sources -- do NOT include the main site
+
+## User-edited pages of the wiki will all be at the root /wiki/
+## Directories will include all generated pages, i.e., lists
+WIKI_SRC := $(shell find $(ROOT)/wiki/* -maxdepth 0 -type f -iname '*.gmi')
+WIKI_HTML := $(WIKI_SRC:.gmi=.html)
+
+# Source assets -- no distinction between main site and wiki
 GVS := $(shell find $(ROOT)/* -type f -iname '*.gvs')
 GP := $(shell find $(ROOT)/* -type f -iname '*.gp')
 
@@ -62,17 +75,19 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
-all: site cv
+all: site wiki assets cv
 
-site: site-text assets
+wiki: wiki-html
 
-site-text: index html
+site: index site-html
 
 assets: svg png atom graph.svg
 
 index: $(ROOT)/index.html
 
-html: $(HTML)
+site-html: $(SITE_HTML)
+
+wiki-html: $(WIKI_HTML)
 
 svg: $(SVG)
 
@@ -80,8 +95,8 @@ png: $(PNG)
 
 atom: $(ROOT)/atom.xml
 
-meta.tsv: $(MAKE_META) $(SRC)
-	$(MAKE_META) $(ROOT) > $@
+meta.tsv: $(MAKE_META) $(SITE_POSTS_SRC)
+	ls -1 $(SITE_POSTS_SRC) | $(MAKE_META) $(ROOT) > $@
 
 $(ROOT)/index.gmi: index.gmi meta.tsv $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi meta.tsv > $@
@@ -121,24 +136,24 @@ antenna-publish: ipfs-publish
 serve:
 	$(GEMINID) $(ROOT)
 
-graph.scm: $(MAKE_GRAPH) $(SRC)
-	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(SRC) > $@
+graph.scm: $(MAKE_GRAPH) $(SITE_SRC)
+	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(SITE_SRC) > $@
 
 graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
-	ls -1 cv-en.md index.gmi $(SCRIPTS) $(SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
+	ls -1 cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<
 
-spellcheck: $(SRC:.gmi=.spell)
+spellcheck: $(SITE_SRC:.gmi=.spell)
 
 cv: cv-en.pdf
 	
 cv-en.pdf: cv-en.md
-	pandoc -f markdown -t latex --pdf-engine=xelatex cv-en.md -o cv-en.pdf
+	pandoc -f markdown -t latex --pdf-engine=xelatex $< -o $@
 
 # Text files rules
 
@@ -165,4 +180,4 @@ cv-en.pdf: cv-en.md
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
-.PHONY: all assets html index png serve site site-text svg watch
+.PHONY: all assets index png serve site site-html svg watch wiki wiki-html

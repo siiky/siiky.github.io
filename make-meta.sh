@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 root=$1
 
-find "$root"/*/ -type f \( -iname '*.md' -or -iname '*.org' -or -iname '*.gmi' \) |
 while read file; do
   cdate="$(head -3 "$file" | tail +3 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)\s*$|\1|; s|/|-|g;')"
   update="$(head -4 "$file" | tail +4 | sed 's|^.*\([0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}\)\s*$|\1|; s|/|-|g;')"
