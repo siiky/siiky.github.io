@@ -11,6 +11,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> words/quotes.gmi 2023-02-02 just quotes
 => music/fecking_bahamas.gmi 2023-01-31 Fecking Bahamas
 => books/list.gmi 2023-01-25 Books list
 => kB45oC/no-problem.gmi 2023-01-20 No problem there
@@ -75,7 +76,6 @@ This is where you'll find nothing interesting, welcome.
 => scheme/pipes.gmi 2022-07-07 Pipes
 => functional_programming/naming.gmi 2022-07-07 Naming Operations rather than Variables
 => work/CVE-2020-26935.gmi 2022-07-07 CVE-2020-26935
-=> words/quotes.gmi 2022-07-07 just quotes
 => work/credit.gmi 2022-07-07 Credit
 => scheme/kless.gmi 2022-07-07 kless
 => projects/gemtext.gmi 2022-07-05 Scheme Gemtext Reader
