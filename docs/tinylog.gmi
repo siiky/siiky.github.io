@@ -7,6 +7,12 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-03 16:59 +0000
+=> gemini://gemini.circumlunar.space/users/adiabatic/scrawlspace 2023-02-02: A thought I just had
+> It’s often quite easy to register one’s displeasure with someone else’s idea, but oftentimes orders of magnitude more difficult to craft something that might help him see the error of his ways.
+Indeed! Coincidentally, today I was reading "The Second Thoughts of an Idle Fellow" where Jerome dedicates a few pages about this.
+=> books/list.gmi Books list
+
 ## 2023-02-02 22:03 +0000
 I'm right now thinking about making a read-only "wiki"-like thing where I dump all the info (such as notes, &c) that may be made public.
 Started adapting the build system support it, most likely under /wiki/
