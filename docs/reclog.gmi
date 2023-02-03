@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/02/02
+2023/02/03
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://ruario.flounder.online/gemlog/2023-02-03_numberless_cards.gmi 2023-02-03 The progression to numberless credit/debit cards
 
 => gemini://idiomdrottning.org/inherent-tendency 2023-02-02 When they didn’t just leave it in the ground out of the goodness of their own hearts
 => gemini://idiomdrottning.org/sudo-eu 2023-02-02 When the EU wanted to own all computers
