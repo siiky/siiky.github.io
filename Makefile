@@ -75,6 +75,7 @@ WIKI_HTML := $(WIKI_SRC:.gmi=.html)
 # Source assets -- no distinction between main site and wiki
 GVS := $(shell find $(ROOT)/* -type f -iname '*.gvs')
 GP := $(shell find $(ROOT)/* -type f -iname '*.gp')
+ASSETS_SRC := $(GVS) $(GP)
 
 SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
@@ -139,7 +140,7 @@ ipfs-publish: $(ROOT)/ipfs.html
 antenna-publish: ipfs-publish
 	xdg-open gemini://warmedal.se/~antenna/submit?gemini://siiky.srht.site
 
-.PHONY: ipfs-publish publish publish-gemini publish-http
+.PHONY: antenna-publish ipfs-publish publish publish-gemini publish-http
 
 serve:
 	$(GEMINID) $(ROOT)
@@ -151,7 +152,7 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
-	ls -1 cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(GVS) $(GP) Makefile | entr -c $(MAKE)
+	ls -1 Makefile cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) | entr -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<
