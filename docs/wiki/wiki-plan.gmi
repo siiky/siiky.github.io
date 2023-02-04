@@ -1,0 +1,10 @@
+# nothing interesting wiki: plan/ideas
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+
+* DONE Lists of all pages sorted by some different criteria
+* TODO Lists of all pages of a certain tag
+* TODO Backlinks? /to/target-page.gmi
+* TODO Forward links? /from/source-page.gmi -- grouping links by local/external/gemini/non-gemini/&c?
