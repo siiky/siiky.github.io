@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://omg.pebcak.club/~freezr/relog/2023-02-02-relog-elettrificazione-socializzata-absc.gmi 2023-02-03 Elettrificazione socializzata
 => gemini://freeshell.de/stories/secure.gmi 2023-02-03 Did I cause a security breach?
 => gemini://freeshell.de/gemlog/2023-02-03_I_have_credit_card_nostalgia__WTF_.gmi 2023-02-03 I have credit card nostalgia. WTF? 💳
 => gemini://ruario.flounder.online/gemlog/2023-02-03_numberless_cards.gmi 2023-02-03 The progression to numberless credit/debit cards
