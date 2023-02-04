@@ -1,0 +1,17 @@
+# Drew DeVault, "Introducing Helios"
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+talk,os
+
+=> fosdem2023.gmi
+=> https://fosdem.org/2023/schedule/event/helios
+=> https://fosdem.org/2023/schedule/event/helios/attachments/slides/5404/export/events/attachments/helios/slides/5404/helios_lt.pdf
+=> https://ares-os.org
+=> https://sr.ht/~sircmpwn/helios
+=> https://harelang.org
+
+Short talk about a microkernel written in Hare. There are only 14 syscalls in total! Drivers (Helios being a microkernel) run in userspace.
+
+The slides were presented from a Raspberry Pi running it.

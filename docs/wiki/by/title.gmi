@@ -1,4 +1,9 @@
+=> ../fosdem2023.pre-scheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
+=> ../fosdem2023.intro-to-helios.gmi Drew DeVault, "Introducing Helios"
 => ../fosdem2023.gmi FOSDEM 2023
+=> ../fosdem2023.lips-scheme.gmi Jakub Jankiewicz, "LIPS Scheme"
+=> ../fosdem2023.where-does-code-come-from.gmi Ludovic Courtès, "Where does that code come from?"
+=> ../fosdem2023.zero-hero-solid.gmi Noel De Martin, "From Zero to Hero with Solid"
 => ../meta.gmi nothing interesting wiki: meta
 => ../index.gmi nothing interesting wiki
 => ../20230204.gmi 2023/02/04

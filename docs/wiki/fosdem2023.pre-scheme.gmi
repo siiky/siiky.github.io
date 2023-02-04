@@ -1,0 +1,29 @@
+# Andrew Whatson, "Introduction to Pre-Scheme"
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+talk,scheme,type-systems
+
+=> fosdem2023.gmi
+=> https://fosdem.org/2023/schedule/event/prescheme
+
+Talk about Pre-Scheme, a Scheme implementation by Richard Kelsey.
+
+* Richard Kelsey, "Compilation by Program Transformation"
+
+The steps to compile a by program transformation:
+* Translate to itnermediate code
+* Make the program linear
+* Add explicit continuations
+* Add explicit environments
+* Identifier renaming/register allocation
+
+Pre-Scheme has:
+* No GC
+* No runtime closures
+* Limited tail recursion
+* Strict static typing
+* Limited first-class data types (C atomic types (scalars))
+
+=> https://3lproject.org 3L: The Computing System of the Future

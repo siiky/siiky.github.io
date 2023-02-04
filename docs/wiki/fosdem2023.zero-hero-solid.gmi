@@ -1,0 +1,21 @@
+# Noel De Martin, "From Zero to Hero with Solid"
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+talk,p2p
+
+=> fosdem2023.gmi
+=> https://fosdem.org/2023/schedule/event/sovcloud_from_zero_to_hero_with_solid
+=> https://solidproject.org
+=> https://noeldemartin.com/projects
+=> https://noeldemartin.com/tasks
+=> https://github.com/search?q=user%3Anoeldemartin+topic%3Asolid-app&type=Repositories
+
+Not too long overview of how Solid, the protocol, works -- very high-level and hand-wavy. It's decentralized, there are PODs (Personal Object Database?), somewhat like Matrix, Mastodon, &c "homes". Applications can be hosted pretty much anywhere in any way, but the data is always hosted on a user's POD. Users have to explicitly allow the application to access their documents ("files").
+
+Data on Solid is saved as "documents", which are sort of like files but with some metadata attached so that different applications may understand each other. Imagine an application to keep track of the movies/series a user has/wants to watch; the "database" may publish the movies/series data in a format understandable by other applications, such that, for example, you can have a movie/series review site (application) that uses that same movie/series data.
+
+The speaker is in favor of offline-first applications (yay) and uses CRDTs to resolve conflicts of interleaved updates -- e.g. user updates an item on C1, which is not connected to the internet; afterwards, updates the same item on C2, which is connected to the internet and immediatly syncs with the user's POD; when C1 goes online, the application resolves whatever conflicts that may arise, with the help of CRDTs, and updates the relevant document(s) on the user's POD.
+
+=> https://forum.solidproject.org/t/authenticating-offline-first-solid-apps/4208
