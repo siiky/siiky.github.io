@@ -15,3 +15,30 @@ The IPFS link that follows doesn't work if you're accessing the capsule through 
 => ipfs.gmi IPFS (the version you're reading now)
 
 => https://siiky.github.io GitHub (HTTPS)
+
+
+You may download the capsule as a whole (including gmi and HTML, assets, &c) through IPFS with this command (the CID is available in the page linked to above):
+
+```sh
+ipfs get -o siiky.srht.site.tar.gz -a -C -l=9 -p -- CID
+```
+
+Here's the size of the downloaded archive and a snippet of its contents:
+
+```sh
+$ du -b siiky.srht.site.tar.gz; du -bh siiky.srht.site.tar.gz
+1785117	siiky.srht.site.tar.gz
+1.8M	siiky.srht.site.tar.gz
+
+$ tar tf siiky.srht.site.tar.gz | head
+CID
+CID/about.gmi
+CID/about.html
+CID/algebra
+CID/algebra/cat_theory_perf.gmi
+CID/algebra/cat_theory_perf.html
+CID/algebra/ctp-cat-perf-h.gvs
+CID/algebra/ctp-cat-perf-h.png
+CID/algebra/ctp-cat-perf-h.svg
+CID/algebra/ctp-cat-perf.gvs
+```

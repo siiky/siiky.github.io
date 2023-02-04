@@ -11,4 +11,4 @@ while read file; do
   # The single quotes let `read` split the words correctly always!
   echo "$title" | grep -qvw WIP && echo "${update}\t${cdate}\t${title}\t${uri}"
 done |
-sort -nr
+sort -hr

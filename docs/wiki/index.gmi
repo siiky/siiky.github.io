@@ -1,8 +1,21 @@
 # nothing interesting wiki
 siiky
 2023/02/02
-2023/02/02
-2023/02/02
+2023/02/04
+2023/02/04
 
 
-test test one two puh! puh!
+NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
+
+Nowadays I dump EVERYTHING into Org Roam. While I don't have any major issues with it, only minor annoyances, there's A LOT of stuff in there that I wouldn't mind making public, such as notes or comments on things I read, listen to, watch, ideas, &c. It could be useful even to me, e.g. if I want to reference something I've written but don't have access to one of my PCs at the moment. The problem is that there's no good way of making them public that I know of (simplistically, on the Geminispace).
+
+And so this idea was born. I'm gonna play with this read-only (to you but not to me :) "wiki"-like thing, see where it goes. Since FOSDEM 2023 is right this weekend, I'll probably start with that as a pilot. Let's see how it goes!
+
+The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists.
+
+=> by/index.gmi Lists
+
+To learn more about the behind the scenes of this wiki, take a look at the Meta page; to learn more about me, my capsule, and lawerstuffs, take a look at the About page.
+
+=> meta.gmi Meta
+=> ../about.gmi About

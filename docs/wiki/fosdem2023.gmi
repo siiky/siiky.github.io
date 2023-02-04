@@ -1,0 +1,13 @@
+# FOSDEM 2023
+siiky
+2023/02/03
+2023/02/04
+2023/02/04
+conference,event
+
+This page is about the FOSDEM 2023 conference that will happen on Saturday and Sunday, 2023/02/04~2023/02/05.
+
+=> https://fosdem.org/2023 Main page
+=> https://fosdem.org/2023/schedule Schedule
+=> 20230204.gmi 2023/02/04
+=> 20230205.gmi 2023/02/05

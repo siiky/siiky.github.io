@@ -10,6 +10,7 @@ MAKE_GEMFEED := ./make-gemfeed.sh
 MAKE_GRAPH := ./make-graph.scm
 MAKE_IPFS_PAGE := ./make-ipfs-page.sh
 MAKE_SITE_META := ./make-site-meta.sh
+MAKE_WIKI_LISTS := ./make-wiki-lists.sh
 MAKE_WIKI_META := ./make-wiki-meta.sh
 MD2HTML := ./md2html.scm
 
@@ -23,6 +24,7 @@ SCRIPTS := \
  $(MAKE_GRAPH) \
  $(MAKE_IPFS_PAGE) \
  $(MAKE_SITE_META) \
+ $(MAKE_WIKI_LISTS) \
  $(MAKE_WIKI_META) \
  $(MD2HTML) \
 
@@ -34,6 +36,7 @@ DOT := dot
 REPO_ROOT := $(PWD)
 ROOT := docs
 WIKI_ROOT := $(ROOT)/wiki
+WIKI_BY := $(WIKI_ROOT)/by
 
 SITE_META := site-meta.tsv
 WIKI_META := wiki-meta.tsv
@@ -69,8 +72,10 @@ SITE_HTML := $(SITE_POSTS_HTML)
 
 ## User-edited pages of the wiki will all be at the root /wiki/
 ## Directories will include all generated pages, i.e., lists
-WIKI_SRC := $(shell find $(ROOT)/wiki/* -maxdepth 0 -type f -iname '*.gmi')
+WIKI_SRC := $(shell find $(WIKI_ROOT)/* -maxdepth 0 -type f -iname '*.gmi')
 WIKI_HTML := $(WIKI_SRC:.gmi=.html)
+WIKI_GENERATED_SRC := $(shell find $(WIKI_ROOT)/*/ -type f -iname '*.gmi')
+WIKI_GENERATED_HTML := $(WIKI_GENERATED_SRC:.gmi=.html)
 
 # Source assets -- no distinction between main site and wiki
 GVS := $(shell find $(ROOT)/* -type f -iname '*.gvs')
@@ -83,7 +88,7 @@ PNG := $(GVS:.gvs=.png)
 
 all: site wiki assets cv
 
-wiki: wiki-html $(WIKI_META)
+wiki: wiki-generated-html
 
 site: index site-html
 
@@ -112,6 +117,13 @@ $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 
 $(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
 	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
+
+wiki-lists: $(WIKI_META) $(WIKI_HTML) $(MAKE_WIKI_LISTS)
+	$(MAKE_WIKI_LISTS) $(WIKI_BY) $(WIKI_META)
+
+#$(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi: $(WIKI_META) $(WIKI_HTML) $(MAKE_WIKI_LISTS)
+
+wiki-generated-html: wiki-lists $(WIKI_GENERATED_HTML)
 
 # TODO: Split IPFS add from publish
 

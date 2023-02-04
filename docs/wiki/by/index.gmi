@@ -1,0 +1,7 @@
+# nothing interesting wiki
+
+You can see a list of all pages of this wiki sorted by title, created date, or updated date. You may subscribe to the created or updated pages to get notified of new pages, or updates to existing pages.
+
+=> title.gmi By title
+=> created.gmi Created date
+=> updated.gmi Updated date
