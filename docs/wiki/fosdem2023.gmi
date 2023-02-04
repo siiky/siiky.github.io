@@ -9,5 +9,6 @@ This page is about the FOSDEM 2023 conference that will happen on Saturday and S
 
 => https://fosdem.org/2023 Main page
 => https://fosdem.org/2023/schedule Schedule
+=> https://mirror.librelabucm.org/fosdem Mirror of recordings
 => 20230204.gmi 2023/02/04
 => 20230205.gmi 2023/02/05
