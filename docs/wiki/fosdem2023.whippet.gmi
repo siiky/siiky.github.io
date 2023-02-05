@@ -1,0 +1,29 @@
+# Andy Wingo, "Whippet: A new production embeddable garbage collector"
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+talk,scheme
+
+=> https://fosdem.org/2023/schedule/event/whippet
+=> https://fosdem.org/2023/schedule/event/whippet/attachments/slides/5755/export/events/attachments/whippet/slides/5755/fosdem_whippet_2023_slides.pdf
+=> https://github.com/wingo/whippet-gc
+=> https://www.mmtk.io
+=> https://wingolog.org/tags/whippet
+
+Short-ish talk about a new GC that Andy is working on, to be included into Guile in the future.
+
+Based on Immix, some kind of new super cool GC algorithm. There appears to be no single website or paper (I get a few results with a search), so for now that's that. When the recording is released I may take a look again, maybe he included an author or some other reference, I don't remember.
+
+According to him there are 4 kinds of GCs:
+* mark-compact
+* mark-sweep
+* extraction (evacuation? ??? can't read my own hand-writing lol)
+* mark-region
+Immix is of that last type.
+
+Whippet is a "stop the world" GC, though threads independently maintain their own stack trash; and it's sort of lazy: when a new object is allocated, one dead object is freed. This implies that on each GC cycle there's no way to know how much of the used memory is live or trash.
+
+He mentions "ephemerons", which I'm still not sure what they are. There's this post on his blog that looks relevant:
+
+=> https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing parallel ephemeron tracing

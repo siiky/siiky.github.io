@@ -1,0 +1,15 @@
+# Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
+siiky
+2023/02/04
+2023/02/04
+2023/02/04
+talk
+
+=> https://fosdem.org/2023/schedule/event/webassemblyforth
+=> https://github.com/remko/waforth
+=> https://forth-standard.org
+=> https://webassembly.org
+=> https://github.com/WebAssembly/wabt
+=> https://wasmtime.dev
+
+Talk about WAForth, a Forth implementation written by hand in WebAssembly.

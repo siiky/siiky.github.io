@@ -1,3 +1,4 @@
+=> ../fosdem2023.waforth.gmi 2023-02-04 Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../index.gmi 2023-02-04 nothing interesting wiki
 => ../wiki-plan.gmi 2023-02-04 nothing interesting wiki: plan/ideas
 => ../meta.gmi 2023-02-04 nothing interesting wiki: Meta
@@ -6,6 +7,7 @@
 => ../fosdem2023.lips-scheme.gmi 2023-02-04 Jakub Jankiewicz, "LIPS Scheme"
 => ../fosdem2023.gmi 2023-02-04 FOSDEM 2023
 => ../fosdem2023.intro-to-helios.gmi 2023-02-04 Drew DeVault, "Introducing Helios"
+=> ../fosdem2023.whippet.gmi 2023-02-04 Andy Wingo, "Whippet: A new production embeddable garbage collector"
 => ../fosdem2023.pre-scheme.gmi 2023-02-04 Andrew Whatson, "Introduction to Pre-Scheme"
 => ../20230205.gmi 2023-02-04 2023/02/05
 => ../20230204.gmi 2023-02-04 2023/02/04
