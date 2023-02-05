@@ -1,0 +1,15 @@
+# Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,p2p
+
+=> https://fosdem.org/2023/schedule/event/network_hole_punching_in_the_wild
+=> https://libp2p.io
+=> https://research.protocol.ai/publications/decentralized-hole-punching
+=> https://archive.fosdem.org/2022/schedule/event/peer_to_peer_hole_punching_without_centralized_infrastructure
+=> https://blog.ipfs.io/2022-01-20-libp2p-hole-punching
+=> https://discuss.libp2p.io/t/call-for-participation-nat-hole-punching-measurement-campaign/1690
+
+Talk about hole punching, with a short explanation of libp2p's implementation, and an experiment they ran at Protocol Labs during 2022/12. It's pretty simple actually: two peers initially use a middleman to communicate (relay), establish a connection through this relay, and measure their RTT; to hole punch a connection, A tells B to do a hole punch and waits RTT/2, when B gets that packet, sends a connect to A, and both packets reach their destinations around (more or less) the same time.

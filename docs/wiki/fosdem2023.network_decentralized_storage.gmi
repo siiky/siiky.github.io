@@ -1,0 +1,13 @@
+# Dennis Trautwein, "Decentralized Storage with IPFS"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,ipfs
+
+=> https://fosdem.org/2023/schedule/event/network_decentralized_storage
+=> https://docs.ipfs.tech
+=> https://app.radius.space
+=> https://github.com/protocol/network-measurements
+
+Didn't understand well the "retrieving/publishing content" slides. The "content lifecycle" slide explains pretty well how peers can find "providers" (peers who have the wanted content), and then the network addresses of those providers.

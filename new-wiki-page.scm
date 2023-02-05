@@ -41,13 +41,21 @@
 
 (define options
   (parse-command-line
-    `((-f . ,filename)
+    `((-h)
+      (-f . ,filename)
       (-t . ,title)
       (-a . ,author)
       (-c . ,created)
       (-u . ,updated)
       (-e . ,edited)
       (-T . ,tags))))
+
+(when (assq '-h options)
+  (print
+    "./new-wiki-page.scm -h\n"
+    "./new-wiki-page.scm [-f FILENAME] [-t TITLE] [-a AUTHOR] [-c CREATED] [-u UPDATED] [-e EDITED] [-T TAGS]\n"
+    )
+  (exit 0))
 
 (define page
   `(

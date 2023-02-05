@@ -1,0 +1,14 @@
+# Nelson Vides, "The Actor Model as a Load Testing Framework"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk
+
+=> https://fosdem.org/2023/schedule/event/beam_actor_model_load_testing
+=> https://fosdem.org/2023/schedule/event/beam_actor_model_load_testing/attachments/slides/5788/export/events/attachments/beam_actor_model_load_testing/slides/5788/The_Actor_Model_as_a_Load_Testing_Framework_FOSDEM23.pdf
+=> https://invidious.snopyta.org/watch?v=NXCUNj3ziq0
+=> https://invidious.snopyta.org/watch?v=yhRq-Bwq_s8
+=> https://codebeamamerica.com/talks/building-blocks-and-how-to-use-them-a-mongooseim-case-study
+
+Meh

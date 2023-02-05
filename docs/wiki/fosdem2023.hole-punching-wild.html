@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head><meta charset="utf-8"/></head>
+<body>
+
+<h1>Max Leonard Inden &amp; Dennis Trautwein, &quot;Hole punching in the wild&quot;</h1>
+<p>siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,p2p</p>
+<ul>
+<li><a href="https://fosdem.org/2023/schedule/event/network_hole_punching_in_the_wild">https://fosdem.org/2023/schedule/event/network_hole_punching_in_the_wild</a></li>
+<li><a href="https://libp2p.io">https://libp2p.io</a></li>
+<li><a href="https://research.protocol.ai/publications/decentralized-hole-punching">https://research.protocol.ai/publications/decentralized-hole-punching</a></li>
+<li><a href="https://archive.fosdem.org/2022/schedule/event/peer_to_peer_hole_punching_without_centralized_infrastructure">https://archive.fosdem.org/2022/schedule/event/peer_to_peer_hole_punching_without_centralized_infrastructure</a></li>
+<li><a href="https://blog.ipfs.io/2022-01-20-libp2p-hole-punching">https://blog.ipfs.io/2022-01-20-libp2p-hole-punching</a></li>
+<li><a href="https://discuss.libp2p.io/t/call-for-participation-nat-hole-punching-measurement-campaign/1690">https://discuss.libp2p.io/t/call-for-participation-nat-hole-punching-measurement-campaign/1690</a></li></ul>
+<p>Talk about hole punching, with a short explanation of libp2p's implementation, and an experiment they ran at Protocol Labs during 2022/12. It's pretty simple actually: two peers initially use a middleman to communicate (relay), establish a connection through this relay, and measure their RTT; to hole punch a connection, A tells B to do a hole punch and waits RTT/2, when B gets that packet, sends a connect to A, and both packets reach their destinations around (more or less) the same time.</p>
+</body>
+</html>

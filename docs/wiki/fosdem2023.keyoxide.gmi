@@ -1,0 +1,29 @@
+# Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk
+
+=> https://fosdem.org/2023/schedule/event/keyoxide
+=> https://keyoxide.org
+=> https://js.doip.rocks
+=> https://ariadne.id
+=> https://codeberg.org/keyoxide
+=> https://keyoxide.blue
+
+How does it compare with Keybase?
+
+Wishlist for an identity for the internet:
+* Secure: protect against impersonation
+* Anonymous: separate online identity from IRL
+* Self-sovereign: issue your own passport
+* Decentralized: don't involve gatekeepers/middlemen
+
+These goals represent "what you do, not where you were born"
+
+It's interesting how the identity, as defined in this talk, can be that of a group.
+
+> (...) just like Keybase used to do, back in the day
+
+WUKD

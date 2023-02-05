@@ -1,0 +1,14 @@
+# Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk
+
+=> https://fosdem.org/2023/schedule/event/small_business_using_open_source
+=> https://fosdem.org/2023/schedule/event/small_business_using_open_source/attachments/slides/5904/export/events/attachments/small_business_using_open_source/slides/5904/ClearSkies.pdf
+=> https://prehensile-tales.com
+=> https://blog.tmm.cx
+=> https://github.com/megacorp-icu
+=> https://github.com/erpnext
+=> https://erpnext.com

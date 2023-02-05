@@ -1,0 +1,16 @@
+# Tobias Augspurger, "Open Source in Environmental Sustainability"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,environment
+
+=> https://fosdem.org/2023/schedule/event/sustainability
+=> https://fosdem.org/2023/schedule/event/sustainability/attachments/slides/5570/export/events/attachments/sustainability/slides/5570/Open_Source_in_Environmental_Sustainability.pdf
+=> https://opensustain.tech
+=> https://report.opensustain.tech
+
+It was too early to be able to take anything away from it... I'll have to watch the recording later.
+
+* bogus "sustainability rating" methods
+* mentions carbon offsets/credits (and how they're bogus)

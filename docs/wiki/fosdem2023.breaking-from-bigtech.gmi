@@ -1,0 +1,24 @@
+# Boris Budini, "Breaking away from Big Tech"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk
+
+=> https://fosdem.org/2023/schedule/event/breaking_from_big_tech
+=> https://fosdem.org/2023/schedule/event/breaking_from_big_tech/attachments/slides/5783/export/events/attachments/breaking_from_big_tech/slides/5783/PDF_slides
+=> https://cloud68.co/about
+=> https://www.chatons.org
+=> https://libreho.st
+
+Didn't watch this one, was watching tissue at the time instead.
+
+=> fosdem2023.tissue.gmi
+
+Someone commented on the chat:
+
+> Considering how everything is broken[1], I find it a bit worrying to advise people to self-host. All it takes is one bad configuration to leave a system vulnerable and exploitable by threat actors. You already mentioned this in the beginning of your talk, but I still feel the need to emphasise this. One needs to know what they're doing if they choose to selfhost.
+>
+> Besides, I think there is an enviromental aspect to host collectively and have share computing / storage resources
+
+=> https://medium.com/message/everything-is-broken-81e5f33a24e1 [1]: Everything Is Broken

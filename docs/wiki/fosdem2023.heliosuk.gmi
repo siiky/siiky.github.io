@@ -1,0 +1,16 @@
+# Drew DeVault, "Introducing Helios Micokernel"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,os
+
+=> https://fosdem.org/2023/schedule/event/heliosuk
+=> https://fosdem.org/2023/schedule/event/heliosuk/attachments/slides/5402/export/events/attachments/heliosuk/slides/5402/helios.pdf
+=> https://ares-os.org
+=> https://harelang.org
+
+IPC is with a synchronous (blocking) message-passing style.
+
+At the end, during QA:
+> correcting a mistake Plan9 made, which is that, Plan9 was correct that distributed computing is the future, but it was incorrect that they would be distributed across a mainframe and a bunch of thin clients in an office building, which is how Plan9 was designed. In fact, the group of devices that should be running a uniform Operating System is all of your personal devices -- my laptop, my workstation at home, my phones -- they should all present as a single system. And so, it's very vague and floffy and long-term vision, but I would like to try to achieve that with the design of Gaia and Ares.

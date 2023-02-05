@@ -1,0 +1,13 @@
+# Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk,gemini,tools
+
+=> https://fosdem.org/2023/schedule/event/tissue
+=> https://tissue.systemreboot.net
+=> https://issues.genenetwork.org
+=> https://tissue.systemreboot.net/manual/dev/en/#chapter-tutorial
+
+Talk about a simple issue tracker, that keeps all its data in Gemtext files, inside Git itself.

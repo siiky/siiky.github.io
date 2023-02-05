@@ -1,0 +1,31 @@
+# Jon Häggblad, "The Nym Mixnet"
+siiky
+2023/02/05
+2023/02/05
+2023/02/05
+talk
+
+=> https://fosdem.org/2023/schedule/event/nym_mixnet
+=> https://fosdem.org/2023/schedule/event/nym_mixnet/attachments/slides/5819/export/events/attachments/nym_mixnet/slides/5819/nym_fosdem_2023.pdf
+=> https://nymtech.net
+=> https://github.com/nymtech/nym
+=> https://nymtech.net/nym-whitepaper.pdf
+=> https://nymtech.net/docs
+
+Talk about the Nym Mixnet, a "decentralized incentivised mixnet + private credential".
+
+* Overlay network (like I2P)
+* Onion routing (like I2P)
+* Based on the Loopix design
+* Sphinx packets
+* Packet re-ordering and timing obfuscation
+* Cover traffic
+* Single Use Reply Blocks (SURB)
+
+* Network directory -- set of validators running a consensus protocol (apparently a blockchain?); keeps track of all mixnodes and gateways
+* Mixnodes are rewarding with NYMs for mixing network traffic
+* NYMs can be used to acquire bandwidth credentials (coconut credentials)
+
+"Coconut credentials" break linkability betwen identity and the right to use a service
+
+Currently at around 500 mixnodes
