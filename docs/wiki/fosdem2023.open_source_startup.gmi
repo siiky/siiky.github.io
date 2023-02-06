@@ -1,0 +1,16 @@
+# Tom Hacohen, "Starting an Open Source Startup"
+siiky
+2023/02/05
+2023/02/06
+2023/02/06
+talk
+
+=> fosdem2023.gmi
+=> https://fosdem.org/2023/schedule/event/open_source_startup
+=> https://fosdem.org/2023/schedule/event/open_source_startup/attachments/slides/5974/export/events/attachments/open_source_startup/slides/5974/startup_fosdem_2023.pdf
+=> https://stosb.com
+=> https://www.svix.com
+=> https://github.com/svix/svix-webhooks
+=> https://www.etesync.com
+
+Just like the title says. The speaker presents their experience, some tips, dos and don'ts, &c.
