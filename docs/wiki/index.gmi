@@ -1,8 +1,8 @@
 # nothing interesting wiki
 siiky
 2023/02/02
-2023/02/04
-2023/02/04
+2023/02/06
+2023/02/06
 
 
 NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
@@ -17,7 +17,8 @@ The best way to explore it through Gemini, since there's no way to search it (ma
 
 => by/index.gmi Lists
 
-To learn more about the behind the scenes of this wiki, take a look at the Meta page; to learn more about me, my capsule, and lawerstuffs, take a look at the About page.
+To learn more about the behind the scenes of this wiki, take a look at the Meta page; to learn more about me, my capsule, and lawerstuffs, take a look at the About page; and to get in touch with me, take a look at the Contact page.
 
 => meta.gmi Meta
 => ../about.gmi About
+=> ../contact.gmi Contact

@@ -1,5 +1,5 @@
 (
-("about.gmi" "https://github.com/siiky" "https://sr.ht/~siiky")
+("about.gmi" "contact.gmi" "https://github.com/siiky" "https://sr.ht/~siiky")
 ("algebra/cat_theory_perf.gmi" "algebra/ctp-cat-perf-h.svg" "algebra/ctp-cat-perf.svg" "algebra/ctp-cat.svg" "algebra/ctp-complicated-cat.svg" "gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Category_(mathematics)" "gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Category_theory")
 ("algebra/faucets.gmi" "algebra/type_a_faucet.png" "algebra/type_b_faucet.png" "gemini://gemi.dev/cgi-bin/wp.cgi/view/en?KISS_principle")
 ("algebra/groups.gmi" "gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Group_(mathematics)")
