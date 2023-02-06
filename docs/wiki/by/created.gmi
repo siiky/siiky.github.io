@@ -1,3 +1,4 @@
+=> ../trainspotter.gmi 2023-02-06 Trainspotter
 => ../fosdem2023.keyoxide.gmi 2023-02-05 Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
 => ../fosdem2023.open-source-startup.gmi 2023-02-05 Tom Hacohen, "Starting an Open Source Startup"
 => ../fosdem2023.open-source-environmental-sustainability.gmi 2023-02-05 Tobias Augspurger, "Open Source in Environmental Sustainability"

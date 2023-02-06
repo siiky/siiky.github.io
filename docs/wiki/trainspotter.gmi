@@ -1,0 +1,20 @@
+# Trainspotter
+siiky
+2023/02/06
+2023/02/06
+2023/02/06
+magazine,railway
+
+=> https://portugalferroviario.net
+
+Portuguese monthly magazine about railway transports -- trains, subways, trams, &c -- published by APAC.
+
+=> https://www.caminhosdeferro.pt Associação Portuguesa dos Amigos dos Caminhos de Ferro
+
+## 149
+
+### João Cunha, "Plano Ferroviário Nacional: Discussão Pública"
+Author presents an analysis and his opinions on the PFN -- what's missing, what's bad, what's good, ...
+
+### Gonçalo Pinto, "A importância da sinalética num sistema de transporte de massas"
+Author explains why the current network map of the Metro system in Porto is wrong (and misleading) about one line, and how, because of that, users make unnecessary transfers. In short, the current map suggests that one of line F's end is Senhora da Hora, while in practice it goes further, following line A, and stopping at Senhor de Matosinhos.
