@@ -17,4 +17,6 @@ Portuguese monthly magazine about railway transports -- trains, subways, trams, 
 Author presents an analysis and his opinions on the PFN -- what's missing, what's bad, what's good, ...
 
 ### Gonçalo Pinto, "A importância da sinalética num sistema de transporte de massas"
-Author explains why the current network map of the Metro system in Porto is wrong (and misleading) about one line, and how, because of that, users make unnecessary transfers. In short, the current map suggests that one of line F's end is Senhora da Hora, while in practice it goes further, following line A, and stopping at Senhor de Matosinhos.
+Author explains why the current network map of the Metro system in Porto is wrong (and misleading) about one line, and how, because of that, users make unnecessary transfers. In short, the current map suggests that one of line F's end is Senhora da Hora, while in practice it goes further, along line A, and stopping at Senhor de Matosinhos.
+
+=> https://upload.wikimedia.org/wikipedia/commons/4/4c/Metro_do_Porto.svg More or less up-to-date map
