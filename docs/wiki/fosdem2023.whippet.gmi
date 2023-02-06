@@ -2,7 +2,7 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
+2023/02/06
 talk,scheme
 
 => https://fosdem.org/2023/schedule/event/whippet
@@ -27,3 +27,5 @@ Whippet is a "stop the world" GC, though threads independently maintain their ow
 He mentions "ephemerons", which I'm still not sure what they are. There's this post on his blog that looks relevant:
 
 => https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing parallel ephemeron tracing
+
+=> pl.scheme.gmi

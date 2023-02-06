@@ -1,0 +1,13 @@
+# Scheme (programming language)
+siiky
+2023/02/06
+2023/02/06
+2023/02/06
+programming,scheme
+
+=> https://www.scheme.org
+
+Some implementations:
+
+=> https://call-cc.org CHICKEN
+=> https://www.gnu.org/software/guile Guile

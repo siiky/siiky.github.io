@@ -1,0 +1,27 @@
+# Go (programming language)
+siiky
+2023/02/06
+2023/02/06
+2023/02/06
+programming
+
+=> https://go.dev
+
+Started learning Go at work. A coleague suggested following "Go By Example" and taking a look at "Go Traps".
+
+=> https://gobyexample.com Go By Example
+=> https://go-traps.appspot.com Go Traps
+
+In "Go By Example" they suggest these additional pages to learn about some specific aspects of the language.
+
+=> https://go.dev/blog/slices-intro
+=> https://go.dev/blog/strings
+=> https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+=> https://go.dev/blog/error-handling-and-go
+=> https://go.dev/blog/json
+
+There's an example of WaitGroups. At first I thought "nice, structured concurrency!" But then, the interface is kinda funky. And there doesn't seem be any way to kill processes/threads/goroutines/green-threads/w.e. you wanna call'em.
+
+=> https://gobyexample.com/waitgroups WaitGroups
+=> https://lua-users.org/lists/lua-l/2022-09/msg00016.html Structured concurrency and Lua
+=> https://github.com/Tinche/quattro

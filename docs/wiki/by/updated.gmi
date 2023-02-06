@@ -1,8 +1,11 @@
 => ../trainspotter.gmi 2023-02-06 Trainspotter
 => ../fosdem2023.open_source_startup.gmi 2023-02-06 Tom Hacohen, "Starting an Open Source Startup"
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"
+=> ../pl.scheme.gmi 2023-02-06 Scheme (programming language)
 => ../index.gmi 2023-02-06 nothing interesting wiki
 => ../fosdem2023.jubako.gmi 2023-02-06 Matthieu Gautier, "Jubako, a new generic container format"
+=> ../pl.lua.gmi 2023-02-06 Lua (programming language)
+=> ../pl.go.gmi 2023-02-06 Go (programming language)
 => ../fosdem2023.keyoxide.gmi 2023-02-05 Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
 => ../fosdem2023.sustainability.gmi 2023-02-05 Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.zigandguile.gmi 2023-02-05 Pjotr Prins, "Zig and Guile for fast code and a REPL"

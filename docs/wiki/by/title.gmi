@@ -7,10 +7,12 @@
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
+=> ../pl.go.gmi Go (programming language)
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.lipsscheme.gmi Jakub Jankiewicz, "LIPS Scheme"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
+=> ../pl.lua.gmi Lua (programming language)
 => ../fosdem2023.security_where_does_that_code_come_from.gmi Ludovic Courtès, "Where does that code come from?"
 => ../fosdem2023.consulting_for_digital_humanists.gmi Marie Dubremetz, "Consulting for digital humanists"
 => ../fosdem2023.jubako.gmi Matthieu Gautier, "Jubako, a new generic container format"
@@ -23,6 +25,7 @@
 => ../index.gmi nothing interesting wiki
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
+=> ../pl.scheme.gmi Scheme (programming language)
 => ../story-of-us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"

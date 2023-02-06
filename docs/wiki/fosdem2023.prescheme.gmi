@@ -2,8 +2,8 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
-talk,scheme,type-systems
+2023/02/06
+talk,scheme,type-theory
 
 => fosdem2023.gmi
 => https://fosdem.org/2023/schedule/event/prescheme
@@ -27,3 +27,4 @@ Pre-Scheme has:
 * Limited first-class data types (C atomic types (scalars))
 
 => https://3lproject.org 3L: The Computing System of the Future
+=> pl.scheme.gmi

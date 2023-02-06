@@ -2,7 +2,7 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
+2023/02/06
 talk,scheme
 
 => fosdem2023.gmi
@@ -12,3 +12,5 @@ talk,scheme
 Talk about a Scheme implemented in JavaScript. I'd seen the author in the SRFI mailing lists, it's good to see what they've been working on.
 
 It's pretty cool how well it integrates with JS. But it's not compiled to JS, it's evaluated in JS.
+
+=> pl.scheme.gmi
