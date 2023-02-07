@@ -7,6 +7,15 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-06 23:05 +0000
+I saw this project, Task.
+=> https://taskfile.dev Task
+It describes itself thus:
+> Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.
+Ok, good, it starts well!
+> Once installed, you just need to describe your build tasks using a simple YAML schema in a file called Taskfile.yml:
+Noped right there and then.
+
 ## 2023-02-06 19:13 +0000
 When you send an email, and get a reply back starting with "Hi <your name>," why is it that they NEVER just copy&paste your name from your signature, even though your name is RIGHT FUCKING THERE because they just fucking top-posted? It really grinds my gears.
 If they start the email with "Hi, <this or that>", that is, without mentioning your name, all good! But they go through the work of typing out your name as they saw it in your signature, but fucking mistype it?
