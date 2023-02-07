@@ -10,6 +10,7 @@ programming,scheme
 Some implementations:
 
 => https://call-cc.org CHICKEN
+=> https://synthcode.com/wiki/chibi-scheme Chibi
 => https://www.gnu.org/software/guile Guile
 
 => https://wingolog.org/archives/2013/01/07/an-opinionated-guide-to-scheme-implementations an opinionated guide to scheme implementations
