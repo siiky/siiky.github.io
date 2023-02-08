@@ -22,7 +22,7 @@
 => ../fosdem2023.liberatestorytelling.gmi 2023-02-05 Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.small_business_using_open_source.gmi 2023-02-05 Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-05 Frank Vanbever, "Lua for the lazy C developer"
-=> ../fosdem2023.heliosuk.gmi 2023-02-05 Drew DeVault, "Introducing Helios Micokernel"
+=> ../fosdem2023.heliosuk.gmi 2023-02-05 Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.network_decentralized_storage.gmi 2023-02-05 Dennis Trautwein, "Decentralized Storage with IPFS"
 => ../fosdem2023.breaking_from_big_tech.gmi 2023-02-05 Boris Budini, "Breaking away from Big Tech"
 => ../fosdem2023.tissue.gmi 2023-02-05 Arun Isaac, "tissue—the minimalist git+plain text issue tracker"

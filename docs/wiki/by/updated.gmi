@@ -7,7 +7,7 @@
 => ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
 => ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
 => ../fosdem2023.helios.gmi 2023-02-07 Drew DeVault, "Introducing Helios"
-=> ../fosdem2023.heliosuk.gmi 2023-02-07 Drew DeVault, "Introducing Helios Micokernel"
+=> ../fosdem2023.heliosuk.gmi 2023-02-07 Drew DeVault, "Introducing Helios Microkernel"
 => ../trainspotter.gmi 2023-02-06 Trainspotter
 => ../fosdem2023.open_source_startup.gmi 2023-02-06 Tom Hacohen, "Starting an Open Source Startup"
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"

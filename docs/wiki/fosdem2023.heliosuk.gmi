@@ -1,4 +1,4 @@
-# Drew DeVault, "Introducing Helios Micokernel"
+# Drew DeVault, "Introducing Helios Microkernel"
 siiky
 2023/02/05
 2023/02/07

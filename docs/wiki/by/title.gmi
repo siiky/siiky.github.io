@@ -3,7 +3,7 @@
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
-=> ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Micokernel"
+=> ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
 => ../pl.elixir.gmi Elixir (programming language)
 => ../pl.erlang.gmi Erlang (programming language)
