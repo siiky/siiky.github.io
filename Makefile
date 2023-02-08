@@ -10,8 +10,10 @@ MAKE_GEMFEED := ./make-gemfeed.sh
 MAKE_GRAPH := ./make-graph.scm
 MAKE_IPFS_PAGE := ./make-ipfs-page.sh
 MAKE_SITE_META := ./make-site-meta.sh
-MAKE_WIKI_LISTS := ./make-wiki-lists.sh
+MAKE_WIKI_CREATED_LIST := ./make-wiki-created-list.sh
 MAKE_WIKI_META := ./make-wiki-meta.sh
+MAKE_WIKI_TITLE_LIST := ./make-wiki-title-list.sh
+MAKE_WIKI_UPDATED_LIST := ./make-wiki-updated-list.sh
 MD2HTML := ./md2html.scm
 
 SCRIPTS := \
@@ -118,12 +120,21 @@ $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 $(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
 	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
 
-wiki-lists: $(WIKI_META) $(WIKI_HTML) $(MAKE_WIKI_LISTS)
-	$(MAKE_WIKI_LISTS) $(WIKI_BY) $(WIKI_META)
+wiki-lists: $(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi
+
+$(WIKI_BY)/created.gmi: $(WIKI_SRC) $(MAKE_WIKI_CREATED_LIST)
+	$(MAKE_WIKI_CREATED_LIST) $@ $(WIKI_META)
+
+$(WIKI_BY)/title.gmi: $(WIKI_SRC) $(MAKE_WIKI_TITLE_LIST)
+	$(MAKE_WIKI_TITLE_LIST) $@ $(WIKI_META)
+
+$(WIKI_BY)/updated.gmi: $(WIKI_SRC) $(MAKE_WIKI_UPDATED_LIST)
+	$(MAKE_WIKI_UPDATED_LIST) $@ $(WIKI_META)
 
 #$(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi: $(WIKI_META) $(WIKI_HTML) $(MAKE_WIKI_LISTS)
 
 wiki-generated-html: wiki-lists $(WIKI_GENERATED_HTML)
+	$(MAKE) $(WIKI_GENERATED_SRC:.gmi=.html)
 
 # TODO: Split IPFS add from publish
 
