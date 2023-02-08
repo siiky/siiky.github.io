@@ -136,12 +136,14 @@ $(WIKI_BY)/title.gmi: $(WIKI_META) $(MAKE_WIKI_TITLE_LIST)
 $(WIKI_BY)/updated.gmi: $(WIKI_META) $(MAKE_WIKI_UPDATED_LIST)
 	$(MAKE_WIKI_UPDATED_LIST) $@ $(WIKI_META)
 
-wiki-tags-lists: $(WIKI_META) $(MAKE_WIKI_TAGS)
+wiki-tags-lists: $(WIKI_TAG)/index.gmi
+
+$(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS)
 	$(MAKE_WIKI_TAGS) $(WIKI_TAG) $(WIKI_META) $(GMI2MD) $(MD2HTML)
 
 # TODO: Reliably find and convert all generated files
-#$(MAKE) $($(wildcard $(WIKI_BY)/*):.gmi:.html) $($(wildcard $(WIKI_TAG)/*):.gmi=.html)
-wiki-generated-html: $(WIKI_META) wiki-lists $(WIKI_GENERATED_HTML)
+#$(MAKE) $($(wildcard $(WIKI_BY)/*.gmi):.gmi:.html) $($(wildcard $(WIKI_TAG)/*.gmi):.gmi=.html)
+wiki-generated-html: $(WIKI_META) wiki-lists
 	$(MAKE) $(WIKI_GENERATED_HTML)
 
 # TODO: Split IPFS add from publish
