@@ -24,7 +24,7 @@ How do you actually use it? The URLs are similar to those you'd see with the HTT
 Pick a CID (this capsule's for example), and go here:
 
 => ../ipfs.txt Capsule CID
-=> gemini://<cid>.ipfs.localhost/
+=> gemini://cid.ipfs.localhost/
 
 There's also an example page:
 
@@ -38,8 +38,8 @@ Note that the server doesn't list directories -- a little bit of intentionally a
 
 To access IPNS, pick a CID or name, and go here:
 
-=> gemini://<cid>.ipns.localhost/
-=> gemini://<name>.ipns.localhost/
+=> gemini://cid.ipns.localhost/
+=> gemini://name.ipns.localhost/
 
 For example the IPFS site (apparently they changed domains from .io to .tech?):
 

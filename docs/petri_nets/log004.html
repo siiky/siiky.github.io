@@ -24,7 +24,7 @@
 <p><img src="iter_routing.png" alt="Iterative routing" /></p>
 <p>There's nothing to say about sequential routing. There's nothing much to say about parallel routing (the output of a transition is fed into two other transitions). And there's nothing to say about iterative routing either -- the image didn't come so well but notice that the result of B is fed back into B. All three of these are essentially the parallel routing, and there's nothing in the Statebox definition preventing any of these cases.</p>
 <p>Conditional routing is the new guy here. In conditional routing either B or C fire after A firing, but not both! Unless I completely missed it in the Statebox monograph, there's no concept of conditionally sending tokens to this or that place. All transitions must always put their multiplicity of tokens in the destination places. In retrospect, I remember seeing some example model (the smart contract gambling one) where a transition could either succeed or fail, which had two &quot;success&quot; and &quot;failure&quot; transitions after it, and wondering why that choice wasn't represented. See the &quot;Fail&quot; and &quot;Pass&quot; coming after &quot;OracleCallback&quot; in the following image.</p>
-<p><img src="gambling.png" alt /></p>
+<p><img src="gambling.png" alt="gambling.png" /></p>
 <p>Now I'm wondering how/if Statebox plan to tackle this.</p>
 <p>Additionally two different kinds of conditional routing are presented in the WF-nets paper, but I haven't transcribed and compiled all of my notes yet so this is it for now.</p>
 <ul>

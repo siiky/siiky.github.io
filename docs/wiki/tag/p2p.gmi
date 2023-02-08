@@ -1,0 +1,4 @@
+=> ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+=> ../fosdem2023.network_p2p_browser_connectivity.gmi 2023-02-05 Max Leonard Inden, "Peer-to-peer Browser Connectivity"
+=> ../fosdem2023.network_hole_punching_in_the_wild.gmi 2023-02-05 Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"
+=> ../fosdem2023.sovcloud_from_zero_to_hero_with_solid.gmi 2023-02-04 Noel De Martin, "From Zero to Hero with Solid"

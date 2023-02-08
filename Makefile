@@ -2,7 +2,7 @@ include env.make
 
 # Scripts
 GEMINID := ./geminid.scm
-GMI2MD := ./gmi2md.scm
+GMI2MD := ./gmi2md
 GRAPH2GVS := ./graph2gvs.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
 MAKE_ATOM := ./make-atom.scm
@@ -12,9 +12,10 @@ MAKE_IPFS_PAGE := ./make-ipfs-page.sh
 MAKE_SITE_META := ./make-site-meta.sh
 MAKE_WIKI_CREATED_LIST := ./make-wiki-created-list.sh
 MAKE_WIKI_META := ./make-wiki-meta.sh
+MAKE_WIKI_TAGS := ./make-wiki-tags.sh
 MAKE_WIKI_TITLE_LIST := ./make-wiki-title-list.sh
 MAKE_WIKI_UPDATED_LIST := ./make-wiki-updated-list.sh
-MD2HTML := ./md2html.scm
+MD2HTML := ./md2html
 
 SCRIPTS := \
  $(GEMINID) \
@@ -26,8 +27,11 @@ SCRIPTS := \
  $(MAKE_GRAPH) \
  $(MAKE_IPFS_PAGE) \
  $(MAKE_SITE_META) \
- $(MAKE_WIKI_LISTS) \
+ $(MAKE_WIKI_CREATED_LIST) \
  $(MAKE_WIKI_META) \
+ $(MAKE_WIKI_TAGS) \
+ $(MAKE_WIKI_TITLE_LIST) \
+ $(MAKE_WIKI_UPDATED_LIST) \
  $(MD2HTML) \
 
 GVS2GV := gvs2gv
@@ -39,6 +43,7 @@ REPO_ROOT := $(PWD)
 ROOT := docs
 WIKI_ROOT := $(ROOT)/wiki
 WIKI_BY := $(WIKI_ROOT)/by
+WIKI_TAG := $(WIKI_ROOT)/tag
 
 SITE_META := site-meta.tsv
 WIKI_META := wiki-meta.tsv
@@ -74,7 +79,7 @@ SITE_HTML := $(SITE_POSTS_HTML)
 
 ## User-edited pages of the wiki will all be at the root /wiki/
 ## Directories will include all generated pages, i.e., lists
-WIKI_SRC := $(shell find $(WIKI_ROOT)/* -maxdepth 0 -type f -iname '*.gmi')
+WIKI_SRC := $(wildcard $(WIKI_ROOT)/*.gmi)
 WIKI_HTML := $(WIKI_SRC:.gmi=.html)
 WIKI_GENERATED_SRC := $(shell find $(WIKI_ROOT)/*/ -type f -iname '*.gmi')
 WIKI_GENERATED_HTML := $(WIKI_GENERATED_SRC:.gmi=.html)
@@ -120,19 +125,22 @@ $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 $(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
 	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
 
-wiki-lists: $(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi
+wiki-lists: $(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi wiki-tags-lists
 
-$(WIKI_BY)/created.gmi: $(WIKI_SRC) $(MAKE_WIKI_CREATED_LIST)
+$(WIKI_BY)/created.gmi: $(WIKI_META) $(MAKE_WIKI_CREATED_LIST)
 	$(MAKE_WIKI_CREATED_LIST) $@ $(WIKI_META)
 
-$(WIKI_BY)/title.gmi: $(WIKI_SRC) $(MAKE_WIKI_TITLE_LIST)
+$(WIKI_BY)/title.gmi: $(WIKI_META) $(MAKE_WIKI_TITLE_LIST)
 	$(MAKE_WIKI_TITLE_LIST) $@ $(WIKI_META)
 
-$(WIKI_BY)/updated.gmi: $(WIKI_SRC) $(MAKE_WIKI_UPDATED_LIST)
+$(WIKI_BY)/updated.gmi: $(WIKI_META) $(MAKE_WIKI_UPDATED_LIST)
 	$(MAKE_WIKI_UPDATED_LIST) $@ $(WIKI_META)
 
-#$(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi: $(WIKI_META) $(WIKI_HTML) $(MAKE_WIKI_LISTS)
+wiki-tags-lists: $(WIKI_META) $(MAKE_WIKI_TAGS)
+	$(MAKE_WIKI_TAGS) $(WIKI_TAG) $(WIKI_META)
 
+# TODO: Reliably find and convert all generated files
+#$(MAKE) $($(wildcard $(WIKI_BY)/*):.gmi:.html) $($(wildcard $(WIKI_TAG)/*):.gmi=.html)
 wiki-generated-html: wiki-lists $(WIKI_GENERATED_HTML)
 	$(MAKE) $(WIKI_GENERATED_SRC:.gmi=.html)
 
@@ -212,4 +220,4 @@ cv-en.pdf: cv-en.md
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
-.PHONY: all assets index png serve site site-html svg watch wiki wiki-html
+.PHONY: all assets index png serve site site-html svg watch wiki wiki-html wiki-tags-lists

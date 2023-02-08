@@ -4,3 +4,5 @@ siiky.github.io
 *.tgz
 env.make
 graph.gvs
+gmi2md
+md2html

@@ -1224,7 +1224,7 @@ Your most sympathetic government&lt;/p&gt;&lt;/blockquote&gt;
 &lt;li&gt;&lt;a href="https://www.bankrate.com/insurance/car/average-car-weight"&gt;More car weights (guestimates)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;Let's assume that the average person weighs around 80kg (which apparently is really the average in the USA?).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Human_body_weight"&gt;https://en.wikipedia.org/wiki/Human_body_weight&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Human_body_weight"&gt;https://en.wikipedia.org/wiki/Human&lt;em&gt;body&lt;/em&gt;weight&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;For an average person driving a Smart Fortwo (being generous here) to work/shopping/w.e., a total mass of 900kg has to be moved to move the 80kg meatbag that actually has/wants to be moved. That's only 8.89% of the moved weight! Even if two people share that car, it's only marginally improved to 16.32%! And you can't get any better unless you put more people in the trunk or something... Does it even have a trunk? That thing is tiny...&lt;/p&gt;
 &lt;p&gt;For a smallish 5 seat car, like the Fiesta, 6.35% for a single person, 11.95% for two, and 25.33% for the full five.&lt;/p&gt;
 &lt;p&gt;For a wrangler, also 5 seat, it's 4.28%, 8.22% and 18.28%, for one, two and five people, respectively.&lt;/p&gt;
@@ -1736,17 +1736,17 @@ To basically summarize what I (believe) am doing differently in my Zettelkasten,
 &lt;p&gt;Pick a CID (this capsule's for example), and go here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../ipfs.txt"&gt;Capsule CID&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;cid"&gt;https://portal.mozz.us/gemini/&amp;lt;cid&lt;/a&gt;.ipfs.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/cid.ipfs.localhost/"&gt;https://portal.mozz.us/gemini/cid.ipfs.localhost/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;There's also an example page:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/"&gt;https://portal.mozz.us/gemini/bafkreie5eda6jkhtxi5c3pcpaqqlwl2xfkgasqk555vtljcdrfy3uyio4a.ipfs.localhost/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;../hello.html&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="../hello.html"&gt;../hello.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;As long as links are relative (link/to/some/../file.txt) or absolute but without scheme://hostname/ (/link/to/file.txt), everything just works inside the IPFS network.&lt;/p&gt;
 &lt;p&gt;Note that the server doesn't list directories -- a little bit of intentionally and a little bit out of laziness. When you try to access a directory you're redirected to /index.gmi (this is a Gemini server after all). If there's no index.gmi then it borks. But it doesn't work only with Gemini capsules either, ofc! It should serve any files the HTTP gateway would too.&lt;/p&gt;
 &lt;p&gt;To access IPNS, pick a CID or name, and go here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;cid"&gt;https://portal.mozz.us/gemini/&amp;lt;cid&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/&amp;lt;name"&gt;https://portal.mozz.us/gemini/&amp;lt;name&lt;/a&gt;.ipns.localhost/&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/cid.ipns.localhost/"&gt;https://portal.mozz.us/gemini/cid.ipns.localhost/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/name.ipns.localhost/"&gt;https://portal.mozz.us/gemini/name.ipns.localhost/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;For example the IPFS site (apparently they changed domains from .io to .tech?):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html"&gt;https://portal.mozz.us/gemini/ipfs.io.ipns.localhost/index.html&lt;/a&gt;&lt;/li&gt;
@@ -1846,7 +1846,7 @@ MimeType=x-scheme-handler/gemini;
 &lt;p&gt;Reference:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox"&gt;https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above"&gt;https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above"&gt;https://kb.mozillazine.org/Register&lt;em&gt;protocol#Firefox&lt;/em&gt;3.5&lt;em&gt;and&lt;/em&gt;above&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler"&gt;https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -1885,7 +1885,7 @@ MimeType=x-scheme-handler/gemini;
 &lt;p&gt;&lt;img src="iter_routing.png" alt="Iterative routing" /&gt;&lt;/p&gt;
 &lt;p&gt;There's nothing to say about sequential routing. There's nothing much to say about parallel routing (the output of a transition is fed into two other transitions). And there's nothing to say about iterative routing either -- the image didn't come so well but notice that the result of B is fed back into B. All three of these are essentially the parallel routing, and there's nothing in the Statebox definition preventing any of these cases.&lt;/p&gt;
 &lt;p&gt;Conditional routing is the new guy here. In conditional routing either B or C fire after A firing, but not both! Unless I completely missed it in the Statebox monograph, there's no concept of conditionally sending tokens to this or that place. All transitions must always put their multiplicity of tokens in the destination places. In retrospect, I remember seeing some example model (the smart contract gambling one) where a transition could either succeed or fail, which had two &amp;quot;success&amp;quot; and &amp;quot;failure&amp;quot; transitions after it, and wondering why that choice wasn't represented. See the &amp;quot;Fail&amp;quot; and &amp;quot;Pass&amp;quot; coming after &amp;quot;OracleCallback&amp;quot; in the following image.&lt;/p&gt;
-&lt;p&gt;&lt;img src="gambling.png" alt /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="gambling.png" alt="gambling.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Now I'm wondering how/if Statebox plan to tackle this.&lt;/p&gt;
 &lt;p&gt;Additionally two different kinds of conditional routing are presented in the WF-nets paper, but I haven't transcribed and compiled all of my notes yet so this is it for now.&lt;/p&gt;
 &lt;ul&gt;
@@ -3399,8 +3399,8 @@ set logscale y 7
 plot exp(x) title &amp;quot;Super straight line&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;exp.gp&amp;gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="exp.svg" alt /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="exp.gp"&gt;exp.gp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;img src="exp.svg" alt="exp.svg" /&gt;&lt;/p&gt;
 &lt;p&gt;Notice how it starts to grow really fucking quick after t=5 -- right after HTML was invented.&lt;/p&gt;
 &lt;p&gt;Here's another one:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;set terminal svg
@@ -3413,8 +3413,8 @@ set samples 1000
 plot [-50:50] [-5:5] x*sin(x)*cos(x)**x title &amp;quot;Rollercoaster&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;rollercoaster.gp&amp;gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="rollercoaster.svg" alt /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="rollercoaster.gp"&gt;rollercoaster.gp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;img src="rollercoaster.svg" alt="rollercoaster.svg" /&gt;&lt;/p&gt;
 &lt;p&gt;The website, with documentation and all (including a 300+ pages PDF of all the documentation, with proper PDF index!):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.gnuplot.info"&gt;http://www.gnuplot.info&lt;/a&gt;&lt;/li&gt;
@@ -3428,8 +3428,8 @@ set output &amp;quot;gnuplot-test.svg&amp;quot;
 test
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;gnuplot-test.gp&amp;gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="gnuplot-test.svg" alt /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="gnuplot-test.gp"&gt;gnuplot-test.gp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;img src="gnuplot-test.svg" alt="gnuplot-test.svg" /&gt;&lt;/p&gt;
 &lt;p&gt;Variables are a thing, and you can define them just as you'd expect:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;some_var = 42
 &lt;/code&gt;&lt;/pre&gt;
@@ -3549,8 +3549,8 @@ plot $Dataset using 1:($2/1000000):($3/1000000):($4/1000000) with yerrorlines ti
      &amp;quot;&amp;quot;       using 1:11:12:13                               with yerrorlines title columnheader axis x1y2
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;errorlines.gp&amp;gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="errorlines.svg" alt /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="errorlines.gp"&gt;errorlines.gp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;img src="errorlines.svg" alt="errorlines.svg" /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Just a couple of notes on security, especially for someone wanting to develop an interface library. These are things that may be useful when writing and running scripts directly in Gnuplot, but that are a security nightmare if left as something to think about tomorrow.&lt;/p&gt;
 &lt;p&gt;system() a la C is a thing!&lt;/p&gt;
@@ -3785,7 +3785,7 @@ Right?! Not a damn clue! But squint harder...&lt;/p&gt;
 &lt;p&gt;And created this pretty thing from an area in Seia.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.openstreetmap.org/#map=16/40.4144/-7.7073"&gt;Seia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;img src="seia.png" alt /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="seia.png" alt="seia.png" /&gt;&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -4662,7 +4662,7 @@ fact n = prod [1..n]
 &lt;li&gt;&lt;a href="https://www.gutenberg.org"&gt;Gutenberg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://standardebooks.org"&gt;Standard Ebooks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;You'll find at least three spider cares.&lt;/p&gt;
-&lt;p&gt;&lt;img src="spidercare.jpg" alt /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="spidercare.jpg" alt="spidercare.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;The URI of the root of the list will be always at the top of the page (the &amp;quot;IPFS root directory ...&amp;quot;). From it you can get to all other cares (if I don't screw up). Over the rest of the page I'll post some notable cares and/or (maybe) more details -- maybe even sources!&lt;/p&gt;
 &lt;p&gt;The cares are added to IPFS using &lt;code&gt;ipfs add&lt;/code&gt; with the options &lt;code&gt;--recursive --raw-leaves --cid-version=1&lt;/code&gt;. Videos also get a &lt;code&gt;--trickle&lt;/code&gt;. The full command is something like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;ipfs files cp /ipfs/`ipfs add -p -Q -r -t --pin=false --cid-version=1 --raw-leaves '/path/to/file_or_directory'` '/care-list/videos/file_or_directory'
@@ -4698,12 +4698,12 @@ fact n = prod [1..n]
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://vidcommons.org/w/efeEpsHSK3bzJwVLW9fh7U"&gt;VidCommons' PeerTube instance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="ipfs://bafybeidi44wekwu3bi24m5x6ofnttzbcsfomr4dw5bssovqq35wdwva26m?filename=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20(2017)%201080p.mp4"&gt;ipfs://bafybeidi44wekwu3bi24m5x6ofnttzbcsfomr4dw5bssovqq35wdwva26m?filename=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20(2017)%201080p.mp4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&amp;amp;dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&amp;amp;tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&amp;amp;ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&amp;amp;dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&amp;amp;tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&amp;amp;ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4"&gt;magnet:?xt=urn:btih:34d4615762a92083aaf892630e84284c3ebaf3e5&amp;amp;dn=Nothing%20to%20Hide%20-%20The%20documentary%20about%20surveillance%20and%20you%20%282017%29%201080p.mp4&amp;amp;tr=https%3A%2F%2Fvidcommons.org%2Ftracker%2Fannounce&amp;amp;ws=https%3A%2F%2Fvidcommons.org%2Fstatic%2Fwebseed%2F6b43a28c-86ee-4681-8ab9-787ac140afc0-1080.mp4&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;h2&gt;TPB: AFK&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;/videos/TPB.AFK.2013.1080p.h264-SimonKlose.mkv
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&amp;amp;dn=TPB.AFK.2013.1080p.h264-SimonKlose&amp;amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&amp;amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href="magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&amp;amp;dn=TPB.AFK.2013.1080p.h264-SimonKlose&amp;amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&amp;amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce"&gt;magnet:?xt=urn:btih:411a7a164505636ab1a8276395b375a3a30bff32&amp;amp;dn=TPB.AFK.2013.1080p.h264-SimonKlose&amp;amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&amp;amp;tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&amp;amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;h2&gt;Steal this Film&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;/videos/StealThisFilm.Part1.mov
 /videos/StealThisFilmII.720p.mov
@@ -4712,9 +4712,9 @@ fact n = prod [1..n]
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.stealthisfilm.com"&gt;Official site&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;magnet:?xt=urn:btih:2d71be0c1bcc93373e926f02aaa4ab484979a542&amp;amp;dn=StealThisFilm.Part1.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&amp;gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;a href="magnet:?xt=urn:btih:2d71be0c1bcc93373e926f02aaa4ab484979a542&amp;amp;dn=StealThisFilm.Part1.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"&gt;magnet:?xt=urn:btih:2d71be0c1bcc93373e926f02aaa4ab484979a542&amp;amp;dn=StealThisFilm.Part1.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;magnet:?xt=urn:btih:0ff9cd4f43f5df2a30c694c87e63978af26ee9d4&amp;amp;dn=Steal%20This%20Film%20II.720p.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&amp;gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;a href="magnet:?xt=urn:btih:0ff9cd4f43f5df2a30c694c87e63978af26ee9d4&amp;amp;dn=Steal%20This%20Film%20II.720p.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"&gt;magnet:?xt=urn:btih:0ff9cd4f43f5df2a30c694c87e63978af26ee9d4&amp;amp;dn=Steal%20This%20Film%20II.720p.mov&amp;amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;The torrents are from the official site.&lt;/p&gt;
 &lt;h2&gt;O Lado Negro das Energias Verdes&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;/videos/o_lado_negro_das_energias_verdes.mp4

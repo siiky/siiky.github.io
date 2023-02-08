@@ -3,7 +3,7 @@ siiky
 2023/02/07
 2023/02/07
 2023/02/07
-programming,scheme
+programming
 
 => https://forth-standard.org
 

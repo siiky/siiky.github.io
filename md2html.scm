@@ -5,10 +5,10 @@
   lowdown
   )
 
-(define argv (command-line-arguments))
+(define args (command-line-arguments))
 (define standalone?
-  (and (not (null? argv))
-       (string=? (car argv) "standalone")))
+  (and (not (null? args))
+       (string=? (car args) "standalone")))
 
 (define-constant before
 #<<EOF

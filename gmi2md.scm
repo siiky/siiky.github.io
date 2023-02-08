@@ -68,9 +68,6 @@
     (gmi:link uri alt-text)))
 
 
-(define concatenate (cute apply append <>))
-(define string-null? (chain-lambda (string-length _) (zero? _)))
-
 (define (links? l) (and (list? l) (eq? (car l) 'links)))
 (define (quotes? l) (and (list? l) (eq? (car l) 'quotes)))
 
@@ -105,12 +102,13 @@
 (define (gmi:link->md:link l)
   (let* ((text (gmi:link:text l))
          (uri (gmi:link:uri l))
+         (text (if (string-null? text) uri text))
          (image? (member (pathname-extension uri) image-extensions)))
     ; TODO: Escape characters?
     (list
       (cond
         (image? (string-append "\n![" text "](" uri ")\n"))
-        ((string-null? text) (string-append " * <" uri ">"))
+        ((string-null? text) (string-append " * <a href=\"" uri "\"></a>"))
         (else (string-append " * [" text "](" uri ")"))))))
 
 (define (grouped-gmi-element->md-element elem)
