@@ -2,12 +2,11 @@
 siiky
 2023/02/07
 2023/02/07
-2023/02/07
+2023/02/08
 talk,p2p
 
 => https://fosdem.org/2023/schedule/event/dns_i2p
 => https://fosdem.org/2023/schedule/event/dns_i2p/attachments/slides/5371/export/events/attachments/dns_i2p/slides/5371/DNS_for_I2P_Slides
-=> https://video.fosdem.org/2023/UB4.136/dns_i2p.webm
 => https://github.com/diva-exchange/i2p-dns
 => https://github.com/diva-exchange/academia
 => https://github.com/diva-exchange/diva-dockerized

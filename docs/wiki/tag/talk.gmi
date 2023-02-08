@@ -1,5 +1,5 @@
-=> ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+=> ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-07 Frank Vanbever, "Lua for the lazy C developer"
 => ../fosdem2023.heliosuk.gmi 2023-02-07 Drew DeVault, "Introducing Helios Microkernel"
