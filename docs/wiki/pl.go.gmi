@@ -27,3 +27,5 @@ There's an example of WaitGroups. At first I thought "nice, structured concurren
 => https://gobyexample.com/waitgroups WaitGroups
 => https://lua-users.org/lists/lua-l/2022-09/msg00016.html Structured concurrency and Lua
 => https://github.com/Tinche/quattro
+
+=> pl.lua.gmi
