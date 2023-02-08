@@ -7,6 +7,12 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-08 11:51 +0000
+The "wiki"-like thing is kinda live! I still don't link to it from the main capsule's index, but it's been there for a few days. I've added almost all of the talks I watched at FOSDEM 2023 plus a few more pages.
+The wiki has no search functionality -- it's all statically server after all. So the only way to discover something through Gemini is to browse the lists. There are lists of all pages (ordered by title/create/update), and there are lists of pages by tag (ordered by update).
+Have a look!
+=> wiki/index.gmi nothing interesting wiki
+
 ## 2023-02-06 23:05 +0000
 I saw this project, Task.
 => https://taskfile.dev Task
