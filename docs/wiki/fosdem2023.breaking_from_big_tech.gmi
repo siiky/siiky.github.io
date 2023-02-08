@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/breaking_from_big_tech
@@ -22,3 +22,6 @@ Someone commented on the chat:
 > Besides, I think there is an enviromental aspect to host collectively and have share computing / storage resources
 
 => https://medium.com/message/everything-is-broken-81e5f33a24e1 [1]: Everything Is Broken
+
+=> fosdem2023.gmi
+=> 20230205.gmi

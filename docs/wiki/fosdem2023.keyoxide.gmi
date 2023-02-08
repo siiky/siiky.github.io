@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/keyoxide
@@ -27,3 +27,6 @@ It's interesting how the identity, as defined in this talk, can be that of a gro
 > (...) just like Keybase used to do, back in the day
 
 WUKD
+
+=> fosdem2023.gmi
+=> 20230205.gmi

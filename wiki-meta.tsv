@@ -1,35 +1,41 @@
+2023-02-07	2023-02-07	2023-02-07	Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"	wiki/fosdem2023.dns_implementation_of_the_drink_server.gmi	talk,network
+2023-02-07	2023-02-07	2023-02-07	Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"	wiki/fosdem2023.dns_i2p.gmi	talk,p2p
+2023-02-07	2023-02-07	2023-02-07	Hisham Muhammad, "LuaRocks and the challenges of minimalism"	wiki/fosdem2023.luarocks.gmi	talk
+2023-02-07	2023-02-07	2023-02-07	Forth (programming language)	wiki/pl.forth.gmi	programming,scheme
+2023-02-07	2023-02-07	2023-02-07	Erlang (programming language)	wiki/pl.erlang.gmi	programming
+2023-02-07	2023-02-07	2023-02-07	Elixir (programming language)	wiki/pl.elixir.gmi	programming
+2023-02-07	2023-02-07	2023-02-06	Scheme (programming language)	wiki/pl.scheme.gmi	programming,scheme
+2023-02-07	2023-02-07	2023-02-05	Frank Vanbever, "Lua for the lazy C developer"	wiki/fosdem2023.lua_for_the_lazy_c_developer.gmi	talk
+2023-02-07	2023-02-07	2023-02-05	Drew DeVault, "Introducing Helios Micokernel"	wiki/fosdem2023.heliosuk.gmi	talk,os
+2023-02-07	2023-02-07	2023-02-04	Drew DeVault, "Introducing Helios"	wiki/fosdem2023.helios.gmi	talk,os
+2023-02-06	2023-02-07	2023-02-05	Tom Hacohen, "Starting an Open Source Startup"	wiki/fosdem2023.open_source_startup.gmi	talk
+2023-02-06	2023-02-07	2023-02-05	Matthieu Gautier, "Jubako, a new generic container format"	wiki/fosdem2023.jubako.gmi	talk
 2023-02-06	2023-02-06	2023-02-06	Trainspotter	wiki/trainspotter.gmi	magazine,railway
 2023-02-06	2023-02-06	2023-02-06	Tim Urban, "The Story of Us"	wiki/story-of-us.gmi	post,society
-2023-02-06	2023-02-06	2023-02-06	Scheme (programming language)	wiki/pl.scheme.gmi	programming,scheme
 2023-02-06	2023-02-06	2023-02-06	Lua (programming language)	wiki/pl.lua.gmi	programming
 2023-02-06	2023-02-06	2023-02-06	Go (programming language)	wiki/pl.go.gmi	programming
-2023-02-06	2023-02-06	2023-02-05	Tom Hacohen, "Starting an Open Source Startup"	wiki/fosdem2023.open_source_startup.gmi	talk
-2023-02-06	2023-02-06	2023-02-05	Matthieu Gautier, "Jubako, a new generic container format"	wiki/fosdem2023.jubako.gmi	talk
 2023-02-06	2023-02-06	2023-02-02	nothing interesting wiki	wiki/index.gmi	
-2023-02-05	2023-02-06	2023-02-05	Pjotr Prins, "Zig and Guile for fast code and a REPL"	wiki/fosdem2023.zigandguile.gmi	talk
-2023-02-05	2023-02-06	2023-02-05	Frank Vanbever, "Lua for the lazy C developer"	wiki/fosdem2023.lua_for_the_lazy_c_developer.gmi	talk
-2023-02-05	2023-02-06	2023-02-05	Arun Isaac, "tissue—the minimalist git+plain text issue tracker"	wiki/fosdem2023.tissue.gmi	talk,gemini,tools
-2023-02-05	2023-02-05	2023-02-05	Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"	wiki/fosdem2023.keyoxide.gmi	talk
-2023-02-05	2023-02-05	2023-02-05	Tobias Augspurger, "Open Source in Environmental Sustainability"	wiki/fosdem2023.sustainability.gmi	talk,environment
-2023-02-05	2023-02-05	2023-02-05	Nelson Vides, "The Actor Model as a Load Testing Framework"	wiki/fosdem2023.beam_actor_model_load_testing.gmi	talk
-2023-02-05	2023-02-05	2023-02-05	Max Leonard Inden, "Peer-to-peer Browser Connectivity"	wiki/fosdem2023.network_p2p_browser_connectivity.gmi	talk,p2p
-2023-02-05	2023-02-05	2023-02-05	Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"	wiki/fosdem2023.network_hole_punching_in_the_wild.gmi	talk,p2p
-2023-02-05	2023-02-05	2023-02-05	Marie Dubremetz, "Consulting for digital humanists"	wiki/fosdem2023.consulting_for_digital_humanists.gmi	talk
-2023-02-05	2023-02-05	2023-02-05	Jon Häggblad, "The Nym Mixnet"	wiki/fosdem2023.nym_mixnet.gmi	talk
-2023-02-05	2023-02-05	2023-02-05	Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"	wiki/fosdem2023.liberatestorytelling.gmi	talk,gemini,languages
-2023-02-05	2023-02-05	2023-02-05	Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."	wiki/fosdem2023.small_business_using_open_source.gmi	talk
-2023-02-05	2023-02-05	2023-02-05	Drew DeVault, "Introducing Helios Micokernel"	wiki/fosdem2023.heliosuk.gmi	talk,os
-2023-02-05	2023-02-05	2023-02-05	Dennis Trautwein, "Decentralized Storage with IPFS"	wiki/fosdem2023.network_decentralized_storage.gmi	talk,ipfs
-2023-02-05	2023-02-05	2023-02-05	Boris Budini, "Breaking away from Big Tech"	wiki/fosdem2023.breaking_from_big_tech.gmi	talk
-2023-02-04	2023-02-06	2023-02-04	Jakub Jankiewicz, "LIPS Scheme"	wiki/fosdem2023.lipsscheme.gmi	talk,scheme
-2023-02-04	2023-02-06	2023-02-04	Andy Wingo, "Whippet: A new production embeddable garbage collector"	wiki/fosdem2023.whippet.gmi	talk,scheme
-2023-02-04	2023-02-06	2023-02-04	Andrew Whatson, "Introduction to Pre-Scheme"	wiki/fosdem2023.prescheme.gmi	talk,scheme,type-theory
-2023-02-04	2023-02-04	2023-02-04	Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"	wiki/fosdem2023.webassemblyforth.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"	wiki/fosdem2023.keyoxide.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Tobias Augspurger, "Open Source in Environmental Sustainability"	wiki/fosdem2023.sustainability.gmi	talk,environment
+2023-02-05	2023-02-07	2023-02-05	Pjotr Prins, "Zig and Guile for fast code and a REPL"	wiki/fosdem2023.zigandguile.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Nelson Vides, "The Actor Model as a Load Testing Framework"	wiki/fosdem2023.beam_actor_model_load_testing.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Max Leonard Inden, "Peer-to-peer Browser Connectivity"	wiki/fosdem2023.network_p2p_browser_connectivity.gmi	talk,p2p
+2023-02-05	2023-02-07	2023-02-05	Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"	wiki/fosdem2023.network_hole_punching_in_the_wild.gmi	talk,p2p
+2023-02-05	2023-02-07	2023-02-05	Marie Dubremetz, "Consulting for digital humanists"	wiki/fosdem2023.consulting_for_digital_humanists.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Jon Häggblad, "The Nym Mixnet"	wiki/fosdem2023.nym_mixnet.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"	wiki/fosdem2023.liberatestorytelling.gmi	talk,gemini,languages
+2023-02-05	2023-02-07	2023-02-05	Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."	wiki/fosdem2023.small_business_using_open_source.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Dennis Trautwein, "Decentralized Storage with IPFS"	wiki/fosdem2023.network_decentralized_storage.gmi	talk,ipfs
+2023-02-05	2023-02-07	2023-02-05	Boris Budini, "Breaking away from Big Tech"	wiki/fosdem2023.breaking_from_big_tech.gmi	talk
+2023-02-05	2023-02-07	2023-02-05	Arun Isaac, "tissue—the minimalist git+plain text issue tracker"	wiki/fosdem2023.tissue.gmi	talk,gemini,tools
+2023-02-04	2023-02-07	2023-02-04	Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"	wiki/fosdem2023.webassemblyforth.gmi	talk
+2023-02-04	2023-02-07	2023-02-04	Noel De Martin, "From Zero to Hero with Solid"	wiki/fosdem2023.sovcloud_from_zero_to_hero_with_solid.gmi	talk,p2p
+2023-02-04	2023-02-07	2023-02-04	Ludovic Courtès, "Where does that code come from?"	wiki/fosdem2023.security_where_does_that_code_come_from.gmi	talk,security,cryptography
+2023-02-04	2023-02-07	2023-02-04	Jakub Jankiewicz, "LIPS Scheme"	wiki/fosdem2023.lipsscheme.gmi	talk,scheme
+2023-02-04	2023-02-07	2023-02-04	Andy Wingo, "Whippet: A new production embeddable garbage collector"	wiki/fosdem2023.whippet.gmi	talk,scheme
+2023-02-04	2023-02-07	2023-02-04	Andrew Whatson, "Introduction to Pre-Scheme"	wiki/fosdem2023.prescheme.gmi	talk,scheme,type-theory
 2023-02-04	2023-02-04	2023-02-04	nothing interesting wiki: plan/ideas	wiki/wiki-plan.gmi	
 2023-02-04	2023-02-04	2023-02-04	nothing interesting wiki: Meta	wiki/meta.gmi	
-2023-02-04	2023-02-04	2023-02-04	Noel De Martin, "From Zero to Hero with Solid"	wiki/fosdem2023.sovcloud_from_zero_to_hero_with_solid.gmi	talk,p2p
-2023-02-04	2023-02-04	2023-02-04	Ludovic Courtès, "Where does that code come from?"	wiki/fosdem2023.security_where_does_that_code_come_from.gmi	talk,security,cryptography
-2023-02-04	2023-02-04	2023-02-04	Drew DeVault, "Introducing Helios"	wiki/fosdem2023.helios.gmi	talk,os
 2023-02-04	2023-02-04	2023-02-04	2023/02/05	wiki/20230205.gmi	journal
 2023-02-04	2023-02-04	2023-02-04	2023/02/04	wiki/20230204.gmi	journal
 2023-02-04	2023-02-04	2023-02-03	FOSDEM 2023	wiki/fosdem2023.gmi	conference,event

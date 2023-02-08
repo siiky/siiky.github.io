@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/beam_actor_model_load_testing
@@ -12,3 +12,6 @@ talk
 => https://codebeamamerica.com/talks/building-blocks-and-how-to-use-them-a-mongooseim-case-study
 
 Meh
+
+=> fosdem2023.gmi
+=> 20230205.gmi

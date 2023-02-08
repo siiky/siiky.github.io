@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/small_business_using_open_source
@@ -12,3 +12,6 @@ talk
 => https://github.com/megacorp-icu
 => https://github.com/erpnext
 => https://erpnext.com
+
+=> fosdem2023.gmi
+=> 20230205.gmi

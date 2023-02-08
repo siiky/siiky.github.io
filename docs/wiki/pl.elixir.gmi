@@ -1,0 +1,12 @@
+# Elixir (programming language)
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+programming
+
+=> https://elixir-lang.org
+
+A BEAM language. More "modern" compared to Erlang (but also uglier IMO).
+
+=> pl.erlang.gmi

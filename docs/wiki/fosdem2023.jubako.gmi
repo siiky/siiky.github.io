@@ -2,10 +2,9 @@
 siiky
 2023/02/05
 2023/02/06
-2023/02/06
+2023/02/07
 talk
 
-=> fosdem2023.gmi
 => https://fosdem.org/2023/schedule/event/jubako
 => https://fosdem.org/2023/schedule/event/jubako/attachments/slides/5913/export/events/attachments/jubako/slides/5913/jbk_loves_fosdem.pdf
 => https://fosdem.org/2023/schedule/event/jubako/attachments/other/5914/export/events/attachments/jubako/other/5914/jbk_loves_fosdem
@@ -13,3 +12,6 @@ talk
 => https://linuxfr.org/news/jubako-et-arx-un-conteneur-universel-et-son-format-d-archive
 
 Talk about a sort of more general competitor to ZIM. Instead of being specific to one certain use-case, the format is flexible so that people can adapt it to their needs. Compression rate is not so bad, when comparing tgz of mainly text, but everything else (listing, reading, &c) is way faster.
+
+=> fosdem2023.gmi
+=> 20230205.gmi

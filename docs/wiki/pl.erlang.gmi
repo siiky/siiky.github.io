@@ -1,0 +1,10 @@
+# Erlang (programming language)
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+programming
+
+=> https://www.erlang.org
+
+Super cool language!

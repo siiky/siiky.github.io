@@ -1,0 +1,11 @@
+# Forth (programming language)
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+programming,scheme
+
+=> https://forth-standard.org
+
+=> https://www.forth.com/starting-forth Leo Brodie, "Starting FORTH"
+=> http://forth.org/tutorials.html

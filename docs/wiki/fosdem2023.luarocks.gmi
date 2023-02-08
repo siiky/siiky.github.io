@@ -1,0 +1,18 @@
+# Hisham Muhammad, "LuaRocks and the challenges of minimalism"
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+talk
+
+=> https://fosdem.org/2023/schedule/event/luarocks
+=> https://fosdem.org/2023/schedule/event/luarocks/attachments/slides/5630/export/events/attachments/luarocks/slides/5630/hisham_fosdem2023_luarocks.pdf
+=> https://luarocks.org
+
+Talk about the history of LuaRocks, Lua's package manager, and its search for minimalism -- the balance between features and minimalism, and the constant fight between TheRightThing and WorstIsBetter.
+
+* Hisham Muhammad, "Taxonomy of Package Management in Programming Languages and Operating Systems"
+
+=> fosdem2023.gmi
+=> 20230204.gmi
+=> pl.lua.gmi

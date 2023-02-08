@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk,gemini,languages
 
 => https://fosdem.org/2023/schedule/event/liberatestorytelling
@@ -11,3 +11,6 @@ talk,gemini,languages
 => https://git.sr.ht/~indieterminacy
 
 This went a tad over my head.
+
+=> fosdem2023.gmi
+=> 20230205.gmi

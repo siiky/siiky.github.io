@@ -1,0 +1,19 @@
+# Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+talk,network
+
+=> https://fosdem.org/2023/schedule/event/dns_implementation_of_the_drink_server
+=> https://fosdem.org/2023/schedule/event/dns_implementation_of_the_drink_server/attachments/slides/5679/export/events/attachments/dns_implementation_of_the_drink_server/slides/5679/drink.pdf
+=> https://framagit.org/bortzmeyer/drink
+=> https://www.bortzmeyer.org/drink.html
+
+Short-ish talk about a DNS server written in Elixir by the speaker. Describes well the high-level reasons why Erlang/Elixir are so cool. The speaker was a funny ball:
+
+> this is a functional language so we map a lot, there are no loops, that's an invention of the devil
+
+=> fosdem2023.gmi
+=> 20230204.gmi
+=> pl.elixir.gmi

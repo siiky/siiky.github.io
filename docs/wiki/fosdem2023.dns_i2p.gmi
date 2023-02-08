@@ -1,0 +1,28 @@
+# Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+siiky
+2023/02/07
+2023/02/07
+2023/02/07
+talk,p2p
+
+=> https://fosdem.org/2023/schedule/event/dns_i2p
+=> https://fosdem.org/2023/schedule/event/dns_i2p/attachments/slides/5371/export/events/attachments/dns_i2p/slides/5371/DNS_for_I2P_Slides
+=> https://video.fosdem.org/2023/UB4.136/dns_i2p.webm
+=> https://github.com/diva-exchange/i2p-dns
+=> https://github.com/diva-exchange/academia
+=> https://github.com/diva-exchange/diva-dockerized
+
+Talk about a crude DNS-like system for the I2P network
+
+* I2P is strictly a transport layer overlay network
+* D-BFT (Democratic Byzantine Fault-Tolerance)
+* Vincent Gramoli, "Blockchain Scalability and its Foundations in Distributed Systems" (ISBN 978-3-031-12578-2)
+* Majority determines the truth, so if >50% of the nodes believe that name XYZ corresponds to the address ADDR, then XYZ is ADDR.
+* "A blokchain is just a tool"!
+
+=> ../philosophy/knives.gmi On knives and their uses
+
+The speaker was pretty cool, very chill and playful.
+
+=> fosdem2023.gmi
+=> 20230204.gmi

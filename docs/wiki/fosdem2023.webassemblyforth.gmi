@@ -2,7 +2,7 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/webassemblyforth
@@ -13,3 +13,6 @@ talk
 => https://wasmtime.dev
 
 Talk about WAForth, a Forth implementation written by hand in WebAssembly.
+
+=> fosdem2023.gmi
+=> 20230204.gmi

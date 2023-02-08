@@ -2,10 +2,9 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
+2023/02/07
 talk,p2p
 
-=> fosdem2023.gmi
 => https://fosdem.org/2023/schedule/event/sovcloud_from_zero_to_hero_with_solid
 => https://solidproject.org
 => https://noeldemartin.com/projects
@@ -24,3 +23,6 @@ Learned of The Movie DB, which seems to be a crowdsourced alternative to IMDb. B
 
 => https://www.themoviedb.org
 => https://www.omdbapi.com
+
+=> fosdem2023.gmi
+=> 20230204.gmi

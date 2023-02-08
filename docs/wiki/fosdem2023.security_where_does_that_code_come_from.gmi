@@ -2,10 +2,9 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/04
+2023/02/07
 talk,security,cryptography
 
-=> fosdem2023.gmi
 => https://fosdem.org/2023/schedule/event/security_where_does_that_code_come_from
 => https://fosdem.org/2023/schedule/event/security_where_does_that_code_come_from/attachments/slides/5684/export/events/attachments/security_where_does_that_code_come_from/slides/5684/git_checkout_authentication.pdf
 => https://doi.org/10.22152/programming-journal.org/2023/7/1 Building a Secure Software Supply Chain with GNU Guix
@@ -13,3 +12,6 @@ talk,security,cryptography
 Talk about how the Guix project solved the software supply-chain security problem for their project, by using cryptography, and git's signing ability -- but not only! because that's not enough.
 
 Would be cool if they (eventually) published some tools not Guix-specific.
+
+=> fosdem2023.gmi
+=> 20230204.gmi

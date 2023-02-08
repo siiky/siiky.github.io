@@ -1,8 +1,8 @@
 # Drew DeVault, "Introducing Helios Micokernel"
 siiky
 2023/02/05
-2023/02/05
-2023/02/05
+2023/02/07
+2023/02/07
 talk,os
 
 => https://fosdem.org/2023/schedule/event/heliosuk
@@ -14,3 +14,10 @@ IPC is with a synchronous (blocking) message-passing style.
 
 At the end, during QA:
 > correcting a mistake Plan9 made, which is that, Plan9 was correct that distributed computing is the future, but it was incorrect that they would be distributed across a mainframe and a bunch of thin clients in an office building, which is how Plan9 was designed. In fact, the group of devices that should be running a uniform Operating System is all of your personal devices -- my laptop, my workstation at home, my phones -- they should all present as a single system. And so, it's very vague and floffy and long-term vision, but I would like to try to achieve that with the design of Gaia and Ares.
+
+There was a shorter presentation talk.
+
+=> fosdem2023.helios.gmi
+
+=> fosdem2023.gmi
+=> 20230205.gmi

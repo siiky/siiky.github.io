@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/nym_mixnet
@@ -29,3 +29,6 @@ Talk about the Nym Mixnet, a "decentralized incentivised mixnet + private creden
 "Coconut credentials" break linkability betwen identity and the right to use a service
 
 Currently at around 500 mixnodes
+
+=> fosdem2023.gmi
+=> 20230205.gmi

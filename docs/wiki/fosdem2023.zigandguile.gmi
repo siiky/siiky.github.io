@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/06
+2023/02/07
 talk
 
 => https://fosdem.org/2023/schedule/event/zigandguile
@@ -11,4 +11,6 @@ talk
 
 Short talk showing how to call Guile from Zig and Zig from Guile. Zig is pretty cool. But otherwise the talk was meh to me.
 
+=> fosdem2023.gmi
+=> 20230205.gmi
 => pl.scheme.gmi

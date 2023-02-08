@@ -1,3 +1,9 @@
+=> ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
+=> ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+=> ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
+=> ../pl.forth.gmi 2023-02-07 Forth (programming language)
+=> ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
+=> ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
 => ../trainspotter.gmi 2023-02-06 Trainspotter
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"
 => ../pl.scheme.gmi 2023-02-06 Scheme (programming language)

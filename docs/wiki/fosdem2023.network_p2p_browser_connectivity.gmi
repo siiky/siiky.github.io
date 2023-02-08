@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk,p2p
 
 => https://fosdem.org/2023/schedule/event/network_p2p_browser_connectivity
@@ -10,3 +10,6 @@ talk,p2p
 => https://libp2p.io
 => https://github.com/libp2p/specs/blob/master/webtransport/README.md
 => https://github.com/libp2p/specs/blob/master/webrtc/README.md
+
+=> fosdem2023.gmi
+=> 20230205.gmi

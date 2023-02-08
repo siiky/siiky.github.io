@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/06
+2023/02/07
 talk,gemini,tools
 
 => https://fosdem.org/2023/schedule/event/tissue
@@ -12,4 +12,6 @@ talk,gemini,tools
 
 Talk about a simple issue tracker, that keeps all its data in Gemtext files, inside Git itself. Written in Scheme.
 
+=> fosdem2023.gmi
+=> 20230205.gmi
 => pl.scheme.gmi

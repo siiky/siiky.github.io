@@ -2,7 +2,7 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/05
+2023/02/07
 talk,environment
 
 => https://fosdem.org/2023/schedule/event/sustainability
@@ -14,3 +14,6 @@ It was too early to be able to take anything away from it... I'll have to watch 
 
 * bogus "sustainability rating" methods
 * mentions carbon offsets/credits (and how they're bogus)
+
+=> fosdem2023.gmi
+=> 20230205.gmi

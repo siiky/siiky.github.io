@@ -1,7 +1,16 @@
+=> ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
+=> ../pl.scheme.gmi 2023-02-07 Scheme (programming language)
+=> ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+=> ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
+=> ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-07 Frank Vanbever, "Lua for the lazy C developer"
+=> ../pl.forth.gmi 2023-02-07 Forth (programming language)
+=> ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
+=> ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
+=> ../fosdem2023.helios.gmi 2023-02-07 Drew DeVault, "Introducing Helios"
+=> ../fosdem2023.heliosuk.gmi 2023-02-07 Drew DeVault, "Introducing Helios Micokernel"
 => ../trainspotter.gmi 2023-02-06 Trainspotter
 => ../fosdem2023.open_source_startup.gmi 2023-02-06 Tom Hacohen, "Starting an Open Source Startup"
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"
-=> ../pl.scheme.gmi 2023-02-06 Scheme (programming language)
 => ../index.gmi 2023-02-06 nothing interesting wiki
 => ../fosdem2023.jubako.gmi 2023-02-06 Matthieu Gautier, "Jubako, a new generic container format"
 => ../pl.lua.gmi 2023-02-06 Lua (programming language)
@@ -16,8 +25,6 @@
 => ../fosdem2023.nym_mixnet.gmi 2023-02-05 Jon Häggblad, "The Nym Mixnet"
 => ../fosdem2023.liberatestorytelling.gmi 2023-02-05 Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.small_business_using_open_source.gmi 2023-02-05 Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
-=> ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-05 Frank Vanbever, "Lua for the lazy C developer"
-=> ../fosdem2023.heliosuk.gmi 2023-02-05 Drew DeVault, "Introducing Helios Micokernel"
 => ../fosdem2023.network_decentralized_storage.gmi 2023-02-05 Dennis Trautwein, "Decentralized Storage with IPFS"
 => ../fosdem2023.breaking_from_big_tech.gmi 2023-02-05 Boris Budini, "Breaking away from Big Tech"
 => ../fosdem2023.tissue.gmi 2023-02-05 Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
@@ -28,7 +35,6 @@
 => ../fosdem2023.security_where_does_that_code_come_from.gmi 2023-02-04 Ludovic Courtès, "Where does that code come from?"
 => ../fosdem2023.lipsscheme.gmi 2023-02-04 Jakub Jankiewicz, "LIPS Scheme"
 => ../fosdem2023.gmi 2023-02-04 FOSDEM 2023
-=> ../fosdem2023.helios.gmi 2023-02-04 Drew DeVault, "Introducing Helios"
 => ../fosdem2023.whippet.gmi 2023-02-04 Andy Wingo, "Whippet: A new production embeddable garbage collector"
 => ../fosdem2023.prescheme.gmi 2023-02-04 Andrew Whatson, "Introduction to Pre-Scheme"
 => ../20230205.gmi 2023-02-04 2023/02/05
