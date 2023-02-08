@@ -102,7 +102,7 @@
 (define (gmi:link->md:link l)
   (let* ((text (gmi:link:text l))
          (uri (gmi:link:uri l))
-         (text (if (string-null? text) uri text))
+         ;(text (if (string-null? text) uri text))
          (image? (member (pathname-extension uri) image-extensions)))
     ; TODO: Escape characters?
     (list

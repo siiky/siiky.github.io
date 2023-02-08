@@ -81,7 +81,7 @@ SITE_HTML := $(SITE_POSTS_HTML)
 ## Directories will include all generated pages, i.e., lists
 WIKI_SRC := $(wildcard $(WIKI_ROOT)/*.gmi)
 WIKI_HTML := $(WIKI_SRC:.gmi=.html)
-WIKI_GENERATED_SRC := $(shell find $(WIKI_ROOT)/*/ -type f -iname '*.gmi')
+WIKI_GENERATED_SRC := $(wildcard $(WIKI_BY)/*.gmi) $(wildcard $(WIKI_TAG)/*.gmi)
 WIKI_GENERATED_HTML := $(WIKI_GENERATED_SRC:.gmi=.html)
 
 # Source assets -- no distinction between main site and wiki
@@ -95,7 +95,7 @@ PNG := $(GVS:.gvs=.png)
 
 all: site wiki assets cv
 
-wiki: wiki-generated-html
+wiki: wiki-html wiki-generated-html
 
 site: index site-html
 
@@ -105,7 +105,7 @@ index: $(ROOT)/index.html
 
 site-html: $(SITE_HTML)
 
-wiki-html: $(WIKI_HTML)
+wiki-html: $(WIKI_META) $(WIKI_HTML)
 
 svg: $(SVG)
 
@@ -141,7 +141,7 @@ wiki-tags-lists: $(WIKI_META) $(MAKE_WIKI_TAGS)
 
 # TODO: Reliably find and convert all generated files
 #$(MAKE) $($(wildcard $(WIKI_BY)/*):.gmi:.html) $($(wildcard $(WIKI_TAG)/*):.gmi=.html)
-wiki-generated-html: wiki-lists $(WIKI_GENERATED_HTML)
+wiki-generated-html: $(WIKI_META) wiki-lists $(WIKI_GENERATED_HTML)
 	$(MAKE) $(WIKI_GENERATED_SRC:.gmi=.html)
 
 # TODO: Split IPFS add from publish

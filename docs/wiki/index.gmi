@@ -1,8 +1,8 @@
 # nothing interesting wiki
 siiky
 2023/02/02
-2023/02/06
-2023/02/06
+2023/02/08
+2023/02/08
 
 
 NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
@@ -13,9 +13,10 @@ And so this idea was born. I'm gonna play with this read-only (to you but not to
 
 => wiki-plan.gmi Plan/Ideas
 
-The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists.
+The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists. There are lists of all pages sorted by a few different criteria; and there are lists of the pages of a certain tag sorted by last update.
 
 => by/index.gmi Lists
+=> tag/index.gmi Tags
 
 To learn more about the behind the scenes of this wiki, take a look at the Meta page; to learn more about me, my capsule, and lawerstuffs, take a look at the About page; and to get in touch with me, take a look at the Contact page.
 
