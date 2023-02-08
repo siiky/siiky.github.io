@@ -81,7 +81,7 @@ SITE_HTML := $(SITE_POSTS_HTML)
 ## Directories will include all generated pages, i.e., lists
 WIKI_SRC := $(wildcard $(WIKI_ROOT)/*.gmi)
 WIKI_HTML := $(WIKI_SRC:.gmi=.html)
-WIKI_GENERATED_SRC := $(wildcard $(WIKI_BY)/*.gmi) $(wildcard $(WIKI_TAG)/*.gmi)
+WIKI_GENERATED_SRC := $(wildcard $(WIKI_BY)/*.gmi)
 WIKI_GENERATED_HTML := $(WIKI_GENERATED_SRC:.gmi=.html)
 
 # Source assets -- no distinction between main site and wiki
@@ -137,12 +137,12 @@ $(WIKI_BY)/updated.gmi: $(WIKI_META) $(MAKE_WIKI_UPDATED_LIST)
 	$(MAKE_WIKI_UPDATED_LIST) $@ $(WIKI_META)
 
 wiki-tags-lists: $(WIKI_META) $(MAKE_WIKI_TAGS)
-	$(MAKE_WIKI_TAGS) $(WIKI_TAG) $(WIKI_META)
+	$(MAKE_WIKI_TAGS) $(WIKI_TAG) $(WIKI_META) $(GMI2MD) $(MD2HTML)
 
 # TODO: Reliably find and convert all generated files
 #$(MAKE) $($(wildcard $(WIKI_BY)/*):.gmi:.html) $($(wildcard $(WIKI_TAG)/*):.gmi=.html)
 wiki-generated-html: $(WIKI_META) wiki-lists $(WIKI_GENERATED_HTML)
-	$(MAKE) $(WIKI_GENERATED_SRC:.gmi=.html)
+	$(MAKE) $(WIKI_GENERATED_HTML)
 
 # TODO: Split IPFS add from publish
 
