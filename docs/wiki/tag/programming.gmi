@@ -1,6 +1,6 @@
 => ../pl.lua.gmi 2023-02-08 Lua (programming language)
+=> ../pl.go.gmi 2023-02-08 Go (programming language)
 => ../pl.forth.gmi 2023-02-07 Forth (programming language)
 => ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
 => ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
 => ../pl.scheme.gmi 2023-02-07 Scheme (programming language)
-=> ../pl.go.gmi 2023-02-06 Go (programming language)

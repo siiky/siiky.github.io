@@ -1,8 +1,8 @@
 # Go (programming language)
 siiky
 2023/02/06
-2023/02/06
-2023/02/06
+2023/02/08
+2023/02/08
 programming
 
 => https://go.dev
@@ -19,6 +19,8 @@ In "Go By Example" they suggest these additional pages to learn about some speci
 => https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
 => https://go.dev/blog/error-handling-and-go
 => https://go.dev/blog/json
+=> https://pkg.go.dev/cmd/compile#hdr-Compiler_Directives
+=> https://pkg.go.dev/embed#FS
 
 There's an example of WaitGroups. At first I thought "nice, structured concurrency!" But then, the interface is kinda funky. And there doesn't seem be any way to kill processes/threads/goroutines/green-threads/w.e. you wanna call'em.
 

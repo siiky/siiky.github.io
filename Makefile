@@ -185,7 +185,7 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
 watch:
-	ls -1 Makefile cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) | entr -c $(MAKE)
+	ls -1d Makefile cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) $(ROOT) | entr -d -n -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<
