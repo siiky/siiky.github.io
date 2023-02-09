@@ -222,4 +222,7 @@ cv-en.pdf: cv-en.md
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
-.PHONY: all assets index png serve site site-html svg watch wiki wiki-html wiki-tags-lists
+push:
+	for remote in $(shell git remote); do git push "$${remote}"; done
+
+.PHONY: all assets index png serve site site-html svg watch wiki wiki-html wiki-tags-lists push
