@@ -1,3 +1,5 @@
+=> ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
+=> ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"

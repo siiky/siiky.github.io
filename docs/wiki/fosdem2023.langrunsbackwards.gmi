@@ -1,0 +1,24 @@
+# Steven Goodwin, "I have an idea: build a language that can run backwards"
+siiky
+2023/02/09
+2023/02/09
+2023/02/09
+talk,programming
+
+=> https://fosdem.org/2023/schedule/event/langrunsbackwards
+=> https://marquisdegeek.com
+
+There was a problem with the stream so I missed most of it from the start. But nonetheless, here's what I got out of it.
+
+=> https://github.com/MarquisdeGeek/Zarkov Zarkov -- the thing he's working on
+
+Some projects he thinks are relevant about the subject?
+
+* colada.dev
+* undo.io
+* devtools.vuejs.org
+* rr-project.org
+* chronosystems.com
+=> https://unbound.com/books/20goto10
+
+"Reversible languages", a term someone mentioned at the end of the talk.

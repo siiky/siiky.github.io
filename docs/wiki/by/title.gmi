@@ -34,10 +34,12 @@
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../pl.scheme.gmi Scheme (programming language)
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
+=> ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../story-of-us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
 => ../trainspotter.gmi Trainspotter
+=> ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.keyoxide.gmi Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
 => ../20230204.gmi 2023/02/04
 => ../20230205.gmi 2023/02/05

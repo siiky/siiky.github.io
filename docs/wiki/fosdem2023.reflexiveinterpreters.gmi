@@ -1,0 +1,29 @@
+# William Byrd, "Self-conscious Reflexive Interpreters"
+siiky
+2023/02/09
+2023/02/09
+2023/02/09
+talk,programming
+
+https://fosdem.org/2023/schedule/event/reflexiveinterpreters
+
+Talk about research he's doing along with Nada Amin. This was one of the talks I was most excited about! But in the end it wasn't as exciting as that. :'(
+
+It felt like a history lesson and I failed to get the point he was trying to make.
+
+* McCarthy, "Programs with Common Sense"
+
+Describes how a program may improve by accepting advice from another program that may "understand" the problem at hand. Some of the wishful features are that a common-sensical program may improve through advice, and also improve the process of improvement.
+
+* Jon Doyle, "Reflexive Interpreters"
+* Gerald Jay Sussman, "A Computational Model of Skill Acquisition"
+* Marvin Minsky, "The Society of Mind"
+* "A Unified Approach to Solving 7 Programming Problems"
+* Barliman "smart" editor -- the thing he's worked on that has some program synthesis capabilities through miniKanren
+* Chris Hanson, Gerald Jay Sussman, "Software Design for Flexibility"
+
+=> https://alexey.radul.name/ideas/2019/computational-murk Alexey Radul, "Computational Murk" (someone posted on the chat)
+
+I saw a bookmark for jisho.org -- does William Byrd speak/study 日本語? :o
+
+=> https://jisho.org
