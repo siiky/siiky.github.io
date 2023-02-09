@@ -93,24 +93,34 @@ SVG := $(GVS:.gvs=.svg) $(GP:.gp=.svg)
 PNG := $(GVS:.gvs=.png)
 
 
+.PHONY: all
 all: site wiki assets cv
 
+.PHONY: wiki
 wiki: wiki-html wiki-generated-html
 
+.PHONY: site
 site: index site-html
 
+.PHONY: assets
 assets: svg png atom graph.svg
 
+.PHONY: assets
 index: $(ROOT)/index.html
 
+.PHONY: site-html
 site-html: $(SITE_HTML)
 
+.PHONY: wiki-html
 wiki-html: $(WIKI_META) $(WIKI_HTML)
 
+.PHONY: svg
 svg: $(SVG)
 
+.PHONY: png
 png: $(PNG)
 
+.PHONY: atom
 atom: $(ROOT)/atom.xml
 
 $(SITE_META): $(MAKE_SITE_META) $(SITE_POSTS_SRC)
@@ -125,6 +135,7 @@ $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 $(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
 	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
 
+.PHONY: wiki-lists
 wiki-lists: $(WIKI_BY)/title.gmi $(WIKI_BY)/updated.gmi $(WIKI_BY)/created.gmi wiki-tags-lists
 
 $(WIKI_BY)/created.gmi: $(WIKI_META) $(MAKE_WIKI_CREATED_LIST)
@@ -136,6 +147,7 @@ $(WIKI_BY)/title.gmi: $(WIKI_META) $(MAKE_WIKI_TITLE_LIST)
 $(WIKI_BY)/updated.gmi: $(WIKI_META) $(MAKE_WIKI_UPDATED_LIST)
 	$(MAKE_WIKI_UPDATED_LIST) $@ $(WIKI_META)
 
+.PHONY: wiki-tags-lists
 wiki-tags-lists: $(WIKI_TAG)/index.gmi
 
 $(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS)
@@ -143,16 +155,20 @@ $(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS)
 
 # TODO: Reliably find and convert all generated files
 #$(MAKE) $($(wildcard $(WIKI_BY)/*.gmi):.gmi:.html) $($(wildcard $(WIKI_TAG)/*.gmi):.gmi=.html)
+.PHONY: wiki-generated-html
 wiki-generated-html: $(WIKI_META) wiki-lists
 	$(MAKE) $(WIKI_GENERATED_HTML)
 
 # TODO: Split IPFS add from publish
 
+.PHONY: publish
 publish: $(ROOT)/ipfs.html publish-gemini publish-http
 
+.PHONY: publish-gemini
 publish-gemini: gemini.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
+.PHONY: publish-http
 publish-http: http.tgz
 	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
 
@@ -168,13 +184,14 @@ $(ROOT)/ipfs.txt: all
 $(ROOT)/ipfs.gmi: $(ROOT)/ipfs.txt
 	$(MAKE_IPFS_PAGE) $< > $@
 
+.PHONY: ipfs-publish
 ipfs-publish: $(ROOT)/ipfs.html
 
+.PHONY: antenna-publish
 antenna-publish: ipfs-publish
 	xdg-open gemini://warmedal.se/~antenna/submit?gemini://siiky.srht.site
 
-.PHONY: antenna-publish ipfs-publish publish publish-gemini publish-http
-
+.PHONY: serve
 serve:
 	$(GEMINID) $(ROOT)
 
@@ -184,14 +201,17 @@ graph.scm: $(MAKE_GRAPH) $(SITE_SRC)
 graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@
 
+.PHONY: watch
 watch:
 	ls -1d Makefile cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) $(ROOT) | entr -d -n -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<
 
+.PHONY: spellcheck
 spellcheck: $(SITE_SRC:.gmi=.spell)
 
+.PHONY: cv
 cv: cv-en.pdf
 	
 cv-en.pdf: cv-en.md
@@ -222,7 +242,6 @@ cv-en.pdf: cv-en.md
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
 
+.PHONY: push
 push:
 	for remote in $(shell git remote); do git push "$${remote}"; done
-
-.PHONY: all assets index png serve site site-html svg watch wiki wiki-html wiki-tags-lists push
