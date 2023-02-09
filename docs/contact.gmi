@@ -6,6 +6,7 @@ You can contact me through my public mailing list hosted on SourceHut, by sendin
 
 => https://lists.sr.ht/~siiky/public
 
-I'm also online most times on Libera Chat as siiky on #chicken and #scheme.
+I'm online most times on Libera Chat as siiky on #chicken and #scheme, and also available through Matrix as @siiky:matrix.org.
 
 => https://libera.chat Libera Chat
+=> https://matrix.org Matrix
