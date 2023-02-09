@@ -10,3 +10,9 @@ programming
 A BEAM language. More "modern" compared to Erlang (but also uglier IMO).
 
 => pl.erlang.gmi
+
+=> https://elixirschool.com/blog/til-ports
+=> https://hexdocs.pm/elixir/Port.html
+=> http://erlang.org/doc/reference_manual/ports.html
+=> https://stackoverflow.com/questions/42035912/running-c-code-in-elixir-erlang-ports-or-nifs
+=> https://spin.atomicobject.com/2015/03/16/elixir-native-interoperability-ports-vs-nifs
