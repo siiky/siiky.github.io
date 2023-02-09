@@ -1,13 +1,13 @@
 # Scheme (programming language)
 siiky
 2023/02/06
-2023/02/07
-2023/02/07
+2023/02/09
+2023/02/09
 programming,scheme
 
 => https://www.scheme.org
 
-Some implementations:
+## Some implementations:
 
 => https://call-cc.org CHICKEN Scheme
 => https://synthcode.com/wiki/chibi-scheme Chibi Scheme
@@ -17,3 +17,88 @@ Some implementations:
 
 => http://community.schemewiki.org/?scheme-faq-standards
 => https://wingolog.org/archives/2013/01/07/an-opinionated-guide-to-scheme-implementations an opinionated guide to scheme implementations
+
+## My projects
+
+### ipfs
+
+A Kubo RPC client library. Made a Lua port as well.
+
+=> https://git.sr.ht/~siiky/ipfs.scm
+=> https://wiki.call-cc.org/eggref/5/ipfs
+=> ../projects/ipfs.gmi
+=> pl.lua.gmi
+
+### gmi
+
+A Gemtext reader/writer. Made a Lua port as well.
+
+=> https://git.sr.ht/~siiky/gmi.scm
+=> https://wiki.call-cc.org/eggref/5/gmi
+=> ../projects/gemtext.gmi
+=> pl.lua.gmi
+
+### transmission
+
+A Transmission RPC client.
+
+=> https://git.sr.ht/~siiky/transmission.scm
+=> https://wiki.call-cc.org/eggref/5/transmission
+
+### daemon
+
+A convenience procedure to run some Scheme code in a process in the background -- or not!
+
+=> https://wiki.call-cc.org/eggref/5/daemon
+=> https://git.sr.ht/~siiky/daemon
+
+### alist-let
+
+A macro similar to let that can be used to destructure alists. In experimental stage still. First iteration ever was from the transmission egg.
+
+=> https://git.sr.ht/~siiky/alist-let
+
+### ttltbl
+
+A TTL table/dictionary -- i.e. a cache.
+
+=> https://git.sr.ht/~siiky/ttltbl.scm
+
+### gminid
+
+My fork of Kooda's geminid, and a Gemini IPFS gateway.
+
+=> https://git.sr.ht/~siiky/geminid
+=> ../projects/gemini-ipfs-gateway.gmi Gemini IPFS gateway
+
+### trmote
+
+A few utility programs based on the transmission egg to help manage a Transmission instance -- especially transmission-update-seed-priority and transmission-verify!
+
+=> https://git.sr.ht/~siiky/trmote
+
+### cling
+
+This is a Command Line INterface Generator. I like the idea and the functionality I managed to program in, and kinda like the usability, but I don't like at all how it's implemented. It's ugly af, and that's the only reason I haven't published it as an egg yet.
+
+Used by trmote and a few of my other unpublished eggs.
+
+=> https://git.sr.ht/~siiky/cling
+
+### invidious
+
+Invidious API client.
+
+=> https://git.sr.ht/~siiky/invidious.scm
+
+### ivp
+
+Search and play videos and playlists from Invidious without leaving your terminal! Based on invidious and cling.
+
+=> https://git.sr.ht/~siiky/ivp
+
+### gvs
+
+GraphViz Extension Language for Scheme.
+
+=> https://git.sr.ht/~siiky/gvs

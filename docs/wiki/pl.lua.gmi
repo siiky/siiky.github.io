@@ -1,10 +1,29 @@
 # Lua (programming language)
 siiky
 2023/02/06
-2023/02/08
-2023/02/08
+2023/02/09
+2023/02/09
 programming
 
 => https://www.lua.org
 
 => https://www.lua.org/manual/5.4
+
+## My projects
+
+### gmi
+
+A Gemtext reader/writer. Heavily inspired by my other gmi in Scheme.
+
+=> https://git.sr.ht/~siiky/gmi.lua
+=> https://luarocks.org/modules/siiky/gmi
+=> pl.scheme.gmi
+
+### ipfs
+
+A Kubo RPC client library, just like the original in Scheme. The endpoint definitions are generated from the Scheme library.
+
+I didn't get to use it... I haven't tested it much, so I don't know if it works.
+
+=> https://git.sr.ht/~siiky/ipfs.lua
+=> pl.scheme.gmi

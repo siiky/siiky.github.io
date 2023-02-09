@@ -1,9 +1,11 @@
+=> ../pl.scheme.gmi 2023-02-09 Scheme (programming language)
+=> ../pl.lua.gmi 2023-02-09 Lua (programming language)
+=> ../pl.c.gmi 2023-02-09 C (programming language)
 => ../index.gmi 2023-02-08 nothing interesting wiki
 => ../wiki-plan.gmi 2023-02-08 nothing interesting wiki: plan/ideas
-=> ../pl.lua.gmi 2023-02-08 Lua (programming language)
+=> ../linux.gmi 2023-02-08 Linux
 => ../pl.go.gmi 2023-02-08 Go (programming language)
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi 2023-02-07 Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
-=> ../pl.scheme.gmi 2023-02-07 Scheme (programming language)
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-07 Frank Vanbever, "Lua for the lazy C developer"

@@ -102,13 +102,13 @@
 (define (gmi:link->md:link l)
   (let* ((text (gmi:link:text l))
          (uri (gmi:link:uri l))
-         ;(text (if (string-null? text) uri text))
+         (text (if (string-null? text) uri text))
          (image? (member (pathname-extension uri) image-extensions)))
     ; TODO: Escape characters?
     (list
       (cond
         (image? (string-append "\n![" text "](" uri ")\n"))
-        ((string-null? text) (string-append " * <a href=\"" uri "\"></a>"))
+        ;((string-null? text) (string-append " * <a href=\"" uri "\"/>"))
         (else (string-append " * [" text "](" uri ")"))))))
 
 (define (grouped-gmi-element->md-element elem)

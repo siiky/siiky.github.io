@@ -1,4 +1,7 @@
-2023-02-08	2023-02-08	2023-02-06	Lua (programming language)	wiki/pl.lua.gmi	programming
+2023-02-09	2023-02-09	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
+2023-02-09	2023-02-09	2023-02-06	Scheme (programming language)	wiki/pl.scheme.gmi	programming,scheme
+2023-02-09	2023-02-09	2023-02-06	Lua (programming language)	wiki/pl.lua.gmi	programming
+2023-02-08	2023-02-08	2023-02-08	Linux	wiki/linux.gmi	os
 2023-02-08	2023-02-08	2023-02-06	Go (programming language)	wiki/pl.go.gmi	programming
 2023-02-08	2023-02-08	2023-02-04	nothing interesting wiki: plan/ideas	wiki/wiki-plan.gmi	
 2023-02-08	2023-02-08	2023-02-02	nothing interesting wiki	wiki/index.gmi	
@@ -8,7 +11,6 @@
 2023-02-07	2023-02-07	2023-02-07	Forth (programming language)	wiki/pl.forth.gmi	programming
 2023-02-07	2023-02-07	2023-02-07	Erlang (programming language)	wiki/pl.erlang.gmi	programming
 2023-02-07	2023-02-07	2023-02-07	Elixir (programming language)	wiki/pl.elixir.gmi	programming
-2023-02-07	2023-02-07	2023-02-06	Scheme (programming language)	wiki/pl.scheme.gmi	programming,scheme
 2023-02-07	2023-02-07	2023-02-05	Frank Vanbever, "Lua for the lazy C developer"	wiki/fosdem2023.lua_for_the_lazy_c_developer.gmi	talk
 2023-02-07	2023-02-07	2023-02-05	Drew DeVault, "Introducing Helios Microkernel"	wiki/fosdem2023.heliosuk.gmi	talk,os
 2023-02-07	2023-02-07	2023-02-04	Drew DeVault, "Introducing Helios"	wiki/fosdem2023.helios.gmi	talk,os
