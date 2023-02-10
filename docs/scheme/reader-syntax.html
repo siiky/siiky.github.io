@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Reader Syntax</h1>
-<p>siiky
-2022/03/15
-2022/07/07</p>
-<p>TIL a bit of reader syntax magic. With very few lines of code I was able to make available the #!sql reader syntax to let me read the contents of SQL files as a literal string (any file actually, but I was thinking of using it for SQL files only).</p>
-<pre><code>; This:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Reader Syntax</h1><p>siiky<br></br>2022/03/15<br></br>2022/07/07</p><p>TIL a bit of reader syntax magic. With very few lines of code I was able to make available the #!sql reader syntax to let me read the contents of SQL files as a literal string (any file actually, but I was thinking of using it for SQL files only).</p><pre>; This:
 #!sql &quot;path/to/file.sql&quot;
 ; Into this:
 &quot;CREATE TABLE entries (\n    cid      TEXT        PRIMARY KEY NOT NULL UNIQUE,\n    name     TEXT        NOT NULL,\n    consumed BOOLEAN     NOT NULL DEFAULT FALSE,\n    url      TEXT        UNIQUE,\n    type     VARCHAR(10) NOT NULL REFERENCES types (name)\n);\n\nCREATE TABLE nodes (\n    id   TEXT        PRIMARY KEY NOT NULL UNIQUE,\n    name VARCHAR(20) UNIQUE\n);\n\nCREATE TABLE pins (\n    node TEXT NOT NULL REFERENCES nodes (id),\n    cid  TEXT NOT NULL REFERENCES entries (cid)\n);\n\nCREATE TABLE types (\n    name VARCHAR(10) PRIMARY KEY NOT NULL UNIQUE\n);\n&quot;
-</code></pre>
-<p>Here's the necessary code in its entirety:</p>
-<pre><code>(set-read-syntax!
-  'sql
+</pre><p>Here&#39;s the necessary code in its entirety:</p><pre>(set-read-syntax!
+  &#39;sql
   (lambda (port)
     (let ((path (read port)))
       (unless (string? path)
@@ -25,23 +13,8 @@
         (unless (string? sql-stmt)
           (syntax-error &quot;Failed reading the SQL file&quot;))
         sql-stmt))))
-</code></pre>
-<p>There's one caveat with this approach, however: the reader syntax will be available to the whole program, not just the file or module that defined or imported it. This means that the identifiers must be unique, otherwise different definitions will collide with each other and the compiled program won't be what you expect. AND I think that it will be available not only at compile time, but at runtime as well -- very good to keep in mind!</p>
-<p>Someone on IRC mentioned that it's possible to use -extend (-X) to make it available at compile time only. As an example, they said that compiling with -X srfi-19-literals would allow one to write #@1-1-22. Try this, after installing SRFI-19:</p>
-<pre><code>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +'%Y-%m-%d'`&quot;
-</code></pre>
-<p>Relevant CHICKEN documentation for set-read-syntax! &amp; friends:</p>
-<ul>
-<li><a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)</a></li>
-<li><a href="https://api.call-cc.org/5/doc/chicken/read-syntax">https://api.call-cc.org/5/doc/chicken/read-syntax</a></li></ul>
-<p>And the relevant SRFI-19 literals documentation:</p>
-<ul>
-<li><a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form</a></li>
-<li><a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">https://api.call-cc.org/5/doc/srfi-19/date-literal-form</a></li></ul>
-<hr />
-<p>To make it more obvious why this is cool, here goes a slightly more realistic, though still simple, example.</p>
-<p>Let's say we have these SQL files:</p>
-<pre><code>-- schema.sql
+</pre><p>There&#39;s one caveat with this approach, however: the reader syntax will be available to the whole program, not just the file or module that defined or imported it. This means that the identifiers must be unique, otherwise different definitions will collide with each other and the compiled program won&#39;t be what you expect. AND I think that it will be available not only at compile time, but at runtime as well -- very good to keep in mind!</p><p>Someone on IRC mentioned that it&#39;s possible to use -extend (-X) to make it available at compile time only. As an example, they said that compiling with -X srfi-19-literals would allow one to write #@1-1-22. Try this, after installing SRFI-19:</p><pre>csi -R srfi-19 -R srfi-19-literals -p &quot;#@`date +&#39;%Y-%m-%d&#39;`&quot;
+</pre><p>Relevant CHICKEN documentation for set-read-syntax! &amp; friends:</p><ul><li><a href="https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)">https://wiki.call-cc.org/man/5/Module%20(chicken%20read-syntax)</a></li><li><a href="https://api.call-cc.org/5/doc/chicken/read-syntax">https://api.call-cc.org/5/doc/chicken/read-syntax</a></li></ul><p>And the relevant SRFI-19 literals documentation:</p><ul><li><a href="https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form">https://wiki.call-cc.org/eggref/5/srfi-19#date-literal-form</a></li><li><a href="https://api.call-cc.org/5/doc/srfi-19/date-literal-form">https://api.call-cc.org/5/doc/srfi-19/date-literal-form</a></li></ul><p>-----</p><p>To make it more obvious why this is cool, here goes a slightly more realistic, though still simple, example.</p><p>Let&#39;s say we have these SQL files:</p><pre>-- schema.sql
 CREATE TABLE sometbl (col TINYINT NOT NULL);
 
 -- data.sql
@@ -49,16 +22,14 @@ INSERT INTO sometbl (col) VALUES (0),(1),(2),(3),(4),(5);
 
 -- select.sql
 SELECT rowid, col FROM sometbl;
-</code></pre>
-<p>An example.scm:</p>
-<pre><code>(import sql-de-lite)
+</pre><p>An example.scm:</p><pre>(import sql-de-lite)
 
 (define-constant schema #!sql&quot;schema.sql&quot;)
 (define-constant data #!sql&quot;data.sql&quot;)
 (define-constant select #!sql&quot;select.sql&quot;)
 
 (print (call-with-database
-         'memory
+         &#39;memory
          (lambda (db)
            (let ((schema (sql db schema))
                  (data (sql db data))
@@ -66,20 +37,16 @@ SELECT rowid, col FROM sometbl;
              (query fetch-all schema)
              (query fetch-all data)
              (query fetch-all select)))))
-</code></pre>
-<p>And the set-read-syntax! call from before wrapped up in a module sql-reader-syntax. After compiling the module you can compile the example with csc -X sql-reader-syntax example.scm, and this is the result of running it:</p>
-<pre><code>$ ./example
+</pre><p>And the set-read-syntax! call from before wrapped up in a module sql-reader-syntax. After compiling the module you can compile the example with csc -X sql-reader-syntax example.scm, and this is the result of running it:</p><pre>$ ./example
 ((1 0) (2 1) (3 2) (4 3) (5 4) (6 5))
-</code></pre>
-<p>The example.scm is basically transformed into this before being compiled:</p>
-<pre><code>(import sql-de-lite)
+</pre><p>The example.scm is basically transformed into this before being compiled:</p><pre>(import sql-de-lite)
 
 (define-constant schema &quot;CREATE TABLE sometbl (col TINYINT NOT NULL);&quot;)
 (define-constant data &quot;INSERT INTO sometbl (col) VALUES (0),(1),(2),(3),(4),(5);&quot;)
 (define-constant select &quot;SELECT rowid, col FROM sometbl;&quot;)
 
 (print (call-with-database
-         'memory
+         &#39;memory
          (lambda (db)
            (let ((schema (sql db schema))
                  (data (sql db data))
@@ -87,7 +54,4 @@ SELECT rowid, col FROM sometbl;
              (query fetch-all schema)
              (query fetch-all data)
              (query fetch-all select)))))
-</code></pre>
-<p>And notice how schema, data, and select are constants (defined with define-constant, kinda similar to the static keyword in C).</p>
-</body>
-</html>
+</pre><p>And notice how schema, data, and select are constants (defined with define-constant, kinda similar to the static keyword in C).</p></body></html>

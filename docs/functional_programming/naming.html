@@ -1,43 +1,18 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Naming Operations rather than Variables</h1>
-<p>siiky
-2021/12/15
-2022/07/07</p>
-<p>Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named -- and everyone knows naming is hard.</p>
-<p>Bad:</p>
-<pre><code>x = '42'
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Naming Operations rather than Variables</h1><p>siiky<br></br>2021/12/15<br></br>2022/07/07</p><p>Naming, using, reading, and understanding well named operations rather than (kinda) well named variables grows the habit of reading and understanding code rather than relying on variables being well named -- and everyone knows naming is hard.</p><p>Bad:</p><pre>x = &#39;42&#39;
 x_food = foo(x)
 x_bard_food = bar(x_food)
 x_zazd_bard_food = zaz(x_bard_food)
-</code></pre>
-<p>Good (using procedural composition):</p>
-<pre><code>x = zaz(bar(foo('42')))
-</code></pre>
-<p>Better (if the chain of operations is long):</p>
-<pre><code>x = '42'
+</pre><p>Good (using procedural composition):</p><pre>x = zaz(bar(foo(&#39;42&#39;)))
+</pre><p>Better (if the chain of operations is long):</p><pre>x = &#39;42&#39;
 x = foo(x)
 x = bar(x)
 x = zaz(x)
-</code></pre>
-<p>Best (using functional composition):</p>
-<pre><code>(=&gt; '42'
+</pre><p>Best (using functional composition):</p><pre>(=&gt; &#39;42&#39;
     foo
     bar
     zaz)
 
 ; OR
 
-((-&gt; foo bar zaz) '42')
-</code></pre>
-<p>It also comes with rather nice advantages. Just compare the two approaches in each scenario:</p>
-<ul>
-<li>Imagine you want to change the order of operations in the chain;</li>
-<li>Imagine you want to add an operation to the chain;</li>
-<li>Imagine you want to remove an operation from the chain.</li></ul>
-<p>And a final bonus: the &quot;better&quot; approach is easier to read than the &quot;bad&quot; approach, and requires less typing, thank you very much.</p>
-</body>
-</html>
+((-&gt; foo bar zaz) &#39;42&#39;)
+</pre><p>It also comes with rather nice advantages. Just compare the two approaches in each scenario:</p><ul><li>Imagine you want to change the order of operations in the chain;</li><li>Imagine you want to add an operation to the chain;</li><li>Imagine you want to remove an operation from the chain.</li></ul><p>And a final bonus: the &quot;better&quot; approach is easier to read than the &quot;bad&quot; approach, and requires less typing, thank you very much.</p></body></html>

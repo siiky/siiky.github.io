@@ -1,53 +1,8 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>RFC: alist-let</h1>
-<p>siiky
-2022/08/22
-2022/08/23</p>
-<p>(Reply (and an example) at the end)</p>
-<p>If you're a Lisper, even if you're not a Schemer, please don't skip this post! :)</p>
-<h2>History</h2>
-<p>Almost two years ago I wrote a macro to make it easier to work with values of an alist (&quot;association list&quot; i.e. list of key/value pairs; Scheme's &quot;default&quot; dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.</p>
-<ul>
-<li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/fe13fe48e7cf9f0045c1aaa4a3e6f0b54cd2f4d7#tests/run.scm">First version of let-aref</a></li>
-<li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/688f9d996b00d834a8e7dfd94947b46862fa962b#tests/run.scm">First version of alist-let</a></li></ul>
-<p>At the time I didn't think much about it, just another tiny macro to make my life easier. But much later (only a few months ago) I needed something like it again. I went searching instead of copying it over and found nothing. Why the heck doesn't something like this exist? The only pattern matcher I know of doesn't seem to support it either.</p>
-<ul>
-<li><a href="https://wiki.call-cc.org/eggref/5/matchable">matchable</a></li></ul>
-<p>A bit over a month ago I started thinking of making it more general, because there were lots of assumptions in the original alist-let (most relevant: keys were &quot;simple&quot; symbols, that is, the unquoted key was a valid variable identifier); and also of introducing it to the broader Scheme community.</p>
-<ul>
-<li><a href="https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm">Latest (original) alist-let (and variants)</a></li></ul>
-<h2>Now</h2>
-<p>I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:</p>
-<ul>
-<li><a href="https://srfi-email.schemers.org/srfi-discuss/msg/19986652/">alist-let: let-like alist destructuring syntax</a></li></ul>
-<p>The goal (even though the &quot;project&quot; is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:</p>
-<ul>
-<li><a href="https://git.sr.ht/~siiky/alist-let">https://git.sr.ht/~siiky/alist-let</a></li></ul>
-<p>If you're a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you're a Lisper, even if you're not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!</p>
-<ul>
-<li><a href="../contact.html">Contact</a></li></ul>
-<h2>Reply</h2>
-<ul>
-<li><a href="https://portal.mozz.us/gemini/gemini.ctrl-c.club/~stack/gemlog/2022-08-22.alists.gmi">(Gemini Portal) @stack replied with lots of confusion.</a></li></ul>
-<p>Reading back what I wrote I can understand why...</p>
-<blockquote>
-<p>Not very useful, as it is a tautology for the let macro in the first place!</p></blockquote>
-<p>Indeed but that's not it. :p</p>
-<blockquote>
-<p>First question: what is the purpose of alist-let?</p></blockquote>
-<p>It seems you're thinking it's supposed to destructure alists at macro-expansion time? But that's not it, it's for destructuring alists at runtime.</p>
-<p>In case you know JavaScript, alist-let is more like the following destructuring syntax:</p>
-<pre><code>const obj = { a: 1, b: 2, c: 3 }
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>RFC: alist-let</h1><p>siiky<br></br>2022/08/22<br></br>2022/08/23</p><p>(Reply (and an example) at the end)</p><p>If you&#39;re a Lisper, even if you&#39;re not a Schemer, please don&#39;t skip this post! :)</p><h2>History</h2><p>Almost two years ago I wrote a macro to make it easier to work with values of an alist (&quot;association list&quot; i.e. list of key/value pairs; Scheme&#39;s &quot;default&quot; dictionary-like structure). It was called let-aref at first and it could be used to introduce a single variable with the value associated with a key of an alist -- sort of like let but for alists and for a single variable. Soon I realized I could use it for several variables if I changed it only slightly, which became alist-let.</p><ul><li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/fe13fe48e7cf9f0045c1aaa4a3e6f0b54cd2f4d7#tests/run.scm">First version of let-aref</a></li><li><a href="https://git.sr.ht/~siiky/transmission.scm/commit/688f9d996b00d834a8e7dfd94947b46862fa962b#tests/run.scm">First version of alist-let</a></li></ul><p>At the time I didn&#39;t think much about it, just another tiny macro to make my life easier. But much later (only a few months ago) I needed something like it again. I went searching instead of copying it over and found nothing. Why the heck doesn&#39;t something like this exist? The only pattern matcher I know of doesn&#39;t seem to support it either.</p><ul><li><a href="https://wiki.call-cc.org/eggref/5/matchable">matchable</a></li></ul><p>A bit over a month ago I started thinking of making it more general, because there were lots of assumptions in the original alist-let (most relevant: keys were &quot;simple&quot; symbols, that is, the unquoted key was a valid variable identifier); and also of introducing it to the broader Scheme community.</p><ul><li><a href="https://git.sr.ht/~siiky/transmission.scm/tree/master/item/transmission.utils.scm">Latest (original) alist-let (and variants)</a></li></ul><h2>Now</h2><p>I first tested the waters on #scheme and some people acknowledged such syntax would be useful, and nobody came up with readily available alternatives. A few days later I sent an RFC to srfi-discuss:</p><ul><li><a href="https://srfi-email.schemers.org/srfi-discuss/msg/19986652/">alist-let: let-like alist destructuring syntax</a></li></ul><p>The goal (even though the &quot;project&quot; is for now still called alist-let) is to define some common pattern/syntax for the different dictionary-like types. You can find the latest (new) alist-let in this repo:</p><ul><li><a href="https://git.sr.ht/~siiky/alist-let">https://git.sr.ht/~siiky/alist-let</a></li></ul><p>If you&#39;re a Schemer, what do you think? Send your comments to the list (preferably) or to me directly. If you&#39;re a Lisper, even if you&#39;re not a Schemer, I would also appreciate your comments. Does your Lisp of choice have something like this? How is it? Let me know!</p><ul><li><a href="../contact.html">Contact</a></li></ul><h2>Reply</h2><ul><li><a href="https://portal.mozz.us/gemini/gemini.ctrl-c.club/~stack/gemlog/2022-08-22.alists.gmi">@stack replied with lots of confusion.</a></li></ul><p>Reading back what I wrote I can understand why...</p><blockquote>Not very useful, as it is a tautology for the let macro in the first place!</blockquote><p>Indeed but that&#39;s not it. :p</p><blockquote>First question: what is the purpose of alist-let?</blockquote><p>It seems you&#39;re thinking it&#39;s supposed to destructure alists at macro-expansion time? But that&#39;s not it, it&#39;s for destructuring alists at runtime.</p><p>In case you know JavaScript, alist-let is more like the following destructuring syntax:</p><pre>const obj = { a: 1, b: 2, c: 3 }
 const { a, c } = obj
 // Do something with a and c
 console.log(&quot;a=&quot;, a, &quot; b=&quot;, b)
-</code></pre>
-<p>If you don't know JavaScript, and because I don't like JavaScript and &quot;an example is worth a thousand words&quot; or something: if you're writing a CLI program you're likely to need to parse the command line arguments into (positional) arguments, flags and options. Let's say the program has the flags &quot;--recursive&quot;, &quot;--raw-leaves&quot; and &quot;--trickle&quot;, and the options &quot;--cid-version&quot; and &quot;--hash&quot;.</p>
-<pre><code>;(defun main (opts) ...)
+</pre><p>If you don&#39;t know JavaScript, and because I don&#39;t like JavaScript and &quot;an example is worth a thousand words&quot; or something: if you&#39;re writing a CLI program you&#39;re likely to need to parse the command line arguments into (positional) arguments, flags and options. Let&#39;s say the program has the flags &quot;--recursive&quot;, &quot;--raw-leaves&quot; and &quot;--trickle&quot;, and the options &quot;--cid-version&quot; and &quot;--hash&quot;.</p><pre>;(defun main (opts) ...)
 (define (main opts)
   (alist-let string=? opts
              ; VAR         KEY           DEFAULT (optional)
@@ -64,12 +19,10 @@ console.log(&quot;a=&quot;, a, &quot; b=&quot;, b)
       &quot;hash=&quot; hash #\n               ; hash=&quot;sha2-256&quot;
       )))
 
-; parse-arguments turns something like this: '(&quot;--recursive&quot; &quot;--raw-leaves&quot; &quot;--cid-version&quot; &quot;42&quot;)
-; Into this: '((&quot;recursive&quot; . #t) (&quot;raw-leaves&quot; . #t) (&quot;cid-version&quot; . 42))
+; parse-arguments turns something like this: &#39;(&quot;--recursive&quot; &quot;--raw-leaves&quot; &quot;--cid-version&quot; &quot;42&quot;)
+; Into this: &#39;((&quot;recursive&quot; . #t) (&quot;raw-leaves&quot; . #t) (&quot;cid-version&quot; . 42))
 (main (parse-arguments (command-line-arguments)))
-</code></pre>
-<p>The only (current) alternative I know of is to manually alist-ref each key (mentioned at the top of the email):</p>
-<pre><code>;      VAR                     KEY                         DEFAULT (optional)
+</pre><p>The only (current) alternative I know of is to manually alist-ref each key (mentioned at the top of the email):</p><pre>;      VAR                     KEY                         DEFAULT (optional)
 (let ((recursive   (alist-ref &quot;recursive&quot;   opts string=?  #t))
       (cid-version (alist-ref &quot;cid-version&quot; opts string=?  1))
       (raw-leaves  (alist-ref &quot;raw-leaves&quot;  opts string=?  #f))
@@ -82,11 +35,4 @@ console.log(&quot;a=&quot;, a, &quot; b=&quot;, b)
     &quot;raw-leaves=&quot; raw-leaves #\n
     &quot;trickle=&quot; trickle #\n
     &quot;hash=&quot; hash #\n))
-</code></pre>
-<p>(alist-ref key alist) is more or less (cdr (assoc key alist))</p>
-<ul>
-<li><a href="https://api.call-cc.org/5/doc/chicken/base/alist-ref">alist-ref</a></li></ul>
-<p>Hope this helps.</p>
-<p>BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?</p>
-</body>
-</html>
+</pre><p>(alist-ref key alist) is more or less (cdr (assoc key alist))</p><ul><li><a href="https://api.call-cc.org/5/doc/chicken/base/alist-ref">alist-ref</a></li></ul><p>Hope this helps.</p><p>BTW I thought plists were flat alists: (k1 v1 k2 v2 ...) ?</p></body></html>

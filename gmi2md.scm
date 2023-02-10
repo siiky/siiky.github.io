@@ -37,7 +37,7 @@
       (and (gmi:link? l)
            (irregex-match re (gmi:link:uri l))))))
 
-(define (wikipedia-url lang article)
+(define (wikipedia-uri lang article)
   (string-append https:// lang ".wikipedia.org/wiki/" article))
 
 
@@ -165,7 +165,7 @@
      => (lambda (match)
           (let ((lang (irregex-match-substring match 1))
                 (article (irregex-match-substring match 2)))
-            (gmi:link (wikipedia-url lang article) (gmi:link:text l)))))
+            (gmi:link (wikipedia-uri lang article) (gmi:link:text l)))))
 
     ; External full gemini://... link?
     ((gemini-link? l) (gemini->portal l))

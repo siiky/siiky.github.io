@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Custom Gemini Handlers</h1>
-<p>siiky
-2022/08/06
-2022/08/06</p>
-<p>Just learned how to setup custom handlers for the gemini scheme in Firefox and XDG.</p>
-<p>For Firefox, go to about:config, create a new boolean variable named network.protocol-handler.expose.gemini and set it to false. Open a gemini URL, choose your Gemini client and you're good to go.</p>
-<p>For XDG, create a desktop file in ~/.local/share/applications/ (or your equivalent) with the following content, replacing Lagrange with your client of choice:</p>
-<pre><code>[Desktop Entry]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Custom Gemini Handlers</h1><p>siiky<br></br>2022/08/06<br></br>2022/08/06</p><p>Just learned how to setup custom handlers for the gemini scheme in Firefox and XDG.</p><p>For Firefox, go to about:config, create a new boolean variable named network.protocol-handler.expose.gemini and set it to false. Open a gemini URL, choose your Gemini client and you&#39;re good to go.</p><p>For XDG, create a desktop file in ~/.local/share/applications/ (or your equivalent) with the following content, replacing Lagrange with your client of choice:</p><pre>[Desktop Entry]
 Type=Application
 Name=Lagrange Gemini Client
 Exec=lagrange %u
 StartupNotify=false
 MimeType=x-scheme-handler/gemini;
-</code></pre>
-<p>And you're good to go, opening gemini URLs with xdg-open or clicking things should work now. It seemed to take effect immediately here.</p>
-<p>Reference:</p>
-<ul>
-<li><a href="https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox">https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox</a></li>
-<li><a href="https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above">https://kb.mozillazine.org/Register<em>protocol#Firefox</em>3.5<em>and</em>above</a></li>
-<li><a href="https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler">https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler</a></li></ul>
-</body>
-</html>
+</pre><p>And you&#39;re good to go, opening gemini URLs with xdg-open or clicking things should work now. It seemed to take effect immediately here.</p><p>Reference:</p><ul><li><a href="https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox">https://stackoverflow.com/questions/22729686/set-custom-protocol-handler-in-firefox</a></li><li><a href="https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above">https://kb.mozillazine.org/Register_protocol#Firefox_3.5_and_above</a></li><li><a href="https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler">https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler</a></li></ul></body></html>

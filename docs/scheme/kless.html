@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>kless</h1>
-<p>siiky
-2019/10/13
-2022/07/07</p>
-<p>I read recently a blog post called The Lisp Curse (not yet HTTPS enabled, but hoping it will be in the future). In this post, the author, Rudolf Winestock, says that &quot;Making Scheme object-oriented is a sophomore homework assignment&quot;; and so, for fun, I tried hacking an abstraction for defining classes in Scheme, with the little knowledge of macros that I have.</p>
-<ul>
-<li><a href="https://web.archive.org/web/20221129004605/www.winestockwebdesign.com/Essays/Lisp_Curse.html">Rudolf Winestock, &quot;The Lisp Curse&quot;</a></li></ul>
-<h1>Implementation</h1>
-<p>Below is the definition of the kless macro.</p>
-<pre><code>;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-;!! Read identifiers with Metalocalypse Pickles' accent !!!
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>kless</h1><p>siiky<br></br>2019/10/13<br></br>2022/07/07</p><p>I read recently a blog post called The Lisp Curse (not yet HTTPS enabled, but hoping it will be in the future). In this post, the author, Rudolf Winestock, says that &quot;Making Scheme object-oriented is a sophomore homework assignment&quot;; and so, for fun, I tried hacking an abstraction for defining classes in Scheme, with the little knowledge of macros that I have.</p><ul><li><a href="https://web.archive.org/web/20221129004605/www.winestockwebdesign.com/Essays/Lisp_Curse.html">Rudolf Winestock, &quot;The Lisp Curse&quot;</a></li></ul><h1>Implementation</h1><p>Below is the definition of the kless macro.</p><pre>;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+;!! Read identifiers with Metalocalypse Pickles&#39; accent !!!
 ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 (define-syntax kless
   ; `meth` is a reserved keyword inside the macro, i.e., it has a special
-  ; meaning and you can't name a kless or method &quot;meth&quot;
+  ; meaning and you can&#39;t name a kless or method &quot;meth&quot;
   (syntax-rules (meth)
 
     ;; TEMPLATE
@@ -29,13 +15,13 @@
 
      ;; RESULT
      (begin
-       ; If your Scheme of choice doesn't support curried definitions
+       ; If your Scheme of choice doesn&#39;t support curried definitions
        ; use lambda instead:
        ;   (define (kless-name ver-name ...)
        ;     (lambda (method self . args)
        (define ((kless-name ver-name ...) method self . args)
          (define (err sym)
-           (error (string-append &quot;'&quot; (symbol-&gt;string sym) &quot;'? dat shiet dun exist yo&quot;)))
+           (error (string-append &quot;&#39;&quot; (symbol-&gt;string sym) &quot;&#39;? dat shiet dun exist yo&quot;)))
 
          (define (getter ver)
            (case ver
@@ -60,23 +46,15 @@
        ;; [GS]etters
        (define (ver-name self . val)
          (if (null? val)
-             (self 'get self 'var-name)
-             (self 'set self 'var-name (car val)))) ...
+             (self &#39;get self &#39;var-name)
+             (self &#39;set self &#39;var-name (car val)))) ...
 
        ;; Custom methods
        (define (meth-name self meth-args ...)
-         (self 'meth-name self meth-args ...)) ...))))
-</code></pre>
-<p>With kless you can specify instance variables, with getters and destructive setters automatically defined for you, and instance (non-static) methods. Because the methods' bodies are inserted into the object itself, instance variables are in scope, and no extra magic is needed for making them available.</p>
-<p>Having two classes with methods (or variables, for that matter) of the same name results in two functions with exactly the same names and bodies being defined. By defining the two classes above (dek and blenk-dek), show-me is defined twice, like so:</p>
-<pre><code>(define (show-me self)
-  (self 'show-me self))
-</code></pre>
-<p>This is OK in Scheme, so dick-typing (a la Python) is supported.</p>
-<h1>Example klesses</h1>
-<p>The following example shows that/how kless works, and what OO is good for.</p>
-<p>Defining two classes:</p>
-<pre><code>;; Very important dek class! It is used to represent various types of deks
+         (self &#39;meth-name self meth-args ...)) ...))))
+</pre><p>With kless you can specify instance variables, with getters and destructive setters automatically defined for you, and instance (non-static) methods. Because the methods&#39; bodies are inserted into the object itself, instance variables are in scope, and no extra magic is needed for making them available.</p><p>Having two classes with methods (or variables, for that matter) of the same name results in two functions with exactly the same names and bodies being defined. By defining the two classes above (dek and blenk-dek), show-me is defined twice, like so:</p><pre>(define (show-me self)
+  (self &#39;show-me self))
+</pre><p>This is OK in Scheme, so dick-typing (a la Python) is supported.</p><h1>Example klesses</h1><p>The following example shows that/how kless works, and what OO is good for.</p><p>Defining two classes:</p><pre>;; Very important dek class! It is used to represent various types of deks
 (kless (dek x y)
        (meth (show-me)
              (print &quot;8&quot; (make-string x #\=) &quot;D&quot; (make-string y #\~))))
@@ -84,9 +62,7 @@
 (kless (blenk-dek x)
        (meth (show-me)
              (print &quot;8&quot; (make-string x #\=) &quot;D&quot;)))
-</code></pre>
-<p>Inspecting generated procedures and trying things out with csi (the CHICKEN Scheme Interpreter):</p>
-<pre><code>#;1&gt; dek
+</pre><p>Inspecting generated procedures and trying things out with csi (the CHICKEN Scheme Interpreter):</p><pre>#;1&gt; dek
 #&lt;procedure (dek x y)&gt;
 #;2&gt; blenk-dek
 #&lt;procedure (blenk-dek x)&gt;
@@ -100,26 +76,11 @@
 8==D~~~~
 #;7&gt; (show-me (blenk-dek 4))
 8====D
-</code></pre>
-<h1>Thorns</h1>
-<p>self is not in scope (or rather, self, the object itself, is in scope, but is not called self because of syntax-rules magic). Recursive methods are still possible, with a named-let or define. Just don't use other methods.</p>
-<p>No type predicate is defined, but can be easily implemented.</p>
-<p>No hierarchy, inheritance, no nothing!</p>
-<p>No &quot;static&quot; class methods. Because, what? Just make a function, prefix it with the class name and be done with it.</p>
-<p>No extending already defined classes, a la Haskell's type classes (instance ... where), or Rust's traits (impl). Put everything inside kless and dick-typing does the rest.</p>
-<p>Method overriding on a per object basis is not possible. This may be easy to implement. One way is to put a table inside the object, from method name to procedure (Symbol -> Method), and arrange a way to get and set that procedure from outside the object. A problem arises then: this new method doesn't have the instance variables in scope. One could be tempted to think that something like the following solves the problem.</p>
-<pre><code>(define (meth-setter meth-name meth-maker)
+</pre><h1>Thorns</h1><p>self is not in scope (or rather, self, the object itself, is in scope, but is not called self because of syntax-rules magic). Recursive methods are still possible, with a named-let or define. Just don&#39;t use other methods.</p><p>No type predicate is defined, but can be easily implemented.</p><p>No hierarchy, inheritance, no nothing!</p><p>No &quot;static&quot; class methods. Because, what? Just make a function, prefix it with the class name and be done with it.</p><p>No extending already defined classes, a la Haskell&#39;s type classes (instance ... where), or Rust&#39;s traits (impl). Put everything inside kless and dick-typing does the rest.</p><p>Method overriding on a per object basis is not possible. This may be easy to implement. One way is to put a table inside the object, from method name to procedure (Symbol -&gt; Method), and arrange a way to get and set that procedure from outside the object. A problem arises then: this new method doesn&#39;t have the instance variables in scope. One could be tempted to think that something like the following solves the problem.</p><pre>(define (meth-setter meth-name meth-maker)
   (update-meth-table meth-name (meth-maker ver-name ...)))
-</code></pre>
-<p>This would indeed bring the current variables into scope, but not future updates, as this new method's scope is not the same as the object's scope itself. (There was also something similar on Let Over Lambda IIRC)</p>
-<ul>
-<li><a href="https://letoverlambda.com">Let Over Lambda</a></li></ul>
-<p>Another option would be to have another indirection for the actual method's code, such that the current instance variables are given on each call. Calling one such method would be something like:</p>
-<pre><code>(((lambda (ver-name ...)    ; instance variables
+</pre><p>This would indeed bring the current variables into scope, but not future updates, as this new method&#39;s scope is not the same as the object&#39;s scope itself. (There was also something similar on Let Over Lambda IIRC)</p><ul><li><a href="https://letoverlambda.com">Let Over Lambda</a></li></ul><p>Another option would be to have another indirection for the actual method&#39;s code, such that the current instance variables are given on each call. Calling one such method would be something like:</p><pre>(((lambda (ver-name ...)    ; instance variables
     (lambda (meth-args ...) ; method parameters
       meth-body ...))       ; method body
   ver-name ...)             ; get the method procedure, with instance variables in scope
  meth-args ...)             ; call the method
-</code></pre>
-</body>
-</html>
+</pre></body></html>

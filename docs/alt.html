@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>nothing interesting here</h1>
-<h2>Alternative ways to access this capsule</h2>
-<p>This capsule is hosted on SourceHut Pages (Gemini &amp; HTTPS) and GitHub Pages (HTTPS). I also publish each version of the capsule to IPFS (with an ipfs:// URI) which contains both Gemtext and HTML files.</p>
-<p>SourceHut should be considered the main access point (as of now) and will continue to get updates unless I change places again and decide to drop it. GitHub should still get updates (unless I forget), but should be used only as a last resort -- I would much rather have you use SourceHut instead.</p>
-<p>Both the Gemini and the HTTPS versions of the capsule have the exact same content, so feel free to use whichever is more convenient to you. Just be warned that Gemini is my distribution/consumption target and that the Gemtext to HTML conversion is kind of a hack and may not exactly reflect the Gemtext content.</p>
-<p>The IPFS link that follows doesn't work if you're accessing the capsule through IPFS (due to technical reasons).</p>
-<ul>
-<li>
-<p><a href="https://portal.mozz.us/gemini/siiky.srht.site">(Gemini Portal) SourceHut (Gemini)</a></p></li>
-<li>
-<p><a href="https://siiky.srht.site">SourceHut (HTTPS)</a></p></li>
-<li>
-<p><a href="ipfs.html">IPFS (the version you're reading now)</a></p></li>
-<li>
-<p><a href="https://siiky.github.io">GitHub (HTTPS)</a></p></li></ul>
-<p>You may download the capsule as a whole (including gmi and HTML, assets, &amp;c) through IPFS with this command (the CID is available in the page linked to above):</p>
-<pre><code>ipfs get -o siiky.srht.site.tar.gz -a -C -l=9 -p -- CID
-</code></pre>
-<p>Here's the size of the downloaded archive and a snippet of its contents:</p>
-<pre><code>$ du -b siiky.srht.site.tar.gz; du -bh siiky.srht.site.tar.gz
-1785117 siiky.srht.site.tar.gz
-1.8M    siiky.srht.site.tar.gz
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>nothing interesting here</h1><h2>Alternative ways to access this capsule</h2><p>This capsule is hosted on SourceHut Pages (Gemini &amp; HTTPS) and GitHub Pages (HTTPS). I also publish each version of the capsule to IPFS (with an ipfs:// URI) which contains both Gemtext and HTML files.</p><p>SourceHut should be considered the main access point (as of now) and will continue to get updates unless I change places again and decide to drop it. GitHub should still get updates (unless I forget), but should be used only as a last resort -- I would much rather have you use SourceHut instead.</p><p>Both the Gemini and the HTTPS versions of the capsule have the exact same content, so feel free to use whichever is more convenient to you. Just be warned that Gemini is my distribution/consumption target and that the Gemtext to HTML conversion is kind of a hack and may not exactly reflect the Gemtext content.</p><p>The IPFS link that follows doesn&#39;t work if you&#39;re accessing the capsule through IPFS (due to technical reasons).</p><ul><li><a href="https://portal.mozz.us/gemini/siiky.srht.site">SourceHut (Gemini)</a></li><li><a href="https://siiky.srht.site">SourceHut (HTTPS)</a></li><li><a href="ipfs.html">IPFS (the version you&#39;re reading now)</a></li></ul><ul><li><a href="https://siiky.github.io">GitHub (HTTPS)</a></li></ul><p>You may download the capsule as a whole (including gmi and HTML, assets, &amp;c) through IPFS with this command (the CID is available in the page linked to above):</p><pre>ipfs get -o siiky.srht.site.tar.gz -a -C -l=9 -p -- CID
+</pre><p>Here&#39;s the size of the downloaded archive and a snippet of its contents:</p><pre>$ du -b siiky.srht.site.tar.gz; du -bh siiky.srht.site.tar.gz
+1785117	siiky.srht.site.tar.gz
+1.8M	siiky.srht.site.tar.gz
 
 $ tar tf siiky.srht.site.tar.gz | head
 CID
@@ -37,6 +14,4 @@ CID/algebra/ctp-cat-perf-h.gvs
 CID/algebra/ctp-cat-perf-h.png
 CID/algebra/ctp-cat-perf-h.svg
 CID/algebra/ctp-cat-perf.gvs
-</code></pre>
-</body>
-</html>
+</pre></body></html>

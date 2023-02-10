@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Exceptions (aka Conditions) in Scheme</h1>
-<p>siiky
-2019/08/13
-2022/10/15</p>
-<p>DISCLAIMER: I'm not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.</p>
-<p>Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., &quot;works? great!&quot;).</p>
-<h2>Conditions</h2>
-<p>Conditions are objects that represent an exception (like instances of a subclass of Exception in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It's also possible to throw non-condition objects (maybe for non-local or early return?).</p>
-<h2>Exception Handling</h2>
-<h3>Catching</h3>
-<p>A neat way to catch exceptions is with condition-case.</p>
-<ul>
-<li><a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case">condition-case</a></li></ul>
-<p>You give it an expression that may throw, give it the kinds of exceptions you are expecting and how to deal with each of them, and voila:</p>
-<pre><code>; General usage
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Exceptions (aka Conditions) in Scheme</h1><p>siiky<br></br>2019/08/13<br></br>2022/10/15</p><p>DISCLAIMER: I&#39;m not a very advanced Schemer, and conditions in Scheme are especially confusing to me. Please excuse any possibly wrong terminology or claims. If you have any comments, shoot me a message.</p><p>Exceptions are (in general) very weird things, but even more so in Scheme. I have little (close to none) experience with them, and the little that I have was attained from need (i.e., &quot;works? great!&quot;).</p><h2>Conditions</h2><p>Conditions are objects that represent an exception (like instances of a subclass of Exception in Java, maybe?), and in Scheme you can use them just like any other object. You can create one, pass it around, and not even throw it. It&#39;s also possible to throw non-condition objects (maybe for non-local or early return?).</p><h2>Exception Handling</h2><h3>Catching</h3><p>A neat way to catch exceptions is with condition-case.</p><ul><li><a href="https://api.call-cc.org/5/doc/chicken/condition/condition-case">condition-case</a></li></ul><p>You give it an expression that may throw, give it the kinds of exceptions you are expecting and how to deal with each of them, and voila:</p><pre>; General usage
 (condition-case expression
   ((kind1 kind2) (print &quot;kind1 kind2&quot;) ...)
   ((kind) (print &quot;kind&quot;) ...)
-  ; con needn't be a condition
+  ; con needn&#39;t be a condition
   (con () (print &quot;some other kind: &quot; con) ...))
 
 ; Concrete example
@@ -43,28 +24,7 @@
 ;; This is part of the expression
 ;; Some arithmetic error
 ;; =&gt; 0
-</code></pre>
-<p>If no exception is thrown when evaluating the expression, the value of the condition-case block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).</p>
-<p>The condition cases should be ordered from more specific to less specific, because the first one to match is picked. For example, a condition of kind (exn type) is also of kind (exn), so the former should be above the latter.</p>
-<pre><code>(condition-case (car 'some-val)
+</pre><p>If no exception is thrown when evaluating the expression, the value of the condition-case block is that of the expression. If an exception is thrown, then the value is that of the last of the expressions associated with the first matching branch. If there is no matching branch, the exception is propagated, until a handler for it is found (or none, in which case the program crashes).</p><p>The condition cases should be ordered from more specific to less specific, because the first one to match is picked. For example, a condition of kind (exn type) is also of kind (exn), so the former should be above the latter.</p><pre>(condition-case (car &#39;some-val)
   ((exn)      (print &quot;Wrong type&quot;))
   ((exn type) (print &quot;This will never happen&quot;)))
-</code></pre>
-<h3>Throwing</h3>
-<p>If you want to throw something, use signal. There are also abort and raise, but I don't know why/when one should use them. In CHICKEN, SRFI-18's raise is just signal, but this may change in the future and might not even be the case in other implementations.</p>
-<p>UPDATE:</p>
-<blockquote>
-<p>The only thing I would change is that raise is more portable/standard than signal.</p></blockquote>
-<p>-- jcowan on #chicken@libera.chat, 2022/10/15</p>
-<ul>
-<li><a href="https://api.call-cc.org/5/doc/chicken/condition/signal">signal</a></li>
-<li><a href="https://api.call-cc.org/5/doc/chicken/condition/abort">abort</a></li>
-<li><a href="https://api.call-cc.org/5/doc/srfi-18/raise">raise</a></li>
-<li><a href="https://srfi.schemers.org/srfi-18/srfi-18.html">SRFI-18</a></li></ul>
-<h2>Related Topics of Interest</h2>
-<ul>
-<li>Continuable and non-continuable exceptions;</li>
-<li>How is all this implemented?</li>
-<li>How to make a condition and how to get things out of a condition object.</li></ul>
-</body>
-</html>
+</pre><h3>Throwing</h3><p>If you want to throw something, use signal. There are also abort and raise, but I don&#39;t know why/when one should use them. In CHICKEN, SRFI-18&#39;s raise is just signal, but this may change in the future and might not even be the case in other implementations.</p><p>UPDATE:</p><blockquote>The only thing I would change is that raise is more portable/standard than signal.</blockquote><p>-- jcowan on #chicken@libera.chat, 2022/10/15</p><ul><li><a href="https://api.call-cc.org/5/doc/chicken/condition/signal">signal</a></li><li><a href="https://api.call-cc.org/5/doc/chicken/condition/abort">abort</a></li><li><a href="https://api.call-cc.org/5/doc/srfi-18/raise">raise</a></li><li><a href="https://srfi.schemers.org/srfi-18/srfi-18.html">SRFI-18</a></li></ul><h2>Related Topics of Interest</h2><ul><li>Continuable and non-continuable exceptions;</li><li>How is all this implemented?</li><li>How to make a condition and how to get things out of a condition object.</li></ul></body></html>

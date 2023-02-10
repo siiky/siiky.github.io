@@ -1,90 +1,37 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Scheme Gemtext Reader</h1>
-<p>siiky
-2022/07/05
-2022/07/05</p>
-<p>Yesterday I made a Scheme library to read Gemtext into a simple AST: a list of lines of text, headers, links, list blocks, or code blocks.</p>
-<h2>Text</h2>
-<pre><code>some text
-
-
-
-&quot;some text&quot;
-</code></pre>
-<p>Just a string, not tagged in any way. Empty lines are kept.</p>
-<h2>Headers</h2>
-<pre><code>^(#+)\s+(.*)$
-
-
-
-`(header ,(string-length $1) ,$2)
-</code></pre>
-<p>If <em>strict-gemtext-headers</em> is enabled, header lines of level > 3 are not considered headers.</p>
-<pre><code>##### title
-
-
-
-&quot;##### title&quot;       ; (w/ *strict-gemtext-headers* enabled)
-'(header 5 &quot;title&quot;) ; (w/ *strict-gemtext-headers* disabled)
-</code></pre>
-<h2>Links</h2>
-<pre><code>=&gt; some-uri.gmi Optional alt text
-
-
-
-'(link &quot;some-uri.gmi&quot; &quot;Optional alt text&quot;)
-</code></pre>
-<p>If there's no alt text, the empty string is used:</p>
-<pre><code>=&gt; some-uri.gmi
-
-
-
-'(link &quot;some-uri.gmi&quot; &quot;&quot;)
-</code></pre>
-<h2>Lists</h2>
-<pre><code>* item 1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Scheme Gemtext Reader</h1><p>siiky<br></br>2022/07/05<br></br>2022/07/05</p><p>Yesterday I made a Scheme library to read Gemtext into a simple AST: a list of lines of text, headers, links, list blocks, or code blocks.</p><h2>Text</h2><pre>some text
+</pre><pre>&quot;some text&quot;
+</pre><p>Just a string, not tagged in any way. Empty lines are kept.</p><h2>Headers</h2><pre>^(#+)\s+(.*)$
+</pre><pre>`(header ,(string-length $1) ,$2)
+</pre><p>If *strict-gemtext-headers* is enabled, header lines of level &gt; 3 are not considered headers.</p><pre>##### title
+</pre><pre>&quot;##### title&quot;       ; (w/ *strict-gemtext-headers* enabled)
+&#39;(header 5 &quot;title&quot;) ; (w/ *strict-gemtext-headers* disabled)
+</pre><h2>Links</h2><pre>=&gt; some-uri.gmi Optional alt text
+</pre><pre>&#39;(link &quot;some-uri.gmi&quot; &quot;Optional alt text&quot;)
+</pre><p>If there&#39;s no alt text, the empty string is used:</p><pre>=&gt; some-uri.gmi
+</pre><pre>&#39;(link &quot;some-uri.gmi&quot; &quot;&quot;)
+</pre><h2>Lists</h2><pre>* item 1
 * item 2
-
-
-
-'(list &quot;item 1&quot;
+</pre><pre>&#39;(list &quot;item 1&quot;
        &quot;item 2&quot;)
-</code></pre>
-<h2>Code blocks</h2>
-<p>(pretend there's no space between the three backticks)</p>
-<pre><code>`` `some optional alt text
+</pre><h2>Code blocks</h2><p>(pretend there&#39;s no space between the three backticks)</p><pre>`` `some optional alt text
 some
 pre-formatted
 text
 `` `
-
-
-
-'(code &quot;some optional alt text&quot;
+</pre><pre>&#39;(code &quot;some optional alt text&quot;
        &quot;some&quot;
        &quot;pre-formatted&quot;
        &quot;text&quot;)
-</code></pre>
-<p>If there's no alt text, the empty string is used:</p>
-<pre><code>`` `some optional alt text
+</pre><p>If there&#39;s no alt text, the empty string is used:</p><pre>`` `some optional alt text
 some
 pre-formatted
 text
 `` `
-
-
-
-'(code &quot;&quot;
+</pre><pre>&#39;(code &quot;&quot;
        &quot;some&quot;
        &quot;pre-formatted&quot;
        &quot;text&quot;)
-</code></pre>
-<h2>Example</h2>
-<pre><code># Factorial
+</pre><h2>Example</h2><pre># Factorial
 
 There are two steps to compute the factorial of a number:
 
@@ -96,15 +43,12 @@ There are two steps to compute the factorial of a number:
 
 ## Haskell code
 
-Here's the code in Haskell:
+Here&#39;s the code in Haskell:
 
 `` `hs
 fact n = prod [1..n]
 `` `
-
-
-
-'((header 1 &quot;Factorial&quot;)
+</pre><pre>&#39;((header 1 &quot;Factorial&quot;)
   &quot;&quot;
   &quot;There are two steps to compute the factorial of a number:&quot;
   &quot;&quot;
@@ -116,16 +60,12 @@ fact n = prod [1..n]
   &quot;&quot;
   (header 2 &quot;Haskell code&quot;)
   &quot;&quot;
-  &quot;Here's the code in Haskell:&quot;
+  &quot;Here&#39;s the code in Haskell:&quot;
   &quot;&quot;
   (code &quot;hs&quot;
         &quot;fact n = prod [1..n]&quot;))
-</code></pre>
-<h2>Output Patterns</h2>
-<pre><code>(header level title)
+</pre><h2>Output Patterns</h2><pre>(header level title)
 (link uri alt-text)
 (code alt-text . lines)
 (list . items)
-</code></pre>
-</body>
-</html>
+</pre></body></html>

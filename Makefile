@@ -2,6 +2,7 @@ include env.make
 
 # Scripts
 GEMINID := ./geminid.scm
+GMI2HTML := ./gmi2html
 GMI2MD := ./gmi2md
 GRAPH2GVS := ./graph2gvs.scm
 IPFS_PUBLISH := ./ipfs-publish.scm
@@ -19,6 +20,7 @@ MD2HTML := ./md2html
 
 SCRIPTS := \
  $(GEMINID) \
+ $(GMI2HTML) \
  $(GMI2MD) \
  $(GRAPH2GVS) \
  $(IPFS_PUBLISH) \
@@ -219,8 +221,8 @@ cv-en.pdf: cv-en.md
 
 # Text files rules
 
-%.html: %.gmi $(GMI2MD) $(MD2HTML)
-	$(GMI2MD) $< | $(MD2HTML) standalone > $@
+%.html: %.gmi $(GMI2HTML)
+	$(GMI2HTML) $< > $@
 
 %.html: %.md
 	$(MD2HTML) standalone < $< > $@

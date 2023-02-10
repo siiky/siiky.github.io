@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head><meta charset="utf-8"/></head>
-<body>
-
-<h1>Pipes</h1>
-<p>siiky
-2022/01/09
-2022/07/07</p>
-<p>I've been using my own pipe operators for a while. This is the latest definition:</p>
-<pre><code>(define (*=&gt; vals . funs)
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><body><h1>Pipes</h1><p>siiky<br></br>2022/01/09<br></br>2022/07/07</p><p>I&#39;ve been using my own pipe operators for a while. This is the latest definition:</p><pre>(define (*=&gt; vals . funs)
   (foldl (lambda (val fun) (fun val))
          (apply (car funs) vals)
          (cdr funs)))
@@ -23,9 +13,7 @@
 
 (define ((-&gt; . funs) val)
   (foldl (lambda (val fun) (fun val)) val funs))
-</code></pre>
-<p>And this is the original definition (with slightly different semantics):</p>
-<pre><code>(define (=*&gt; val funs)
+</pre><p>And this is the original definition (with slightly different semantics):</p><pre>(define (=*&gt; val funs)
   (foldl (lambda (val fun) (fun val)) val funs))
 
 (define ((-*&gt; funs) val)
@@ -36,16 +24,9 @@
 
 (define ((-&gt; . funs) val)
   (=*&gt; val funs))
-</code></pre>
-<p>Comparing with Scheme's <code>o</code>:</p>
-<pre><code>(o snd fst)
+</pre><p>Comparing with Scheme&#39;s `o`:</p><pre>(o snd fst)
 (-&gt; fst snd)
-</code></pre>
-<p>There's no equivalent to Scheme's <code>compose</code>.</p>
-<p>I've never used =<em>> and -</em>> directly (they're there just in case, and as the base for the other two), but I've grown attached to -> and =&gt;.</p>
-<p>The reasoning behind the names is simple: think of a function as a &quot;processing pipe&quot;. -> is a chain of such pipes, and a pipe on its own, without &quot;contents&quot; -- you have to plug something on one end to get something on the other end. On the other hand, =&gt; already has the stuff plugged in, ready to go, so it's fatter.</p>
-<p>Some uses:</p>
-<pre><code>(map (-&gt; do-this
+</pre><p>There&#39;s no equivalent to Scheme&#39;s `compose`.</p><p>I&#39;ve never used =*&gt; and -*&gt; directly (they&#39;re there just in case, and as the base for the other two), but I&#39;ve grown attached to -&gt; and =&gt;.</p><p>The reasoning behind the names is simple: think of a function as a &quot;processing pipe&quot;. -&gt; is a chain of such pipes, and a pipe on its own, without &quot;contents&quot; -- you have to plug something on one end to get something on the other end. On the other hand, =&gt; already has the stuff plugged in, ready to go, so it&#39;s fatter.</p><p>Some uses:</p><pre>(map (-&gt; do-this
          and-that)
      some-list)
 
@@ -60,19 +41,7 @@
 (filter (o not screwed?)
         (map (-&gt; do-this and-that)
              some-list))
-</code></pre>
-<p>(-> do-this and-that) is an unary function -- that's why it can be given to map.</p>
-<p>(=&gt; some-list ...) evaluates to a value, which is the result of applying the filter to the result of applying the map to some-list.</p>
-<p>The third and fourth expressions, ((-> ...) some-list) and (filter ...), are equivalent to the second.</p>
-<p>Note the use of o instead of -> in the filter's predicate. Personal preference, but I think that case reads better with o because it's more like English.</p>
-<hr />
-<p>But now that'll probably be the end of them for me.</p>
-<p>Yesterday I learned of SRFI-197 -- very cool! There's even an egg for CHICKEN already.</p>
-<ul>
-<li><a href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a></li>
-<li><a href="https://wiki.call-cc.org/eggref/5/srfi-197">SRFI-197 egg</a></li></ul>
-<p>And I can rename the exported identifiers to the ones I've been using:</p>
-<pre><code>(import
+</pre><p>(-&gt; do-this and-that) is an unary function -- that&#39;s why it can be given to map.</p><p>(=&gt; some-list ...) evaluates to a value, which is the result of applying the filter to the result of applying the map to some-list.</p><p>The third and fourth expressions, ((-&gt; ...) some-list) and (filter ...), are equivalent to the second.</p><p>Note the use of o instead of -&gt; in the filter&#39;s predicate. Personal preference, but I think that case reads better with o because it&#39;s more like English.</p><p>-----</p><p>But now that&#39;ll probably be the end of them for me.</p><p>Yesterday I learned of SRFI-197 -- very cool! There&#39;s even an egg for CHICKEN already.</p><ul><li><a href="https://srfi.schemers.org/srfi-197/srfi-197.html">SRFI-197</a></li><li><a href="https://wiki.call-cc.org/eggref/5/srfi-197">SRFI-197 egg</a></li></ul><p>And I can rename the exported identifiers to the ones I&#39;ve been using:</p><pre>(import
   chicken.module
   (rename
     (only srfi-197
@@ -80,9 +49,7 @@
           chain-lambda)
     (chain =&gt;)
     (chain-lambda -&gt;)))
-</code></pre>
-<p>With that, the previous example is written like so:</p>
-<pre><code>(map (-&gt; (do-this _)
+</pre><p>With that, the previous example is written like so:</p><pre>(map (-&gt; (do-this _)
          (and-that _))
      some-list)
 
@@ -97,11 +64,4 @@
 (filter (o not screwed?)
         (map (-&gt; (do-this _) (and-that _))
              some-list))
-</code></pre>
-<p>Maybe the advantage(s) aren't obvious (maybe they're not advantages at all!),
-but to me not having to write <code>cute</code> for non-unary functions is a plus, even if
-I'm now forced to write parenthesis and an underscore on every unary function.</p>
-<p>I guess the only situation(s) I don't see myself using it is if I want to avoid
-dependencies.</p>
-</body>
-</html>
+</pre><p>Maybe the advantage(s) aren&#39;t obvious (maybe they&#39;re not advantages at all!),<br></br>but to me not having to write `cute` for non-unary functions is a plus, even if<br></br>I&#39;m now forced to write parenthesis and an underscore on every unary function.</p><p>I guess the only situation(s) I don&#39;t see myself using it is if I want to avoid<br></br>dependencies.</p></body></html>
