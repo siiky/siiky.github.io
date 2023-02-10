@@ -103,7 +103,7 @@ wiki: wiki-html wiki-generated-html
 site: index site-html
 
 .PHONY: assets
-assets: svg png atom graph.svg
+assets: svg png atom
 
 .PHONY: assets
 index: $(ROOT)/index.html
