@@ -224,7 +224,7 @@ cv-en.pdf: cv-en.md
 %.html: %.gmi $(GMI2HTML)
 	$(GMI2HTML) $< > $@
 
-%.html: %.md
+%.html: %.md $(MD2HTML)
 	$(MD2HTML) standalone < $< > $@
 
 %.html: %.org
@@ -243,6 +243,9 @@ cv-en.pdf: cv-en.md
 
 %.svg: %.gp
 	cd $(shell dirname "$<") && $(GNUPLOT) -c $(shell basename "$<")
+
+%: %.scm
+	csc $<
 
 .PHONY: push
 push:

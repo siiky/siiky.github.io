@@ -49,7 +49,7 @@ This faucet type has two 1D handles, or knobs: one for cold water, and one for h
 
 In this type of faucet, the water pressure is simply the sum of hot water pressure and cold water pressure. There's a catch, however: the pressure of hot and cold water being independent, the maximum hot and cold water pressure must be half of the maximum faucet water pressure.
 
-And the water temperature is simply the ratio of hot water over the total amount of water:  hot water pressure over faucet pressure.
+And the water temperature is simply the ratio of hot water over the total amount of water: hot water pressure over faucet pressure.
 
 This is what we have algebraically:
 
@@ -57,7 +57,7 @@ This is what we have algebraically:
 * ColdPressure :: Percentage
 * FaucetState :: HotPressure ∗ ColdPressure
 
-fA  :: FaucetState → WaterState
+fA :: FaucetState → WaterState
 fA (h, c) ↦ ((h + c) / 2, h / (h + c))
 
 ### Proof

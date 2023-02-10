@@ -29,42 +29,23 @@
     ((eprint expr ...)
      (with-output-to-port (current-error-port) (cute print expr ...)))))
 
-
-(define (gemini-uri? uri)
-  (string-prefix? gemini:// uri))
-
+(define gemini-uri? (cute string-prefix? gemini:// <>))
+(define wikipedia-uri (cute string-append https:// <> ".wikipedia.org/wiki/" <>))
+(define local-file-exists? (compose file-exists? make-absolute-pathname))
+(define convert? (o (cute member <> source-extensions) pathname-extension))
+(define extension/gmi->html (cute pathname-replace-extension <> ".html"))
 
 (define gemipedia-uri?
   (let ((re (irregex "gemini://gemi\\.dev/cgi-bin/wp\\.cgi/view/([a-z]{2})\\?(.*)" 'utf8)))
     (cute irregex-match re <>)))
 
-
-(define (wikipedia-uri lang article)
-  (string-append https:// lang ".wikipedia.org/wiki/" article))
-
-
-(define (gemini->portal uri)
-  (chain uri
-         (substring/shared _ (string-length gemini://))
-         (string-append "https://portal.mozz.us/gemini/" _)))
-
-
-(define (local-file-exists? base file)
-  (file-exists? (make-absolute-pathname base file)))
-
-
-(define (convert? directory uri)
-  (member (pathname-extension uri) source-extensions))
-
-
-(define (extension/gmi->html uri)
-  (pathname-replace-extension uri ".html"))
-
+(define gemini->portal
+  (chain-lambda
+    (substring/shared _ (string-length gemini://))
+    (string-append "https://portal.mozz.us/gemini/" _)))
 
 (define (external-uri? uri)
-  (any (cute string-prefix? <> uri)
-       `(,http:// ,https:// ,magnet ,ipfs://)))
-
+  (any (cute string-prefix? <> uri) `(,http:// ,https:// ,magnet ,ipfs://)))
 
 (define (rewrite-uri directory input-filename uri)
   (cond
@@ -75,20 +56,16 @@
             (wikipedia-uri lang article))))
 
     ; Full gemini:// URI (assume external)
-    ((gemini-uri? uri)
-     (gemini->portal uri))
+    ((gemini-uri? uri) (gemini->portal uri))
 
     ; Full non-gemini:// URI (assume external)
-    ((external-uri? uri)
-     uri)
+    ((external-uri? uri) uri)
 
     ; Local relative URI
-    ((convert? directory uri)
-     (cond
-       ((local-file-exists? directory uri)
-        (extension/gmi->html uri))
-
-       (else
+    ((convert? uri)
+     (if (local-file-exists? directory uri)
+       (extension/gmi->html uri)
+       (begin
          (eprint "ERROR: " input-filename ": URI seems to be local but there's no such file: " uri)
          uri)))
 
@@ -97,42 +74,36 @@
       (eprint "This URI was unexpected: " uri)
       uri)))
 
-
 (define (sxml-rules directory input-filename)
   (define (*text* _ str) str)
   (define (*default* . x) x)
   (define (a _ attrs . text)
-    ;(eprint "<a> attrs (before): " attrs)
     (let* ((attrs (cdr attrs))
            (uri (rewrite-uri directory input-filename (car (alist-ref 'href attrs))))
            (attrs (alist-update 'href `(,uri) attrs))
            (attrs `(@ . ,attrs)))
-      ;(eprint "<a> attrs (after): " attrs)
       `(a ,attrs . ,text)))
 
   `((a . ,a)
     (*text* . ,*text*)
     (*default* . ,*default*)))
 
-
 (define ((convert lang directory input-filename))
   (let* ((sxml (geminih))
          (sxml (pre-post-order sxml (sxml-rules directory input-filename)))
          (sxml `(html (@ (lang ,lang) (xml:lang ,lang))
+                      (head (meta (@ (charset "utf-8"))))
                       (body ,@sxml))))
     (display doctype-xhtml-1.0-strict)
     (sxml-display-as-html sxml)))
 
-
-(define (get-path-things input-filename)
-  (decompose-pathname (make-absolute-pathname (current-directory) input-filename)))
-
+(define get-path-things
+  (o decompose-pathname (cute make-absolute-pathname (current-directory) <>)))
 
 (define (main args)
   (let ((input-filename (car args))
-        (lang "en"))
+        (lang "en")) ; TODO
     (receive (directory _filename _extension) (get-path-things input-filename)
       (with-input-from-file input-filename (convert lang directory input-filename)))))
-
 
 (main (command-line-arguments))

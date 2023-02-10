@@ -185,15 +185,15 @@ When n=2 we get Z₂ = { [0]₂, [1]₂ }.
 So [0]₂ = 2Z is the set of even integers. You can probably guess by now, but:
 
 [1]₂
-  = (def [m]n)
+  = { def [m]n }
 { x : x ∈ Z, x = 1 (mod 2) }
-  = (def (mod n))
+  = { def (mod n) }
 { x : x ∈ Z, x mod 2 = 1 mod 2 }
-  = (1 mod 2 = 1)
+  = { 1 mod 2 = 1 }
 { x : x ∈ Z, x mod 2 = 1 }
-  = (x mod 2 = 1 ⇒ ∃ k ∈ Z: x = 2 ∗ k + 1)
+  = { x mod 2 = 1 ⇒ ∃ k ∈ Z: x = 2 ∗ k + 1 }
 { 2 ∗ x + 1 : x ∈ Z }
-  = (def 2Z+1)
+  = { def 2Z+1 }
 2Z+1
 
 And with that you see that [1]₂ is the set of odd integers.
