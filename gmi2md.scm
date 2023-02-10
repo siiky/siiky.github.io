@@ -197,6 +197,6 @@
 ; ./gmi2md.scm docs/directory/file.gmi
 (define (main args)
   (let ((input-filename (car args)))
-    (with-input-from-file (car args) (cute gmi2md input-filename))))
+    (with-input-from-file input-filename (cute gmi2md input-filename))))
 
 (main (command-line-arguments))
