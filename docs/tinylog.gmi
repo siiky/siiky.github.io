@@ -7,10 +7,27 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-10 00:32 +0000
+Welp, it's been almost half a year since I mentioned the SourceHut IRC bouncer (§2022-09-19 11:23)... That didn't work out so well. Apparently irssi doesn't have the necessary features to be able to fetch past history.
+During FOSDEM 2023 I got to try Matrix a bit more (I already had an account) and, well, it's not all that bad. The "default" web client (Element) kinda sucks (because, web). But I got to try FluffyChat (desktop & Android), Nheko, Syphon, and Element (on Android), and here's the verdict:
+* Nheko is pretty nice (thanks to @c-keen:nerdberg.de from #chicken for the recommendation)
+* Element on Android is not nearly as sucky as Element on the browser
+* FluffyChat is decent on Android (liking it more than Element, though there's an annoying bug), but not so much on the desktop -- why won't it use as much screen space as possible?! why keep everything in such a narrow strip in the middle of the screen?!
+* Syphon looks really promising! But it's not ready for everyday use...
+So on the desktop I'm probably settled on Nheko for now. On Android I'm still given both FluffyChat and Element a try, but I'm tending to FluffyChat.
+In the future I'm thinking of having a couple of separate accounts so FluffyChat is so far the winner there -- it's the only client of those I tried that has (beta) support for several accounts. So unless Nheko changes that eventually, I'mma move...
+=> https://matrix.org
+=> https://syphon.org
+=> https://nheko-reborn.github.io
+=> https://fluffychat.im
+=> https://f-droid.org/packages/im.vector.app
+=> tinylog-2022.gmi
+=> wiki/fosdem2023.gmi
+
 ## 2023-02-09 00:36 +0000
 Just created and published my first Lua library! It's just a port (of sorts) of my gmi.scm library.
 => https://luarocks.org/modules/siiky/gmi
-=> ../projects/gemtext.gmi Scheme Gemtext Reader
+=> projects/gemtext.gmi Scheme Gemtext Reader
 
 ## 2023-02-08 11:51 +0000
 The "wiki"-like thing is kinda live! I still don't link to it from the main capsule's index, but it's been there for a few days. I've added almost all of the talks I watched at FOSDEM 2023 plus a few more pages.
@@ -88,10 +105,10 @@ In all, we spent much more time trying to get the things working than racing, bu
 
 ## 2023-01-29 01:41 +0000
 A friend the other day sent me this video about Roman concrete. I hadn't ever thought about the subject but, in fact, it's remarkable that Roman structures are still standing to this day (being human-made and all).
-=> https://invidious.snopyta.org/watch?v=HYyyx2dNvPw We FINALLY Figured Out The Secret of Roman Concrete
+=> wiki/v.finally-figured-roman-concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete
 This specific video suggested that how/why it worked was something we discovered only recently. However...
-=> https://invidious.snopyta.org/watch?v=tOhAfaFboNU How To Make Roman Concrete
-=> https://invidious.snopyta.org/watch?v=4VVJ9KyFepk How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
+=> wiki/v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
+=> wiki/v.htme.how-to-make-roman-concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
 Not so much? I couldn't quite understand what's up with that. But I learned of Roman concrete, interesting!
 
 ## 2023-01-24 11:58 +0000

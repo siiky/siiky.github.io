@@ -14,6 +14,9 @@
 => ../pl.go.gmi Go (programming language)
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.luarocks.gmi Hisham Muhammad, "LuaRocks and the challenges of minimalism"
+=> ../v.how-frogs-cooked-dinner.gmi How the Frogs Cooked Dinner
+=> ../v.htme.how-to-make-roman-concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
+=> ../v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
 => ../fosdem2023.lipsscheme.gmi Jakub Jankiewicz, "LIPS Scheme"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
@@ -32,6 +35,7 @@
 => ../index.gmi nothing interesting wiki
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
+=> ../roman-concrete.gmi Roman concrete
 => ../pl.scheme.gmi Scheme (programming language)
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
@@ -39,6 +43,8 @@
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
 => ../trainspotter.gmi Trainspotter
+=> ../v.visiting-worlds-most-dangerous-country.gmi Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )
+=> ../v.finally-figured-roman-concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.keyoxide.gmi Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
 => ../20230204.gmi 2023/02/04

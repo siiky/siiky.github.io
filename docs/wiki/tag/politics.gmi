@@ -1,2 +1,1 @@
 => ../v.how-frogs-cooked-dinner.gmi 2023-02-10 How the Frogs Cooked Dinner
-=> ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"

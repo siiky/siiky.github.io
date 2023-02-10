@@ -1,6 +1,8 @@
 => conference.gmi
 => cryptography.gmi
+=> engineering.gmi
 => environment.gmi
+=> ethics.gmi
 => event.gmi
 => gemini.gmi
 => ipfs.gmi
@@ -10,12 +12,17 @@
 => network.gmi
 => os.gmi
 => p2p.gmi
+=> philosophy.gmi
+=> politics.gmi
 => post.gmi
 => programming.gmi
 => railway.gmi
 => scheme.gmi
+=> science.gmi
 => security.gmi
 => society.gmi
 => talk.gmi
 => tools.gmi
+=> travel.gmi
 => type-theory.gmi
+=> video.gmi

@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/02/06
+2023/02/09
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://idiomdrottning.org/phonics 2023-02-09 Phonics vs Whole Language Instruction
 
 => gemini://gemini.it.abiscuola.com/gemlog/2023/01/25/elettrificazione-socializzata.gmi 2023-02-06 Elettrificazione socializzata
 

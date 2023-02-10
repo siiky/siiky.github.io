@@ -1,0 +1,15 @@
+# How the Frogs Cooked Dinner
+siiky
+2023/02/10
+2023/02/10
+2023/02/10
+video,philosophy,ethics,politics,society
+
+=> https://invidious.snopyta.org/watch?v=P9Q3crLWQY8
+
+Funny video about fable of the scorpion and the frog. The scorpion is a "selfish bastard" that lies to and leeches off of the other animals. This is of course the fault of the other animals and the scorpion couldn't behave in any other way. The end has a twist.
+
+Mentioned it on my tinylog in 2022-07-28 11:03.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Scorpion_and_the_Frog
+=> ../tinylog.gmi
