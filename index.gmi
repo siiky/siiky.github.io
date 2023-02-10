@@ -3,11 +3,13 @@
 This is where you'll find nothing interesting, welcome.
 
 => about.gmi About
-=> tinylog.gmi Tinylog
-=> reclog.gmi Reclog
-=> alt.gmi Alternative ways to access this capsule
 => follow.gmi Follow
 => contact.gmi Contact
+
+=> tinylog.gmi Tinylog
+=> reclog.gmi Reclog
+=> wiki/index.gmi Public personal Wiki-like thing
+=> alt.gmi Alternative ways to access this capsule
 
 ## Posts
 
