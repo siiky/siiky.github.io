@@ -18,10 +18,10 @@ MAKE_WIKI_TITLE_LIST := ./make-wiki-title-list.sh
 MAKE_WIKI_UPDATED_LIST := ./make-wiki-updated-list.sh
 MD2HTML := ./md2html
 
-SCRIPTS := \
+SCRIPT_SRC := \
  $(GEMINID) \
- $(GMI2HTML) \
- $(GMI2MD) \
+ $(GMI2HTML).scm \
+ $(GMI2MD).scm \
  $(GRAPH2GVS) \
  $(IPFS_PUBLISH) \
  $(MAKE_ATOM) \
@@ -34,7 +34,7 @@ SCRIPTS := \
  $(MAKE_WIKI_TAGS) \
  $(MAKE_WIKI_TITLE_LIST) \
  $(MAKE_WIKI_UPDATED_LIST) \
- $(MD2HTML) \
+ $(MD2HTML).scm \
 
 GVS2GV := gvs2gv
 GNUPLOT := gnuplot
@@ -205,7 +205,7 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 
 .PHONY: watch
 watch:
-	ls -1d Makefile cv-en.md index.gmi $(SCRIPTS) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) $(ROOT) | entr -d -n -c $(MAKE)
+	ls -1d Makefile cv-en.md index.gmi $(SCRIPT_SRC) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) $(ROOT) | entr -d -n -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<
