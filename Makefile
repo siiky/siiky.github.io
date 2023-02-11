@@ -158,8 +158,7 @@ $(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS)
 # TODO: Reliably find and convert all generated files
 #$(MAKE) $($(wildcard $(WIKI_BY)/*.gmi):.gmi:.html) $($(wildcard $(WIKI_TAG)/*.gmi):.gmi=.html)
 .PHONY: wiki-generated-html
-wiki-generated-html: $(WIKI_META) wiki-lists
-	$(MAKE) $(WIKI_GENERATED_HTML)
+wiki-generated-html: $(WIKI_META) wiki-lists $(WIKI_GENERATED_HTML)
 
 # TODO: Split IPFS add from publish
 
