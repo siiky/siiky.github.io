@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><head><meta charset="utf-8"></meta></head><body><h1>Scheme Gemtext Reader</h1><p>siiky<br></br>2022/07/05<br></br>2022/07/05</p><p>Yesterday I made a Scheme library to read Gemtext into a simple AST: a list of lines of text, headers, links, list blocks, or code blocks.</p><h2>Text</h2><pre>some text
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><head><meta charset="utf-8"></meta></head><body><h1>Scheme Gemtext Reader</h1><p>siiky<br></br>2022/07/05<br></br>2022/07/05<br></br>en</p><p>Yesterday I made a Scheme library to read Gemtext into a simple AST: a list of lines of text, headers, links, list blocks, or code blocks.</p><h2>Text</h2><pre>some text
 </pre><pre>&quot;some text&quot;
 </pre><p>Just a string, not tagged in any way. Empty lines are kept.</p><h2>Headers</h2><pre>^(#+)\s+(.*)$
 </pre><pre>`(header ,(string-length $1) ,$2)
