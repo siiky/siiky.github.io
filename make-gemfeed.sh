@@ -4,6 +4,6 @@ meta=$2
 
 cat "$header"
 
-while IFS='	' read update cdate title uri; do
+while IFS='	' read update cdate title uri lang; do
   echo "=> $uri $update $title"
 done < "$meta"
