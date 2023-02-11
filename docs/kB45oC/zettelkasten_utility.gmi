@@ -2,6 +2,7 @@
 siiky
 2022/08/10
 2022/08/11
+en
 
 I started almost a year ago (damn!) using Org Roam to finally try and organize my notes and random things I write. I heard about zettelkasten I don't even remember whence anymore, but it stuck with me. I spent a couple of weeks learning more about it, searching for (software) systems, &c, until I finally settled on Org Roam. As a Vim user this was a very... interesting experience! But let's leave that for another day.
 

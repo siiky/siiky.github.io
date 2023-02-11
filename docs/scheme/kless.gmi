@@ -2,6 +2,7 @@
 siiky
 2019/10/13
 2022/07/07
+en
 
 I read recently a blog post called The Lisp Curse (not yet HTTPS enabled, but hoping it will be in the future). In this post, the author, Rudolf Winestock, says that "Making Scheme object-oriented is a sophomore homework assignment"; and so, for fun, I tried hacking an abstraction for defining classes in Scheme, with the little knowledge of macros that I have.
 

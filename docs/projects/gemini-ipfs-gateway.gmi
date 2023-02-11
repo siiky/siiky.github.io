@@ -2,6 +2,7 @@
 siiky
 2022/08/07
 2022/08/08
+en
 
 I've been slowly working on a read-only Gemini IPFS gateway -- or is it an IPFS Gemini gateway? I still don't know... It's a Gemini server you can use to access the IPFS network, like the Kubo's HTTP gateway.
 

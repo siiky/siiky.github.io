@@ -2,6 +2,7 @@
 siiky
 2022/09/19
 2022/09/19
+en
 
 => gemini://the-brannons.com/tech-and-conscience Technology and Conscience
 

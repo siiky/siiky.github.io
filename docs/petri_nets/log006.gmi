@@ -2,6 +2,7 @@
 siiky
 2022/08/19
 2022/08/19
+en
 
 Following the call with Statebox from last week I sent an email with some questions. One of them was if/how they're thinking of (formally & technically) dealing with "OR transitions".
 

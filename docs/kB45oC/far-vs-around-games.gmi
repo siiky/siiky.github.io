@@ -2,6 +2,7 @@
 siiky
 2022/09/20
 2022/09/20
+en
 
 It occurred to me the other day that while multiplayer games in the past were made to play/interact with people close to and around you, more and more games nowadays assume internet connectivity at all times and encourage you to play with strangers around the globe. This by itself isn't bad, but you already know what follows... I myself met many cool people playing games online, from all over Europe, the US, and even as far as Japan! These connections were in many ways the types of connections we build over Gemini and other similar networks.
 

@@ -2,6 +2,7 @@
 siiky
 2022/01/22
 2022/07/08
+en
 
 Found this library reading WeeklyOSM 580 called prettymaps:
 

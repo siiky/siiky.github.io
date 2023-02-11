@@ -2,6 +2,7 @@
 siiky
 2022/08/06
 2022/08/06
+en
 
 Just learned how to setup custom handlers for the gemini scheme in Firefox and XDG.
 

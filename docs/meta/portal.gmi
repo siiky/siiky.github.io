@@ -2,6 +2,7 @@
 siiky
 2022/08/21
 2022/08/21
+en
 
 I just modified my gmi->md script to rewrite gemini:// links to the Gemini Portal. With only 8 new (readable) lines the HTTPS/HTML version of the capsule became that much user friendlier. A handful of links are now broken in the process (gemini://localhost links from the gemini-ipfs-gateway) but no problem, they weren't valid anyway.
 
