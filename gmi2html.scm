@@ -1,10 +1,12 @@
 #!/usr/bin/env -S csi -s
 (import
   (chicken file)
+  (chicken io)
   (chicken irregex)
   (chicken pathname)
   (chicken port)
   (chicken process-context)
+  (chicken string)
 
   (srfi 1)
   (srfi 13)
@@ -138,10 +140,23 @@
 (define get-path-things
   (o decompose-pathname (cute make-absolute-pathname (current-directory) <>)))
 
+(define (get-language meta root input-filename)
+  (chain meta
+         (map (cute string-split <> "\t" #f) _)
+         (find (chain-lambda
+                 (car _)
+                 (make-pathname root _)
+                 (string=? input-filename _))
+               _)
+         (or _ '(dummy))
+         (append _ '("asdf")) ; Default to "en"
+         (cadr _)))
+
 (define (main args)
-  (let ((input-filename (car args))
-        (lang "en")) ; TODO
-    (receive (directory _filename _extension) (get-path-things input-filename)
-      (with-input-from-file input-filename (convert lang directory input-filename)))))
+  (let ((root (car args))
+        (input-filename (cadr args)))
+    (let ((lang (get-language (read-lines) root input-filename)))
+      (receive (directory _filename _extension) (get-path-things input-filename)
+        (with-input-from-file input-filename (convert lang directory input-filename))))))
 
 (main (command-line-arguments))
