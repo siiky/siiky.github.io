@@ -4,7 +4,6 @@ siiky
 2023/02/08
 2023/02/08
 
-
 NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
 
 Nowadays I dump EVERYTHING into Org Roam. While I don't have any major issues with it, only minor annoyances, there's A LOT of stuff in there that I wouldn't mind making public, such as notes or comments on things I read, listen to, watch, ideas, &c. It could be useful even to me, e.g. if I want to reference something I've written but don't have access to one of my PCs at the moment. The problem is that there's no good way of making them public that I know of (simplistically, on the Geminispace).
