@@ -134,7 +134,7 @@ $(WIKI_META): $(MAKE_WIKI_META) $(WIKI_SRC)
 $(ROOT)/index.gmi: index.gmi $(SITE_META) $(MAKE_GEMFEED)
 	$(MAKE_GEMFEED) index.gmi $(SITE_META) > $@
 
-$(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META)
+$(ROOT)/atom.xml: $(MAKE_ATOM) $(SITE_META) $(SITE_HTML)
 	$(MAKE_ATOM) $(ROOT) < $(SITE_META) > $@
 
 .PHONY: wiki-lists
@@ -220,8 +220,11 @@ cv-en.pdf: cv-en.md
 
 # Text files rules
 
-%.html: %.gmi $(GMI2HTML)
-	$(GMI2HTML) $< > $@
+# While this rule is used to convert the Wiki pages as well, the dependency on
+# SITE_META is fine because (1) the Wiki has no language set per-page
+# (currently), and (2) GMI2HTML sets the language to "en" by default.
+%.html: %.gmi $(GMI2HTML) $(SITE_META)
+	cut -f 4,5 $(SITE_META) | $(GMI2HTML) $(ROOT) $< > $@
 
 %.html: %.md $(MD2HTML)
 	$(MD2HTML) standalone < $< > $@
