@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/02/09
+2023/02/11
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://the-brannons.com/grieving/ 2023-02-11 Processing Grief Is Complicated
 
 => gemini://idiomdrottning.org/phonics 2023-02-09 Phonics vs Whole Language Instruction
 
