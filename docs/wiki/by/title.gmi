@@ -36,6 +36,7 @@
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../roman-concrete.gmi Roman concrete
+=> ../wp.ryan-hediger.animal-suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
 => ../pl.scheme.gmi Scheme (programming language)
 => ../justine-sizetricks.gmi Size Optimization Tricks
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"

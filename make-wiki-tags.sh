@@ -6,7 +6,7 @@ MD2HTML="$4"
 
 rm -f "${tagsdir}"/*
 
-cut -f6 "${meta}" | sed 's|,|\n|g;' | sort -u | grep -v '^\s*$' | sed 's|^|=> |; s|$|.gmi|;' > "${tagsdir}/index.gmi"
+# Build tag pages
 
 while IFS='	' read update mupdate cdate title uri tags; do
     for tag in $(echo "${tags}" | sed 's|,| |g;'); do
@@ -18,4 +18,9 @@ done < "${meta}"
 cut -f6 "${meta}" | sed 's|,|\n|g;' | sort -u | grep -v '^\s*$' | while read tag; do
 	${GMI2MD} "${tagsdir}/${tag}.gmi" | ${MD2HTML} standalone > "${tagsdir}/${tag}.html"
 done
+
+# Build index
+
+cut -f6 "${meta}" | sed 's|,|\n|g;' | sort | grep -v '^\s*$' | uniq -c | sort -nr | sed 's|^\s*||;' | awk '{ print "=> " $2 ".gmi " $2 " (" $1 ")" }' > "${tagsdir}/index.gmi"
+
 ${GMI2MD} "${tagsdir}/index.gmi" | ${MD2HTML} standalone > "${tagsdir}/index.html"

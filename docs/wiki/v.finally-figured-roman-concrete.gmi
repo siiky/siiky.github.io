@@ -2,12 +2,12 @@
 siiky
 2023/02/10
 2023/02/10
-2023/02/10
+2023/02/13
 video,engineering,science
 
 => https://invidious.snopyta.org/watch?v=HYyyx2dNvPw
 
-Video about Roman concrete. Like I wrote on my tinylog in 2023-01-29 01:41, I didn't quite understand what was the big leap, because I watched two more videos of several years ago showing how to make Roman concrete.
+Video about Roman concrete. Like I wrote on my tinylog in §2023-01-29 01:41, I didn't quite understand what was the big leap, because I watched two more videos of several years ago showing how to make Roman concrete.
 
 => ../tinylog.gmi
 => roman-concrete.gmi
