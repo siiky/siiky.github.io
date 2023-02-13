@@ -1,5 +1,6 @@
 => conference.gmi
 => cryptography.gmi
+=> efficiency.gmi
 => engineering.gmi
 => environment.gmi
 => ethics.gmi

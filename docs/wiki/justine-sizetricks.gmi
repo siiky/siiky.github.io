@@ -1,0 +1,32 @@
+# Size Optimization Tricks
+siiky
+2023/02/13
+2023/02/13
+2023/02/13
+post,programming,efficiency
+
+=> https://justine.lol/sizetricks
+
+Shared by wasamasa on #chicken. It's a long-ish post by the creator/inventor of redbean, APE (Actually Portable Executable), cosmopolitan, &c, about a bunch of tricks that can be used to minimize binaries' size, while keeping functionality.
+
+=> https://redbean.dev
+=> https://justine.lol/ape.html
+=> https://justine.lol/cosmopolitan
+
+redbean and APE are seriously cool projects! I strongly recommend you go check them out. cosmopolitan is the libc APE is based on (and redbean is based on APE btw). redbean is a Lua batteries included HTTP server. There's also fullmoon which is a more-batteries-included HTTP server framework based on redbean.
+
+=> pl.lua.gmi
+=> https://github.com/pkulchenko/fullmoon
+
+> Losers always whine about how their bloat is a calculated tradeoff. The important thing to consider is that there is no tradeoff. Just engineers who've been victimized by the accidental complexity of modern software, chose to stop caring, and yearn for another break while their code compiles-like Dennis from Jurassic Park.
+
+The easiest tricks (that even I can understand) are
+
+* field arrangement (i.e. struct packing)
+* run length encoding (RLE)
+
+The first I was already familiar with from the days I shallowly studied C. The second is kinda obvious to me, I just never had any oportunity to use it (or it just never occured to me).
+
+=> pl.c.gmi
+
+Pretty much everything else after that went WAAAY over my head.
