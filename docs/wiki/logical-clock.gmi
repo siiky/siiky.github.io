@@ -1,0 +1,8 @@
+# Logical clock
+siiky
+2023/02/14
+2023/02/14
+2023/02/14
+programming,distributed
+
+=> https://en.wikipedia.org/wiki/Lamport_timestamp

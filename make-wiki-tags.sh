@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-tagsdir="$1"
-meta="$2"
-GMI2MD="$3"
-MD2HTML="$4"
+root="$1"
+tagsdir="$2"
+meta="$3"
+GMI2HTML="$4"
 
 rm -f "${tagsdir}"/*
 
@@ -16,11 +16,11 @@ while IFS='	' read update mupdate cdate title uri tags; do
 done < "${meta}"
 
 cut -f6 "${meta}" | sed 's|,|\n|g;' | sort -u | grep -v '^\s*$' | while read tag; do
-	${GMI2MD} "${tagsdir}/${tag}.gmi" | ${MD2HTML} standalone > "${tagsdir}/${tag}.html"
+	${GMI2HTML} "${root}" "${tagsdir}/${tag}.gmi" < /dev/null > "${tagsdir}/${tag}.html" 
 done
 
 # Build index
 
 cut -f6 "${meta}" | sed 's|,|\n|g;' | sort | grep -v '^\s*$' | uniq -c | sort -nr | sed 's|^\s*||;' | awk '{ print "=> " $2 ".gmi " $2 " (" $1 ")" }' > "${tagsdir}/index.gmi"
 
-${GMI2MD} "${tagsdir}/index.gmi" | ${MD2HTML} standalone > "${tagsdir}/index.html"
+${GMI2HTML} "${root}" "${tagsdir}/index.gmi" < /dev/null > "${tagsdir}/index.html"

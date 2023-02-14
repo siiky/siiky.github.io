@@ -152,8 +152,8 @@ $(WIKI_BY)/updated.gmi: $(WIKI_META) $(MAKE_WIKI_UPDATED_LIST)
 .PHONY: wiki-tags-lists
 wiki-tags-lists: $(WIKI_TAG)/index.gmi
 
-$(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS)
-	$(MAKE_WIKI_TAGS) $(WIKI_TAG) $(WIKI_META) $(GMI2MD) $(MD2HTML)
+$(WIKI_TAG)/index.gmi: $(WIKI_META) $(MAKE_WIKI_TAGS) $(GMI2HTML)
+	$(MAKE_WIKI_TAGS) $(ROOT) $(WIKI_TAG) $(WIKI_META) $(GMI2HTML)
 
 # TODO: Reliably find and convert all generated files
 #$(MAKE) $($(wildcard $(WIKI_BY)/*.gmi):.gmi:.html) $($(wildcard $(WIKI_TAG)/*.gmi):.gmi=.html)

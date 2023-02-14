@@ -149,7 +149,7 @@
                  (string=? input-filename _))
                _)
          (or _ '(dummy))
-         (append _ '("asdf")) ; Default to "en"
+         (append _ '("en")) ; Default to "en"
          (cadr _)))
 
 (define (main args)

@@ -1,2 +1,2 @@
+=> ../logical-clock.gmi 2023-02-14 Logical clock
 => ../wp.leslie-lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
-=> ../wp.ryan-hediger.animal-suicide.gmi 2023-02-13 Ryan Hediger, "Animal suicide and 'anthropodenial'"

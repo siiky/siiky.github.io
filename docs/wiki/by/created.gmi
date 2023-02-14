@@ -1,3 +1,5 @@
+=> ../logical-clock.gmi 2023-02-14 Logical clock
+=> ../wp.leslie-lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
 => ../justine-sizetricks.gmi 2023-02-13 Size Optimization Tricks
 => ../wp.ryan-hediger.animal-suicide.gmi 2023-02-13 Ryan Hediger, "Animal suicide and 'anthropodenial'"
 => ../v.finally-figured-roman-concrete.gmi 2023-02-10 We FINALLY Figured Out The Secret of Roman Concrete
