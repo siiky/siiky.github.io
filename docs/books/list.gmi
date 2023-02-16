@@ -36,7 +36,7 @@ Please let me know if you find any of the links not working.
 => https://libcom.org/article/bread-and-freedom-albert-camus (DUB) Albert Camus, Bread and Freedom: 2020/12/23
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Albert_Camus Albert Camus, Create Dangerously: 2020/12/21~2020/12/22
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Albert_Camus Albert Camus, Defence of Intelligence: 2020/12/22
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Plague_(novel) Albert Camus, The Plague: 2022/04/15~2022/06/15
+=> ../wiki/book.albert-camus.plague.gmi Albert Camus, The Plague: 2022/04/15~2022/06/15
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Stranger_(Camus_novel) Albert Camus, The Stranger: 2019
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Brave_New_World Aldous Huxley, Brave New World: 2020
 => https://www.simonandschuster.com/books/Personal-Finance-101/Alfred-Mill/Adams-101/9781507214350 Alfred Mill, Personal Finance 101: 2021/07/09~2021/07/18

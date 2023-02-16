@@ -1,3 +1,5 @@
+=> ../book.albert-camus.plague.gmi Albert Camus, "The Plague"
+=> ../albert-camus.gmi Albert Camus
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
 => ../fosdem2023.whippet.gmi Andy Wingo, "Whippet: A new production embeddable garbage collector"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"

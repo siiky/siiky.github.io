@@ -1,0 +1,8 @@
+# Albert Camus
+siiky
+2023/02/16
+2023/02/16
+2023/02/16
+author,philosopher
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Albert_Camus
