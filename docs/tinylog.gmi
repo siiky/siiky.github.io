@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-02-16 11:38 +0000
+Imma just leave this here:
+=> https://daily.bandcamp.com/lists/filipino-american-punk-list
+
 ## 2023-02-10 00:32 +0000
 Welp, it's been almost half a year since I mentioned the SourceHut IRC bouncer (§2022-09-19 11:23)... That didn't work out so well. Apparently irssi doesn't have the necessary features to be able to fetch past history.
 During FOSDEM 2023 I got to try Matrix a bit more (I already had an account) and, well, it's not all that bad. The "default" web client (Element) kinda sucks (because, web). But I got to try FluffyChat (desktop & Android), Nheko, Syphon, and Element (on Android), and here's the verdict:
