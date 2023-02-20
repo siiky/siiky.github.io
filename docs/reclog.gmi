@@ -1,13 +1,16 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/02/11
+2023/02/20
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://yretek.com/articulos/2023-02-20_leescribir.gmi 2023-02-20 Escriben menos
+=> gemini://text.eapl.mx/la-gente-no-lee 2023-02-20 La gente no lee, y escríbimos menos
 
 => gemini://the-brannons.com/grieving/ 2023-02-11 Processing Grief Is Complicated
 
