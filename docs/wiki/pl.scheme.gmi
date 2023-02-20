@@ -1,8 +1,8 @@
 # Scheme (programming language)
 siiky
 2023/02/06
-2023/02/09
-2023/02/09
+2023/02/20
+2023/02/20
 programming,scheme
 
 => https://www.scheme.org
@@ -102,3 +102,15 @@ Search and play videos and playlists from Invidious without leaving your termina
 GraphViz Extension Language for Scheme.
 
 => https://git.sr.ht/~siiky/gvs
+
+## Ideas
+
+### IPC Scheme Port
+
+A module to help Scheme processes to communicate with each other in Scheme through ports (pipes or not).
+
+=> https://api.call-cc.org/5/doc/chicken/process/create-pipe create-pipe
+=> https://api.call-cc.org/5/doc/chicken/port/make-input-port make-input-port
+=> https://api.call-cc.org/5/doc/chicken/port/make-output-port make-output-port
+=> https://api.call-cc.org/5/doc/chicken/port/make-bidirectional-port make-bidirectional-port
+=> https://api.call-cc.org/5/doc/chicken/port/set-buffering-mode%21 set-buffering-mode!

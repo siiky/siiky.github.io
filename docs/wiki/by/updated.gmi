@@ -1,3 +1,4 @@
+=> ../pl.scheme.gmi 2023-02-20 Scheme (programming language)
 => ../albert-camus.gmi 2023-02-16 Albert Camus
 => ../book.albert-camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"
 => ../logical-clock.gmi 2023-02-14 Logical clock
@@ -12,7 +13,6 @@
 => ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
 => ../v.visiting-worlds-most-dangerous-country.gmi 2023-02-09 Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )
 => ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"
-=> ../pl.scheme.gmi 2023-02-09 Scheme (programming language)
 => ../pl.lua.gmi 2023-02-09 Lua (programming language)
 => ../pl.c.gmi 2023-02-09 C (programming language)
 => ../index.gmi 2023-02-08 nothing interesting wiki
