@@ -2,7 +2,7 @@
 siiky
 2023/02/16
 2023/02/16
-2023/02/16
+2023/02/20
 book,philosophy,life,religion,ethics
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Plague_(novel)
@@ -11,7 +11,7 @@ book,philosophy,life,religion,ethics
 
 Book by Albert Camus about a small town hit by an epidemic of plague.
 
-=> albert-camus.gmi
+=> albert_camus.gmi
 => ../books/list.gmi
 
 I liked this book a lot. Read it only a little after the COVID pandemic started to come to the end (around here). Because of that much of the book was familiar and relatable.

@@ -1,1 +1,1 @@
-=> ../albert-camus.gmi 2023-02-16 Albert Camus
+=> ../albert_camus.gmi 2023-02-16 Albert Camus
