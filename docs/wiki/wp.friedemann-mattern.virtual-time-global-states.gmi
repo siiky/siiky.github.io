@@ -1,0 +1,11 @@
+# Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+whitepaper,distributed
+
+=> https://www.vs.inf.ethz.ch/publ/papers/VirtTimeGlobStates.pdf
+=> https://homes.cs.washington.edu/~arvind/cs425/doc/mattern89virtual.pdf
+
+To read

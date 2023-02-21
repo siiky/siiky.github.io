@@ -1,4 +1,6 @@
 => ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+=> ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
 => ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
+=> ../wp.friedemann-mattern.virtual-time-global-states.gmi 2023-02-21 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../logical-clock.gmi 2023-02-14 Logical clock
 => ../wp.leslie-lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"

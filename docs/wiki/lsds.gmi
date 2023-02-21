@@ -1,0 +1,20 @@
+# Large Scale Distributed Systems
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+distributed,programming
+
+This page is about one of the classes I have this semester.
+
+We're using Maelstrom to experiment with dummy implementations of distributed algorithms.
+
+=> https://github.com/jepsen-io/maelstrom
+
+## Research
+
+Roughly in the order of appearance.
+
+=> wp.leslie-lamport.time-clocks-events.gmi
+=> wp.friedemann-mattern.virtual-time-global-states.gmi
+=> wp.psa.interval-tree-clocks.gmi

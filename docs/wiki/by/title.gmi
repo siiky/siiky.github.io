@@ -13,6 +13,7 @@
 => ../pl.forth.gmi Forth (programming language)
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
+=> ../wp.friedemann-mattern.virtual-time-global-states.gmi Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../pl.go.gmi Go (programming language)
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.luarocks.gmi Hisham Muhammad, "LuaRocks and the challenges of minimalism"
@@ -24,6 +25,7 @@
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
+=> ../lsds.gmi Large Scale Distributed Systems
 => ../wp.leslie-lamport.time-clocks-events.gmi Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
 => ../linux.gmi Linux
 => ../logical-clock.gmi Logical clock
