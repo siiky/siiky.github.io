@@ -1,0 +1,11 @@
+# Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+whitepaper,distributed,programming
+
+=> https://haslab.uminho.pt/cbm/files/itc.pdf
+=> https://link.springer.com/chapter/10.1007/978-3-540-92221-6_18
+
+To read

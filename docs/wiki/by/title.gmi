@@ -19,6 +19,7 @@
 => ../v.how-frogs-cooked-dinner.gmi How the Frogs Cooked Dinner
 => ../v.htme.how-to-make-roman-concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
 => ../v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
+=> ../interval-tree-clocks.gmi Interval Tree Clocks
 => ../fosdem2023.lipsscheme.gmi Jakub Jankiewicz, "LIPS Scheme"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
@@ -37,6 +38,7 @@
 => ../meta.gmi nothing interesting wiki: Meta
 => ../wiki-plan.gmi nothing interesting wiki: plan/ideas
 => ../index.gmi nothing interesting wiki
+=> ../wp.psa.interval-tree-clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../roman-concrete.gmi Roman concrete

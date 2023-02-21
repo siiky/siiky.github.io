@@ -1,3 +1,5 @@
+=> ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+=> ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
 => ../albert_camus.gmi 2023-02-16 Albert Camus
 => ../book.albert_camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"
 => ../logical-clock.gmi 2023-02-14 Logical clock

@@ -1,3 +1,5 @@
+=> ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+=> ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
 => ../pl.scheme.gmi 2023-02-20 Scheme (programming language)
 => ../logical-clock.gmi 2023-02-14 Logical clock
 => ../wp.leslie-lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
