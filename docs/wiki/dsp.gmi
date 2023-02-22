@@ -1,0 +1,14 @@
+# Distributed Systems Paradigms
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+course,distributed,programming
+
+This page is about one of the classes I have this semester.
+
+So far, we're learning about more efficient ways to implement large-scale servers -- specifically by using the event-driven paradigm, with one (or more) threads running an event loop.
+
+## Research
+
+=> book.remzi_arpaci-dusseau.ostep.gmi OSTEP § 33. Event-based Concurrency

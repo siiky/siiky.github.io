@@ -3,7 +3,7 @@ siiky
 2023/02/21
 2023/02/21
 2023/02/21
-distributed,programming
+course,distributed,programming
 
 This page is about one of the classes I have this semester.
 
@@ -15,6 +15,6 @@ We're using Maelstrom to experiment with dummy implementations of distributed al
 
 Roughly in the order of appearance.
 
-=> wp.leslie-lamport.time-clocks-events.gmi
-=> wp.friedemann-mattern.virtual-time-global-states.gmi
+=> wp.leslie_lamport.time-clocks-events.gmi
+=> wp.friedemann_mattern.virtual-time-global-states.gmi
 => wp.psa.interval-tree-clocks.gmi

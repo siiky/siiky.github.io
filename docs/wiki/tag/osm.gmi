@@ -1,0 +1,3 @@
+=> ../sotm2022.gmi 2023-02-21 State of the Map 2022
+=> ../sotm2022.none-story-of-data.gmi 2023-02-21 Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
+=> ../sotm2022.mapping-crises-communities-capitalism.gmi 2023-02-21 Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"

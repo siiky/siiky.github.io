@@ -1,6 +1,9 @@
 => ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+=> ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
+=> ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
-=> ../wp.friedemann-mattern.virtual-time-global-states.gmi 2023-02-21 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
+=> ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-02-21 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
+=> ../dsp.gmi 2023-02-21 Distributed Systems Paradigms
 => ../logical-clock.gmi 2023-02-14 Logical clock
-=> ../wp.leslie-lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
+=> ../wp.leslie_lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"

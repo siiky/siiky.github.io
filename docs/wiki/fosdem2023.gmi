@@ -3,7 +3,7 @@ siiky
 2023/02/03
 2023/02/04
 2023/02/04
-conference,event
+conference
 
 This page is about the FOSDEM 2023 conference that will happen on Saturday and Sunday, 2023/02/04~2023/02/05.
 

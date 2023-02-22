@@ -1,0 +1,16 @@
+# Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+talk,ipfs
+
+=> https://invidious.snopyta.org/watch?v=MCt3if9H64I
+
+Talk about ipfs-embed and the work the speaker is doing at Actyx.
+
+=> https://github.com/ipfs-rust/ipfs-embed
+=> https://www.actyx.com/
+=> https://developer.actyx.com/
+=> https://github.com/Actyx
+=> https://www.local-first-cooperation.org/

@@ -1,0 +1,10 @@
+# Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+book,os,programming
+
+=> https://pages.cs.wisc.edu/~remzi/OSTEP/
+
+Book about Operating Systems.

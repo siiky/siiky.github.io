@@ -1,1 +1,2 @@
+=> ../sotm2022.gmi 2023-02-21 State of the Map 2022
 => ../fosdem2023.gmi 2023-02-04 FOSDEM 2023

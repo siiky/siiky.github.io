@@ -1,3 +1,7 @@
+=> ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
+=> ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
+=> ../sotm2022.none-story-of-data.gmi 2023-02-21 Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
+=> ../sotm2022.mapping-crises-communities-capitalism.gmi 2023-02-21 Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"

@@ -1,0 +1,10 @@
+# Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
+siiky
+2023/02/21
+2023/02/21
+2023/02/21
+whitepaper,science,distributed
+
+=> https://joelchan.me/assets/pdf/Discourse_Graphs_for_Augmented_Knowledge_Synthesis__What_and_Why.pdf
+
+To read

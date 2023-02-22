@@ -1,0 +1,2 @@
+=> ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
+=> ../dsp.gmi 2023-02-21 Distributed Systems Paradigms
