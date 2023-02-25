@@ -1,7 +1,7 @@
 # Books list
 siiky
 2020/12/21
-2023/01/25
+2023/01/23
 en
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -27,7 +27,6 @@ Please let me know if you find any of the links not working.
 => https://theanarchistlibrary.org/library/anonymous-desert Anonymous, Desert: 2022/07/15
 => https://tokipona.org Sonja Lang, Toki Pona: The Language of Good: 2022/09/22
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
-=> https://www.gutenberg.org/ebooks/1915 Jerome K. Jerome, The Second Thoughts of an Idle Fellow: 2022/11/17
 
 # Read
 
@@ -58,6 +57,7 @@ Please let me know if you find any of the links not working.
 => https://www.simonandschuster.com/books/The-Courage-to-Be-Disliked/Ichiro-Kishimi/9781501197277 Ichiro Kishimi & Fumitake Koga, The Courage to Be Disliked: 2020
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Catcher_in_the_Rye J. D. Salinger, The Catcher in the Rye: 2019
 => https://www.gutenberg.org/ebooks/849 Jerome K. Jerome, Idle Thoughts of an Idle Fellow: 2020
+=> https://www.gutenberg.org/ebooks/1915 Jerome K. Jerome, The Second Thoughts of an Idle Fellow: 2022/11/17~2023/02/23
 => https://www.independent.co.uk/arts-entertainment/short-story-blue-tigers-1194505.html Jorge Luis Borges, Blue Tigers: 2022/05/30~2022/05/30
 => https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore Karl Marx & Friedrich Engels, The Communist Manifesto: 2021/04/28~2021/05/03
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Never_Let_Me_Go_(novel) Kazuo Ishiguro, Never Let Me Go: 2020
