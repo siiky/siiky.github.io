@@ -7,7 +7,7 @@ programming,scheme
 
 => https://www.scheme.org
 
-## Some implementations:
+## Some implementations
 
 => https://call-cc.org CHICKEN Scheme
 => https://synthcode.com/wiki/chibi-scheme Chibi Scheme
