@@ -1,7 +1,7 @@
 # Books list
 siiky
 2020/12/21
-2023/01/23
+2023/02/23
 en
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
