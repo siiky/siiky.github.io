@@ -1,3 +1,4 @@
+=> ../pl.scheme.gmi 2023-02-25 Scheme (programming language)
 => ../videos.gmi 2023-02-21 Videos
 => ../sotm2022.gmi 2023-02-21 State of the Map 2022
 => ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
@@ -12,7 +13,6 @@
 => ../dsp.gmi 2023-02-21 Distributed Systems Paradigms
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column
 => ../sotm2022.mapping-crises-communities-capitalism.gmi 2023-02-21 Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
-=> ../pl.scheme.gmi 2023-02-20 Scheme (programming language)
 => ../albert_camus.gmi 2023-02-16 Albert Camus
 => ../book.albert_camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"
 => ../logical-clock.gmi 2023-02-14 Logical clock

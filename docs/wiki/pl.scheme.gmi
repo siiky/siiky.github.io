@@ -1,8 +1,8 @@
 # Scheme (programming language)
 siiky
 2023/02/06
-2023/02/20
-2023/02/20
+2023/02/25
+2023/02/25
 programming,scheme
 
 => https://www.scheme.org
@@ -28,6 +28,14 @@ A Kubo RPC client library. Made a Lua port as well.
 => https://wiki.call-cc.org/eggref/5/ipfs
 => ../projects/ipfs.gmi
 => pl.lua.gmi
+
+### disjoint-set
+
+An imperative implementation of Disjoin Sets based on Scheme vectors.
+
+=> https://git.sr.ht/~siiky/disjoin-set
+=> https://wiki.call-cc.org/eggref/5/disjoint-set
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Disjoint-set_data_structure Disjoint sets
 
 ### gmi
 
