@@ -1,3 +1,5 @@
+=> ../jerome_klapka_jerome.gmi 2023-02-26 Jerome Klapka Jerome
+=> ../book.jerome_klapka_jerome.seconds_thoughts_idle_fellow.gmi 2023-02-26 Jerome Klapka Jerome, "The Second Thoughts of an Idle Fellow"
 => ../pl.scheme.gmi 2023-02-25 Scheme (programming language)
 => ../videos.gmi 2023-02-21 Videos
 => ../sotm2022.gmi 2023-02-21 State of the Map 2022

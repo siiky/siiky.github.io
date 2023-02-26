@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/why-throw-rice-at-weddings.gmi 2023-02-26 Why we throw rice at weddings
 => books/list.gmi 2023-02-23 Books list
 => psychology/head-fucked.gmi 2023-02-10 Am I fucked in the head?
 => words/quotes.gmi 2023-02-02 just quotes

@@ -26,6 +26,8 @@
 => ../v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
 => ../interval-tree-clocks.gmi Interval Tree Clocks
 => ../fosdem2023.lipsscheme.gmi Jakub Jankiewicz, "LIPS Scheme"
+=> ../book.jerome_klapka_jerome.seconds_thoughts_idle_fellow.gmi Jerome Klapka Jerome, "The Second Thoughts of an Idle Fellow"
+=> ../jerome_klapka_jerome.gmi Jerome Klapka Jerome
 => ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
