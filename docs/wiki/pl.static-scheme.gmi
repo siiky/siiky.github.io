@@ -1,0 +1,12 @@
+# Static Scheme
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+programming,scheme,type-theory
+
+=> https://github.com/pre-srfi/static-scheme
+
+Project work on a statically-typed Scheme-like language.
+
+=> pl.scheme.gmi

@@ -1,0 +1,12 @@
+# Soufflé
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+database,logic
+
+=> https://souffle-lang.github.io
+
+Logic programming-inspired database.
+
+=> logic-programming.gmi

@@ -1,4 +1,8 @@
-=> ../pl.scheme.gmi 2023-02-25 Scheme (programming language)
+=> ../pl.static-scheme.gmi 2023-02-28 Static Scheme
+=> ../logic-programming.gmi 2023-02-28 Logical Programming
+=> ../p.visual_programming-what_went_wrong.gmi 2023-02-28 emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"
+=> ../pl.chicken.gmi 2023-02-28 CHICKEN Scheme
+=> ../pl.scheme.gmi 2023-02-28 Scheme (programming language)
 => ../book.remzi_arpaci-dusseau.ostep.gmi 2023-02-21 Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
 => ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../lsds.gmi 2023-02-21 Large Scale Distributed Systems

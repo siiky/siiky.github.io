@@ -1,0 +1,12 @@
+# "Building the fastest Lua interpreter.. automatically!"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,language,computer-science
+
+=> https://sillycross.github.io/2022/11/22/2022-11-22
+
+Links to "Speculation in JavaScriptCore".
+
+=> p.speculation_in_javascriptcore.gmi

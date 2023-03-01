@@ -1,0 +1,8 @@
+# Tom Preston-Werner, "The Git Parable"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,git
+
+=> https://tom.preston-werner.com/2009/05/19/the-git-parable.html

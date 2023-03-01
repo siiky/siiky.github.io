@@ -1,0 +1,12 @@
+# EPCOT
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+carfree,city,society
+
+=> https://sites.google.com/site/theoriginalepcot/
+=> https://en.wikipedia.org/wiki/Epcot
+
+* TODO Link to carfree cities
+=> carfree-cities.gmi

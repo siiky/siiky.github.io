@@ -1,0 +1,16 @@
+# Jochen Topf, "Modding the OSM Data Model"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+video,osm,database,permaculture
+
+=> https://invidious.snopyta.org/watch?v=rbxabz22ni4
+
+A "proposal" discussion on changing the OSM data model to make it friendlier to processing.
+
+One of the arguments against it is that changing the model would be a huge amount of work, possibly even backwards-incompatible, which would only affect the "big dogs" that do processing on the OSM data.
+
+But that is not the case. If processing can be made more accessible to anyone with a moderate computer, the data is easier to use for everyone. It would open a lot of possibilities for developers, researchers, &c.
+
+On top of that, these performance improvements would mean energy savings as well -- a plus for everyone.

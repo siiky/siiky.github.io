@@ -1,3 +1,5 @@
+=> ../book.mark_graham.geographies_digial_exclusion.gmi 2023-02-28 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
+=> ../carfree-movement.gmi 2023-02-28 Carfree Movement
 => ../book.albert_camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"
 => ../wp.ryan_hediger.animal-suicide.gmi 2023-02-13 Ryan Hediger, "Animal suicide and 'anthropodenial'"
-=> ../v.how-frogs-cooked-dinner.gmi 2023-02-10 How the Frogs Cooked Dinner
+=> ../v.exurb1a.how_frogs_cooked_dinner.gmi 2023-02-10 How the Frogs Cooked Dinner

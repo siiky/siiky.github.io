@@ -1,15 +1,15 @@
 # Scheme (programming language)
 siiky
 2023/02/06
-2023/02/25
-2023/02/25
+2023/02/28
+2023/02/28
 programming,scheme
 
 => https://www.scheme.org
 
 ## Some implementations
 
-=> https://call-cc.org CHICKEN Scheme
+=> pl.chicken.gmi CHICKEN Scheme
 => https://synthcode.com/wiki/chibi-scheme Chibi Scheme
 => https://haltp.org/posts/owl.html Owl Lisp
 => https://www.gnu.org/software/guile Guile Scheme

@@ -1,0 +1,17 @@
+# Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+whitepaper,distributed,p2p
+
+=> https://web.archive.org/web/20181117012712/http://www.coralcdn.org/docs/coral-nsdi04.pdf
+=> https://www.scs.stanford.edu/~dm/home/papers/freedman:coral.pdf
+
+A DHT algorithm, Kademlia variant.
+
+=> dht.gmi
+=> wp.petar_maymounkov.kademlia.gmi
+
+* TODO Read it
+* TODO The IPFS whitepaper mentions it being a DSHT (Sloppy); what is it?

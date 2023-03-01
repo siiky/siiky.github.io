@@ -1,0 +1,12 @@
+# Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,environment,city,carfree
+
+=> https://www.nytimes.com/2020/07/09/opinion/sunday/ban-cars-manhattan-cities.html
+
+An NYTimes article about carfree cities.
+
+=> carfree-cities.gmi

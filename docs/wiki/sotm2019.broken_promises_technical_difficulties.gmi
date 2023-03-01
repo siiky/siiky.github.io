@@ -1,0 +1,15 @@
+# Ilya Zverev, "Broken Promises and Technical Difficulties"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+talk,osm
+
+=> https://2019.stateofthemap.org/sessions/V7NUWP
+=> https://2019.stateofthemap.org/attachments/V7NUWP_sotm19-broken-promises.pdf
+=> https://media.ccc.de/v/sotm2019-1345-broken-promises-and-technical-difficulties
+
+Ilya's reply to "Modding the OSM Data Model", referenced from "My take on what's needed".
+
+=> v.jochen_topf.modding_osm_data_model.gmi "Modding the OSM Data Model"
+=> https://github.com/osmlab/osm-data-model/issues/6 "My take on what's needed"

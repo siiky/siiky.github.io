@@ -1,0 +1,2 @@
+=> ../p.git_parable.gmi 2023-02-28 Tom Preston-Werner, "The Git Parable"
+=> ../v.git_parable.gmi 2023-02-28 Johan Herland, "The Git Parable"

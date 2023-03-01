@@ -1,0 +1,10 @@
+# Aileen Buckley, "Does every map need a north arrow and scale bar?"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,cartography,osm
+
+=> https://www.esri.com/arcgis-blog/products/product/mapping/does-every-map-need-a-north-arrow-and-scale-bar
+
+Briefly comments on whether all maps need a north arrow (and scale bar).

@@ -1,0 +1,15 @@
+# Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+whitepaper,distributed,p2p
+
+=> http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Chord_(peer-to-peer)
+
+A DHT algorithm.
+
+=> dht.gmi
+
+* TODO Re-read it

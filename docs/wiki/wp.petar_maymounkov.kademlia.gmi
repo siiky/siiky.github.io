@@ -1,0 +1,15 @@
+# Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+whitepaper,distributed,p2p
+
+=> http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Kademlia
+
+A DHT algorithm.
+
+=> dht.gmi
+
+* TODO Re-read it

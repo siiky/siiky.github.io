@@ -1,3 +1,10 @@
+=> ../p.why_are_we_talking_about_privacy.gmi 2023-02-28 "Why are we talking so much about privacy?"
+=> ../public-transport.gmi 2023-02-28 Public transport
+=> ../book.mark_graham.geographies_digial_exclusion.gmi 2023-02-28 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
+=> ../epcot.gmi 2023-02-28 EPCOT
+=> ../v.exurb1a.dont_hex_the_water.gmi 2023-02-28 /Don't Hex the Water/
+=> ../carfree-movement.gmi 2023-02-28 Carfree Movement
+=> ../carfree-cities.gmi 2023-02-28 Carfree Cities
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column
-=> ../v.how-frogs-cooked-dinner.gmi 2023-02-10 How the Frogs Cooked Dinner
+=> ../v.exurb1a.how_frogs_cooked_dinner.gmi 2023-02-10 How the Frogs Cooked Dinner
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"

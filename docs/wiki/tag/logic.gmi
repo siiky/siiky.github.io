@@ -1,0 +1,2 @@
+=> ../souffle.gmi 2023-02-28 Soufflé
+=> ../logic-programming.gmi 2023-02-28 Logical Programming

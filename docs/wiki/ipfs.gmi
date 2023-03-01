@@ -1,0 +1,59 @@
+# IPFS
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+distributed,p2p
+
+A file-distribution P2P distributed network, somewhat like BitTorrent, but with some interesting properties.
+
+## DHT
+
+The whitepaper mentions Kademlia as a big inspiration, and uses a "custom" algorithm based on Coral and S/Kademlia, both of which are extensions/variants of Kademlia.
+
+=> dht.gmi
+=> wp.petar_maymounkov.kademlia.gmi
+=> wp.michael_j_freedman.coral.gmi
+=> wp.ingmar_baumgart.s-kademlia.gmi
+
+## Object size
+
+It seems  ipfs dag get <CID>  can be used to get the needed disk space to store it. Example:
+
+```sh
+$ ipfs dag get bafybeifrpvm2vhbbjj6b34tgr4ocnbtzcxdfvsx7wo272vigl2c5zofoz4 | jq .
+{
+  "Data": {
+    "/": {
+      "bytes": "CAE"
+    }
+  },
+  "Links": [
+    {
+      "Hash": {
+        "/": "bafybeicmcexgvfv6m6rgrflrmx4kait6yiqhhagalj32o644h46a6vmyle"
+      },
+      "Name": "books",
+      "Tsize": 39279602
+    },
+    {
+      "Hash": {
+        "/": "bafybeidy7fanclwpc2ei6sba5qo475l3o66uzv6e4bwojt4os5czndpupi"
+      },
+      "Name": "videos",
+      "Tsize": 112231196979
+    }
+  ]
+}
+```
+
+For single-block content doesn't work so well:
+
+```sh
+$ ipfs dag get bafkreicysg23kiwv34eg2d7qweipxwosdo2py4ldv42nbauguluen5v6am | jq .
+{
+  "/": {
+    "bytes": "aGVsbG8K"
+  }
+}
+```

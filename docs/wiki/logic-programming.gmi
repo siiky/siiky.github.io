@@ -1,0 +1,8 @@
+# Logical Programming
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+programming,logic
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Logic_programming

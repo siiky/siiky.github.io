@@ -1,0 +1,8 @@
+# "Speculation in JavaScriptCore"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,language,computer-science
+
+=> https://webkit.org/blog/10308/speculation-in-javascriptcore/

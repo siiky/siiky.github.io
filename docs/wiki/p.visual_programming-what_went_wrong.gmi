@@ -1,0 +1,13 @@
+# emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+programming,mathematics
+
+=> https://blog.statebox.org/visual-programming-what-went-wrong-and-is-there-room-for-improvement-86fdf06f74f7
+
+Links:
+
+=> https://petrinet.org
+=> https://math.ucr.edu/home/baez/networks

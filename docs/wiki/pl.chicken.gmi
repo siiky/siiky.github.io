@@ -1,0 +1,14 @@
+# CHICKEN Scheme
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+programming,scheme
+
+=> https://call-cc.org
+
+A Scheme implementation.
+
+=> pl.scheme.gmi
+
+=> https://github.com/mario-goulart/egg-layer

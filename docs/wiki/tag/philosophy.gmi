@@ -1,3 +1,6 @@
+=> ../c.exurb1a.gmi 2023-02-28 exurb1a
+=> ../v.exurb1a.dont_hex_the_water.gmi 2023-02-28 /Don't Hex the Water/
+=> ../carfree-movement.gmi 2023-02-28 Carfree Movement
 => ../book.albert_camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"
 => ../wp.ryan_hediger.animal-suicide.gmi 2023-02-13 Ryan Hediger, "Animal suicide and 'anthropodenial'"
-=> ../v.how-frogs-cooked-dinner.gmi 2023-02-10 How the Frogs Cooked Dinner
+=> ../v.exurb1a.how_frogs_cooked_dinner.gmi 2023-02-10 How the Frogs Cooked Dinner

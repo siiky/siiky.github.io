@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><head><meta charset="utf-8"></meta></head><body><h1>IPFS</h1><p>siiky<br></br>2023/02/28<br></br>2023/02/28<br></br>2023/02/28<br></br>distributed,p2p</p><p>A file-distribution P2P distributed network, somewhat like BitTorrent, but with some interesting properties.</p><h2>DHT</h2><p>The whitepaper mentions Kademlia as a big inspiration, and uses a &quot;custom&quot; algorithm based on Coral and S/Kademlia, both of which are extensions/variants of Kademlia.</p><ul><li><a href="dht.html">dht.gmi</a></li><li><a href="wp.petar_maymounkov.kademlia.html">wp.petar_maymounkov.kademlia.gmi</a></li><li><a href="wp.michael_j_freedman.coral.html">wp.michael_j_freedman.coral.gmi</a></li><li><a href="wp.ingmar_baumgart.s-kademlia.html">wp.ingmar_baumgart.s-kademlia.gmi</a></li></ul><h2>Object size</h2><p>It seems  ipfs dag get &lt;CID&gt;  can be used to get the needed disk space to store it. Example:</p><pre>$ ipfs dag get bafybeifrpvm2vhbbjj6b34tgr4ocnbtzcxdfvsx7wo272vigl2c5zofoz4 | jq .
+{
+  &quot;Data&quot;: {
+    &quot;/&quot;: {
+      &quot;bytes&quot;: &quot;CAE&quot;
+    }
+  },
+  &quot;Links&quot;: [
+    {
+      &quot;Hash&quot;: {
+        &quot;/&quot;: &quot;bafybeicmcexgvfv6m6rgrflrmx4kait6yiqhhagalj32o644h46a6vmyle&quot;
+      },
+      &quot;Name&quot;: &quot;books&quot;,
+      &quot;Tsize&quot;: 39279602
+    },
+    {
+      &quot;Hash&quot;: {
+        &quot;/&quot;: &quot;bafybeidy7fanclwpc2ei6sba5qo475l3o66uzv6e4bwojt4os5czndpupi&quot;
+      },
+      &quot;Name&quot;: &quot;videos&quot;,
+      &quot;Tsize&quot;: 112231196979
+    }
+  ]
+}
+</pre><p>For single-block content doesn&#39;t work so well:</p><pre>$ ipfs dag get bafkreicysg23kiwv34eg2d7qweipxwosdo2py4ldv42nbauguluen5v6am | jq .
+{
+  &quot;/&quot;: {
+    &quot;bytes&quot;: &quot;aGVsbG8K&quot;
+  }
+}
+</pre></body></html>

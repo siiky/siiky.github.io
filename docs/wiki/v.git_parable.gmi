@@ -1,0 +1,12 @@
+# Johan Herland, "The Git Parable"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+video,git
+
+=> https://invidious.snopyta.org/watch?v=ANNboouhNHE
+
+A short talk explaining the basic Git structure, based on The Git Parable.
+
+=> p.git_parable.gmi

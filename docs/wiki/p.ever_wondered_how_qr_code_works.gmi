@@ -1,0 +1,12 @@
+# "Ever wondered how a QR code works?"
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+post,technology,computer-science
+
+=> https://nitter.net/DanHollick/status/1570040185500626947
+
+Explains very broadly how QR codes work. Links to "QR Code development story".
+
+=> "QR Code development story"

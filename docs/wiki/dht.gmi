@@ -1,0 +1,10 @@
+# Distributed Hash Table
+siiky
+2023/02/28
+2023/02/28
+2023/02/28
+distributed,p2p
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Distributed_hash_table
+
+A hash table data structure distributed over a cluster of nodes.
