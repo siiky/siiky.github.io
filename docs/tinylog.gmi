@@ -7,6 +7,9 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-03-02 11:33 +0000
+What does it mean to like someone or something?
+
 ## 2023-02-25 15:01 +0000
 Yesterday night I learned of Disjoint Sets from a friend. The data structure and algorithm are so simple that I just couldn't resist, I compulsively implemented my own in Scheme.
 => wiki/pl.scheme.gmi Scheme (programming language) § disjoint-set
