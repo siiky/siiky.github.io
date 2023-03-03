@@ -1,7 +1,7 @@
 # Books list
 siiky
 2020/12/21
-2023/03/01
+2023/03/02
 en
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -26,7 +26,6 @@ Please let me know if you find any of the links not working.
 => https://theanarchistlibrary.org/library/anonymous-desert Anonymous, Desert: 2022/07/15
 => https://tokipona.org Sonja Lang, Toki Pona: The Language of Good: 2022/09/22
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
-=> https://www.goodreads.com/en/book/show/26242226 Tansel Ali, How to Learn Almost Anything in 48 Hours: 2023/02/24
 
 # Read
 
@@ -120,6 +119,7 @@ Please let me know if you find any of the links not working.
 => http://www.stevetoutonghi.com/join Steve Toutonghi, Join: 2021/08/31~2021/11/10
 => https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles Sun Tzu, The Art of War
 => https://susankayequinn.com/books/the-legacy-human Susan Kaye Quinn, The Legacy Human: 2020
+=> https://www.goodreads.com/en/book/show/26242226 Tansel Ali, How to Learn Almost Anything in 48 Hours: 2023/02/24~2023/03/02
 => https://www.smashwords.com/books/view/234617 Travis Bughi, Beyond the Plains: 2020
 => https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood Victor Hugo, Les Misérables: 2020/01/01~2021/06/10
 => https://standardebooks.org/ebooks/voltaire/candide/the-modern-library Voltaire, Candide: 2021/09/06~2021/10/04
