@@ -1,3 +1,4 @@
+=> ../wp.psa.interval-tree-clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../p.why_are_we_talking_about_privacy.gmi 2023-02-28 "Why are we talking so much about privacy?"
 => ../p.git_parable.gmi 2023-02-28 Tom Preston-Werner, "The Git Parable"
 => ../pl.static-scheme.gmi 2023-02-28 Static Scheme
@@ -37,7 +38,6 @@
 => ../sotm2022.gmi 2023-02-21 State of the Map 2022
 => ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../book.remzi_arpaci-dusseau.ostep.gmi 2023-02-21 Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
-=> ../wp.psa.interval-tree-clocks.gmi 2023-02-21 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
 => ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"

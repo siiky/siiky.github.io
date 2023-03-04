@@ -1,3 +1,4 @@
+2023-03-04	2023-03-04	2023-02-21	Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"	wiki/wp.psa.interval-tree-clocks.gmi	whitepaper,distributed,programming
 2023-02-28	post,technology,computer-science	2023-02-28	"QR Code development story"	wiki/p.qr_code_development-story.gmi	
 2023-02-28	2023-02-28	2023-02-28	"Why are we talking so much about privacy?"	wiki/p.why_are_we_talking_about_privacy.gmi	post,privacy,society
 2023-02-28	2023-02-28	2023-02-28	Tom Preston-Werner, "The Git Parable"	wiki/p.git_parable.gmi	post,git
@@ -37,7 +38,6 @@
 2023-02-21	2023-02-21	2023-02-21	State of the Map 2022	wiki/sotm2022.gmi	conference,osm
 2023-02-21	2023-02-21	2023-02-21	Rüdiger Klaehn, "A new approach to IPFS pinning and caching"	wiki/v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi	talk,ipfs
 2023-02-21	2023-02-21	2023-02-21	Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"	wiki/book.remzi_arpaci-dusseau.ostep.gmi	book,os,programming
-2023-02-21	2023-02-21	2023-02-21	Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"	wiki/wp.psa.interval-tree-clocks.gmi	whitepaper,distributed,programming
 2023-02-21	2023-02-21	2023-02-21	Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"	wiki/v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi	talk,distributed,science,ipfs
 2023-02-21	2023-02-21	2023-02-21	Large Scale Distributed Systems	wiki/lsds.gmi	course,distributed,programming
 2023-02-21	2023-02-21	2023-02-21	Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"	wiki/wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi	whitepaper,science,distributed
