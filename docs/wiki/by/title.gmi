@@ -97,6 +97,7 @@
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
 => ../p.git_parable.gmi Tom Preston-Werner, "The Git Parable"
 => ../trainspotter.gmi Trainspotter
+=> ../transitive-reduction.gmi Transitive reduction
 => ../videos.gmi Videos
 => ../v.visiting-worlds-most-dangerous-country.gmi Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )
 => ../v.finally-figured-roman-concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete

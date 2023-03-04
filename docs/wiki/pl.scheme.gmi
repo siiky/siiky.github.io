@@ -79,6 +79,12 @@ My fork of Kooda's geminid, and a Gemini IPFS gateway.
 => https://git.sr.ht/~siiky/geminid
 => ../projects/gemini-ipfs-gateway.gmi Gemini IPFS gateway
 
+### poset
+
+Experiments in POSets visualization.
+
+=> https://git.sr.ht/~siiky/poset
+
 ### trmote
 
 A few utility programs based on the transmission egg to help manage a Transmission instance -- especially transmission-update-seed-priority and transmission-verify!

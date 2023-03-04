@@ -1,3 +1,4 @@
+=> ../transitive-reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval-tree-clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../pl.static-scheme.gmi 2023-02-28 Static Scheme
 => ../logic-programming.gmi 2023-02-28 Logical Programming

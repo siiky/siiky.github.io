@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><head><meta charset="utf-8"></meta></head><body><h1>Transitive reduction</h1><p>siiky<br></br>2023/03/04<br></br>2023/03/04<br></br>en</p><p>There&#39;s this operation on graphs/relations called &quot;transitive reduction&quot; (I didn&#39;t learn its name until very recently). It can be used on a graph/relation to compute another (possibly smaller) graph/relation that has no redundant edges (assuming transitivity). And I&#39;ve been thinking about how to do it for about two years (dam), because I needed it for some POSet things (Scheme § poset). Some weeks ago I was walking home, not thinking about anything in particular, and an algorithm just popped into my brain out of nowhere!</p><ul><li><a href="https://en.wikipedia.org/wiki/Transitive_reduction">https://en.wikipedia.org/wiki/Transitive_reduction</a></li><li><a href="../wiki/transitive-reduction.html">../wiki/transitive-reduction.html</a></li><li><a href="https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm">https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm</a></li><li><a href="../wiki/pl.scheme.html">Scheme (§ poset)</a></li></ul><p>The idea is so simple that I&#39;m flabbergasted I didn&#39;t come up with it two years ago, when I was kinda obsessed. (Though I haven&#39;t proven it works, intuitively I think it does).</p><p>Let&#39;s say `a → b` means that node &#39;b&#39; is directly reachable from node &#39;a&#39; (&quot;directly&quot; means there are no intermediate nodes); and let&#39;s say `a →* b` means that node &#39;b&#39; is reachable from node &#39;a&#39;, possibly through intermediate nodes (e.g. if `a → b → c`, we could say `a →* c`).</p><p>We&#39;ll call our graph G=(V, E), where V is the set of all nodes, and E is the relation `a →* b` (a, b ∈ V). We&#39;re looking to compute an E&#39; from E that is the relation `a → b`.</p><p>And here it is at last: ∀a, c ∈ V: (a →* c ∧ ∃b ∈ V: b≠c ∧ `a → b` ∧ `b →* c`) ⇒ remove `a →* c` from E.</p><p>There&#39;s one caveat with this algorithm: it only works for acyclic graphs (aka DAGs, graphs with no cycles;). That&#39;s not a problem for me (I wanted it for POSets after all; see § &quot;Alternative definitions&quot;) so I didn&#39;t bother to think about the matter further, but beware.</p><ul><li><a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">https://en.wikipedia.org/wiki/Directed_acyclic_graph</a></li></ul><p>The implementation is also simple enough (see the ~siiky/experiments for previous versions):</p><pre>(import (srfi 42))
+
+(define (reachable? E s d)
+  (memq d (alist-ref s E)))
+
+(define (transitive-reduction E)
+  (list-ec (:list s*sE E)
+           (:let s (car s*sE))
+           (:let sE (cdr s*sE))
+           (cons s
+                 (list-ec (:list d sE)
+                          (if (not (any?-ec (:list c sE)
+                                            (and (not (eq? c d))
+                                                 (reachable? E c d)))))
+                          d))))
+</pre><p>Very important note: this implementation assumes that E is the transitive closure! It may not compute the correct result otherwise. I just made this choice to KISS: this way I don&#39;t have to recursively check reachability. When I apply it to the posets experiment I&#39;ll be sure to change that.</p><p>I like how it turned out. SRFI 42 made it pretty.</p><ul><li><a href="https://srfi.schemers.org/srfi-42/srfi-42.html">SRFI 42</a></li></ul><p>A recursive `reachable?` could be something like this:</p><pre>(define (reachable? E s d)
+  (let ((sE (alist-ref s E)))
+    (or (memq d sE)
+        (any?-ec (:list c sE)
+                 (reachable? E c d)))))
+</pre></body></html>

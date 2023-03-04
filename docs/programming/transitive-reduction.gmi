@@ -1,0 +1,60 @@
+# Transitive reduction
+siiky
+2023/03/04
+2023/03/04
+en
+
+There's this operation on graphs/relations called "transitive reduction" (I didn't learn its name until very recently). It can be used on a graph/relation to compute another (possibly smaller) graph/relation that has no redundant edges (assuming transitivity). And I've been thinking about how to do it for about two years (dam), because I needed it for some POSet things (Scheme § poset). Some weeks ago I was walking home, not thinking about anything in particular, and an algorithm just popped into my brain out of nowhere!
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Transitive_reduction
+=> ../wiki/transitive-reduction.gmi
+=> https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm
+=> ../wiki/pl.scheme.gmi Scheme (§ poset)
+
+The idea is so simple that I'm flabbergasted I didn't come up with it two years ago, when I was kinda obsessed. (Though I haven't proven it works, intuitively I think it does).
+
+Let's say `a → b` means that node 'b' is directly reachable from node 'a' ("directly" means there are no intermediate nodes); and let's say `a →* b` means that node 'b' is reachable from node 'a', possibly through intermediate nodes (e.g. if `a → b → c`, we could say `a →* c`).
+
+We'll call our graph G=(V, E), where V is the set of all nodes, and E is the relation `a →* b` (a, b ∈ V). We're looking to compute an E' from E that is the relation `a → b`.
+
+And here it is at last: ∀a, c ∈ V: (a →* c ∧ ∃b ∈ V: b≠c ∧ `a → b` ∧ `b →* c`) ⇒ remove `a →* c` from E.
+
+There's one caveat with this algorithm: it only works for acyclic graphs (aka DAGs, graphs with no cycles;). That's not a problem for me (I wanted it for POSets after all; see § "Alternative definitions") so I didn't bother to think about the matter further, but beware.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Directed_acyclic_graph
+
+The implementation is also simple enough (see the ~siiky/experiments for previous versions):
+
+```scm
+(import (srfi 42))
+
+(define (reachable? E s d)
+  (memq d (alist-ref s E)))
+
+(define (transitive-reduction E)
+  (list-ec (:list s*sE E)
+           (:let s (car s*sE))
+           (:let sE (cdr s*sE))
+           (cons s
+                 (list-ec (:list d sE)
+                          (if (not (any?-ec (:list c sE)
+                                            (and (not (eq? c d))
+                                                 (reachable? E c d)))))
+                          d))))
+```
+
+Very important note: this implementation assumes that E is the transitive closure! It may not compute the correct result otherwise. I just made this choice to KISS: this way I don't have to recursively check reachability. When I apply it to the posets experiment I'll be sure to change that.
+
+I like how it turned out. SRFI 42 made it pretty.
+
+=> https://srfi.schemers.org/srfi-42/srfi-42.html SRFI 42
+
+A recursive `reachable?` could be something like this:
+
+```scm
+(define (reachable? E s d)
+  (let ((sE (alist-ref s E)))
+    (or (memq d sE)
+        (any?-ec (:list c sE)
+                 (reachable? E c d)))))
+```

@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> programming/transitive-reduction.gmi 2023-03-04 Transitive reduction
 => books/list.gmi 2023-03-02 Books list
 => kB45oC/why-throw-rice-at-weddings.gmi 2023-02-26 Why we throw rice at weddings
 => psychology/head-fucked.gmi 2023-02-10 Am I fucked in the head?
