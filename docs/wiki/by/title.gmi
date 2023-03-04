@@ -86,6 +86,7 @@
 => ../pl.scheme.gmi Scheme (programming language)
 => ../justine-sizetricks.gmi Size Optimization Tricks
 => ../souffle.gmi Soufflé
+=> ../sovereignty.gmi Sovereignty
 => ../p.speculation_in_javascriptcore.gmi "Speculation in JavaScriptCore"
 => ../sotm2022.gmi State of the Map 2022
 => ../pl.static-scheme.gmi Static Scheme

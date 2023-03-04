@@ -9,6 +9,11 @@ siiky
 
 I update this page manually.
 
+=> gemini://alexschroeder.ch/page/2022-12-08_Fellow_humans 2023-03-04 Fellow humans
+=> gemini://alexschroeder.ch/page/2023-02-10_Butlerian_Jihad 2023-03-04 Butlerian Jihad
+=> gemini://gemini.hitchhiker-linux.org/gemlog/annoyed_with_foss_desktops.gmi 2023-03-04 Annoyed with Foss Desktops
+=> gemini://benjaminja.info/gemlog/2023/02/26-organizing_my_life/ 2023-03-04 Organizing My Life
+=> gemini://jdcard.com/blog/2023-02-27T13-01.gmi 2023-03-04 Climate Action?
 => gemini://idiomdrottning.org/fun-in-games 2023-03-04 Fun in games
 => gemini://idiomdrottning.org/criterion-of-embarrassment 2023-03-04 Against the “Criterion of Embarrassment”
 => gemini://idiomdrottning.org/acab 2023-03-04 An even-handed and restrained criticism of police

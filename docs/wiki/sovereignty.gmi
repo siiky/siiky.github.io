@@ -1,0 +1,17 @@
+# Sovereignty
+siiky
+2023/03/04
+2023/03/04
+2023/03/04
+philosophy,society
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Self-ownership
+
+The idea of ownership and responsibility for the self and one's possessions.
+
+## Safe-keeping of digital identities
+
+I learned of SLIP-0039 this week, which links to "A New Approach to Social Key Recovery".
+
+=> https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/b14f0b62ee92f6bcf8ba73b4d0a220d36536389a/topics-and-advance-readings/social-key-recovery.md A New Approach to Social Key Recovery
+=> https://github.com/satoshilabs/slips/blob/c86cafc565b24c76e6d64ce8162ed32407b6fbd1/slip-0039.md SLIP-0039: Shamir's Secret-Sharing for Mnemonic Codes
