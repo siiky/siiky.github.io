@@ -1,3 +1,4 @@
+=> ../police.gmi 2023-03-04 Police
 => ../p.why_are_we_talking_about_privacy.gmi 2023-02-28 "Why are we talking so much about privacy?"
 => ../public-transport.gmi 2023-02-28 Public transport
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-02-28 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"

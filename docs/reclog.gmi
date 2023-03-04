@@ -9,6 +9,10 @@ siiky
 
 I update this page manually.
 
+=> gemini://idiomdrottning.org/fun-in-games 2023-03-04 Fun in games
+=> gemini://idiomdrottning.org/criterion-of-embarrassment 2023-03-04 Against the “Criterion of Embarrassment”
+=> gemini://idiomdrottning.org/acab 2023-03-04 An even-handed and restrained criticism of police
+=> gemini://thrig.me/blog/2023/03/02/legacy-ueb.gmi 2023-03-04 Legacy Web
 => gemini://jsreed5.org/log/2023/202303/20230301-streetlights.gmi 2023-03-04 Streetlights
 => gemini://ploum.net/2023-03-03-bluesky.gmi 2023-03-04 About Bluesky and Decentralisation
 

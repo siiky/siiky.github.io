@@ -75,6 +75,7 @@
 => ../wp.psa.interval-tree-clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
+=> ../police.gmi Police
 => ../public-transport.gmi Public transport
 => ../p.qr_code_development-story.gmi "QR Code development story"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
