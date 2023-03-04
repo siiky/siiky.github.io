@@ -9,4 +9,4 @@ post,technology,computer-science
 
 Explains very broadly how QR codes work. Links to "QR Code development story".
 
-=> "QR Code development story"
+=> p.qr_code_development-story.gmi "QR Code development story"
