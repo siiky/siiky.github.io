@@ -1,13 +1,18 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/03/04
+2023/03/06
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-03-04.containment.gmi 2023-03-06 The Joy of Contained Systems
+=> gemini://blog.schmidhuberj.de/2023/03/05/analysis-of-zettelkasten-after-bachelor-thesis/ 2023-03-06 Analysis of my Zettelkasten after the Bachelor Thesis
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-03-05.howdotheyknow.gmi 2023-03-06 How do they know?
+=> gemini://idiomdrottning.org/matrix-libera 2023-03-06 The IRC client optimized for creepers
 
 => gemini://nytpu.com/gemlog/2023-03-04.gmi 2023-03-04 Coffee and Tea and the Java and Me
 => gemini://alexschroeder.ch/page/2022-12-08_Fellow_humans 2023-03-04 Fellow humans
