@@ -19,7 +19,7 @@ We'll call our graph G=(V, E), where V is the set of all nodes, and E is the rel
 
 And here it is at last: ∀a, c ∈ V: (a →* c ∧ ∃b ∈ V: b≠c ∧ `a → b` ∧ `b →* c`) ⇒ remove `a →* c` from E.
 
-There's one caveat with this algorithm: it only works for acyclic graphs (aka DAGs, graphs with no cycles;). That's not a problem for me (I wanted it for POSets after all; see § "Alternative definitions") so I didn't bother to think about the matter further, but beware.
+There's one caveat with this algorithm: it only works for acyclic graphs (aka DAGs, graphs with no cycles). That's not a problem for me (I wanted it for POSets after all; see § "Alternative definitions") so I didn't bother to think about the matter further, but beware.
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Directed_acyclic_graph
 
