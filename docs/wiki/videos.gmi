@@ -1,8 +1,8 @@
 # Videos
 siiky
 2023/02/21
-2023/02/21
-2023/02/21
+2023/03/12
+2023/03/12
 list
 
 ## Want to watch
@@ -29,7 +29,9 @@ list
 => https://invidious.snopyta.org/watch?v=qEu0oRajJxE
 => https://invidious.snopyta.org/watch?v=tLWEr_kdXl4
 => https://invidious.snopyta.org/watch?v=tue7ECtTIMg
+=> https://invidious.snopyta.org/watch?v=ty23jneKgT0
 => https://invidious.snopyta.org/watch?v=x5mionzBMlA
+=> https://invidious.snopyta.org/watch?v=yk03pXPGiVs
 
 => https://invidious.snopyta.org/playlist?list=PLZOMlO2_17fszj7SeFjnCkGHbospqna3B
 => https://invidious.snopyta.org/playlist?list=PLZOMlO2_17fuHvH2Ywja6yFAKR4QwzDLT
