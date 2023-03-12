@@ -1,3 +1,5 @@
+=> ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems
+=> ../class.dsp.gmi 2023-03-12 Distributed Systems Paradigms
 => ../transitive-reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval-tree-clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../pl.static-scheme.gmi 2023-02-28 Static Scheme
@@ -6,11 +8,9 @@
 => ../pl.chicken.gmi 2023-02-28 CHICKEN Scheme
 => ../pl.scheme.gmi 2023-02-28 Scheme (programming language)
 => ../book.remzi_arpaci-dusseau.ostep.gmi 2023-02-21 Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
-=> ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
 => ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
-=> ../dsp.gmi 2023-02-21 Distributed Systems Paradigms
-=> ../logical-clock.gmi 2023-02-14 Logical clock
 => ../wp.leslie_lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
+=> ../logical-clock.gmi 2023-02-14 Logical clock
 => ../justine-sizetricks.gmi 2023-02-13 Size Optimization Tricks
 => ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"

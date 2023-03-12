@@ -1,0 +1,2 @@
+=> ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
+=> ../wp.leslie_lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"

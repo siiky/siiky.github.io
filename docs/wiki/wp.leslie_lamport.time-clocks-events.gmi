@@ -2,8 +2,8 @@
 siiky
 2023/02/14
 2023/02/14
-2023/02/14
-whitepaper,programming,distributed
+2023/03/12
+whitepaper,programming,distributed,time,causality
 
 => https://doi.org/10.1145%2F359545.359563
 => https://lamport.azurewebsites.net/pubs/time-clocks.pdf

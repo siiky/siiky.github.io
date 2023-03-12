@@ -1,4 +1,8 @@
 => ../videos.gmi 2023-03-12 Videos
+=> ../nmh.gmi 2023-03-12 Nils M Holm
+=> ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems
+=> ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
+=> ../class.dsp.gmi 2023-03-12 Distributed Systems Paradigms
 => ../transitive-reduction.gmi 2023-03-04 Transitive reduction
 => ../sovereignty.gmi 2023-03-04 Sovereignty
 => ../police.gmi 2023-03-04 Police
@@ -42,12 +46,9 @@
 => ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../book.remzi_arpaci-dusseau.ostep.gmi 2023-02-21 Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
 => ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
-=> ../lsds.gmi 2023-02-21 Large Scale Distributed Systems
 => ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
 => ../sotm2022.none-story-of-data.gmi 2023-02-21 Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
-=> ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-02-21 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
-=> ../dsp.gmi 2023-02-21 Distributed Systems Paradigms
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column
 => ../sotm2022.mapping-crises-communities-capitalism.gmi 2023-02-21 Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../albert_camus.gmi 2023-02-16 Albert Camus

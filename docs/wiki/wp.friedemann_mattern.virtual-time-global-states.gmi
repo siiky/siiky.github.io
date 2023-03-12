@@ -1,11 +1,14 @@
 # Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 siiky
 2023/02/21
-2023/02/21
-2023/02/21
-whitepaper,distributed
+2023/03/12
+2023/03/12
+whitepaper,distributed,time,causality
 
 => https://www.vs.inf.ethz.ch/publ/papers/VirtTimeGlobStates.pdf
 => https://homes.cs.washington.edu/~arvind/cs425/doc/mattern89virtual.pdf
 
-To read
+Whitepaper about vector clocks. Points out some problems with the approach presented in "Time, Clocks, and the Ordering of Events in a Distributed System". At the end describes an algorithm to compute a "cut" across a distributed set of nodes, i.e., a state that's possible to have happened (globally) and that respects causality.
+
+=> logical-clock.gmi
+=> wp.leslie_lamport.time-clocks-events.gmi

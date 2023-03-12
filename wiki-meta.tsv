@@ -1,4 +1,8 @@
+2023-03-12	2023-03-12	2023-03-12	Nils M Holm	wiki/nmh.gmi	scheme
 2023-03-12	2023-03-12	2023-02-21	Videos	wiki/videos.gmi	list
+2023-03-12	2023-03-12	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
+2023-03-12	2023-03-12	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed,time,causality
+2023-03-12	2023-03-12	2023-02-21	Distributed Systems Paradigms	wiki/class.dsp.gmi	course,distributed,programming
 2023-03-04	2023-03-04	2023-03-04	Transitive reduction	wiki/transitive-reduction.gmi	programming,algorithms
 2023-03-04	2023-03-04	2023-03-04	Sovereignty	wiki/sovereignty.gmi	philosophy,society
 2023-03-04	2023-03-04	2023-03-04	Police	wiki/police.gmi	philosophy,society,politics
@@ -42,18 +46,15 @@
 2023-02-21	2023-02-21	2023-02-21	Rüdiger Klaehn, "A new approach to IPFS pinning and caching"	wiki/v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi	talk,ipfs
 2023-02-21	2023-02-21	2023-02-21	Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"	wiki/book.remzi_arpaci-dusseau.ostep.gmi	book,os,programming
 2023-02-21	2023-02-21	2023-02-21	Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"	wiki/v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi	talk,distributed,science,ipfs
-2023-02-21	2023-02-21	2023-02-21	Large Scale Distributed Systems	wiki/lsds.gmi	course,distributed,programming
 2023-02-21	2023-02-21	2023-02-21	Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"	wiki/wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi	whitepaper,science,distributed
 2023-02-21	2023-02-21	2023-02-21	Interval Tree Clocks	wiki/interval-tree-clocks.gmi	distributed,programming
 2023-02-21	2023-02-21	2023-02-21	Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"	wiki/sotm2022.none-story-of-data.gmi	talk,osm
-2023-02-21	2023-02-21	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed
-2023-02-21	2023-02-21	2023-02-21	Distributed Systems Paradigms	wiki/dsp.gmi	course,distributed,programming
 2023-02-21	2023-02-21	2023-02-21	Beau of the Fifth Column	wiki/c.beau_fifth_column.gmi	channel,society,politics,history
 2023-02-21	2023-02-21	2023-02-21	Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"	wiki/sotm2022.mapping-crises-communities-capitalism.gmi	talk,osm
 2023-02-16	2023-02-20	2023-02-16	Albert Camus	wiki/albert_camus.gmi	author,philosopher
 2023-02-16	2023-02-20	2023-02-16	Albert Camus, "The Plague"	wiki/book.albert_camus.plague.gmi	book,philosophy,life,religion,ethics
+2023-02-14	2023-03-12	2023-02-14	Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"	wiki/wp.leslie_lamport.time-clocks-events.gmi	whitepaper,programming,distributed,time,causality
 2023-02-14	2023-02-16	2023-02-14	Logical clock	wiki/logical-clock.gmi	programming,distributed
-2023-02-14	2023-02-14	2023-02-14	Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"	wiki/wp.leslie_lamport.time-clocks-events.gmi	whitepaper,programming,distributed
 2023-02-13	2023-02-13	2023-02-13	Size Optimization Tricks	wiki/justine-sizetricks.gmi	post,programming,efficiency
 2023-02-13	2023-02-13	2023-02-13	Ryan Hediger, "Animal suicide and 'anthropodenial'"	wiki/wp.ryan_hediger.animal-suicide.gmi	whitepaper,philosophy,ethics
 2023-02-10	2023-02-13	2023-02-10	We FINALLY Figured Out The Secret of Roman Concrete	wiki/v.finally-figured-roman-concrete.gmi	video,engineering,science

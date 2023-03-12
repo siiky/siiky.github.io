@@ -1,0 +1,18 @@
+# Nils M Holm
+siiky
+2023/03/12
+2023/03/12
+2023/03/12
+scheme
+
+=> https://t3x.org/index.html
+
+A Schemer! Also author of a good list of books.
+
+=> pl.scheme.gmi
+=> https://t3x.org/index.html
+
+Original author of the tiny-prolog interpreter, packaged as a CHICKEN egg.
+
+=> https://wiki.call-cc.org/eggref/5/tiny-prolog
+=> pl.chicken.gmi

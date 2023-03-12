@@ -14,7 +14,7 @@
 => ../pl.c.gmi C (programming language)
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
 => ../dht.gmi Distributed Hash Table
-=> ../dsp.gmi Distributed Systems Paradigms
+=> ../class.dsp.gmi Distributed Systems Paradigms
 => ../v.exurb1a.dont_hex_the_water.gmi /Don't Hex the Water/
 => ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
@@ -52,7 +52,7 @@
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
-=> ../lsds.gmi Large Scale Distributed Systems
+=> ../class.lsds.gmi Large Scale Distributed Systems
 => ../wp.leslie_lamport.time-clocks-events.gmi Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
 => ../linux.gmi Linux
 => ../logical-clock.gmi Logical clock
@@ -68,6 +68,7 @@
 => ../fosdem2023.network_p2p_browser_connectivity.gmi Max Leonard Inden, "Peer-to-peer Browser Connectivity"
 => ../wp.michael_j_freedman.coral.gmi Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
 => ../fosdem2023.beam_actor_model_load_testing.gmi Nelson Vides, "The Actor Model as a Load Testing Framework"
+=> ../nmh.gmi Nils M Holm
 => ../fosdem2023.sovcloud_from_zero_to_hero_with_solid.gmi Noel De Martin, "From Zero to Hero with Solid"
 => ../meta.gmi nothing interesting wiki: Meta
 => ../wiki-plan.gmi nothing interesting wiki: plan/ideas
