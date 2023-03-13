@@ -7,6 +7,14 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-03-13 10:52 +0000
+Some years ago I started writing a shitty implementation of (integer) BigNums (i.e. "infinite" precision integer arithmetic) in C, as part of my c-utils set of tools. At the time I was stuck with what seemed to be a bug in the addition of digits to a bignum AND/OR a bug in the conversion to/from strings in base 16.
+But it turns out it was neither! Addition of digits to a number is working just fine; and so is conversion to/from strings!
+The bug was instead in the example program itself, in the usage of sbn_add_digit_u() (the non-destructive (i.e., functional) counterpart of sbn_add_digit_ud()). The likely root problem is in sbn_clone().
+For now I haven't advanced the library any further (just moved some configs around), but this is really good news for me and the library.
+=> wiki/pl.c.gmi C § c-utils
+=> https://git.sr.ht/~siiky/c-utils/tree/sbn/item/include/utils/sbn.h
+
 ## 2023-03-02 11:33 +0000
 What does it mean to like someone or something?
 

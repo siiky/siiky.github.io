@@ -1,3 +1,4 @@
+=> ../pl.c.gmi 2023-03-13 C (programming language)
 => ../logic-programming.gmi 2023-03-12 Logical Programming
 => ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-12 Distributed Systems Paradigms
@@ -14,7 +15,6 @@
 => ../justine-sizetricks.gmi 2023-02-13 Size Optimization Tricks
 => ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"
-=> ../pl.c.gmi 2023-02-09 C (programming language)
 => ../pl.lua.gmi 2023-02-09 Lua (programming language)
 => ../pl.go.gmi 2023-02-08 Go (programming language)
 => ../pl.forth.gmi 2023-02-07 Forth (programming language)

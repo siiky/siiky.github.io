@@ -1,8 +1,8 @@
 # C (programming language)
 siiky
 2023/02/09
-2023/02/09
-2023/02/09
+2023/03/13
+2023/03/13
 programming
 
 No introductions needed.
@@ -19,13 +19,13 @@ Type-safe, type-agnostic data structures in single-header C files through the po
 * map.h: fast hash-map -- configurable keys&values types, hash, comparator, number of buckets, ...
 * bs.h: bitset
 * ftr.h: future/delay/lazy-evaluation/w.e.
-* tralloc.h: track memory with more memory!
+* tralloc.h: (deps: vec.h) track memory with more memory!
 * unused.h: suppress those annoying unused warnings
 * ifjmp.h: neat macro to make error handling a bit less of a pain
 * ifnotnull.h: tiny macro to conditionally call a function if a certain value isn't NULL
 * common.h: the classic min and max macros, of course
-
-Got started on rc (RefCount) and sbn (ShitBigNumber, i.e. arbitrary precision integer arithmetic) implementations but never got around to finishing them. sbn especially would be really cool to have! But IIRC I was having problems on the most basic conversion functions... :/
+* sbn.h: (WIP in the "sbn" branch) (deps: vec.h) a shitty (integer) BigNums implementation
+* rc.h: (unfinished, in the "rc" branch) a RefCount library, useful for memory management
 
 ### STAR
 
