@@ -1,3 +1,6 @@
+=> ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
+=> ../class.ft.gmi 2023-03-13 Fault Tolerance
+=> ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../nmh.gmi 2023-03-12 Nils M Holm
 => ../transitive-reduction.gmi 2023-03-04 Transitive reduction
 => ../sovereignty.gmi 2023-03-04 Sovereignty
@@ -107,4 +110,5 @@
 => ../20230204.gmi 2023-02-04 2023/02/04
 => ../fosdem2023.gmi 2023-02-03 FOSDEM 2023
 => ../index.gmi 2023-02-02 nothing interesting wiki
+=> ../raft.gmi 2021-10-23 Raft
 => ../books.gmi 2020-12-21 Books list

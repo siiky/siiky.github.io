@@ -1,3 +1,4 @@
+=> ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../pl.c.gmi 2023-03-13 C (programming language)
 => ../logic-programming.gmi 2023-03-12 Logical Programming
 => ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems

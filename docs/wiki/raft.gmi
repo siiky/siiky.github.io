@@ -1,0 +1,96 @@
+# Raft
+siiky
+2021/10/23
+2023/03/13
+2023/03/13
+p2p,distributed,algorithms
+
+=> https://raft.github.io
+
+Distributed consensus algorithm, first described in the following paper:
+
+=> wp.diego_ongaro.raft.gmi
+
+## Simple high-level view
+
+From "The Secret Lives of Data", an interactive presentation of the Raft algorithm.
+
+=> https://thesecretlivesofdata.com
+
+A node of a cluster using the Raft algorithm can be in one of three states:
+
+* Follower
+* Candidate
+* Leader
+
+### Leader Election
+
+All nodes start initially in the follower state.
+
+Followers can become candidates if they don't hear of a leader.
+
+A candidate becomes a leader through the process of leader election. The candidate requests other nodes to vote, and if the majority of nodes vote for, then it becomes the leader.
+
+### Log Replication
+
+Changes to the system go through the process of log replication, described next.
+
+All changes to the system go through the leader, and each change is added as an (uncommitted) entry to the leader's log.
+
+Uncommitted entries in a node's log don't update its value.
+
+To commit an (uncommitted) entry, the leader replicates it to the followers, and the leader waits until a majority of nodes have the entry as well. With this, the entry becomes committed, the value is updated according to it, and the leader notifies the followers that this entry is now committed.
+
+## Election Term
+
+An election term is the "time" between each leader election.
+
+There are two timeouts (settings?) that control elections, as the systems evolves through time: election timeout and heartbeat timeout.
+
+The election timeout is the ammount of time a follower waits until it decides to become a candidate. Random between 150ms and 300ms.
+
+When a node becomes a candidate it starts a new election term, votes for itself, and sends request vote messages to other nodes.
+
+If a node receiving a request vote message hasn't voted yet in this term, then it votes for the candidate that sent the request, and resets its election timeout.
+
+As said before, once the candidate has the majority of votes from the other nodes, it becomes the leader. This requirement guarantees that only one leader can be elected per term.
+
+Once leader, a node begins sending append entries messages to its followers, in intervals set by the heartbeat timeout, and followers reply to each. This back and forth goes on until a follower stops receiving heartbeats and becomes a candidate.
+
+In case two nodes become candidates nearly at the same time, a split voting occurs. Voting goes as described before and if one of the nodes has the mojority of votes, it becomes the leader; if instead there's a tie, no leader is elected, and all nodes wait for a new term to start.
+
+When voting, a node not only replies to the candidate node it's voting for, but also shares its vote will all other nodes. This is crucial to the voting consensus.
+
+## Log Replication
+
+To replicate changes to the system between all nodes, the append entries messages are used to share log entries.
+
+A client sends a change to the leader, which appends this change as an entry to its log. And on the next heartbeat (append entries message), it sends also the change to its followers.
+
+Once a majority of nodes acknowledges this change, the leader commits it in its log, and a reply is given to the client.
+
+## In Case of Network Partition
+
+If a network partition occurs, the group with the leader will continue to function as normal; the group with no leader will reach a new election term, and a new leader will be elected.
+
+If different clients send changes to different leaders, the group with the majority will commit the changes, but the other group will not. Once both groups regain connection, the leader with the highest election term "wins" and becomes leader of the whole cluster.
+
+It's possible that in a network partition that splits the cluster in two groups, the leader ending up in the minority group, both groups receive client requests, and that the minority group gets more requests, gets more work done. However, once the partition is solved, the majority wins. Is this the right thing to do? Is it possible to do better?
+
+## Questions
+
+### Why does the election term win in the case of a network partition?
+
+Why not majority of nodes?
+
+I may have misunderstood this detail a couple of years ago. Professor will think/read more about it and try to answer definitively later.
+
+### Some of the details seem to require that all nodes know of all other nodes
+
+Is this true? Not quite.
+
+From an implementation's POV, all that's necessary is a way to contact all members of the group -- this could be the nodes' IPs, some kind of multicast, or whatever. And what is really necessary from the algorithm's POV is only the number of nodes in the group, to know when a majority is reached.
+
+### If only leaders reply to clients, and followers redirect requests to leaders, what do candidates do to clients' requests?
+
+### Is the election timeout random on each reset?

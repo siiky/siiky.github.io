@@ -1,3 +1,1 @@
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
-=> ../raft.gmi 2023-03-13 Raft
-=> ../transitive-reduction.gmi 2023-03-04 Transitive reduction

@@ -14,6 +14,7 @@
 => ../pl.chicken.gmi CHICKEN Scheme
 => ../pl.c.gmi C (programming language)
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
+=> ../wp.diego_ongaro.raft.gmi Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../dht.gmi Distributed Hash Table
 => ../class.dsp.gmi Distributed Systems Paradigms
 => ../v.exurb1a.dont_hex_the_water.gmi /Don't Hex the Water/
@@ -26,6 +27,7 @@
 => ../p.ever_wondered_how_qr_code_works.gmi "Ever wondered how a QR code works?"
 => ../c.exurb1a.gmi exurb1a
 => ../p.ive_seen_future_without_cars.gmi Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
+=> ../class.ft.gmi Fault Tolerance
 => ../pl.forth.gmi Forth (programming language)
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
@@ -55,6 +57,7 @@
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../class.lsds.gmi Large Scale Distributed Systems
 => ../wp.leslie_lamport.time-clocks-events.gmi Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
+=> ../leslie_lamport.gmi Leslie Lamport
 => ../linux.gmi Linux
 => ../logical-clock.gmi Logical clock
 => ../logic-programming.gmi Logical Programming
@@ -80,6 +83,7 @@
 => ../police.gmi Police
 => ../public-transport.gmi Public transport
 => ../p.qr_code_development-story.gmi "QR Code development story"
+=> ../raft.gmi Raft
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../book.remzi_arpaci-dusseau.ostep.gmi Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
 => ../roman-concrete.gmi Roman concrete

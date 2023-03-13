@@ -1,0 +1,21 @@
+# Fault Tolerance
+siiky
+2023/03/13
+2023/03/13
+2023/03/13
+course,distributed,programming
+
+## Linearizability
+
+A program/system is linearizable if the results it produces could have been produced by a sequential program.
+
+## Distributed Consensus
+
+Algorithms of distributed consensus:
+
+=> https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf (Paxos) Leslie Lamport, "The Part-time Parliament"
+=> https://lamport.azurewebsites.net/pubs/paxos-simple.pdf (Paxos) Leslie Lamport, "Paxos Made Simple"
+=> raft.gmi
+=> https://arxiv.org/abs/1803.05069 (HotStuff) "HotStuff: BFT Consensus in the Lens of Blockchain"
+
+=> leslie_lamport.gmi

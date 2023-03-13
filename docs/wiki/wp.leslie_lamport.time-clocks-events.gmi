@@ -11,6 +11,7 @@ whitepaper,programming,distributed,time,causality
 The paper that introduced the concept of logical clocks (aka Lamport clocks).
 
 => logical-clock.gmi
+=> leslie_lamport.gmi
 
 Presents and partially solves the problem of keeping nodes in a distributed system "synchronized".
 
