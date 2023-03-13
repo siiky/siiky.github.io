@@ -1,4 +1,5 @@
 2023-03-12	2023-03-12	2023-03-12	Nils M Holm	wiki/nmh.gmi	scheme
+2023-03-12	2023-03-12	2023-02-28	Logical Programming	wiki/logic-programming.gmi	programming,logic
 2023-03-12	2023-03-12	2023-02-21	Videos	wiki/videos.gmi	list
 2023-03-12	2023-03-12	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
 2023-03-12	2023-03-12	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed,time,causality
@@ -18,7 +19,6 @@
 2023-02-28	2023-02-28	2023-02-28	Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"	wiki/wp.michael_j_freedman.coral.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Matt Parker, "Talks at Google: The Greatest Maths Mistakes"	wiki/v.talks_google.greatest_maths_mistakes.gmi	video,mathematics
 2023-02-28	2023-02-28	2023-02-28	Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"	wiki/book.mark_graham.geographies_digial_exclusion.gmi	book,ethics,society,osm
-2023-02-28	2023-02-28	2023-02-28	Logical Programming	wiki/logic-programming.gmi	programming,logic
 2023-02-28	2023-02-28	2023-02-28	John Nelson, "Put a north arrow on it?"	wiki/p.put_noth_arrow.gmi	post,cartography,osm
 2023-02-28	2023-02-28	2023-02-28	Johan Herland, "The Git Parable"	wiki/v.git_parable.gmi	video,git
 2023-02-28	2023-02-28	2023-02-28	Jochen Topf, "Modding the OSM Data Model"	wiki/v.jochen_topf.modding_osm_data_model.gmi	video,osm,database,permaculture

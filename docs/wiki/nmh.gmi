@@ -16,3 +16,4 @@ Original author of the tiny-prolog interpreter, packaged as a CHICKEN egg.
 
 => https://wiki.call-cc.org/eggref/5/tiny-prolog
 => pl.chicken.gmi
+=> logic-programming.gmi

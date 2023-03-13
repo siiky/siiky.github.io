@@ -1,5 +1,6 @@
 => ../videos.gmi 2023-03-12 Videos
 => ../nmh.gmi 2023-03-12 Nils M Holm
+=> ../logic-programming.gmi 2023-03-12 Logical Programming
 => ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems
 => ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../class.dsp.gmi 2023-03-12 Distributed Systems Paradigms
@@ -19,7 +20,6 @@
 => ../wp.michael_j_freedman.coral.gmi 2023-02-28 Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
 => ../v.talks_google.greatest_maths_mistakes.gmi 2023-02-28 Matt Parker, "Talks at Google: The Greatest Maths Mistakes"
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-02-28 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
-=> ../logic-programming.gmi 2023-02-28 Logical Programming
 => ../p.put_noth_arrow.gmi 2023-02-28 John Nelson, "Put a north arrow on it?"
 => ../v.git_parable.gmi 2023-02-28 Johan Herland, "The Git Parable"
 => ../v.jochen_topf.modding_osm_data_model.gmi 2023-02-28 Jochen Topf, "Modding the OSM Data Model"
