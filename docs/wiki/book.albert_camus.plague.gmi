@@ -12,7 +12,7 @@ book,philosophy,life,religion,ethics
 Book by Albert Camus about a small town hit by an epidemic of plague.
 
 => albert_camus.gmi
-=> ../books/list.gmi
+=> ../wiki/books.gmi
 
 I liked this book a lot. Read it only a little after the COVID pandemic started to come to the end (around here). Because of that much of the book was familiar and relatable.
 
@@ -214,7 +214,7 @@ Possibly my favorite passage so far. And it continues through the next few pages
 (p264-265) At the end of the day, we don't know shit. And we're largely powerless in a shithole of a world. But that is not reason to give up to the wrong path just because it's easier.
 
 => ../words/quotes.gmi just quotes § Jean Valjean on duty
-=> ../books/list.gmi books list § Plato, Gorgias
+=> ../wiki/books.gmi books list § Plato, Gorgias
 
 > "So what is his idea?" the old priest asked.
 >

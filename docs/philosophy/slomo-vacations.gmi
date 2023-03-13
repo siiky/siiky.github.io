@@ -10,4 +10,4 @@ My dad has a small patch of land where he can't (legally) really building anythi
 
 In truth, it's not completely in the middle of nowhere, there are a few houses nearby in a ~1km radius (just in case). Other than a silent retreat it would be good for me to start getting used to a "slower" and more "boring" life. I read some people around here on Gemini relating their "less civilized" lives (in a good way!), and I've wanted to try it for a long, ever since I read Walden.
 
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list

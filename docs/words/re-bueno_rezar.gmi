@@ -50,7 +50,7 @@ O Tolstoy (em "A Confession") tentou recorrer à religião (Ortodoxa Cristã, se
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Liev_Tolst%C3%B3i Leo Tolstoy
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Igreja_Ortodoxa_Russa Igreja Ortodoxa Russa
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Medita%C3%A7%C3%B5es_sobre_Filosofia_Primeira Descartes, "Meditações sobre Filosofia Primeira"
-=> ../books/list.gmi Lista de livros
+=> ../wiki/books.gmi Lista de livros
 
 
 [^0]: Em vez d'acreditar em Deus e no Diabo, no Céu e no Inferno, que São Pedro é que controla a chuva e os portões do Céu, &c, acreditam noutras merdas estúpidas que vêem online. O juízo que deviam ter cultivado mal deitaram fora's crenças estúpidas da religião foi logo deitado fora junto co'as crenças.

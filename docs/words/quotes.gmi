@@ -38,7 +38,7 @@ Jean Valjean to Marius Pontmercy, from Les Misérables, by Victor Hugo
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Les_Misérables Wikipedia
 => https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood Standard Ebooks
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2021-06-08
 
@@ -48,7 +48,7 @@ From Tractatus Logico-Philosophicus, by Ludwig Wittgenstein
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tractatus_Logico-Philosophicus Wikipedia
 => https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden Standard Ebooks
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2021-04-08
 
@@ -66,7 +66,7 @@ From Animal Farm, by George Orwell
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Animal_Farm Wikipedia
 => https://gutenberg.net.au/plusfifty-n-z.html#orwell Project Gutenberg Australia
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2020-09-02
 
@@ -78,7 +78,7 @@ but it's a good paragraph from a good book.
 From Brave New World, by Aldous Huxley
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Brave_New_World Wikipedia
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2020-08-25
 
@@ -88,7 +88,7 @@ Socrates, from Socrates, by Voltaire
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view?Socrates+(Voltaire) Wikipedia
 => https://www.gutenberg.org/ebooks/4683 Project Gutenberg
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2020-08-24
 
@@ -97,7 +97,7 @@ Socrates, from Socrates, by Voltaire
 Lenina, from Brave New World, by Aldous Huxley
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Brave_New_World Wikipedia
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 ## 2020-06-13
 

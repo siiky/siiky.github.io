@@ -61,4 +61,4 @@ ja
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/ja?村上春樹 村上 春樹
 => https://www.penguin.co.uk/books/183166/short-stories-in-japanese-by-micahel-emmerich/9780143118336 Penguinのウェブサイト
 => https://www.tofugu.com/reviews/short-stories-in-japanese Tofuguのブックレビュー
-=> ../books/list.gmi 読んだ本
+=> ../wiki/books.gmi 読んだ本

@@ -6,6 +6,7 @@
 => ../sotm2022.mapping-crises-communities-capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
 => ../c.beau_fifth_column.gmi Beau of the Fifth Column
+=> ../books.gmi Books list
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
 => ../p.fastest_lua_interpreter.gmi "Building the fastest Lua interpreter.. automatically!"
 => ../carfree-cities.gmi Carfree Cities

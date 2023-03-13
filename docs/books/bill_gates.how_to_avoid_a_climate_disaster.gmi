@@ -6,7 +6,7 @@ en
 
 Finished reading this book recently (ISBN 978-0-241-44830-4) and in this post I want to share my opinions/critique, and try to compile all the notes I took while and after reading.
 
-=> list.gmi Books list
+=> ../wiki/books.gmi Books list
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?How_to_Avoid_a_Climate_Disaster Wikipedia
 
 I'll put down page numbers in this post. If you have the same edition, cool, if not: the "Introduction" starts on p3, and "Climate Change and COVID-19" ends on p230. Hopefully that will help getting around. For figures and tables you can try the "Notes" where you can find the sources and corresponding page.

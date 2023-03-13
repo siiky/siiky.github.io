@@ -87,4 +87,4 @@ And that's that. I spent a good workday of time on this, totally worth it! Feels
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Hard_determinism Hard Determinism
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Tai_chi Tai Chi
 => https://www.theguardian.com/lifeandstyle/2016/nov/28/breakfast-health-america-kellog-food-lifestyle Breakfast (Kellogg's and some bacon company)
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list

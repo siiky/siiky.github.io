@@ -45,4 +45,4 @@ Just another tool in the toolbox... Maybe. Or not. ¯\__(ツ)_/¯
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Consistent Consistent
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Contradiction Contradiction
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Proposition Proposition
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list

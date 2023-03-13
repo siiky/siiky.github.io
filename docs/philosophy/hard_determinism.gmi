@@ -6,7 +6,7 @@ en
 
 Thoughts on Hard Determinism, as described in Philosophy 101, by Paul Kleinman.
 
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 Hard determinism, as described in the book, states that everything is determined by past events. It is not clear from the book if it's meant to be applied only to the physical world, beings' behavior, or both, but it treats only human behavior.
 

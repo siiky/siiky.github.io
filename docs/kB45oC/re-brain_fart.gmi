@@ -25,7 +25,7 @@ I could quote almost the whole thing verbatim in here and just say "this ^".
 
 I can relate 100% with them. I'm like a squirrel chasing new nuts every 5 seconds, almost as if the nuts I catch rot by the touch. It's completely irrational to take on so many things simultaneously, and yet, here we are. I have more than 4 ongoing books for some reason. I haven't read a single word of any of them for the past... 2 weeks? Maybe more? Shiet...
 
-=> ../books/list.gmi Books list
+=> ../wiki/books.gmi Books list
 
 I'm honestly surprised I've been able to keep at it on the Petri nets. Fingers crossed it continues that way because I think they'll be key to getting some new doors open.
 
