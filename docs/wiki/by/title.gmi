@@ -86,6 +86,7 @@
 => ../raft.gmi Raft
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../book.remzi_arpaci-dusseau.ostep.gmi Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
+=> ../book.richard_p_brent.mca.gmi Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"
 => ../roman-concrete.gmi Roman concrete
 => ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../wp.ryan_hediger.animal-suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"

@@ -1,0 +1,17 @@
+# Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"
+siiky
+2023/03/14
+2023/03/14
+2023/03/14
+algorithms,mathematics
+
+=> https://maths-people.anu.edu.au/~brent/pd/mca-cup-0.5.9.pdf
+=> https://members.loria.fr/PZimmermann/mca/pub226.html
+
+A book about computer arithmetic that's not limited to the CPU's capabilities.
+
+It's the book I'm using as reference for the sbn library, and was also the reference used for CHICKEN's BigNums impelementation.
+
+=> pl.c.gmi C § c-utils
+=> pl.chicken.gmi
+=> https://wiki.call-cc.org/man/5/Bibliography CHICKEN Bibliography

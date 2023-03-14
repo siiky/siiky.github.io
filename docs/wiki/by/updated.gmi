@@ -1,8 +1,9 @@
+=> ../book.richard_p_brent.mca.gmi 2023-03-14 Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"
+=> ../pl.c.gmi 2023-03-14 C (programming language)
 => ../raft.gmi 2023-03-13 Raft
 => ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
 => ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
-=> ../pl.c.gmi 2023-03-13 C (programming language)
 => ../books.gmi 2023-03-13 Books list
 => ../videos.gmi 2023-03-12 Videos
 => ../nmh.gmi 2023-03-12 Nils M Holm

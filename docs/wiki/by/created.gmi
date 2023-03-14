@@ -1,3 +1,4 @@
+=> ../book.richard_p_brent.mca.gmi 2023-03-14 Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"
 => ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
 => ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
