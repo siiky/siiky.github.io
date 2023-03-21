@@ -197,7 +197,7 @@ serve:
 	$(GEMINID) $(ROOT)
 
 graph.scm: $(MAKE_GRAPH) $(SITE_SRC)
-	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(SITE_SRC) > $@
+	@$(MAKE_GRAPH) $(ROOT) $(ROOT)/index.gmi $(SITE_SRC) $(WIKI_SRC) > $@
 
 graph.gvs: graph.scm $(GRAPH2GVS)
 	$(GRAPH2GVS) $(ROOT) $< > $@

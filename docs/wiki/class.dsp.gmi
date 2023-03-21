@@ -1,13 +1,18 @@
 # Distributed Systems Paradigms
 siiky
 2023/02/21
-2023/03/12
-2023/03/12
+2023/03/21
+2023/03/21
 course,distributed,programming
 
 This page is about one of the classes I have this semester.
 
 So far, we're learning about more efficient ways to implement large-scale servers -- specifically by using the event-driven paradigm, with one (or more) threads running an event loop.
+
+Learned about reactive programming with ReactiveX on the first chapter, and started (re)learning about Actor-based concurrency models with Erlang.
+
+=> https://reactivex.io/
+=> pl.erlang.gmi
 
 ## Research
 

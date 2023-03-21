@@ -1,8 +1,8 @@
+=> ../class.lsds.gmi 2023-03-21 Large Scale Distributed Systems
+=> ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../pl.c.gmi 2023-03-14 C (programming language)
 => ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../logic-programming.gmi 2023-03-12 Logical Programming
-=> ../class.lsds.gmi 2023-03-12 Large Scale Distributed Systems
-=> ../class.dsp.gmi 2023-03-12 Distributed Systems Paradigms
 => ../transitive-reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval-tree-clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../pl.static-scheme.gmi 2023-02-28 Static Scheme

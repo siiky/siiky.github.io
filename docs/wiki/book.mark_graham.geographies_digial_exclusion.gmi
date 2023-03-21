@@ -1,8 +1,8 @@
 # Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 siiky
 2023/02/28
-2023/02/28
-2023/02/28
+2023/03/21
+2023/03/21
 book,ethics,society,osm
 
 => https://www.oii.ox.ac.uk/research/publications/geographies-of-digital-exclusion-data-and-inequality
@@ -29,3 +29,10 @@ book,ethics,society,osm
 Mentions the "Declaration of the Independence of Cyberspace".
 
 * TODO "Regulating 'digital spaces'"
+
+## Other possibly relevant books & things
+
+=> https://journals.openedition.org/ejpap/678 José Medina, "The Epistemology of Resistance"
+=> https://ndpr.nd.edu/reviews/epistemic-injustice-power-and-the-ethics-of-knowing/ Miranda Fricker, "Epistemic Injustice: Power and the Ethics of Knowing"
+=> https://data-feminism.mitpress.mit.edu/ Catherine D'Ignazio, Lauren F. Klein, "Data Feminism"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Why_I'm_No_Longer_Talking_to_White_People_About_Race Reni Eddo-Lodge, "Why I'm No Longer Talking to White People About Race"

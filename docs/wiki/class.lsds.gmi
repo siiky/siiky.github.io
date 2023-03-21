@@ -1,8 +1,8 @@
 # Large Scale Distributed Systems
 siiky
 2023/02/21
-2023/03/12
-2023/03/12
+2023/03/21
+2023/03/21
 course,distributed,programming
 
 This page is about one of the classes I have this semester.
@@ -10,6 +10,8 @@ This page is about one of the classes I have this semester.
 We're using Maelstrom to experiment with dummy implementations of distributed algorithms.
 
 => https://github.com/jepsen-io/maelstrom
+
+Learned about time (physical and logical), causal consistency, different properties of message delivery (FIFO, causal delivery, total order), and CRDTs (operation and state based).
 
 ## Research
 
