@@ -1,32 +1,36 @@
 # WIP Societal slavery
 siiky
 2023/03/19
-2023/03/21
+2023/03/22
 
 Society seems to run as some kind of megaslavery system. Depending on the POV, it's not quite as bad as actual slavery some mere centuries ago: the majority of today's "slaves" don't work in back-breaking conditions, they're not (as) starved, they're not whipped, they have (some sort of) dignity (whatever this word means), and health is also mostly improved apart from the usual suspects (cancer, sleep deprivation, obesity, diabetes, ...).
 
-The most obvious common aspect is the lack of freedom. Both now and then, you go to work for me right now or else... The whip, as mentioned, is "not real", not literal. Instead, it works more like a carrot & stick. We're more civilized now, after all. What is this carrot & stick?
+The most obvious common aspect is the lack of freedom. Both now and then, you go to work for me right now or else... The whip, as mentioned, is "not real", not literal. We're more civilized now, after all. The whole scheme is slightly different, however.
 
-Money, the "silly paper" (as my boss put it), is the language of this civilized society. It's the Babelfish v2.0. Everyone understands money, all of the different dialects.
+It works more like a carrot & stick. The things you want, or that you think you want, are the carrot. And the stick is this magic thing that is extended as much as you don't have the means to obtain the carrot. Money, the "silly paper" (as my boss put it), is the language of this civilized society. It's the Babelfish v2.0. Everyone understands money, all of the different dialects. So in this society, money is the carrot-obtainium and the carrot anything that you can exchange for money.
 
-So it follows almost directly: if freedom was a measurable property of the physical Universe, money would be its SI unit. And from that it most naturally follows that good monetary practices are an indispensable skill for the free(-to-be) citizen. It isn't an easily acquired skill, and there are inumerous traps layed out across the land waiting for you to fall into, just like a pack of hunters each patiently waiting for prey.
+I see almost everyone in a hamster wheel, the majority not even aware of it. They get a carrot in exchange for a more extended stick. They want a new carrot now, so they work to shorten the stick. Loop. Some are in a worse situation than others: they work so that they can work more, they can never shorten the stick enough to rest a little. And worse of all are those in that situation and aware of it. I can't help but think that this meaningless loop is part of the reason some commit suicide.
+
+It follows almost directly: if freedom was a measurable property of the physical Universe, money would be its SI unit[^0]. And from that it most naturally follows that good monetary practices are an indispensable skill for the free(-to-be) citizen. It isn't an easily acquired skill, and there are inumerous traps layed out across the land waiting for you to fall into, just like a pack of hunters each patiently waiting for prey.
 
 At the heart of it I believe is frugality. I truly believe this is the single most important objective of all, not only for monetary freedom, but for every practice. And after that, recognizing traps and practicing their avoidance as much as feasible. Being an anti-social helps, and I'll try to explain why.
 
-First, some of the traps. At some point in time, it became generally socially acceptable to con every citizen, as many as possible and as much as sneakily possible, as long as it's within the "Law". For example, everyone knows "teleshipping" is a bad idea. "The first 10 to call get this  amazing discombobulator for free with their knives set" is a trap and you know it. Yet, it falls within the "Law" so it's socially acceptable[^0]. Everyone knows it. Why? We've learned it with time: if it sounds too good to be true, it probably is! And we've learned to avoid this one too. Personally, I can't help but laught at and mock those ridiculous ads.
+First, some of the traps. At some point in time, it became generally socially acceptable to con every citizen, as many as possible and as much as sneakily possible, as long as it's within the "Law". For example, everyone knows "teleshipping" is a bad idea. "The first 10 to call get this  amazing discombobulator for free with their knives set" is a trap and you know it. Yet, it falls within the "Law" so it's socially acceptable[^1]. Everyone knows it. Why? We've learned it with time: if it sounds too good to be true, it probably is! And we've learned to avoid this one too. Personally, I can't help but laught at and mock those ridiculous ads.
 
 Probably the largest kind of trap operation we've set ourselves into is "special occasions". You played your first concert, let's celebrate! You "earned" your first job, let's celebrate! You got your first paycheck, let's celebrate! It's my/your/our Nth X anniversary, ...! We're having a baby, ...! We're getting married, ...! We got married, ...! You passed the exam, ...! You graduated, ...! It's Easter, ...! It's Christmas, ...! It's New Year's, ...! It's father's day, ...! It's mother's day, ...! It's women's day, ...! It's Valentine's day, ...!
 
 Give me a break.
 
-I have absolutely no thing against celebrating any of these occasions. I've celebrated many more minor events than these. It's how we're supposed to celebrate, according to social norm and convention (which necessarily involves losing as much money as possible), that's the problem. My advice is to be as anti-social as you feasibly can. You DO NOT need to spend money (your freedom points!) to show an appreciation to your dad/mom/significant other, or your family during Christmas, scientists say. Believe me, it's true -- I have the authority of a scientist, and next year of an engineer too!
+I have absolutely no thing against celebrating any of these occasions. I've celebrated many more minor events than these. It's how we're supposed to celebrate, according to social norm and convention (which necessarily involves losing as much money as possible), that's the problem. My advice is to be as anti-social as you feasibly can. You DO NOT need to spend money to show an appreciation to your dad/mom/significant other, or your family during Christmas, scientists say. Believe me, it's true -- I have the authority of a scientist, and next year of an engineer too!
 
 Another large set of traps is that of necessities. Everyone needs a car, good and very varied clothes and shoes, a shitton of creams/lotions and other shit to pollute your body with, the best iShit phone money can buy, a house (so motherfucking big you could lodge a whole small village some couple hundred years ago), and of course I wouldn't forget, to travel and to be cultured.
 
-I say you don't need any of these. None. Nenhuma.
+I say you don't need any of these. None.
 
-If you can avoid these traps you're well on your way to be free. Really free. You'll be able one day to stop turning and stepping off of the hamster wheel and catch your breath; to look up at the sky; not just to hear but to listen to the birds chirping and the still water moving; not just to look but to see the flowers blooming, the wagtails wagging their tails, the swallows gliding, the blackbirds hopping, and the eagles spying; to smell the pine trees, the eucalyptuses, ...; not just to hold with your hands but to feel your dog's and/or cat's fluffy hair, the bark of the trees, and the soft humid moss.
+If you can avoid these traps you're well on your way to be free. Really free. You'll be able one day to stop turning and to step off of the hamster wheel and catch your breath; not just to hear but to listen to the birds chirping and the still water moving; not just to look up at the sky but to see it, and to see the flowers blooming, the wagtails wagging their tails, the swallows gliding, the blackbirds hopping, and the eagles spying; to smell the pine trees, the eucalyptuses, ...; not just to hold and touch with your hands but to feel your dog's and/or cat's fluffy hair, the bark of the trees, and the soft humid moss.
 
 And then you'll know you're free.
 
-[^0] It's almost like "Law" was the (in)formal codification of social norms and conventions.
+
+[^0] Note that implicit is the fact that the SI units are an invention of this society.
+[^1] It's almost like "Law" was the (in)formal codification of social norms and conventions.
