@@ -1,4 +1,4 @@
-=> ../class.lsds.gmi 2023-03-21 Large Scale Distributed Systems
+=> ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
