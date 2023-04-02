@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-04-02 11:17 +0100
+During the past couple of years, housing prices in Portugal have gone way up (renting and buying). It was even more noticeable this year.
+Yesterday there was a public demonstration and rally in 6 of the largest cities simultaneously, appealing to the politicians in power to put better measures in place. You can read more in the following news article.
+=> https://expresso.pt/politica/2023-03-31-Nao-vamos-ficar-por-aqui-manifestacao-pela-habitacao-espera-milhares-nas-ruas-de-Lisboa-a-Braga-c0fc1162
+
 ## 2023-03-13 10:52 +0000
 Some years ago I started writing a shitty implementation of (integer) BigNums (i.e. "infinite" precision integer arithmetic) in C, as part of my c-utils set of tools. At the time I was stuck with what seemed to be a bug in the addition of digits to a bignum AND/OR a bug in the conversion to/from strings in base 16.
 But it turns out it was neither! Addition of digits to a number is working just fine; and so is conversion to/from strings!
