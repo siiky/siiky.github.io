@@ -8,7 +8,89 @@
   <id>gemini://siiky.srht.site/atom.xml</id>
   <link href="https://siiky.srht.site/atom.xml" rel="self" type="application/atom+xml" hreflang="en" title="nothing interesting here" />
   <title type="text">nothing interesting here</title>
-  <updated>2023-03-04T00:00:00Z</updated>
+  <updated>2023-04-08T00:00:00Z</updated>
+  <entry>
+    <content type="html">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;&lt;html lang="en" xml:lang="en"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;&lt;/meta&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;WTF ASM&lt;/h1&gt;&lt;p&gt;siiky&lt;br&gt;&lt;/br&gt;2023/04/08&lt;br&gt;&lt;/br&gt;2023/04/08&lt;br&gt;&lt;/br&gt;en&lt;/p&gt;&lt;p&gt;I was working yesterday on sbn and accidentally fixed digit subtraction (and consequently sbn subtraction).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="../wiki/pl.c.html"&gt;../wiki/pl.c.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/c-utils/commit/070d452f67f63868137233dcecfd820f991e36d0"&gt;https://git.sr.ht/~siiky/c-utils/commit/070d452f67f63868137233dcecfd820f991e36d0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Definitions needed to understand these excerpts: `sbn_digit` is `uint32_t`; `sbn_double_digit` is `uint64_t`; `sbn_double_digit_lower_half` is a macro that takes 32 least-significant bits of a `sbn_double_digit`.&lt;/p&gt;&lt;p&gt;Here&amp;#39;s the old (wrong) version:&lt;/p&gt;&lt;pre&gt;static sbn_digit _sbn_sub_digits (sbn_digit _a, sbn_digit _b, sbn_digit * _carry)
+{
+	sbn_double_digit carry = *_carry;
+	sbn_double_digit a = _a;
+	sbn_double_digit b = _b; b += carry;
+
+	return (a &amp;gt;= b) ?
+		(*_carry = 0), sbn_double_digit_lower_half(a - b):
+		(*_carry = 1), sbn_double_digit_lower_half(b - a);
+}
+&lt;/pre&gt;&lt;p&gt;Here&amp;#39;s the new (fixed) version:&lt;/p&gt;&lt;pre&gt;static sbn_digit _sbn_sub_digits (sbn_digit _a, sbn_digit _b, sbn_digit * _carry)
+{
+	sbn_double_digit carry = *_carry;
+	sbn_double_digit a = _a;
+	sbn_double_digit b = _b; b += carry;
+
+	sbn_double_digit r = (a &amp;gt;= b) ?
+		((*_carry = 0), (a - b)):
+		((*_carry = 1), (b - a));
+
+	return sbn_double_digit_lower_half(r);
+}
+&lt;/pre&gt;&lt;p&gt;What&amp;#39;s the difference? Why does one work correctly but the other doesn&amp;#39;t? I have no clue... Obviously I expected both to be the same.&lt;/p&gt;&lt;p&gt;It didn&amp;#39;t occur to me but a friend suggested taking a look at the assembly -- good idea! For some reason `gcc -S` generated a huge file like this:&lt;/p&gt;&lt;pre&gt;// ...
+.LASF151:
+	.string	&amp;quot;_sbn_sub_digits&amp;quot;
+// ...
+	.long	.LASF151
+	.byte	0x5
+	.value	0x186
+	.byte	0x12
+	.long	0x9e
+	.long	0x1216
+	.uleb128 0x1
+	.string	&amp;quot;_a&amp;quot;
+	.byte	0x5
+	.value	0x186
+	.byte	0x2d
+	.long	0x9e
+	.uleb128 0x1
+	.string	&amp;quot;_b&amp;quot;
+	.byte	0x5
+	.value	0x186
+	.byte	0x3b
+	.long	0x9e
+	.uleb128 0x2
+// ...
+&lt;/pre&gt;&lt;p&gt;No clue what this is either... So I turned to `objdump`, which was more helpful.&lt;/p&gt;&lt;p&gt;Here&amp;#39;s the old (wrong) version:&lt;/p&gt;&lt;pre&gt;0000000000401834 &amp;lt;_sbn_sub_digits&amp;gt;:
+  401834:	8b 02                	mov    (%rdx),%eax
+  401836:	89 ff                	mov    %edi,%edi
+  401838:	89 f6                	mov    %esi,%esi
+  40183a:	48 01 f0             	add    %rsi,%rax
+  40183d:	48 39 c7             	cmp    %rax,%rdi
+  401840:	72 09                	jb     40184b &amp;lt;_sbn_sub_digits+0x17&amp;gt;
+  401842:	c7 02 00 00 00 00    	movl   $0x0,(%rdx)
+  401848:	29 f8                	sub    %edi,%eax
+  40184a:	c3                   	ret
+  40184b:	c7 02 01 00 00 00    	movl   $0x1,(%rdx)
+  401851:	eb f5                	jmp    401848 &amp;lt;_sbn_sub_digits+0x14&amp;gt;
+&lt;/pre&gt;&lt;p&gt;Here&amp;#39;s the new (fixed) version:&lt;/p&gt;&lt;pre&gt;0000000000401834 &amp;lt;_sbn_sub_digits&amp;gt;:
+  401834:	8b 0a                	mov    (%rdx),%ecx
+  401836:	89 ff                	mov    %edi,%edi
+  401838:	89 f6                	mov    %esi,%esi
+  40183a:	48 01 f1             	add    %rsi,%rcx
+  40183d:	48 39 cf             	cmp    %rcx,%rdi
+  401840:	72 0d                	jb     40184f &amp;lt;_sbn_sub_digits+0x1b&amp;gt;
+  401842:	c7 02 00 00 00 00    	movl   $0x0,(%rdx)
+  401848:	48 89 f8             	mov    %rdi,%rax
+  40184b:	48 29 c8             	sub    %rcx,%rax
+  40184e:	c3                   	ret
+  40184f:	c7 02 01 00 00 00    	movl   $0x1,(%rdx)
+  401855:	48 89 c8             	mov    %rcx,%rax
+  401858:	48 29 f8             	sub    %rdi,%rax
+  40185b:	c3                   	ret
+&lt;/pre&gt;&lt;p&gt;My ASM-fu was never very good but by now it&amp;#39;s non-existent. One thing I noticed though is that on the wrong version it&amp;#39;s using edi/eax (the 32bit registers right?), while the fixed version is using the rdi/rcx/rax (the 64bit registers right?). Is that it? But why? I can&amp;#39;t even remember what&amp;#39;s the arguments order: `sub X,Y` is `X-Y` or `Y-X`? `mov X,Y` is `X&amp;lt;-Y` or `X-&amp;gt;Y`?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    <id>gemini://siiky.srht.site/programming/wtf-asm.gmi</id>
+    <published>2023-04-08T00:00:00Z</published>
+    <title type="text">WTF ASM</title>
+    <updated>2023-04-08T00:00:00Z</updated>
+    <link href="https://siiky.srht.site/programming/wtf-asm.html" rel="alternate" type="text/html" hreflang="en" title="WTF ASM" />
+    <link href="gemini://siiky.srht.site/programming/wtf-asm.gmi" rel="alternate" type="text/gemtext" hreflang="en" title="WTF ASM" />
+  </entry>
   <entry>
     <content type="html">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;&lt;html lang="en" xml:lang="en"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;&lt;/meta&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Transitive reduction&lt;/h1&gt;&lt;p&gt;siiky&lt;br&gt;&lt;/br&gt;2023/03/04&lt;br&gt;&lt;/br&gt;2023/03/04&lt;br&gt;&lt;/br&gt;en&lt;/p&gt;&lt;p&gt;There&amp;#39;s this operation on graphs/relations called &amp;quot;transitive reduction&amp;quot; (I didn&amp;#39;t learn its name until very recently). It can be used on a graph/relation to compute another (possibly smaller) graph/relation that has no redundant edges (assuming transitivity). And I&amp;#39;ve been thinking about how to do it for about two years (dam), because I needed it for some POSet things (Scheme § poset). Some weeks ago I was walking home, not thinking about anything in particular, and an algorithm just popped into my brain out of nowhere!&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Transitive_reduction"&gt;https://en.wikipedia.org/wiki/Transitive_reduction&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="../wiki/transitive-reduction.html"&gt;../wiki/transitive-reduction.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm"&gt;https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="../wiki/pl.scheme.html"&gt;Scheme (§ poset)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The idea is so simple that I&amp;#39;m flabbergasted I didn&amp;#39;t come up with it two years ago, when I was kinda obsessed. (Though I haven&amp;#39;t proven it works, intuitively I think it does).&lt;/p&gt;&lt;p&gt;Let&amp;#39;s say `a → b` means that node &amp;#39;b&amp;#39; is directly reachable from node &amp;#39;a&amp;#39; (&amp;quot;directly&amp;quot; means there are no intermediate nodes); and let&amp;#39;s say `a →* b` means that node &amp;#39;b&amp;#39; is reachable from node &amp;#39;a&amp;#39;, possibly through intermediate nodes (e.g. if `a → b → c`, we could say `a →* c`).&lt;/p&gt;&lt;p&gt;We&amp;#39;ll call our graph G=(V, E), where V is the set of all nodes, and E is the relation `a →* b` (a, b ∈ V). We&amp;#39;re looking to compute an E&amp;#39; from E that is the relation `a → b`.&lt;/p&gt;&lt;p&gt;And here it is at last: ∀a, c ∈ V: (a →* c ∧ ∃b ∈ V: b≠c ∧ `a → b` ∧ `b →* c`) ⇒ remove `a →* c` from E.&lt;/p&gt;&lt;p&gt;There&amp;#39;s one caveat with this algorithm: it only works for acyclic graphs (aka DAGs, graphs with no cycles). That&amp;#39;s not a problem for me (I wanted it for POSets after all; see § &amp;quot;Alternative definitions&amp;quot;) so I didn&amp;#39;t bother to think about the matter further, but beware.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph"&gt;https://en.wikipedia.org/wiki/Directed_acyclic_graph&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The implementation is also simple enough (see the ~siiky/experiments for previous versions):&lt;/p&gt;&lt;pre&gt;(import (srfi 42))
 

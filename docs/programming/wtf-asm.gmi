@@ -1,0 +1,116 @@
+# WTF ASM
+siiky
+2023/04/08
+2023/04/08
+en
+
+I was working yesterday on sbn and accidentally fixed digit subtraction (and consequently sbn subtraction).
+
+=> ../wiki/pl.c.gmi
+=> https://git.sr.ht/~siiky/c-utils/commit/070d452f67f63868137233dcecfd820f991e36d0
+
+Definitions needed to understand these excerpts: `sbn_digit` is `uint32_t`; `sbn_double_digit` is `uint64_t`; `sbn_double_digit_lower_half` is a macro that takes 32 least-significant bits of a `sbn_double_digit`.
+
+Here's the old (wrong) version:
+
+```c
+static sbn_digit _sbn_sub_digits (sbn_digit _a, sbn_digit _b, sbn_digit * _carry)
+{
+	sbn_double_digit carry = *_carry;
+	sbn_double_digit a = _a;
+	sbn_double_digit b = _b; b += carry;
+
+	return (a >= b) ?
+		(*_carry = 0), sbn_double_digit_lower_half(a - b):
+		(*_carry = 1), sbn_double_digit_lower_half(b - a);
+}
+```
+
+Here's the new (fixed) version:
+
+```c
+static sbn_digit _sbn_sub_digits (sbn_digit _a, sbn_digit _b, sbn_digit * _carry)
+{
+	sbn_double_digit carry = *_carry;
+	sbn_double_digit a = _a;
+	sbn_double_digit b = _b; b += carry;
+
+	sbn_double_digit r = (a >= b) ?
+		((*_carry = 0), (a - b)):
+		((*_carry = 1), (b - a));
+
+	return sbn_double_digit_lower_half(r);
+}
+```
+
+What's the difference? Why does one work correctly but the other doesn't? I have no clue... Obviously I expected both to be the same.
+
+It didn't occur to me but a friend suggested taking a look at the assembly -- good idea! For some reason `gcc -S` generated a huge file like this:
+
+```s
+// ...
+.LASF151:
+	.string	"_sbn_sub_digits"
+// ...
+	.long	.LASF151
+	.byte	0x5
+	.value	0x186
+	.byte	0x12
+	.long	0x9e
+	.long	0x1216
+	.uleb128 0x1
+	.string	"_a"
+	.byte	0x5
+	.value	0x186
+	.byte	0x2d
+	.long	0x9e
+	.uleb128 0x1
+	.string	"_b"
+	.byte	0x5
+	.value	0x186
+	.byte	0x3b
+	.long	0x9e
+	.uleb128 0x2
+// ...
+```
+
+No clue what this is either... So I turned to `objdump`, which was more helpful.
+
+Here's the old (wrong) version:
+
+```s
+0000000000401834 <_sbn_sub_digits>:
+  401834:	8b 02                	mov    (%rdx),%eax
+  401836:	89 ff                	mov    %edi,%edi
+  401838:	89 f6                	mov    %esi,%esi
+  40183a:	48 01 f0             	add    %rsi,%rax
+  40183d:	48 39 c7             	cmp    %rax,%rdi
+  401840:	72 09                	jb     40184b <_sbn_sub_digits+0x17>
+  401842:	c7 02 00 00 00 00    	movl   $0x0,(%rdx)
+  401848:	29 f8                	sub    %edi,%eax
+  40184a:	c3                   	ret
+  40184b:	c7 02 01 00 00 00    	movl   $0x1,(%rdx)
+  401851:	eb f5                	jmp    401848 <_sbn_sub_digits+0x14>
+```
+
+Here's the new (fixed) version:
+
+```s
+0000000000401834 <_sbn_sub_digits>:
+  401834:	8b 0a                	mov    (%rdx),%ecx
+  401836:	89 ff                	mov    %edi,%edi
+  401838:	89 f6                	mov    %esi,%esi
+  40183a:	48 01 f1             	add    %rsi,%rcx
+  40183d:	48 39 cf             	cmp    %rcx,%rdi
+  401840:	72 0d                	jb     40184f <_sbn_sub_digits+0x1b>
+  401842:	c7 02 00 00 00 00    	movl   $0x0,(%rdx)
+  401848:	48 89 f8             	mov    %rdi,%rax
+  40184b:	48 29 c8             	sub    %rcx,%rax
+  40184e:	c3                   	ret
+  40184f:	c7 02 01 00 00 00    	movl   $0x1,(%rdx)
+  401855:	48 89 c8             	mov    %rcx,%rax
+  401858:	48 29 f8             	sub    %rdi,%rax
+  40185b:	c3                   	ret
+```
+
+My ASM-fu was never very good but by now it's non-existent. One thing I noticed though is that on the wrong version it's using edi/eax (the 32bit registers right?), while the fixed version is using the rdi/rcx/rax (the 64bit registers right?). Is that it? But why? I can't even remember what's the arguments order: `sub X,Y` is `X-Y` or `Y-X`? `mov X,Y` is `X<-Y` or `X->Y`?
