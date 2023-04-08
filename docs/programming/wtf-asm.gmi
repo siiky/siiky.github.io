@@ -9,7 +9,7 @@ I was working yesterday on sbn and accidentally fixed digit subtraction (and con
 => ../wiki/pl.c.gmi
 => https://git.sr.ht/~siiky/c-utils/commit/070d452f67f63868137233dcecfd820f991e36d0
 
-Definitions needed to understand these excerpts: `sbn_digit` is `uint32_t`; `sbn_double_digit` is `uint64_t`; `sbn_double_digit_lower_half` is a macro that takes 32 least-significant bits of a `sbn_double_digit`.
+Definitions needed to understand these excerpts: `sbn_digit` is `uint32_t`; `sbn_double_digit` is `uint64_t`; `sbn_double_digit_lower_half` is a macro that takes the 32 least-significant bits of a `sbn_double_digit`.
 
 Here's the old (wrong) version:
 
