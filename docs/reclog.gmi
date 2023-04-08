@@ -1,13 +1,16 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/03/12
+2023/04/08
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://rulmer.xyz/boring_gemini.gmi 2023-04-08 Why Gemini is boring
+=> gemini://idiomdrottning.org/tahini 2023-04-08 Tahini
 
 => gemini://idiomdrottning.org/butlerian-jihad 2023-03-12 Butlerian Jihad
 => gemini://tilde.pink/~slondr/mnt-reform-pinephone-hype.gmi 2023-03-12 Will MNT eat Pine64's lunch?
