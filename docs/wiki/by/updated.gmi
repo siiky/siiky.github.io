@@ -1,3 +1,4 @@
+=> ../pl.forth.gmi 2023-04-13 Forth (programming language)
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
@@ -81,7 +82,6 @@
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-07 Frank Vanbever, "Lua for the lazy C developer"
-=> ../pl.forth.gmi 2023-02-07 Forth (programming language)
 => ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
 => ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
 => ../fosdem2023.helios.gmi 2023-02-07 Drew DeVault, "Introducing Helios"

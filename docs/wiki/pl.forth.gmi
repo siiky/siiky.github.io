@@ -1,11 +1,12 @@
 # Forth (programming language)
 siiky
 2023/02/07
-2023/02/07
-2023/02/07
+2023/04/13
+2023/04/13
 programming
 
 => https://forth-standard.org
 
 => https://www.forth.com/starting-forth Leo Brodie, "Starting FORTH"
 => http://forth.org/tutorials.html
+=> http://anggtwu.net/miniforth-article.html Eduardo Ochs, "Bootstrapping a Forth in 40 lines of Lua code"
