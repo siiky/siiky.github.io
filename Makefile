@@ -204,7 +204,7 @@ graph.gvs: graph.scm $(GRAPH2GVS)
 
 .PHONY: watch
 watch:
-	ls -1d Makefile cv-en.md index.gmi $(SCRIPT_SRC) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) $(ROOT) | entr -d -n -c $(MAKE)
+	ls -1d Makefile cv-en.md index.gmi $(SCRIPT_SRC) $(SITE_SRC) $(WIKI_SRC) $(ASSETS_SRC) $(ROOT) | entr -d -n -c $(MAKE)
 
 %.spell: %.gmi
 	aspell check $<

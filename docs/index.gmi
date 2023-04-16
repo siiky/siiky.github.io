@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/societal-slavery.gmi 2023-04-16 Societal slavery
 => programming/wtf-asm.gmi 2023-04-08 WTF ASM
 => programming/transitive-reduction.gmi 2023-03-04 Transitive reduction
 => kB45oC/why-throw-rice-at-weddings.gmi 2023-02-26 Why we throw rice at weddings
