@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://d.moonfire.us/blog/2023/04/15/obligations/ 2023-04-16 Obligations Hanging Over Me
 => gemini://lesogorov.site/glogs/2304/Disrespect.gmi 2023-04-16 Disrespect
 
 => gemini://rulmer.xyz/boring_gemini.gmi 2023-04-08 Why Gemini is boring
