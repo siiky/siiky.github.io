@@ -7,6 +7,12 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-04-16 11:16 +0100
+There's this thing I started too long ago but never finished because (a) I didn't have anyone to experiment with, and (b) references are so annoying... I couldn't make proper cross-referencing work in both HTML and PDF.
+=> functional_programming/curriculum.org
+Now that I got two people maybe interested, I'm thinking I should rewrite this in Pollen (and include a couple other ideas that I got meanwhile).
+=> https://docs.racket-lang.org/pollen/ Pollen
+
 ## 2023-04-03 08:21 +0100
 I dreamt of him today. Fluffy and meek as ever.
 
