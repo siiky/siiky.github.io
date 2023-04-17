@@ -1,0 +1,56 @@
+# RE: Bitcoin Still 3x Better For Environment Than Cars
+siiky
+2023/04/17
+2023/04/17
+en
+
+=> gemini://mediocregopher.com/posts/bitcoin-co2.gmi
+
+## Counter-arguments
+
+> If you own a car, you're doing 3x the damage that I am by owning Bitcoin, so watch out where you throw those stones.
+>
+> (...)
+>
+> This is the same shit as when we're told we should be recycling and turning off lights in order to save the world. It's just a distraction from the real culprits.
+
+Just no. Bitcoin is not 3x better for the environment than cars, it's at most just 3x less bad for the environment than cars. Entirely different things. If X and Y are both bad, X being less bad than Y doesn't somehow make it good, it's just less bad.
+
+You could argue, or try to, that X is more or less worth the badness in comparison to Y (considering their badness and what is gained by either). But concluding that X is more worth than Y does not imply that X is better than Y, nor does it even imply that X is less bad than Y (because badness is absolute while worth is relative).
+
+And then, someone throwing stones at cryptocurrency mining (figuratively) is likely to also throw stones at cars &c (figuratively, but I wish also literally). That is allowed, one does not exclude the other.
+
+Continuing from the second point, cars are actually pretty efficient at extracting/using the energy out of some given amount of dinosaur juice since we have some decades of research and engineering on that front. In contrast, PoW mining is just plain wasteful, like playing the lottery: 1M people spend 2€ so that maybe 1 person can earn 2M€[^0] -- completely unbalanced investment and return. And if nobody wins those sweet 2M€ this round, let's go again and see how it goes!
+
+> If you own a car, (...)
+
+Let's nitpick this for a second.
+
+My mom owns a car but uses it only 2 days a week (generally): to get to the volunteer firefighters headquarters and back home, and to commute to work and back home. That's because buses either don't operate or have shitty schedules on those days (it would take roughly the same amount of time to go by foot). The rest of the week she commutes by bus.
+
+Now, does her owning a car do 3x the damage of your owning Bitcoin? What if she used it only once a month? Owning a car doesn't pollute (roughly speaking, since we're discussing fuel burning).
+
+> (...) by owning Bitcoin, (...)
+
+And this.
+
+What is meant by "owning Bitcoin"? If it doesn't include mining, then it doesn't pollute more than storing anything on a computer. We're all using computers to read, write, and share these thoughts, so we generally think the resulting pollution is acceptable (we shouldn't take that as a given).
+
+If it does include the network maintenance, do you run your own node and mine with your own computers? Or are you "shifting responsibility" to this unknown group of miners?
+
+If you don't run your own node I'm not sure you truly believe in what Bitcoin was made for... If you do, then it could be that your "3x better" may be closer to "1x better^Wthe same"!
+
+## Better arguments?
+
+Here's a few things I can think of that could be better arguments for cryptocurrencies vs cars:
+
+Compare the energy efficiency of the banking system with that of a cryptocurrency network. Good luck finding data on the banking system as that goes against the banking system's interests.
+
+Though Americans sometimes seem to believe so, the USA is not the world (a mere observation, no personal offense is meant towards any American)! There are more cars in world than in the USA alone (obviously), and there are more Bitcoin users in the world than in the USA alone (obviously, though users are probably more concentrated in the USA than outside). So compare the two. Because energy consumption and pollution of the Bitcoin network doesn't grow with the number of users but with the number of miners, while energy consumption and pollution of cars grows with car users, the worth (gained/badness ratio) of the Bitcoin network over cars in the world greatly increases.
+
+There are actual alternatives to cars and some awesome countries already show how it's done (watch some NotJustBikes videos on YT if you don't know what I'm talking about). You can't say the same about banks/money-things. If you think there's nothing wrong with banks and there's no need of an alternative, then send me all of your money, I will keep it safe just for you, trust me[^1]. Banks go to shit, people lose their hard-earned money, and those responsible don't give a shit because it wasn't their money they lost. It's happen once in PT during my (short-ish) lifetime (maybe twice, not certain), and it's happening again now in some countries.
+
+
+[^0] Not 100% 1:1 with real-life lottery because in real-life ~1M€ "vanish" nobody knows where to, but it serves the point well enough.
+
+[^1] Similar to "Nothing to Hide": "if you think you have nothing to hide, give me all your passwords, keys of your house, etc"

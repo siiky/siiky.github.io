@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/re-bitcoin-co2.gmi 2023-04-17 RE: Bitcoin Still 3x Better For Environment Than Cars
 => philosophy/societal-slavery.gmi 2023-04-16 Societal slavery
 => programming/wtf-asm.gmi 2023-04-08 WTF ASM
 => programming/transitive-reduction.gmi 2023-03-04 Transitive reduction
