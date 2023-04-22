@@ -1,0 +1,15 @@
+# Abstraction is great
+siiky
+2023/04/22
+2023/04/22
+en
+
+... but read the code!
+
+Yesterday a colleague found a deadlock situation in my code. After I explained in broad terms the whole flow, they asked "what if ...?"
+
+Indeed there was a possible deadlock. But afterwards they started trying to prove to me that the deadlock wasn't possible because "we can see beforehand if we need to lock here", and I had to tell them that "no, that's not how that goes, because before we can check if we need to lock, we have first to update some internal state for which we need the lock". They even made some message sequence diagrams to explain the circumstances.
+
+Basically, they were thinking of a previous version of the program. And I had to tell them that that's not how the new program went, at least 3 times.
+
+So, abstraction is great, but read the code!
