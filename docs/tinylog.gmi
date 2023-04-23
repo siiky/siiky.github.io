@@ -7,6 +7,15 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-04-23 17:24 +0100
+Because of a colleague from work (who's a bit more of a security and privacy nut than me (this is a compliment!)) I finally installed LineageOS on a phone, and it seems to function well!
+Just out of luck, I "have" 2 other phones of the same model as mine (Xiaomi Mi A2). One of those is my dad's previous phone that he doesn't use anymore. Perfect opportunity! Plus, my mom's phone is giving its last breaths... Plusperfect opportunity!
+=> https://wiki.lineageos.org/devices/jasmine_sprout/ LineageOS info page for the Xiaomi Mi A2
+It's not officially supported anymore by the project, which just means there are no downloadable builds now, but otherwise everything worked well and on the first try (almost, but it was my fault).
+I was surprised by how heavy the whole build process is (disk space, CPU, RAM, time)! The Android and other relevant repositories (for this phone model) use up ~174GB of disk; with all built artifacts and products it's using ~225GB now; built artifacts of this phone alone are ~26GB. The first build took more than 6h on my Ryzen 3 2200G. It's likely this time could've been shortened by using an SSD, but meh and I don't a large enough SSD anyway. The first build failed 2 or 3 times due to RAM usage (I have 32GB, which is enough, but I also use vm.overcommit_memory=2, which more conservatively rejects memory allocations).
+=> https://www.kernel.org/doc/Documentation/vm/overcommit-accounting
+That was last week. Because my first install attempt, today I did it again. Took the chance to update the repos, and the build time was only ~1h.
+
 ## 2023-04-16 11:16 +0100
 There's this thing I started too long ago but never finished because (a) I didn't have anyone to experiment with, and (b) references are so annoying... I couldn't make proper cross-referencing work in both HTML and PDF.
 => functional_programming/curriculum.org

@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/04/17
+2023/04/23
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://clanmorgan.org/gemlog/2023-04-23-3d-printing-with-prusa.gmi 2023-04-23 3D Printing With Prusa
 
 => gemini://altesq.net/~evenfire/posts/why-share.gmi 2023-04-17 Why share?
 => gemini://rawtext.club/~locha/entries/20230414_The_intimacy_of_my_mother_tongue.gmi 2023-04-17 The intimacy of my mother tongue
