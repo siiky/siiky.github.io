@@ -1,7 +1,7 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/04/23
+2023/04/24
 
 ## Reclog
 
@@ -9,6 +9,16 @@ siiky
 
 I update this page manually.
 
+=> gemini://0x00ff.pl/posts/0006_obedience.gmi 2023-04-24 Obedience
+=> gemini://thrig.me/blog/2023/04/21/storn.gmi 2023-04-24 Storn
+=> gemini://marginalia.nu/log/78-on-ai-veganism.gmi 2023-04-24 Thoughts on AI and AI-veganism
+=> gemini://aelspire.info/posts/2023-04-21-social-media/post.gmi 2023-04-24 I don't understand social media
+=> gemini://ferds.flounder.online/gemlog/monologue_I.gmi 2023-04-24 Muppet Monologue
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-04-23.compression.gmi 2023-04-24 Wave Function Collapse
+=> gemini://thrig.me/blog/2023/04/23/seasonality.gmi 2023-04-24 Seasonality
+=> gemini://degrowther.smol.pub/20230423_gardening 2023-04-24 Gardening (sort of)
+
+=> gemini://gemini.locrian.zone/recipes/chocolate-chip-cookies.gmi 2023-04-23 Chocolate chip cookies
 => gemini://clanmorgan.org/gemlog/2023-04-23-3d-printing-with-prusa.gmi 2023-04-23 3D Printing With Prusa
 
 => gemini://altesq.net/~evenfire/posts/why-share.gmi 2023-04-17 Why share?

@@ -1,9 +1,9 @@
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../sovereignty.gmi 2023-03-04 Sovereignty
 => ../police.gmi 2023-03-04 Police
+=> ../epcot.gmi 2023-02-28 EPCOT
 => ../p.why_are_we_talking_about_privacy.gmi 2023-02-28 "Why are we talking so much about privacy?"
 => ../public-transport.gmi 2023-02-28 Public transport
-=> ../epcot.gmi 2023-02-28 EPCOT
 => ../v.exurb1a.dont_hex_the_water.gmi 2023-02-28 /Don't Hex the Water/
 => ../carfree-movement.gmi 2023-02-28 Carfree Movement
 => ../carfree-cities.gmi 2023-02-28 Carfree Cities

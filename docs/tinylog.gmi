@@ -7,6 +7,24 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-04-24 00:23 +0100
+> Much of the modern web is a fractal of dark patterns, it's made for humans in the same sense a zoo or a meat packing plant is made for animals. 
+>
+> (...)
+>
+> AI-aided software development on the other hand permits no such thing. To a novice it may seem like it would since things speed up quite a lot, but in practice it only makes the easy things in coding easier. It isn't entering the code that is the obstacle. 
+>
+> Entering more code faster doesn't make the code go faster or make it more correct, it makes it slower and introduces more failure points. It makes for more complicate designs. 
+>
+> (...)
+>
+> It's perhaps best parallelled by the changes introduced by the digital word processor. We haven't had an explosion of great novels since this happened. What we've seen is an explosion of books with a tweet's amount of new ideas padded into 450 pages with pointless anecdotes and repetition.  A stark contrast to the books written by hand in the past, where every sentence and every word is measured and well considered. 
+>
+> (...)
+>
+> Rarely if ever has it been a good deal to be a renter.
+=> gemini://marginalia.nu/log/78-on-ai-veganism.gmi
+
 ## 2023-04-23 17:24 +0100
 Because of a colleague from work (who's a bit more of a security and privacy nut than me (this is a compliment!)) I finally installed LineageOS on a phone, and it seems to function well!
 Just out of luck, I "have" 2 other phones of the same model as mine (Xiaomi Mi A2). One of those is my dad's previous phone that he doesn't use anymore. Perfect opportunity! Plus, my mom's phone is giving its last breaths... Plusperfect opportunity!
