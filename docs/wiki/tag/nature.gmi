@@ -1,0 +1,3 @@
+=> ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
+=> ../p.visao-junior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
+=> ../p.animal-sex-determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"

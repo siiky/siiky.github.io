@@ -1,3 +1,6 @@
+=> ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
+=> ../p.visao-junior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
+=> ../p.animal-sex-determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
 => ../p.why_are_we_talking_about_privacy.gmi 2023-02-28 "Why are we talking so much about privacy?"
 => ../p.git_parable.gmi 2023-02-28 Tom Preston-Werner, "The Git Parable"
 => ../p.speculation_in_javascriptcore.gmi 2023-02-28 "Speculation in JavaScriptCore"

@@ -1,3 +1,6 @@
+=> ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
+=> ../p.visao-junior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
+=> ../p.animal-sex-determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
 => ../pl.forth.gmi 2023-04-13 Forth (programming language)
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
