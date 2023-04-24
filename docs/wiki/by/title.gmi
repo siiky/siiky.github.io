@@ -37,6 +37,8 @@
 => ../wp.friedemann_mattern.virtual-time-global-states.gmi Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../sotm2022.none-story-of-data.gmi Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
 => ../pl.go.gmi Go (programming language)
+=> ../p.greece-this_was_no_accident.gmi Greece: This was no accident
+=> ../p.guardian.greece_train_crash.gmi "Greece train crash: at least 40 killed and dozens injured in collision"
 => ../hanya_yanagihara.gmi Hanya Yanagihara
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.luarocks.gmi Hisham Muhammad, "LuaRocks and the challenges of minimalism"
@@ -102,6 +104,7 @@
 => ../pl.static-scheme.gmi Static Scheme
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
+=> ../techstuffs.gmi Techstuffs
 => ../story-of-us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
