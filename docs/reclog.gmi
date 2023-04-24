@@ -9,6 +9,8 @@ siiky
 
 I update this page manually.
 
+=> gemini://d.moonfire.us/blog/2021/03/17/three-hundred-weeks/ 2023-04-24 The End After Three Hundred Weeks
+=> gemini://ferds.flounder.online/gemlog/foo_fighters.gmi 2023-04-24 Foo Fighters - Taylor Hawkins
 => gemini://0x00ff.pl/posts/0006_obedience.gmi 2023-04-24 Obedience
 => gemini://thrig.me/blog/2023/04/21/storn.gmi 2023-04-24 Storn
 => gemini://marginalia.nu/log/78-on-ai-veganism.gmi 2023-04-24 Thoughts on AI and AI-veganism
