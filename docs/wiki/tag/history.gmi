@@ -1,1 +1,2 @@
+=> ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column

@@ -1,0 +1,10 @@
+# Gerald Jay Sussman, "Programming is (should be) fun!"
+siiky
+2023/04/24
+2023/04/24
+2023/04/24
+history,programming,mathematics,scheme,talk
+
+=> https://invidious.snopyta.org/watch?v=2MYzvQ1v8Ww
+
+=> pl.scheme.gmi
