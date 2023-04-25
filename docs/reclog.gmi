@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://lesogorov.site/glogs/2304/Dating-Apps-Suck-2:-Electric-Boogaloo.gmi 2023-04-25 Dating Apps Suck 2: Electric Boogaloo
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2023-04-24.esp32.gmi 2023-04-25 ESP32
 
 => gemini://d.moonfire.us/blog/2021/03/17/three-hundred-weeks/ 2023-04-24 The End After Three Hundred Weeks
