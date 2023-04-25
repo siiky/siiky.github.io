@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/04/24
+2023/04/25
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-04-24.esp32.gmi 2023-04-25 ESP32
 
 => gemini://d.moonfire.us/blog/2021/03/17/three-hundred-weeks/ 2023-04-24 The End After Three Hundred Weeks
 => gemini://ferds.flounder.online/gemlog/foo_fighters.gmi 2023-04-24 Foo Fighters - Taylor Hawkins
