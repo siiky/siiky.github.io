@@ -89,6 +89,8 @@ And of course, my own life experience. I'm getting sick of having to work... eve
 => ../psychology/fagots.gmi Fagots
 => ../books/bill_gates.how_to_avoid_a_climate_disaster.gmi Bill Gates, "How to Avoid a Climate Disaster"
 
+=> ../wiki/notrelated.gmi "Not Related!" S02E06
+
 ## Post scriptum
 
 With this above text alone I really can't express my true disgust for a lot of this society. There's so much more to it that I can't begin to explain even to myself, let alone to someone else in spoken or written words...
