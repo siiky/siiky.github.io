@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/04/28
+2023/05/02
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://republic.circumlunar.space/users/flexibeast/gemlog/2023-04-27.gmi 2023-05-02 Vaneigem's “Revolution of Everyday Life”
 
 => gemini://clanmorgan.org/gemlog/2023-04-27-excellent-webcomics-erfworld.gmi 2023-04-28 Excellent Webcomics: Erfworld
 => gemini://gem.librehacker.com/gemlog/starlog/20230427-1.gmi 2023-04-28 Mutt Configuration Notes
