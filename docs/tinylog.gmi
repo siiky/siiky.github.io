@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-02 15:34 +0100
+Found this picture of Ancient Egyptian sandals. Pretty amazing, how the sole was produced and how they're held onto the feet.
+=> https://upload.wikimedia.org/wikipedia/commons/e/e7/Egyptian_sandals%2C_vegetable_fiber_-_Bata_Shoe_Museum_-_DSC00009.JPG
+
 ## 2023-04-25 01:00 +0100
 > It is helpful for us, in the study of animals, to recognize that the spread and growth of animal populations is not driven by some chance, random process, or by some law of biological evolution; but rather, animals are designed by their Creator for this purpose, and God has somehow instilled in them the drives or instincts necessary to fulfill this purpose. It is a feature of creation science that we are regularly discovering interesting ways in which animals are designed to adapt to the varied environments in which they find themselves; this makes the study of animals not only interesting, but gives us many reasons to praise the Creator for his creative handiwork.
 => gemini://gem.librehacker.com/gemlog/your-word/20230423-0.gmi Genesis 8:14-19: Stepping Out of the Ark
