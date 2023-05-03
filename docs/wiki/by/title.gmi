@@ -3,6 +3,7 @@
 => ../albert_camus.gmi Albert Camus
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
 => ../fosdem2023.whippet.gmi Andy Wingo, "Whippet: A new production embeddable garbage collector"
+=> ../v.honest-discussion-organic-maps-devs.gmi An honest discussion with organic maps developers
 => ../p.animal-sex-determination.gmi "Animal Sex Determination Is Weirder Than You Think"
 => ../sotm2022.mapping-crises-communities-capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
@@ -13,6 +14,7 @@
 => ../carfree-cities.gmi Carfree Cities
 => ../carfree-movement.gmi Carfree Movement
 => ../pl.chicken.gmi CHICKEN Scheme
+=> ../p.c-isnt-a-programming-language-anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"
 => ../pl.c.gmi C (programming language)
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
@@ -111,6 +113,7 @@
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
 => ../p.git_parable.gmi Tom Preston-Werner, "The Git Parable"
+=> ../p.to-save-c-we-must-save-abi.gmi "To Save C, We Must Save ABI"
 => ../trainspotter.gmi Trainspotter
 => ../transitive-reduction.gmi Transitive reduction
 => ../videos.gmi Videos

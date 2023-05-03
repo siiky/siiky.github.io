@@ -1,3 +1,5 @@
+=> ../p.to-save-c-we-must-save-abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
+=> ../p.c-isnt-a-programming-language-anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../pl.forth.gmi 2023-04-13 Forth (programming language)
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems

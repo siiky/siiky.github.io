@@ -1,3 +1,4 @@
+=> ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 An honest discussion with organic maps developers
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../p.put_noth_arrow.gmi 2023-02-28 John Nelson, "Put a north arrow on it?"
 => ../v.jochen_topf.modding_osm_data_model.gmi 2023-02-28 Jochen Topf, "Modding the OSM Data Model"

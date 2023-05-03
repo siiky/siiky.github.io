@@ -1,0 +1,16 @@
+# An honest discussion with organic maps developers
+siiky
+2023/05/03
+2023/05/03
+2023/05/03
+video,osm
+
+=> https://invidious.snopyta.org/watch?v=q41mcNQX8P0
+
+Interview of Alexander Borsuk and Roman Tsisyk, Organic Maps developers.
+
+=> https://organicmaps.app/
+
+At 11min33s Louis says:
+
+> I've also seen examples, I'm never gonna forget this one example of this guy that had something like 276 Android phones in his truck so that he wouldn't have traffic when he was driving because people would avoid whatever route he was taking.

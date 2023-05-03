@@ -1,3 +1,5 @@
+=> ../p.to-save-c-we-must-save-abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
+=> ../p.c-isnt-a-programming-language-anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"
 => ../p.guardian.greece_train_crash.gmi 2023-04-24 "Greece train crash: at least 40 killed and dozens injured in collision"
 => ../p.greece-this_was_no_accident.gmi 2023-04-24 Greece: This was no accident
 => ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
