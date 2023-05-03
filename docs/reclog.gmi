@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/02
+2023/05/03
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://degrowther.smol.pub/20230501_opportunistic_critiques 2023-05-03 Opportunistic critiques
 
 => gemini://republic.circumlunar.space/users/flexibeast/gemlog/2023-04-27.gmi 2023-05-02 Vaneigem's “Revolution of Everyday Life”
 
