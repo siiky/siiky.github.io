@@ -7,6 +7,7 @@
 => ../p.animal-sex-determination.gmi "Animal Sex Determination Is Weirder Than You Think"
 => ../sotm2022.mapping-crises-communities-capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
+=> ../v.freecodecamp.assembly-language-programming-arm.gmi "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../c.beau_fifth_column.gmi Beau of the Fifth Column
 => ../books.gmi Books list
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
@@ -17,6 +18,7 @@
 => ../p.c-isnt-a-programming-language-anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"
 => ../pl.c.gmi C (programming language)
+=> ../v.david-justice.explorations-decentralized-publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
 => ../p.visao-junior.dia_da_terra-planeta_diferente.gmi "Dia da Terra: O Planeta está a ficar diferente"
 => ../wp.diego_ongaro.raft.gmi Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
@@ -122,5 +124,6 @@
 => ../p.why_are_we_talking_about_privacy.gmi "Why are we talking so much about privacy?"
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.keyoxide.gmi Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
+=> ../v.you-can-learn-riscv-assembly.gmi "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"
 => ../20230204.gmi 2023/02/04
 => ../20230205.gmi 2023/02/05
