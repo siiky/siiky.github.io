@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-05 22:16 +0100
+So many years after the computer systems class, I finally know now the difference between the logical and the arithmetic shifts!
+=> wiki/v.chibiakumas.riscv-assembly-programming.gmi
+
 ## 2023-05-02 15:34 +0100
 Found this picture of Ancient Egyptian sandals. Pretty amazing, how the sole was produced and how they're held onto the feet.
 => https://upload.wikimedia.org/wikipedia/commons/e/e7/Egyptian_sandals%2C_vegetable_fiber_-_Bata_Shoe_Museum_-_DSC00009.JPG

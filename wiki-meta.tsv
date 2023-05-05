@@ -1,4 +1,6 @@
 2023-05-05	2023-05-05	2023-05-05	David Justice, "Explorations into Decentralized Publishing"	wiki/v.david-justice.explorations-decentralized-publishing.gmi	video,distributed,ipfs
+2023-05-05	2023-05-05	2023-05-05	ChibiAkumas, "RISC-V Assembly Programming"	wiki/v.chibiakumas.riscv-assembly-programming.gmi	video,programming
+2023-05-05	2023-05-05	2023-02-07	Forth (programming language)	wiki/pl.forth.gmi	programming
 2023-05-04	2023-05-04	2023-05-04	"You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"	wiki/v.you-can-learn-riscv-assembly.gmi	video,programming
 2023-05-04	2023-05-04	2023-05-04	"Assembly Language Programming with ARM – Full Tutorial for Beginners"	wiki/v.freecodecamp.assembly-language-programming-arm.gmi	video,course,programming
 2023-05-03	2023-05-03	2023-05-03	"To Save C, We Must Save ABI"	wiki/p.to-save-c-we-must-save-abi.gmi	post,programming
@@ -12,7 +14,6 @@
 2023-04-23	2023-04-23	2023-04-23	"Dia da Terra: O Planeta está a ficar diferente"	wiki/p.visao-junior.dia_da_terra-planeta_diferente.gmi	nature,post
 2023-04-23	2023-04-23	2023-04-23	"Como é que os animais se lavam?"	wiki/p.visao-junior.como_os_animais_se_lavam.gmi	nature,post
 2023-04-23	2023-04-23	2023-04-23	"Animal Sex Determination Is Weirder Than You Think"	wiki/p.animal-sex-determination.gmi	nature,post
-2023-04-13	2023-04-13	2023-02-07	Forth (programming language)	wiki/pl.forth.gmi	programming
 2023-03-28	2023-03-28	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
 2023-03-21	2023-03-21	2023-02-28	Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"	wiki/book.mark_graham.geographies_digial_exclusion.gmi	book,ethics,society,osm
 2023-03-21	2023-03-21	2023-02-21	Distributed Systems Paradigms	wiki/class.dsp.gmi	course,distributed,programming
@@ -20,13 +21,13 @@
 2023-03-14	2023-03-14	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
 2023-03-13	2023-03-13	2023-03-13	Leslie Lamport	wiki/leslie_lamport.gmi	
 2023-03-13	2023-03-13	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
-2023-03-13	2023-03-13	2023-03-13	Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"	wiki/wp.diego_ongaro.raft.gmi	wp,p2p,distributed,algorithms
+2023-03-13	2023-03-13	2023-03-13	Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"	wiki/wp.diego_ongaro.raft.gmi	whitepaper,p2p,distributed,algorithms
 2023-03-13	2023-03-13	2021-10-23	Raft	wiki/raft.gmi	p2p,distributed,algorithms
 2023-03-13	2023-03-13	2020-12-21	Books list	wiki/books.gmi	list
+2023-03-12	2023-05-05	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed,time,causality
 2023-03-12	2023-03-12	2023-03-12	Nils M Holm	wiki/nmh.gmi	scheme
 2023-03-12	2023-03-12	2023-02-28	Logical Programming	wiki/logic-programming.gmi	programming,logic
 2023-03-12	2023-03-12	2023-02-21	Videos	wiki/videos.gmi	list
-2023-03-12	2023-03-12	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed,time,causality
 2023-03-04	2023-03-04	2023-03-04	Transitive reduction	wiki/transitive-reduction.gmi	programming,algorithms
 2023-03-04	2023-03-04	2023-03-04	Sovereignty	wiki/sovereignty.gmi	philosophy,society
 2023-03-04	2023-03-04	2023-03-04	Police	wiki/police.gmi	philosophy,society,politics

@@ -1,3 +1,4 @@
+=> ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../wp.psa.interval-tree-clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../wp.petar_maymounkov.kademlia.gmi 2023-02-28 Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"

@@ -1,4 +1,6 @@
+=> ../pl.forth.gmi 2023-05-05 Forth (programming language)
 => ../v.david-justice.explorations-decentralized-publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
+=> ../v.chibiakumas.riscv-assembly-programming.gmi 2023-05-05 ChibiAkumas, "RISC-V Assembly Programming"
 => ../v.you-can-learn-riscv-assembly.gmi 2023-05-04 "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"
 => ../v.freecodecamp.assembly-language-programming-arm.gmi 2023-05-04 "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../p.to-save-c-we-must-save-abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
@@ -12,7 +14,6 @@
 => ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
 => ../p.animal-sex-determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
-=> ../pl.forth.gmi 2023-04-13 Forth (programming language)
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms

@@ -1,4 +1,5 @@
 => ../v.david-justice.explorations-decentralized-publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
+=> ../v.chibiakumas.riscv-assembly-programming.gmi 2023-05-05 ChibiAkumas, "RISC-V Assembly Programming"
 => ../v.you-can-learn-riscv-assembly.gmi 2023-05-04 "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"
 => ../v.freecodecamp.assembly-language-programming-arm.gmi 2023-05-04 "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 An honest discussion with organic maps developers

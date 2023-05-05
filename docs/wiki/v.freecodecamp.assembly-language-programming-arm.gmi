@@ -19,7 +19,7 @@ The different types of addressing:
 * Immediate -- values are prefixed with # -- e.g. #42 for the decimal number 42, or #0xAB for the hexadecimal number AB.
 * Register direct addressing -- the name of the register by itself.
 * Direct -- labels are prefixed with = -- e.g. =somedata for the address of the label somedata.
-* Register indirect addressing -- the register name is surrounded by square brackets -- e.g. [R3]; optionally an offset may be specified.
+* Indirect register addressing -- the register name is surrounded by square brackets -- e.g. [R3]; optionally an offset may be specified.
 * Pre-increment -- like "register indirect addressing", but additionally everything is suffixed with ! -- e.g. [R2,#4]!
 * Post-increment -- like "register indirect addressing", but the offset is specified outside -- e.g. [R2],#4
 
@@ -51,12 +51,12 @@ Common instructions:
 * BLE LBL -- jump if greater-or-equal (Branch Greater-or-Equal)
 * BEQ LBL -- jump if equal (Branch EQual)
 * BNE LBL -- jump if not equal (Branch Not Equal)
-* BAL LBL -- jump (Branch ALways)
+* BAL LBL -- jump (Branch ALways? Branch And Link?)
+* B LBL -- Branch?
 * ADDLT DST, SRC -- compute DST += SRC if the last comparison was lesser-than
 * MOVEQ DST, SRC -- DST = SRC if the last comparison was equal
 * BL LBL -- Branch Linked ("call"?)
 * BX REG -- Branch eXit? Usually called on LR
-* B LBL -- Branch? What's the difference with BAL?
 * PUSH {REG, ...} -- push values onto the stack; e.g. PUSH {R0, R2, R3}
 * POP {REG, ...} -- pop values off the stack; e.g. POP {R0, R2, R3}
 * STR SRC, DST -- store the value of SRC in DST

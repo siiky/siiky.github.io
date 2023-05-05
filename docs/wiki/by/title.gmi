@@ -14,6 +14,7 @@
 => ../p.fastest_lua_interpreter.gmi "Building the fastest Lua interpreter.. automatically!"
 => ../carfree-cities.gmi Carfree Cities
 => ../carfree-movement.gmi Carfree Movement
+=> ../v.chibiakumas.riscv-assembly-programming.gmi ChibiAkumas, "RISC-V Assembly Programming"
 => ../pl.chicken.gmi CHICKEN Scheme
 => ../p.c-isnt-a-programming-language-anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"

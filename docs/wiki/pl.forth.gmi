@@ -1,8 +1,8 @@
 # Forth (programming language)
 siiky
 2023/02/07
-2023/04/13
-2023/04/13
+2023/05/05
+2023/05/05
 programming
 
 => https://forth-standard.org
@@ -10,3 +10,10 @@ programming
 => https://www.forth.com/starting-forth Leo Brodie, "Starting FORTH"
 => http://forth.org/tutorials.html
 => http://anggtwu.net/miniforth-article.html Eduardo Ochs, "Bootstrapping a Forth in 40 lines of Lua code"
+=> https://en.wikibooks.org/wiki/Forth
+=> https://forth-standard.org/systems
+
+## Operating Systems
+
+=> http://www.forth.org/svfig/osf.html
+=> https://en.wikibooks.org/wiki/Software_Engineers_Handbook/Operating_Systems/Forth

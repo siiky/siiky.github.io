@@ -1,0 +1,91 @@
+# ChibiAkumas, "RISC-V Assembly Programming"
+siiky
+2023/05/05
+2023/05/05
+2023/05/05
+video,programming
+
+=> https://odysee.com/@ChibiAkumas:7/Learn-Risc-V-Assembly-Programming---Lesson1-_-For-absolute-beginners!:c
+=> https://odysee.com/@ChibiAkumas:7/RISC-V-Lesson-2---The-stack-and-conditions:a
+=> https://odysee.com/@ChibiAkumas:7/Risc-V-Assembly-Lesson-3---Bit-ops-and-more-maths!:9
+=> https://invidious.snopyta.org/watch?v=bEUMLh2lasE
+=> https://invidious.snopyta.org/watch?v=rvhDyJVuAzk
+=> https://invidious.snopyta.org/watch?v=mV8HUKxLRxI
+
+Set of videos on RISC-V assembly programming.
+
+=> https://www.chibialiens.com/riscv
+=> https://www.chibialiens.com/riscv/RiscVCheatsheet.pdf
+
+## Instructions
+
+* addi dst, src, imm -- add immediate
+* add dst, src1, src2 -- add
+* la reg, addr -- load address
+* lw dst, src -- load word (32bit in a 32bit CPU, 64bit in a 64bit CPU, ...)
+* lhu dst, src -- load half word unsigned (16bit in a 32bit CPU, 32bit in a 64bit CPU, ...); top half is filled with 0s
+* lh dst, src -- load half word (16bit in a 32bit CPU, 32bit in a 64bit CPU, ...); top half is filled with bit 15/31 (in a 32/64bit CPU, resp.), which keeps the sign
+* lbu dst, src -- load byte unsigned; top half is filled with 0s
+* lb dst, src -- load byte; top half is filled with bit 7, which keeps the sign
+* sw src, dst -- store word
+* sh src, dst -- store half word
+* sb src, dst -- store byte
+* j lbl -- jump to label
+* jr reg -- jump to address stored in reg
+* jal lbl -- jump and link to label
+* jalr reg -- jump and link to address stored in reg
+* ret -- return from procedure
+* mv dst, src -- move
+* li reg, imm -- load immediate
+* beq reg1, reg2, lbl -- branch equal
+* bne reg1, reg2, lbl -- branch not equal
+* bltu reg1, reg2, lbl -- branch lesser-than unsigned
+* bgtu reg1, reg2, lbl -- branch greater-than unsigned
+* bleu reg1, reg2, lbl -- branch lesser-or-equal unsigned
+* bgeu reg1, reg2, lbl -- branch greater-or-equal unsigned
+* blt reg1, reg2, lbl -- branch lesser-than signed
+* bgt reg1, reg2, lbl -- branch greater-than signed
+* ble reg1, reg2, lbl -- branch lesser-or-equal signed
+* bge reg1, reg2, lbl -- branch greater-or-equal signed
+* beqz reg, lbl -- branch equal zero -- equivalent to beq reg, zero, lbl
+* bnez reg, lbl -- branch not equal zero -- equivalent to bne reg, zero, lbl
+* lui reg, imm -- load upper immediate ("upper" part is the top 20 bits)
+* not dst, src -- binary not, flips all bits
+* neg dst, src -- negate number, i.e., compute 2's complement
+* sll dst, src1, src2 -- shift left logical (ignoring sign) -- dst = src1 << src2
+* srl dst, src1, src2 -- shift right logical (ignoring sign) -- dst = src1 >> src2
+* sla dst, src1, src2 -- shift left arithmetic (considering sign) -- dst = src1 << src2
+* sra dst, src1, src2 -- shift right arithmetic (considering sign) -- dst = src1 >> src2
+* slli dst, src, imm -- shift left logical immediate (ignoring sign) -- dst = src << imm
+* srli dst, src, imm -- shift right logical immediate (ignoring sign) -- dst = src >> imm
+* slai dst, src, imm -- shift left arithmetic immediate (considering sign) -- dst = src << imm
+* srai dst, src, imm -- shift right arithmetic immediate (considering sign) -- dst = src >> imm
+* sltu dst, src, imm -- set lesser-than unsigned -- dst = src1 < src2
+* sgt dst, src1, src2 -- set greater-than -- dst = src1 > src2
+* sgei dst, src, imm -- set greater-than immediate -- dst = src >= imm
+
+## Addressing
+
+* Immediate -- no special characters or anything: 123, 0, -42, ...
+* Indirect register -- the register name is surrounded by parens, optionally with an immediate byte offset value to the left: (a2), (a3), 32(a1), ...
+
+## Stack
+
+The RISC-V has no instructions to manipulate the stack specifically, one has to load/store and update the sp in two instructions.
+
+## Note on load immediate
+
+If I'm understanding this right, because of how instructions are encoded (fixed size? as opposed to variable size as in x86), a "load immediate" instruction can't load a full word in a single "command"(?), because each instruction, including its arguments, is encoded as a word (again, if I'm understanding this right).
+
+Because of that, the li instruction must be decomposed in two (generally I suppose; probably by the assembler). For example (assuming rv32):
+
+```s
+li a0, 0xABCD0123
+```
+
+Must be something like:
+
+```s
+lhi a0, 0x123 # this doesn't actually exist
+lui a0, 0xABCD0
+```

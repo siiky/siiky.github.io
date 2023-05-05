@@ -3,7 +3,7 @@ siiky
 2023/03/13
 2023/03/13
 2023/03/13
-wp,p2p,distributed,algorithms
+whitepaper,p2p,distributed,algorithms
 
 => https://raft.github.io/raft.pdf (extended)
 => https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf (original)
