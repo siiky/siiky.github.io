@@ -3,7 +3,7 @@
 => ../albert_camus.gmi Albert Camus
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
 => ../fosdem2023.whippet.gmi Andy Wingo, "Whippet: A new production embeddable garbage collector"
-=> ../v.honest-discussion-organic-maps-devs.gmi An honest discussion with organic maps developers
+=> ../v.honest-discussion-organic-maps-devs.gmi "An honest discussion with organic maps developers"
 => ../p.animal-sex-determination.gmi "Animal Sex Determination Is Weirder Than You Think"
 => ../sotm2022.mapping-crises-communities-capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"

@@ -3,7 +3,7 @@
 => ../v.chibiakumas.riscv-assembly-programming.gmi 2023-05-05 ChibiAkumas, "RISC-V Assembly Programming"
 => ../v.you-can-learn-riscv-assembly.gmi 2023-05-04 "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"
 => ../v.freecodecamp.assembly-language-programming-arm.gmi 2023-05-04 "Assembly Language Programming with ARM – Full Tutorial for Beginners"
-=> ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 An honest discussion with organic maps developers
+=> ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 "An honest discussion with organic maps developers"
 => ../v.talks_google.greatest_maths_mistakes.gmi 2023-02-28 Matt Parker, "Talks at Google: The Greatest Maths Mistakes"
 => ../v.git_parable.gmi 2023-02-28 Johan Herland, "The Git Parable"
 => ../v.jochen_topf.modding_osm_data_model.gmi 2023-02-28 Jochen Topf, "Modding the OSM Data Model"

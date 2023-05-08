@@ -6,7 +6,7 @@
 => ../v.freecodecamp.assembly-language-programming-arm.gmi 2023-05-04 "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../p.to-save-c-we-must-save-abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
 => ../p.c-isnt-a-programming-language-anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"
-=> ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 An honest discussion with organic maps developers
+=> ../v.honest-discussion-organic-maps-devs.gmi 2023-05-03 "An honest discussion with organic maps developers"
 => ../notrelated.gmi 2023-04-28 "Not Related!"
 => ../techstuffs.gmi 2023-04-24 Techstuffs
 => ../p.guardian.greece_train_crash.gmi 2023-04-24 "Greece train crash: at least 40 killed and dozens injured in collision"
