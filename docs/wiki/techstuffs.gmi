@@ -2,8 +2,8 @@
 siiky
 2023/04/24
 2023/04/24
-2023/04/24
-tech,list
+2023/05/08
+technology,list
 
 A list of tech things that may be useful (to me) in the future.
 

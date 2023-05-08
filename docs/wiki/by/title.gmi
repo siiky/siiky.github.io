@@ -103,6 +103,7 @@
 => ../roman-concrete.gmi Roman concrete
 => ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../wp.ryan_hediger.animal-suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
+=> ../sbc-server.gmi SBC server
 => ../pl.scheme.gmi Scheme (programming language)
 => ../justine-sizetricks.gmi Size Optimization Tricks
 => ../souffle.gmi Soufflé

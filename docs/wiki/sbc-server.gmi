@@ -1,0 +1,68 @@
+# SBC server
+siiky
+2023/05/08
+2023/05/08
+2023/05/08
+technology
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Single-board_computer
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Network-attached_storage
+
+Collection of possible options for my next 24/7 SBC server/NAS.
+
+## Now
+
+Currently, I have a caseless RBPi2 connected through ethernet and powered by the official charger. I have one 3.5" HDD in an external case, and another toaster-like "case" for up to 2 disks (2.5"/3.5"), all connected through USB. It's super stable, been running 24/7 for more than 10 years on the same 16GB uSD card -- some of the best money I've ever spent!
+
+I update it regularly (~weekly) and reboot it every few months. It runs transmission, syncthing, CUPS (for a USB-attached HP LaserJet Pro m15a), the OpenSSH sshd & sftpd, and an HTTP server so non-SSH "clients" (other people's Windows computers) can access files. Unfortunately, CUPS hasn't been used much lately -- what I see in dmesg is that as soon as the RBPi detects the printer connected through USB, it disconnects it, no idea why. :/
+
+Because of the limited amount of RAM (1GiB), to improve the uSD lifespan (which has been working so far) I set only 100MiB of swap space. To avoid running out of memory and letting the system die, I use vm.overcommit_memory=2. This basically never overcommits memory to programs, i.e., if a program asks for 100MiB but only 50MiB of RAM is free, the kernel will refuse. Of everything running on it, transmission uses the most memory (because of the hundreds of torrents) and has no problem coping with allocation failures (fortunately).
+
+For power backup, I have a few years old UPS shared by my desktop, the RBPi+disks, and an internet switch (the router is in another room with no power backup). With the desktop off, the UPS lasts for about ~1h. The UPS has a USB connection to deliver events to a computer but I never got around to take advantage of it (I'm not even sure it works on Linux). And in fact I can only remember 2 or 3 times when it would have been helpful.
+
+Because of bad management on my part, in the past it wasn't uncommon for torrents' files to be corrupted. Nowadays I have a monthly cronjob to run the transmission-verify command.
+
+=> pl.scheme.gmi Scheme § trmote
+
+## Next
+
+For my next server, I would like to have everything in a neat case that I can pick up and carry somewhere else more easily. Additionally, I'd like the board to have SATA so I don't have to use shitty external disk cases (which aren't too reliable from my experience).
+
+Maybe not so useful:
+
+=> https://www.directindustry.com/industrial-manufacturer/sata-single-board-computer-226991.html
+=> https://edge.seco.com/es/productos/sbc/
+
+### Odroid HC4
+
+=> https://www.hardkernel.com/shop/odroid-hc4-p-kit/
+
+So far, this looks like the best option out there. When it was first launched it came with a toaster-like case which... ew... and sucks. The newer case changes everything!
+
+It has 2 SATA ports and a fan, 4GiB RAM, and uses ~15W in stress (including disks). Would cost ~100€ (no shipping).
+
+One big con of the case is it seems that to replace a disk you have to disassemble the whole thing (not a problem with the original case). However, I don't expect to need to do this often so it's worth it for me.
+
+### Odroid M1
+
+=> https://www.hardkernel.com/shop/odroid-m1-with-8gbyte-ram/
+
+1 SATA port and 1 M.2 slot, doesn't come with a case, 4/8GiB RAM, and uses ~5W in stress (no peripherals). Would cost ~80€/100€ (no shipping).
+
+### PINE64 STAR64
+
+=> https://pine64.com/product/star64-model-a-4gb-single-board-computer/
+=> https://pine64.com/product/star64-model-a-8gb-single-board-computer/
+
+One of the first cheaper RISC-V SBCs out there! Some put it between the RBPi3 and RBPi4 in performance. Listing it here just because it has a RISC-V CPU.
+
+No SATA ports but a single PCIe x1 slot, no case, 4/8GiB of RAM. Would cost ~70€/~90€ for the boards alone (no shipping).
+
+If I get this board it won't be to serve as NAS for sure.
+
+### Odroid H3/H3+
+
+=> https://www.hardkernel.com/shop/odroid-h3/
+=> https://www.hardkernel.com/shop/odroid-h3-plus/
+
+Listing these here just because they have 2 SATA ports. However, they're Intel and for me that's a no. On top of that, they don't come with RAM (2 empty SO-DIMM slots) or a case. The boards alone use ~15W in stress (no peripherals; in practice this would be probably a lot lower for my uses, because Intel CPUs are quite powerful). Would cost ~140€/180€ for the boards alone (no shipping).
