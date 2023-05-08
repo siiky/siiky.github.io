@@ -11,7 +11,7 @@
 => ../notrelated.gmi 2023-04-28 "Not Related!"
 => ../techstuffs.gmi 2023-04-24 Techstuffs
 => ../p.guardian.greece_train_crash.gmi 2023-04-24 "Greece train crash: at least 40 killed and dozens injured in collision"
-=> ../p.greece-this_was_no_accident.gmi 2023-04-24 Greece: This was no accident
+=> ../p.greece-this_was_no_accident.gmi 2023-04-24 "Greece: This was no accident"
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../p.visao-junior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"

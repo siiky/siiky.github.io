@@ -44,7 +44,7 @@
 => ../sotm2022.none-story-of-data.gmi Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
 => ../v.scheme22.programming_is_fun.gmi Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../pl.go.gmi Go (programming language)
-=> ../p.greece-this_was_no_accident.gmi Greece: This was no accident
+=> ../p.greece-this_was_no_accident.gmi "Greece: This was no accident"
 => ../p.guardian.greece_train_crash.gmi "Greece train crash: at least 40 killed and dozens injured in collision"
 => ../hanya_yanagihara.gmi Hanya Yanagihara
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."

@@ -1,1 +1,1 @@
-=> ../p.greece-this_was_no_accident.gmi 2023-04-24 Greece: This was no accident
+=> ../p.greece-this_was_no_accident.gmi 2023-04-24 "Greece: This was no accident"
