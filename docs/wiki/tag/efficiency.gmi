@@ -1,1 +1,1 @@
-=> ../justine-sizetricks.gmi 2023-02-13 Size Optimization Tricks
+=> ../p.justine.sizetricks.gmi 2023-02-13 Size Optimization Tricks
