@@ -2,14 +2,14 @@
 siiky
 2023/02/07
 2023/02/07
-2023/02/07
+2023/05/08
 talk
 
 => https://fosdem.org/2023/schedule/event/luarocks
 => https://fosdem.org/2023/schedule/event/luarocks/attachments/slides/5630/export/events/attachments/luarocks/slides/5630/hisham_fosdem2023_luarocks.pdf
 => https://luarocks.org
 
-Talk about the history of LuaRocks, Lua's package manager, and its search for minimalism -- the balance between features and minimalism, and the constant fight between TheRightThing and WorstIsBetter.
+Talk about the history of LuaRocks, Lua's package manager, and its search for minimalism -- the balance between features and minimalism, and the constant fight between TheRightThing and WorseIsBetter.
 
 * Hisham Muhammad, "Taxonomy of Package Management in Programming Languages and Operating Systems"
 
