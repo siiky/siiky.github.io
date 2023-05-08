@@ -1,0 +1,17 @@
+# Blaine Cook, "The Name Name Service"
+siiky
+2023/05/07
+2023/05/07
+2023/05/07
+video,ipfs,distributed
+
+=> https://invidious.snopyta.org/watch?v=CHiCEd36KtI
+=> https://talk.fission.codes/t/nns-the-name-name-system/3684
+
+Video about an idea for a decentralized and universal/unified name service.
+
+Mentioned this recent whitepaper:
+
+=> https://eprint.iacr.org/2023/296 OpenPubkey: Augmenting OpenID Connect with User held Signing Keys
+=> https://www.reddit.com/r/openpubkey/
+=> https://www.bastionzero.com/blog/bastionzeros-openpubkey-why-i-think-it-is-the-most-important-security-research-ive-done Ethan Heilman, "BastionZero's OpenPubkey: Why I think it is the most important security research I've done"
