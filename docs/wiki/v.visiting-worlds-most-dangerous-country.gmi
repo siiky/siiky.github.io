@@ -3,7 +3,7 @@ siiky
 2023/02/09
 2023/02/09
 2023/05/08
-video,travel
+video,travel,culture
 
 => https://invidious.snopyta.org/watch?v=y2Nba4MMBAU
 
