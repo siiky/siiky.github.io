@@ -13,5 +13,5 @@
 => ../p.ever_wondered_how_qr_code_works.gmi 2023-02-28 "Ever wondered how a QR code works?"
 => ../p.fastest_lua_interpreter.gmi 2023-02-28 "Building the fastest Lua interpreter.. automatically!"
 => ../p.does_every_map_need_north_arrow.gmi 2023-02-28 Aileen Buckley, "Does every map need a north arrow and scale bar?"
-=> ../p.justine.sizetricks.gmi 2023-02-13 Size Optimization Tricks
+=> ../p.justine.sizetricks.gmi 2023-02-13 "Size Optimization Tricks"
 => ../story-of-us.gmi 2023-02-06 Tim Urban, "The Story of Us"

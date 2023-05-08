@@ -20,7 +20,7 @@
 => ../interval-tree-clocks.gmi 2023-02-21 Interval Tree Clocks
 => ../wp.leslie_lamport.time-clocks-events.gmi 2023-02-14 Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
 => ../logical-clock.gmi 2023-02-14 Logical clock
-=> ../p.justine.sizetricks.gmi 2023-02-13 Size Optimization Tricks
+=> ../p.justine.sizetricks.gmi 2023-02-13 "Size Optimization Tricks"
 => ../fosdem2023.reflexiveinterpreters.gmi 2023-02-09 William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.langrunsbackwards.gmi 2023-02-09 Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../pl.lua.gmi 2023-02-09 Lua (programming language)

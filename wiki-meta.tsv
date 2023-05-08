@@ -35,6 +35,7 @@
 2023-03-04	2023-03-04	2023-03-04	Police	wiki/police.gmi	philosophy,society,politics
 2023-03-04	2023-03-04	2023-02-21	Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"	wiki/wp.psa.interval-tree-clocks.gmi	whitepaper,distributed,programming
 2023-02-28	post,technology,computer-science	2023-02-28	"QR Code development story"	wiki/p.qr_code_development-story.gmi	
+2023-02-28	2023-05-08	2023-02-28	"Don't Hex the Water"	wiki/v.exurb1a.dont_hex_the_water.gmi	video,privacy,philosophy,society
 2023-02-28	2023-04-24	2023-02-28	Matt Parker, "Talks at Google: The Greatest Maths Mistakes"	wiki/v.talks_google.greatest_maths_mistakes.gmi	video,mathematics
 2023-02-28	2023-04-24	2023-02-28	EPCOT	wiki/epcot.gmi	carfree,city,society
 2023-02-28	2023-02-28	2023-02-28	"Why are we talking so much about privacy?"	wiki/p.why_are_we_talking_about_privacy.gmi	post,privacy,society
@@ -57,7 +58,6 @@
 2023-02-28	2023-02-28	2023-02-28	exurb1a	wiki/c.exurb1a.gmi	channel,philosophy
 2023-02-28	2023-02-28	2023-02-28	"Ever wondered how a QR code works?"	wiki/p.ever_wondered_how_qr_code_works.gmi	post,technology,computer-science
 2023-02-28	2023-02-28	2023-02-28	emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"	wiki/p.visual_programming-what_went_wrong.gmi	programming,mathematics
-2023-02-28	2023-02-28	2023-02-28	/Don't Hex the Water/	wiki/v.exurb1a.dont_hex_the_water.gmi	video,privacy,philosophy,society
 2023-02-28	2023-02-28	2023-02-28	Distributed Hash Table	wiki/dht.gmi	distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	CHICKEN Scheme	wiki/pl.chicken.gmi	programming,scheme
 2023-02-28	2023-02-28	2023-02-28	Carfree Movement	wiki/carfree-movement.gmi	environment,economy,society,ethics,philosophy,permaculture
@@ -80,15 +80,15 @@
 2023-02-16	2023-02-20	2023-02-16	Albert Camus, "The Plague"	wiki/book.albert_camus.plague.gmi	book,philosophy,life,religion,ethics
 2023-02-14	2023-03-12	2023-02-14	Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"	wiki/wp.leslie_lamport.time-clocks-events.gmi	whitepaper,programming,distributed,time,causality
 2023-02-14	2023-02-16	2023-02-14	Logical clock	wiki/logical-clock.gmi	programming,distributed
-2023-02-13	2023-02-13	2023-02-13	Size Optimization Tricks	wiki/p.justine.sizetricks.gmi	post,programming,efficiency
+2023-02-13	2023-05-08	2023-02-13	"Size Optimization Tricks"	wiki/p.justine.sizetricks.gmi	post,programming,efficiency
 2023-02-13	2023-02-13	2023-02-13	Ryan Hediger, "Animal suicide and 'anthropodenial'"	wiki/wp.ryan_hediger.animal-suicide.gmi	whitepaper,philosophy,ethics
-2023-02-10	2023-05-08	2023-02-10	We FINALLY Figured Out The Secret of Roman Concrete	wiki/v.finally-figured-roman-concrete.gmi	video,engineering,science,history
+2023-02-10	2023-05-08	2023-02-10	"We FINALLY Figured Out The Secret of Roman Concrete"	wiki/v.finally-figured-roman-concrete.gmi	video,engineering,science,history
 2023-02-10	2023-05-08	2023-02-10	Roman concrete	wiki/roman-concrete.gmi	engineering,science,history
-2023-02-10	2023-05-08	2023-02-10	How To Make Roman Concrete	wiki/v.how-to-make-roman-concrete.gmi	video,engineering,science,history
-2023-02-10	2023-05-08	2023-02-10	How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)	wiki/v.htme.how-to-make-roman-concrete.gmi	video,engineering,science,history
-2023-02-10	2023-02-13	2023-02-10	How the Frogs Cooked Dinner	wiki/v.exurb1a.how_frogs_cooked_dinner.gmi	video,philosophy,ethics,politics,society
+2023-02-10	2023-05-08	2023-02-10	"How To Make Roman Concrete"	wiki/v.how-to-make-roman-concrete.gmi	video,engineering,science,history
+2023-02-10	2023-05-08	2023-02-10	"How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)"	wiki/v.htme.how-to-make-roman-concrete.gmi	video,engineering,science,history
+2023-02-10	2023-05-08	2023-02-10	"How the Frogs Cooked Dinner"	wiki/v.exurb1a.how_frogs_cooked_dinner.gmi	video,philosophy,ethics,politics,society
+2023-02-09	2023-05-08	2023-02-09	"Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )"	wiki/v.visiting-worlds-most-dangerous-country.gmi	video,travel
 2023-02-09	2023-02-09	2023-02-09	William Byrd, "Self-conscious Reflexive Interpreters"	wiki/fosdem2023.reflexiveinterpreters.gmi	talk,programming
-2023-02-09	2023-02-09	2023-02-09	Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )	wiki/v.visiting-worlds-most-dangerous-country.gmi	video,travel
 2023-02-09	2023-02-09	2023-02-09	Steven Goodwin, "I have an idea: build a language that can run backwards"	wiki/fosdem2023.langrunsbackwards.gmi	talk,programming
 2023-02-09	2023-02-09	2023-02-06	Lua (programming language)	wiki/pl.lua.gmi	programming
 2023-02-08	2023-02-08	2023-02-08	Linux	wiki/linux.gmi	os

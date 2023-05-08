@@ -26,7 +26,7 @@
 => ../wp.diego_ongaro.raft.gmi Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../dht.gmi Distributed Hash Table
 => ../class.dsp.gmi Distributed Systems Paradigms
-=> ../v.exurb1a.dont_hex_the_water.gmi /Don't Hex the Water/
+=> ../v.exurb1a.dont_hex_the_water.gmi "Don't Hex the Water"
 => ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
 => ../pl.elixir.gmi Elixir (programming language)
@@ -49,9 +49,9 @@
 => ../hanya_yanagihara.gmi Hanya Yanagihara
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.luarocks.gmi Hisham Muhammad, "LuaRocks and the challenges of minimalism"
-=> ../v.exurb1a.how_frogs_cooked_dinner.gmi How the Frogs Cooked Dinner
-=> ../v.htme.how-to-make-roman-concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
-=> ../v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
+=> ../v.exurb1a.how_frogs_cooked_dinner.gmi "How the Frogs Cooked Dinner"
+=> ../v.htme.how-to-make-roman-concrete.gmi "How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)"
+=> ../v.how-to-make-roman-concrete.gmi "How To Make Roman Concrete"
 => ../sotm2019.broken_promises_technical_difficulties.gmi Ilya Zverev, "Broken Promises and Technical Difficulties"
 => ../wp.ingmar_baumgart.s-kademlia.gmi Ingmar Baumgart, Sebastian Mies, "S/Kademlia: A Practicable Approach Towards Secure Key-Based Routing"
 => ../interval-tree-clocks.gmi Interval Tree Clocks
@@ -105,7 +105,7 @@
 => ../wp.ryan_hediger.animal-suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
 => ../sbc-server.gmi SBC server
 => ../pl.scheme.gmi Scheme (programming language)
-=> ../p.justine.sizetricks.gmi Size Optimization Tricks
+=> ../p.justine.sizetricks.gmi "Size Optimization Tricks"
 => ../souffle.gmi Soufflé
 => ../sovereignty.gmi Sovereignty
 => ../p.speculation_in_javascriptcore.gmi "Speculation in JavaScriptCore"
@@ -122,8 +122,8 @@
 => ../trainspotter.gmi Trainspotter
 => ../transitive-reduction.gmi Transitive reduction
 => ../videos.gmi Videos
-=> ../v.visiting-worlds-most-dangerous-country.gmi Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )
-=> ../v.finally-figured-roman-concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete
+=> ../v.visiting-worlds-most-dangerous-country.gmi "Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )"
+=> ../v.finally-figured-roman-concrete.gmi "We FINALLY Figured Out The Secret of Roman Concrete"
 => ../p.why_are_we_talking_about_privacy.gmi "Why are we talking so much about privacy?"
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.keyoxide.gmi Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
