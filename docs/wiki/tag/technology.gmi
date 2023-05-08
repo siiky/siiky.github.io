@@ -1,4 +1,5 @@
 => ../sbc-server.gmi 2023-05-08 SBC server
 => ../notrelated.gmi 2023-04-28 "Not Related!"
 => ../techstuffs.gmi 2023-04-24 Techstuffs
+=> ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../p.ever_wondered_how_qr_code_works.gmi 2023-02-28 "Ever wondered how a QR code works?"

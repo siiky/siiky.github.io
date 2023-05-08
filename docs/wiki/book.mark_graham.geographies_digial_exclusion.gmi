@@ -2,8 +2,8 @@
 siiky
 2023/02/28
 2023/03/21
-2023/03/21
-book,ethics,society,osm
+2023/05/08
+book,ethics,society,osm,technology
 
 => https://www.oii.ox.ac.uk/research/publications/geographies-of-digital-exclusion-data-and-inequality
 => https://ipfs.io/ipfs/bafybeid3iyv2jrlttygj2xhdjcqi2oz4lpc6mtlwjemc7muyvcewf5rn2i?filename=geographies_of_digital_exclusion.pdf
