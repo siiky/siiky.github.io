@@ -1,0 +1,11 @@
+# RISC-V
+siiky
+2023/05/09
+2023/05/09
+2023/05/09
+programming,technology
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?RISC-V
+=> https://riscv.org/
+
+An open RISC ISA.
