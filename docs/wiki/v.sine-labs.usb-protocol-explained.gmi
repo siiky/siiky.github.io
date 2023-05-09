@@ -1,0 +1,10 @@
+# "Add USB To Your Electronics Projects! - The USB Protocol Explained"
+siiky
+2023/05/09
+2023/05/09
+2023/05/09
+video,programming,technology
+
+=> https://invidious.snopyta.org/watch?v=HbQ6q3skZgw
+
+Video about the USB protocol and how to use it on an Atmega MCU.

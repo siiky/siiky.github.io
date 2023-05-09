@@ -1,3 +1,5 @@
+=> ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
+=> ../v.sine-labs.usb-protocol-explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
 => ../sbc-server.gmi 2023-05-08 SBC server
 => ../notrelated.gmi 2023-04-28 "Not Related!"
 => ../techstuffs.gmi 2023-04-24 Techstuffs

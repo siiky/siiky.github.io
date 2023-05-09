@@ -1,3 +1,4 @@
+=> ../v.sine-labs.usb-protocol-explained.gmi "Add USB To Your Electronics Projects! - The USB Protocol Explained"
 => ../p.does_every_map_need_north_arrow.gmi Aileen Buckley, "Does every map need a north arrow and scale bar?"
 => ../book.albert_camus.plague.gmi Albert Camus, "The Plague"
 => ../albert_camus.gmi Albert Camus
@@ -123,6 +124,7 @@
 => ../transitive-reduction.gmi Transitive reduction
 => ../videos.gmi Videos
 => ../v.visiting-worlds-most-dangerous-country.gmi "Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )"
+=> ../v.sine-labs.vusb-hid-explained.gmi "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../v.finally-figured-roman-concrete.gmi "We FINALLY Figured Out The Secret of Roman Concrete"
 => ../p.why_are_we_talking_about_privacy.gmi "Why are we talking so much about privacy?"
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
