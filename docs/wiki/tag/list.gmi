@@ -1,3 +1,3 @@
+=> ../videos.gmi 2023-05-10 Videos
+=> ../books.gmi 2023-05-10 Books list
 => ../techstuffs.gmi 2023-04-24 Techstuffs
-=> ../books.gmi 2023-03-13 Books list
-=> ../videos.gmi 2023-03-12 Videos

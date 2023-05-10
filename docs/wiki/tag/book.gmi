@@ -1,3 +1,4 @@
+=> ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../book.jerome_klapka_jerome.seconds_thoughts_idle_fellow.gmi 2023-02-26 Jerome Klapka Jerome, "The Second Thoughts of an Idle Fellow"
 => ../book.remzi_arpaci-dusseau.ostep.gmi 2023-02-21 Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"

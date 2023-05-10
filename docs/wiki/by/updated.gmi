@@ -1,3 +1,6 @@
+=> ../videos.gmi 2023-05-10 Videos
+=> ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../books.gmi 2023-05-10 Books list
 => ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../riscv.gmi 2023-05-09 RISC-V
 => ../v.sine-labs.usb-protocol-explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
@@ -28,8 +31,6 @@
 => ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
 => ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
-=> ../books.gmi 2023-03-13 Books list
-=> ../videos.gmi 2023-03-12 Videos
 => ../nmh.gmi 2023-03-12 Nils M Holm
 => ../logic-programming.gmi 2023-03-12 Logical Programming
 => ../wp.friedemann_mattern.virtual-time-global-states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"

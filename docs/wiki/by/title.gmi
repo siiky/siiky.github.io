@@ -65,6 +65,7 @@
 => ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../v.git_parable.gmi Johan Herland, "The Git Parable"
 => ../p.put_noth_arrow.gmi John Nelson, "Put a north arrow on it?"
+=> ../v.john-romer.ancient-lives.gmi John Romer, "Ancient Lives"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"

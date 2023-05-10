@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/05
+2023/05/10
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://textmonger.pollux.casa/gemlog/2023-05-07-03-re-stacksmith-youtube-ads.gmi 2023-05-10 Re: StackSmith: YouTube Ads
 
 => gemini://clanmorgan.org/gemlog/2023-05-04-proof-that-chatgpt-is-not-sentient.gmi 2023-05-05 Proof That ChatGPT Is Not Sentient
 => gemini://gem.librehacker.com/gemlog/starlog/20230504-0.gmi 2023-05-05 A Ducky Couple and the Unexpected Sunset

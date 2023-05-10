@@ -1,3 +1,6 @@
+2023-05-10	2023-05-10	2023-05-10	John Romer, "Ancient Lives"	wiki/v.john-romer.ancient-lives.gmi	history,video,book
+2023-05-10	2023-05-10	2023-02-21	Videos	wiki/videos.gmi	list
+2023-05-10	2023-05-10	2020-12-21	Books list	wiki/books.gmi	list
 2023-05-09	2023-05-09	2023-05-09	"V-USB on an ATmega328! - V-USB and HID Explained"	wiki/v.sine-labs.vusb-hid-explained.gmi	video,programming,technology
 2023-05-09	2023-05-09	2023-05-09	RISC-V	wiki/riscv.gmi	programming,technology
 2023-05-09	2023-05-09	2023-05-09	"Add USB To Your Electronics Projects! - The USB Protocol Explained"	wiki/v.sine-labs.usb-protocol-explained.gmi	video,programming,technology
@@ -28,11 +31,9 @@
 2023-03-13	2023-03-13	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
 2023-03-13	2023-03-13	2023-03-13	Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"	wiki/wp.diego_ongaro.raft.gmi	whitepaper,p2p,distributed,algorithms
 2023-03-13	2023-03-13	2021-10-23	Raft	wiki/raft.gmi	p2p,distributed,algorithms
-2023-03-13	2023-03-13	2020-12-21	Books list	wiki/books.gmi	list
 2023-03-12	2023-05-05	2023-02-21	Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"	wiki/wp.friedemann_mattern.virtual-time-global-states.gmi	whitepaper,distributed,time,causality
 2023-03-12	2023-03-12	2023-03-12	Nils M Holm	wiki/nmh.gmi	scheme
 2023-03-12	2023-03-12	2023-02-28	Logical Programming	wiki/logic-programming.gmi	programming,logic
-2023-03-12	2023-03-12	2023-02-21	Videos	wiki/videos.gmi	list
 2023-03-04	2023-03-04	2023-03-04	Transitive reduction	wiki/transitive-reduction.gmi	programming,algorithms
 2023-03-04	2023-03-04	2023-03-04	Sovereignty	wiki/sovereignty.gmi	philosophy,society
 2023-03-04	2023-03-04	2023-03-04	Police	wiki/police.gmi	philosophy,society,politics
