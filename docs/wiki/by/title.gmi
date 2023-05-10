@@ -10,6 +10,7 @@
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
 => ../v.freecodecamp.assembly-language-programming-arm.gmi "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../c.beau_fifth_column.gmi Beau of the Fifth Column
+=> ../book.bhagavan-sri-ramana-maharshi.who-am-i.gmi Bhagavan Sri Ramana Maharshi, "Who Am I?"
 => ../v.ipfs.blain_cook-name_name_service.gmi Blaine Cook, "The Name Name Service"
 => ../books.gmi Books list
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"

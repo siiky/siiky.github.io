@@ -1,5 +1,6 @@
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../book.bhagavan-sri-ramana-maharshi.who-am-i.gmi 2023-05-10 Bhagavan Sri Ramana Maharshi, "Who Am I?"
 => ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../riscv.gmi 2023-05-09 RISC-V
 => ../v.sine-labs.usb-protocol-explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
