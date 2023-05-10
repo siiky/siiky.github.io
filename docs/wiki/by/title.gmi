@@ -108,6 +108,7 @@
 => ../wp.ryan_hediger.animal-suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
 => ../sbc-server.gmi SBC server
 => ../pl.scheme.gmi Scheme (programming language)
+=> ../p.seirdy.nuanced-views.gmi Seirdy, "Nuanced views"
 => ../p.justine.sizetricks.gmi "Size Optimization Tricks"
 => ../souffle.gmi Soufflé
 => ../sovereignty.gmi Sovereignty

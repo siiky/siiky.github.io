@@ -1,4 +1,5 @@
 => ../videos.gmi 2023-05-10 Videos
+=> ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
 => ../books.gmi 2023-05-10 Books list
 => ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"

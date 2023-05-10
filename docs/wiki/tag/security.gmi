@@ -1,1 +1,2 @@
+=> ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../fosdem2023.security_where_does_that_code_come_from.gmi 2023-02-04 Ludovic Courtès, "Where does that code come from?"
