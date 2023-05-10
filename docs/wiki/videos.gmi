@@ -20,6 +20,7 @@ list
 => https://invidious.snopyta.org/watch?v=btO3kE2RrEY
 => https://invidious.snopyta.org/watch?v=eCknUJJc3qU
 => https://invidious.snopyta.org/watch?v=eksTJOmlxbU
+=> https://invidious.snopyta.org/watch?v=hWdDGpsPyO4 Patriot of the Web (Aaron Schwartz docu)
 => https://invidious.snopyta.org/watch?v=hg3umXU_qWc
 => https://invidious.snopyta.org/watch?v=jPhJbKBuNnA
 => https://invidious.snopyta.org/watch?v=kSNo2FPQDQw
