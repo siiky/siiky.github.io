@@ -1,3 +1,4 @@
+=> ../v.geoffrey-hinton.ai-existential-thread.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../wp.joel_chan.discourse-graphs-for-augmented-knowledge-synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../v.finally-figured-roman-concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"

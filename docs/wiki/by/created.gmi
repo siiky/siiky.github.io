@@ -1,6 +1,7 @@
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.geoffrey-hinton.ai-existential-thread.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../v.tedx.meeting-the-enemy.gmi 2023-05-10 Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
 => ../book.bhagavan-sri-ramana-maharshi.who-am-i.gmi 2023-05-10 Bhagavan Sri Ramana Maharshi, "Who Am I?"

@@ -47,6 +47,7 @@
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
 => ../wp.friedemann_mattern.virtual-time-global-states.gmi Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../sotm2022.none-story-of-data.gmi Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
+=> ../v.geoffrey-hinton.ai-existential-thread.gmi Geoffrey Hinton on the AI existential threat
 => ../v.scheme22.programming_is_fun.gmi Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../pl.go.gmi Go (programming language)
 => ../p.greece-this_was_no_accident.gmi "Greece: This was no accident"
