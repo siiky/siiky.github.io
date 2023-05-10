@@ -1,4 +1,6 @@
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
+=> ../v.beau.toxic-masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column
 => ../v.finally-figured-roman-concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"

@@ -1,6 +1,10 @@
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
+=> ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
+=> ../v.tedx.meeting-the-enemy.gmi 2023-05-10 Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
 => ../book.bhagavan-sri-ramana-maharshi.who-am-i.gmi 2023-05-10 Bhagavan Sri Ramana Maharshi, "Who Am I?"
+=> ../v.beau.toxic-masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
 => ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../riscv.gmi 2023-05-09 RISC-V
 => ../v.sine-labs.usb-protocol-explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
