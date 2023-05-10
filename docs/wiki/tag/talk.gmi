@@ -1,5 +1,6 @@
 => ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
+=> ../fosdem2020.dip_secusharebox.gmi 2023-05-10 Devan Carpenter, "Knocking Down the Nest"
 => ../v.tedx.meeting-the-enemy.gmi 2023-05-10 Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../sotm2019.broken_promises_technical_difficulties.gmi 2023-02-28 Ilya Zverev, "Broken Promises and Technical Difficulties"

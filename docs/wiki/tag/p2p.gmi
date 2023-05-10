@@ -1,3 +1,4 @@
+=> ../fosdem2020.dip_secusharebox.gmi 2023-05-10 Devan Carpenter, "Knocking Down the Nest"
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../raft.gmi 2023-03-13 Raft
 => ../wp.petar_maymounkov.kademlia.gmi 2023-02-28 Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"

@@ -26,6 +26,7 @@
 => ../pl.c.gmi C (programming language)
 => ../v.david-justice.explorations-decentralized-publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
+=> ../fosdem2020.dip_secusharebox.gmi Devan Carpenter, "Knocking Down the Nest"
 => ../p.visao-junior.dia_da_terra-planeta_diferente.gmi "Dia da Terra: O Planeta está a ficar diferente"
 => ../wp.diego_ongaro.raft.gmi Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../dht.gmi Distributed Hash Table
