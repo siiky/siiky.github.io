@@ -13,7 +13,7 @@ Linked to from this post:
 => gemini://textmonger.pollux.casa/gemlog/2023-05-07-03-re-stacksmith-youtube-ads.gmi
 => ../reclog.gmi
 
-=> ../words/quotes just quotes § 2023-05-10
+=> ../words/quotes.gmi just quotes § 2023-05-10
 
 ## Archive
 
