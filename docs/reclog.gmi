@@ -1,13 +1,21 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/10
+2023/05/11
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://kotobank.ch/~merlin/llm_censorship.gmi 2023-05-11 LLM and Censorship
+=> gemini://clanmorgan.org/gemlog/2023-05-11-bad-investments.gmi 2023-05-11 Bad Investments
+=> gemini://jsreed5.org/log/2023/202305/20230510-two-energy-crises.gmi 2023-05-11 Two Energy Crises
+=> gemini://gemini.conman.org/boston/2009/11/02.1 2023-05-11 The map is not the territory
+=> gemini://gemini.conman.org/boston/2012/01/12.1 2023-05-11 Just to make sure, I did my “once-a-decade” check of an IDE. Yup, I still hate 'em.
+=> gemini://gemini.conman.org/boston/2023/05/10.1 2023-05-11 Proportional fonts for coding? No thank you
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-05-11.horror.gmi 2023-05-11 The Horror of Life
 
 => gemini://textmonger.pollux.casa/gemlog/2023-05-07-03-re-stacksmith-youtube-ads.gmi 2023-05-10 Re: StackSmith: YouTube Ads
 
