@@ -14,4 +14,4 @@ Based on oak tree bark (Carvalho -- Quercus, suber maybe?), used to make cork.
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Quercus_suber
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Cork_(material)
 
-Bark is shreded, and the insulation material is basically only heated up and pressed together -- maybe can be DIY?
+Bark is shreded, heated up (a lot by the looks of it) and finally pressed together -- maybe can be DIY?
