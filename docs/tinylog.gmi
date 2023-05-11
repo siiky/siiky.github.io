@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-07 10:53 +0100
+Saw a sparrow trying to catch a bumblebee mid-flight, very impressive. At some point the sparrow had to slow down so much it almost looked like it was stalling mid-air (like hummingbirds are known to be able to do), before resuming flight after the bumblebee.
+In the end the bumblebee got away.
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Eurasian_tree_sparrow
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Bumblebee
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Hummingbird
+
 ## 2023-05-05 22:16 +0100
 So many years after the computer systems class, I finally know now the difference between the logical and the arithmetic shifts!
 => wiki/v.chibiakumas.riscv-assembly-programming.gmi
