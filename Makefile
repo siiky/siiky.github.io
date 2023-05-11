@@ -163,7 +163,7 @@ wiki-generated-html: $(WIKI_META) wiki-lists $(WIKI_GENERATED_HTML)
 # TODO: Split IPFS add from publish
 
 .PHONY: publish
-publish: $(ROOT)/ipfs.html publish-gemini publish-http
+publish: $(ROOT)/ipfs.html publish-gemini publish-http push
 
 .PHONY: publish-gemini
 publish-gemini: gemini.tgz
