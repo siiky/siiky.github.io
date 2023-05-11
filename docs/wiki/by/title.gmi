@@ -2,6 +2,7 @@
 => ../p.does_every_map_need_north_arrow.gmi Aileen Buckley, "Does every map need a north arrow and scale bar?"
 => ../book.albert_camus.plague.gmi Albert Camus, "The Plague"
 => ../albert_camus.gmi Albert Camus
+=> ../p.agwa.sign-with-ssh.gmi Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
 => ../fosdem2023.whippet.gmi Andy Wingo, "Whippet: A new production embeddable garbage collector"
 => ../v.honest-discussion-organic-maps-devs.gmi "An honest discussion with organic maps developers"

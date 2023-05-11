@@ -1,3 +1,4 @@
+=> ../p.agwa.sign-with-ssh.gmi 2023-05-11 Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../p.to-save-c-we-must-save-abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
 => ../p.c-isnt-a-programming-language-anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"

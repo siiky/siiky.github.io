@@ -4,6 +4,7 @@
 => ../v.computerphile.chatgpt-rob-miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"
 => ../v.computerphile.bing-chat-behaving-badly.gmi 2023-05-11 Computerphile, "Bing Chat Behaving Badly"
 => ../v.computerphile.ai-language-models-transformers.gmi 2023-05-11 Computerphile, "AI Language Models & Transformers"
+=> ../p.agwa.sign-with-ssh.gmi 2023-05-11 Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
