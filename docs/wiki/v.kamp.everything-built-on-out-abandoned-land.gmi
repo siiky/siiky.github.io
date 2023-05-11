@@ -1,0 +1,17 @@
+# Project Kamp, "Everything we built on our abandoned land"
+siiky
+2023/05/11
+2023/05/11
+2023/05/11
+video,life,nature,engineering
+
+=> https://invidious.snopyta.org/watch?v=S_ZbMbBxJvs
+
+## Insulation
+
+Based on oak tree bark (Carvalho -- Quercus, suber maybe?), used to make cork.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Quercus_suber
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Cork_(material)
+
+Bark is shreded, and the insulation material is basically only heated up and pressed together -- maybe can be DIY?
