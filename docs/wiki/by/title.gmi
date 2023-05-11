@@ -23,6 +23,11 @@
 => ../pl.chicken.gmi CHICKEN Scheme
 => ../p.c-isnt-a-programming-language-anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visao-junior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"
+=> ../v.computerphile.ai-language-models-transformers.gmi Computerphile, "AI Language Models & Transformers"
+=> ../v.computerphile.bing-chat-behaving-badly.gmi Computerphile, "Bing Chat Behaving Badly"
+=> ../v.computerphile.chatgpt-rob-miles.gmi Computerphile, "ChatGPT with Rob Miles"
+=> ../v.computerphile.cheatgpt.gmi Computerphile, "Ch(e)at GPT?"
+=> ../v.computerphile.gpt3-even-bigger-language-model.gmi Computerphile, "GPT3: An Even Bigger Language Model"
 => ../pl.c.gmi C (programming language)
 => ../v.david-justice.explorations-decentralized-publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"

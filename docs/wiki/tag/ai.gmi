@@ -1,1 +1,6 @@
+=> ../v.computerphile.gpt3-even-bigger-language-model.gmi 2023-05-11 Computerphile, "GPT3: An Even Bigger Language Model"
+=> ../v.computerphile.cheatgpt.gmi 2023-05-11 Computerphile, "Ch(e)at GPT?"
+=> ../v.computerphile.chatgpt-rob-miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"
+=> ../v.computerphile.bing-chat-behaving-badly.gmi 2023-05-11 Computerphile, "Bing Chat Behaving Badly"
+=> ../v.computerphile.ai-language-models-transformers.gmi 2023-05-11 Computerphile, "AI Language Models & Transformers"
 => ../v.geoffrey-hinton.ai-existential-thread.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat

@@ -1,4 +1,9 @@
 => ../v.kamp.everything-built-on-out-abandoned-land.gmi 2023-05-11 Project Kamp, "Everything we built on our abandoned land"
+=> ../v.computerphile.gpt3-even-bigger-language-model.gmi 2023-05-11 Computerphile, "GPT3: An Even Bigger Language Model"
+=> ../v.computerphile.cheatgpt.gmi 2023-05-11 Computerphile, "Ch(e)at GPT?"
+=> ../v.computerphile.chatgpt-rob-miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"
+=> ../v.computerphile.bing-chat-behaving-badly.gmi 2023-05-11 Computerphile, "Bing Chat Behaving Badly"
+=> ../v.computerphile.ai-language-models-transformers.gmi 2023-05-11 Computerphile, "AI Language Models & Transformers"
 => ../videos.gmi 2023-05-10 Videos
 => ../p.seirdy.nuanced-views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
