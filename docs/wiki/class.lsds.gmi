@@ -2,7 +2,7 @@
 siiky
 2023/02/21
 2023/03/28
-2023/03/28
+2023/05/12
 course,distributed,programming
 
 This page is about one of the classes I have this semester.
@@ -19,9 +19,9 @@ Learned about time (physical and logical), causal consistency, different propert
 
 Roughly in the order of appearance.
 
-=> wp.leslie_lamport.time-clocks-events.gmi
-=> wp.friedemann_mattern.virtual-time-global-states.gmi
-=> wp.psa.interval-tree-clocks.gmi
+=> wp.leslie_lamport.time_clocks_events.gmi
+=> wp.friedemann_mattern.virtual_time_global_states.gmi
+=> wp.psa.interval_tree_clocks.gmi
 => wp.ion_stoica.chord.gmi
 => wp.petar_maymounkov.kademlia.gmi
 => https://arxiv.org/abs/1502.06461 Pamela Zave, "How to Make Chrod Correct"

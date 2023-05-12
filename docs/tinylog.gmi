@@ -16,7 +16,7 @@ In the end the bumblebee got away.
 
 ## 2023-05-05 22:16 +0100
 So many years after the computer systems class, I finally know now the difference between the logical and the arithmetic shifts!
-=> wiki/v.chibiakumas.riscv-assembly-programming.gmi
+=> wiki/v.chibiakumas.riscv_assembly_programming.gmi
 
 ## 2023-05-02 15:34 +0100
 Found this picture of Ancient Egyptian sandals. Pretty amazing, how the sole was produced and how they're held onto the feet.
@@ -35,17 +35,17 @@ To whoever is reading this, but especially to whoever believes in this bullshit 
 => https://www.imdb.com/title/tt0070544 La planète sauvage
 
 ## 2023-04-24 00:23 +0100
-> Much of the modern web is a fractal of dark patterns, it's made for humans in the same sense a zoo or a meat packing plant is made for animals. 
+> Much of the modern web is a fractal of dark patterns, it's made for humans in the same sense a zoo or a meat packing plant is made for animals.
 >
 > (...)
 >
-> AI-aided software development on the other hand permits no such thing. To a novice it may seem like it would since things speed up quite a lot, but in practice it only makes the easy things in coding easier. It isn't entering the code that is the obstacle. 
+> AI-aided software development on the other hand permits no such thing. To a novice it may seem like it would since things speed up quite a lot, but in practice it only makes the easy things in coding easier. It isn't entering the code that is the obstacle.
 >
-> Entering more code faster doesn't make the code go faster or make it more correct, it makes it slower and introduces more failure points. It makes for more complicate designs. 
+> Entering more code faster doesn't make the code go faster or make it more correct, it makes it slower and introduces more failure points. It makes for more complicate designs.
 >
 > (...)
 >
-> It's perhaps best parallelled by the changes introduced by the digital word processor. We haven't had an explosion of great novels since this happened. What we've seen is an explosion of books with a tweet's amount of new ideas padded into 450 pages with pointless anecdotes and repetition.  A stark contrast to the books written by hand in the past, where every sentence and every word is measured and well considered. 
+> It's perhaps best parallelled by the changes introduced by the digital word processor. We haven't had an explosion of great novels since this happened. What we've seen is an explosion of books with a tweet's amount of new ideas padded into 450 pages with pointless anecdotes and repetition.  A stark contrast to the books written by hand in the past, where every sentence and every word is measured and well considered.
 >
 > (...)
 >
@@ -198,10 +198,10 @@ In all, we spent much more time trying to get the things working than racing, bu
 
 ## 2023-01-29 01:41 +0000
 A friend the other day sent me this video about Roman concrete. I hadn't ever thought about the subject but, in fact, it's remarkable that Roman structures are still standing to this day (being human-made and all).
-=> wiki/v.finally-figured-roman-concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete
+=> wiki/v.finally_figured_roman_concrete.gmi We FINALLY Figured Out The Secret of Roman Concrete
 This specific video suggested that how/why it worked was something we discovered only recently. However...
-=> wiki/v.how-to-make-roman-concrete.gmi How To Make Roman Concrete
-=> wiki/v.htme.how-to-make-roman-concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
+=> wiki/v.how_to_make_roman_concrete.gmi How To Make Roman Concrete
+=> wiki/v.htme.how_to_make_roman_concrete.gmi How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)
 Not so much? I couldn't quite understand what's up with that. But I learned of Roman concrete, interesting!
 
 ## 2023-01-24 11:58 +0000

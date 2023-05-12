@@ -1,0 +1,15 @@
+# Interval Tree Clocks
+siiky
+2023/02/21
+2023/02/21
+2023/05/12
+distributed,programming
+
+=> wp.psa.interval_tree_clocks.gmi
+
+A different method/algorithm to keep track of causality.
+
+=> https://github.com/ricardobcl/Interval-Tree-Clocks
+=> https://ferd.ca/interval-tree-clocks.html
+=> https://blog.separateconcerns.com/2017-05-07-itc.html
+=> https://github.com/catwell/cw-lua/tree/master/itc.lua

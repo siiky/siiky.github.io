@@ -7,7 +7,7 @@ en
 There's this operation on graphs/relations called "transitive reduction" (I didn't learn its name until very recently). It can be used on a graph/relation to compute another (possibly smaller) graph/relation that has no redundant edges (assuming transitivity). And I've been thinking about how to do it for about two years (dam), because I needed it for some POSet things (Scheme § poset). Some weeks ago I was walking home, not thinking about anything in particular, and an algorithm just popped into my brain out of nowhere!
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Transitive_reduction
-=> ../wiki/transitive-reduction.gmi
+=> ../wiki/transitive_reduction.gmi
 => https://git.sr.ht/~siiky/experiments/tree/main/item/transitive-reduction.scm
 => ../wiki/pl.scheme.gmi Scheme (§ poset)
 

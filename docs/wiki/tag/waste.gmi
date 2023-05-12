@@ -1,1 +1,1 @@
-=> ../carfree-cities.gmi 2023-02-28 Carfree Cities
+=> ../carfree_cities.gmi 2023-02-28 Carfree Cities

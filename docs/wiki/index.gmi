@@ -2,7 +2,7 @@
 siiky
 2023/02/02
 2023/02/08
-2023/02/08
+2023/05/12
 
 NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
 
@@ -10,7 +10,7 @@ Nowadays I dump EVERYTHING into Org Roam. While I don't have any major issues wi
 
 And so this idea was born. I'm gonna play with this read-only (to you but not to me :) "wiki"-like thing, see where it goes. Since FOSDEM 2023 is right this weekend, I'll probably start with that as a pilot. Let's see how it goes! As for a plan/ideas, what I'm thinking of doing, take a look at the Plan/Ideas page:
 
-=> wiki-plan.gmi Plan/Ideas
+=> wiki_plan.gmi Plan/Ideas
 
 The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists. There are lists of all pages sorted by a few different criteria; and there are lists of the pages of a certain tag sorted by last update.
 

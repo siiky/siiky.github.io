@@ -1,2 +1,2 @@
-=> ../p.agwa.sign-with-ssh.gmi 2023-05-11 Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
+=> ../p.agwa.sign_with_ssh.gmi 2023-05-11 Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../fosdem2023.security_where_does_that_code_come_from.gmi 2023-02-04 Ludovic Courtès, "Where does that code come from?"

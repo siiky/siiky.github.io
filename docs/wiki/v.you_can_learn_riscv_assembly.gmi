@@ -1,0 +1,20 @@
+# "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"
+siiky
+2023/05/04
+2023/05/04
+2023/05/12
+video,programming
+
+=> https://invidious.snopyta.org/watch?v=GWiAQs4-UQ0
+
+Short video about RISC-V assembly.
+
+Links to the RISC-V specs:
+
+=> https://riscv.org/technical/specifications/
+=> https://github.com/riscv/riscv-isa-manual/releases/download/Ratified-IMAFDQC/riscv-spec-20191213.pdf Volume 1, Unprivileged Specification
+=> https://github.com/riscv/riscv-isa-manual/releases/download/Priv-v1.12/riscv-privileged-20211203.pdf Volume 2, Privileged Specification
+
+How to run RISC-V executables on non-RISC-V computers:
+
+=> https://wiki.debian.org/RISC-V#Installing_qemu_from_the_Debian_archive

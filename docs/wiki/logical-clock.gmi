@@ -1,8 +1,0 @@
-# Logical clock
-siiky
-2023/02/14
-2023/02/14
-2023/02/16
-programming,distributed
-
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Lamport_timestamp

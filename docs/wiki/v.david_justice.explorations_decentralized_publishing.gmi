@@ -1,0 +1,14 @@
+# David Justice, "Explorations into Decentralized Publishing"
+siiky
+2023/05/05
+2023/05/05
+2023/05/12
+video,distributed,ipfs
+
+=> https://invidious.snopyta.org/watch?v=fn5QNvRXMIo
+
+They created a SPA published on IPFS, and coupled it with "smart contracts" to store posts and authors. Meh...
+
+=> ipfs.gmi
+
+At least they realized that the "smart contracts" part is unnecessary.

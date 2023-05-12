@@ -1,0 +1,16 @@
+# Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
+siiky
+2023/02/21
+2023/02/21
+2023/05/12
+talk,distributed,science,ipfs,information
+
+=> https://invidious.snopyta.org/watch?v=ZJBQ83BrhaQ
+
+Short talk about a new way to do research, based on projects being developed by Lateral.
+
+=> https://www.lateral.io/desci
+
+References the paper "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
+
+=> wp.joel_chan.discourse_graphs_for_augmented_knowledge_synthesis.gmi

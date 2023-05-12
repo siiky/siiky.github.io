@@ -1,0 +1,47 @@
+# Logical Programming
+siiky
+2023/02/28
+2023/03/12
+2023/05/12
+programming,logic
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Logic_programming
+
+## In CHICKEN
+
+There are a few logical programming eggs.
+
+=> pl.chicken.gmi
+
+### tiny-prolog
+
+In particular there's tiny-prolog, originally written by Nils M Holm. It's pretty basic but also really tiny.
+
+=> https://wiki.call-cc.org/eggref/5/tiny-prolog
+
+```scm
+#;1> (! (age maria 69))
+(((age maria 69)))
+#;2> (! (age tone 80))
+(((age tone 80)) ((age maria 69)))
+#;3> (! (age ze 69))
+(((age ze 69)) ((age tone 80)) ((age maria 69)))
+#;5> (! (male ze))
+(((male ze)) ((age ze 69)) ((age tone 80)) ((age maria 69)))
+#;5> (! (male tone))
+(((male tone)) ((male ze)) ((age ze 69)) ((age tone 80)) ((age maria 69)))
+#;6> (! (female maria))
+(((female maria)) ((male tone)) ((male ze)) ((age ze 69)) ((age tone 80)) ((age maria 69)))
+#;7> (? (female ?who) (age ?who 80))
+()
+#;8> (? (female ?who) (age ?who 69))
+(((who . maria)))
+#;9> (? (?relation maria))
+(((relation . female)))
+```
+
+### miniKanren
+
+The better known miniKanren is also available!
+
+=> https://wiki.call-cc.org/eggref/5/mini-kanren

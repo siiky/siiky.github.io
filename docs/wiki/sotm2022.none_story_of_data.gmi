@@ -1,0 +1,16 @@
+# Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
+siiky
+2023/02/21
+2023/02/21
+2023/05/12
+talk,osm
+
+=> https://2022.stateofthemap.org/sessions/HZUFPQ/
+=> https://2022.stateofthemap.org/attachments/HZUFPQ_State_of_the_Map_talk___Aug_2022_small_YwTPHhM.pdf
+=> https://media.ccc.de/v/sotm2022-18461-none-a-story-of-data-that-isn-t-there
+
+=> sotm2022.gmi
+
+Discusses some problems of OSM data consumers -- "what does XXX=YYY mean?", "does absence imply some default, or nothing is known?", &c -- and presents an analysis tool they've developed.
+
+Close to the end (during Q&A I think) they gave a good idea: some sort of machine-readable definition of tags. I don't have anything else too concrete, though.

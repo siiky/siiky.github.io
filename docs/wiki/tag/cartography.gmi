@@ -1,2 +1,2 @@
-=> ../p.put_noth_arrow.gmi 2023-02-28 John Nelson, "Put a north arrow on it?"
+=> ../p.put_north_arrow.gmi 2023-02-28 John Nelson, "Put a north arrow on it?"
 => ../p.does_every_map_need_north_arrow.gmi 2023-02-28 Aileen Buckley, "Does every map need a north arrow and scale bar?"

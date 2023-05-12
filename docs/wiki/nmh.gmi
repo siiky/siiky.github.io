@@ -2,7 +2,7 @@
 siiky
 2023/03/12
 2023/03/12
-2023/03/12
+2023/05/12
 scheme
 
 => https://t3x.org/index.html
@@ -16,4 +16,4 @@ Original author of the tiny-prolog interpreter, packaged as a CHICKEN egg.
 
 => https://wiki.call-cc.org/eggref/5/tiny-prolog
 => pl.chicken.gmi
-=> logic-programming.gmi
+=> logic_programming.gmi

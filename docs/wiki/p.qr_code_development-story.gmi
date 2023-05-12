@@ -1,9 +1,0 @@
-# "QR Code development story"
-2023/02/28
-2023/02/28
-2023/02/28
-post,technology,computer-science
-
-=> https://www.denso-wave.com/en/technology/vol1.html
-
-Tells the story of the development of the QR code.

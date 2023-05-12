@@ -1,2 +1,2 @@
-=> ../v.kamp.everything-built-on-out-abandoned-land.gmi 2023-05-11 Project Kamp, "Everything we built on our abandoned land"
+=> ../v.kamp.everything_built_on_out_abandoned_land.gmi 2023-05-11 Project Kamp, "Everything we built on our abandoned land"
 => ../book.albert_camus.plague.gmi 2023-02-16 Albert Camus, "The Plague"

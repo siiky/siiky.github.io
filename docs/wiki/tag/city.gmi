@@ -1,4 +1,4 @@
-=> ../epcot.gmi 2023-02-28 EPCOT
-=> ../public-transport.gmi 2023-02-28 Public transport
+=> ../public_transport.gmi 2023-02-28 Public transport
 => ../p.ive_seen_future_without_cars.gmi 2023-02-28 Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
-=> ../carfree-cities.gmi 2023-02-28 Carfree Cities
+=> ../epcot.gmi 2023-02-28 EPCOT
+=> ../carfree_cities.gmi 2023-02-28 Carfree Cities

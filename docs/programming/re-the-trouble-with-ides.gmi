@@ -34,7 +34,7 @@ With good reason, I'd say!
 
 Start with an editor, a compiler/interpreter, maybe a build tool to automate compiling[^1]. This is strictly what a programmer ever needs to get shit done. Add to that a program for each smaller feature:
 
-* text-based search&replace 
+* text-based search&replace
 * syntax highlighting
 * linting (usually already a standalone program)
 * compile errors/warnings in-editor

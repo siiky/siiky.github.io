@@ -1,8 +1,0 @@
-# Carfree Cities
-siiky
-2023/02/28
-2023/02/28
-2023/02/28
-society,environment,reason,economy,city,waste,carfree
-
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Carfree_city

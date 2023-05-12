@@ -12,7 +12,7 @@ en
 >
 > If you've ever thought, "sucks that everyone uses centralized node infrastructure like Infura..." then you'll understand what Arkeo is solving.
 
-> ShapeShift decided to build this because it ran into this very problem: how can we be a *truly* decentralized app when we're calling blockchain data from centralized node companies? 
+> ShapeShift decided to build this because it ran into this very problem: how can we be a *truly* decentralized app when we're calling blockchain data from centralized node companies?
 >
 > If your node provider can shut off your access, it ain't permissionless. Arkeo is.
 
@@ -22,7 +22,7 @@ en
 >
 > With Arkeo, all such services now have a permissionless alternative.
 
-> The entire project has been DAO organized and funded. 
+> The entire project has been DAO organized and funded.
 >
 > No VCs own it
 > No corporate entities control it

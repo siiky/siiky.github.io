@@ -2,11 +2,11 @@
 siiky
 2023/02/28
 2023/02/28
-2023/02/28
+2023/05/12
 post,technology,computer-science
 
 => https://nitter.net/DanHollick/status/1570040185500626947
 
 Explains very broadly how QR codes work. Links to "QR Code development story".
 
-=> p.qr_code_development-story.gmi "QR Code development story"
+=> p.qr_code_development_story.gmi "QR Code development story"

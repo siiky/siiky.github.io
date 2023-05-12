@@ -1,2 +1,2 @@
-=> ../logic-programming.gmi 2023-03-12 Logical Programming
+=> ../logic_programming.gmi 2023-03-12 Logical Programming
 => ../souffle.gmi 2023-02-28 Soufflé

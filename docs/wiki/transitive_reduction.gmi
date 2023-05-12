@@ -1,0 +1,27 @@
+# Transitive reduction
+siiky
+2023/03/04
+2023/03/04
+2023/05/12
+programming,algorithms
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Transitive_reduction
+
+A transitive reduction algorithm is an algorithm that given a graph computes another (possibly smaller) graph with no redundant edges (assuming transitivity). For example, if we have the following graph:
+
+```
+a -> { b, c }
+b -> { c }
+```
+
+We can reduce it to the following representation by assuming transitivity:
+
+```
+a -> { b }
+b -> { c }
+```
+
+This operation is basically the opposite of what's done in Disjoint sets (Scheme § disjoint-set). With Disjoint sets, for performance reasons, we conflate elements of the same subset as much as possible.
+
+=> pl.scheme.gmi
+=> ../programming/transitive-reduction.gmi

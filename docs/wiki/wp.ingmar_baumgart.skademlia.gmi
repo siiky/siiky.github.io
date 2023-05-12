@@ -1,0 +1,16 @@
+# Ingmar Baumgart, Sebastian Mies, "S/Kademlia: A Practicable Approach Towards Secure Key-Based Routing"
+siiky
+2023/02/28
+2023/02/28
+2023/05/12
+whitepaper,distributed,p2p
+
+=> https://web.archive.org/web/20170809130252id_/http://www.tm.uka.de/doc/SKademlia_2007.pdf
+=> https://git.gnunet.org/bibliography.git/plain/docs/SKademlia2007.pdf
+
+A DHT algorithm, Kademlia variant.
+
+=> dht.gmi
+=> wp.petar_maymounkov.kademlia.gmi
+
+* TODO Re-read it

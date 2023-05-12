@@ -1,9 +1,9 @@
-=> ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
-=> ../v.beau.toxic-masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
-=> ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.john_romer.ancient_lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.tedx.western_feminism_african_women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
+=> ../v.beau.toxic_masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column
-=> ../v.finally-figured-roman-concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"
-=> ../roman-concrete.gmi 2023-02-10 Roman concrete
-=> ../v.how-to-make-roman-concrete.gmi 2023-02-10 "How To Make Roman Concrete"
-=> ../v.htme.how-to-make-roman-concrete.gmi 2023-02-10 "How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)"
+=> ../v.finally_figured_roman_concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"
+=> ../roman_concrete.gmi 2023-02-10 Roman concrete
+=> ../v.how_to_make_roman_concrete.gmi 2023-02-10 "How To Make Roman Concrete"
+=> ../v.htme.how_to_make_roman_concrete.gmi 2023-02-10 "How to Make Roman Concrete (4 Different Materials, 4 Different Strengths)"

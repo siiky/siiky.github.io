@@ -2,7 +2,7 @@
 siiky
 2023/02/28
 2023/02/28
-2023/02/28
+2023/05/12
 distributed,p2p
 
 A file-distribution P2P distributed network, somewhat like BitTorrent, but with some interesting properties.
@@ -14,7 +14,7 @@ The whitepaper mentions Kademlia as a big inspiration, and uses a "custom" algor
 => dht.gmi
 => wp.petar_maymounkov.kademlia.gmi
 => wp.michael_j_freedman.coral.gmi
-=> wp.ingmar_baumgart.s-kademlia.gmi
+=> wp.ingmar_baumgart.skademlia.gmi
 
 ## Object size
 
