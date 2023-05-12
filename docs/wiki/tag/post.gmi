@@ -1,4 +1,5 @@
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
+=> ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi 2023-05-12 Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
 => ../p.agwa.sign_with_ssh.gmi 2023-05-11 Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../p.seirdy.nuanced_views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../p.to_save_c_we_must_save_abi.gmi 2023-05-03 "To Save C, We Must Save ABI"

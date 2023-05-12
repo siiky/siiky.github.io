@@ -1,4 +1,5 @@
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
+=> ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi 2023-05-12 Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
 => ../v.kamp.everything_built_on_out_abandoned_land.gmi 2023-05-11 Project Kamp, "Everything we built on our abandoned land"
 => ../v.computerphile.gpt3_even_bigger_language_model.gmi 2023-05-11 Computerphile, "GPT3: An Even Bigger Language Model"
 => ../v.computerphile.cheatgpt.gmi 2023-05-11 Computerphile, "Ch(e)at GPT?"

@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-12 13:58 +0100
+Found an interesting site and an interesting new OS from a MNT Pocket Reform update!
+=> https://plan9.stanleylieber.com/uxn/
+=> https://genode.org/about/index
+=> https://genodians.org/nfeske/2023-05-11-sculpt-os
+=> https://www.crowdsupply.com/mnt/pocket-reform/updates/on-open-source-hardware-community-building-and-making-pocket-reform-your-own
+
 ## 2023-05-07 10:53 +0100
 Saw a sparrow trying to catch a bumblebee mid-flight, very impressive. At some point the sparrow had to slow down so much it almost looked like it was stalling mid-air (like hummingbirds are known to be able to do), before resuming flight after the bumblebee.
 In the end the bumblebee got away.
