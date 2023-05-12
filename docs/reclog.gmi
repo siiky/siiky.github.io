@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://thrig.me/blog/2023/05/10/misfin.gmi 2023-05-12 Dabbling with Misfin
 => gemini://rawtext.club/~oxymoronist/tinylog.gmi 2023-05-12 2023-05-11 23:30 UTC -- Top 50 fact checkers
 => gemini://clanmorgan.org/gemlog/2023-05-12-the-trouble-with-ides.gmi 2023-05-12 The Trouble With IDEs
 => gemini://textmonger.pollux.casa/gemlog/2023-05-11-02-re-rob-s-two-energy-crises.gmi 2023-05-12 Re: Two Energy Crises
