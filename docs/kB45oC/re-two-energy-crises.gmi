@@ -1,0 +1,30 @@
+# RE: Two Energy Crises
+siiky
+2023/05/12
+2023/05/12
+en
+
+=> gemini://jsreed5.org/log/2023/202305/20230510-two-energy-crises.gmi
+=> gemini://textmonger.pollux.casa/gemlog/2023-05-11-02-re-rob-s-two-energy-crises.gmi
+
+> The second crisis is a crisis of energy stored in our own bodies: the modern pandemic of obesity. Fat is stored metabolic energy, and the richness of food available to use in the West--and particularly in the United States--is such that we ingest far more metabolic energy than our ancestors did.
+
+> I suspect the reliance on machines factor is negligible compared to the too-bad-we-can-no-longer-bring-ourselves-to-say-it gluttony forbid.
+
+Yes and yes! It could maybe be explained by (1) the need to sell more to make more money, or (2) some sort of cross-generational memory of "the harsher times"[^0].
+
+(1) implies each producer/seller must produce a ton to make some money, because producing less than there is demand for would mean profit "loss" -- obviously! Because there's so much stuff available, and because most people still have enough money to survive AND to spend on non-essential things, why spend a little more to get this small luxury/comfort? And after you buy it you won't let it spoil, right? That would be a waste, right? And by the way... if all this stuff that's for sale isn't bought, it'll spoil too! This way of living is a waste-producing machine.
+
+=> ../wiki/books.gmi Books list § Sex at Dawn
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?James_Suzman
+
+(2) it really sucks not to have enough to get by. The most obvious way to try to avoid it is to hoard everything you can while you can. And again, after you have it, you won't let it spoil because (see above). On the other hand, most people in the city have so much at all times they won't ever know what it is to not have enough to get by, so this hoarding feeling isn't justified.
+
+Small experiment: go to your fridge, cupboards, &c, and realistically think how long it would take you (plus whoever lives with you) to consume all that. I happened to do that yesterday here (just chance); my conclusion was about 2 weeks. It's way too much for my circumstances (living in a city with shops, supermarkets, malls, &c close by).
+
+
+Added both posts to the reclog.
+
+=> ../reclog.gmi
+
+[^0]: My grandma would often tell me when I was younger how "in the old days" (~40+ years ago) they sometimes didn't have anything to eat. Often they had only a single small piece of bread to split between 6 or more people.

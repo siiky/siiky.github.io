@@ -13,6 +13,8 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> kB45oC/re-two-energy-crises.gmi 2023-05-12 RE: Two Energy Crises
+=> programming/re-the-trouble-with-ides.gmi 2023-05-12 RE: The Trouble With IDEs
 => words/quotes.gmi 2023-05-10 just quotes
 => programming/abstraction-is-great.gmi 2023-04-22 Abstraction is great
 => kB45oC/re-bitcoin-co2.gmi 2023-04-17 RE: Bitcoin Still 3x Better For Environment Than Cars

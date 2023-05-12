@@ -1,13 +1,18 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/11
+2023/05/12
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://clanmorgan.org/gemlog/2023-05-12-the-trouble-with-ides.gmi 2023-05-12 The Trouble With IDEs
+=> gemini://textmonger.pollux.casa/gemlog/2023-05-11-02-re-rob-s-two-energy-crises.gmi 2023-05-12 Re: Two Energy Crises
+=> gemini://kotobank.ch/~merlin/re_dev_nullification.gmi 2023-05-12 RE: Dev nullification
+=> gemini://textmonger.pollux.casa/gemlog/2023-05-11-01-dev-nullification.gmi 2023-05-12 Dev nullification
 
 => gemini://kotobank.ch/~merlin/llm_censorship.gmi 2023-05-11 LLM and Censorship
 => gemini://clanmorgan.org/gemlog/2023-05-11-bad-investments.gmi 2023-05-11 Bad Investments
