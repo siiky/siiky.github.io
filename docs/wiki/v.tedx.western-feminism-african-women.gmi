@@ -2,8 +2,8 @@
 siiky
 2023/05/10
 2023/05/10
-2023/05/10
-talk,video,society,history
+2023/05/12
+talk,video,society,history,information
 
 => https://invidious.snopyta.org/watch?v=4EbiVAfoGmo
 

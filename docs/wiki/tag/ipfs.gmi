@@ -1,5 +1,5 @@
 => ../v.ipfs.blain_cook-name_name_service.gmi 2023-05-07 Blaine Cook, "The Name Name Service"
 => ../v.david-justice.explorations-decentralized-publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
-=> ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
+=> ../v.rudiger_klaehn.new-approach-ipfs-pinning-caching.gmi 2023-02-21 Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../fosdem2023.network_decentralized_storage.gmi 2023-02-05 Dennis Trautwein, "Decentralized Storage with IPFS"

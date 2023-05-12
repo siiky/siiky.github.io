@@ -2,8 +2,8 @@
 siiky
 2023/02/05
 2023/02/05
-2023/02/07
-talk
+2023/05/12
+talk,privacy,information
 
 => https://fosdem.org/2023/schedule/event/breaking_from_big_tech
 => https://fosdem.org/2023/schedule/event/breaking_from_big_tech/attachments/slides/5783/export/events/attachments/breaking_from_big_tech/slides/5783/PDF_slides

@@ -4,12 +4,12 @@
 => ../v.computerphile.chatgpt-rob-miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"
 => ../v.computerphile.bing-chat-behaving-badly.gmi 2023-05-11 Computerphile, "Bing Chat Behaving Badly"
 => ../v.computerphile.ai-language-models-transformers.gmi 2023-05-11 Computerphile, "AI Language Models & Transformers"
-=> ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
-=> ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
-=> ../v.geoffrey-hinton.ai-existential-thread.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.tedx.western-feminism-african-women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../v.tedx.meeting-the-enemy.gmi 2023-05-10 Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
 => ../v.beau.toxic-masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
+=> ../v.tedx.why-feminism-needs-men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
+=> ../v.john-romer.ancient-lives.gmi 2023-05-10 John Romer, "Ancient Lives"
+=> ../v.geoffrey-hinton.ai-existential-thread.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.sine-labs.vusb-hid-explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../v.sine-labs.usb-protocol-explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
 => ../v.ipfs.blain_cook-name_name_service.gmi 2023-05-07 Blaine Cook, "The Name Name Service"

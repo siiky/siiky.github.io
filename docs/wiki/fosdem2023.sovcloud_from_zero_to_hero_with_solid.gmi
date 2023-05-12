@@ -2,8 +2,8 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/07
-talk,p2p
+2023/05/12
+talk,p2p,privacy
 
 => https://fosdem.org/2023/schedule/event/sovcloud_from_zero_to_hero_with_solid
 => https://solidproject.org

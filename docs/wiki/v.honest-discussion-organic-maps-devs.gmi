@@ -2,8 +2,8 @@
 siiky
 2023/05/03
 2023/05/03
-2023/05/03
-video,osm
+2023/05/12
+video,osm,privacy,information
 
 => https://invidious.snopyta.org/watch?v=q41mcNQX8P0
 

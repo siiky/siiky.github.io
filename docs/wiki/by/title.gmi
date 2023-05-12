@@ -94,6 +94,7 @@
 => ../v.martin_karlsson.visual-graph-tools-for-decentralized-research.gmi Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../fosdem2023.jubako.gmi Matthieu Gautier, "Jubako, a new generic container format"
 => ../v.talks_google.greatest_maths_mistakes.gmi Matt Parker, "Talks at Google: The Greatest Maths Mistakes"
+=> ../p.matt-taibbi.top50-fact-checkers.gmi Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
 => ../fosdem2023.network_hole_punching_in_the_wild.gmi Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"
 => ../fosdem2023.network_p2p_browser_connectivity.gmi Max Leonard Inden, "Peer-to-peer Browser Connectivity"
 => ../wp.michael_j_freedman.coral.gmi Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
