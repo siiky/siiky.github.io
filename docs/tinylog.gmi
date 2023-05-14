@@ -9,7 +9,7 @@ license: CC BY-SA 4.0
 
 ## 2023-05-14 22:09 +0100
 Turkish elections are happening!
-=> https://en.wikipedia.org/wiki/2023_Turkish_general_election
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?2023_Turkish_general_election
 => https://www.aljazeera.com/news/liveblog/2023/5/14/turkey-election-results-live-news-vote-count-under-way
 
 ## 2023-05-14 13:19 +0100
@@ -17,7 +17,7 @@ Turkish elections are happening!
 >
 > The amazing fractal nature of software development makes the construction of bespoke tools both easy and incredibly powerful. It’d an essential part of the process, and for me one of the most stimulating and rewarding parts.
 => https://mastodon.sdf.org/@nf/110364017828315978
-We're carpenters and smiths. We use tools to make tools and other things!
+We're carpenters and smiths. We use tools to make other tools and things!
 
 ## 2023-05-12 13:58 +0100
 Found an interesting site and an interesting new OS from a MNT Pocket Reform update!
