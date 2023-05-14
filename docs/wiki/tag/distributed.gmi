@@ -1,3 +1,4 @@
+=> ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../v.blain_cook.name_name_service.gmi 2023-05-07 Blaine Cook, "The Name Name Service"
 => ../v.david_justice.explorations_decentralized_publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems

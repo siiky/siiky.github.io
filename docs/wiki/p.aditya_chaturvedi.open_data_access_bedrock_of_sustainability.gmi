@@ -1,0 +1,20 @@
+# Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"
+2023/05/14
+2023/05/14
+2023/05/14
+post,osm
+
+=> https://www.geospatialworld.net/prime/open-data-access-bedrock-of-sustainability
+
+Interview of Marc Prioleau, from Meta, about the new "Overture Maps Foundation".
+
+Meh, nothing interesting here.
+
+> What role can the Foundation play in making the world more resilient and sustainable?
+>
+> Building a map is only the start. Maintaining it as the world changes are the bigger part of the job. The first step towards climate change mitigation is building a historical record of that change, which allows us to understand what is happening, where, the underlying causes, and what can be done.
+
+What a bunch of bull****! We've known for a long time what's wrong, we just have to do something about it!
+
+=> ../books/bill_gates.how_to_avoid_a_climate_disaster.gmi
+=> v.tedx.school_strike_for_climate.gmi

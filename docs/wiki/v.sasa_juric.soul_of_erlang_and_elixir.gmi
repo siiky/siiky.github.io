@@ -1,0 +1,13 @@
+# Sasa Juric, "The Soul of Erlang and Elixir"
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+video,programming,distributed
+
+=> https://invidious.snopyta.org/watch?v=JvBT4XBdoUE
+
+Talk about what makes Erlang (and thus Elixir) awesome.
+
+=> pl.erlang.gmi
+=> pl.elixir.gmi

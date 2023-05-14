@@ -1,0 +1,15 @@
+# Agostinho da Silva
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+philosopher
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Agostinho_da_Silva
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Agostinho_da_Silva
+
+Portuguese philosopher.
+
+>  Provavelmente o grande vulto do pensamento filosófico português do século XX, George Agostinho Baptista da Silva (1906-1994) só nos últimos anos da sua vida se tornou a figura consensual e de merecida notoriedade que hoje todos reconhecemos. Para tal muito contribuiu a exposição mediática que a série de entrevistas "Conversas Vadias" lhe granjeou, ao longo dos 13 programas gravados em 1990, e onde a sua visão do Mundo e do Homem, desarmante na sua aparente simplicidade, entrou pela casa dos telespetadores com o à-vontade do grande comunicador que também era. Natural do Porto, onde se formou em Filologia Clássica com 20 valores, Agostinho da Silva exilou-se no Brasil em 1947, na sequência da sua oposição ao regime de Salazar. Só em 1969 regressou a Portugal, já com Marcello Caetano no poder, conciliando a partir daí a sua vida académica de professor com a sua atividade de ensaísta, poeta e filósofo. O seu pensamento revestia-se frequentemente dum elevado pragmatismo, defendendo a Liberdade como a maior qualidade do ser humano. Faleceu aos 88 anos de idade, em Lisboa. 
+
+=> https://arquivos.rtp.pt/colecoes/agostinho-da-silva/

@@ -1,0 +1,16 @@
+# Petri nets
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+programming,formal-methods,computer-science
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Petri_net
+
+A formal and graphical mathematical modeling language.
+
+=> ../petri_nets/logs.gmi
+
+How do Petri nets compare with interaction nets?
+
+=> interaction_nets.gmi

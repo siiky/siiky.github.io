@@ -1,0 +1,10 @@
+# Fabien Sanglard, "The Polygons of Another World"
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+post,programming,computer-science
+
+=> https://fabiensanglard.net/another_world_polygons/
+
+A detailed post about the low-level implementation of the retro game "Another World".

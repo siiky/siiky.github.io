@@ -1,0 +1,16 @@
+# Interaction nets
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+programming,formal-methods,computer-science
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Interaction_nets
+
+A formal model of computation.
+
+=> https://catcatnya.com/@arcade/110170488470969011
+
+How do interaction nets compare with Petri nets?
+
+=> petri_nets.gmi

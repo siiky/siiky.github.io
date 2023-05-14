@@ -1,3 +1,4 @@
-=> ../videos.gmi 2023-05-10 Videos
+=> ../pl.concatenative_programming.gmi 2023-05-14 Concatenative programming
+=> ../videos.gmi 2023-05-14 Videos
 => ../books.gmi 2023-05-10 Books list
 => ../techstuffs.gmi 2023-04-24 Techstuffs

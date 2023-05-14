@@ -1,0 +1,13 @@
+# Concatenative programming
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+programming,list
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Concatenative_programming_language
+
+A programming paradigm.
+
+=> https://evincarofautumn.blogspot.com/2012/02/why-concatenative-programming-matters.html
+=> https://merveilles.town/@neauoire/110356813794431018

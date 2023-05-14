@@ -1,7 +1,10 @@
 => ../v.sinelabs.usb_protocol_explained.gmi "Add USB To Your Electronics Projects! - The USB Protocol Explained"
+=> ../p.aditya_chaturvedi.open_data_access_bedrock_of_sustainability.gmi Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"
+=> ../person.agostinho_da_silva.gmi Agostinho da Silva
 => ../p.does_every_map_need_north_arrow.gmi Aileen Buckley, "Does every map need a north arrow and scale bar?"
 => ../book.albert_camus.plague.gmi Albert Camus, "The Plague"
 => ../albert_camus.gmi Albert Camus
+=> ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
 => ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
 => ../p.agwa.sign_with_ssh.gmi Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
@@ -17,6 +20,7 @@
 => ../v.blain_cook.name_name_service.gmi Blaine Cook, "The Name Name Service"
 => ../books.gmi Books list
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
+=> ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi Boundo, "Fascism in Black Metal and How to Spot It"
 => ../p.fastest_lua_interpreter.gmi "Building the fastest Lua interpreter.. automatically!"
 => ../carfree_cities.gmi Carfree Cities
 => ../carfree_movement.gmi Carfree Movement
@@ -30,6 +34,7 @@
 => ../v.computerphile.chatgpt_rob_miles.gmi Computerphile, "ChatGPT with Rob Miles"
 => ../v.computerphile.cheatgpt.gmi Computerphile, "Ch(e)at GPT?"
 => ../v.computerphile.gpt3_even_bigger_language_model.gmi Computerphile, "GPT3: An Even Bigger Language Model"
+=> ../pl.concatenative_programming.gmi Concatenative programming
 => ../pl.c.gmi C (programming language)
 => ../v.david_justice.explorations_decentralized_publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
@@ -47,7 +52,9 @@
 => ../epcot.gmi EPCOT
 => ../pl.erlang.gmi Erlang (programming language)
 => ../p.ever_wondered_how_qr_code_works.gmi "Ever wondered how a QR code works?"
+=> ../v.explaining_meshuggah_using_konnakol.gmi "Explaining Meshuggah using KONNAKOL (Stengah)"
 => ../c.exurb1a.gmi exurb1a
+=> ../p.fabien_sanglard.polygon_of_another_world.gmi Fabien Sanglard, "The Polygons of Another World"
 => ../p.ive_seen_future_without_cars.gmi Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
 => ../class.ft.gmi Fault Tolerance
 => ../pl.forth.gmi Forth (programming language)
@@ -60,6 +67,7 @@
 => ../pl.go.gmi Go (programming language)
 => ../p.greece-this_was_no_accident.gmi "Greece: This was no accident"
 => ../p.guardian.greece_train_crash.gmi "Greece train crash: at least 40 killed and dozens injured in collision"
+=> ../v.tedx.school_strike_for_climate.gmi Greta Thunberg, "School strike for climate - save the world by changing the rules"
 => ../hanya_yanagihara.gmi Hanya Yanagihara
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
 => ../fosdem2023.luarocks.gmi Hisham Muhammad, "LuaRocks and the challenges of minimalism"
@@ -68,6 +76,7 @@
 => ../v.how_to_make_roman_concrete.gmi "How To Make Roman Concrete"
 => ../sotm2019.broken_promises_technical_difficulties.gmi Ilya Zverev, "Broken Promises and Technical Difficulties"
 => ../wp.ingmar_baumgart.skademlia.gmi Ingmar Baumgart, Sebastian Mies, "S/Kademlia: A Practicable Approach Towards Secure Key-Based Routing"
+=> ../interaction_nets.gmi Interaction nets
 => ../interval_tree_clocks.gmi Interval Tree Clocks
 => ../wp.ion_stoica.chord.gmi Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
 => ../ipfs.gmi IPFS
@@ -75,12 +84,15 @@
 => ../book.jerome_klapka_jerome.seconds_thoughts_idle_fellow.gmi Jerome Klapka Jerome, "The Second Thoughts of an Idle Fellow"
 => ../jerome_klapka_jerome.gmi Jerome Klapka Jerome
 => ../v.jochen_topf.modding_osm_data_model.gmi Jochen Topf, "Modding the OSM Data Model"
+=> ../v.joefikifiki.songs_that_disturbed_me-frankie_teardrop.gmi Joe Fikifiki, "Songs that Have Disturbed Me: Frankie Teardrop"
+=> ../v.joefikifiki.when_your_heroes_are_villains.gmi Joe Fikifiki, "When your Heroes are Villains..."
 => ../wp.joel_chan.discourse_graphs_for_augmented_knowledge_synthesis.gmi Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../v.git_parable.gmi Johan Herland, "The Git Parable"
 => ../p.put_north_arrow.gmi John Nelson, "Put a north arrow on it?"
 => ../v.john_romer.ancient_lives.gmi John Romer, "Ancient Lives"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
+=> ../v.v_shivapriya_br_somashekar_jois-konnakol_duet.gmi "Konnakol Duet: V Shivapriya & BR Somashekar Jois"
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../class.lsds.gmi Large Scale Distributed Systems
 => ../wp.leslie_lamport.time_clocks_events.gmi Leslie Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System"
@@ -109,6 +121,7 @@
 => ../notrelated.gmi "Not Related!"
 => ../wp.psa.interval_tree_clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
+=> ../petri_nets.gmi Petri nets
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../police.gmi Police
 => ../v.kamp.everything_built_on_out_abandoned_land.gmi Project Kamp, "Everything we built on our abandoned land"
@@ -122,6 +135,7 @@
 => ../roman_concrete.gmi Roman concrete
 => ../v.rudiger_klaehn.new_approach_ipfs_pinning_caching.gmi Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../wp.ryan_hediger.animal_suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
+=> ../v.sasa_juric.soul_of_erlang_and_elixir.gmi Sasa Juric, "The Soul of Erlang and Elixir"
 => ../sbc_server.gmi SBC server
 => ../pl.scheme.gmi Scheme (programming language)
 => ../p.seirdy.nuanced_views.gmi Seirdy, "Nuanced views"
@@ -141,6 +155,8 @@
 => ../p.to_save_c_we_must_save_abi.gmi "To Save C, We Must Save ABI"
 => ../trainspotter.gmi Trainspotter
 => ../transitive_reduction.gmi Transitive reduction
+=> ../v.stylelikeu.unveiling_masculinity.gmi "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
+=> ../cinema.ballet_rose.gmi "Vidas Proibidas - Ballet Rose"
 => ../videos.gmi Videos
 => ../v.visiting_worlds_most_dangerous_country.gmi "Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )"
 => ../v.sinelabs.vusb_hid_explained.gmi "V-USB on an ATmega328! - V-USB and HID Explained"

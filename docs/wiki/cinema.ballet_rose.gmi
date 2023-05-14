@@ -1,0 +1,31 @@
+# "Vidas Proibidas - Ballet Rose"
+siiky
+2023/05/14
+2023/05/14
+2023/05/14
+series,politics,ethics,society
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ballet_Rose
+=> https://www.imdb.com/title/tt0118265
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-01/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-02/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-03/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-04/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-05/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-06/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-07/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-08/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-09/
+=> https://arquivos.rtp.pt/conteudos/vidas-proibidas-ballet-rose-ep-10/
+
+A Portuguese mini-series about a scandal around 1967, during Salazar's dictatorship (Estado Novo, or "New State").
+
+The scandal (codenamed "Ballet Rose") was due to highly-ranked individuals (mostly politicians?) getting involved with child prostitution and orgies. I had never heard of this until now, which I guess makes sense, because we learn about the dictatorship (that went between 1933 and 1974) during 7th~8th grade.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Estado_Novo_(Portugal)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ant%C3%B3nio_de_Oliveira_Salazar
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Estado_Novo_(Portugal)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ant%C3%B3nio_de_Oliveira_Salazar
+
+The series was aired by RTP (Rádio e Televisão de Portugal, or "Radio and Television of Portugal") in 1997.

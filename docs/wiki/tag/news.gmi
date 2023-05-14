@@ -1,1 +1,2 @@
+=> ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi 2023-05-14 Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
 => ../p.guardian.greece_train_crash.gmi 2023-04-24 "Greece train crash: at least 40 killed and dozens injured in collision"

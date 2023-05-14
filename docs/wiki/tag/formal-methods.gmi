@@ -1,0 +1,2 @@
+=> ../petri_nets.gmi 2023-05-14 Petri nets
+=> ../interaction_nets.gmi 2023-05-14 Interaction nets

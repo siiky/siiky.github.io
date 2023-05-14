@@ -1,1 +1,2 @@
+=> ../person.agostinho_da_silva.gmi 2023-05-14 Agostinho da Silva
 => ../albert_camus.gmi 2023-02-16 Albert Camus
