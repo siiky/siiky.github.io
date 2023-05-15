@@ -1,6 +1,6 @@
+=> ../videos.gmi 2023-05-15 Videos
 => ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../books.gmi 2023-05-15 Books list
-=> ../videos.gmi 2023-05-14 Videos
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../petri_nets.gmi 2023-05-14 Petri nets
