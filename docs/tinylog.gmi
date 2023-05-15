@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-15 01:30 +0100
+Luckily, yt-dlp can download the episodes:
+=> kB45oC/unfree-public-service.gmi
+=> https://github.com/yt-dlp/yt-dlp
+
 ## 2023-05-14 22:09 +0100
 Turkish elections are happening!
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?2023_Turkish_general_election
