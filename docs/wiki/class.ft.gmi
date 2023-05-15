@@ -11,7 +11,30 @@ A program/system is linearizable if the results it produces could have been prod
 
 Serializability is a similar concept but applied to transactions (i.e. ordered sets of operations), taking each transaction as a single atomic operation.
 
-## Distributed Consensus
+## Data replication
+
+### ROWA (Read One Write All)
+
+A client wishing to read can read from a single replica. When wishing to write, it has to write to all replicas.
+
+This is not fault-tolerant: a single replica goes down and clients can no longer write.
+
+### Quorums
+
+Subgroups of the all replicas are used to read and write.
+
+The simplest approach is read/write to/from a majority of replicas. Depending on problem requirements, however, it may be more beneficial to unbalance the two subsets: in a read-heavy system, clients may read from fewer replicas, as long as they write to more replicas (there's a rule).
+
+For this to work, the number of elements of the read/write quorums must meet a couple of requirements (N is number of replicas, Qr/Qw is the read/write quorum):
+
+* #Qr + #Qw > N -- read/write quorums always intersect
+* 2 * #Qw > N -- any two write quorums always intersect
+
+But... there's no definite order in which writes are applied: two given writes X=A and X=B may be applied in different orders in different replicas, so a client may read different values from different read quorums.
+
+Or... because of network delays, even if operations are delivered and applied in different replicas in the same order, they may be delivered and applied in different times, so a client may read different values from different read quorums.
+
+## Distributed consensus
 
 Algorithms of distributed consensus:
 
@@ -26,3 +49,5 @@ Algorithms of distributed consensus:
 
 => https://ieeexplore.ieee.org/document/1335465 Basic Concepts and Taxonomy of Dependable and Secure Computing
 => https://www.cs.cornell.edu/fbs/publications/MullenderChptr2.pdf What good are models and what models are good?
+=> https://www.cs.cornell.edu/courses/cs614/2003sp/papers/Gif79.pdf Weighed voting for replicated data
+=> https://mwhittaker.github.io/publicaations/quoracle.pdf Read-Write Quorum Systems Made Practical
