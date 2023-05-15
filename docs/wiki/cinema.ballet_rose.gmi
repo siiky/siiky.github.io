@@ -34,6 +34,6 @@ The series was first aired by RTP (Rádio e Televisão de Portugal, or "Radio an
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
 
-It's possible to download each episode from RTP Arquivos, but they cost 25€ each.
+The episodes can be downloaded from RTP Arquivos, but they cost 25€ each.
 
 => ../kB45oC/unfree-public-service.gmi

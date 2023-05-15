@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-15 03:05 +0100
+> But it has VimEmulation! Well, so does every editor released in the past 20 years, either as part of it's initial offering or as some sort of addon (and yes, I am purposely ignoring the entire Emacs ecosystem. I know it's a great OS. It just needs a good editor). But they all suck. There's a huge difference between mimicking some keybindings and actually being a MODAL editor. It's really not just 'hjkl' that I miss. It's an entire way of working. Everything is either a keybinding or a command or both. Usually both. No menus in sight. No side panes. No bottom panes. Just a window, some (optional) line numbering and a status bar at the bottom.
+Someone finally said it, thank you!
+=> gemini://gemini.hitchhiker-linux.org/gemlog/how_could_i_not_chime_in_on_a_discussion_about_ide's%3F.gmi
+
 ## 2023-05-15 01:30 +0100
 Luckily, yt-dlp can download the episodes:
 => kB45oC/unfree-public-service.gmi

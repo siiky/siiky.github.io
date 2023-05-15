@@ -1,13 +1,18 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/12
+2023/05/15
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gem.twunk.uk/log/2023-05-14-do-you-still-feel-the-magic.gmi 2023-05-15 Do you still feel the magic?
+=> gemini://gemini.hitchhiker-linux.org/gemlog/how_could_i_not_chime_in_on_a_discussion_about_ide's%3F.gmi 2023-05-15 How could I not chime in on a discussion about IDE's?
+=> gemini://thrig.me/blog/2023/05/12/trouble-with-ides.gmi 2023-05-15 Re: The Trouble With IDEs
+=> gemini://sotiris.papatheodorou.xyz/gemlog/20230514_meditation_on_ed.gmi 2023-05-15 Meditation on ed
 
 => gemini://textmonger.pollux.casa/gemlog/2023-05-12-01-riding-the-ide-threads-wave.gmi 2023-05-12 Riding the IDE threads wave
 => gemini://thrig.me/blog/2023/05/10/misfin.gmi 2023-05-12 Dabbling with Misfin
