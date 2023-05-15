@@ -1,11 +1,17 @@
 # C (programming language)
 siiky
 2023/02/09
-2023/03/14
-2023/03/14
+2023/05/15
+2023/05/15
 programming
 
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?C_(programming_language)
+
 No introductions needed.
+
+## Projects
+
+=> https://github.com/mjansson/rpmalloc
 
 ## My projects
 

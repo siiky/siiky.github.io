@@ -1,6 +1,7 @@
 2023-05-15	2023-05-15	2023-05-14	"Vidas Proibidas - Ballet Rose"	wiki/cinema.ballet_rose.gmi	series,politics,ethics,society
 2023-05-15	2023-05-15	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
 2023-05-15	2023-05-15	2023-02-21	Videos	wiki/videos.gmi	list
+2023-05-15	2023-05-15	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
 2023-05-15	2023-05-15	2020-12-21	Books list	wiki/books.gmi	list
 2023-05-14	post,osm	2023-05-14	Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"	wiki/p.aditya_chaturvedi.open_data_access_bedrock_of_sustainability.gmi	
 2023-05-14	2023-05-14	2023-05-14	"Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"	wiki/v.stylelikeu.unveiling_masculinity.gmi	video,society
@@ -60,7 +61,6 @@
 2023-03-21	2023-05-08	2023-02-28	Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"	wiki/book.mark_graham.geographies_digial_exclusion.gmi	book,ethics,society,osm,technology
 2023-03-21	2023-03-21	2023-02-21	Distributed Systems Paradigms	wiki/class.dsp.gmi	course,distributed,programming
 2023-03-14	2023-03-14	2023-03-14	Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"	wiki/book.richard_p_brent.mca.gmi	algorithms,mathematics
-2023-03-14	2023-03-14	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
 2023-03-13	2023-03-13	2023-03-13	Leslie Lamport	wiki/leslie_lamport.gmi	
 2023-03-13	2023-03-13	2023-03-13	Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"	wiki/wp.diego_ongaro.raft.gmi	whitepaper,p2p,distributed,algorithms
 2023-03-13	2023-03-13	2021-10-23	Raft	wiki/raft.gmi	p2p,distributed,algorithms

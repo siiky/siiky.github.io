@@ -9,6 +9,9 @@ siiky
 
 I update this page manually.
 
+=> gemini://tilde.town/~dzwdz/b/feeds.gmi 2023-05-15 feeds are a dark pattern
+=> gemini://clanmorgan.org/gemlog/i-want-to-say-thank-you.gmi 2023-05-15 I Want To Say "Thank You"
+=> gemini://thrig.me/blog/2023/05/15/ex-over-ed.gmi 2023-05-15 Ex Over Ed
 => gemini://gem.twunk.uk/log/2023-05-14-do-you-still-feel-the-magic.gmi 2023-05-15 Do you still feel the magic?
 => gemini://gemini.hitchhiker-linux.org/gemlog/how_could_i_not_chime_in_on_a_discussion_about_ide's%3F.gmi 2023-05-15 How could I not chime in on a discussion about IDE's?
 => gemini://thrig.me/blog/2023/05/12/trouble-with-ides.gmi 2023-05-15 Re: The Trouble With IDEs

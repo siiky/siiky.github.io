@@ -1,4 +1,5 @@
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
+=> ../pl.c.gmi 2023-05-15 C (programming language)
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../petri_nets.gmi 2023-05-14 Petri nets
 => ../interaction_nets.gmi 2023-05-14 Interaction nets
@@ -17,7 +18,6 @@
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
-=> ../pl.c.gmi 2023-03-14 C (programming language)
 => ../logic_programming.gmi 2023-03-12 Logical Programming
 => ../transitive_reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval_tree_clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"

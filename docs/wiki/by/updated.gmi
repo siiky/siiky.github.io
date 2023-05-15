@@ -1,6 +1,7 @@
 => ../videos.gmi 2023-05-15 Videos
 => ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
+=> ../pl.c.gmi 2023-05-15 C (programming language)
 => ../books.gmi 2023-05-15 Books list
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
@@ -60,7 +61,6 @@
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../book.richard_p_brent.mca.gmi 2023-03-14 Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"
-=> ../pl.c.gmi 2023-03-14 C (programming language)
 => ../raft.gmi 2023-03-13 Raft
 => ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
