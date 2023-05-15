@@ -1,0 +1,38 @@
+# (Un)free public service
+siiky
+2023/05/15
+2023/05/15
+en
+
+I was here reading this:
+
+> Para solicitar cópia de um determinado conteúdo basta registar-se como utilizador e pressionar o botão LICENCIAR CONTEÚDO disponível na pagina de cada conteúdo, ou, caso o conteúdo que pretenda não esteja ainda disponível neste portal, aceder à área de Serviços e preencher e enviar o formulário de pedido de licenciamento.
+
+=> https://arquivos.rtp.pt/sobre-o-arquivo
+
+In English (pretty direct translation):
+
+> To request a copy of some content just register as a user and press the "LICENSE CONTENT" that's available on the page of each content, or, if the content you're looking for is not yet available in this portal, access the services area and fill and send a licensing request form.
+
+"Awesome!" I thought, "maybe I can download things to watch offline!" I had no account previously, so there I go create an account, add all my personal details[^0], and it even accepted my 30+ characters long randomly generated password[^1]!
+
+I opened the EP01 page of "Vidas Proibidas - Ballet Rose" and hit the "LICENCIAR CONTEÚDO" button.
+
+=> ../wiki/cinema.ballet_rose.gmi
+
+There's a dropdown menu to specify usage (domestic/private, or education/research/cultural), three other dropdown menus with a single option each, and a radio button labeled "Ficheiro para download" ("File for download"). It's looking good, promising!
+
+And then... "Valor do licenciamento" ("Value of licensing"): 25€! Excluding tax! For domestic/private use, prices are determined only by length: 8€, 15€, and 25€, for <5min, <45min, and >45min, respectively.
+
+=> https://arquivos.rtp.pt/servicos
+=> https://arquivos.rtp.pt/tabela-de-precos
+
+RTP is supposed to be a public service, so, in theory, the taxes I pay serve, at least in part, to fund it. But if I want to download material (to watch, nothing else) from this official "public service archive" I still have to pay... Go figure.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
+
+
+[^0]: ID number, VAT number, and address -- weird, but ok...
+
+[^1]: Unlike some government(!) sites that have a 13-character maximum lenght, and accept barely no symbol characters -- I'm looking at you Social Security!

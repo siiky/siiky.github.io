@@ -1,8 +1,8 @@
 # "Vidas Proibidas - Ballet Rose"
 siiky
 2023/05/14
-2023/05/14
-2023/05/14
+2023/05/15
+2023/05/15
 series,politics,ethics,society
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ballet_Rose
@@ -22,10 +22,18 @@ A Portuguese mini-series about a scandal around 1967, during Salazar's dictators
 
 The scandal (codenamed "Ballet Rose") was due to highly-ranked individuals (mostly politicians?) getting involved with child prostitution and orgies. I had never heard of this until now, which I guess makes sense, because we learn about the dictatorship (that went between 1933 and 1974) during 7th~8th grade.
 
+=> ../words/re-bueno_rezar.gmi
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Estado_Novo_(Portugal)
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ant%C3%B3nio_de_Oliveira_Salazar
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Estado_Novo_(Portugal)
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ant%C3%B3nio_de_Oliveira_Salazar
 
-The series was aired by RTP (Rádio e Televisão de Portugal, or "Radio and Television of Portugal") in 1997.
+The series was first aired by RTP (Rádio e Televisão de Portugal, or "Radio and Television of Portugal") in 1997.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?R%C3%A1dio_e_Televis%C3%A3o_de_Portugal
+
+It's possible to download each episode from RTP Arquivos, but they cost 25€ each.
+
+=> ../kB45oC/unfree-public-service.gmi
