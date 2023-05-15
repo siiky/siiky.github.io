@@ -1,5 +1,6 @@
 => ../videos.gmi 2023-05-15 Videos
 => ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
+=> ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../books.gmi 2023-05-15 Books list
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
@@ -62,7 +63,6 @@
 => ../pl.c.gmi 2023-03-14 C (programming language)
 => ../raft.gmi 2023-03-13 Raft
 => ../leslie_lamport.gmi 2023-03-13 Leslie Lamport
-=> ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../nmh.gmi 2023-03-12 Nils M Holm
 => ../logic_programming.gmi 2023-03-12 Logical Programming

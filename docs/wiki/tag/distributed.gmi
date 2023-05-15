@@ -1,9 +1,9 @@
+=> ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../v.blain_cook.name_name_service.gmi 2023-05-07 Blaine Cook, "The Name Name Service"
 => ../v.david_justice.explorations_decentralized_publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
-=> ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../raft.gmi 2023-03-13 Raft
 => ../wp.friedemann_mattern.virtual_time_global_states.gmi 2023-03-12 Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"

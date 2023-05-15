@@ -1,3 +1,4 @@
+=> ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../petri_nets.gmi 2023-05-14 Petri nets
 => ../interaction_nets.gmi 2023-05-14 Interaction nets
@@ -17,7 +18,6 @@
 => ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../pl.c.gmi 2023-03-14 C (programming language)
-=> ../class.ft.gmi 2023-03-13 Fault Tolerance
 => ../logic_programming.gmi 2023-03-12 Logical Programming
 => ../transitive_reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval_tree_clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
