@@ -1,5 +1,6 @@
 2023-05-16	2023-05-16	2023-05-16	Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"	wiki/p.fredhebert.tail_recursion_not_silver_bullet.gmi	post,programming
 2023-05-16	2023-05-16	2023-05-16	Cooperative pulling	wiki/cooperative_pulling.gmi	science,nature,society
+2023-05-16	2023-05-16	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
 2023-05-15	2023-05-15	2023-05-14	"Vidas Proibidas - Ballet Rose"	wiki/cinema.ballet_rose.gmi	series,politics,ethics,society
 2023-05-15	2023-05-15	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
 2023-05-15	2023-05-15	2023-02-21	Videos	wiki/videos.gmi	list
@@ -59,7 +60,6 @@
 2023-04-23	2023-05-12	2023-04-23	"Dia da Terra: O Planeta está a ficar diferente"	wiki/p.visaojunior.dia_da_terra-planeta_diferente.gmi	nature,post
 2023-04-23	2023-05-12	2023-04-23	"Como é que os animais se lavam?"	wiki/p.visaojunior.como_os_animais_se_lavam.gmi	nature,post
 2023-04-23	2023-05-12	2023-04-23	"Animal Sex Determination Is Weirder Than You Think"	wiki/p.animal_sex_determination.gmi	nature,post
-2023-03-28	2023-05-12	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
 2023-03-21	2023-05-08	2023-02-28	Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"	wiki/book.mark_graham.geographies_digial_exclusion.gmi	book,ethics,society,osm,technology
 2023-03-21	2023-03-21	2023-02-21	Distributed Systems Paradigms	wiki/class.dsp.gmi	course,distributed,programming
 2023-03-14	2023-03-14	2023-03-14	Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"	wiki/book.richard_p_brent.mca.gmi	algorithms,mathematics
@@ -88,13 +88,13 @@
 2023-02-28	2023-05-12	2023-02-28	Carfree Cities	wiki/carfree_cities.gmi	society,environment,reason,economy,city,waste,carfree
 2023-02-28	2023-05-08	2023-02-28	"Don't Hex the Water"	wiki/v.exurb1a.dont_hex_the_water.gmi	video,privacy,philosophy,society
 2023-02-28	2023-04-24	2023-02-28	Matt Parker, "Talks at Google: The Greatest Maths Mistakes"	wiki/v.talks_google.greatest_maths_mistakes.gmi	video,mathematics
+2023-02-28	2023-03-16	2023-02-28	Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"	wiki/wp.ion_stoica.chord.gmi	whitepaper,distributed,p2p,algorithms
 2023-02-28	2023-02-28	2023-02-28	Tom Preston-Werner, "The Git Parable"	wiki/p.git_parable.gmi	post,git
 2023-02-28	2023-02-28	2023-02-28	"Speculation in JavaScriptCore"	wiki/p.speculation_in_javascriptcore.gmi	post,language,computer-science
 2023-02-28	2023-02-28	2023-02-28	Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"	wiki/wp.petar_maymounkov.kademlia.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"	wiki/wp.michael_j_freedman.coral.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Johan Herland, "The Git Parable"	wiki/v.git_parable.gmi	video,git
 2023-02-28	2023-02-28	2023-02-28	Jochen Topf, "Modding the OSM Data Model"	wiki/v.jochen_topf.modding_osm_data_model.gmi	video,osm,database,permaculture
-2023-02-28	2023-02-28	2023-02-28	Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"	wiki/wp.ion_stoica.chord.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Ilya Zverev, "Broken Promises and Technical Difficulties"	wiki/sotm2019.broken_promises_technical_difficulties.gmi	talk,osm
 2023-02-28	2023-02-28	2023-02-28	Hanya Yanagihara	wiki/hanya_yanagihara.gmi	author
 2023-02-28	2023-02-28	2023-02-28	exurb1a	wiki/c.exurb1a.gmi	channel,philosophy

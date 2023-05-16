@@ -1,3 +1,4 @@
+=> ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
 => ../videos.gmi 2023-05-15 Videos
@@ -59,7 +60,6 @@
 => ../p.visaojunior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
 => ../p.visaojunior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
 => ../p.animal_sex_determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
-=> ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../book.richard_p_brent.mca.gmi 2023-03-14 Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"

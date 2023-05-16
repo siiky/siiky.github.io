@@ -1,8 +1,8 @@
 # Large Scale Distributed Systems
 siiky
 2023/02/21
-2023/03/28
-2023/05/12
+2023/05/16
+2023/05/16
 course,distributed,programming
 
 This page is about one of the classes I have this semester.
@@ -24,4 +24,6 @@ Roughly in the order of appearance.
 => wp.psa.interval_tree_clocks.gmi
 => wp.ion_stoica.chord.gmi
 => wp.petar_maymounkov.kademlia.gmi
-=> https://arxiv.org/abs/1502.06461 Pamela Zave, "How to Make Chrod Correct"
+=> https://arxiv.org/abs/1502.06461 Pamela Zave, "How to Make Chord Correct"
+=> https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf Don't Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS
+=> https://dx.doi.org/10.1109/ICDCS.2016.98 Cure: Strong Semantics Meets High Availability and Low Latency

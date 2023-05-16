@@ -1,4 +1,5 @@
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
+=> ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../pl.c.gmi 2023-05-15 C (programming language)
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
@@ -17,7 +18,6 @@
 => ../p.to_save_c_we_must_save_abi.gmi 2023-05-03 "To Save C, We Must Save ABI"
 => ../p.c_isnt_a_programming_language_anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
-=> ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../logic_programming.gmi 2023-03-12 Logical Programming
 => ../transitive_reduction.gmi 2023-03-04 Transitive reduction

@@ -2,3 +2,4 @@
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../raft.gmi 2023-03-13 Raft
 => ../transitive_reduction.gmi 2023-03-04 Transitive reduction
+=> ../wp.ion_stoica.chord.gmi 2023-02-28 Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"

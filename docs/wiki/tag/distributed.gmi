@@ -1,8 +1,8 @@
+=> ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../v.blain_cook.name_name_service.gmi 2023-05-07 Blaine Cook, "The Name Name Service"
 => ../v.david_justice.explorations_decentralized_publishing.gmi 2023-05-05 David Justice, "Explorations into Decentralized Publishing"
-=> ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
 => ../wp.diego_ongaro.raft.gmi 2023-03-13 Diego Ongaro, John Ousterhout, "In Search of an Understandable Consensus Algorithm"
 => ../raft.gmi 2023-03-13 Raft
@@ -10,9 +10,9 @@
 => ../wp.psa.interval_tree_clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../ipfs.gmi 2023-02-28 IPFS
 => ../wp.ingmar_baumgart.skademlia.gmi 2023-02-28 Ingmar Baumgart, Sebastian Mies, "S/Kademlia: A Practicable Approach Towards Secure Key-Based Routing"
+=> ../wp.ion_stoica.chord.gmi 2023-02-28 Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
 => ../wp.petar_maymounkov.kademlia.gmi 2023-02-28 Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../wp.michael_j_freedman.coral.gmi 2023-02-28 Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
-=> ../wp.ion_stoica.chord.gmi 2023-02-28 Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
 => ../dht.gmi 2023-02-28 Distributed Hash Table
 => ../v.martin_karlsson.visual_graph_tools_for_decentralized_research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../wp.joel_chan.discourse_graphs_for_augmented_knowledge_synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"

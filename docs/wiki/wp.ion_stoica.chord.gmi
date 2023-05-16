@@ -2,8 +2,8 @@
 siiky
 2023/02/28
 2023/02/28
-2023/02/28
-whitepaper,distributed,p2p
+2023/03/16
+whitepaper,distributed,p2p,algorithms
 
 => http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Chord_(peer-to-peer)
@@ -11,5 +11,3 @@ whitepaper,distributed,p2p
 A DHT algorithm.
 
 => dht.gmi
-
-* TODO Re-read it

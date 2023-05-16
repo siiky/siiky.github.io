@@ -1,4 +1,4 @@
+=> ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../v.freecodecamp.assembly_language_programming_arm.gmi 2023-05-04 "Assembly Language Programming with ARM – Full Tutorial for Beginners"
-=> ../class.lsds.gmi 2023-03-28 Large Scale Distributed Systems
 => ../class.dsp.gmi 2023-03-21 Distributed Systems Paradigms
