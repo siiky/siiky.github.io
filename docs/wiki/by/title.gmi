@@ -35,6 +35,7 @@
 => ../v.computerphile.cheatgpt.gmi Computerphile, "Ch(e)at GPT?"
 => ../v.computerphile.gpt3_even_bigger_language_model.gmi Computerphile, "GPT3: An Even Bigger Language Model"
 => ../pl.concatenative_programming.gmi Concatenative programming
+=> ../cooperative_pulling.gmi Cooperative pulling
 => ../pl.c.gmi C (programming language)
 => ../v.david_justice.explorations_decentralized_publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"

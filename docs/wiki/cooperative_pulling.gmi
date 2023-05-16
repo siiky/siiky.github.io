@@ -1,0 +1,16 @@
+# Cooperative pulling
+siiky
+2023/05/16
+2023/05/16
+2023/05/16
+science,nature,society
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Cooperative_pulling_paradigm
+
+> Captive spotted hyenas (Crocuta crocuta), social carnivores that hunt in groups, have cooperated to obtain food rewards by pulling ropes in an experimental setting.
+> (...)
+> Social factors such as group size and hierarchy played a role. For instance, groups with a dominant member were far less successful than groups without, and lower-ranking animals were faster and consistently successful.
+
+=> http://www.jennifervonk.com/uploads/7/7/3/2/7732985/drea__carter_2009.pdf C. Drea, A. N. Carter, "Cooperative problem solving in a social carnivore"
+=> https://doi.org/10.1016%2Fj.anbehav.2009.06.030
+=> https://api.semanticscholar.org/CorpusID:4982099

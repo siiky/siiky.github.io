@@ -1,4 +1,5 @@
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
+=> ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
 => ../videos.gmi 2023-05-15 Videos
 => ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
