@@ -60,6 +60,7 @@
 => ../pl.forth.gmi Forth (programming language)
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
+=> ../p.fredhebert.tail_recursion_not_silver_bullet.gmi Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../wp.friedemann_mattern.virtual_time_global_states.gmi Friedemann Mattern, "Virtual Time and Global States of Distributed Systems"
 => ../sotm2022.none_story_of_data.gmi Gala Camacho, Simona Ciocoiu, "None: a story of data that isn't there"
 => ../v.geoffrey_hinton.ai_existential_threat.gmi Geoffrey Hinton on the AI existential threat

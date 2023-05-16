@@ -1,0 +1,8 @@
+# Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
+siiky
+2023/05/16
+2023/05/16
+2023/05/16
+post,programming
+
+=> https://ferd.ca/erlang-s-tail-recursion-is-not-a-silver-bullet.html

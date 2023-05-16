@@ -1,3 +1,4 @@
+=> ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../p.fabien_sanglard.polygon_of_another_world.gmi 2023-05-14 Fabien Sanglard, "The Polygons of Another World"
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
 => ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi 2023-05-12 Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
