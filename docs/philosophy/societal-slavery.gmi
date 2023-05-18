@@ -91,7 +91,7 @@ And of course, my own life experience. I'm getting sick of having to work... eve
 
 => ../wiki/notrelated.gmi "Not Related!" S02E06
 
-=> ../words/quotes § 2023-05-10, "Who Am I?"
+=> ../words/quotes.gmi § 2023-05-10, "Who Am I?"
 
 ## Post scriptum
 
