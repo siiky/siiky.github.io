@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-05-18 17:32 +0100
+I got a spider visitor.
+It was shy initially, recoiled when I tried to take a closer look.
+Fled when I first tried to move it outside with a sheet of paper, but eventually jumped on board the flying carpet. For reasons unbeknownst to me, it decided to jump off mid-flight into a bunch of cables next to my computer. We played a few rounds of catch, I failed every time, until eventually it decided again to jump on board the flying carpet.
+This time, instead of jumping off mid-flight, it wouldn't jump off at all. I pointed its side of the paper to the ground but climbing upwards towards my hand was more of its fancy now. Rotated the paper again pointing to the ground, and again it climbed upwards towards my hand. A couple times of this, and I let it jump on my hand and walk around a little. Finally I forced it down because it was still work time and I had work things to do... :/
+Friendly spider! :)
+
 ## 2023-05-15 11:15 +0100
 Found an allocator that supports creating/managing independent heaps. I never thought of this before, but it makes so much sense!
 => https://github.com/mjansson/rpmalloc

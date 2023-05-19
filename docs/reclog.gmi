@@ -1,13 +1,22 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/15
+2023/05/19
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-05-16.bulldogs.swim.gmi 2023-05-19 Bulldogs Can't Swim
+=> gemini://oldest.gwit.site/log/_en/20230517--meet-gwit/ 2023-05-19 Meet gwit: Human-scale, Distributed Sites over Git
+=> gemini://gemini.ctrl-c.club/~tjp/gl/2023-05-17-the-simple-joys-of-the-humble-slide-rule.gmi 2023-05-19 The simple joys of the humble slide rule
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-05-17.debt.ceiling.gmi 2023-05-19 Debt Ceiling Bullshit
+=> gemini://thrig.me/blog/2023/05/18/threat-axis.gmi 2023-05-19 Threat Axis
+=> gemini://omg.pebcak.club/~freezr/relog/2023-05-18-relog-are-we-rebuilding-the-centralized-web-minus-tracking.gmi 2023-05-19 Re: Are we rebuilding the centralized web, minus tracking?
+=> gemini://gmi.bacardi55.io/gemlog/2023/05/16/are-we-rebuilding-the-centralized-web-minus-tracking/ 2023-05-19 Are we rebuilding the centralized web, minus tracking?
+=> gemini://senders.io/gemlog/finding-my-niche.gmi 2023-05-19 Finding my Niche
 
 => gemini://tilde.town/~dzwdz/b/feeds.gmi 2023-05-15 feeds are a dark pattern
 => gemini://clanmorgan.org/gemlog/i-want-to-say-thank-you.gmi 2023-05-15 I Want To Say "Thank You"
