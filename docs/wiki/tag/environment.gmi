@@ -1,3 +1,4 @@
+=> ../p.sapo.reciclagem-verdade_mito.gmi 2023-05-19 Green Savers, "Verdade ou mito: 5 preconceitos esclarecidos sobre a reciclagem"
 => ../v.tedx.school_strike_for_climate.gmi 2023-05-14 Greta Thunberg, "School strike for climate - save the world by changing the rules"
 => ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi 2023-05-12 Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
 => ../p.ive_seen_future_without_cars.gmi 2023-02-28 Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"

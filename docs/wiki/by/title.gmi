@@ -69,6 +69,7 @@
 => ../pl.go.gmi Go (programming language)
 => ../p.greece-this_was_no_accident.gmi "Greece: This was no accident"
 => ../p.guardian.greece_train_crash.gmi "Greece train crash: at least 40 killed and dozens injured in collision"
+=> ../p.sapo.reciclagem-verdade_mito.gmi Green Savers, "Verdade ou mito: 5 preconceitos esclarecidos sobre a reciclagem"
 => ../v.tedx.school_strike_for_climate.gmi Greta Thunberg, "School strike for climate - save the world by changing the rules"
 => ../hanya_yanagihara.gmi Hanya Yanagihara
 => ../fosdem2023.small_business_using_open_source.gmi Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."
