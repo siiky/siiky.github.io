@@ -1,3 +1,5 @@
+=> ../film.gmi 2023-05-21 Films
+=> ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-20 Raphael Treza, "Borneo Death Blow"
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"

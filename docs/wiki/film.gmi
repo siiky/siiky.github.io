@@ -1,0 +1,13 @@
+# Films
+siiky
+2023/05/21
+2023/05/21
+2023/05/21
+list
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Film
+
+## Want to watch
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?A_Trip_to_the_Moon
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Woman_King

@@ -1,8 +1,8 @@
 # Raphael Treza, "Borneo Death Blow"
 siiky
 2023/05/20
-2023/05/20
-2023/05/20
+2023/05/21
+2023/05/21
 video,documentary,life,nature,music
 
 => https://invidious.snopyta.org/watch?v=TiQBTesZUJQ
@@ -10,9 +10,9 @@ video,documentary,life,nature,music
 
 Mindblowing documentary about a couple of indigenous peoples of the Borneo island: Penan and Iban. Raphael Treza goes to Sarawak, the Malaysian part of the Borneo island, to live for 3 months with the Penan.
 
-=> https://en.wikipedia.org/wiki/Borneo
-=> https://en.wikipedia.org/wiki/Sarawak
-=> https://en.wikipedia.org/wiki/Penan_people
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Borneo
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Sarawak
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Penan_people
 
 Mentions the palm oil industry a few times, and shows images of its effects, including deforestation (though not caused by the palm oil industry alone).
 
@@ -20,7 +20,7 @@ Mentions the palm oil industry a few times, and shows images of its effects, inc
 
 Mentions the activists Bill Kayong and Bruno Manser.
 
-=> https://en.wikipedia.org/wiki/Bruno_Manser
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Bruno_Manser
 
 Half of all the world's tropical timber comes from Borneo. Cut down areas are used for rubber and palm plantations. Both are used widely in packaged supermarket products.
 
@@ -32,7 +32,7 @@ Borneo's rainforest is one of the oldest and most diverse ecosystem on Earth: 1/
 
 Starting @ 5m45s Bala shows how to make Tajem, the poison the Penan use for hunting, created mainly from the Tajem tree (Antiaris Toxicaria). The tree's sap alone is deadly, causing the heart to stop, but the Penan add a few more ingredients to make it even stronger. The whole process, from start to finish, is simply impressive. Bala uses a bamboo container for the sap, scrapes a bit off the tree's bark, makes a cut to fit and hold the bamboo container, and then makes some diagonal chops along the tree's trunk to bleed the sap. When he gets back "home", he pours the sap into a boat-looking pot made out of dry green leaves, held in shape by a straw at the middle. The extra ingredients are the "selu kaleu" plant (crushed and squeezed), and ashes of a burnt "tuak" toxic vine. Mix all together, coat the darts, and dry them with fire.
 
-=> https://en.wikipedia.org/wiki/Antiaris
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Antiaris
 
 Bala is already an old geezer (50+yo I guestimate) but @ 7m22s you can see him leaning on the tree with his foot, a real survivor: no fat anywhere, just the right amount of muscle.
 
@@ -48,7 +48,7 @@ Bala is already an old geezer (50+yo I guestimate) but @ 7m22s you can see him l
 
 The sagu palm tree was traditionally their main source of food. Saya goes with Raphael to show him collecting one. They cut the tree down but without damaging the roots. He extracts the core of the trunk. Scrapes "jakah" moss off, to use as a fire starter. The core of the core is can be eatten raw or made into flour.
 
-=> https://en.wikipedia.org/wiki/Metroxylon_sagu
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Metroxylon_sagu
 
 @ 20m8s Saya shows "oroo", the Penan way of communicating with passers-by through signals (sticks, leaves, ...). It always starts with a Penan expression, "jah kenin jah kenin", which means "we have the same heart", and lets other Penan know the sender is also a Penan. With a bunch of combinations they can let other people about the way to villages, if there's enough food in camp (an invitation to share food), if anyone got bit by a snake and needs medicinal plants, how many families in camp, if they're cooking meat, if they're fishing at the river, ... Just amazing.
 
@@ -62,8 +62,8 @@ The sagu palm tree was traditionally their main source of food. Saya goes with R
 
 @ 26m24s Raphael goes to a new Penan village. The older people, who were used to the nomadic way of life, have come to suffer from depression and dementia.
 
-=> https://en.wikipedia.org/wiki/Depression_(mood)
-=> https://en.wikipedia.org/wiki/Dementia
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Depression_(mood)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Dementia
 
 @ 28m20s back with Bala, who shows how to make Penan bark cloth. Starts off by cutting down a beripun tree and beating it with a stick to remove the bark from the trunk. Then cuts the bark length-wise and removes it from the trunk. Finally, beats the bark again against a hard surface to soften it.
 

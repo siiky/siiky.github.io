@@ -37,6 +37,7 @@
 => ../pl.concatenative_programming.gmi Concatenative programming
 => ../cooperative_pulling.gmi Cooperative pulling
 => ../pl.c.gmi C (programming language)
+=> ../dahomey_amazons.gmi Dahomey Amazons
 => ../v.david_justice.explorations_decentralized_publishing.gmi David Justice, "Explorations into Decentralized Publishing"
 => ../fosdem2023.network_decentralized_storage.gmi Dennis Trautwein, "Decentralized Storage with IPFS"
 => ../fosdem2020.dip_secusharebox.gmi Devan Carpenter, "Knocking Down the Nest"
@@ -58,6 +59,7 @@
 => ../p.fabien_sanglard.polygon_of_another_world.gmi Fabien Sanglard, "The Polygons of Another World"
 => ../p.ive_seen_future_without_cars.gmi Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
 => ../class.ft.gmi Fault Tolerance
+=> ../film.gmi Films
 => ../pl.forth.gmi Forth (programming language)
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
