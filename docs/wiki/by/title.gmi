@@ -114,6 +114,7 @@
 => ../fosdem2023.network_hole_punching_in_the_wild.gmi Max Leonard Inden & Dennis Trautwein, "Hole punching in the wild"
 => ../fosdem2023.network_p2p_browser_connectivity.gmi Max Leonard Inden, "Peer-to-peer Browser Connectivity"
 => ../wp.michael_j_freedman.coral.gmi Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"
+=> ../v.national_geographic.forever_wild-live_free_or_die.gmi National Geographic, "Forever Wild: Live Free or Die"
 => ../fosdem2023.beam_actor_model_load_testing.gmi Nelson Vides, "The Actor Model as a Load Testing Framework"
 => ../v.tedx.why_feminism_needs_men.gmi Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../nmh.gmi Nils M Holm
@@ -126,11 +127,13 @@
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../petri_nets.gmi Petri nets
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
+=> ../v.planetdoc.men_of_the_fifth_world.gmi Planet Doc, "The Men of Fifth World"
 => ../police.gmi Police
 => ../v.kamp.everything_built_on_out_abandoned_land.gmi Project Kamp, "Everything we built on our abandoned land"
 => ../public_transport.gmi Public transport
 => ../p.qr_code_development_story.gmi "QR Code development story"
 => ../raft.gmi Raft
+=> ../v.raphael_treza.borneo_death_blow.gmi Raphael Treza, "Borneo Death Blow"
 => ../fosdem2023.webassemblyforth.gmi Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"
 => ../book.remzi_arpaci-dusseau.ostep.gmi Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau, "Operating Systems: Three Easy Pieces"
 => ../book.richard_p_brent.mca.gmi Richard P. Brent, Paul Zimmermann, "Modern Computer Arithmetic"

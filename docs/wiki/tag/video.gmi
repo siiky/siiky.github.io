@@ -1,3 +1,6 @@
+=> ../v.raphael_treza.borneo_death_blow.gmi 2023-05-20 Raphael Treza, "Borneo Death Blow"
+=> ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
+=> ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../v.v_shivapriya_br_somashekar_jois-konnakol_duet.gmi 2023-05-14 "Konnakol Duet: V Shivapriya & BR Somashekar Jois"

@@ -90,6 +90,7 @@ And of course, my own life experience. I'm getting sick of having to work... eve
 => ../books/bill_gates.how_to_avoid_a_climate_disaster.gmi Bill Gates, "How to Avoid a Climate Disaster"
 
 => ../wiki/notrelated.gmi "Not Related!" S02E06
+=> ../wiki/v.raphael_treza.borneo_death_blow.gmi "Borneo Death Blow"
 
 => ../words/quotes.gmi § 2023-05-10, "Who Am I?"
 

@@ -1,8 +1,11 @@
+=> ../videos.gmi 2023-05-20 Videos
+=> ../v.raphael_treza.borneo_death_blow.gmi 2023-05-20 Raphael Treza, "Borneo Death Blow"
+=> ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
+=> ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
 => ../p.sapo.reciclagem-verdade_mito.gmi 2023-05-19 Green Savers, "Verdade ou mito: 5 preconceitos esclarecidos sobre a reciclagem"
 => ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
-=> ../videos.gmi 2023-05-15 Videos
 => ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../pl.c.gmi 2023-05-15 C (programming language)
