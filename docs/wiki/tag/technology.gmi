@@ -1,9 +1,9 @@
+=> ../techstuffs.gmi 2023-05-22 Techstuffs
 => ../p.seirdy.nuanced_views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.sinelabs.vusb_hid_explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../v.sinelabs.usb_protocol_explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
 => ../riscv.gmi 2023-05-09 RISC-V
 => ../sbc_server.gmi 2023-05-08 SBC server
 => ../notrelated.gmi 2023-04-28 "Not Related!"
-=> ../techstuffs.gmi 2023-04-24 Techstuffs
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../p.ever_wondered_how_qr_code_works.gmi 2023-02-28 "Ever wondered how a QR code works?"

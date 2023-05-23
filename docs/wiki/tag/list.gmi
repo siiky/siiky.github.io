@@ -1,5 +1,5 @@
+=> ../techstuffs.gmi 2023-05-22 Techstuffs
 => ../film.gmi 2023-05-21 Films
 => ../videos.gmi 2023-05-20 Videos
 => ../books.gmi 2023-05-15 Books list
 => ../pl.concatenative_programming.gmi 2023-05-14 Concatenative programming
-=> ../techstuffs.gmi 2023-04-24 Techstuffs

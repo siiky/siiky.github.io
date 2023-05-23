@@ -1,10 +1,11 @@
 # Techstuffs
 siiky
 2023/04/24
-2023/04/24
-2023/05/08
+2023/05/22
+2023/05/22
 technology,list
 
-A list of tech things that may be useful (to me) in the future.
+A list of tech things that may be useful/interesting to me in the future.
 
 => https://ryf.fsf.org/products/ FSF's "Respects Your Freedom"
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Francis_turbine

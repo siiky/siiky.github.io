@@ -1,3 +1,4 @@
+=> ../techstuffs.gmi 2023-05-22 Techstuffs
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-21 Raphael Treza, "Borneo Death Blow"
 => ../film.gmi 2023-05-21 Films
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
@@ -59,7 +60,6 @@
 => ../p.c_isnt_a_programming_language_anymore.gmi 2023-05-03 "C Isn't A Programming Language Anymore"
 => ../v.honest_discussion_organic_maps_devs.gmi 2023-05-03 "An honest discussion with organic maps developers"
 => ../notrelated.gmi 2023-04-28 "Not Related!"
-=> ../techstuffs.gmi 2023-04-24 Techstuffs
 => ../p.guardian.greece_train_crash.gmi 2023-04-24 "Greece train crash: at least 40 killed and dozens injured in collision"
 => ../p.greece-this_was_no_accident.gmi 2023-04-24 "Greece: This was no accident"
 => ../v.scheme22.programming_is_fun.gmi 2023-04-24 Gerald Jay Sussman, "Programming is (should be) fun!"
