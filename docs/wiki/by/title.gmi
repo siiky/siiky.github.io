@@ -57,6 +57,7 @@
 => ../v.explaining_meshuggah_using_konnakol.gmi "Explaining Meshuggah using KONNAKOL (Stengah)"
 => ../c.exurb1a.gmi exurb1a
 => ../p.fabien_sanglard.polygon_of_another_world.gmi Fabien Sanglard, "The Polygons of Another World"
+=> ../pl.factor.gmi Factor (programming language)
 => ../p.ive_seen_future_without_cars.gmi Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
 => ../class.ft.gmi Fault Tolerance
 => ../film.gmi Films

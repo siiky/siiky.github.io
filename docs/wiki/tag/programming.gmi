@@ -1,3 +1,4 @@
+=> ../pl.factor.gmi 2023-05-24 Factor (programming language)
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../class.ft.gmi 2023-05-15 Fault Tolerance

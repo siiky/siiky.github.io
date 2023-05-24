@@ -1,0 +1,15 @@
+# Factor (programming language)
+siiky
+2023/05/24
+2023/05/24
+2023/05/24
+programming
+
+=> https://factorcode.org
+=> https://docs.factorcode.org
+
+A stack-based concatenative programming language. Similar to Forth? 
+
+=> pl.forth.gmi
+
+=> https://docs.factorcode.org/content/vocab-slides.html Slideshow library

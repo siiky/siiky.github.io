@@ -1,6 +1,6 @@
 => video.gmi video (40)
+=> programming.gmi programming (40)
 => talk.gmi talk (39)
-=> programming.gmi programming (39)
 => society.gmi society (26)
 => post.gmi post (24)
 => distributed.gmi distributed (21)
