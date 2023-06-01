@@ -1,4 +1,4 @@
-# Project Kamp, "Everything we built on our abandoned land"
+# Project Kamp, "Everything we built living off the grid"
 siiky
 2023/05/11
 2023/05/11
@@ -9,7 +9,9 @@ video,life,nature,engineering
 
 ## Insulation
 
-Based on oak tree bark (Carvalho -- Quercus, suber maybe?), used to make cork.
+Based on cork oak tree bark (Sobreiro -- Quercus, suber maybe?), used to make cork.
+
+For a long time I thought that Carvalho was the cork oak tree, but it's actually the Sobreiro (they're both of the Quercus family)! Carvalhos are the regular oak trees I guess.
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Quercus_suber
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Cork_(material)

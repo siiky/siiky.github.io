@@ -132,7 +132,7 @@
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../v.planetdoc.men_of_the_fifth_world.gmi Planet Doc, "The Men of Fifth World"
 => ../police.gmi Police
-=> ../v.kamp.everything_built_on_out_abandoned_land.gmi Project Kamp, "Everything we built on our abandoned land"
+=> ../v.kamp.everything_built_living_off_the_grid.gmi Project Kamp, "Everything we built living off the grid"
 => ../public_transport.gmi Public transport
 => ../p.qr_code_development_story.gmi "QR Code development story"
 => ../raft.gmi Raft
