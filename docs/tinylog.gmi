@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-02 10:02 +0100
+Situational puzzles, like the ones on the Dark Stories game available on the Ghouls' Android Play Store.
+=> https://www.kith.org/logos/things/sitpuz/
+
 ## 2023-05-21 23:41 +0100
 => https://lucyliyou.bandcamp.com/album/how-to-ask-for-help
 One of the most exciting new things I've listened to recently.

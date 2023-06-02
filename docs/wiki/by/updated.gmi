@@ -1,3 +1,4 @@
+=> ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../pl.factor.gmi 2023-05-24 Factor (programming language)
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"
 => ../techstuffs.gmi 2023-05-22 Techstuffs
@@ -31,7 +32,6 @@
 => ../p.aditya_chaturvedi.open_data_access_bedrock_of_sustainability.gmi 2023-05-14 Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
 => ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi 2023-05-12 Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
-=> ../v.kamp.everything_built_living_off_the_grid.gmi 2023-05-11 Project Kamp, "Everything we built living off the grid"
 => ../v.computerphile.gpt3_even_bigger_language_model.gmi 2023-05-11 Computerphile, "GPT3: An Even Bigger Language Model"
 => ../v.computerphile.cheatgpt.gmi 2023-05-11 Computerphile, "Ch(e)at GPT?"
 => ../v.computerphile.chatgpt_rob_miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"

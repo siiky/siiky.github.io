@@ -1,8 +1,8 @@
 # Project Kamp, "Everything we built living off the grid"
 siiky
 2023/05/11
-2023/05/11
-2023/05/12
+2023/06/01
+2023/06/01
 video,life,nature,engineering
 
 => https://invidious.snopyta.org/watch?v=S_ZbMbBxJvs

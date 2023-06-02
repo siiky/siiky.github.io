@@ -1,3 +1,4 @@
+=> ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
@@ -9,7 +10,6 @@
 => ../v.tedx.school_strike_for_climate.gmi 2023-05-14 Greta Thunberg, "School strike for climate - save the world by changing the rules"
 => ../v.explaining_meshuggah_using_konnakol.gmi 2023-05-14 "Explaining Meshuggah using KONNAKOL (Stengah)"
 => ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi 2023-05-14 Boundo, "Fascism in Black Metal and How to Spot It"
-=> ../v.kamp.everything_built_living_off_the_grid.gmi 2023-05-11 Project Kamp, "Everything we built living off the grid"
 => ../v.computerphile.gpt3_even_bigger_language_model.gmi 2023-05-11 Computerphile, "GPT3: An Even Bigger Language Model"
 => ../v.computerphile.chatgpt_rob_miles.gmi 2023-05-11 Computerphile, "ChatGPT with Rob Miles"
 => ../v.computerphile.bing_chat_behaving_badly.gmi 2023-05-11 Computerphile, "Bing Chat Behaving Badly"
