@@ -1,10 +1,10 @@
+=> ../videos.gmi 2023-06-04 Videos
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../pl.factor.gmi 2023-05-24 Factor (programming language)
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"
 => ../techstuffs.gmi 2023-05-22 Techstuffs
 => ../film.gmi 2023-05-21 Films
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
-=> ../videos.gmi 2023-05-20 Videos
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
 => ../p.sapo.reciclagem-verdade_mito.gmi 2023-05-19 Green Savers, "Verdade ou mito: 5 preconceitos esclarecidos sobre a reciclagem"
