@@ -1,13 +1,20 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/05/19
+2023/06/04
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://rochelimit.uk/articles/20230603_exam_prep_is_not_education.gmi 2023-06-04 Exam Prep is Not Education
+=> gemini://circadian.gemlog.org/2023-06-03-the-jevons-paradox-and-software.gmi 2023-06-04 The Jevons Paradox And Software
+=> gemini://thrig.me/blog/2023/06/03/jevons-protocol.gmi 2023-06-04 Jevons Protocol
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/gemlog/one-billion-one-continent.gmi 2023-06-04 One billion, one continent
+=> gemini://thrig.me/blog/2023/06/04/degrowth.gmi 2023-06-04 Degrowth
+=> gemini://idiomdrottning.org/the-secular-internet 2023-06-04 The Secular Internet
 
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2023-05-16.bulldogs.swim.gmi 2023-05-19 Bulldogs Can't Swim
 => gemini://oldest.gwit.site/log/_en/20230517--meet-gwit/ 2023-05-19 Meet gwit: Human-scale, Distributed Sites over Git
