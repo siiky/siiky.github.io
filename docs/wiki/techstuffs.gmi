@@ -1,11 +1,19 @@
 # Techstuffs
 siiky
 2023/04/24
-2023/05/22
-2023/05/22
+2023/06/05
+2023/06/05
 technology,list
 
 A list of tech things that may be useful/interesting to me in the future.
 
 => https://ryf.fsf.org/products/ FSF's "Respects Your Freedom"
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Francis_turbine
+
+## Concurrent Logic Programming
+
+pcn https://dl.acm.org/doi/pdf/10.1145/177492.177612
+nikolar: http://resolver.caltech.edu/CaltechCSTR:1990.cs-tr-90-10 and https://digital.library.unt.edu/ark:/67531/metadc1310344/
+
+Linked to in #chicken.
+=> pl.chicken.gmi

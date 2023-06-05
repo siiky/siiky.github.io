@@ -1,4 +1,4 @@
-=> ../techstuffs.gmi 2023-05-22 Techstuffs
+=> ../techstuffs.gmi 2023-06-05 Techstuffs
 => ../p.seirdy.nuanced_views.gmi 2023-05-10 Seirdy, "Nuanced views"
 => ../v.sinelabs.vusb_hid_explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"
 => ../v.sinelabs.usb_protocol_explained.gmi 2023-05-09 "Add USB To Your Electronics Projects! - The USB Protocol Explained"
