@@ -1,3 +1,5 @@
+=> ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
+=> ../pl.erlang.gmi 2023-06-12 Erlang (programming language)
 => ../techstuffs.gmi 2023-06-05 Techstuffs
 => ../videos.gmi 2023-06-04 Videos
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
@@ -11,7 +13,6 @@
 => ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../p.fredhebert.tail_recursion_not_silver_bullet.gmi 2023-05-16 Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
-=> ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../pl.c.gmi 2023-05-15 C (programming language)
 => ../books.gmi 2023-05-15 Books list
@@ -145,7 +146,6 @@
 => ../fosdem2023.dns_i2p.gmi 2023-02-07 Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../fosdem2023.luarocks.gmi 2023-02-07 Hisham Muhammad, "LuaRocks and the challenges of minimalism"
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi 2023-02-07 Frank Vanbever, "Lua for the lazy C developer"
-=> ../pl.erlang.gmi 2023-02-07 Erlang (programming language)
 => ../pl.elixir.gmi 2023-02-07 Elixir (programming language)
 => ../fosdem2023.helios.gmi 2023-02-07 Drew DeVault, "Introducing Helios"
 => ../fosdem2023.heliosuk.gmi 2023-02-07 Drew DeVault, "Introducing Helios Microkernel"

@@ -1,13 +1,23 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/06/04
+2023/07/12
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://thrig.me/blog/2023/06/12/bad-loops.gmi 2023-07-12 Bad Loops
+=> gemini://thrig.me/blog/2023/06/11/chdir-parent-process.gmi 2023-07-12 Can a child process affect the working directory of the parent process?
+=> gemini://gemini.hitchhiker-linux.org/gemlog/sourcehut_looks_really_good.gmi 2023-07-12 Sourcehut looks really good
+=> gemini://jsreed5.org/log/2023/202306/20230609-ashamed-of-my-penmanship.gmi 2023-07-12 Ashamed of My Penmanship
+=> gemini://dj-chase.com/documents/quick-update-summer-plans.gmi 2023-07-12 A Quick Update And My Summer Plans
+=> gemini://station.martinrue.com/at_work/c6275820116d492e964f6100de46b4bb 2023-07-12 How unexpected.
+=> gemini://circadian.gemlog.org/2023-06-10-how-online-ads-work.gmi 2023-07-12 How Online Ads Work
+=> gemini://rawtext.club/~winter/gemlog/2023/6-10.gmi 2023-07-12 Making/Meeting
+=> gemini://skyjake.fi/gemlog/2023-06_i-am-spartacus.gmi 2023-07-12 I am Spartacus — Anonymous Identities on Gemini
 
 => gemini://rochelimit.uk/articles/20230603_exam_prep_is_not_education.gmi 2023-06-04 Exam Prep is Not Education
 => gemini://circadian.gemlog.org/2023-06-03-the-jevons-paradox-and-software.gmi 2023-06-04 The Jevons Paradox And Software

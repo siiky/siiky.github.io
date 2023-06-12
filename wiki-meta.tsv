@@ -1,3 +1,5 @@
+2023-06-12	2023-06-12	2023-05-14	"Vidas Proibidas - Ballet Rose"	wiki/cinema.ballet_rose.gmi	series,politics,ethics,society
+2023-06-12	2023-06-12	2023-02-07	Erlang (programming language)	wiki/pl.erlang.gmi	programming
 2023-06-05	2023-06-05	2023-04-24	Techstuffs	wiki/techstuffs.gmi	technology,list
 2023-06-04	2023-06-04	2023-02-21	Videos	wiki/videos.gmi	list
 2023-06-01	2023-06-01	2023-05-11	Project Kamp, "Everything we built living off the grid"	wiki/v.kamp.everything_built_living_off_the_grid.gmi	video,life,nature,engineering
@@ -11,7 +13,6 @@
 2023-05-16	2023-05-16	2023-05-16	Fred Hebert, "Erlang's Tail Recursion is Not a Silver Bullet"	wiki/p.fredhebert.tail_recursion_not_silver_bullet.gmi	post,programming
 2023-05-16	2023-05-16	2023-05-16	Cooperative pulling	wiki/cooperative_pulling.gmi	science,nature,society
 2023-05-16	2023-05-16	2023-02-21	Large Scale Distributed Systems	wiki/class.lsds.gmi	course,distributed,programming
-2023-05-15	2023-05-15	2023-05-14	"Vidas Proibidas - Ballet Rose"	wiki/cinema.ballet_rose.gmi	series,politics,ethics,society
 2023-05-15	2023-05-15	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
 2023-05-15	2023-05-15	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
 2023-05-15	2023-05-15	2020-12-21	Books list	wiki/books.gmi	list
@@ -144,7 +145,6 @@
 2023-02-07	2023-05-08	2023-02-07	Hisham Muhammad, "LuaRocks and the challenges of minimalism"	wiki/fosdem2023.luarocks.gmi	talk
 2023-02-07	2023-02-08	2023-02-07	Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"	wiki/fosdem2023.dns_i2p.gmi	talk,p2p
 2023-02-07	2023-02-07	2023-02-07	Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"	wiki/fosdem2023.dns_implementation_of_the_drink_server.gmi	talk,network
-2023-02-07	2023-02-07	2023-02-07	Erlang (programming language)	wiki/pl.erlang.gmi	programming
 2023-02-07	2023-02-07	2023-02-07	Elixir (programming language)	wiki/pl.elixir.gmi	programming
 2023-02-07	2023-02-07	2023-02-05	Frank Vanbever, "Lua for the lazy C developer"	wiki/fosdem2023.lua_for_the_lazy_c_developer.gmi	talk
 2023-02-07	2023-02-07	2023-02-05	Drew DeVault, "Introducing Helios Microkernel"	wiki/fosdem2023.heliosuk.gmi	talk,os

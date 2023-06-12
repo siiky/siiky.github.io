@@ -1,10 +1,18 @@
 # Erlang (programming language)
 siiky
 2023/02/07
-2023/02/07
-2023/02/07
+2023/06/12
+2023/06/12
 programming
 
 => https://www.erlang.org
 
 Super cool language!
+
+## Projects
+
+### chumak
+
+An Erlang-native library for ZeroMQ.
+
+=> ../tinylog.gmi § 2023-06-12 13:58 +0100

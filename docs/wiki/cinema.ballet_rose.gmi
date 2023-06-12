@@ -1,8 +1,8 @@
 # "Vidas Proibidas - Ballet Rose"
 siiky
 2023/05/14
-2023/05/15
-2023/05/15
+2023/06/12
+2023/06/12
 series,politics,ethics,society
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Ballet_Rose
@@ -37,3 +37,9 @@ The series was first aired by RTP (Rádio e Televisão de Portugal, or "Radio an
 The episodes can be downloaded from RTP Arquivos, but they cost 25€ each.
 
 => ../kB45oC/unfree-public-service.gmi
+
+Found these articles about it:
+
+=> https://www.museudoaljube.pt/en/2020/12/10/ballet-rose-case/
+=> https://www.museudoaljube.pt/wp-content/uploads/2021/01/ballet-rose.jpg
+=> https://www.contacto.lu/portugal/ballet-rose-o-escandalo-que-passou-pelas-entrelinhas-do-tempo/489008.html

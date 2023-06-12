@@ -1,6 +1,6 @@
+=> ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
-=> ../cinema.ballet_rose.gmi 2023-05-15 "Vidas Proibidas - Ballet Rose"
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.joefikifiki.when_your_heroes_are_villains.gmi 2023-05-14 Joe Fikifiki, "When your Heroes are Villains..."
 => ../v.joefikifiki.songs_that_disturbed_me-frankie_teardrop.gmi 2023-05-14 Joe Fikifiki, "Songs that Have Disturbed Me: Frankie Teardrop"

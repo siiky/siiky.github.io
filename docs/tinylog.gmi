@@ -7,6 +7,14 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-12 13:58 +0100
+Opened a PR to add multipart message support for REQ sockets in chumak, the Erlang ZeroMQ library.
+=> https://github.com/zeromq/chumak/pull/53
+=> https://zeromq.org
+=> wiki/pl.erlang.gmi
+=> wiki/class.dsp.gmi
+=> wiki/class.lsds.gmi
+
 ## 2023-06-02 10:44 +0100
 I'm listening again to the album I shared the other day ("how to ask for help") and it reminded me of Ulver's "Teachings in silence" ("Silence teaches you how to sing" + "Silencing the singing")!
 => https://ulver.bandcamp.com/album/silence-teaches-you-how-to-sing
