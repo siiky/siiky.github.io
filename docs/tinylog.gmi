@@ -7,6 +7,14 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-12 16:16 +0100
+Opened a new PR for chumak to fix some inconsistencies I found while working on the other PR.
+=> https://github.com/zeromq/chumak/pull/54
+=> https://zeromq.org
+=> wiki/pl.erlang.gmi
+=> wiki/class.dsp.gmi
+=> wiki/class.lsds.gmi
+
 ## 2023-06-12 13:58 +0100
 Opened a PR to add multipart message support for REQ sockets in chumak, the Erlang ZeroMQ library.
 => https://github.com/zeromq/chumak/pull/53
