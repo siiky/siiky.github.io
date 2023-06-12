@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-12 20:45 +0100
+Going through old stuff I (re)found this:
+=> https://invidious.snopyta.org/watch?v=DVtNt-6OTM8
+I like it a lot.
+
 ## 2023-06-12 16:16 +0100
 Opened a new PR for chumak to fix some inconsistencies I found while working on the other PR.
 => https://github.com/zeromq/chumak/pull/54
