@@ -167,11 +167,11 @@ publish: $(ROOT)/ipfs.html publish-gemini publish-http push
 
 .PHONY: publish-gemini
 publish-gemini: gemini.tgz
-	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
+	curl -X POST --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@gemini.tgz -Fprotocol=GEMINI https://pages.sr.ht/publish/siiky.srht.site
 
 .PHONY: publish-http
 publish-http: http.tgz
-	curl --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
+	curl -X POST --oauth2-bearer $(SRHT_TOKEN) -Fcontent=@http.tgz https://pages.sr.ht/publish/siiky.srht.site
 
 gemini.tgz: $(ROOT)/ipfs.html
 	cd $(ROOT) && tar --exclude='*.html' -cz * > $(REPO_ROOT)/gemini.tgz
