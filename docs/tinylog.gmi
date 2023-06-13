@@ -7,6 +7,12 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-13 12:18 +0100
+I haven't finished a book in so long I forgot to update my books list the day before yesterday when I finished Allegro...
+=> wiki/books.gmi
+=> gemini://fedran.com/allegro
+I liked it and recommend it if fantasy is your thing. Plus, it was written by a fellow Geminaut!
+
 ## 2023-06-12 20:45 +0100
 Going through old stuff I (re)found this:
 => https://invidious.snopyta.org/watch?v=DVtNt-6OTM8

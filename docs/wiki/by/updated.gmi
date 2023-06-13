@@ -1,3 +1,4 @@
+=> ../books.gmi 2023-06-16-13 Books list
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../pl.erlang.gmi 2023-06-12 Erlang (programming language)
 => ../techstuffs.gmi 2023-06-05 Techstuffs
@@ -15,7 +16,6 @@
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../pl.c.gmi 2023-05-15 C (programming language)
-=> ../books.gmi 2023-05-15 Books list
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../petri_nets.gmi 2023-05-14 Petri nets

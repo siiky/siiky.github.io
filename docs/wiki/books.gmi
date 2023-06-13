@@ -1,8 +1,8 @@
 # Books list
 siiky
 2020/12/21
-2023/05/15
-2023/05/15
+2023/06/16/13
+2023/06/16/13
 list
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -36,7 +36,6 @@ Please let me know if you find any of the links not working.
 => https://tokipona.org Sonja Lang, Toki Pona: The Language of Good: 2022/09/22
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Games_People_Play_(book) Eric Berne, Games People Play: 2023/03/12
-=> gemini://fedran.com/allegro/ Dylan Moonfire, Allegro: 2023/04/23
 
 ## Read
 
@@ -54,6 +53,7 @@ Please let me know if you find any of the links not working.
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Sex_at_Dawn Christopher Ryan & Cacilda Jethá, Sex at Dawn: 2021/06/08~2021/07/29
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Hitchhiker's_Guide_to_the_Galaxy_(novel) Douglas Adams, The Hitchhiker's Guide to the Galaxy: 2021/06/13~2021/07/05
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?The_Restaurant_at_the_End_of_the_Universe Douglas Adams, The Restaurant at the End of the Universe: 2021/11/14~2022/01/06
+=> gemini://fedran.com/allegro Dylan Moonfire, Allegro: 2023/04/23~2023/06/11
 => https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction Edgar Allan Poe, The Black Cat: 2022/05/30~2022/05/30
 => https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction Edgar Allan Poe, The Murders in the Rue Morgue: 2022/05/17~2022/05/17
 => https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction Edgar Allan Poe, The Mystery of Marie Rogêt: 2022/05/29~2022/05/30
@@ -104,7 +104,9 @@ Please let me know if you find any of the links not working.
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Defenders: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Eyes Have It: 2022/09/19
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Gun: 2020
+=> https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Hanging Stranger: 2023/06/13
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Skull: 2020
+=> https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Variable Man: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, The Variable Man: 2020
 => https://standardebooks.org/ebooks/philip-k-dick/short-fiction Philip K. Dick, Tony and the Beetles: 2020
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Adjustment_Team Philip K. Dick, Adjustment Team: 2020
