@@ -1,13 +1,16 @@
 # Videos
 siiky
 2023/02/21
-2023/06/04
-2023/06/04
+2023/06/13
+2023/06/13
 list
 
 ## Want to watch
 
+=> https://invidious.snopyta.org/watch?v=6qU1sDBU9Cs
+=> https://invidious.snopyta.org/watch?v=9TTDFMa90Zs
 => https://invidious.snopyta.org/watch?v=BFAMy5-VHak
+=> https://invidious.snopyta.org/watch?v=F4QzhSlqmqg
 => https://invidious.snopyta.org/watch?v=NPic_MsN-y8
 => https://invidious.snopyta.org/watch?v=PxOFMriqyUQ
 => https://invidious.snopyta.org/watch?v=VO6XEQIsCoM
@@ -15,6 +18,7 @@ list
 => https://invidious.snopyta.org/watch?v=VdS7zmJx2X8
 => https://invidious.snopyta.org/watch?v=XVU_RNiz09A
 => https://invidious.snopyta.org/watch?v=Y4E8qEDi_xg
+=> https://invidious.snopyta.org/watch?v=YyXRYgjQXX0
 => https://invidious.snopyta.org/watch?v=Z_qZ8wuNG20
 => https://invidious.snopyta.org/watch?v=Zk11vI-7czE
 => https://invidious.snopyta.org/watch?v=_NcTKQmdKl8
@@ -36,9 +40,11 @@ list
 => https://invidious.snopyta.org/watch?v=iml0DBo5yqo
 => https://invidious.snopyta.org/watch?v=jPhJbKBuNnA
 => https://invidious.snopyta.org/watch?v=kSNo2FPQDQw
+=> https://invidious.snopyta.org/watch?v=lA-zdh_bQBo
 => https://invidious.snopyta.org/watch?v=lgIgytWyo_A
 => https://invidious.snopyta.org/watch?v=lhS0qZaqrw8
 => https://invidious.snopyta.org/watch?v=lqKjGCJfpnQ
+=> https://invidious.snopyta.org/watch?v=pk2qT1imJzU
 => https://invidious.snopyta.org/watch?v=qEu0oRajJxE
 => https://invidious.snopyta.org/watch?v=qROkHxeFpDs
 => https://invidious.snopyta.org/watch?v=tLWEr_kdXl4
