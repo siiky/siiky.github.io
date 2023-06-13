@@ -7,6 +7,11 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-13 15:58 +0100
+> O seguro morreu de velho; o desconfiado ainda é vivo.
+From EP08 of Ballet Rose.
+=> wiki/cinema.ballet_rose.gmi
+
 ## 2023-06-13 12:18 +0100
 I haven't finished a book in so long I forgot to update my books list the day before yesterday when I finished Allegro...
 => wiki/books.gmi
