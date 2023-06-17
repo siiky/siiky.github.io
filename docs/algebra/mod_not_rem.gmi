@@ -13,7 +13,6 @@ Before going further, if you're a programmer, try to remember whether % is the r
 I'll list these later: C, D, Go, JS, Lua, Python, Rust, Zig, Java.
 
 => ../wiki/pl.c.gmi
-=> ../wiki/pl.chicken.gmi
 => ../wiki/pl.go.gmi
 => ../wiki/pl.lua.gmi
 
@@ -22,6 +21,8 @@ I'll list these later: C, D, Go, JS, Lua, Python, Rust, Zig, Java.
 There are two related, though different, operations on integers called "remainder" and "modulo". The "remainder" should need no introductions, it's the remainder of integer division. The "modulo" may be more "obscure" but is somewhat similar.
 
 For natural numbers (N), the remainder is the same as the modulo. That is, when both dividend and divisor are positive, the result is equal.
+
+Here are some examples in CHICKEN.
 
 ```scm
 #;1> (remainder 4 2)
@@ -54,6 +55,8 @@ However, when the dividend is a non-natural integer (Z\N, i.e. negative), the re
 #;12> (modulo -5 3)
 1
 ```
+
+=> ../wiki/pl.chicken.gmi
 
 That should be enough to convince you that remainder and modulo are different.
 
