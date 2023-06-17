@@ -20,9 +20,7 @@ I'll list these later: C, D, Go, JS, Lua, Python, Rust, Zig, Java.
 
 There are two related, though different, operations on integers called "remainder" and "modulo". The "remainder" should need no introductions, it's the remainder of integer division. The "modulo" may be more "obscure" but is somewhat similar.
 
-For natural numbers (N), the remainder is the same as the modulo. That is, when both dividend and divisor are positive, the result is equal.
-
-Here are some examples in CHICKEN.
+For natural numbers (N), the remainder is the same as the modulo. That is, when both dividend and divisor are positive, the result is equal. Here are some examples in CHICKEN.
 
 ```scm
 #;1> (remainder 4 2)
