@@ -1,4 +1,4 @@
-# REMAINDER IS NOT MODULO
+# MODULO IS NOT REMAINDER
 siiky
 2023/06/17
 2023/06/17
@@ -96,14 +96,14 @@ Fuck me...
 ## The % operator (answers)
 
 ```tbl
-| C      | remainder |
-| D      | modulo(?) |
-| Go     | remainder |
-| JS     | remainder |
-| Lua    | modulo    |
-| Python | modulo    |
-| Rust   | remainder |
-| Zig    | remainder |
+| C      | remainder    |
+| D      | remainder(?) |
+| Go     | remainder    |
+| JS     | remainder    |
+| Lua    | modulo       |
+| Python | modulo       |
+| Rust   | remainder    |
+| Zig    | remainder    |
 ```
 
 => https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf C17 § 6.5.5 Multiplicative operators; point 5
@@ -115,7 +115,7 @@ Fuck me...
 => https://doc.rust-lang.org/reference/expressions/operator-expr.html#arithmetic-and-logical-binary-operators The Rust Reference § Arithmetic and Logical Binary Operators
 => https://ziglang.org/documentation/0.10.1/#Table-of-Operators Zig Language Reference § Table of Operators
 
-Of these, D is the one I'm not sure about. Some parts of the docs say "remainder" others "modulo".
+Of these, D is the one I'm not sure about. Some parts of the docs say "remainder" others "modulo". It's probably remainder.
 
 Lua and Python seem to compute the modulo indeed (no extensive testing, a single example should be enough assuming a well-working implementation).
 

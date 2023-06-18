@@ -127,6 +127,7 @@
 => ../index.gmi nothing interesting wiki
 => ../notrelated.gmi "Not Related!"
 => ../wp.psa.interval_tree_clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
+=> ../v.pbs.why_quantum_entanglement_won_nobel.gmi PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../petri_nets.gmi Petri nets
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"

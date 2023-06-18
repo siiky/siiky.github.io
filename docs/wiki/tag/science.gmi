@@ -1,3 +1,4 @@
+=> ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
 => ../v.geoffrey_hinton.ai_existential_threat.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.martin_karlsson.visual_graph_tools_for_decentralized_research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
