@@ -1,7 +1,7 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/07/12
+2023/06/18
 
 ## Reclog
 
@@ -9,15 +9,30 @@ siiky
 
 I update this page manually.
 
-=> gemini://thrig.me/blog/2023/06/12/bad-loops.gmi 2023-07-12 Bad Loops
-=> gemini://thrig.me/blog/2023/06/11/chdir-parent-process.gmi 2023-07-12 Can a child process affect the working directory of the parent process?
-=> gemini://gemini.hitchhiker-linux.org/gemlog/sourcehut_looks_really_good.gmi 2023-07-12 Sourcehut looks really good
-=> gemini://jsreed5.org/log/2023/202306/20230609-ashamed-of-my-penmanship.gmi 2023-07-12 Ashamed of My Penmanship
-=> gemini://dj-chase.com/documents/quick-update-summer-plans.gmi 2023-07-12 A Quick Update And My Summer Plans
-=> gemini://station.martinrue.com/at_work/c6275820116d492e964f6100de46b4bb 2023-07-12 How unexpected.
-=> gemini://circadian.gemlog.org/2023-06-10-how-online-ads-work.gmi 2023-07-12 How Online Ads Work
-=> gemini://rawtext.club/~winter/gemlog/2023/6-10.gmi 2023-07-12 Making/Meeting
-=> gemini://skyjake.fi/gemlog/2023-06_i-am-spartacus.gmi 2023-07-12 I am Spartacus — Anonymous Identities on Gemini
+=> gemini://alextheuxguy.mooo.com/2023-06-17.gmi 2023-06-18 re: Other People Have Loved This Too
+=> gemini://thrig.me/blog/2023/06/17/communicative-culture.gmi 2023-06-18 Communicative Culture
+=> gemini://alexschroeder.ch/page/2023-06-16%20Reinventing%20search 2023-06-18 Reinventing search
+=> gemini://jsreed5.org/log/2023/202306/20230616-privacy-in-gemini-revisited.gmi 2023-06-18 Privacy in Gemini Revisited
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-06-15.solaris.gmi 2023-06-18 Solaris
+=> gemini://axxuy.xyz/posts/2023/bench.gmi 2023-06-18 Other People Have Loved This Too
+=> gemini://circadian.gemlog.org/2023-06-15-social-post-angst.gmi 2023-06-18 Social Post Angst
+=> gemini://thrig.me/blog/2023/06/15/solaris.gmi 2023-06-18 Solaris
+=> gemini://dimension.sh/~textmonger/2023-06-15-02-re-beehiveth-degrowth-and-its-discontents.gmi 2023-06-18 Re: beehiveth: degrowth and its discontents
+=> gemini://beehiveth.smol.pub/lonely-small-web 2023-06-18 degrowth and its discontents
+=> gemini://dimension.sh/~textmonger/2023-06-15-01-please-stop-talking.gmi 2023-06-18 Please stop talking
+=> gemini://dimension.sh/~textmonger/2023-06-15-03-re-ew0k-the-planet-doesnt-need-polar-bears.gmi 2023-06-18 Re: ew0k: The Planet Doesn't Need Polar Bears
+=> gemini://warmedal.se/~bjorn/posts/2023-06-15-the-planet-doesn-t-need-polar-bears.gmi 2023-06-18 The Planet Doesn't Need Polar Bears
+=> gemini://gemini.rlamacraft.uk/recipes/reallyBrownYourMeat.gmi 2023-06-18 Really brown your meat
+
+=> gemini://thrig.me/blog/2023/06/12/bad-loops.gmi 2023-06-12 Bad Loops
+=> gemini://thrig.me/blog/2023/06/11/chdir-parent-process.gmi 2023-06-12 Can a child process affect the working directory of the parent process?
+=> gemini://gemini.hitchhiker-linux.org/gemlog/sourcehut_looks_really_good.gmi 2023-06-12 Sourcehut looks really good
+=> gemini://jsreed5.org/log/2023/202306/20230609-ashamed-of-my-penmanship.gmi 2023-06-12 Ashamed of My Penmanship
+=> gemini://dj-chase.com/documents/quick-update-summer-plans.gmi 2023-06-12 A Quick Update And My Summer Plans
+=> gemini://station.martinrue.com/at_work/c6275820116d492e964f6100de46b4bb 2023-06-12 How unexpected.
+=> gemini://circadian.gemlog.org/2023-06-10-how-online-ads-work.gmi 2023-06-12 How Online Ads Work
+=> gemini://rawtext.club/~winter/gemlog/2023/6-10.gmi 2023-06-12 Making/Meeting
+=> gemini://skyjake.fi/gemlog/2023-06_i-am-spartacus.gmi 2023-06-12 I am Spartacus — Anonymous Identities on Gemini
 
 => gemini://rochelimit.uk/articles/20230603_exam_prep_is_not_education.gmi 2023-06-04 Exam Prep is Not Education
 => gemini://circadian.gemlog.org/2023-06-03-the-jevons-paradox-and-software.gmi 2023-06-04 The Jevons Paradox And Software

@@ -160,6 +160,7 @@
 => ../techstuffs.gmi Techstuffs
 => ../p.tim_urban.story_of_us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
+=> ../nl.toki_pona.gmi toki pona (natural language)
 => ../fosdem2023.open_source_startup.gmi Tom Hacohen, "Starting an Open Source Startup"
 => ../p.git_parable.gmi Tom Preston-Werner, "The Git Parable"
 => ../p.to_save_c_we_must_save_abi.gmi "To Save C, We Must Save ABI"

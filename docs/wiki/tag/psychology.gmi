@@ -1,1 +1,2 @@
+=> ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.joefikifiki.when_your_heroes_are_villains.gmi 2023-05-14 Joe Fikifiki, "When your Heroes are Villains..."

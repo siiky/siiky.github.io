@@ -1,0 +1,23 @@
+# toki pona (natural language)
+siiky
+2023/06/18
+2023/06/18
+2023/06/18
+language,psychology
+
+=> https://tokipona.org
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Toki_Pona
+
+=> gemini://beehiveth.smol.pub/kemini
+
+=> https://devurandom.xyz/tokipona
+=> https://jan-ne.github.io
+=> https://toki.social/public
+
+=> https://invidious.snopyta.org/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX
+=> https://invidious.snopyta.org/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ
+
+=> https://liputenpo.org/category/lipu A zine
+=> https://wikipesija.org/wiki/ilo_musi Wiki
+=> https://tokiponacensus.github.io/resources
+=> https://old.reddit.com/r/tokipona/wiki/lipu
