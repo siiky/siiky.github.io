@@ -1,8 +1,8 @@
 # Books list
 siiky
 2020/12/21
-2023/06/16/13
-2023/06/16/13
+2023/06/16
+2023/06/16
 list
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -24,7 +24,7 @@ Please let me know if you find any of the links not working.
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Animal_Rights_Without_Liberation Alasdair Cochrane, Animal Rights Without Liberation
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?John_Romer_(Egyptologist) John Romer, Ancient Lives: Daily Life in Egypt of the Pharaohs
 => https://www.reinaldosousasantos.com Reinaldo Sousa Santos, Ser Feliz no Trabalho
-=> https://pt.wikipedia.org/wiki/Francisco_Moita_Flores Felícia Cabrita, Francisco Moita Flores, Ballet Rose (Uma história amoral)
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Francisco_Moita_Flores Felícia Cabrita, Francisco Moita Flores, Ballet Rose (Uma história amoral)
 
 ## Reading
 

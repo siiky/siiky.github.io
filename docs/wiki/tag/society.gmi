@@ -7,8 +7,8 @@
 => ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi 2023-05-14 Boundo, "Fascism in Black Metal and How to Spot It"
 => ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi 2023-05-14 Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
-=> ../v.tedx.why_feminism_needs_men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.geoffrey_hinton.ai_existential_threat.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
+=> ../v.tedx.why_feminism_needs_men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"
 => ../v.tedx.western_feminism_african_women.gmi 2023-05-10 Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../v.tedx.meeting_the_enemy.gmi 2023-05-10 Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
 => ../v.beau.toxic_masculinity.gmi 2023-05-10 Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."

@@ -1,0 +1,55 @@
+# RE: Division, remainder, mod ➗%❓
+siiky
+2023/06/18
+2023/06/18
+2023/06/18
+en
+
+=> gemini://freeshell.de/gemlog/2023-06-18_Division__remainder__mod.gmi Division, remainder, mod ➗%❓
+
+> I'm not qualified to say if that's true (and I don't really care)
+
+Yes, you are qualified. You can tell whether -1 and 1 are the same number.
+
+And yes, as a programmer, you should care. Integers are the most basic atomic data type in a computer. As programmers we have to deal with integers and do integer arithmetic all the time. Both remainder and modulo are useful (the latter more so than the former, in my experience), and knowing which one we have in hands can be the difference between the program we just wrote doing what we expected or crashing.
+
+> Whitespace was originally implemented in Haskell, and I wrote an interpreter in Java. These two languages disagree on what the operator % means for negative inputs, so I read what Wikipedia has to say on the differrence.
+> Oh, wow! What a mess.
+
+There's no % operator in Haskell (AFAIK?), you usually either use rem or mod (an example of why you should care). And yeah, that Wikipedia page is not the friendliest...
+
+> What integer do you round to if you can't divide exactly? Wikipedia lists FIVE ways to decide on the result, with graphs. Ouch.
+
+Right, again, that page is not the best... Those graphs are just confusing.
+
+There's only one definition of "remainder", the one based on Euclidean division. Both quotient and remainder are well defined functions, and easy to implement in any programming language too. The "different ways" are implementation details -- "how", not "what". However the integer division is implemented -- be it "truncating", "flooring" or whatever else -- what matters is if the language implements the quotient, remainder, and modulo correctly.
+
+> Once you've decided how integer division works, then you can decide what % means. Good luck. You won't please everyone.
+
+There's only one integer division definition (see above), so you only need to set % to the remainder or the modulo. Which of the two you pick is largely unimportant and, as you say, won't please everyone -- hardly important either. And after that, only if you choose modulo do you have another decision to make.
+
+(Fun fact: modulo is not a function, it's a relation. We talk as if it was a function to save our brains from melting.)
+
+That's where the a choice comes from. For example, -5 ≣ -2 ≣ 1 ≣ 4 ≣ 7 ≣ 10 (mod 3) -- which of the relation "outputs" do you pick as the function result? There's a single one sane option (which defines the "set of residues").
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Modular_arithmetic#Residue_systems
+
+> Math.floorMod() (...) does [what] siiky wanted.
+
+Indeed, that looks like what I need, thanks! Here's a (probably less efficient) alternative in case you only have the remainder to work with:
+
+```hs
+n `mod` m = ((n `rem` m) + m) `rem` m
+```
+
+```java
+(n % m + m) % m
+```
+
+```scm
+(remainder (+ (remainder n m) m) m)
+```
+
+> My practical advice is that remainder and mod are the same, except for negative numbers, where language implementers live in a wild, Bohemian, devil-may-care world, and do what they like.
+
+That's roughly correct, regarding remainder and modulo. The second part is largely correct too -- language implementers can do whatever the fuck they want... However, remember that there's only one remainder definition and an infinite number of modulo implementations, only one of which is sane. A serious language should use those.

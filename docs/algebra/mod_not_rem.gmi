@@ -84,12 +84,12 @@ While researching to write this I found the following blog post.
 > (...)
 > I had to look this up too, just like the last time the subject came up. It's one of those things that I know, but don't retain.
 
-"Oh no, just another person who doesn't even know what the modulo is... :/"
+"Oh no, just another person who doesn't know what the modulo is... :/"
 
 I also found these two Wikipedia pages refering to the % operator as the "modulo operator".
 
-=> https://en.wikipedia.org/wiki/Modulo
-=> https://en.wikipedia.org/wiki/C_(programming_language)#Operators
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Modulo
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?C_(programming_language)#Operators
 
 Fuck me...
 
@@ -162,3 +162,7 @@ In #c@libera.chat:
 If you can take out of this post a single little thing, let it be this: REMAINDER IS NOT MODULO!
 
 And please share the word!
+
+## Replies
+
+=> gemini://freeshell.de/gemlog/2023-06-18_Division__remainder__mod.gmi Division, remainder, mod ➗%❓

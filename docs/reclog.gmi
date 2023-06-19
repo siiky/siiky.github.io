@@ -9,6 +9,15 @@ siiky
 
 I update this page manually.
 
+=> gemini://rochelimit.uk/articles/20230617_politicians_want_students_to_fail.gmi 2023-06-18 Politicians Want Students to Fail
+=> gemini://gemini.ucant.org/gemlog/2023-06-17_re_degrowth_and_its_discontents.gmi 2023-06-18 Re: degrowth and its discontents
+=> gemini://rawtext.club/~winter/gemlog/2023/6-18.gmi 2023-06-18 Tomorrow & tomorrow & tomorrow
+=> gemini://text.eapl.mx/por-que-y-para-que-tener-un-blog 2023-06-18 ¿Por qué y para qué tener un blog?
+=> gemini://thrig.me/blog/2023/06/18/formfeed-rabbithole.gmi 2023-06-18 A Formfeed Rabbithole
+=> gemini://circadian.gemlog.org/2023-06-18-face-blindness.gmi 2023-06-18 Face Blindness
+=> gemini://alextheuxguy.mooo.com/2023-06-18.gmi 2023-06-18 Father's Day
+=> gemini://text.eapl.mx/un-habito-de-3-minutos-para-escribir-por-muchos-dias-seguidos 2023-06-18 Un hábito de 3 minutos para escribir por muchos días seguidos
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-06-18.asshole.gmi 2023-06-18 Not Being an Asshole
 => gemini://alextheuxguy.mooo.com/2023-06-17.gmi 2023-06-18 re: Other People Have Loved This Too
 => gemini://thrig.me/blog/2023/06/17/communicative-culture.gmi 2023-06-18 Communicative Culture
 => gemini://alexschroeder.ch/page/2023-06-16%20Reinventing%20search 2023-06-18 Reinventing search

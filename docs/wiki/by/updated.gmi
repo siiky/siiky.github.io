@@ -1,6 +1,6 @@
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
-=> ../books.gmi 2023-06-16-13 Books list
+=> ../books.gmi 2023-06-16 Books list
 => ../videos.gmi 2023-06-13 Videos
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../pl.erlang.gmi 2023-06-12 Erlang (programming language)

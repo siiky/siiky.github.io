@@ -2,12 +2,12 @@
 siiky
 2023/05/10
 2023/05/10
-2023/05/12
+2023/06/19
 video,philosophy,science,society,ai
 
 => https://invidious.snopyta.org/watch?v=yAgQWnD31nE
 => https://invidious.snopyta.org/watch?v=Y6Sgp7y178k
 
-=> https://en.wikipedia.org/wiki/Geoffrey_Hinton
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Geoffrey_Hinton
 
 Actually sounds like a smart guy, but I'm not so sure that "AI" really "thinks" the way humans think.
