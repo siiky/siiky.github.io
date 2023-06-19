@@ -1,13 +1,16 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/06/18
+2023/06/19
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://gemi.dev/gemlog/2023-06-19-just-let-me-fucking-play.gmi 2023-06-19 I just want to fucking play Call of Duty on my day off
+=> gemini://ploum.net/2023-06-19-more-rms.gmi 2023-06-19 We need more of Richard Stallman, not less
 
 => gemini://rochelimit.uk/articles/20230617_politicians_want_students_to_fail.gmi 2023-06-18 Politicians Want Students to Fail
 => gemini://gemini.ucant.org/gemlog/2023-06-17_re_degrowth_and_its_discontents.gmi 2023-06-18 Re: degrowth and its discontents
