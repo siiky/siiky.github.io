@@ -1,13 +1,16 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/06/19
+2023/06/21
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://dj-chase.com/documents/re-lib-rocks.gmi 2023-06-21 Re: The Library Rocks!
+=> gemini://gemini.hitchhiker-linux.org/gemlog/re_richard_stallman.gmi 2023-06-21 Re: Richard Stallman
 
 => gemini://gemi.dev/gemlog/2023-06-19-just-let-me-fucking-play.gmi 2023-06-19 I just want to fucking play Call of Duty on my day off
 => gemini://ploum.net/2023-06-19-more-rms.gmi 2023-06-19 We need more of Richard Stallman, not less
