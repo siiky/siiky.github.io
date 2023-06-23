@@ -1404,7 +1404,7 @@ e
 7 8
 EOD
 plot $SomeData # ...
-&lt;/pre&gt;&lt;p&gt;This kind of inline data definition doesn&amp;#39;t seem to work on the REPL though... At least I couldn&amp;#39;t make it work.&lt;/p&gt;&lt;p&gt;For tabular data files, files may have many columns, some that you want, some&lt;br&gt;&lt;/br&gt;that you don&amp;#39;t, some that are in the wrong order... To solve that, you use&lt;br&gt;&lt;/br&gt;using:&lt;/p&gt;&lt;pre&gt;plot &amp;quot;-&amp;quot; using 1:3
+&lt;/pre&gt;&lt;p&gt;This kind of inline data definition doesn&amp;#39;t seem to work on the REPL though... At least I couldn&amp;#39;t make it work.&lt;/p&gt;&lt;p&gt;For tabular data files, files may have many columns, some that you want, some that you don&amp;#39;t, some that are in the wrong order... To solve that, you use using:&lt;/p&gt;&lt;pre&gt;plot &amp;quot;-&amp;quot; using 1:3
 1 2 3
 4 5 6
 7 8 9

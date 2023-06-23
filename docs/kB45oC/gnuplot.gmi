@@ -154,9 +154,7 @@ plot $SomeData # ...
 
 This kind of inline data definition doesn't seem to work on the REPL though... At least I couldn't make it work.
 
-For tabular data files, files may have many columns, some that you want, some
-that you don't, some that are in the wrong order... To solve that, you use
-using:
+For tabular data files, files may have many columns, some that you want, some that you don't, some that are in the wrong order... To solve that, you use using:
 
 ```gp
 plot "-" using 1:3
