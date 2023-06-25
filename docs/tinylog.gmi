@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-25 15:21 +0100
+Uni is aallmost over. Had to work a big PA for these past two weeks, and tomorrow will be the presentation (40min long; oof).
+We had to develop a geo-replicated KV datastore with client causal consistency. It had three big components: clients, session servers, and data servers. We wrote the clients in Erlang (our choice), the session servers in Erlang (requirement), and the data servers in Java (requirement). Clients and session servers communicated through TCP, and session servers and data servers communicated through ZeroMQ.
+It had quite a few (proposed) features, we had to skip a couple for lack of time, and, personally, prefering to get shit just right instead of kinda working.
+It was awesome working on a semi-serious project in Erlang and with ZeroMQ.
+=> wiki/pl.erlang.gmi
+
 ## 2023-06-13 15:58 +0100
 > O seguro morreu de velho; o desconfiado ainda é vivo.
 From EP08 of Ballet Rose.
