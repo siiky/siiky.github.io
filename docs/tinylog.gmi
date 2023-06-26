@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-06-26 16:30 +0100
+Yesterday for the first time in several months I took a few hours to just relax and watch a film.
+=> wiki/films.gmi
+
 ## 2023-06-25 15:21 +0100
 Uni is aallmost over. Had to work a big PA for these past two weeks, and tomorrow will be the presentation (40min long; oof).
 We had to develop a geo-replicated KV datastore with client causal consistency. It had three big components: clients, session servers, and data servers. We wrote the clients in Erlang (our choice), the session servers in Erlang (requirement), and the data servers in Java (requirement). Clients and session servers communicated through TCP, and session servers and data servers communicated through ZeroMQ.
