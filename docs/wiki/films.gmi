@@ -1,0 +1,14 @@
+# Cinena/Films/Movies
+siiky
+2023/06/25
+2023/06/25
+2023/06/25
+list
+
+Similar page to my books list.
+
+=> books.gmi
+
+## Watched
+
+=> https://www.imdb.com/title/tt0056937 2023-06-25 Cleopatra

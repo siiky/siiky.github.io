@@ -1,3 +1,4 @@
+=> ../films.gmi 2023-06-25 Cinena/Films/Movies
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../pl.factor.gmi 2023-05-24 Factor (programming language)
