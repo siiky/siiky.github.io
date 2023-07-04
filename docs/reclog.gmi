@@ -1,13 +1,26 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/06/21
+2023/07/04
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://circadian.gemlog.org/2023-07-03-school-dinners.gmi 2023-07-04 School Dinners
+=> gemini://dimension.sh/~textmonger/2023-07-03-01-i-miss-when-point-was-simply-a-beer.gmi 2023-07-04 I miss when point was simply a beer
+=> gemini://dimension.sh/~textmonger/2023-07-03-02-re-jsreed5-an-interpersonal-quandary.gmi 2023-07-04 Re: jsreed5: An Interpersonal Quandary
+=> gemini://notebook.locrian.zone/essays/pronouns.gmi 2023-07-04 What is a pronoun.
+=> gemini://gemini.hitchhiker-linux.org/gemlog/really.gmi 2023-07-04 Really?
+=> gemini://jsreed5.org/log/2023/202307/20230703-an-interpersonal-quandary.gmi 2023-07-04 An Interpersonal Quandary
+
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-03.whosnotgettingit.gmi 2023-07-03 Missing what point?
+=> gemini://senders.io/gemlog/missing-the-point.gmi 2023-07-03 Missing the point
+=> gemini://dimension.sh/~textmonger/2023-07-02-01-pulling-out-the-mental-roots.gmi 2023-07-03 Pulling out the mental roots
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-01.freedom.gmi 2023-07-03 re: The Supreme Court and other fools
+=> gemini://gemini.hitchhiker-linux.org/gemlog/the_supreme_court_has_completely_lost_all_credibility_at_this_point.gmi 2023-07-03 The Supreme Court has completely lost all credibility at this point
 
 => gemini://dj-chase.com/documents/re-lib-rocks.gmi 2023-06-21 Re: The Library Rocks!
 => gemini://gemini.hitchhiker-linux.org/gemlog/re_richard_stallman.gmi 2023-06-21 Re: Richard Stallman
