@@ -9,6 +9,9 @@ siiky
 
 I update this page manually.
 
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-04.reader.gmi 2023-07-04 The Reader
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-04.short.gmi 2023-07-04 On Being Short
+=> gemini://dimension.sh/~textmonger/2023-07-04-01-somehow-i-like-this-one-more-than-that-whatever-shall-i-do.gmi 2023-07-04 Somehow I like this one more than that. Whatever shall I do?
 => gemini://hyperreal.coffee/reading/2023-07-03-weekly-reading-list-0.gmi 2023-07-04 Week of 2023-07-03
 => gemini://circadian.gemlog.org/2023-07-03-school-dinners.gmi 2023-07-04 School Dinners
 => gemini://dimension.sh/~textmonger/2023-07-03-01-i-miss-when-point-was-simply-a-beer.gmi 2023-07-04 I miss when point was simply a beer
