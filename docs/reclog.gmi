@@ -1,13 +1,18 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/07/04
+2023/07/15
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://dimension.sh/~textmonger/2023-07-15-01-fundamentalism-seems-alive-and-well.gmi 2023-07-15 Fundamentalism seems alive and well
+=> gemini://library.inu.red/document/bryan-tucker-authoritarian-character-structure 2023-07-15 Authoritarian Character Structure
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-15.veganism.gmi 2023-07-15 Veganism Is Not An Insult To Native People
+=> gemini://library.inu.red/document/margaret-robinson-veganism-and-mi-kmaw-legends 2023-07-15 Veganism and Mi’kmaw Legends
 
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-04.reader.gmi 2023-07-04 The Reader
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-04.short.gmi 2023-07-04 On Being Short
