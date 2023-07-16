@@ -9,8 +9,12 @@ siiky
 
 I update this page manually.
 
-=> gemini://thurk.org/blog/601.gmi 2023-07-15 Should I Subscribe to the So-Called Legends?
-=> gemini://gemini.locrian.zone/gemlog/htct.gmi 2023-07-15 Is Ann Reardon a hack? | Generic clickbait title for maximum engagement!
+=> gemini://republic.circumlunar.space/users/dbane/gemlog/2023-07-12.gmi 2023-07-16 Garbage collection nowadays
+=> gemini://ferds.flounder.online/gemlog/Debian_12.gmi 2023-07-16 Goodbye Manjaro, Hello Debian
+=> gemini://jsreed5.org/math/20230714-a-proof-that-0-999-1/index.gmi 2023-07-16 A Proof that 0.999...=1
+=> gemini://thewomaninmyeye.org/log/it-was-never-about-clothes.gmi 2023-07-16 It was never about clothes
+=> gemini://thurk.org/blog/601.gmi 2023-07-16 Should I Subscribe to the So-Called Legends?
+=> gemini://gemini.locrian.zone/gemlog/htct.gmi 2023-07-16 Is Ann Reardon a hack? | Generic clickbait title for maximum engagement!
 
 => gemini://dimension.sh/~textmonger/2023-07-15-01-fundamentalism-seems-alive-and-well.gmi 2023-07-15 Fundamentalism seems alive and well
 => gemini://library.inu.red/document/bryan-tucker-authoritarian-character-structure 2023-07-15 Authoritarian Character Structure
