@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://thurk.org/blog/601.gmi 2023-07-15 Should I Subscribe to the So-Called Legends?
 => gemini://gemini.locrian.zone/gemlog/htct.gmi 2023-07-15 Is Ann Reardon a hack? | Generic clickbait title for maximum engagement!
 
 => gemini://dimension.sh/~textmonger/2023-07-15-01-fundamentalism-seems-alive-and-well.gmi 2023-07-15 Fundamentalism seems alive and well
