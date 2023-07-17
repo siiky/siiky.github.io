@@ -9,6 +9,10 @@ siiky
 
 I update this page manually.
 
+=> gemini://warmedal.se/~bjorn/posts/2023-07-13-four-leaf-clovers.gmi 2023-07-16 Four Leaf Clovers
+=> gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-16.consent.gmi 2023-07-16 Consent, But Only When Convenient
+=> gemini://circadian.gemlog.org/2023-07-15-fading-echoes.gmi 2023-07-16 Fading Echoes
+=> gemini://ghostze.ro/posts/old-computer-challenge-wrapup.gmi 2023-07-16 Old Computer Challenge: Wrap Up
 => gemini://republic.circumlunar.space/users/dbane/gemlog/2023-07-12.gmi 2023-07-16 Garbage collection nowadays
 => gemini://ferds.flounder.online/gemlog/Debian_12.gmi 2023-07-16 Goodbye Manjaro, Hello Debian
 => gemini://jsreed5.org/math/20230714-a-proof-that-0-999-1/index.gmi 2023-07-16 A Proof that 0.999...=1
