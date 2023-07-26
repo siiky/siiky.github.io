@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-07-26 16:21 +0100
+Just replaced all invidious.snopyta.org URLs with yewtu.be:
+```vim
+GitGrep https://invidious.snopyta.org -- '*.gmi'
+bufdo %s/https:\/\/invidious.snopyta.org/https:\/\/yewtu.be/gc
+```
+
 ## 2023-07-26 16:16 +0100
 => https://www.wildbirdfund.org/wp-content/uploads/2022/05/I-found-a-baby-bird-with-photos-large-2-scaled.jpg
 
