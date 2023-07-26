@@ -7,6 +7,9 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-07-26 16:16 +0100
+=> https://www.wildbirdfund.org/wp-content/uploads/2022/05/I-found-a-baby-bird-with-photos-large-2-scaled.jpg
+
 ## 2023-06-26 17:36 +0100
 The presentation went well. The professors are hard to impress, but they didn't point out anything wrong with the project. They gave 2 or 3 ideas/suggestions/"why didn't you do it this way?", that was all. Apparently they didn't expect a multi-threaded data server, but were glad we used ZMQ there too. I'm sad we didn't have the time for CRDT-based rate limiting.
 In any case, this is it for the semester and for the year, all I have to do now is wait for the grades, enjoy my non-vacations and think about a subject for the master's thesis... :|
