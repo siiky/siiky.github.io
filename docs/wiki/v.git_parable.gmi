@@ -5,7 +5,7 @@ siiky
 2023/02/28
 video,git
 
-=> https://invidious.snopyta.org/watch?v=ANNboouhNHE
+=> https://yewtu.be/watch?v=ANNboouhNHE
 
 A short talk explaining the basic Git structure, based on The Git Parable.
 

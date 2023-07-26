@@ -5,7 +5,7 @@ siiky
 2023/05/12
 video,programming
 
-=> https://invidious.snopyta.org/watch?v=GWiAQs4-UQ0
+=> https://yewtu.be/watch?v=GWiAQs4-UQ0
 
 Short video about RISC-V assembly.
 

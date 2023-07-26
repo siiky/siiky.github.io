@@ -14,8 +14,8 @@ language,psychology
 => https://jan-ne.github.io
 => https://toki.social/public
 
-=> https://invidious.snopyta.org/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX
-=> https://invidious.snopyta.org/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ
+=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX
+=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ
 
 => https://liputenpo.org/category/lipu A zine
 => https://wikipesija.org/wiki/ilo_musi Wiki

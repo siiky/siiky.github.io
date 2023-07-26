@@ -48,7 +48,7 @@ In the formal definition of Petri nets, a token is a token, no matter if it was 
 Magics of mathematics to the rescue! You can visualize the evolution of a net as a string diagram! Really cool.
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?String_diagram String diagrams
-=> https://invidious.snopyta.org/watch?v=LY5H9uY7Gns ACT 2020 Tutorial: Introduction to string diagrams (Fabrizio Genovese)
+=> https://yewtu.be/watch?v=LY5H9uY7Gns ACT 2020 Tutorial: Introduction to string diagrams (Fabrizio Genovese)
 
 And even cooler because it brings an important detail in. Tokens in this graphical representation are not confused with each other: there's clearly a string (hence the name) connecting a certain value in a certain point in time to all its "ancestors", i.e., the order of firings and which tokens were consumed and produced to result in that value.
 

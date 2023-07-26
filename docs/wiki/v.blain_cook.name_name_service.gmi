@@ -5,7 +5,7 @@ siiky
 2023/05/12
 video,ipfs,distributed
 
-=> https://invidious.snopyta.org/watch?v=CHiCEd36KtI
+=> https://yewtu.be/watch?v=CHiCEd36KtI
 => https://talk.fission.codes/t/nns-the-name-name-system/3684
 
 Video about an idea for a decentralized and universal/unified name service.

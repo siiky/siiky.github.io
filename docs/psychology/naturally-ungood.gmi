@@ -12,6 +12,6 @@ I think it'll help me internally. I fail as much as anybody. It'll help me toler
 
 => gemini://beyondneolithic.life/posts/human_un-nature.gmi Beyond Neolithic Life, "Human Un-nature"
 => gemini://degrowther.smol.pub/20220804_human_nature degrowther, "Re: Human Un-nature"
-=> https://invidious.snopyta.org/watch?v=JUt5gjqNI1w Aaron Swartz, "We Can Change The World"
+=> https://yewtu.be/watch?v=JUt5gjqNI1w Aaron Swartz, "We Can Change The World"
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Moral_Mazes Robert Jackall, "Moral Mazes"
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Aaron_Swartz Aaron Swartz

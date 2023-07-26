@@ -5,8 +5,8 @@ siiky
 2023/06/19
 video,philosophy,science,society,ai
 
-=> https://invidious.snopyta.org/watch?v=yAgQWnD31nE
-=> https://invidious.snopyta.org/watch?v=Y6Sgp7y178k
+=> https://yewtu.be/watch?v=yAgQWnD31nE
+=> https://yewtu.be/watch?v=Y6Sgp7y178k
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Geoffrey_Hinton
 

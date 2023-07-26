@@ -14,18 +14,18 @@ From the docs homepage (haven't watched them myself yet):
 ## Videos worth watching
 
 ### Clay Shirky (NYU)
-=> https://invidious.snopyta.org/watch?v=sPQViNNOAkw Institutions vs Collaboration
-=> https://invidious.snopyta.org/watch?v=AyoNHIl-QLQ Where do people find the time (part 1)
-=> https://invidious.snopyta.org/watch?v=jNCblGv0zjU Where do people find the time (part 2)
+=> https://yewtu.be/watch?v=sPQViNNOAkw Institutions vs Collaboration
+=> https://yewtu.be/watch?v=AyoNHIl-QLQ Where do people find the time (part 1)
+=> https://yewtu.be/watch?v=jNCblGv0zjU Where do people find the time (part 2)
 
 ### Ben Collins-Sussman and Brian Fitzpatrick (Subversion)
-=> https://invidious.snopyta.org/watch?v=Q52kFL8zVoM How Open Source Projects Survive Poisonous People
+=> https://yewtu.be/watch?v=Q52kFL8zVoM How Open Source Projects Survive Poisonous People
 
 ### Martin Michlmayr (Debian)
-=> https://invidious.snopyta.org/watch?v=IKsQsxubuAA Release Management in Large Free Software Projects
+=> https://yewtu.be/watch?v=IKsQsxubuAA Release Management in Large Free Software Projects
 
 ### Linus Torvalds
-=> https://invidious.snopyta.org/watch?v=4XpnKHJAok8 Why I Created Git
+=> https://yewtu.be/watch?v=4XpnKHJAok8 Why I Created Git
 
 ### Greg Kroah-Hartman
-=> https://invidious.snopyta.org/watch?v=CqDUfiH2PzQ Linux Device Driver Tutorial
+=> https://yewtu.be/watch?v=CqDUfiH2PzQ Linux Device Driver Tutorial

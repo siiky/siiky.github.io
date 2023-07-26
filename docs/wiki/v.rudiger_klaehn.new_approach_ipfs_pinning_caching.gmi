@@ -5,7 +5,7 @@ siiky
 2023/05/12
 talk,ipfs
 
-=> https://invidious.snopyta.org/watch?v=MCt3if9H64I
+=> https://yewtu.be/watch?v=MCt3if9H64I
 
 Talk about ipfs-embed and the work the speaker is doing at Actyx.
 

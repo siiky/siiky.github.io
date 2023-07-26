@@ -5,6 +5,6 @@ siiky
 2023/05/12
 video,programming,technology
 
-=> https://invidious.snopyta.org/watch?v=6U_bHTnFu-g
+=> https://yewtu.be/watch?v=6U_bHTnFu-g
 
 Video about the USB protocol and how to use a USB software implementation on an Atmega MCU.

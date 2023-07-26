@@ -8,9 +8,9 @@ video,programming
 => https://odysee.com/@ChibiAkumas:7/Learn-Risc-V-Assembly-Programming---Lesson1-_-For-absolute-beginners!:c
 => https://odysee.com/@ChibiAkumas:7/RISC-V-Lesson-2---The-stack-and-conditions:a
 => https://odysee.com/@ChibiAkumas:7/Risc-V-Assembly-Lesson-3---Bit-ops-and-more-maths!:9
-=> https://invidious.snopyta.org/watch?v=bEUMLh2lasE
-=> https://invidious.snopyta.org/watch?v=rvhDyJVuAzk
-=> https://invidious.snopyta.org/watch?v=mV8HUKxLRxI
+=> https://yewtu.be/watch?v=bEUMLh2lasE
+=> https://yewtu.be/watch?v=rvhDyJVuAzk
+=> https://yewtu.be/watch?v=mV8HUKxLRxI
 
 Set of videos on RISC-V assembly programming.
 

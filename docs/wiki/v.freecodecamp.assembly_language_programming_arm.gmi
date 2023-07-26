@@ -6,7 +6,7 @@ siiky
 video,course,programming
 
 => https://www.freecodecamp.org/news/learn-assembly-language-programming-with-arm/
-=> https://invidious.snopyta.org/watch?v=gfmRrPjnEw4
+=> https://yewtu.be/watch?v=gfmRrPjnEw4
 
 Short-ish freecodecamp video about ARM assembly.
 

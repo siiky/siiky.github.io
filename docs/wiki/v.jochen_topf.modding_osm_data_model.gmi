@@ -5,7 +5,7 @@ siiky
 2023/02/28
 video,osm,database,permaculture
 
-=> https://invidious.snopyta.org/watch?v=rbxabz22ni4
+=> https://yewtu.be/watch?v=rbxabz22ni4
 
 A "proposal" discussion on changing the OSM data model to make it friendlier to processing.
 
