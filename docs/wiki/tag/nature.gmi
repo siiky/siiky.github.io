@@ -1,3 +1,6 @@
+=> ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
+=> ../book.duarte_mendes.nove_passos.gmi 2023-07-27 Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
+=> ../book.antonio_vaz.manual_biourb.gmi 2023-07-27 António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"

@@ -12,6 +12,7 @@
 => ../v.honest_discussion_organic_maps_devs.gmi "An honest discussion with organic maps developers"
 => ../p.animal_sex_determination.gmi "Animal Sex Determination Is Weirder Than You Think"
 => ../sotm2022.mapping_crises_communities_capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
+=> ../book.antonio_vaz.manual_biourb.gmi António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
 => ../v.freecodecamp.assembly_language_programming_arm.gmi "Assembly Language Programming with ARM – Full Tutorial for Beginners"
 => ../v.beau.toxic_masculinity.gmi Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
@@ -49,6 +50,7 @@
 => ../v.exurb1a.dont_hex_the_water.gmi "Don't Hex the Water"
 => ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
+=> ../book.duarte_mendes.nove_passos.gmi Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
 => ../pl.elixir.gmi Elixir (programming language)
 => ../v.tedx.western_feminism_african_women.gmi Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../p.visual_programming-what_went_wrong.gmi emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"
@@ -131,6 +133,7 @@
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../petri_nets.gmi Petri nets
+=> ../book.philippe_delgleize.devastacao.gmi Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
 => ../fosdem2023.zigandguile.gmi Pjotr Prins, "Zig and Guile for fast code and a REPL"
 => ../v.planetdoc.men_of_the_fifth_world.gmi Planet Doc, "The Men of Fifth World"
 => ../police.gmi Police

@@ -1,3 +1,6 @@
+=> ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
+=> ../book.duarte_mendes.nove_passos.gmi 2023-07-27 Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
+=> ../book.antonio_vaz.manual_biourb.gmi 2023-07-27 António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"
 => ../films.gmi 2023-06-25 Cinena/Films/Movies
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"

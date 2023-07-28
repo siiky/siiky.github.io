@@ -1,1 +1,0 @@
-=> ../fosdem2023.liberatestorytelling.gmi 2023-02-05 Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"

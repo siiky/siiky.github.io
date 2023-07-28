@@ -7,6 +7,13 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-07-28 01:13 +0100
+> Amanhã contamos os mortos
+> Depois de amanhã os cêntimos
+=> wiki/book.philippe_delgleize.devastacao.gmi
+> Tomorrow we count the dead
+> The day after the cents
+
 ## 2023-07-26 16:21 +0100
 Just replaced all invidious.snopyta.org URLs with yewtu.be:
 ```vim
