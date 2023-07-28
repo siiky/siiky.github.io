@@ -1,3 +1,4 @@
+=> ../chemistry.acids_bases_ph.gmi Acids, bases and pH
 => ../v.sinelabs.usb_protocol_explained.gmi "Add USB To Your Electronics Projects! - The USB Protocol Explained"
 => ../p.aditya_chaturvedi.open_data_access_bedrock_of_sustainability.gmi Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"
 => ../person.agostinho_da_silva.gmi Agostinho da Silva
@@ -162,6 +163,7 @@
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../techstuffs.gmi Techstuffs
+=> ../physics.thermodynamics.gmi Thermodynamics
 => ../p.tim_urban.story_of_us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../nl.toki_pona.gmi toki pona (natural language)

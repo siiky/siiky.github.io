@@ -1,0 +1,12 @@
+# Thermodynamics
+siiky
+2023/07/28
+2023/07/28
+2023/07/28
+science,physics
+
+=> https://www.khanacademy.org/science/biology/energy-and-enzymes/the-laws-of-thermodynamics/v/introduction-to-energy
+
+## Definition of Temperature
+
+> Another example of kinetic energy is the energy associated with the constant, random bouncing of atoms or molecules. This is also called thermal energy -- the greater the thermal energy, the greater the kinetic energy of atomic mothin, and vice versa. The average thermal energy of a group of molecules is what we call temperature, and when thermal energy is being transfered between two objects, it's known as heat.

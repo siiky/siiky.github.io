@@ -1,0 +1,29 @@
+# Acids, bases and pH
+siiky
+2023/07/28
+2023/07/28
+2023/07/28
+science,chemistry
+
+=> https://www.khanacademy.org/science/biology/water-acids-and-bases/acids-bases-and-ph/v/autoionization-water
+
+## Svante Arrhenius's definition of acids/bases
+
+Acids increace the concentration of H+ (protons) when in an aqueous solution; bases increase the concnetration of OH- when in an aqueous solution.
+
+## Bronsted-Lowry definition of acids/bases
+
+Acids donate protons (H+); bases accept protons (H+).
+
+## Examples
+
+HCl (aq) -> H+ (aq) + CL- (aq)
+NaOH (aq) -> Na+ (aq) + OH- (aq)
+
+From this we can conclude that HCl is an acid, and that NaOH is a base.
+
+## Definition of pH
+
+pH = -log10 [H+] = -log10 [H3O+]  (where [H+]/[H3O+] is the concentration of H+/H3O+)
+
+Assuming [H+] is 10^-7 M for pure (distilled) water, 10^-4 M for orange juice, and 10^-12 M for bleach: water's pH is -log10(10^-7) = -(-7) = 7; orange juice's pH is 4; and bleach's pH is 12.

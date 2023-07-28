@@ -1,13 +1,19 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/07/16
+2023/07/28
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://tilde.cafe/~stack/gemlog/2023-07-25.baths.gmi 2023-07-28 Public Baths
+=> gemini://dimension.sh/~textmonger/2023-07-25-03-so-when-the-heck-is-september-gonna-end-anyway.gmi 2023-07-28 So when the heck is September gonna end, anyway?
+=> gemini://library.inu.red/document/ilyaros-black-comrades-against-the-japanese-occupation 2023-07-28 "Black comrades" against the Japanese occupation
+=> gemini://sporiff.dev/2023/07/26/nntp/ 2023-07-28 Please return to Newsgroups
+=> gemini://tilde.cafe/~stack/gemlog/2023-07-27.activism.gmi 2023-07-28 Real Everyday Activism
 
 => gemini://warmedal.se/~bjorn/posts/2023-07-13-four-leaf-clovers.gmi 2023-07-16 Four Leaf Clovers
 => gemini://gemini.ctrl-c.club/~stack/gemlog/2023-07-16.consent.gmi 2023-07-16 Consent, But Only When Convenient
