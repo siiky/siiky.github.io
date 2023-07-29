@@ -54,6 +54,7 @@
 => ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
 => ../book.duarte_mendes.nove_passos.gmi Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
+=> ../ecology.gmi Ecology
 => ../pl.elixir.gmi Elixir (programming language)
 => ../v.tedx.western_feminism_african_women.gmi Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../p.visual_programming-what_went_wrong.gmi emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"

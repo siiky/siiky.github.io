@@ -1,0 +1,20 @@
+# Ecology
+siiky
+2023/07/28
+2023/07/28
+2023/07/28
+science,biology,ecology
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ecology
+
+A subfield of study of biology concerned with how living beings interact with each other and with the physical (non-living) environment.
+
+The factors that affect an ecosystem can be classified as biotic (related to living beings) or abiotic (related to non-living things).
+
+There are different scales of study inside ecology:
+
+* Individual: the study of a single organism of a certain species
+* Population: the study of a group of individuals of a certain species within a certain area (which may be defined as a few km2, a country, a continent, the whole planet, ...), and how they interact with each other
+* Community: the study of all of the populations of all of the different species within a certain area, and how they interact with each other
+* Ecosystem: the study of the community as well as all the non-living things of the area (e.g. water, soil, air, &c), and how they interact with each other
+* Biosphere: the study of all the different ecosystems (commonly used to mean the planet Earth), and how they interact with each other

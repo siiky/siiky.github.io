@@ -1,4 +1,5 @@
 => ../physics.thermodynamics.gmi 2023-07-28 Thermodynamics
+=> ../ecology.gmi 2023-07-28 Ecology
 => ../biology.gmi 2023-07-28 Biology
 => ../chemistry.atoms.gmi 2023-07-28 Atoms
 => ../chemistry.acids_bases_ph.gmi 2023-07-28 Acids, bases and pH
