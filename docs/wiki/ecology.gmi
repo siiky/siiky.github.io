@@ -9,6 +9,8 @@ science,biology,ecology
 
 A subfield of study of biology concerned with how living beings interact with each other and with the physical (non-living) environment.
 
+=> biology.gmi
+
 The factors that affect an ecosystem can be classified as biotic (related to living beings) or abiotic (related to non-living things).
 
 There are different scales of study inside ecology:
