@@ -1,4 +1,6 @@
 => ../physics.thermodynamics.gmi 2023-07-28 Thermodynamics
+=> ../biology.gmi 2023-07-28 Biology
+=> ../chemistry.atoms.gmi 2023-07-28 Atoms
 => ../chemistry.acids_bases_ph.gmi 2023-07-28 Acids, bases and pH
 => ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
 => ../book.duarte_mendes.nove_passos.gmi 2023-07-27 Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"

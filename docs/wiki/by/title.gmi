@@ -16,9 +16,11 @@
 => ../book.antonio_vaz.manual_biourb.gmi António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"
 => ../fosdem2023.tissue.gmi Arun Isaac, "tissue—the minimalist git+plain text issue tracker"
 => ../v.freecodecamp.assembly_language_programming_arm.gmi "Assembly Language Programming with ARM – Full Tutorial for Beginners"
+=> ../chemistry.atoms.gmi Atoms
 => ../v.beau.toxic_masculinity.gmi Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
 => ../c.beau_fifth_column.gmi Beau of the Fifth Column
 => ../book.bhagavan_sri_ramana_maharshi.who_am_i.gmi Bhagavan Sri Ramana Maharshi, "Who Am I?"
+=> ../biology.gmi Biology
 => ../v.blain_cook.name_name_service.gmi Blaine Cook, "The Name Name Service"
 => ../books.gmi Books list
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"

@@ -1,0 +1,35 @@
+# Atoms
+siiky
+2023/07/28
+2023/07/28
+2023/07/28
+science,chemistry
+
+## Shells and subshells
+
+=> https://www.khanacademy.org/science/biology/chemistry--of-life/electron-shells-and-orbitals/a/the-periodic-table-electron-shells-and-orbitals-article
+
+An atom's electrons don't fly around the nucleus in an orbit, like a satellite around a planet. Instead, electrons "exist", move, zip here and there, within a certain space around the nucleus. The space around the nucleus an electron spends most of its time in (e.g. 90% of the time) is called an "orbital" (NOT an "orbit").
+
+Additionally, an atom's electrons don't all necessarily fit in the same orbital. Because of this, they're arranged in/distributed across shells (sort of like "levels"; see pic), called 1n, 2n, 3n, &c. Shells are generally filled with electrons from the lower to higher levels: first 1n, then 2n, then 3n, &c (there are exceptions, apparently?).
+
+=> https://cdn.kastatic.org/ka-perseus-images/87d06355e2e7f473352aab198549a97816c3011a.png Atom shells ("levels")
+
+In turn, each shell is composed of one or more subshells (see pic):
+
+* 1n is composed of 1s
+* 2n is composed of 2s and 2p
+* &c (i.e. I don't know more)
+
+And subshells are composed of one or more orbitals (see pic):
+
+* s subshells (1s, 2s, 3s, &c) are composed of a single orbital
+* p subshells (2p, 3p, &c) are composed of 3 orbitals (2px, 2py, 2pz, &c)
+* d subshells are composed of 5 orbitals
+* f subshells are composed of 7 orbitals
+
+=> https://cdn.kastatic.org/ka-perseus-images/1a86b516c8ecf29a7d1f2f17b4f54eb8bb7c72c2.png Atom shells & subshells
+
+Finally, each orbital may have at most 2 electrons, not more.
+
+s orbitals have a spherical shape; and p orbitals have a dumbbell (or "hourglass") shape; (don't know about the other two).
