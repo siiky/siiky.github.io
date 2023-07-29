@@ -1,4 +1,4 @@
-=> ../books.gmi 2023-07-27 Books list
+=> ../books.gmi 2023-07-29 Books list
 => ../films.gmi 2023-06-25 Cinena/Films/Movies
 => ../videos.gmi 2023-06-13 Videos
 => ../techstuffs.gmi 2023-06-05 Techstuffs
