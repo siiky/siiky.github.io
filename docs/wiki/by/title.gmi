@@ -20,6 +20,7 @@
 => ../v.beau.toxic_masculinity.gmi Beau of the Fifth Column, "Let's talk about toxic masculinity and men's movements...."
 => ../c.beau_fifth_column.gmi Beau of the Fifth Column
 => ../book.bhagavan_sri_ramana_maharshi.who_am_i.gmi Bhagavan Sri Ramana Maharshi, "Who Am I?"
+=> ../v.biointeractive.some_animals_are_more_equal_than_others.gmi biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 => ../biology.gmi Biology
 => ../v.blain_cook.name_name_service.gmi Blaine Cook, "The Name Name Service"
 => ../books.gmi Books list
@@ -153,6 +154,7 @@
 => ../roman_concrete.gmi Roman concrete
 => ../v.rudiger_klaehn.new_approach_ipfs_pinning_caching.gmi Rüdiger Klaehn, "A new approach to IPFS pinning and caching"
 => ../wp.ryan_hediger.animal_suicide.gmi Ryan Hediger, "Animal suicide and 'anthropodenial'"
+=> ../v.sabine_hossenfelder.greenwashing.gmi Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
 => ../v.sasa_juric.soul_of_erlang_and_elixir.gmi Sasa Juric, "The Soul of Erlang and Elixir"
 => ../sbc_server.gmi SBC server
 => ../pl.scheme.gmi Scheme (programming language)
@@ -167,6 +169,7 @@
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../techstuffs.gmi Techstuffs
 => ../physics.thermodynamics.gmi Thermodynamics
+=> ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi Thunderf00t, "Can a new fuel solve climate change?"
 => ../p.tim_urban.story_of_us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"
 => ../nl.toki_pona.gmi toki pona (natural language)

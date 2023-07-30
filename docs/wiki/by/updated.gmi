@@ -1,4 +1,8 @@
+=> ../videos.gmi 2023-07-29 Videos
+=> ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi 2023-07-29 Thunderf00t, "Can a new fuel solve climate change?"
+=> ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
 => ../books.gmi 2023-07-29 Books list
+=> ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 => ../physics.thermodynamics.gmi 2023-07-28 Thermodynamics
 => ../ecology.gmi 2023-07-28 Ecology
 => ../biology.gmi 2023-07-28 Biology
@@ -10,7 +14,6 @@
 => ../films.gmi 2023-06-25 Cinena/Films/Movies
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
-=> ../videos.gmi 2023-06-13 Videos
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../pl.erlang.gmi 2023-06-12 Erlang (programming language)
 => ../techstuffs.gmi 2023-06-05 Techstuffs

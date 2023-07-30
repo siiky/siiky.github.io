@@ -1,3 +1,6 @@
+=> ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi 2023-07-29 Thunderf00t, "Can a new fuel solve climate change?"
+=> ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
+=> ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"

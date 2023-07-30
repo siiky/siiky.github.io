@@ -20,3 +20,45 @@ There are different scales of study inside ecology:
 * Community: the study of all of the populations of all of the different species within a certain area, and how they interact with each other
 * Ecosystem: the study of the community as well as all the non-living things of the area (e.g. water, soil, air, &c), and how they interact with each other
 * Biosphere: the study of all the different ecosystems (commonly used to mean the planet Earth), and how they interact with each other
+
+## Demography
+
+=> https://www.khanacademy.org/science/biology/ecology/population-ecology/a/population-size-density-and-dispersal
+
+The study of populations and how they change over time. Population may be measured in absolute size or in density (size/area). Another important detail is the distribution of the population: uniform, random, or clustered.
+
+=> https://www.khanacademy.org/science/biology/ecology/population-ecology/a/life-tables-survivorship-age-sex-structure
+
+### Life tables
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Life_table
+
+Basically a table of survival percentage per age and other factors.
+
+### Survivorship curves
+
+Graphs representing life tables.
+
+There are three main types of survivorship curves:
+
+* I -- organisms don't usually die young; instead they grow old and die of old age. Humans are an example of this. Type I species usually have few offspring and provide lots of parental care (they have few offspring after all).
+* II -- organisms have roughly the same chances of dying at any age. Type II species also usually have few offspring, though possibly more than type I, and still give some parental care. Birds are an example of this type.
+* III -- organisms have a very high chance of NOT surviving young age; but after hitting a certain threshold they have a very high probability of growing old and dying of old age. Species of this type usally have very large numbers of offspring and provide close to no parental care. Examples are trees, fish, amphibians, &c.
+
+### Population pyramid
+
+A survivorship curve of a species by itself is not enough to predict whether a population of that species will grow or shrink. Facts of the different individuals are necessary for that.
+
+For example, given two populations of bears of the same species and of the same size, if one of them is mostly reproductive-aged individuals, and the other is mostly non-reproductive old-aged individuals -- the former is expected to increase in size, while the latter is expected to decrease in size.
+
+Also useful to know is the sex distribution of individuals. Both these statistics can be gather in a single population pyramid: an horizontal histogram, where the horizontal axis represents the percentage of individuals of one sex (e.g. male left, female right), and the vertical axis represents the age of a group of individuals of a sex group.
+
+=> https://cdn.kastatic.org/ka-perseus-images/9a813489ea0a0f80142954f72e387d446caf44c2.png Population pyramid
+=> https://cdn.kastatic.org/ka-perseus-images/f066955c5484153779452015b9cc1b55a479cb72.png Human population growth
+
+### Fecundity
+
+=> https://www.khanacademy.org/science/biology/ecology/population-ecology/v/organism-life-history-and-fecundity
+=> https://www.khanacademy.org/science/biology/ecology/population-ecology/a/life-history-strategies
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Fecundity
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Semelparity_and_iteroparity

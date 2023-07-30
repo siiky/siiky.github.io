@@ -1,3 +1,4 @@
+=> ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
