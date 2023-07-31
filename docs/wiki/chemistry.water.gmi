@@ -38,3 +38,25 @@ The phenomenon where e.g. water (3) "climbs" through e.g. a thin glass tube (1) 
 ## Surface tension
 
 Surface tension is what keeps, for example, those water strider insects afloat. And it happens simply because water has a greater attraction to H2O molecules than to air. This is also the reason why you can carefully lay a clip on the water without it sinking, and why an overfilled cup flows forms a bulge without spilling.
+
+## Evaporative cooling
+
+=> https://www.khanacademy.org/science/biology/water-acids-and-bases/water-as-a-solid-liquid-and-gas/v/evaporative-cooling
+
+How does sweating cool our bodies? Temperature is the average thermal energy of a certain body. With sweat (i.e. water) covering e.g. our arms (assuming the arm is hot), the arm molecules will be moving/rotating/&c a lot (because thermal energy is actually kinetic energy). Sometimes they'll hit water molecules and transfer some of their energy to the water molecules. The more energy a water molecule has, the more likely it is to split free from the rest of the water molecules. When a high-energy water molecule flies out, the everage thermal energy of the sweat and your arm goes down.
+
+The "escape" of water molecules from the rest is called "evaporation".
+
+## Heat of vaporization
+
+=> https://www.khanacademy.org/science/biology/water-acids-and-bases/water-as-a-solid-liquid-and-gas/v/heat-of-vaporization-of-water-and-ethanol
+
+Heat of vaporization is the amount of energy necessary for a molecule to evaporate. Water has a higher heat of vaporization than e.g. ethanol (2260 J/g vs 841 J/g). This is because, on a molecular level, not only does water have more hydrogen bonds, they're stronger too.
+
+## Specific heat
+
+=> https://www.khanacademy.org/science/biology/water-acids-and-bases/water-as-a-solid-liquid-and-gas/v/specific-heat-of-water
+
+The amount of heat needed to raise 1g of a substance by 1°C. The specific head of water is called "calorie".
+
+Water has a high specific heat because of the hydrogen bonds. When there's energy transfer into a body of water, the energy is actually being used to first break the hydrogen bonds, and only then to increase the thermal energy of a particular molecule.
