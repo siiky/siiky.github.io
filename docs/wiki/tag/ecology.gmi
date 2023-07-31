@@ -1,2 +1,2 @@
+=> ../ecology.gmi 2023-07-31 Ecology
 => ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
-=> ../ecology.gmi 2023-07-28 Ecology

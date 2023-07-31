@@ -30,6 +30,7 @@
 => ../carfree_cities.gmi Carfree Cities
 => ../carfree_movement.gmi Carfree Movement
 => ../v.tedx.meeting_the_enemy.gmi Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
+=> ../chemistry.gmi Chemestry
 => ../v.chibiakumas.riscv_assembly_programming.gmi ChibiAkumas, "RISC-V Assembly Programming"
 => ../pl.chicken.gmi CHICKEN Scheme
 => ../films.gmi Cinena/Films/Movies

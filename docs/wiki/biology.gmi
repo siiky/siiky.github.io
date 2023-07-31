@@ -28,3 +28,12 @@ science,biology
 => chemistry.atoms.gmi
 
 > Most of organic chemistry—the chemistry of carbon-containing compounds, which are central to biology—involves interactions between electrons in s and p subshells, so these are the most important subshell types to be familiar with.
+
+## Fats
+
+> In fats and oils, long carbon chains called fatty acids often contain double bonds, which can be in either the cis or trans configuration (shown below). Fatty acids that contain cis double bonds are typically oils at room temperature. This is because the bends in the backbone caused by cis double bonds prevent the fatty acids from packing tightly together. In contrast, fatty acids with trans double bonds (popularly called trans fats), are relatively linear, so they can pack tightly together at room temperature and form solid fats.
+>
+> Trans fats are linked to an increased risk of cardiovascular disease, so many food manufacturers have eliminated their use in recent years. Fats with trans double bonds are found in some types of shortening and margarine, while fats with cis double bonds may be found in oils, such as olive oil and canola oil. See the article on lipids to learn more about the different types of fats.
+
+=> https://cdn.kastatic.org/ka-perseus-images/cd652e01368ddc7602dfb35da5b492bed9588556.png
+=> chemistry.gmi § Hydrocarbons naming and Isomers

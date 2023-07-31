@@ -1,0 +1,26 @@
+# Chemestry
+siiky
+2023/07/31
+2023/07/31
+2023/07/31
+science,chemistry
+
+## Hydrocarbons naming and Isomers
+
+=> https://www.khanacademy.org/science/biology/properties-of-carbon/hydrocarbon-structures-and-functional-groups/v/hydrocarbon-overview
+
+=> https://cdn.kastatic.org/ka-perseus-images/ed77aec8ebc93b4b14f3263f2939525522352a05.png
+
+=> https://www.khanacademy.org/science/biology/properties-of-carbon/hydrocarbon-structures-and-functional-groups/v/isomers
+=> https://www.khanacademy.org/science/biology/properties-of-carbon/hydrocarbon-structures-and-functional-groups/a/hydrocarbon-structures-and-isomers
+
+Molecule with the same chemical formula (e.g. C4H10) but with different bonding, shape, or orientation. Isomers may have different chemical properties -- even though they're made out of the same atoms!
+
+> In the context of large biological molecules such as DNA, proteins, and carbohydrates, structural differences in the carbon skeleton often affect how the molecule functions.
+
+> The difference between a pair of enantiomers may seem very small. In some cases, though, two enantiomers may have very different biological effects. For example, the D form of the drug ethambutol is used to treat tuberculosis, while the L form actually causes blindness!
+
+## Functional groups
+
+=> https://www.khanacademy.org/science/biology/properties-of-carbon/hydrocarbon-structures-and-functional-groups/v/functional-groups
+=> https://www.khanacademy.org/science/biology/properties-of-carbon/hydrocarbon-structures-and-functional-groups/a/functional-groups
