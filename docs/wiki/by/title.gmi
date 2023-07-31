@@ -27,6 +27,7 @@
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
 => ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi Boundo, "Fascism in Black Metal and How to Spot It"
 => ../p.fastest_lua_interpreter.gmi "Building the fastest Lua interpreter.. automatically!"
+=> ../chemistry.capillary_action.gmi Capillary action
 => ../carfree_cities.gmi Carfree Cities
 => ../carfree_movement.gmi Carfree Movement
 => ../v.tedx.meeting_the_enemy.gmi Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"

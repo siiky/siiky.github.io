@@ -1,8 +1,8 @@
 # Biology
 siiky
 2023/07/28
-2023/07/28
-2023/07/28
+2023/07/31
+2023/07/31
 science,biology
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Biology
@@ -28,6 +28,8 @@ Water, the H2O molecules, is a polar molecule, which means some of its regions a
 Water has a lower density in the solid state than in the liquid state. This property is in part helpful to life. As an example: imagine a pond, and very cold temperatures; if water was more dense as a solid than as a liquid, once the surface of the pond froze it would sink to the bottom; and then a new surface; and then another; until there was no liquid water left. However, because water is less dense as a solid, the frozen surface stays on top of the liquid water.
 
 Another important property is its high heat capacity, i.e., it takes a lot of energy to heat up a certain amount of water. Because of this, the temperature of a certain body of water doesn't fluctuate much, even if "outside" the temperature fluctuates wildly.
+
+=> chemistry.capillary_action.gmi
 
 ## Atoms
 

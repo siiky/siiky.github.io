@@ -1,3 +1,5 @@
+=> ../chemistry.capillary_action.gmi 2023-07-31 Capillary action
+=> ../biology.gmi 2023-07-31 Biology
 => ../videos.gmi 2023-07-29 Videos
 => ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi 2023-07-29 Thunderf00t, "Can a new fuel solve climate change?"
 => ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
@@ -5,7 +7,6 @@
 => ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 => ../physics.thermodynamics.gmi 2023-07-28 Thermodynamics
 => ../ecology.gmi 2023-07-28 Ecology
-=> ../biology.gmi 2023-07-28 Biology
 => ../chemistry.atoms.gmi 2023-07-28 Atoms
 => ../chemistry.acids_bases_ph.gmi 2023-07-28 Acids, bases and pH
 => ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
