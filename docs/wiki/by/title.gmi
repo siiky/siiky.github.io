@@ -27,7 +27,6 @@
 => ../fosdem2023.breaking_from_big_tech.gmi Boris Budini, "Breaking away from Big Tech"
 => ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi Boundo, "Fascism in Black Metal and How to Spot It"
 => ../p.fastest_lua_interpreter.gmi "Building the fastest Lua interpreter.. automatically!"
-=> ../chemistry.capillary_action.gmi Capillary action
 => ../carfree_cities.gmi Carfree Cities
 => ../carfree_movement.gmi Carfree Movement
 => ../v.tedx.meeting_the_enemy.gmi Cassie Jaye, "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement"
@@ -184,6 +183,7 @@
 => ../videos.gmi Videos
 => ../v.visiting_worlds_most_dangerous_country.gmi "Visiting The World's Most Dangerous Country 🇦🇫 ( Afghanistan 2022 )"
 => ../v.sinelabs.vusb_hid_explained.gmi "V-USB on an ATmega328! - V-USB and HID Explained"
+=> ../chemistry.water.gmi Water
 => ../v.finally_figured_roman_concrete.gmi "We FINALLY Figured Out The Secret of Roman Concrete"
 => ../p.why_are_we_talking_about_privacy.gmi "Why are we talking so much about privacy?"
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"

@@ -1,4 +1,4 @@
-=> ../chemistry.capillary_action.gmi 2023-07-31 Capillary action
+=> ../chemistry.water.gmi 2023-07-31 Water
 => ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi 2023-07-29 Thunderf00t, "Can a new fuel solve climate change?"
 => ../chemistry.atoms.gmi 2023-07-28 Atoms
 => ../chemistry.acids_bases_ph.gmi 2023-07-28 Acids, bases and pH

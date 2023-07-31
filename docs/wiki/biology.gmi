@@ -21,15 +21,7 @@ science,biology
 
 ## Water
 
-=> https://www.khanacademy.org/science/biology/intro-to-biology/x324d1dcc:water-and-life/v/importance-of-water-for-life
-
-Water, the H2O molecules, is a polar molecule, which means some of its regions are partially positive or partially negative -- specifically, the Oxygen atom is partially negative, while the Hydrogen atoms are partially positive. This fact is what makes water molecules "glue" together to form a liquid: Oxygen atoms of one water molecule attract slightly to Hydrogen atoms of other water molecules (and vice versa), making a set of water molecules appear to aggregate as a single "object".
-
-Water has a lower density in the solid state than in the liquid state. This property is in part helpful to life. As an example: imagine a pond, and very cold temperatures; if water was more dense as a solid than as a liquid, once the surface of the pond froze it would sink to the bottom; and then a new surface; and then another; until there was no liquid water left. However, because water is less dense as a solid, the frozen surface stays on top of the liquid water.
-
-Another important property is its high heat capacity, i.e., it takes a lot of energy to heat up a certain amount of water. Because of this, the temperature of a certain body of water doesn't fluctuate much, even if "outside" the temperature fluctuates wildly.
-
-=> chemistry.capillary_action.gmi
+=> chemistry.water.gmi
 
 ## Atoms
 
