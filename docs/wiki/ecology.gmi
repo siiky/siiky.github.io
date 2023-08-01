@@ -1,8 +1,8 @@
 # Ecology
 siiky
 2023/07/28
-2023/07/31
-2023/07/31
+2023/08/01
+2023/08/01
 science,biology,ecology
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ecology
@@ -91,8 +91,28 @@ And logistic growth can be modeled by a function such as P_I(t) = r * ((K-I)/K) 
 
 The size of a predator population and a prey population are usually connected: when one is large, the other is large, and vice-versa. When there's a lot of prey and few predators, it's easier for predators to hunt and feed themselves, so number of predators goes up. But with predator population size increasing, prey population size decreases because there are more predators feeding now. They follow almost like a sine/cosine wave function.
 
-## Malthusian limit (Thomas Malthus)
+### Malthusian limit (Thomas Malthus)
 
 => https://www.khanacademy.org/science/biology/ecology/population-growth-and-regulation/v/thomas-malthus-and-population-growth
 
 1798, "An essay on the principle of population"
+
+## Interspecies interactions
+
+=> https://www.khanacademy.org/science/biology/ecology/community-ecosystem-ecology/v/interactions-between-populations
+
+### Competition
+
+This correspnds to a species' access to resources. This type of interaction can be represented by the symbology -/-, meaning, the larger one population is, the more negatively the other population is affected, and vice-versa.
+
+### Predation
+
+This is more broad than only e.g. a feline eating another animal -- e.g. a goat eating grass is also considered predation (herbivory). This type of interaction is represented by +/- (left is predator and right is prey): the larger the prey population, the more the predator population is benefitted; but the larger the predator population, the more negatively the prey population is affected.
+
+### Symbiosis
+
+Usually a long-lasting interaction. This is a key distinguishing feature from predation: whereas in predation the predator typically kills the prey quickly, in parasitism the parasite doesn't, letting the host live longer and thus benefit from the host for longer as well.
+
+* Parasitism: +/-
+* Mutualism: +/+
+* Commensalism: +/0 (one side is benefitted while the other isn't particularly affected, neither positive nor negatively)
