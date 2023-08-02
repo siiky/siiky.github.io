@@ -1,13 +1,15 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/07/28
+2023/08/01
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://tsyesika.se/gemlog/2023-08-01-unleash-your-inner-mapper.gmi 2023-08-01 Unleash Your Inner Mapper (OSM)
 
 => gemini://tilde.cafe/~stack/gemlog/2023-07-25.baths.gmi 2023-07-28 Public Baths
 => gemini://dimension.sh/~textmonger/2023-07-25-03-so-when-the-heck-is-september-gonna-end-anyway.gmi 2023-07-28 So when the heck is September gonna end, anyway?

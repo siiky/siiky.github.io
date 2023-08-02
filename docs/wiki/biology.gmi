@@ -37,3 +37,39 @@ science,biology
 
 => https://cdn.kastatic.org/ka-perseus-images/cd652e01368ddc7602dfb35da5b492bed9588556.png
 => chemistry.gmi § Hydrocarbons naming and Isomers
+
+## Sugars (carbohydrate)
+
+=> https://www.khanacademy.org/science/biology/macromolecules/carbohydrates-and-sugars/v/molecular-structure-of-glucose
+=> https://www.khanacademy.org/science/biology/macromolecules/carbohydrates-and-sugars/v/dehydration-synthesis-or-a-condensation-reaction
+=> https://www.khanacademy.org/science/biology/macromolecules/carbohydrates-and-sugars/v/hydrolysis
+=> https://www.khanacademy.org/science/biology/macromolecules/carbohydrates-and-sugars/v/molecular-structure-of-fructose
+=> https://www.khanacademy.org/science/biology/macromolecules/carbohydrates-and-sugars/a/carbohydrates
+=> https://cdn.kastatic.org/ka-perseus-images/a9abc037227995fd312a081b39e764032675a71a.png
+
+Glucose, Galactose, and Fructose are C6H12O6 isomers!
+
+=> chemistry.gmi
+=> https://cdn.kastatic.org/ka-perseus-images/20ed343699a3eaefcf57323286d5f37fa695d448.png
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Glucose
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Galactose
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Fructose
+
+Sucrose ("table sugar") is a disaccharide made of one glucose and one fructose monomer. A disaccharide is a pair of monosaccharides joined together through dehydration synthesis (aka condensation reaction). The following image pictures the dehydration synthesis of a glucose and a fructose into a sucrose (the dehydration synthesis process releases an H2O molecule, though it isn't pictured).
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Sucrose
+=> https://cdn.kastatic.org/ka-perseus-images/82e05a486b397feca794ec01a27cfafd2954eade.png Dehydration synthesis of glucose+fructose into sucrose
+
+Lactose is also a sugar (never noticed the similarity in name), a disaccharide of glucose and galactose. And Maltose is a disaccharide of two glucose molecules.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Lactose
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Maltose
+=> https://cdn.kastatic.org/ka-perseus-images/48413da677534bd63a5d77c97826c883be4e52ce.png Maltose, Lactose, Sucrose
+
+The inverse process of dehydration synthesis, which splits a di- or polysaccharide into a glucose and a smaller di- or polysaccharide (two glucoses in the case of a disaccharide, of course), is called hydrolisis. Because it's the inverse process, it uses up one H2O molecule.
+
+A very interesting thing is that cellulose -- the composition of paper, wood, &c -- is also a polysaccharide! It's actually a long unbranched chain of glucose. These long chains can bundle up together, in a parallel fashion, through hydrogen bonding, and thereby resulting in the solidity of wood and other plant tissues. Even though cellulose is basically just glucose, humans can't digest it because they're of the β variety. This doesn't make cellulose bad for us, we just don't digest it.
+
+Another important polysaccharide is chitin, the main constituent of the exoskeleton of arthropods (e.g. insects, arachnids, crustaceans).
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Arthropod
