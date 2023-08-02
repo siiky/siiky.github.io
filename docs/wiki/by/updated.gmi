@@ -13,7 +13,6 @@
 => ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
 => ../book.duarte_mendes.nove_passos.gmi 2023-07-27 Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
 => ../book.antonio_vaz.manual_biourb.gmi 2023-07-27 António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"
-=> ../films.gmi 2023-06-25 Cinena/Films/Movies
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
@@ -22,8 +21,8 @@
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
 => ../pl.factor.gmi 2023-05-24 Factor (programming language)
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-23 Raphael Treza, "Borneo Death Blow"
-=> ../film.gmi 2023-05-21 Films
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
+=> ../film.gmi 2023-05-21 Cinema/Films/Movies
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
 => ../p.sapo.reciclagem-verdade_mito.gmi 2023-05-19 Green Savers, "Verdade ou mito: 5 preconceitos esclarecidos sobre a reciclagem"

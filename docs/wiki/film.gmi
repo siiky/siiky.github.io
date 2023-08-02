@@ -1,4 +1,4 @@
-# Films
+# Cinema/Films/Movies
 siiky
 2023/05/21
 2023/05/21
@@ -6,6 +6,14 @@ siiky
 list
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Film
+
+Similar page to my books list.
+
+=> books.gmi
+
+## Watched
+
+=> https://www.imdb.com/title/tt0056937 2023-06-25 Cleopatra
 
 ## Want to watch
 

@@ -33,7 +33,7 @@
 => ../chemistry.gmi Chemestry
 => ../v.chibiakumas.riscv_assembly_programming.gmi ChibiAkumas, "RISC-V Assembly Programming"
 => ../pl.chicken.gmi CHICKEN Scheme
-=> ../films.gmi Cinena/Films/Movies
+=> ../film.gmi Cinema/Films/Movies
 => ../p.c_isnt_a_programming_language_anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visaojunior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"
 => ../v.computerphile.ai_language_models_transformers.gmi Computerphile, "AI Language Models & Transformers"
@@ -69,7 +69,6 @@
 => ../pl.factor.gmi Factor (programming language)
 => ../p.ive_seen_future_without_cars.gmi Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"
 => ../class.ft.gmi Fault Tolerance
-=> ../film.gmi Films
 => ../pl.forth.gmi Forth (programming language)
 => ../fosdem2023.gmi FOSDEM 2023
 => ../fosdem2023.lua_for_the_lazy_c_developer.gmi Frank Vanbever, "Lua for the lazy C developer"
