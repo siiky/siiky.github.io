@@ -1,4 +1,5 @@
 => ../film.gmi 2023-08-02 Cinema/Films/Movies
+=> ../books.gmi 2023-08-02 Books list
 => ../ecology.gmi 2023-08-01 Ecology
 => ../chemistry.water.gmi 2023-07-31 Water
 => ../chemistry.gmi 2023-07-31 Chemestry
@@ -6,7 +7,6 @@
 => ../videos.gmi 2023-07-29 Videos
 => ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi 2023-07-29 Thunderf00t, "Can a new fuel solve climate change?"
 => ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"
-=> ../books.gmi 2023-07-29 Books list
 => ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 => ../physics.thermodynamics.gmi 2023-07-28 Thermodynamics
 => ../chemistry.atoms.gmi 2023-07-28 Atoms
