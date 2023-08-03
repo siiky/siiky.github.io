@@ -1,8 +1,8 @@
 # Cinema/Films/Movies
 siiky
 2023/05/21
-2023/05/21
-2023/05/21
+2023/08/02
+2023/08/02
 list
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Film
@@ -13,6 +13,8 @@ Similar page to my books list.
 
 ## Watched
 
+=> https://www.imdb.com/title/tt2562232 2023-08-02 Birdman or (The Unexpected Virtue of Ignorance)
+=> https://www.imdb.com/title/tt1631867 2023-08-02 Edge of Tomorrow
 => https://www.imdb.com/title/tt0056937 2023-06-25 Cleopatra
 
 ## Want to watch

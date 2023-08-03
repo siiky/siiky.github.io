@@ -2,7 +2,7 @@
 siiky
 2023/05/19
 2023/05/19
-2023/08/01
+2023/08/02
 post,environment
 
 => https://greensavers.sapo.pt/dia-internacional-da-reciclagem-verdade-ou-mito-5-preconceitos-esclarecidos-sobre-a-reciclagem
@@ -65,9 +65,9 @@ Products made out of more than one material cannot be recycled
 
 Ok, so, let's see if we get this clear: an increase in recycled containers IS NOT necessarily a good thing. Why? If the relative amount of recycled containers remained the same between both years, this increase must have come from an INCREASE in created/consumed/used containers!
 
-I'm sure snan@idiomdrottning.org has said this before but I can't remember where.
+Not news, snan@idiomdrottning.org has talked about this before.
 
-=> gemini://idiomdrottning.org/
+=> gemini://idiomdrottning.org/when-the-eu-wanted-to-crank-up-solar
 
 > A reciclagem é apenas uma dimensão das soluções para lidar com resíduos e com o desperdício. Reduzir, reutilizar e compostar são atos importantes que devem ser incorporados no dia-a-dia. A Goparity tem como principal missão a democratização do acesso ao financiamento sustentável, ligando empresas e indivíduos que querem investir em projetos com repercussões positivas nas pessoas e no planeta. Em 2022, angariou cerca de 10.4 milhões de euros provenientes de mais de 29 mil membros registados. Por sua vez, os projetos financiados com recurso à plataforma permitiram impactar positivamente cerca de 200.000 pessoas, criar quase 7.000 postos de trabalho e contribuir para evitar a emissão de 23,8 mil toneladas de emissões de CO2 para a atmosfera todos os anos.
 
