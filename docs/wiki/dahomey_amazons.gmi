@@ -15,4 +15,4 @@ Some related movies/series:
 * "The Woman King"
 * "smth smth Country"... can't find the name
 
-=> film.gmi
+=> films.gmi

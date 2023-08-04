@@ -15,7 +15,7 @@
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../pl.factor.gmi 2023-05-24 Factor (programming language)
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
-=> ../film.gmi 2023-05-21 Cinema/Films/Movies
+=> ../films.gmi 2023-05-21 Cinema/Films/Movies
 => ../v.raphael_treza.borneo_death_blow.gmi 2023-05-20 Raphael Treza, "Borneo Death Blow"
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
