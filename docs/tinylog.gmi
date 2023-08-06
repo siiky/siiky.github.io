@@ -7,6 +7,16 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-08-05 01:57 +0100
+俺の今の犬はもう年寄になってる。まだ元気なのにサインは現れてきてる。どんな長く時間まだ生きるか、時々考えてしまう。また味わうかって｡｡｡
+
+## 2023-08-05 00:46 +0100
+Watched Les Misérables, a musical. Or rather, tried to. I couldn't bear to really watch it. Or rather, to listen. The music was so monotonous, so damn boring. Put some life into it, some rhythm, please. The singing was especially boring. So fake. And that Brit accent just doesn't suit the French setting. Everything was so uninspired... The costumes, especially of the "lowlifes", were so exagerated and fake. Oh the Brit pronunciation of the French names -- every syllable a poke of the knife into my heart (a few were actually decent). I recommend you don't watch it, and read the book instead.
+=> wiki/books.gmi § Victor Hugo, Les Misérables
+
+## 2023-08-04 12:09 +0100
+昨日「私の帽子どこ？」と聞いた。外国人だった。「そこや」と。日本人だった。男と女、たぶん夫婦。両方50歳以上だと思う。
+
 ## 2023-07-28 01:21 +0100
 Learned some time ago about "letterlocking". Promptly forgot about it and remembered it used to be a thing this week, wondering how people used to do it. There's this YT channel about the subject, showing how to lock&unlock letter in several different ways. All very interesting!
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Letterlocking
