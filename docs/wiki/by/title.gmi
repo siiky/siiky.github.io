@@ -33,7 +33,7 @@
 => ../chemistry.gmi Chemestry
 => ../v.chibiakumas.riscv_assembly_programming.gmi ChibiAkumas, "RISC-V Assembly Programming"
 => ../pl.chicken.gmi CHICKEN Scheme
-=> ../films.gmi Cinema/Films/Movies
+=> ../films.gmi Cinema list
 => ../p.c_isnt_a_programming_language_anymore.gmi "C Isn't A Programming Language Anymore"
 => ../p.visaojunior.como_os_animais_se_lavam.gmi "Como é que os animais se lavam?"
 => ../v.computerphile.ai_language_models_transformers.gmi Computerphile, "AI Language Models & Transformers"
