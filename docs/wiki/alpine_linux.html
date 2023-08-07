@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html lang="en" xml:lang="en"><head><meta charset="utf-8"></meta></head><body><h1>Alpine Linux</h1><p>siiky<br></br>2023/08/07<br></br>2023/08/07<br></br>2023/08/07<br></br>os</p><ul><li><a href="https://alpinelinux.org">https://alpinelinux.org</a></li></ul><p>A small Linux distro.</p><h2>Installing in &quot;data mode&quot;</h2><ul><li><a href="https://docs.alpinelinux.org/user-handbook/0.1a/Installing/manual.html#_uefi_gpt">https://docs.alpinelinux.org/user-handbook/0.1a/Installing/manual.html#_uefi_gpt</a></li><li><a href="https://lists.alpinelinux.org/lists/%7Ealpine">https://lists.alpinelinux.org/lists/%7Ealpine</a></li><li><a href="https://wiki.alpinelinux.org/wiki/Installation#Installation_Overview">https://wiki.alpinelinux.org/wiki/Installation#Installation_Overview</a></li></ul><h3>setup-alpine</h3><p>First step to start the initial basic setup of a &quot;data&quot; mode system (doesn&#39;t do actual system install).</p><pre>setup-alpine
+</pre><h3>Install useful/necessary commands</h3><pre>apk add lsblk parted
+</pre><h3>Set up system disk</h3><p>The plan:</p><pre>#	start	end	mount	comments
+1	0G	1G	/boot	esp
+2	1G	100%	/	root fs
+</pre><p>The commands to execute it:</p><pre>alias p=&quot;parted -sa optimal /dev/sda&quot;
+p mklabel gpt
+p mkpart p 0G 1G
+p mkpart p 1G 100%
+p set 1 esp
+mkfs.vfat -F32 /dev/sda1
+mkfs.ext4 /dev/sda2
+</pre><h3>Install system to system disk</h3><pre>mount /dev/sda2 /mnt
+mkdir /mnt/boot
+mount -t vfat /dev/sda1 /mnt/boot
+setup-disk /mnt
+</pre></body></html>

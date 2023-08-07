@@ -1,0 +1,61 @@
+# Alpine Linux
+siiky
+2023/08/07
+2023/08/07
+2023/08/07
+os
+
+=> https://alpinelinux.org
+
+A small Linux distro.
+
+## Installing in "data mode"
+
+=> https://docs.alpinelinux.org/user-handbook/0.1a/Installing/manual.html#_uefi_gpt
+=> https://lists.alpinelinux.org/lists/%7Ealpine
+=> https://wiki.alpinelinux.org/wiki/Installation#Installation_Overview
+
+### setup-alpine
+
+First step to start the initial basic setup of a "data" mode system (doesn't do actual system install).
+
+```
+setup-alpine
+```
+
+### Install useful/necessary commands
+
+```
+apk add lsblk parted
+```
+
+### Set up system disk
+
+The plan:
+
+```
+#	start	end	mount	comments
+1	0G	1G	/boot	esp
+2	1G	100%	/	root fs
+```
+
+The commands to execute it:
+
+```
+alias p="parted -sa optimal /dev/sda"
+p mklabel gpt
+p mkpart p 0G 1G
+p mkpart p 1G 100%
+p set 1 esp
+mkfs.vfat -F32 /dev/sda1
+mkfs.ext4 /dev/sda2
+```
+
+### Install system to system disk
+
+```
+mount /dev/sda2 /mnt
+mkdir /mnt/boot
+mount -t vfat /dev/sda1 /mnt/boot
+setup-disk /mnt
+```

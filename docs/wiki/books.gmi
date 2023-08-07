@@ -1,8 +1,8 @@
 # Books list
 siiky
 2020/12/21
-2023/08/02
-2023/08/02
+2023/08/07
+2023/08/07
 list
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -17,15 +17,6 @@ For some of them I don't have a good link so I may use a not so great one, like 
 Please let me know if you find any of the links not working.
 
 => ../contact.gmi Contact
-
-## Want
-
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?An_Introduction_to_Animals_and_Political_Theory Alasdair Cochrane, An Introduction to Animals and Political Theory
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Animal_Rights_Without_Liberation Alasdair Cochrane, Animal Rights Without Liberation
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?John_Romer_(Egyptologist) John Romer, Ancient Lives: Daily Life in Egypt of the Pharaohs
-=> https://www.reinaldosousasantos.com Reinaldo Sousa Santos, Ser Feliz no Trabalho
-=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Francisco_Moita_Flores Felícia Cabrita, Francisco Moita Flores, Ballet Rose (Uma história amoral)
-=> book.antonio_vaz.manual_biourb.gmi António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva
 
 ## Reading
 
@@ -150,6 +141,15 @@ Please let me know if you find any of the links not working.
 => book.duarte_mendes.nove_passos.gmi Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, nove passos: 2023/07/20~2023/07/25
 => book.philippe_delgleize.devastacao.gmi Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, Devastação/Ravages
 => https://standardebooks.org/ebooks/fyodor-dostoevsky/notes-from-underground/constance-garnett Fyodor Dostoevsky, Notes from Underground: 2023/06/19~2023/06/29
+
+## Want
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?An_Introduction_to_Animals_and_Political_Theory Alasdair Cochrane, An Introduction to Animals and Political Theory
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Animal_Rights_Without_Liberation Alasdair Cochrane, Animal Rights Without Liberation
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?John_Romer_(Egyptologist) John Romer, Ancient Lives: Daily Life in Egypt of the Pharaohs
+=> https://www.reinaldosousasantos.com Reinaldo Sousa Santos, Ser Feliz no Trabalho
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Francisco_Moita_Flores Felícia Cabrita, Francisco Moita Flores, Ballet Rose (Uma história amoral)
+=> book.antonio_vaz.manual_biourb.gmi António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva
 
 ## Dropped
 

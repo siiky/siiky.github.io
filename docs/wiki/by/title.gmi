@@ -6,6 +6,7 @@
 => ../book.albert_camus.plague.gmi Albert Camus, "The Plague"
 => ../albert_camus.gmi Albert Camus
 => ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
+=> ../alpine_linux.gmi Alpine Linux
 => ../p.sapo.plastico-nao_conseguimos_viver_sem_ele.gmi Ana F. Palma, "Plástico: Não conseguimos viver sem ele, mas assim também não dá. A relação controversa do mundo com este material numa exposição no MAAT"
 => ../p.agwa.sign_with_ssh.gmi Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
