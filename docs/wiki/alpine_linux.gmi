@@ -1,15 +1,15 @@
 # Alpine Linux
 siiky
 2023/08/07
-2023/08/07
-2023/08/07
+2023/08/08
+2023/08/08
 os
 
 => https://alpinelinux.org
 
 A small Linux distro.
 
-## Installing in "data mode"
+## Installing in "data mode", UEFI+GPT
 
 => https://docs.alpinelinux.org/user-handbook/0.1a/Installing/manual.html#_uefi_gpt
 => https://lists.alpinelinux.org/lists/%7Ealpine
@@ -26,7 +26,16 @@ setup-alpine
 ### Install useful/necessary commands
 
 ```
-apk add lsblk parted
+apk add lsblk parted e2fsprogs
+```
+
+### Save current configs
+
+```
+mkdir /var/lbu
+# Set LBU_BACKUPDIR=/var/lbu in /etc/lbu/lbu.conf
+# Set BACKUP_LIMIT=3 in /etc/lbu/lbu.conf
+lbu ci
 ```
 
 ### Set up system disk
@@ -59,3 +68,86 @@ mkdir /mnt/boot
 mount -t vfat /dev/sda1 /mnt/boot
 setup-disk /mnt
 ```
+
+## Installing in "data mode", UEFI+GPT
+
+### Set up disk partitions
+
+The plan:
+
+```
+#	start	end	mount	comments
+1	0G	1G	/boot	esp
+2	1G	2G	/var	data partition
+3	2G	100%	/	root fs
+```
+
+The commands to execute it:
+
+```
+alias p="parted -sa optimal /dev/sda"
+p mklabel gpt
+p mkpart p 0G 1G
+p mkpart p 1G 2G
+p mkpart p 2G 100%
+p set 1 esp
+mkfs.vfat -F32 /dev/sda1
+mkfs.ext4 /dev/sda2
+mkfs.ext4 /dev/sda3
+```
+
+### Mount disk on the right places before install
+
+```
+mkdir /mnt/rootfs /mnt/data /mnt/boot
+mount -t vfat /dev/sda1 /mnt/boot
+mount -t ext4 /dev/sda2 /mnt/data
+mount -t ext4 /dev/sda3 /mnt/rootfs
+```
+
+### setup-bootable
+
+```
+setup-bootable /media/cdrom /mnt/rootfs/
+mv /mnt/rootfs/boot/* -t /mnt/boot/
+```
+
+### setup-disk
+
+```
+setup-disk -m data -s 0 /mnt/data/
+```
+
+## Installing in "data mode", BIOS+GPT
+
+### Set up disk partitions
+
+The plan:
+
+```
+#	start	end	mount	comments
+1	1MiB	2MiB	none	bios_grub
+2	2MiB	1G	/boot	boot
+3	1G	2G	/var	data partition
+4	2G	100%	/	root fs
+```
+
+The commands to execute it:
+
+```
+alias p="parted -sa optimal /dev/sda"
+p mklabel gpt
+p mkpart p 1MiB 2MiB
+p mkpart p 2MiB 1G
+p mkpart p 1G 2G
+p mkpart p 2G 100%
+p set 1 bios_grub
+p set 2 boot
+mkfs.ext4 /dev/sda2
+mkfs.ext4 /dev/sda3
+mkfs.ext4 /dev/sda4
+```
+
+## Creating an Alpine package
+
+=> https://wiki.alpinelinux.org/wiki/Creating_an_Alpine_package

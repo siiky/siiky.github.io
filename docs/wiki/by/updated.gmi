@@ -1,5 +1,5 @@
-=> ../books.gmi 2023-08-07 Books list
-=> ../alpine_linux.gmi 2023-08-07 Alpine Linux
+=> ../books.gmi 2023-08-08 Books list
+=> ../alpine_linux.gmi 2023-08-08 Alpine Linux
 => ../films.gmi 2023-08-06 Cinema list
 => ../ecology.gmi 2023-08-01 Ecology
 => ../chemistry.water.gmi 2023-07-31 Water
