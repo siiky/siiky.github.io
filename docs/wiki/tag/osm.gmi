@@ -1,3 +1,4 @@
+=> ../portugal-opendata.gmi 2023-08-08 Open Data in Portugal
 => ../v.honest_discussion_organic_maps_devs.gmi 2023-05-03 "An honest discussion with organic maps developers"
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../p.put_north_arrow.gmi 2023-02-28 John Nelson, "Put a north arrow on it?"

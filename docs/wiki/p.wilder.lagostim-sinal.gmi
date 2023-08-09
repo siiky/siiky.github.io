@@ -1,0 +1,12 @@
+# Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
+siiky
+2023/08/08
+2023/08/08
+2023/08/08
+post,ecology
+
+=> https://www.wilder.pt/naturalistas/lagostim-sinal-um-invasor-que-chegou-a-portugal-pelo-norte/
+
+Post about the Signal crayfish, an invasive species in Europe.
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Signal_crayfish
