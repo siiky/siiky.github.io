@@ -9,6 +9,7 @@ siiky
 
 I update this page manually.
 
+=> gemini://rawtext.club/~winter/gemlog/2023/8-10.gmi 2023-08-10 Effluent and Pennies: The Amazon AI Flood
 => gemini://idiomdrottning.org/re-stepping-away-from-gemini 2023-08-10 Why I don’t have to leave Gemini
 => gemini://rawtext.club/~winter/gemlog/2023/8-08.gmi 2023-08-10 makew0rld's "Bye, Gemini"
 
