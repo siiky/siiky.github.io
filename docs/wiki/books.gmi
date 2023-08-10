@@ -1,8 +1,8 @@
 # Books list
 siiky
 2020/12/21
-2023/08/09
-2023/08/09
+2023/08/10
+2023/08/10
 list
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -142,6 +142,7 @@ Please let me know if you find any of the links not working.
 => book.philippe_delgleize.devastacao.gmi Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, Devastação/Ravages
 => https://standardebooks.org/ebooks/fyodor-dostoevsky/notes-from-underground/constance-garnett Fyodor Dostoevsky, Notes from Underground: 2023/06/19~2023/06/29
 => https://standardebooks.org/ebooks/khalil-gibran/the-madman Khalil Gibran, The Madman: 2023/08/08
+=> https://standardebooks.org/ebooks/khalil-gibran/the-forerunner Khalil Gibran, The Forerunner: 2023/08/09
 
 ## Want
 
