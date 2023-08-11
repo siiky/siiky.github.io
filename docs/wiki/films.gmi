@@ -1,8 +1,8 @@
 # Cinema list
 siiky
 2023/05/21
-2023/08/06
-2023/08/06
+2023/08/11
+2023/08/11
 list
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Film
@@ -13,6 +13,7 @@ Similar page to my books list.
 
 ## Watched
 
+=> https://www.imdb.com/title/tt10945164 2023-08-10 Février
 => https://www.imdb.com/title/tt1707386 2023-08-04 Les Misérables
 => https://www.imdb.com/title/tt8399288 2023-08-03 Memoria
 => https://www.imdb.com/title/tt2562232 2023-08-02 Birdman or (The Unexpected Virtue of Ignorance)
