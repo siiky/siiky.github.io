@@ -1,2 +1,2 @@
-=> ../ecology.gmi 2023-08-01 Ecology
+=> ../ecology.gmi 2023-08-13 Ecology
 => ../biology.gmi 2023-07-31 Biology

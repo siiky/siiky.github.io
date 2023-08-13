@@ -1,8 +1,8 @@
 # Ecology
 siiky
 2023/07/28
-2023/08/01
-2023/08/01
+2023/08/13
+2023/08/13
 science,biology,ecology
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Ecology
@@ -162,3 +162,9 @@ Because different species have different niches (short way of saying different r
 One particular example is in the distribution of energy. A whale, to become as large as it is, it must consume A LOT of energy. When it dies, it can be turned into energy again by other species -- A LOT of energy. If instead the whale is killed and fished out of water, all the energy that could've fed many species simply doesn't exist anymore for them -- it may be the difference between life and death, or a stable and unstable system.
 
 Another way to think of it is that the greater the biodiversity, the less important is any particular interspecies interaction.
+
+### Community structure
+
+=> https://www.khanacademy.org/science/biology/ecology/community-structure-and-diversity/a/community-structure
+
+A way to characterize a community's structure is by its species richness (number of species) and species diversity (richness and evenness (relative abundance)). Greater species richness leads to greater species diversity if all species are relatively similar in abundance. A community of greater species diversity is more resilient (see § "Why is biodiversity important?" above).
