@@ -1,13 +1,19 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/08/10
+2023/08/14
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://warmedal.se/~bjorn/posts/2023-08-11-borrow-money-for-free-if-you-already-have-them.gmi 2023-08-14 BORROW MONEY FOR FREE (If You Already Have Them)
+=> gemini://ew.srht.site/en/2022/20220123-simplicity-2.gmi 2023-08-14 Simplicity 2
+=> gemini://ew.srht.site/en/2022/20220107-simplicity.gmi 2023-08-14 Re: Because it's simple!
+=> gemini://ew.srht.site/en/2022/20220125-simplicity-3.gmi 2023-08-14 Simplicity 3
+=> gemini://ew.srht.site/en/2023/20230813-simplicity-4.gmi 2023-08-14 Simplicity 4 -- Eyecare
 
 => gemini://rawtext.club/~winter/gemlog/2023/8-10.gmi 2023-08-10 Effluent and Pennies: The Amazon AI Flood
 => gemini://idiomdrottning.org/re-stepping-away-from-gemini 2023-08-10 Why I don’t have to leave Gemini

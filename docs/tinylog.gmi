@@ -7,6 +7,10 @@ license: CC BY-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-08-14 01:39 +0100
+As of today, my reclog is one year and one day old!
+=> reclog.gmi
+
 ## 2023-08-05 01:57 +0100
 俺の今の犬はもう年寄になってる。まだ元気なのにサインは現れてきてる。どんな長く時間まだ生きるか、時々考えてしまう。また味わうかって｡｡｡
 
