@@ -182,3 +182,19 @@ A foundation species is a species that significantly affects a community, such a
 Keystone species are species that have a very significant impact on the community relative to their biomass or abundance. They differ from foundation species in two ways: they''re more likely to be of higher trophic levels (predators rather than pray/producers); and their behaviour is more diverse. See also "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades".
 
 => v.biointeractive.some_animals_are_more_equal_than_others.gmi "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
+
+## Introduced species (aka Exotic species)
+
+Species that are, intentionally or by accident, transfered by humans from a native habitat to a new one. "Introduced" is the opposite of "native".
+
+Some transfers can occur long before we realize they've occured, which makes it difficult to know the native habitat of a species. Species we aren't sure of their origins are said to be cryptogenic ("hidden origin").
+
+It is important to note that not all introduced species are strictly harmful to the new habitat they were introduced to. Some may even benefit some other species in some ways.
+
+Some species have some serious competitive advantages, for lacking their natural controls of their native habitats, such as predators and diseases.
+
+There are species very well adapted to a large variety of environments, that thrive and overwhelm native populations. An invasive species is one that can thrive at the expense of native species, by changing the community structure.
+
+All invasive species are introduced; but not all introduced species are invasive.
+
+Ultimately, invasive species are ones that hinder ecosystem function.
