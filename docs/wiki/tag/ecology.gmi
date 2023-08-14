@@ -1,4 +1,4 @@
-=> ../ecology.gmi 2023-08-13 Ecology
+=> ../ecology.gmi 2023-08-14 Ecology
 => ../portugal-opendata.gmi 2023-08-11 Open Data in Portugal
 => ../p.wilder.lagostim-sinal.gmi 2023-08-08 Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
 => ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"

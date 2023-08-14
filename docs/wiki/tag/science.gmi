@@ -1,4 +1,4 @@
-=> ../ecology.gmi 2023-08-13 Ecology
+=> ../ecology.gmi 2023-08-14 Ecology
 => ../chemistry.water.gmi 2023-07-31 Water
 => ../chemistry.gmi 2023-07-31 Chemestry
 => ../biology.gmi 2023-07-31 Biology

@@ -11,6 +11,7 @@
 => ../p.agwa.sign_with_ssh.gmi Andrew Ayer, "It's Now Possible To Sign Arbitrary Data With Your SSH Keys"
 => ../fosdem2023.prescheme.gmi Andrew Whatson, "Introduction to Pre-Scheme"
 => ../fosdem2023.whippet.gmi Andy Wingo, "Whippet: A new production embeddable garbage collector"
+=> ../v.angethegreat.simulating_f1_v12.gmi AngeTheGreat, "Simulating an F1 V12, cross-plane and flat-plane V8s, unequal length headers and more"
 => ../v.honest_discussion_organic_maps_devs.gmi "An honest discussion with organic maps developers"
 => ../p.animal_sex_determination.gmi "Animal Sex Determination Is Weirder Than You Think"
 => ../sotm2022.mapping_crises_communities_capitalism.gmi Anne Lee Steele, "Mapping crises, communities and capitalism on OpenStreetMap: situating humanitarian mapping in the (open source) mapping supply chain"
@@ -56,11 +57,20 @@
 => ../v.exurb1a.dont_hex_the_water.gmi "Don't Hex the Water"
 => ../fosdem2023.heliosuk.gmi Drew DeVault, "Introducing Helios Microkernel"
 => ../fosdem2023.helios.gmi Drew DeVault, "Introducing Helios"
+=> ../v.driver61.adrian_neweys_f1_design_secrets.gmi Driver61, "Adrian Newey's Formula 1 Design SECRETS"
+=> ../v.driver61.insane_h16_f1_engine.gmi Driver61, "The INSANE H16 Formula 1 Engine!"
+=> ../v.driving4answers.innengine_analyzed.gmi driving 4 answers, "Spain is Living in 2050? Revolutionary 1 Stroke INNengine Analyzed"
 => ../book.duarte_mendes.nove_passos.gmi Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
 => ../ecology.gmi Ecology
 => ../pl.elixir.gmi Elixir (programming language)
 => ../v.tedx.western_feminism_african_women.gmi Elma Akob, "The Dangers of Western Feminism to African Women"
 => ../p.visual_programming-what_went_wrong.gmi emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"
+=> ../v.engineering_explained.everything_you_need_to_know_about_electric_car_tires.gmi Engineering Explained, "Everything You Need To Know About Electric Car Tires"
+=> ../v.engineering_explained.how_koeniggseggs_tiny_engine_makes_600hp.gmi Engineering Explained, "How Koenigsegg's Tiny Engine Makes 600 Horsepower - Only 3 Cylinders!"
+=> ../v.engineering_explained.how_tiny_f1_engines_make_1000hp.gmi Engineering Explained, "How Tiny Formula 1 Engines Make 1000 HP!"
+=> ../v.engineering_explained.mazda_brought_back_rotary_engine.gmi Engineering Explained, "Mazda Brought Back The Rotary Engine!"
+=> ../v.engineering_explained.toyota_developed_liquid_hydrogen_combustion_engine.gmi Engineering Explained, "Toyota Developed A Liquid Hydrogen Combustion Engine!"
+=> ../v.engineering_explained.why_are_2026_f1_engines_going_to_lose_so_much_power.gmi Engineering Explained, "Why Are 2026 Formula 1 Engines Going To Lose So Much Power?"
 => ../epcot.gmi EPCOT
 => ../pl.erlang.gmi Erlang (programming language)
 => ../p.ever_wondered_how_qr_code_works.gmi "Ever wondered how a QR code works?"
@@ -120,6 +130,7 @@
 => ../fosdem2023.consulting_for_digital_humanists.gmi Marie Dubremetz, "Consulting for digital humanists"
 => ../book.mark_graham.geographies_digial_exclusion.gmi Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"
 => ../v.martin_karlsson.visual_graph_tools_for_decentralized_research.gmi Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
+=> ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi Matt Amys, "Why Formula 1 Cars Take Hours To Start"
 => ../fosdem2023.jubako.gmi Matthieu Gautier, "Jubako, a new generic container format"
 => ../v.talks_google.greatest_maths_mistakes.gmi Matt Parker, "Talks at Google: The Greatest Maths Mistakes"
 => ../p.matt_taibbi.top50_fact_checkers.gmi Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"

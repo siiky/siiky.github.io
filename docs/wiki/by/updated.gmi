@@ -1,4 +1,15 @@
-=> ../ecology.gmi 2023-08-13 Ecology
+=> ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi 2023-08-14 Matt Amys, "Why Formula 1 Cars Take Hours To Start"
+=> ../v.engineering_explained.why_are_2026_f1_engines_going_to_lose_so_much_power.gmi 2023-08-14 Engineering Explained, "Why Are 2026 Formula 1 Engines Going To Lose So Much Power?"
+=> ../v.engineering_explained.toyota_developed_liquid_hydrogen_combustion_engine.gmi 2023-08-14 Engineering Explained, "Toyota Developed A Liquid Hydrogen Combustion Engine!"
+=> ../v.engineering_explained.mazda_brought_back_rotary_engine.gmi 2023-08-14 Engineering Explained, "Mazda Brought Back The Rotary Engine!"
+=> ../v.engineering_explained.how_tiny_f1_engines_make_1000hp.gmi 2023-08-14 Engineering Explained, "How Tiny Formula 1 Engines Make 1000 HP!"
+=> ../v.engineering_explained.how_koeniggseggs_tiny_engine_makes_600hp.gmi 2023-08-14 Engineering Explained, "How Koenigsegg's Tiny Engine Makes 600 Horsepower - Only 3 Cylinders!"
+=> ../v.engineering_explained.everything_you_need_to_know_about_electric_car_tires.gmi 2023-08-14 Engineering Explained, "Everything You Need To Know About Electric Car Tires"
+=> ../ecology.gmi 2023-08-14 Ecology
+=> ../v.driving4answers.innengine_analyzed.gmi 2023-08-14 driving 4 answers, "Spain is Living in 2050? Revolutionary 1 Stroke INNengine Analyzed"
+=> ../v.driver61.insane_h16_f1_engine.gmi 2023-08-14 Driver61, "The INSANE H16 Formula 1 Engine!"
+=> ../v.driver61.adrian_neweys_f1_design_secrets.gmi 2023-08-14 Driver61, "Adrian Newey's Formula 1 Design SECRETS"
+=> ../v.angethegreat.simulating_f1_v12.gmi 2023-08-14 AngeTheGreat, "Simulating an F1 V12, cross-plane and flat-plane V8s, unequal length headers and more"
 => ../films.gmi 2023-08-12 Cinema list
 => ../portugal-opendata.gmi 2023-08-11 Open Data in Portugal
 => ../books.gmi 2023-08-10 Books list
