@@ -169,6 +169,16 @@ Another way to think of it is that the greater the biodiversity, the less import
 
 A way to characterize a community's structure is by its species richness (number of species) and species diversity (richness and evenness (relative abundance)). Greater species richness leads to greater species diversity if all species are relatively similar in abundance. A community of greater species diversity is more resilient (see § "Why is biodiversity important?" above).
 
-See also "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades".
+Some factors that influence community structure:
+
+* Climate of the community's location
+* Geography of the community's location
+* Heterogeneity of the environment
+* Frequency of disturbances/disruptive events (see Intermediate Disturbance Hypothesis)
+* Interspecies interactions
+
+A foundation species is a species that significantly affects a community, such as by changing the environment so that other species may thrive there too. Examples are kelp (brown algae), corals, and beavers.
+
+Keystone species are species that have a very significant impact on the community relative to their biomass or abundance. They differ from foundation species in two ways: they''re more likely to be of higher trophic levels (predators rather than pray/producers); and their behaviour is more diverse. See also "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades".
 
 => v.biointeractive.some_animals_are_more_equal_than_others.gmi "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
