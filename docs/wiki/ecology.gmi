@@ -183,7 +183,10 @@ Keystone species are species that have a very significant impact on the communit
 
 => v.biointeractive.some_animals_are_more_equal_than_others.gmi "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
 
-## Introduced species (aka Exotic species)
+### Introduced species (aka Exotic species)
+
+=> https://www.khanacademy.org/science/biology/ecology/community-structure-and-diversity/v/introduced-species-and-biodiversity
+=> https://www.khanacademy.org/science/biology/ecology/community-structure-and-diversity/a/invasive-species
 
 Species that are, intentionally or by accident, transfered by humans from a native habitat to a new one. "Introduced" is the opposite of "native".
 
@@ -198,3 +201,14 @@ There are species very well adapted to a large variety of environments, that thr
 All invasive species are introduced; but not all introduced species are invasive.
 
 Ultimately, invasive species are ones that hinder ecosystem function.
+
+### Ecological succession
+
+=> https://www.khanacademy.org/science/biology/ecology/community-structure-and-diversity/v/ecological-succession
+=> https://www.khanacademy.org/science/biology/ecology/community-structure-and-diversity/a/ecological-succession
+
+Ecological succession is the name given to the large-scale changes of an ecosystem. It can be broken in two: primary and secondary.
+
+Primary ecological success is the change between no life and the appearance of the pioneer species. For example, when new land is formed out of lava and the first plants or microbes start appearing. Another example is glaciers melting.
+
+Secondary ecological succession is the name given to the change, almost replacement, of the community. For example, when a disaster largely wipes out the community, which is then replaced by a new community.
