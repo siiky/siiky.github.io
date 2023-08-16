@@ -1,8 +1,8 @@
 # Books list
 siiky
 2020/12/21
-2023/08/10
-2023/08/10
+2023/08/16
+2023/08/16
 list
 
 These are the books that I'm reading, have read, or haven't read. You may find many of them on Gutenberg and/or Standard Ebooks, and some of them in the care list. If I don't forget, I'll link to their sources. Though less common, if I have a page dedicated to a book of this list I'll link to it instead, like I did with How to Avoid a Climate Disaster.
@@ -28,6 +28,7 @@ Please let me know if you find any of the links not working.
 => https://tokipona.org Sonja Lang, Toki Pona: The Language of Good: 2022/09/22
 => https://www.ffms.pt/publicacoes/detalhe/5682/riscos-globais-e-biodiversidade Maria Amélia Martins-Loução, Riscos Globals e Biodiversidade: 2022/06/15
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Games_People_Play_(book) Eric Berne, Games People Play: 2023/03/12
+=> gemini://fturco.net/third-party/the-minimalist-vegan.gmi Michael Ofei, Maša Ofei, The Minimalist Vegan: 2023/08/16
 
 ## Read
 
