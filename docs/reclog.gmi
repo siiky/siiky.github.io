@@ -1,13 +1,29 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/08/14
+2023/08/16
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry
+=> gemini://warmedal.se/~bjorn/posts/2023-08-16-doing-and-making-things-myself.gmi 2023-08-16 Doing and Making Things Myself
+=> gemini://betabube.xyz/newsboat.gmi 2023-08-16 How to run newsboat over SSH
+=> gemini://ew.srht.site/en/2023/20230814-detox-2.gmi 2023-08-16 Digital Detox 2
+=> gemini://idiomdrottning.org/occams-turtles 2023-08-16 Occam’s Turtles All the Way
+=> gemini://idiomdrottning.org/universe-next-door 2023-08-16 Gazing back from “The Universe Next Door”
+=> gemini://idiomdrottning.org/ets 2023-08-16 From a convo on ETS
+=> gemini://tilde.cafe/~stack/gemlog/2023-08-11.covid.gmi 2023-08-16 #re: First Wavers
+=> gemini://gem.lizsugar.me/2023/08/08/first-wavers.gmi 2023-08-16 First Wavers
+=> gemini://gemini.sh0.xyz/log/2023-08-13_getting_back_online_after_summer.gmi 2023-08-16 Getting back online after summer
+=> gemini://rawtext.club/~mieum/relog/2023-08-16-wear_a_dress.gmi 2023-08-16 Re: I Want to Wear a Dress
+=> gemini://tilde.cafe/~stack/gemlog/2023-08-15.dress.gmi 2023-08-16 I Want To Wear A Dress!
+=> gemini://lasse.nerdcamp.net/gemlog/20230814.gmi 2023-08-16 Re: The Minimalist Vegan
+=> gemini://thrig.me/blog/2023/08/14/what-if-gem80.gmi 2023-08-16 Re: What if Gemini could be served on port 80?
+=> gemini://betabube.xyz/gemini80.gmi 2023-08-16 What if Gemini could be served on port 80?
 
 => gemini://warmedal.se/~bjorn/posts/2023-08-11-borrow-money-for-free-if-you-already-have-them.gmi 2023-08-14 BORROW MONEY FOR FREE (If You Already Have Them)
 => gemini://ew.srht.site/en/2022/20220123-simplicity-2.gmi 2023-08-14 Simplicity 2
