@@ -1,13 +1,26 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/08/16
+2023/08/19
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://rawtext.club/~winter/gemlog/2023/8-16.gmi 2023-08-19 Garage Decluttering, Take 2
+=> gemini://jsreed5.org/log/2023/202308/20230817-the-velocity-of-credit.gmi 2023-08-19 The Velocity of Credit
+=> gemini://tilde.cafe/~stack/gemlog/2023-08-17.dress.not.kilt.gmi 2023-08-19 Vy a Dress?  Vy not a Kilt?
+=> gemini://tilde.cafe/~stack/gemlog/2023-08-17.diversification.gmi 2023-08-19 Diversification is an Anti-Pattern
+=> gemini://jsreed5.org/log/2023/202308/20230816-social-adulthood.gmi 2023-08-19 Social Adulthood
+=> gemini://eph.smol.pub/1692205969 2023-08-19 Re: Guys in dresses, skirts
+=> gemini://bbs.geminispace.org/u/Addison/4405 2023-08-19 Re: Dresses for us guys
+=> gemini://rawtext.club/~winter/gemlog/2023/8-18.gmi 2023-08-19 The Garage, Take 3
+=> gemini://soviet.circumlunar.space/pjvm/log/000010-svhop.gmi 2023-08-19 announcing svhop
+=> gemini://lasse.nerdcamp.net/gemlog/20230818.gmi 2023-08-19 Re: Alone In Space
+=> gemini://ferds.flounder.online/gemlog/space.gmi 2023-08-19 Alone in (Gemini) Space
+=> gemini://gemini.hitchhiker-linux.org/gemlog/dresses,_kilts_and_more.gmi 2023-08-19 Dresses, Kilts and more
 
 => gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry
 => gemini://warmedal.se/~bjorn/posts/2023-08-16-doing-and-making-things-myself.gmi 2023-08-16 Doing and Making Things Myself
