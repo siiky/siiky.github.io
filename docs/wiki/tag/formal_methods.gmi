@@ -1,0 +1,3 @@
+=> ../v.jorgen_brandt.services_as_petri_nets.gmi 2023-08-18 Jörgen Brandt, "Beyond state machines: services as petri nets"
+=> ../petri_nets.gmi 2023-05-14 Petri nets
+=> ../interaction_nets.gmi 2023-05-14 Interaction nets

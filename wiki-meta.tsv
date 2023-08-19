@@ -1,3 +1,4 @@
+2023-08-18	2023-08-18	2023-08-18	Jörgen Brandt, "Beyond state machines: services as petri nets"	wiki/v.jorgen_brandt.services_as_petri_nets.gmi	video,formal_methods,petri_nets,computer_science
 2023-08-16	2023-08-16	2020-12-21	Books list	wiki/books.gmi	list
 2023-08-14	2023-08-14	2023-08-14	Matt Amys, "Why Formula 1 Cars Take Hours To Start"	wiki/v.matt_amys.why_f1_cars_take_hours_to_start.gmi	video,mechanics,engineering,physics
 2023-08-14	2023-08-14	2023-08-14	Engineering Explained, "Why Are 2026 Formula 1 Engines Going To Lose So Much Power?"	wiki/v.engineering_explained.why_are_2026_f1_engines_going_to_lose_so_much_power.gmi	video,mechanics,engineering,physics
@@ -47,15 +48,15 @@
 2023-05-15	2023-05-15	2023-03-13	Fault Tolerance	wiki/class.ft.gmi	course,distributed,programming
 2023-05-15	2023-05-15	2023-02-09	C (programming language)	wiki/pl.c.gmi	programming
 2023-05-14	post,osm	2023-05-14	Aditya Chaturvedi, "Open Data Access Bedrock of Sustainability"	wiki/p.aditya_chaturvedi.open_data_access_bedrock_of_sustainability.gmi	
+2023-05-14	2023-08-19	2023-05-14	Petri nets	wiki/petri_nets.gmi	programming,formal_methods,computer_science
+2023-05-14	2023-08-19	2023-05-14	Interaction nets	wiki/interaction_nets.gmi	programming,formal_methods,computer_science
+2023-05-14	2023-08-19	2023-05-14	Fabien Sanglard, "The Polygons of Another World"	wiki/p.fabien_sanglard.polygon_of_another_world.gmi	post,programming,computer_science
 2023-05-14	2023-05-14	2023-05-14	"Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"	wiki/v.stylelikeu.unveiling_masculinity.gmi	video,society
 2023-05-14	2023-05-14	2023-05-14	Sasa Juric, "The Soul of Erlang and Elixir"	wiki/v.sasa_juric.soul_of_erlang_and_elixir.gmi	video,programming,distributed
-2023-05-14	2023-05-14	2023-05-14	Petri nets	wiki/petri_nets.gmi	programming,formal-methods,computer-science
 2023-05-14	2023-05-14	2023-05-14	"Konnakol Duet: V Shivapriya & BR Somashekar Jois"	wiki/v.v_shivapriya_br_somashekar_jois-konnakol_duet.gmi	video,music,culture
 2023-05-14	2023-05-14	2023-05-14	Joe Fikifiki, "When your Heroes are Villains..."	wiki/v.joefikifiki.when_your_heroes_are_villains.gmi	video,music,ethics,psychology,society
 2023-05-14	2023-05-14	2023-05-14	Joe Fikifiki, "Songs that Have Disturbed Me: Frankie Teardrop"	wiki/v.joefikifiki.songs_that_disturbed_me-frankie_teardrop.gmi	video,music,society
-2023-05-14	2023-05-14	2023-05-14	Interaction nets	wiki/interaction_nets.gmi	programming,formal-methods,computer-science
 2023-05-14	2023-05-14	2023-05-14	Greta Thunberg, "School strike for climate - save the world by changing the rules"	wiki/v.tedx.school_strike_for_climate.gmi	video,environment,life
-2023-05-14	2023-05-14	2023-05-14	Fabien Sanglard, "The Polygons of Another World"	wiki/p.fabien_sanglard.polygon_of_another_world.gmi	post,programming,computer-science
 2023-05-14	2023-05-14	2023-05-14	"Explaining Meshuggah using KONNAKOL (Stengah)"	wiki/v.explaining_meshuggah_using_konnakol.gmi	video,music,culture
 2023-05-14	2023-05-14	2023-05-14	Concatenative programming	wiki/pl.concatenative_programming.gmi	programming,list
 2023-05-14	2023-05-14	2023-05-14	Boundo, "Fascism in Black Metal and How to Spot It"	wiki/v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi	video,music,society
@@ -111,8 +112,11 @@
 2023-03-04	2023-05-12	2023-02-21	Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"	wiki/wp.psa.interval_tree_clocks.gmi	whitepaper,distributed,programming
 2023-03-04	2023-03-04	2023-03-04	Sovereignty	wiki/sovereignty.gmi	philosophy,society
 2023-03-04	2023-03-04	2023-03-04	Police	wiki/police.gmi	philosophy,society,politics
+2023-02-28	2023-08-19	2023-02-28	Static Scheme	wiki/pl.static_scheme.gmi	programming,scheme,type_theory
+2023-02-28	2023-08-19	2023-02-28	"Speculation in JavaScriptCore"	wiki/p.speculation_in_javascriptcore.gmi	post,language,computer_science
+2023-02-28	2023-08-19	2023-02-28	"Ever wondered how a QR code works?"	wiki/p.ever_wondered_how_qr_code_works.gmi	post,technology,computer_science
+2023-02-28	2023-08-19	2023-02-28	"Building the fastest Lua interpreter.. automatically!"	wiki/p.fastest_lua_interpreter.gmi	post,language,computer_science
 2023-02-28	2023-05-12	2023-02-28	"Why are we talking so much about privacy?"	wiki/p.why_are_we_talking_about_privacy.gmi	post,privacy,society,information
-2023-02-28	2023-05-12	2023-02-28	Static Scheme	wiki/pl.static_scheme.gmi	programming,scheme,type-theory
 2023-02-28	2023-05-12	2023-02-28	Soufflé	wiki/souffle.gmi	database,logic
 2023-02-28	2023-05-12	2023-02-28	"QR Code development story"	wiki/p.qr_code_development_story.gmi	
 2023-02-28	2023-05-12	2023-02-28	Public transport	wiki/public_transport.gmi	carfree,society,city
@@ -120,7 +124,6 @@
 2023-02-28	2023-05-12	2023-02-28	IPFS	wiki/ipfs.gmi	distributed,p2p
 2023-02-28	2023-05-12	2023-02-28	Ingmar Baumgart, Sebastian Mies, "S/Kademlia: A Practicable Approach Towards Secure Key-Based Routing"	wiki/wp.ingmar_baumgart.skademlia.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-05-12	2023-02-28	Farhad Manjoo, "I've Seen a Future Without Cars, and It's Amazing"	wiki/p.ive_seen_future_without_cars.gmi	post,environment,city,carfree
-2023-02-28	2023-05-12	2023-02-28	"Ever wondered how a QR code works?"	wiki/p.ever_wondered_how_qr_code_works.gmi	post,technology,computer-science
 2023-02-28	2023-05-12	2023-02-28	EPCOT	wiki/epcot.gmi	carfree,city,society
 2023-02-28	2023-05-12	2023-02-28	Carfree Movement	wiki/carfree_movement.gmi	environment,economy,society,ethics,philosophy,permaculture
 2023-02-28	2023-05-12	2023-02-28	Carfree Cities	wiki/carfree_cities.gmi	society,environment,reason,economy,city,waste,carfree
@@ -128,7 +131,6 @@
 2023-02-28	2023-04-24	2023-02-28	Matt Parker, "Talks at Google: The Greatest Maths Mistakes"	wiki/v.talks_google.greatest_maths_mistakes.gmi	video,mathematics
 2023-02-28	2023-03-16	2023-02-28	Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"	wiki/wp.ion_stoica.chord.gmi	whitepaper,distributed,p2p,algorithms
 2023-02-28	2023-02-28	2023-02-28	Tom Preston-Werner, "The Git Parable"	wiki/p.git_parable.gmi	post,git
-2023-02-28	2023-02-28	2023-02-28	"Speculation in JavaScriptCore"	wiki/p.speculation_in_javascriptcore.gmi	post,language,computer-science
 2023-02-28	2023-02-28	2023-02-28	Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"	wiki/wp.petar_maymounkov.kademlia.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Michael J. Freedman, Eric Freudenthal, David Mazières, "Democratizing content publication with Coral"	wiki/wp.michael_j_freedman.coral.gmi	whitepaper,distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	Johan Herland, "The Git Parable"	wiki/v.git_parable.gmi	video,git
@@ -139,7 +141,6 @@
 2023-02-28	2023-02-28	2023-02-28	emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"	wiki/p.visual_programming-what_went_wrong.gmi	programming,mathematics
 2023-02-28	2023-02-28	2023-02-28	Distributed Hash Table	wiki/dht.gmi	distributed,p2p
 2023-02-28	2023-02-28	2023-02-28	CHICKEN Scheme	wiki/pl.chicken.gmi	programming,scheme
-2023-02-28	2023-02-28	2023-02-28	"Building the fastest Lua interpreter.. automatically!"	wiki/p.fastest_lua_interpreter.gmi	post,language,computer-science
 2023-02-28	2023-02-28	2023-02-28	Aileen Buckley, "Does every map need a north arrow and scale bar?"	wiki/p.does_every_map_need_north_arrow.gmi	post,cartography,osm
 2023-02-28	2023-02-28	2023-02-06	Scheme (programming language)	wiki/pl.scheme.gmi	programming,scheme
 2023-02-26	2023-02-26	2023-02-26	Jerome Klapka Jerome	wiki/jerome_klapka_jerome.gmi	author
@@ -196,12 +197,12 @@
 2023-02-05	2023-02-07	2023-02-05	Hein-Pieter van Braam, "Clear skies, no clouds in sight. Running a 14 person company on only free software."	wiki/fosdem2023.small_business_using_open_source.gmi	talk
 2023-02-05	2023-02-07	2023-02-05	Dennis Trautwein, "Decentralized Storage with IPFS"	wiki/fosdem2023.network_decentralized_storage.gmi	talk,ipfs
 2023-02-05	2023-02-07	2023-02-05	Arun Isaac, "tissue—the minimalist git+plain text issue tracker"	wiki/fosdem2023.tissue.gmi	talk,gemini,tools
+2023-02-04	2023-08-19	2023-02-04	Andrew Whatson, "Introduction to Pre-Scheme"	wiki/fosdem2023.prescheme.gmi	talk,scheme,type_theory
 2023-02-04	2023-05-12	2023-02-04	Noel De Martin, "From Zero to Hero with Solid"	wiki/fosdem2023.sovcloud_from_zero_to_hero_with_solid.gmi	talk,p2p,privacy
 2023-02-04	2023-02-07	2023-02-04	Remko Tronçon, "Exploring WebAssembly with Forth (and vice versa)"	wiki/fosdem2023.webassemblyforth.gmi	talk
 2023-02-04	2023-02-07	2023-02-04	Ludovic Courtès, "Where does that code come from?"	wiki/fosdem2023.security_where_does_that_code_come_from.gmi	talk,security,cryptography
 2023-02-04	2023-02-07	2023-02-04	Jakub Jankiewicz, "LIPS Scheme"	wiki/fosdem2023.lipsscheme.gmi	talk,scheme
 2023-02-04	2023-02-07	2023-02-04	Andy Wingo, "Whippet: A new production embeddable garbage collector"	wiki/fosdem2023.whippet.gmi	talk,scheme
-2023-02-04	2023-02-07	2023-02-04	Andrew Whatson, "Introduction to Pre-Scheme"	wiki/fosdem2023.prescheme.gmi	talk,scheme,type-theory
 2023-02-04	2023-02-04	2023-02-04	nothing interesting wiki: Meta	wiki/meta.gmi	
 2023-02-04	2023-02-04	2023-02-04	2023/02/05	wiki/20230205.gmi	journal
 2023-02-04	2023-02-04	2023-02-04	2023/02/04	wiki/20230204.gmi	journal

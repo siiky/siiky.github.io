@@ -2,8 +2,8 @@
 siiky
 2023/05/14
 2023/05/14
-2023/05/14
-programming,formal-methods,computer-science
+2023/08/19
+programming,formal_methods,computer_science
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Interaction_nets
 

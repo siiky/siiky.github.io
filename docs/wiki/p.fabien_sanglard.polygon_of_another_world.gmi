@@ -2,8 +2,8 @@
 siiky
 2023/05/14
 2023/05/14
-2023/05/14
-post,programming,computer-science
+2023/08/19
+post,programming,computer_science
 
 => https://fabiensanglard.net/another_world_polygons/
 

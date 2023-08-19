@@ -117,6 +117,7 @@
 => ../v.john_romer.ancient_lives.gmi John Romer, "Ancient Lives"
 => ../fosdem2023.liberatestorytelling.gmi Jonathan McHugh, "Literate Storytelling: Interpreting Syntaxes for Explorers"
 => ../fosdem2023.nym_mixnet.gmi Jon Häggblad, "The Nym Mixnet"
+=> ../v.jorgen_brandt.services_as_petri_nets.gmi Jörgen Brandt, "Beyond state machines: services as petri nets"
 => ../v.v_shivapriya_br_somashekar_jois-konnakol_duet.gmi "Konnakol Duet: V Shivapriya & BR Somashekar Jois"
 => ../fosdem2023.dns_i2p.gmi Konrad Bächler, "DNS for I2P: a Distributed Network without Central Authority"
 => ../class.lsds.gmi Large Scale Distributed Systems

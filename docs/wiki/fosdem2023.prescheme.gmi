@@ -2,8 +2,8 @@
 siiky
 2023/02/04
 2023/02/04
-2023/02/07
-talk,scheme,type-theory
+2023/08/19
+talk,scheme,type_theory
 
 => https://fosdem.org/2023/schedule/event/prescheme
 

@@ -5,10 +5,10 @@
 => ../class.lsds.gmi 2023-05-16 Large Scale Distributed Systems
 => ../class.ft.gmi 2023-05-15 Fault Tolerance
 => ../pl.c.gmi 2023-05-15 C (programming language)
-=> ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../petri_nets.gmi 2023-05-14 Petri nets
 => ../interaction_nets.gmi 2023-05-14 Interaction nets
 => ../p.fabien_sanglard.polygon_of_another_world.gmi 2023-05-14 Fabien Sanglard, "The Polygons of Another World"
+=> ../v.sasa_juric.soul_of_erlang_and_elixir.gmi 2023-05-14 Sasa Juric, "The Soul of Erlang and Elixir"
 => ../pl.concatenative_programming.gmi 2023-05-14 Concatenative programming
 => ../fosdem2020.dip_secusharebox.gmi 2023-05-10 Devan Carpenter, "Knocking Down the Nest"
 => ../v.sinelabs.vusb_hid_explained.gmi 2023-05-09 "V-USB on an ATmega328! - V-USB and HID Explained"

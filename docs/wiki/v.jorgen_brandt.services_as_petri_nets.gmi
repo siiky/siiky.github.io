@@ -1,0 +1,15 @@
+# Jörgen Brandt, "Beyond state machines: services as petri nets"
+siiky
+2023/08/18
+2023/08/18
+2023/08/18
+video,formal_methods,petri_nets,computer_science
+
+=> https://yewtu.be/watch?v=aWnGPaputGE
+
+Talk by the author of gen_pnet, a Petri nets implementation in Erlang, about Petri nets and why they're superior to state machines.
+
+=> https://github.com/joergen7/gen_pnet
+=> pl.erlang.gmi
+
+When I first found the library it looked like a waste of Erlang: why not take advantage of Erlang's processes and everything everywhere all at once? After watching the talk I understand now that that was not its purpose, and it makes sense. The purpose of the lib is to model one (Erlang) process as a Petri net, and for that it looks actually pretty good.
