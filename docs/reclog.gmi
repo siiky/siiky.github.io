@@ -1,13 +1,18 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/08/19
+2023/08/20
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://thelambdalab.xyz/phlog/2023-08-20-Curmudgeon.txt 2023-08-20 Curmudgeon
+=> gemini://pandora.flounder.online/relatos/terror/velatorio.gmi 2023-08-20 RELATOS PARA NO DORMIR: VELATORIO
+=> gemini://pandora.flounder.online/opinion/manteros.gmi 2023-08-20 VIVENCIAS VIVIDAS: ALERTA, MANTEROS
+=> gemini://gemini.hitchhiker-linux.org/gemlog/mixed_feelings_about_rust.gmi 2023-08-20
 
 => gemini://kwiecien.us/gemcast/20200806.gmi 2023-08-19 Gemini Radio Episode 2
 => gemini://kwiecien.us/gemcast/20200804.gmi 2023-08-19 Gemini Radio Episode 1
