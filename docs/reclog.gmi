@@ -9,6 +9,17 @@ siiky
 
 I update this page manually.
 
+=> gemini://kwiecien.us/gemcast/20200806.gmi 2023-08-19 Gemini Radio Episode 2
+=> gemini://kwiecien.us/gemcast/20200804.gmi 2023-08-19 Gemini Radio Episode 1
+=> gemini://freeshell.de/gemlog/2023-08-19_Improving_mental_health_with_software.gmi 2023-08-19 Improving mental health with software 🧠💻
+=> gemini://jsreed5.org/log/2023/202308/20230819-giving-up-a-static-ip.gmi 2023-08-19 Giving Up a Static IP
+=> gemini://thrig.me/blog/2023/08/16/red-lentils.gmi 2023-08-19 Red Lentils
+=> gemini://okasen.smol.pub/timely-fiction 2023-08-19 Timely Fiction, Non-Eternal Fiction: A ramble on old stuff
+=> gemini://lasse.nerdcamp.net/gemlog/20230812.gmi 2023-08-19 So I built a HRNG - how do I know if it's any good?
+=> gemini://idiomdrottning.org/re-yuno-bbs 2023-08-19 Re: Why you no BBS?
+=> gemini://rawtext.club/~winter/gemlog/2023/8-14.gmi 2023-08-19 Emergency Notifications, Mastodon, the Climate Crisis
+=> gemini://thrig.me/blog/2023/08/15/is-it-utf8.gmi 2023-08-19 Is it UTF-8?
+=> gemini://flry.net/gemlog/utf8/ 2023-08-19 Can random bytes be valid UTF-8?
 => gemini://rawtext.club/~winter/gemlog/2023/8-16.gmi 2023-08-19 Garage Decluttering, Take 2
 => gemini://jsreed5.org/log/2023/202308/20230817-the-velocity-of-credit.gmi 2023-08-19 The Velocity of Credit
 => gemini://tilde.cafe/~stack/gemlog/2023-08-17.dress.not.kilt.gmi 2023-08-19 Vy a Dress?  Vy not a Kilt?

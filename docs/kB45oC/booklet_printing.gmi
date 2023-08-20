@@ -1,0 +1,67 @@
+# Booklet printing
+siiky
+2023/08/20
+2023/08/20
+en
+
+I found how to prepare a PDF into a printable booklet (aka brochure or pamphlet) PDF! (Again!) The booklet pages will be half the size of the print paper -- e.g. with an A4 paper printer the booklet will be A5.
+
+For whatever reason I find it extremely hard to understand how to operate the printer... If I put the paper this way, how will it come out? Should I flip it to print the other side? Should I rotate? Who knows! It's not the first time I've gone through the whole process of (re)learning these things, but, like a dumbass, I never documented it. All is about to change! Brace yourself!
+
+The first hints, which I have later adapted to fit my setup, I've found in various StackExchange questions, just search around for "linux print booklet".
+
+=> https://askubuntu.com/questions/214538 Printing in booklet format
+=> https://www.reddit.com/r/linux/comments/vhg01i/booklet_printing/ Booklet Printing
+
+One option that looks relly good is boomaga. Unfortunately it's starting to look like it'll be abandonware in a few years, that's why I've tried the "hard way" first and will document that here.
+
+=> https://www.boomaga.org
+=> https://github.com/Boomaga/boomaga
+=> https://github.com/Boomaga/boomaga/issues/117
+
+Everything here is specific to my printer, there's no guarantee it'll work on yours, &c, &c. I have a hard time understanding how to do it with my own printer, how would I know how to do it with yours?!
+
+## Printer
+
+I have an HP LaserJet Pro M15a, a dead-simple A4 printer: you insert paper on the bottom, and it regurgitates paper out the top flipped on the short-edge[^0]. The paper's top side (when feeding) is the printed side (the bottom side when regurgitated).
+
+The M15a can't print both sides in one go. If you want to print 2 pages on the front and back of a single sheet, simply print the first page, pull the sheet out, shove it back in without flipping or rotating, and print the second page. Don't mess this up like I have so many times!
+
+My printer is connected by USB to my RBPi2, using CUPS, and is shared on the LAN so I can print from any computer/smartphone. No WiFi BS needed!
+
+## pdfjam
+
+Let's call our original input PDF file original.pdf. If it has some unwanted pages, you can use pdfjam to fix that:
+
+```sh
+pdfjam --a4paper --outfile wanted-pages.pdf -- original.pdf PAGE_SELECTION
+```
+
+If you want all pages, then you should skip this step.
+
+As an example, in this last document I wanted to print, I didn't need the first page. So as PAGE_SELECTION I used `2-` (2nd page till the end). `pdfjam --help` is pretty good.
+
+## pdfbook2
+
+This is the program with the most useful part! Takes a sequential PDF (1, 2, 3, 4, ..., N-1, N) and creates a PDF with pages paired such that when printed and folded in half it forms a booklet (blank/1, 2/blank, 3/N, 4/N-1 ...). The output file is named after the input file, with "-book" appened to the basename (i.e. wanted-pages-book.pdf). `pdfbook2 --help` is not so good.
+
+```sh
+pdfbook2 --short-edge --no-crop --paper=a4 --signature=0 -- wanted-pages.pdf
+```
+
+wanted-pages-book.pdf has (asymptotically) half the number of pages (N/2 + 1, I think) of wanted-pages.pdf -- for example, this wanted-pages.pdf I just printed has 10 pages, but wanted-pages-book.pdf has 6.
+
+The option `--signature=0` (I believe, can't be certain) is the signature size. E.g., if you have an 80 pages PDF, `--signature=0` would create a 41 page booklet PDF corresponding to a single 20 sheets signature (80 pages); and `--signature=40` would create a 41 page booklet PDF corresponding to two 10 sheets signatures (40 pages each). If I'm doing the math right -- it's hard you know!
+
+pdfjam is also capable of doing this step with a few options, see the StackExchange question I linked to at the top.
+
+## All together now!
+
+There's one last important detail! The printer regurgitates paper in a stack, so the sheets will be in the reverse order they were inserted in. The only solution I know as of now (without boomaga) is to manually reverse the stack. Be sure not to flip or rotate any sheets or everything will be wrong!
+
+* Print the odd-numbered pages of the wanted-pages-book.pdf
+* Reverse printed sheets as explained above
+* Print the even-numbered pages of the wanted-pages-book.pdf
+
+
+[^0]: Meaning: having the paper in portrait in front of you, hold the short edge closest to you, pick the sheet up, quickly extend your arm(s) and lay the sheet down with the previously-closest edge now farthest from you.
