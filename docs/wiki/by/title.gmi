@@ -126,6 +126,9 @@
 => ../linux.gmi Linux
 => ../logical_clock.gmi Logical clock
 => ../logic_programming.gmi Logical Programming
+=> ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
+=> ../p.lowtechmagazine.how_to_build_pratical_household_bike_generator.gmi LOW-TECH MAGAZINE, Kris De Decker, Marie Verdeil, "How to Build a Practical Household Bike Generator"
+=> ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
 => ../pl.lua.gmi Lua (programming language)
 => ../fosdem2023.security_where_does_that_code_come_from.gmi Ludovic Courtès, "Where does that code come from?"
 => ../fosdem2023.consulting_for_digital_humanists.gmi Marie Dubremetz, "Consulting for digital humanists"

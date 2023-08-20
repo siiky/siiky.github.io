@@ -1,0 +1,10 @@
+# LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
+siiky
+2023/08/20
+2023/08/20
+2023/08/20
+environment,energy,society,engineering
+
+=> https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel
+
+Story behind an alternative design of photovoltaic panels.

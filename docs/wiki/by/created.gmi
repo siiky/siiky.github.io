@@ -1,3 +1,6 @@
+=> ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
+=> ../p.lowtechmagazine.how_to_build_pratical_household_bike_generator.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, Marie Verdeil, "How to Build a Practical Household Bike Generator"
+=> ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
 => ../v.jorgen_brandt.services_as_petri_nets.gmi 2023-08-18 Jörgen Brandt, "Beyond state machines: services as petri nets"
 => ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi 2023-08-14 Matt Amys, "Why Formula 1 Cars Take Hours To Start"
 => ../v.engineering_explained.why_are_2026_f1_engines_going_to_lose_so_much_power.gmi 2023-08-14 Engineering Explained, "Why Are 2026 Formula 1 Engines Going To Lose So Much Power?"
