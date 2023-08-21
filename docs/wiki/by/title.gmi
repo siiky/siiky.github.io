@@ -151,10 +151,8 @@
 => ../index.gmi nothing interesting wiki
 => ../notrelated.gmi "Not Related!"
 => ../portugal-opendata.gmi Open Data in Portugal
-=> ../p.wilder.salta-pocinhas.gmi Paulo Catry, "Crónicas naturais: salta-pocinhas"
 => ../wp.psa.interval_tree_clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
-=> ../p.wilder.lagostim-sinal.gmi Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
 => ../wp.petar_maymounkov.kademlia.gmi Petar Maymounkov, David Mazières, "Kademlia: A Peer-to-peer Information System Based on the XOR Metric"
 => ../petri_nets.gmi Petri nets
 => ../book.philippe_delgleize.devastacao.gmi Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
@@ -187,6 +185,8 @@
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../techstuffs.gmi Techstuffs
+=> ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
+=> ../p.theconversation.orgasm_gap_and_why_women_climax_less_than_men.gmi The Conversation, Laurie Mintz, "The orgasm gap and why women climax less than men"
 => ../physics.thermodynamics.gmi Thermodynamics
 => ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi Thunderf00t, "Can a new fuel solve climate change?"
 => ../p.tim_urban.story_of_us.gmi Tim Urban, "The Story of Us"
@@ -205,6 +205,10 @@
 => ../chemistry.water.gmi Water
 => ../v.finally_figured_roman_concrete.gmi "We FINALLY Figured Out The Secret of Roman Concrete"
 => ../p.why_are_we_talking_about_privacy.gmi "Why are we talking so much about privacy?"
+=> ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
+=> ../p.wilder.ratinho-ruivo_aprende_identificar_novos_alimentos_atraves_halito_outros_ratinhos.gmi WILDER, Helena Geraldes, "Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos"
+=> ../p.wilder.salta-pocinhas.gmi WILDER, Paulo Catry, "Crónicas naturais: salta-pocinhas"
+=> ../p.wilder.lagostim-sinal.gmi WILDER, Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
 => ../fosdem2023.reflexiveinterpreters.gmi William Byrd, "Self-conscious Reflexive Interpreters"
 => ../fosdem2023.keyoxide.gmi Yarmo Mackenbach, "Keyoxide: verifying online identity with cryptography"
 => ../v.you_can_learn_riscv_assembly.gmi "You Can Learn RISC-V Assembly in 10 Minutes | Getting Started RISC-V Assembly on Linux Tutorial"

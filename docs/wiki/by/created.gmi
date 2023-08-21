@@ -1,3 +1,7 @@
+=> ../p.wilder.ratinho-ruivo_aprende_identificar_novos_alimentos_atraves_halito_outros_ratinhos.gmi 2023-08-21 WILDER, Helena Geraldes, "Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos"
+=> ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi 2023-08-21 WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
+=> ../p.theconversation.orgasm_gap_and_why_women_climax_less_than_men.gmi 2023-08-21 The Conversation, Laurie Mintz, "The orgasm gap and why women climax less than men"
+=> ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
 => ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
 => ../p.lowtechmagazine.how_to_build_pratical_household_bike_generator.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, Marie Verdeil, "How to Build a Practical Household Bike Generator"
 => ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
@@ -13,8 +17,8 @@
 => ../v.driver61.insane_h16_f1_engine.gmi 2023-08-14 Driver61, "The INSANE H16 Formula 1 Engine!"
 => ../v.driver61.adrian_neweys_f1_design_secrets.gmi 2023-08-14 Driver61, "Adrian Newey's Formula 1 Design SECRETS"
 => ../v.angethegreat.simulating_f1_v12.gmi 2023-08-14 AngeTheGreat, "Simulating an F1 V12, cross-plane and flat-plane V8s, unequal length headers and more"
-=> ../p.wilder.lagostim-sinal.gmi 2023-08-08 Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
-=> ../p.wilder.salta-pocinhas.gmi 2023-08-08 Paulo Catry, "Crónicas naturais: salta-pocinhas"
+=> ../p.wilder.lagostim-sinal.gmi 2023-08-08 WILDER, Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
+=> ../p.wilder.salta-pocinhas.gmi 2023-08-08 WILDER, Paulo Catry, "Crónicas naturais: salta-pocinhas"
 => ../portugal-opendata.gmi 2023-08-08 Open Data in Portugal
 => ../alpine_linux.gmi 2023-08-07 Alpine Linux
 => ../chemistry.water.gmi 2023-07-31 Water

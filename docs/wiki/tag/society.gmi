@@ -1,3 +1,5 @@
+=> ../p.theconversation.orgasm_gap_and_why_women_climax_less_than_men.gmi 2023-08-21 The Conversation, Laurie Mintz, "The orgasm gap and why women climax less than men"
+=> ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
 => ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
 => ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
 => ../v.sabine_hossenfelder.greenwashing.gmi 2023-07-29 Sabrine Hossenfelder, "Greenwashing: How to spot and avoid it"

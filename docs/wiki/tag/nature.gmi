@@ -1,4 +1,5 @@
-=> ../p.wilder.salta-pocinhas.gmi 2023-08-08 Paulo Catry, "Crónicas naturais: salta-pocinhas"
+=> ../p.wilder.ratinho-ruivo_aprende_identificar_novos_alimentos_atraves_halito_outros_ratinhos.gmi 2023-08-21 WILDER, Helena Geraldes, "Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos"
+=> ../p.wilder.salta-pocinhas.gmi 2023-08-08 WILDER, Paulo Catry, "Crónicas naturais: salta-pocinhas"
 => ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
 => ../book.duarte_mendes.nove_passos.gmi 2023-07-27 Duarte Mendes, Carla Maia, Eduardo Gonçalves, Paulo Alves, Duarte Silva, "nove passos"
 => ../book.antonio_vaz.manual_biourb.gmi 2023-07-27 António Jorge Ferreira Vaz, Débora Ferreira, Eduarda Luso, Sílvia Fernandes, "Manual BIOURB - Manual para a conservação e reabilitação da diversidade bioconstrutiva"

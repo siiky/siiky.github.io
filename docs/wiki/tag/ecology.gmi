@@ -1,4 +1,5 @@
+=> ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi 2023-08-21 WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
 => ../ecology.gmi 2023-08-14 Ecology
 => ../portugal-opendata.gmi 2023-08-11 Open Data in Portugal
-=> ../p.wilder.lagostim-sinal.gmi 2023-08-08 Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
+=> ../p.wilder.lagostim-sinal.gmi 2023-08-08 WILDER, Pedro Anastácio, "Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte"
 => ../v.biointeractive.some_animals_are_more_equal_than_others.gmi 2023-07-29 biointeractive, "Some Animals Are More Equal than Others: Keystone Species and Trophic Cascades"
