@@ -35,7 +35,7 @@ This one is about the story of a guy who went to the mountain one morning, and h
 
 The third is about a study finding that CITES (something I'd never heard of before) leaves more than 900 endangered species out of its trade/commerce protections. Methinks it's weird this is a blacklist instead of a whitelist... assuming the intention is to protect biodiversity, of course.
 
-=> ../wiki/p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi WILDER, Helena Geraldes, ""
+=> ../wiki/p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi
 => https://cites.org
 
 ## Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos
