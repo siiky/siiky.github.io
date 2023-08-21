@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> nature/wilder.gmi 2023-08-21 WILDER, an indie magazine about nature (in Portuguese)
 => kB45oC/booklet_printing.gmi 2023-08-20 Booklet printing
 => words/pompous_dog.gmi 2023-08-09 The Pompous Dog
 => algebra/re-division_remainder_mod.gmi 2023-06-18 RE: Division, remainder, mod ➗%❓

@@ -6,3 +6,5 @@ siiky
 post,nature
 
 => https://www.wilder.pt/cronicas/cronicas-naturais-salta-pocinhas/
+
+=> ../nature/wilder.gmi

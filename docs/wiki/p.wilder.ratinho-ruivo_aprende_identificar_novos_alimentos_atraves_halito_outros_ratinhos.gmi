@@ -9,4 +9,8 @@ post,biology,nature
 
 Article about how the Mus spretus learns it's safe to eat new foods from others' breaths. Smart cookies!
 
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Algerian_mouse
+
 > O ratinho-ruivo (Mus spretus) aprende a identificar que novos alimentos é seguro incluir na sua alimentação através do cheiro presente no hálito de outros ratinhos da sua espécie, revela um novo estudo.
+
+=> ../nature/wilder.gmi

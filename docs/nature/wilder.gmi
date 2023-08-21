@@ -1,0 +1,52 @@
+# WILDER, an indie magazine about nature (in Portuguese)
+siiky
+2023/08/21
+2023/08/21
+en
+
+A couple of weeks ago I found this Portuguese[^0] indie magazine about nature called WILDER... and boy it's pretty fucking good!
+
+They publish around two articles per day, about news or scientific studies. There's a section titled "Que espécie é esta?" ("What species is this?") where readers send observations of their own, and specialists collaborating with the magazine try to determine the species (on a best effort basis) -- it's pretty cool to learn of so many different life forms living around here. And for some weeks now there's been a running series of interviews of those specialists, titled "Embaixadores por Natureza" ("Ambassadors for Nature").
+
+=> ../wiki/by/created.gmi You may have seen them in my wiki
+
+I found it by chance, after my interest renewal in biology and I started studying biology on Khan Academy (which you may also have seen in my wiki).
+
+In this post I'd like to bring attention to the four articles currently in the wiki, which I think will give a glimpse into the content variation.
+
+
+[^0]: Firefox 118 now has built-in full-page translation, and it works well enough for Portuguese-English! And it works locally (according to the FAQ): "Installing languages enables Firefox to perform translations locally within your browser"
+=> https://support.mozilla.org/en-US/kb/website-translation § "Why do I need to install languages?"
+
+## Lagostim-sinal: Um invasor que chegou a Portugal pelo Norte
+
+The first is about an invasive species in Portugal, the signal crayfish (Pacifastacus leniusculus). It's interesting because not long ago this summer vacation I think I've seen many of these in two different rivers. I had never seen crayfish in the river before.
+
+=> ../wiki/p.wilder.lagostim-sinal.gmi
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Signal_crayfish
+
+## Crónicas naturais: salta-pocinhas
+
+This one is about the story of a guy who went to the mountain one morning, and had a chance encounter with a fox, who made him company for a short while.
+
+=> ../wiki/p.wilder.salta-pocinhas.gmi
+
+## Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas
+
+The third is about a study finding that CITES (something I'd never heard of before) leaves more than 900 endangered species out of its trade/commerce protections. Methinks it's weird this is a blacklist instead of a whitelist... assuming the intention is to protect biodiversity, of course.
+
+=> ../wiki/p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi WILDER, Helena Geraldes, ""
+=> https://cites.org
+
+## Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos
+
+And the last one tells of a behavioral study of Algerian mice (Mus spretus). These little guys learn of new edible foodstuffs by smelling the breaths of other fellows. Such smart cookies! They can determine the general health of another mouse by smell too.
+
+=> ../wiki/p.wilder.ratinho-ruivo_aprende_identificar_novos_alimentos_atraves_halito_outros_ratinhos.gmi
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Algerian_mouse
+
+## "But I don't know Portuguese... ):"
+
+Understandable, I'd be more surprised if you did... But I'm not recommending, or even suggesting, that you learn Portuguese -- it's hard and not so useful.
+
+Instead, I'd like to encourage you to find an indie magazine/newspaper/journal in any language you know, about any topic of your interest, and to share your findings with the rest of us!

@@ -10,3 +10,4 @@ post,ecology
 Post about the Signal crayfish, an invasive species in Europe.
 
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Signal_crayfish
+=> ../nature/wilder.gmi

@@ -12,3 +12,5 @@ Article about the CITES being outdated wrt endangered species.
 => https://cites.org
 
 The default should be to NOT allow any sort of commerce of wild animals... Is that such a wild idea?
+
+=> ../nature/wilder.gmi
