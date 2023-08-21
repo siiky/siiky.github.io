@@ -8,6 +8,8 @@ A couple of weeks ago I found this Portuguese[^0] indie magazine about nature ca
 
 They publish around two articles per day, about news or scientific studies. There's a section titled "Que espécie é esta?" ("What species is this?") where readers send observations of their own, and specialists collaborating with the magazine try to determine the species (on a best effort basis) -- it's pretty cool to learn of so many different life forms living around here. And for some weeks now there's been a running series of interviews of those specialists, titled "Embaixadores por Natureza" ("Ambassadors for Nature").
 
+=> https://www.wilder.pt/especies/
+=> https://www.wilder.pt/topico/embaixadores-por-natureza/
 => ../wiki/by/created.gmi You may have seen them in my wiki
 
 I found it by chance, after my interest renewal in biology and I started studying biology on Khan Academy (which you may also have seen in my wiki).
