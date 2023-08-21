@@ -12,7 +12,7 @@ They publish around two articles per day, about news or scientific studies. Ther
 
 I found it by chance, after my interest renewal in biology and I started studying biology on Khan Academy (which you may also have seen in my wiki).
 
-In this post I'd like to bring attention to the four articles currently in the wiki, which I think will give a glimpse into the content variation.
+In this post I'd like to bring attention to the four articles currently in the wiki, which I think will give a good glimpse into the content variation.
 
 
 [^0]: Firefox 118 now has built-in full-page translation, and it works well enough for Portuguese-English! And it works locally (according to the FAQ): "Installing languages enables Firefox to perform translations locally within your browser"
