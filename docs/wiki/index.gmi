@@ -4,15 +4,15 @@ siiky
 2023/02/08
 2023/05/12
 
-NOTE: THIS IS IN AN EXPERIMENTAL STAGE!
+NOTE: this is in a somewhat experimental stage!
 
 Nowadays I dump EVERYTHING into Org Roam. While I don't have any major issues with it, only minor annoyances, there's A LOT of stuff in there that I wouldn't mind making public, such as notes or comments on things I read, listen to, watch, ideas, &c. It could be useful even to me, e.g. if I want to reference something I've written but don't have access to one of my PCs at the moment. The problem is that there's no good way of making them public that I know of (simplistically, on the Geminispace).
 
-And so this idea was born. I'm gonna play with this read-only (to you but not to me :) "wiki"-like thing, see where it goes. Since FOSDEM 2023 is right this weekend, I'll probably start with that as a pilot. Let's see how it goes! As for a plan/ideas, what I'm thinking of doing, take a look at the Plan/Ideas page:
+And so this idea was born. I'm gonna play with this read-only (to you but not to me :) "wiki"-like thing, see where it goes. For a plan/ideas, what I'm thinking of doing, take a look at the Plan/Ideas page:
 
 => wiki_plan.gmi Plan/Ideas
 
-The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists. There are lists of all pages sorted by a few different criteria; and there are lists of the pages of a certain tag sorted by last update.
+The best way to explore it through Gemini, since there's no way to search it (maybe using one of the search engines?), is to browse the lists. There are lists of all pages sorted by different criteria; and there are lists of pages of a certain tag sorted by last (significant) update.
 
 => by/index.gmi Lists
 => tag/index.gmi Tags
