@@ -12,6 +12,7 @@
 => ../v.driver61.adrian_neweys_f1_design_secrets.gmi 2023-08-14 Driver61, "Adrian Newey's Formula 1 Design SECRETS"
 => ../v.angethegreat.simulating_f1_v12.gmi 2023-08-14 AngeTheGreat, "Simulating an F1 V12, cross-plane and flat-plane V8s, unequal length headers and more"
 => ../v.kamp.everything_built_living_off_the_grid.gmi 2023-06-01 Project Kamp, "Everything we built living off the grid"
+=> ../p.qr_code_development_story.gmi 2023-02-28 "QR Code development story"
 => ../v.finally_figured_roman_concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"
 => ../roman_concrete.gmi 2023-02-10 Roman concrete
 => ../v.how_to_make_roman_concrete.gmi 2023-02-10 "How To Make Roman Concrete"

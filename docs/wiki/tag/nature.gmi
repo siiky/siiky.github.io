@@ -1,3 +1,6 @@
+=> ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
+=> ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi 2023-08-22 The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
+=> ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.wilder.ratinho-ruivo_aprende_identificar_novos_alimentos_atraves_halito_outros_ratinhos.gmi 2023-08-21 WILDER, Helena Geraldes, "Ratinho-ruivo aprende a identificar novos alimentos através do hálito de outros ratinhos"
 => ../p.wilder.salta-pocinhas.gmi 2023-08-08 WILDER, Paulo Catry, "Crónicas naturais: salta-pocinhas"
 => ../book.philippe_delgleize.devastacao.gmi 2023-07-27 Philippe Delgleize, Joëlle Heuze, Lécio Leal, Diana Miranda, "Emilia Bellon, Jean-pierre Husquinet -- Devastação/Ravages"
@@ -8,6 +11,6 @@
 => ../v.planetdoc.men_of_the_fifth_world.gmi 2023-05-20 Planet Doc, "The Men of Fifth World"
 => ../v.national_geographic.forever_wild-live_free_or_die.gmi 2023-05-20 National Geographic, "Forever Wild: Live Free or Die"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
+=> ../p.animal_sex_determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
 => ../p.visaojunior.dia_da_terra-planeta_diferente.gmi 2023-04-23 "Dia da Terra: O Planeta está a ficar diferente"
 => ../p.visaojunior.como_os_animais_se_lavam.gmi 2023-04-23 "Como é que os animais se lavam?"
-=> ../p.animal_sex_determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"

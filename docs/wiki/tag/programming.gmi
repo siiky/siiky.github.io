@@ -25,8 +25,8 @@
 => ../logic_programming.gmi 2023-03-12 Logical Programming
 => ../transitive_reduction.gmi 2023-03-04 Transitive reduction
 => ../wp.psa.interval_tree_clocks.gmi 2023-03-04 Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
-=> ../pl.static_scheme.gmi 2023-02-28 Static Scheme
 => ../p.visual_programming-what_went_wrong.gmi 2023-02-28 emi, "Visual Programming: What Went Wrong and Is There Room For Improvement?"
+=> ../pl.static_scheme.gmi 2023-02-28 Static Scheme
 => ../pl.chicken.gmi 2023-02-28 CHICKEN Scheme
 => ../pl.scheme.gmi 2023-02-28 Scheme (programming language)
 => ../interval_tree_clocks.gmi 2023-02-21 Interval Tree Clocks

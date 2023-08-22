@@ -1,3 +1,4 @@
+=> ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi 2023-08-22 The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../v.joefikifiki.when_your_heroes_are_villains.gmi 2023-05-14 Joe Fikifiki, "When your Heroes are Villains..."
 => ../book.mark_graham.geographies_digial_exclusion.gmi 2023-03-21 Mark Graham, Martin Dittus, "Geographies of Digital Exclusion: Data and Inequality"

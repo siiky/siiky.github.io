@@ -1,0 +1,18 @@
+# The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
+siiky
+2023/08/22
+2023/08/22
+2023/08/22
+post,science,nature,ecology,society,environment
+
+=> https://theconversation.com/europes-wild-bird-species-are-on-the-brink-but-there-are-ways-to-bring-them-back-211534
+
+> Currently, 18% of the EU’s land surface area is designated as a Natura 2000 site, and the aim is to create a network of connected protected sites right across the continent. 
+>
+> Evidence on the effectiveness of protected areas is clear: when implemented appropriately, they work. Globally, the number of species is 10.6% higher within protected areas compared with unprotected areas.
+
+> In 2018, EU member states banned the use of certain neonicotinoids (a class of insecticide) after mounting evidence of their widespread impact on insects – an important source of food for birds.
+>
+> (...) Unfortunately, the UK government has authorised the emergency application of neonicotinoids in each of the past three years.
+
+=> p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi

@@ -2,8 +2,8 @@
 siiky
 2023/08/20
 2023/08/20
-2023/08/20
-environment,energy,society,efficiency,permaculture
+2023/08/22
+post,environment,energy,society,efficiency,permaculture
 
 => https://solar.lowtechmagazine.com/2019/12/too-much-combustion-too-little-fire
 

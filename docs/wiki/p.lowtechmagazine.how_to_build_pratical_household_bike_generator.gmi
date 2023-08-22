@@ -2,8 +2,8 @@
 siiky
 2023/08/20
 2023/08/20
-2023/08/20
-energy,permaculture,engineering
+2023/08/22
+post,energy,permaculture,engineering
 
 => https://solar.lowtechmagazine.com/2022/03/how-to-build-a-practical-household-bike-generator/
 

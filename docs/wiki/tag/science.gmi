@@ -1,3 +1,7 @@
+=> ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
+=> ../p.theconversation.three_experiments_try_kids_home.gmi 2023-08-22 The Conversation, Stephen Ashworth, "Summer holiday science: three experiments to try with kids at home"
+=> ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi 2023-08-22 The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
+=> ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
 => ../ecology.gmi 2023-08-14 Ecology
 => ../chemistry.water.gmi 2023-07-31 Water
@@ -13,6 +17,7 @@
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi 2023-06-18 PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
 => ../v.geoffrey_hinton.ai_existential_threat.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
+=> ../p.animal_sex_determination.gmi 2023-04-23 "Animal Sex Determination Is Weirder Than You Think"
 => ../v.martin_karlsson.visual_graph_tools_for_decentralized_research.gmi 2023-02-21 Martin Karlsson, "Visual graph tools for weaving together data to coordinate decentralized research"
 => ../wp.joel_chan.discourse_graphs_for_augmented_knowledge_synthesis.gmi 2023-02-21 Joel Chan, "Discourse Graphs for Augmented Knowledge Synthesis: What and Why"
 => ../v.finally_figured_roman_concrete.gmi 2023-02-10 "We FINALLY Figured Out The Secret of Roman Concrete"

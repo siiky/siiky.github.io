@@ -1,0 +1,12 @@
+# The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
+siiky
+2023/08/22
+2023/08/22
+2023/08/22
+post,science,ethics,nature,biology,society
+
+=> https://theconversation.com/how-consciousness-may-rely-on-brain-cells-acting-collectively-new-psychedelics-research-on-rats-211685
+
+Article about a recent study of psychedelics on rats, and how consciousness is seeming to stem from the coordination between the neurons and not from any one single neuron(?).
+
+=> ../tinylog.gmi § 2023-08-22 22:42 +0100

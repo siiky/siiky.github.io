@@ -2,8 +2,8 @@
 siiky
 2023/08/20
 2023/08/20
-2023/08/20
-environment,energy,society,engineering
+2023/08/22
+post,environment,energy,society,engineering
 
 => https://solar.lowtechmagazine.com/2021/10/how-to-build-a-low-tech-solar-panel
 

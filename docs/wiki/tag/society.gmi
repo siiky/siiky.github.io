@@ -1,3 +1,6 @@
+=> ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
+=> ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi 2023-08-22 The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
+=> ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.theconversation.orgasm_gap_and_why_women_climax_less_than_men.gmi 2023-08-21 The Conversation, Laurie Mintz, "The orgasm gap and why women climax less than men"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
 => ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
@@ -6,11 +9,11 @@
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../dahomey_amazons.gmi 2023-05-21 Dahomey Amazons
 => ../cooperative_pulling.gmi 2023-05-16 Cooperative pulling
+=> ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi 2023-05-14 Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
 => ../v.stylelikeu.unveiling_masculinity.gmi 2023-05-14 "Unveiling Masculinity: Women Talk All Things Men, From Their Style to Their Sexuality"
 => ../v.joefikifiki.when_your_heroes_are_villains.gmi 2023-05-14 Joe Fikifiki, "When your Heroes are Villains..."
 => ../v.joefikifiki.songs_that_disturbed_me-frankie_teardrop.gmi 2023-05-14 Joe Fikifiki, "Songs that Have Disturbed Me: Frankie Teardrop"
 => ../v.boundo.fascism_in_blackmetal_and_how_to_spot_it.gmi 2023-05-14 Boundo, "Fascism in Black Metal and How to Spot It"
-=> ../p.aljazeera.sudanese_singer_killed_in_crossfire.gmi 2023-05-14 Al Jazeera, "Prominent Sudanese singer Shaden Gardood killed in crossfire"
 => ../p.matt_taibbi.top50_fact_checkers.gmi 2023-05-12 Matt Taibbi, "Report on the Censorship-Industrial Complex: The Top 50 Organizations to Know"
 => ../v.geoffrey_hinton.ai_existential_threat.gmi 2023-05-10 Geoffrey Hinton on the AI existential threat
 => ../v.tedx.why_feminism_needs_men.gmi 2023-05-10 Nikki van der Gaag, "Why feminism needs men - and men need feminism"

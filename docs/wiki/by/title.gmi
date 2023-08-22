@@ -185,9 +185,13 @@
 => ../fosdem2023.dns_implementation_of_the_drink_server.gmi Stéphane Bortzmeyer, "Implementation of the Drink server: programming details"
 => ../fosdem2023.langrunsbackwards.gmi Steven Goodwin, "I have an idea: build a language that can run backwards"
 => ../techstuffs.gmi Techstuffs
+=> ../p.theconversation.europes_wild_bird_species_brink.gmi The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
 => ../p.theconversation.orgasm_gap_and_why_women_climax_less_than_men.gmi The Conversation, Laurie Mintz, "The orgasm gap and why women climax less than men"
+=> ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
+=> ../p.theconversation.three_experiments_try_kids_home.gmi The Conversation, Stephen Ashworth, "Summer holiday science: three experiments to try with kids at home"
 => ../physics.thermodynamics.gmi Thermodynamics
+=> ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
 => ../v.thunderf00t.can_new_fuel_solve_climate_change.gmi Thunderf00t, "Can a new fuel solve climate change?"
 => ../p.tim_urban.story_of_us.gmi Tim Urban, "The Story of Us"
 => ../fosdem2023.sustainability.gmi Tobias Augspurger, "Open Source in Environmental Sustainability"

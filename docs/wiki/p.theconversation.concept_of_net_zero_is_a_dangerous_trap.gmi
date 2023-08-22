@@ -2,8 +2,8 @@
 siiky
 2023/08/21
 2023/08/21
-2023/08/21
-environment,climate,science,society
+2023/08/22
+post,environment,climate,science,society
 
 => https://theconversation.com/climate-scientists-concept-of-net-zero-is-a-dangerous-trap-157368
 

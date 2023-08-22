@@ -1,5 +1,7 @@
-=> ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi 2023-08-21 WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
+=> ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
+=> ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
+=> ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi 2023-08-21 WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
 => ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
 => ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
 => ../portugal-opendata.gmi 2023-08-11 Open Data in Portugal
