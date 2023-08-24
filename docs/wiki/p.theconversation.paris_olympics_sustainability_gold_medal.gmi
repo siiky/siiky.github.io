@@ -1,0 +1,19 @@
+# The Conversation, Jannsen Santana, "Paris Olympics: with 365 days to go, will this mega-event clinch a sustainability gold medal?"
+siiky
+2023/08/24
+2023/08/24
+2023/08/24
+post,environment,society
+
+=> https://theconversation.com/paris-olympics-with-365-days-to-go-will-this-mega-event-clinch-a-sustainability-gold-medal-210314
+
+> A telling example is the Qatar 2022 World Cup. Host cities and organisations typically look to draw attention on the intended positive outcomes, including economic benefits and fan satisfaction. However, the Qatar event was dogged by a wide range of environmental and social controversies. These included the construction of gigantic stadiums in the middle of the desert, the abusive and often deadly working conditions for those constructing the facilities, the air conditioning needed to cool the audience in the country’s extreme temperatures, and the hundreds of international flights taken by more than a million spectators to travel to Qatar.
+
+=> https://www.lemonde.fr/en/opinion/article/2022/12/19/world-cup-2022-in-the-end-qatar-wins_6008307_23.html World Cup 2022: In the end, Qatar wins
+=> https://www.nbcnews.com/news/world/qatar-world-cup-environmental-climate-change-cost-desert-rcna57632 Qatar World Cup lays bare the huge environmental cost of tournament
+
+> Even without the Olympics, Paris holds the title of the most-visited city in the world, bringing with it many sustainability-related challenges. Congested boulevards, air and noise pollution, and waste generation are definitely part of what is know as the “Paris syndrome” faced by many first-time visitors. These issues reveal that the vast number of visitors that the city already receives – more than 50 million tourists in 2019 – is unsustainable.
+
+=> https://www.dw.com/en/exploring-sustainable-paris/a-65081675 Exploring sustainable Paris
+=> https://www.theatlantic.com/health/archive/2011/10/paris-syndrome-a-first-class-problem-for-a-first-class-vacation/246743/ Paris Syndrome: A First-Class Problem for a First-Class Vacation
+=> https://www.statista.com/statistics/1365173/tourist-arrivals-paris-ile-de-france/ Number of tourist arrivals to Paris and the Île-de-France region in France from 2019 to 2022, by type

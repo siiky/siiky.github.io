@@ -1,3 +1,4 @@
+=> ../p.theconversation.paris_olympics_sustainability_gold_medal.gmi 2023-08-24 The Conversation, Jannsen Santana, "Paris Olympics: with 365 days to go, will this mega-event clinch a sustainability gold medal?"
 => ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
 => ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"
