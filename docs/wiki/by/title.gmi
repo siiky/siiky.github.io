@@ -150,6 +150,7 @@
 => ../wiki_plan.gmi nothing interesting wiki: plan/ideas
 => ../index.gmi nothing interesting wiki
 => ../notrelated.gmi "Not Related!"
+=> ../v.olly_richards.how_us_military_linguists_learn_langauges_fast.gmi Olly Richards, "How U.S. Military Linguists Learn Languages Fast"
 => ../portugal-opendata.gmi Open Data in Portugal
 => ../wp.psa.interval_tree_clocks.gmi Paulo Sérgio Almeida, Carlos Baquero, Victor Fonte, "Interval Tree Clocks"
 => ../v.pbs.why_quantum_entanglement_won_nobel.gmi PBS Space Time, "Why Did Quantum Entanglement Win the Nobel Prize in Physics?"

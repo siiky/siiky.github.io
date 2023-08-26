@@ -1,3 +1,4 @@
+=> ../v.olly_richards.how_us_military_linguists_learn_langauges_fast.gmi 2023-08-26 Olly Richards, "How U.S. Military Linguists Learn Languages Fast"
 => ../v.jorgen_brandt.services_as_petri_nets.gmi 2023-08-18 Jörgen Brandt, "Beyond state machines: services as petri nets"
 => ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi 2023-08-14 Matt Amys, "Why Formula 1 Cars Take Hours To Start"
 => ../v.engineering_explained.why_are_2026_f1_engines_going_to_lose_so_much_power.gmi 2023-08-14 Engineering Explained, "Why Are 2026 Formula 1 Engines Going To Lose So Much Power?"

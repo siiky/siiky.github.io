@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> philosophy/elp-the_only_way.gmi 2023-08-26 ELP, The Only Way
 => programming/fuckhub.gmi 2023-08-22 FuckHub
 => nature/wilder.gmi 2023-08-21 WILDER, an indie magazine about nature (in Portuguese)
 => kB45oC/booklet_printing.gmi 2023-08-20 Booklet printing

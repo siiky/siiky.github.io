@@ -1,3 +1,4 @@
+=> ../v.olly_richards.how_us_military_linguists_learn_langauges_fast.gmi 2023-08-26 Olly Richards, "How U.S. Military Linguists Learn Languages Fast"
 => ../nl.toki_pona.gmi 2023-06-18 toki pona (natural language)
 => ../p.speculation_in_javascriptcore.gmi 2023-02-28 "Speculation in JavaScriptCore"
 => ../p.fastest_lua_interpreter.gmi 2023-02-28 "Building the fastest Lua interpreter.. automatically!"
