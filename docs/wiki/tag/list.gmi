@@ -1,4 +1,4 @@
-=> ../films.gmi 2023-08-20 Cinema list
+=> ../films.gmi 2023-08-27 Cinema list
 => ../books.gmi 2023-08-20 Books list
 => ../portugal-opendata.gmi 2023-08-11 Open Data in Portugal
 => ../videos.gmi 2023-07-29 Videos

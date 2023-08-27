@@ -1,3 +1,4 @@
+=> ../films.gmi 2023-08-27 Cinema list
 => ../v.olly_richards.how_us_military_linguists_learn_langauges_fast.gmi 2023-08-26 Olly Richards, "How U.S. Military Linguists Learn Languages Fast"
 => ../p.theconversation.paris_olympics_sustainability_gold_medal.gmi 2023-08-24 The Conversation, Jannsen Santana, "Paris Olympics: with 365 days to go, will this mega-event clinch a sustainability gold medal?"
 => ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
@@ -12,7 +13,6 @@
 => ../p.lowtechmagazine.too_much_combustion_too_little_fire.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "Too Much Combustion, Too Little Fire"
 => ../p.lowtechmagazine.how_to_build_pratical_household_bike_generator.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, Marie Verdeil, "How to Build a Practical Household Bike Generator"
 => ../p.lowtechmagazine.how_to_build_lowtech_solar_panel.gmi 2023-08-20 LOW-TECH MAGAZINE, Kris De Decker, "How to Build a Low-tech Solar Panel?"
-=> ../films.gmi 2023-08-20 Cinema list
 => ../books.gmi 2023-08-20 Books list
 => ../v.jorgen_brandt.services_as_petri_nets.gmi 2023-08-18 Jörgen Brandt, "Beyond state machines: services as petri nets"
 => ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi 2023-08-14 Matt Amys, "Why Formula 1 Cars Take Hours To Start"

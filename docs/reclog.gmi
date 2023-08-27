@@ -9,6 +9,8 @@ siiky
 
 I update this page manually.
 
+=> gemini://deivisdiaz.flounder.online/hackeoatención.gmi 2023-08-27 Hackeo a nuestra atención
+
 => gemini://jsreed5.org/log/2023/202308/20230823-degrowth.gmi 2023-08-26 Degrowth
 => gemini://gemini.omarpolo.com/post/gmid-2.0-first-alpha.gmi 2023-08-26 gmid 2.0 first alpha
 => gemini://deivisdiaz.flounder.online/aulas.gmi 2023-08-26 AULAS
