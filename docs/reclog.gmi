@@ -1,13 +1,27 @@
 # nothing interesting here
 siiky
 2022/08/15
-2023/08/22
+2023/08/26
 
 ## Reclog
 
 => meta/reclog.gmi What's a reclog?
 
 I update this page manually.
+
+=> gemini://jsreed5.org/log/2023/202308/20230823-degrowth.gmi 2023-08-26 Degrowth
+=> gemini://gemini.omarpolo.com/post/gmid-2.0-first-alpha.gmi 2023-08-26 gmid 2.0 first alpha
+=> gemini://deivisdiaz.flounder.online/aulas.gmi 2023-08-26 AULAS
+=> gemini://oberdada.pollux.casa/gemlog/2023-08-26_gemini_two_years.gmi 2023-08-26 Two years on gemini
+=> gemini://thurk.org/blog/605.gmi 2023-08-26 Work Slopped into the Water
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/gemlog/talking-about-the-weather.gmi 2023-08-26 Talking about the weather
+=> gemini://thelambdalab.xyz/phlog/2023-08-26-Program-your-computer.txt 2023-08-26 Program your computer
+=> gemini://idiomdrottning.org/paraphyly 2023-08-26 The piano-playing fish
+=> gemini://idiomdrottning.org/carrots-and-cigarettes 2023-08-26 Carrots & Cigarettes
+=> gemini://idiomdrottning.org/competence 2023-08-26 Competence — A new approach to story
+=> gemini://thrig.me/blog/2023/08/23/notes-on-a-concept-of-religion.gmi 2023-08-26 Notes on a Concept of Religion
+=> gemini://gemini.susa.net/wearing_dresses_mens_edition.gmi 2023-08-26 Wearing Dresses, Men's Edition
+=> gemini://idiomdrottning.org/re-dresses 2023-08-26 I can’t believe you’re making me weigh in on the stupid dress thing
 
 => gemini://lasse.nerdcamp.net/gemlog/20230822.gmi 2023-08-22 Chicken Of The Woods 2023
 
