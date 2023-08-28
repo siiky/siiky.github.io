@@ -7,6 +7,9 @@ license: CC BY-NC-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-08-27 19:18 +0100
+Today was my annual hair shaving ritual.
+
 ## 2023-08-26 21:17 +0100
 => gemini://gemini.omarpolo.com/post/gmid-2.0-first-alpha.gmi gmid 2.0 first alpha
 Some impressive stuff!

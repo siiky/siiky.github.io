@@ -9,6 +9,12 @@ siiky
 
 I update this page manually.
 
+=> gemini://idiomdrottning.org/cinder 2023-08-27 Most blank on the cinder
+=> gemini://idiomdrottning.org/price 2023-08-27 Cost, value, and price
+=> gemini://idiomdrottning.org/externalities 2023-08-27 Externalities
+=> gemini://idiomdrottning.org/growth 2023-08-27 Help! My rising tide is lifting all those boats!
+=> gemini://idiomdrottning.org/tankies 2023-08-27 With their tanks
+=> gemini://idiomdrottning.org/farewell-anarchy 2023-08-27 Farewell, anarchy
 => gemini://deivisdiaz.flounder.online/hackeoatención.gmi 2023-08-27 Hackeo a nuestra atención
 
 => gemini://jsreed5.org/log/2023/202308/20230823-degrowth.gmi 2023-08-26 Degrowth
