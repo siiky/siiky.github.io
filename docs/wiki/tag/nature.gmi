@@ -1,3 +1,5 @@
+=> ../p.wilder.cinco_espetaculos_natureza_final_verao.gmi 2023-08-29 WILDER, Helena Geraldes, "Cinco espectáculos da natureza para ver no final do Verão"
+=> ../p.theconversation.trees_rivers_mountains_gaining_legal_status.gmi 2023-08-29 The Conversation, Rónán Kennedy, "Trees, rivers and mountains are gaining legal status – but it’s not been a quick fix for environmental problems"
 => ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
 => ../p.theconversation.conciousness_may_rely_brain_cells_acting_collectively.gmi 2023-08-22 The Conversation, Pär Halje, "How consciousness may rely on brain cells acting collectively – new psychedelics research on rats"
 => ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"

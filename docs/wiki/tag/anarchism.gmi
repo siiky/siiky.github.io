@@ -1,1 +1,3 @@
+=> ../p.theconversation.are_europeans_really_democrats.gmi 2023-08-29 The Conversation, Pierre Bréchon, "Are Europeans really democrats?"
+=> ../p.theconversation.prospect_kenya_troops_haiti.gmi 2023-08-29 The Conversation, Jorge Heine, "Prospect of Kenyan troops in Haiti has sparked concerns – but may also prompt soul-searching across the Americas over lack of action"
 => ../p.greece-this_was_no_accident.gmi 2023-04-24 "Greece: This was no accident"

@@ -1,3 +1,7 @@
+=> ../p.theconversation.trees_rivers_mountains_gaining_legal_status.gmi 2023-08-29 The Conversation, Rónán Kennedy, "Trees, rivers and mountains are gaining legal status – but it’s not been a quick fix for environmental problems"
+=> ../p.theconversation.are_europeans_really_democrats.gmi 2023-08-29 The Conversation, Pierre Bréchon, "Are Europeans really democrats?"
+=> ../p.theconversation.new_climate_law_balearic_islands.gmi 2023-08-29 The Conversation, Morten Fibieger Byskov, Jeroen Hopster, Júlia Isern Bennassar, "A new climate law in the Balearic Islands will protect the wellbeing of present and future generations - if such thing can be defined"
+=> ../p.theconversation.prospect_kenya_troops_haiti.gmi 2023-08-29 The Conversation, Jorge Heine, "Prospect of Kenyan troops in Haiti has sparked concerns – but may also prompt soul-searching across the Americas over lack of action"
 => ../cinema.ballet_rose.gmi 2023-06-12 "Vidas Proibidas - Ballet Rose"
 => ../police.gmi 2023-03-04 Police
 => ../c.beau_fifth_column.gmi 2023-02-21 Beau of the Fifth Column

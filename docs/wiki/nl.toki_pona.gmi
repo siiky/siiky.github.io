@@ -1,8 +1,8 @@
 # toki pona (natural language)
 siiky
 2023/06/18
-2023/06/18
-2023/06/18
+2023/08/29
+2023/08/29
 language,psychology
 
 => https://tokipona.org
@@ -14,8 +14,10 @@ language,psychology
 => https://jan-ne.github.io
 => https://toki.social/public
 
-=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX
-=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ
+=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX jan Misali, toki pona lessons
+=> https://yewtu.be/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ jan Misali, sona pi toki pona
+=> https://yewtu.be/playlist?list=PLoLQoll2U6WEeCO7C2oc1LTWgkoBC8rvT jan Kekan San, Learn Toki Pona!
+=> https://yewtu.be/playlist?list=PLwYL9_SRAk8EXSZPSTm9lm2kD_Z1RzUgm jan Telakoman, o pilin e toki pona
 
 => https://liputenpo.org/category/lipu A zine
 => https://wikipesija.org/wiki/ilo_musi Wiki

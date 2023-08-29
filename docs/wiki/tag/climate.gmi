@@ -1,1 +1,2 @@
+=> ../p.theconversation.new_climate_law_balearic_islands.gmi 2023-08-29 The Conversation, Morten Fibieger Byskov, Jeroen Hopster, Júlia Isern Bennassar, "A new climate law in the Balearic Islands will protect the wellbeing of present and future generations - if such thing can be defined"
 => ../p.theconversation.concept_of_net_zero_is_a_dangerous_trap.gmi 2023-08-21 The Conversation, James Dyke, Robert Watson, Wolfgang Knorr, "Climate scientists: concept of net zero is a dangerous trap"

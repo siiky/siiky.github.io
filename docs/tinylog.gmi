@@ -7,6 +7,18 @@ license: CC BY-NC-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-08-29 10:55 +0100
+=> wiki/p.theconversation.prospect_kenya_troops_haiti.gmi
+wow that quote of now-president Joe Biden says a lot.
+
+## 2023-08-29 10:09 +0100
+=> https://apt.izzysoft.de/fdroid/index/apk/de.foodsharing.app?repo=main
+=> https://gitlab.com/foodsharing-dev/foodsharing-android
+=> https://foodsharing.de
+=> https://foodsharing.network
+There's a thing like this in PT too, named TooGoodToGo:
+=> https://www.toogoodtogo.com
+
 ## 2023-08-28 12:28 +0100
 => https://www.theonion.com/area-man-has-naked-lady-fetish-1819564926 Area Man Has Naked-Lady Fetish
 => https://www.theonion.com/bleeding-9-year-old-asks-to-go-to-slaughterhouse-nurse-1850752438 Bleeding 9-Year-Old Asks To Go To Slaughterhouse Nurse

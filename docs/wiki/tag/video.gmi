@@ -1,3 +1,5 @@
+=> ../v.sabine_hossenfelder.is_being_trans_social_fad_among_teenagers.gmi 2023-08-28 Sabine Hossenfelder, "Is being trans a social fad among teenagers?"
+=> ../v.sabine_hossenfelder.do_your_own_research_but_do_it_right.gmi 2023-08-28 Sabine Hossenfelder, "Do your own research. But do it right."
 => ../v.olly_richards.how_us_military_linguists_learn_langauges_fast.gmi 2023-08-26 Olly Richards, "How U.S. Military Linguists Learn Languages Fast"
 => ../v.jorgen_brandt.services_as_petri_nets.gmi 2023-08-18 Jörgen Brandt, "Beyond state machines: services as petri nets"
 => ../v.matt_amys.why_f1_cars_take_hours_to_start.gmi 2023-08-14 Matt Amys, "Why Formula 1 Cars Take Hours To Start"

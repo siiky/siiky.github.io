@@ -1,0 +1,25 @@
+# The Conversation, Manuel García Ortiz, Luis Arroyo Jiménez, "Why we need to set limits on sperm donation"
+siiky
+2023/08/29
+2023/08/29
+2023/08/29
+post,science,culture
+
+=> https://theconversation.com/why-we-need-to-set-limits-on-sperm-donation-211854
+
+> It’s a summer’s afternoon in Amsterdam. Two young adults meet and strike up a casual relationship. The evening ends, happily for both of them, with a sexual encounter.
+>
+> The following day, during a conversation to get to know each other better and strengthen their relationship, they discover (what a coincidence!) that they were both conceived via IVF (in vitro fertilization) using an anonymous donor. This is increasingly common these days, although it’s not exactly a standard topic of conversation for first dates.
+>
+> Here, a disturbing question may arise. What are the chances that the same sperm donor was responsible for both births? That is to say, that they have the same father and are therefore siblings.
+
+PLOT TWIST!
+
+> Furthermore, donation also increases the likelihood of situations of incest due to lack of knowledge. This issue has scientific, moral, and legal ramifications.
+
+"Moral rammifications"? Not really...
+
+See also the book "Os Maias":
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/pt?Os_Maias
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Os_Maias

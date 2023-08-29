@@ -34,7 +34,7 @@
     (arg '((-h --help))
          help: "Show this help text"
          kons: (lambda (ret _ _) (update-options ret help: #t)))
-    (arg '(--title . title)
+    (arg '((-T --title) . title)
          help: "Page title"
          kons: (lambda (ret _ title) (update-options ret title: title)))
     (arg '((-a --author) . author)
@@ -43,7 +43,7 @@
     (arg '((-c --created) . created)
          help: "Created date (default: today)"
          kons: (lambda (ret _ created) (update-options ret created: created)))
-    (arg '((-u --updated) . updated)
+    (arg '((-U --updated) . updated)
          help: "Updated date (default: created)"
          kons: (lambda (ret _ updated) (update-options ret updated: updated)))
     (arg '((-m --mupdate) . mupdate)

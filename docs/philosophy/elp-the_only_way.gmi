@@ -16,6 +16,7 @@ where do the rules come from
 someone must have invented them
 for reasons
 
+=> ../words/re-bueno_rezar.gmi
 => societal-slavery.gmi
 
 smart but evil humans
