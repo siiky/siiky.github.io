@@ -8,6 +8,10 @@ language,psychology
 => https://tokipona.org
 => gemini://gemi.dev/cgi-bin/wp.cgi/view/en?Toki_Pona
 
+=> https://linku.la
+=> https://lipu-linku.github.io
+=> https://github.com/lipu-linku/lipu-linku.github.io
+
 => gemini://beehiveth.smol.pub/kemini
 
 => https://devurandom.xyz/tokipona
@@ -23,3 +27,15 @@ language,psychology
 => https://wikipesija.org/wiki/ilo_musi Wiki
 => https://tokiponacensus.github.io/resources
 => https://old.reddit.com/r/tokipona/wiki/lipu
+
+## Writing systems
+
+There are at least 3 writing systems, that I know:
+
+* one based on the roman alphabet
+* one based on logograms (sitelen pona)
+* one based on hieroglyphs (sitelen sitelen)
+
+=> https://devurandom.xyz/tokipona/sitelen_pona jan rnd, sitelen pona
+=> https://omniglot.com/conscripts/sitelenpona.htm Omniglot, sitelen pona
+=> https://www.jonathangabel.com/toki-pona Jonathan Gabel, sitelen sitelen

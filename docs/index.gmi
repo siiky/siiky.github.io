@@ -13,6 +13,7 @@ This is where you'll find nothing interesting, welcome.
 
 ## Posts
 
+=> programming/go-memory.gmi 2023-08-29 Go-C interop memory leak
 => music/h-music-w-music.gmi 2023-08-27 [H] Music [W] Music
 => philosophy/elp-the_only_way.gmi 2023-08-26 ELP, The Only Way
 => programming/fuckhub.gmi 2023-08-22 FuckHub
