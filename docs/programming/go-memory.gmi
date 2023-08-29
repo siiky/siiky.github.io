@@ -14,7 +14,7 @@ We wanted something compiled and relatively fast (though almost anything would b
 At some point I suspected a memory leak. The glue C code is very simple, simple enough I carefully analyzed, and covered all cases[^2]. Still, there were signs of a memory leak. I got valgrind out, and no matter what I did, no leaks detected. I searched around at the time and read comments saying that Go's GC likes to hang on to objects for longer than one would expect. Case closed!
 
 
-Or is it? Yesterday I left it running for a good few minutes and memory usaged climbed to over 1.6GB[^3]! This is a no-go (hah!) so I'm back investigating today. I started by searching around for anything memory-related, with the GC idea in mind:
+Or is it? Yesterday I left it running for a good few minutes and memory usage climbed to over 1.6GB[^3]! This is a no-go (hah!) so I'm back investigating today. I started by searching around for anything memory-related, with the GC idea in mind:
 
 => https://lwn.net/Articles/428100
 => https://groups.google.com/g/golang-dev/c/EpUlHQXWykg/m/LN2o9fV6R3wJ
