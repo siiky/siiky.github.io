@@ -29,7 +29,8 @@ for formatid in 0 1 2 5; do
 	for timeout in 5 10 20 30 60 90 120 160 200 240; do
 		echo "${formatid}" | /usr/bin/time -f "format:${formatid}	timeout:${timeout}s	%M" timeout "${timeout}s" ./camera-streamer /dev/video0 zxing 10 QRCode;
 	done;
-done 2>&1 | rg --color=never '^format:\d+\ttimeout:\d+s\t\d+$' > rss-memory-usage-raw.tsv; tput bel
+done 2>&1 | rg --color=never '^format:\d+\ttimeout:\d+s\t\d+$' | sed 's/^format://; s/timeout://; s/s//; s/kB$$//;' > rss-memory-usage-raw.tsv; tput bel
+
 ```
 
 This thing starts up the camera-streamer with different configs (with the camera I'm using, formatids 0, 1, 2, 5 are 2592x1944, 2048x1536, 1920x1080, 1280x720, respectively) and lets it run for a certain amount of time. Crude method (I know) and it takes a long time to run (I know) but it works well enough -- take a look at this graph:

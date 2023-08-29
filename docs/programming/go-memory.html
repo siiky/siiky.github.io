@@ -2,7 +2,8 @@
 	for timeout in 5 10 20 30 60 90 120 160 200 240; do
 		echo &quot;${formatid}&quot; | /usr/bin/time -f &quot;format:${formatid}	timeout:${timeout}s	%M&quot; timeout &quot;${timeout}s&quot; ./camera-streamer /dev/video0 zxing 10 QRCode;
 	done;
-done 2&gt;&amp;1 | rg --color=never &#39;^format:\d+\ttimeout:\d+s\t\d+$&#39; &gt; rss-memory-usage-raw.tsv; tput bel
+done 2&gt;&amp;1 | rg --color=never &#39;^format:\d+\ttimeout:\d+s\t\d+$&#39; | sed &#39;s/^format://; s/timeout://; s/s//; s/kB$$//;&#39; &gt; rss-memory-usage-raw.tsv; tput bel
+
 </pre><p>This thing starts up the camera-streamer with different configs (with the camera I&#39;m using, formatids 0, 1, 2, 5 are 2592x1944, 2048x1536, 1920x1080, 1280x720, respectively) and lets it run for a certain amount of time. Crude method (I know) and it takes a long time to run (I know) but it works well enough -- take a look at this graph:</p><img src="go-memory-before.png" alt="go-memory-before.png"></img><p>Clearly, frame resolution affects memory usage. Here&#39;s the relevant code. jpeg is the frame we get from the camera (GC&#39;d), and format is the name of the format we want to scan (e.g. &quot;QRCode&quot;).</p><pre>func ReadBarcode(jpeg []byte, format string) []byte {
 	Cjpeg := C.CBytes(jpeg)
 	Cjpeglen := C.uint(len(jpeg))

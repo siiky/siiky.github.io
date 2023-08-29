@@ -7,6 +7,38 @@ license: CC BY-NC-SA 4.0
 
 => tinylog-2022.gmi Last year's tinylog
 
+## 2023-08-29 21:51 +0100
+I had to generate graphs for the Go memory post I wrote today, for which I used gnuplot. The input TSV file needed a little bit of massaging to get into the right shape. It's been a long time I used AWK but I'm glad I did -- it was so easy!
+=> programming/go-memory.gmi
+=> kB45oC/gnuplot.gmi
+```awk
+#!/usr/bin/awk -f
+BEGIN {
+	FS = "\t"
+	print "TIME\t1280x720\t1920x1080\t2048x1536\t2592x1944";
+	formats[5] = "1280x720"
+	formats[2] = "1920x1080"
+	formats[1] = "2048x1536"
+	formats[0] = "2592x1944"
+}
+{
+	format = formats[$1];
+	timeout = $2;
+	maxrss = $3;
+	results[timeout][format] = maxrss;
+}
+END {
+	for (timeout in results) {
+		printf "%d", timeout;
+		printf "\t%d", results[timeout]["1280x720"];
+		printf "\t%d", results[timeout]["1920x1080"];
+		printf "\t%d", results[timeout]["2048x1536"];
+		printf "\t%d", results[timeout]["2592x1944"];
+		printf "\n";
+	}
+}
+```
+
 ## 2023-08-29 21:10 +0100
 => https://gregdan3.dev/blog/fighting-depression.html
 > I want to sit down with somebody interesting and hear every word they have to say on what excites and fascinates them. And I’d love to share everything that’s exciting to me with somebody who’ll listen.
