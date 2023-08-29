@@ -27,7 +27,7 @@ Nothing useful. So I turned back on no-memleaks-for-sure and collected some stat
 ```sh
 for formatid in 0 1 2 5; do
 	for timeout in 5 10 20 30 60 90 120 160 200 240; do
-		echo "${formatid}" | /usr/bin/time -f "format:${formatid} timeout:${timeout}s     %M" timeout "${timeout}s" ./camera-streamer /dev/video0 zxing 10 QRCode;
+		echo "${formatid}" | /usr/bin/time -f "format:${formatid}	timeout:${timeout}s	%M" timeout "${timeout}s" ./camera-streamer /dev/video0 zxing 10 QRCode;
 	done;
 done 2>&1 | rg --color=never '^format:\d+\ttimeout:\d+s\t\d+$' > rss-memory-usage-raw.tsv; tput bel
 ```
