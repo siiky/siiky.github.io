@@ -1,4 +1,5 @@
 => ../p.theconversation.trees_rivers_mountains_gaining_legal_status.gmi 2023-08-29 The Conversation, Rónán Kennedy, "Trees, rivers and mountains are gaining legal status – but it’s not been a quick fix for environmental problems"
+=> ../p.theconversation.mass_extinctions_made_life_on_earth_more_diverse.gmi 2023-08-29 The Conversation, Nicholas R. Longrich, "Mass extinctions made life on Earth more diverse – and might again"
 => ../p.theconversation.new_climate_law_balearic_islands.gmi 2023-08-29 The Conversation, Morten Fibieger Byskov, Jeroen Hopster, Júlia Isern Bennassar, "A new climate law in the Balearic Islands will protect the wellbeing of present and future generations - if such thing can be defined"
 => ../p.theconversation.paris_olympics_sustainability_gold_medal.gmi 2023-08-24 The Conversation, Jannsen Santana, "Paris Olympics: with 365 days to go, will this mega-event clinch a sustainability gold medal?"
 => ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"

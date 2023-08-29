@@ -1,3 +1,4 @@
+=> ../p.theconversation.mass_extinctions_made_life_on_earth_more_diverse.gmi 2023-08-29 The Conversation, Nicholas R. Longrich, "Mass extinctions made life on Earth more diverse – and might again"
 => ../p.thewildlifetrusts.uk_government_allows_emergency_use_banned_pesticide.gmi 2023-08-22 The Wildlife Trusts, "UK government allows ‘emergency’ use of banned bee-harming pesticide just days after EU tightens protections"
 => ../p.theconversation.europes_wild_bird_species_brink.gmi 2023-08-22 The Conversation, Esther Kettel, "Europe’s wild bird species are on the brink – but there are ways to bring them back"
 => ../p.wilder.acordo_regula_comercio_mundial_deixa_fora_904_especies_risco.gmi 2023-08-21 WILDER, Helena Geraldes, "Acordo que regula comércio mundial deixa de fora 904 espécies em risco, alertam cientistas"
