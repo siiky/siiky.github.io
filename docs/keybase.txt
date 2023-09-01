@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/siiky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://siiky.github.io
+  * I am siiky (https://keybase.io/siiky) on keybase.
+  * I have a public key ASAuLV0mwDoACs_isYrXr2g9_tygNmad1ejatjrQxguUZwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202e2d5d26c03a000acfe2b18ad7af683dfedca036669dd5e8dab63ad0c60b94670a",
+      "host": "keybase.io",
+      "kid": "01202e2d5d26c03a000acfe2b18ad7af683dfedca036669dd5e8dab63ad0c60b94670a",
+      "uid": "d2d2384311e391cb8079067f57257b19",
+      "username": "siiky"
+    },
+    "merkle_root": {
+      "ctime": 1588862247,
+      "hash": "78af6079446750ae4e5c48480f7141390eb9ebc717b40aeb8025d970b27fcde832154b1949f11634b729cea9ba3cd0aee8ecb3805e2c84c316eb13a5a2741113",
+      "hash_meta": "2a9eb22a2d8c50568bd0b2962960c8fa8b158a5100639d992b6dae610e022bdc",
+      "seqno": 16192617
+    },
+    "service": {
+      "entropy": "H5TEYms2rBdWcKQaiBhAOt7p",
+      "hostname": "siiky.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588862256,
+  "expire_in": 504576000,
+  "prev": "b03e2817706042dec83dcc1bec068c2170e6cb7aa098d9b20045b48fcba1068a",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLi1dJsA6AArP4rGK169oPf7coDZmndXo2rY60MYLlGcKp3BheWxvYWTESpcCF8QgsD4oF3BgQt7IPcwb7AaMIXDmy3qgmNmyAEW0j8uhBorEIO1AaCllY8xYtMcP1uIRyffS7x8mQHMJBBcHiOEuKQT7AgHCo3NpZ8RA1lIIrSR3MCtmVr7bp2Gii9FYPqJ5BvDJYHSnhlsOtq1AeTQry/zgViXwIphF8wY+aEkXThlkblQlrP1S2cxvDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ2i3s8ogCEAOlsoHTg0SFOQBOBEO3xCTSLA9wyfk9Fko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/siiky
+
+==================================================================
